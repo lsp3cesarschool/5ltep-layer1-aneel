@@ -1,0 +1,166 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "SigUF",
+   "type": "string",
+   "description": "Sigla da Unidade Federativa",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "CodMunicipioIBGE",
+   "type": "number",
+   "description": "Código Externo do IBGE referente ao Município em que se situa o Empreendimento",
+   "declaredType": "Numérico",
+   "declaredSize": 4
+  },
+  {
+   "name": "NomMunicipio",
+   "type": "string",
+   "description": "Identificar o município específico que está envolvido no processo de compensação financeira, seja por ter áreas inundadas pelos reservatórios das usinas hidrelétricas ou por outros critérios de distribuição de recursos",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "description": "Nome do agente gerador.",
+   "constraints": {
+    "maxLength": 400
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 400
+  },
+  {
+   "name": "NumCPFCNPJ",
+   "type": "string",
+   "description": "Número do CNPJ ou CPF do agente gerador.",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "CodCEG",
+   "type": "string",
+   "description": "Código Único de Empreendimento de Geração",
+   "constraints": {
+    "maxLength": 21
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 21
+  },
+  {
+   "name": "NomEmpreendimento",
+   "type": "string",
+   "description": "Refere-se ao nome do empreendimento. Este campo é utilizado para identificar o nome específico da usina hidrelétrica ou do projeto de geração de energia que está sujeito à compensação financeira",
+   "constraints": {
+    "maxLength": 400
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 400
+  },
+  {
+   "name": "IdcUsinaPrincipal",
+   "type": "string",
+   "description": "\"Indicador da usina principal. Este campo é utilizado para identificar a usina hidrelétrica principal responsável pela geração de energia e, consequentemente, pelo pagamento da compensação financeira\"",
+   "constraints": {
+    "maxLength": 1
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 1
+  },
+  {
+   "name": "NomReservatorio",
+   "type": "string",
+   "description": "Nome do Reservatório",
+   "constraints": {
+    "maxLength": 400
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 400
+  },
+  {
+   "name": "MdaAreaAlagadaKm",
+   "type": "number",
+   "description": "\"Refere-se à medida da área alagada em quilômetros quadrados. Este campo é utilizado para indicar a extensão da área inundada pelos reservatórios das usinas hidrelétricas, que é um dos fatores considerados no cálculo da compensação financeira devida aos municípios afetados\"",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctAreaAlagadaRsrvtr",
+   "type": "number",
+   "description": "Valor do Percentual da Área Alagada Reservatório pertencente ao município em questão.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctCasaMaquinas",
+   "type": "number",
+   "description": "Valor do Percentual de distribuição para municípios onde está localizada apenas a Casa de Máquinas.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctEstacaoElevatoria",
+   "type": "number",
+   "description": "Percentual relacionado às estações elevatórias.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctParticipacao",
+   "type": "number",
+   "description": "Refere-se ao percentual de participação de uma empresa ou entidade em um determinado contexto. Esse campo é utilizado para indicar a proporção ou a participação específica de uma empresa em relação a um total, como na divisão de responsabilidades, custos ou receitas.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "IdcCasaMaqDissociada",
+   "type": "string",
+   "description": "Identificador da Casa de máquina dissociada",
+   "constraints": {
+    "maxLength": 1
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 1
+  },
+  {
+   "name": "IdcEstacaoElevatoria",
+   "type": "string",
+   "description": "Identificador da de Estação Elevatória",
+   "constraints": {
+    "maxLength": 1
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 1
+  }
+ ],
+ "x5ltep": {
+  "status": "extracted",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "c6d19332-0ffc-42d1-bd07-4c4f5e448dbf",
+   "dictionary_name": "Dicionário de dados - Área Alagada Reservatório",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3/resource/c6d19332-0ffc-42d1-bd07-4c4f5e448dbf/download/dm-cfurh-area-alagada-reservatorio.pdf",
+   "sha256": "07d94067ceb329aace0cd21b8ff68c20c3c6be62c89cb40bcf8756bb1af35aa0",
+   "oracle": {
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": []
+   }
+  }
+ }
+}

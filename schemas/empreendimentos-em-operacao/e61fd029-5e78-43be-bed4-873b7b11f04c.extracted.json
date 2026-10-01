@@ -1,0 +1,72 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "SigTipoGeracao",
+   "type": "string",
+   "description": "Abreviação do tipo de geração. Classificado em: UTN - Usina Termonuclear UTE - Usina Termelétrica UHE - Usina Hidrelétrica UFV - Central Geradora Solar Fotovoltaica PCH - Pequena Central Hidrelétrica EOL - Central Geradora Eólica CGU - Central Geradora Undi-elétrica CGH - Central Geradora Hidrelétrica",
+   "constraints": {
+    "maxLength": 3
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdUsinasPeriodo",
+   "type": "number",
+   "description": "Quantidade física de usinas no período",
+   "declaredType": "Numérico",
+   "declaredSize": 5
+  },
+  {
+   "name": "MdaPotenciaInstaladakW",
+   "type": "number",
+   "description": "Armazena os dados expressos em quantidades e potência instalada em kW (quilowatt), definida pela somatória das potências elétricas ativas nominais dos módulos da central de geração distribuída",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MesReferencia",
+   "type": "string",
+   "description": "Mês de referência da coleta do Potencial de kW instalado",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "string",
+   "description": "Ano de referência da coleta do Potencial de kW instalado",
+   "constraints": {
+    "maxLength": 4
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 4
+  }
+ ],
+ "x5ltep": {
+  "status": "extracted",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "67cf0896-8854-4bef-991e-882985356e34",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/306a6fdb-beb9-4296-bf18-77fa0e076ef1/resource/67cf0896-8854-4bef-991e-882985356e34/download/dm-empreendimentos-em-operacao.pdf",
+   "sha256": "6a6477a5d18c55aa44c666de811477abc5fda92abf8b48b14406fe1cfcb69030",
+   "oracle": {
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 0.8333,
+    "levenshtein": 0.9924,
+    "missing_from_pdf": [],
+    "not_in_file": []
+   }
+  }
+ }
+}

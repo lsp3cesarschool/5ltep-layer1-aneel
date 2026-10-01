@@ -1,0 +1,65 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "string",
+   "description": "Ano base de referência da informação",
+   "constraints": {
+    "maxLength": 4
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 4
+  },
+  {
+   "name": "DscTipoFonte",
+   "type": "string",
+   "description": "Descrição do tipo da fonte da Conta de Desenvolvimento Energético. Pode ser débito ou crétido.",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "DscFonte",
+   "type": "string",
+   "description": "Descritivo da fonte da Conta de Desenvolvimento Energético.",
+   "constraints": {
+    "maxLength": 150
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 150
+  },
+  {
+   "name": "VlrCusteio",
+   "type": "number",
+   "description": "Montante de recursos da CDE (Conta de Desenvolvimento Energético) que subsidiaram os descontos da TSEE no ano de referência",
+   "declaredType": "Numérico"
+  }
+ ],
+ "x5ltep": {
+  "status": "extracted",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "fbcce557-abbf-48b1-bac4-47e110209efb",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/b3259e81-f581-4595-a9ca-708d911af085/resource/fbcce557-abbf-48b1-bac4-47e110209efb/download/dm-cde-custeio-dos-beneficios-tarifarios.pdf",
+   "sha256": "b4fbecd8d980bf84b025cf81a5933fec079dda4e62b463f06847a5d08a8eadd0",
+   "oracle": {
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": []
+   }
+  }
+ }
+}

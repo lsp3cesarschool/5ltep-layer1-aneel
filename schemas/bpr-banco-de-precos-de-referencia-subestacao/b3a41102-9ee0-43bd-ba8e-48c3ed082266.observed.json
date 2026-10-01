@@ -1,0 +1,74 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomTipoTensao",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomFormula",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrPrecoBrasil",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscUnidade",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrQuantidade",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumUC",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigCLASS",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomTipoMIM",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrPoderCompra",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrVariacao",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.749
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-01T22:36:41+00:00",
+  "sha256": "fc9c599ca39b7c489141cd58cffd1233145e7debc1e119d8d677018475428089",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 255,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

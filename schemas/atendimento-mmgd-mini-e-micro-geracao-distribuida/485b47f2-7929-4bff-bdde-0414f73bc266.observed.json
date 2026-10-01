@@ -1,0 +1,133 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodMunicipioIBGE",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatInj",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.2054
+  },
+  {
+   "name": "DatLim",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.2054
+  },
+  {
+   "name": "DatOrcamentoConexao",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.9764
+  },
+  {
+   "name": "DatVistoria",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.2054
+  },
+  {
+   "name": "DatSolicitacao",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscFonteGeracao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscModalidade",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscMotivoSituacao",
+   "type": "string",
+   "sampleEmptyShare": 0.9048
+  },
+  {
+   "name": "DscNecessidadeObras",
+   "type": "boolean",
+   "trueValues": [
+    "SIM"
+   ],
+   "falseValues": [
+    "NAO"
+   ],
+   "sampleEmptyShare": 0.0026
+  },
+  {
+   "name": "MdaPotencia",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumProtocolo",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscSituacaoConexao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscStatusConexao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscSubgrupoTarifario",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatPrzEnvio",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigAgenteDistribuicao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCPFCNPJ",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomMunicipio",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomUF",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-01T19:16:28+00:00",
+  "sha256": "cfd338004d0226c3a36fdc7c9a199bb9c7ed0982e58547af8bb0182b5b202109",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

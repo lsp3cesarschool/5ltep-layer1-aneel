@@ -1,0 +1,83 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomItemModulo",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomTipoTensao",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigClasse",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscMedida",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IndiceReferencia",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrPrecoBrasil",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomGrupoModulo",
+   "type": "string",
+   "sampleEmptyShare": 0.2395
+  },
+  {
+   "name": "VlrQuantidade",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomFormula",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumUC",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumPoderComprar",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrVariacao",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.8602
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-01T22:36:40+00:00",
+  "sha256": "f9eee23413a56d1f17f249f18aa70c29be8a214e5f2ff8caf0630aa6b932562a",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 1574,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

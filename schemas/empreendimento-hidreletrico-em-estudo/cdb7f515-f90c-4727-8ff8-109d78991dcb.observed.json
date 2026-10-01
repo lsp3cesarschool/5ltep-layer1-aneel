@@ -1,0 +1,167 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodEmpreendimento",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodCEG",
+   "type": "string",
+   "sampleEmptyShare": 0.0048
+  },
+  {
+   "name": "NomEmpreendimento",
+   "type": "string",
+   "sampleEmptyShare": 0.0008
+  },
+  {
+   "name": "NumCoordNEmpreendimento",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0048
+  },
+  {
+   "name": "NumCoordEEmpreendimento",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0048
+  },
+  {
+   "name": "IdeStatusHist",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeUFHist",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumProcesso",
+   "type": "string",
+   "sampleEmptyShare": 0.0032
+  },
+  {
+   "name": "NomEmpreendimentoHist",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPotencia",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscCursoDagua",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscValorAtoAtivacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatAtoAtivacao",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0008
+  },
+  {
+   "name": "DatValidadeAtoOriginal",
+   "type": "datetime",
+   "format": "%Y-%m-%d %H:%M:%S",
+   "sampleEmptyShare": 0.4469
+  },
+  {
+   "name": "DscEmpreendedores1",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscEmpreendedores2",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscEmpreendedoresN",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscNumeroAtoProrrogado",
+   "type": "number",
+   "sampleEmptyShare": 0.9808
+  },
+  {
+   "name": "DatValidadeProrrogada",
+   "type": "datetime",
+   "format": "%Y-%m-%d %H:%M:%S",
+   "sampleEmptyShare": 0.9864
+  },
+  {
+   "name": "DatPublicacaoProrrogada",
+   "type": "datetime",
+   "format": "%Y-%m-%d %H:%M:%S",
+   "sampleEmptyShare": 0.9856
+  },
+  {
+   "name": "IdSubBacia",
+   "type": "integer",
+   "sampleEmptyShare": 0.0008
+  },
+  {
+   "name": "DscSubBacia",
+   "type": "string",
+   "sampleEmptyShare": 0.0008
+  },
+  {
+   "name": "DatCargaHistorico",
+   "type": "string",
+   "sampleEmptyShare": 0.0008
+  },
+  {
+   "name": "IdeUF",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigUF",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomUF",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcStatus",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscStatus",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-01T22:53:16+00:00",
+  "sha256": "8a54534aa148bbd186752060b0a101debda2da3d57c8497ce49e3ed03860dd30",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 1253,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

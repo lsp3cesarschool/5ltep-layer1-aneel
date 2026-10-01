@@ -1,0 +1,100 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "NumCNPJAgenteDistribuidora",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "SigAgenteDistribuidora",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "NomAgenteDistribuidora",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "NomTipoMercado",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DscModalidadeTarifaria",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DscSubGrupoTarifario",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DscClasseConsumoMercado",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DscSubClasseConsumidor",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DscDetalheConsumidor",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "IdeNucleoCeg",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NumCNPJAgenteAcessante",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NomAgenteAcessante",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DscPostoTarifario",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DscOpcaoEnergia",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DscDetalheMercado",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DatCompetencia",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "VlrMercado",
+   "type": "string",
+   "declaredType": "text"
+  }
+ ],
+ "x5ltep": {
+  "status": "datastore",
+  "source": {
+   "kind": "datastore"
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "NumCNPJ",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "IdeConjUndConsumidoras",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "DscConjUndConsumidoras",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "SigIndicador",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "AnoLimiteQualidade",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "VlrLimite",
+   "type": "string",
+   "declaredType": "text"
+  }
+ ],
+ "x5ltep": {
+  "status": "datastore",
+  "source": {
+   "kind": "datastore"
+  }
+ }
+}

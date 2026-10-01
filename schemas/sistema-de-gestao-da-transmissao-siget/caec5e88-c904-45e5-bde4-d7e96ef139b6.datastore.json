@@ -1,0 +1,115 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "DscTipEqp",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "NumFasMdlEqp",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "IdeOnsSbe",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "IdeMdl",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "IdeTipMdl",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "IdeSbe",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "MdaCpeRaiNegMdlEqp",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "MdaCpeRaivPosMdlEqp",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "DscIdcExsMdlCnr",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DscFinMdlEqp",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "MdaPotAtvMdlEqp",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "MdaTnsScdMdlEqp",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "MdaTnsTiaMdlEqp",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NomSubestacao",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "NomLongoSubestacao",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "SigUFSubestacao",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "NumOprMdl",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "NomMdl",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "IdcSitMdl",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NumTnsMdl",
+   "type": "string",
+   "declaredType": "text"
+  }
+ ],
+ "x5ltep": {
+  "status": "datastore",
+  "source": {
+   "kind": "datastore"
+  }
+ }
+}

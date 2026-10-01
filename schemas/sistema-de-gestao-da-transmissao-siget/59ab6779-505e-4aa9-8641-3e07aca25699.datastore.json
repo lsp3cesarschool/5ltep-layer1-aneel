@@ -1,0 +1,130 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "IdeCcd",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "IdcTipoCcd",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "NumCnaCcd",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DatAsnCcd",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "DatFimCcd",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "IdAgente",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NumCNPJ",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "CodReg",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "IdeDoc",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NumAto",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "DatAssDoc",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "DatEmiDoc",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "DatPubDoc",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "DscEmentaCcd",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DscLink",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "IdeEpd",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "IdeOnsEpd",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "NomEpd",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DscEpd",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DscSituacaoEpd",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DatEfeOprComEpd",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "DatCaoCgmAtoLgl",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "DatOprComEpd",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  }
+ ],
+ "x5ltep": {
+  "status": "datastore",
+  "source": {
+   "kind": "datastore"
+  }
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "NumCNPJ",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "NomTipoOutorga",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "CodConjuntoUC",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "CodSubEstacao",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DatReferenciaInformada",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "QtdUCAtivoSub",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "QtdRecl1N2001",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NumMesUltInspecVisual",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NumAnoUltInspecVisual",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NumMesUltInspecTermo",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NumAnoUltInspecTermo",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NumMesUltManutPrev",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NumAnoUltManutPrev",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NumMesUltManutCorr",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NumAnoUltManutCorr",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "PctCargaMaxima",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DthCarga",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  }
+ ],
+ "x5ltep": {
+  "status": "datastore",
+  "source": {
+   "kind": "datastore"
+  }
+ }
+}

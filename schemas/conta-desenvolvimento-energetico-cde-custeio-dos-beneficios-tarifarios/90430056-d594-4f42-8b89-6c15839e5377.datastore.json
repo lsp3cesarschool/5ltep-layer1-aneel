@@ -1,0 +1,35 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "DscTipoFonte",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "DscFonte",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "VlrCusteio",
+   "type": "string",
+   "declaredType": "text"
+  }
+ ],
+ "x5ltep": {
+  "status": "datastore",
+  "source": {
+   "kind": "datastore"
+  }
+ }
+}

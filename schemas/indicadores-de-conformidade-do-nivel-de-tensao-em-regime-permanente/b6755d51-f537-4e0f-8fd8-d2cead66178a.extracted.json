@@ -1,0 +1,96 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "description": "Sigla que abrevia o nome dos Agentes regulados pela ANEEL",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "NumCNPJ",
+   "type": "string",
+   "description": "CNPJ do Agente do setor elétrico conforme cadastro de agentes da ANEEL",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "CodUndCnmSrt",
+   "type": "string",
+   "description": "Código identificador da unidade consumidora sorteada para medição dos indicadores de tensão em regime permanente",
+   "constraints": {
+    "maxLength": 15
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 15
+  },
+  {
+   "name": "SigIndicador",
+   "type": "string",
+   "description": "Sigla do Tipo de Indicador. As siglas e descrições completas delas estão disponibilizadas em um arquivo à parte devido a volumetria que esses dados gerariam. Vide o arquivo dominio-indicadores.csv disponibilizado na mesma página desse conjunto de dados.",
+   "constraints": {
+    "maxLength": 3
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 3
+  },
+  {
+   "name": "AnoLimiteQualidade",
+   "type": "string",
+   "description": "Ano de competência do índice.",
+   "constraints": {
+    "maxLength": 4
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 4
+  },
+  {
+   "name": "VlrLimite",
+   "type": "number",
+   "description": "Valor do índice enviado.",
+   "declaredType": "Numérico"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "llm",
+   "dictionary_id": "84a172fb-f08b-420c-8885-6834d7c6c551",
+   "dictionary_name": "Dicionário de dados - Conformidade de Nível de Tensão",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/51f2d7ea-3171-4d22-9115-3384113d01df/resource/84a172fb-f08b-420c-8885-6834d7c6c551/download/dm-indicadores-de-conformidade-de-nivel-de-tensao.pdf",
+   "sha256": "57bc2df3346ff9845d6c67244cc8ca65d888a3664b1342630d9bc62214aee3d5",
+   "oracle": {
+    "recall": 0.625,
+    "precision": 0.7143,
+    "exact_match": 0.625,
+    "levenshtein": 0.7589,
+    "missing_from_pdf": [
+     "AnoIndice",
+     "NumPeriodoIndice",
+     "VlrIndiceEnviado"
+    ],
+    "not_in_file": [
+     "AnoLimiteQualidade",
+     "VlrLimite"
+    ]
+   },
+   "model": "qwen3:8b",
+   "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+   "prompt_version": "v1",
+   "ollama_version": "0.35.0"
+  }
+ }
+}

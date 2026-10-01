@@ -1,0 +1,268 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "SigAgenteFiscalizador",
+   "type": "string",
+   "description": "Sigla que abrevia o nome dos Agentes regulados pela ANEEL",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "NumAutoInfracao",
+   "type": "string",
+   "description": "Número do auto de infração.",
+   "constraints": {
+    "maxLength": 25
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 25
+  },
+  {
+   "name": "DatLavraturaAutoInfracao",
+   "type": "date",
+   "description": "Data de lavratura do auto de infração.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "NomNaturezaFiscalizacao",
+   "type": "string",
+   "description": "Nome da natureza de fiscalização definido pela área de fiscalização. Texto livre sem restrição.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscObjetoFiscalizado",
+   "type": "string",
+   "description": "Nome do agente fiscalizado.",
+   "constraints": {
+    "maxLength": 120
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 120
+  },
+  {
+   "name": "CodObjetoFiscalizado",
+   "type": "string",
+   "description": "Código Único de Empreendimentos de Geração: GGG.FF.UF.999999-D.VV. Onde: GGG é o Tipo de Geração, FF é a Fonte, UF é a UF principal, 999999 é o Núcleo do CEG, D é o dígito verificador e VV é a versão (Se 1 é a primeira, se maior que 1 sofreu alteração)",
+   "constraints": {
+    "maxLength": 21
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 21
+  },
+  {
+   "name": "NomAgenteFiscalizado",
+   "type": "string",
+   "description": "Nome pelo qual a pessoa jurídica é registrada na Junta Comercial.",
+   "constraints": {
+    "maxLength": 400
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 400
+  },
+  {
+   "name": "NumCPFCNPJAgenteFiscalizado",
+   "type": "string",
+   "description": "Número do CNPJ ou CPF do agente fiscalizado (órgão).",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "NumProcessoPunitivo",
+   "type": "string",
+   "description": "Número processo punitivo. Pode ser um número do SICNET, quando for uma agente ANEEL e deve ser validado. Também pode ser um número gerado por uma Agencia Estadual, neste caso o número não será validado no SICNET.",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "NumProcessoPunitivoANEEL",
+   "type": "string",
+   "description": "Número do processo punitivo da ANEEL. Deve obrigatoriamente ser validado no SICNET.",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DatRecebimentoAutoInfracao",
+   "type": "date",
+   "description": "Data que o agente recebeu o auto de infração.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscTipoPenalidade",
+   "type": "string",
+   "description": "Texto livre descrevendo a penalidade",
+   "constraints": {
+    "maxLength": 4000
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 4000
+  },
+  {
+   "name": "VlrPenalidade",
+   "type": "number",
+   "description": "Valor da penalidade.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DtRecebimentoRecurso",
+   "type": "date",
+   "description": "Data que o agente protocolou o recurso do auto de infração.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatDecisaoJuizo",
+   "type": "date",
+   "description": "Data do juízo",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscDecisaoCompletaJuizo",
+   "type": "string",
+   "description": "Concatenação de todas as decisões e do ato do Juízo",
+   "constraints": {
+    "maxLength": 4000
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 4000
+  },
+  {
+   "name": "DscAtoJuizo",
+   "type": "string",
+   "description": "Descrição do ato do Juízo",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "VlrMultaAposJuizo",
+   "type": "number",
+   "description": "Valor da multa após o Juízo",
+   "declaredType": "Numérico",
+   "declaredSize": 16
+  },
+  {
+   "name": "DatDecisaoDiretoria",
+   "type": "date",
+   "description": "Data decisão Diretoria da ANEEL",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscDecisaoCompletaDiretoria",
+   "type": "string",
+   "description": "Descrição completa da decisão da Diretoria da ANEEL",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscAtoDiretoria",
+   "type": "string",
+   "description": "Descrição completa do ato da Diretoria da ANEEL",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "VlrMultaAposDiretoria",
+   "type": "number",
+   "description": "Valor da multa após a decisão da Diretoria da ANEEL",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NumTermoEncerramento",
+   "type": "string",
+   "description": "Número do termo de encerramento.",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DatLavramentoTE",
+   "type": "date",
+   "description": "Data de lavratura do termo de encerramento",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscEnquadramentoAI",
+   "type": "string",
+   "description": "Texto livre descrevendo os dispositivos legais, regulamentares ou contratuais infringidos e enquadramento.",
+   "constraints": {
+    "maxLength": 4000
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 4000
+  },
+  {
+   "name": "NumTermoNotificacao",
+   "type": "string",
+   "description": "Número do Termo de Notificação",
+   "constraints": {
+    "maxLength": 25
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 25
+  },
+  {
+   "name": "NumProcessoFiscalizacao",
+   "type": "string",
+   "description": "Número de processo gerado no ato do cadastro da fiscalização. A formatação do número depende a quem pertence a fiscalização. Que tem o seguinte formato: 48500.XXXXXX/AAAA-DV XXXXXX – número sequencial do processo no Sicnet. AAAA – ano do processo. DV – dígito verificador. Os caracteres de máscara não são armazenados.",
+   "constraints": {
+    "maxLength": 17
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 17
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "3e8feb4d-5d33-4b1f-8c19-a1e89f127c12",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271/resource/3e8feb4d-5d33-4b1f-8c19-a1e89f127c12/download/dm-auto-de-infracao.pdf",
+   "sha256": "8c13d4f72294db397eab45507bc3393cff4eb8c4cd403c826264ff71ff1c565a",
+   "oracle": {
+    "recall": 0.9643,
+    "precision": 0.9643,
+    "exact_match": 0.9643,
+    "levenshtein": 0.9881,
+    "missing_from_pdf": [
+     "DatLavraturaTE"
+    ],
+    "not_in_file": [
+     "DatLavramentoTE"
+    ]
+   }
+  }
+ }
+}

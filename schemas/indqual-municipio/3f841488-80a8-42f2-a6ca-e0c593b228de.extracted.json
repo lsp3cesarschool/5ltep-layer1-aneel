@@ -1,0 +1,73 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "IdeConjUndConsumidoras",
+   "type": "string",
+   "description": "Identificador do Conjunto de Unidades Consumidoras.",
+   "constraints": {
+    "maxLength": 5
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 5
+  },
+  {
+   "name": "CodMunicipio",
+   "type": "string",
+   "description": "Código do município cadastrado no IBGE.",
+   "constraints": {
+    "maxLength": 7
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 7
+  },
+  {
+   "name": "NomMunicipio",
+   "type": "string",
+   "description": "Nome do Município onde atribuído pelo IBGE em que se situa o Empreendimento de Geração Distribuída.",
+   "constraints": {
+    "maxLength": 40
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 40
+  },
+  {
+   "name": "SigUF",
+   "type": "string",
+   "description": "Sigla do IBGE referente ao Estado do Brasil em que se situa o Agente regulado pela ANEEL",
+   "constraints": {
+    "maxLength": 30
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 30
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "dc85ecd2-4aca-4b1b-a69e-f1ec1b82d811",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/db9c9f60-b3b5-4504-9dfe-2637922d53ce/resource/dc85ecd2-4aca-4b1b-a69e-f1ec1b82d811/download/dm-indqual-municipio.pdf",
+   "sha256": "0883d2f20fe961159abda98612e091a38234c4917781799b90275a56f3a90fb7",
+   "oracle": {
+    "recall": 0.8,
+    "precision": 0.8,
+    "exact_match": 0.8,
+    "levenshtein": 0.9913,
+    "missing_from_pdf": [
+     "IdeConjUnidConsumidoras"
+    ],
+    "not_in_file": [
+     "IdeConjUndConsumidoras"
+    ]
+   }
+  }
+ }
+}

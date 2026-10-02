@@ -5,7 +5,7 @@
   "name": "ANEEL",
   "title": "ANEEL open data portal (Dados Abertos ANEEL)"
  },
- "generated_at": "2026-10-02T22:02:29+00:00",
+ "generated_at": "2026-10-02T22:46:58+00:00",
  "census_at": "2026-10-02T13:54:58+00:00",
  "method": {
   "rotation_days": 28,
@@ -41,20 +41,20 @@
    "3": 2,
    "4": 38
   },
-  "validated": 326,
-  "validation_coverage": 0.9261,
-  "errors": 26,
-  "queue_remaining": 57
+  "validated": 327,
+  "validation_coverage": 0.929,
+  "errors": 25,
+  "queue_remaining": 0
  },
  "schema_sources": {
-  "extracted": 120,
+  "extracted": 139,
   "datastore": 37
  },
  "conformance_by_source": {
   "extracted": {
-   "verifiable": 120,
-   "conformant": 13,
-   "l1_rate": 0.1083
+   "verifiable": 139,
+   "conformant": 20,
+   "l1_rate": 0.1439
   },
   "datastore": {
    "verifiable": 37,
@@ -62,43 +62,41 @@
    "l1_rate": 1.0
   }
  },
- "verifiable": 157,
- "conformant": 50,
- "l1_rate": 0.3185,
+ "verifiable": 176,
+ "conformant": 57,
+ "l1_rate": 0.3239,
  "l1_pass": false,
  "drift": {
   "observed": 0,
   "declared": 0,
-  "files_with_baseline": 328,
+  "files_with_baseline": 329,
   "first_baseline_at": "2026-10-01T19:16:18+00:00",
-  "last_observed_at": "2026-10-02T21:58:10+00:00"
+  "last_observed_at": "2026-10-02T22:23:20+00:00"
  },
  "coverage": {
   "files": 352,
-  "read": 326,
+  "read": 327,
   "empty": 0,
   "not_tabular": 0,
-  "not_downloaded": 26,
+  "not_downloaded": 25,
   "pending": 0,
   "not_downloaded_by_reason": {
    "redirect loop": 12,
    "SSLError": 12,
-   "Timeout": 1,
    "other": 1
   },
   "not_downloaded_by_host": {
    "redirect loop · dadosabertos.aneel.gov.br": 12,
    "SSLError · dadosabertos.aneel.gov.br": 12,
-   "Timeout · dadosabertos.aneel.gov.br": 1,
    "other · dadosabertos.aneel.gov.br": 1
   },
-  "read_without_schema": 169,
-  "checked": 157,
-  "conform": 50,
-  "fail_missing_fields": 10,
-  "fail_undeclared_columns": 10,
-  "fail_cells_over_limit": 99,
-  "fail_only_cells": 97
+  "read_without_schema": 151,
+  "checked": 176,
+  "conform": 57,
+  "fail_missing_fields": 12,
+  "fail_undeclared_columns": 12,
+  "fail_cells_over_limit": 111,
+  "fail_only_cells": 107
  },
  "not_tables": {
   "count": 0,
@@ -106,25 +104,27 @@
  },
  "distributions": {
   "tables_with_other_formats": 114,
-  "other_formats": 8,
-  "compared": 8,
-  "same_columns": 8,
-  "different_columns": 0,
+  "other_formats": 17,
+  "compared": 17,
+  "same_columns": 16,
+  "different_columns": 1,
   "not_compared": {},
   "by_format": {
+   "parquet": 10,
    "zip": 2,
-   "parquet": 6
+   "json": 1,
+   "xml": 4
   }
  },
  "network": {
   "total": {
    "files": 352,
-   "failed_files": 26,
-   "gb": 54.98,
-   "minutes": 546.2,
-   "end_to_end_mb_s": 1.68,
+   "failed_files": 25,
+   "gb": 55.6,
+   "minutes": 563.7,
+   "end_to_end_mb_s": 1.64,
    "zip_download_mb_s": 6.02,
-   "first_byte_s_median": 0.42,
+   "first_byte_s_median": 0.45,
    "request_failures": {
     "SSLError": 4
    }
@@ -132,12 +132,12 @@
   "by_host": {
    "dadosabertos.aneel.gov.br": {
     "files": 352,
-    "failed_files": 26,
-    "gb": 54.98,
-    "minutes": 546.2,
-    "end_to_end_mb_s": 1.68,
+    "failed_files": 25,
+    "gb": 55.6,
+    "minutes": 563.7,
+    "end_to_end_mb_s": 1.64,
     "zip_download_mb_s": 6.02,
-    "first_byte_s_median": 0.42,
+    "first_byte_s_median": 0.45,
     "request_failures": {
      "SSLError": 4
     }
@@ -179,28 +179,28 @@
    "date_fields_with_declared_format": null
   },
   "files_vs_dictionaries": {
-   "checked": 157,
-   "with_declared_fields_missing": 10,
-   "with_undeclared_columns": 10,
+   "checked": 176,
+   "with_declared_fields_missing": 12,
+   "with_undeclared_columns": 12,
    "with_spelling_differences": 1,
    "with_similar_names": 8,
    "similar_names": 8,
-   "declared_fields_missing": 105,
+   "declared_fields_missing": 115,
    "formats_inferred_from_data": {
-    "format": 209,
-    "decimalChar": 130,
-    "type": 8,
+    "format": 285,
+    "decimalChar": 167,
+    "type": 16,
     "groupChar": 88
    }
   },
   "files": {
-   "validated": 326,
+   "validated": 327,
    "encodings": {
-    "utf-8": 279,
+    "utf-8": 280,
     "cp1252": 42
    },
    "delimiters": {
-    ";": 229,
+    ";": 230,
     ",": 92
    },
    "with_decode_errors": 97,
@@ -210,13 +210,12 @@
    "not_tabular": 0,
    "not_tables": 0,
    "formats": {
-    "csv": 321,
+    "csv": 322,
     "parquet": 5
    },
    "unreachable_by_reason": {
     "redirect loop": 12,
     "SSLError": 12,
-    "Timeout": 1,
     "other": 1
    }
   },
@@ -279,11 +278,11 @@
   },
   {
    "name": "atendimento-ocorrencias-emergenciais",
-   "level": 3,
+   "level": 4,
    "tables": 1,
-   "verifiable": 0,
-   "conformant": 0,
-   "l1_rate": null
+   "verifiable": 1,
+   "conformant": 1,
+   "l1_rate": 1.0
   },
   {
    "name": "atos-de-outorgas-de-geracao",
@@ -561,9 +560,9 @@
    "name": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
    "level": 1,
    "tables": 10,
-   "verifiable": 3,
-   "conformant": 2,
-   "l1_rate": 0.6667
+   "verifiable": 5,
+   "conformant": 4,
+   "l1_rate": 0.8
   },
   {
    "name": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
@@ -649,17 +648,17 @@
    "name": "qualidade-do-atendimento-comercial",
    "level": 1,
    "tables": 2,
-   "verifiable": 0,
+   "verifiable": 2,
    "conformant": 0,
-   "l1_rate": null
+   "l1_rate": 0.0
   },
   {
    "name": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
    "level": 0,
    "tables": 6,
-   "verifiable": 0,
+   "verifiable": 2,
    "conformant": 0,
-   "l1_rate": null
+   "l1_rate": 0.0
   },
   {
    "name": "relacao-de-empreendimentos-de-geracao-distribuida",
@@ -673,17 +672,17 @@
    "name": "resultado-de-leiloes",
    "level": 1,
    "tables": 2,
-   "verifiable": 1,
-   "conformant": 1,
+   "verifiable": 2,
+   "conformant": 2,
    "l1_rate": 1.0
   },
   {
    "name": "reunioes-publicas-da-diretoria",
    "level": 1,
    "tables": 1,
-   "verifiable": 0,
-   "conformant": 0,
-   "l1_rate": null
+   "verifiable": 1,
+   "conformant": 1,
+   "l1_rate": 1.0
   },
   {
    "name": "samp",
@@ -713,17 +712,17 @@
    "name": "seguranca-do-trabalho-e-das-instalacoes",
    "level": 1,
    "tables": 2,
-   "verifiable": 0,
+   "verifiable": 2,
    "conformant": 0,
-   "l1_rate": null
+   "l1_rate": 0.0
   },
   {
    "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
    "level": 1,
    "tables": 2,
-   "verifiable": 0,
-   "conformant": 0,
-   "l1_rate": null
+   "verifiable": 2,
+   "conformant": 2,
+   "l1_rate": 1.0
   },
   {
    "name": "sigec-sistema-de-gestao-de-creditos",
@@ -745,17 +744,17 @@
    "name": "slc-sistema-de-licitacoes-e-contratos",
    "level": 1,
    "tables": 1,
-   "verifiable": 0,
-   "conformant": 0,
-   "l1_rate": null
-  },
-  {
-   "name": "subsidios-tarifarios",
-   "level": 4,
-   "tables": 1,
    "verifiable": 1,
    "conformant": 1,
    "l1_rate": 1.0
+  },
+  {
+   "name": "subsidios-tarifarios",
+   "level": 3,
+   "tables": 1,
+   "verifiable": 1,
+   "conformant": 0,
+   "l1_rate": 0.0
   },
   {
    "name": "tarifa-social-de-energia-eletrica-beneficiarios",
@@ -793,9 +792,9 @@
    "name": "termos-de-intimacao-das-penas-dos-editais-tipe",
    "level": 1,
    "tables": 5,
-   "verifiable": 0,
+   "verifiable": 5,
    "conformant": 0,
-   "l1_rate": null
+   "l1_rate": 0.0
   },
   {
    "name": "tfsee",

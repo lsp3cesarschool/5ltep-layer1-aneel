@@ -56,13 +56,13 @@
    "name": "DatCaoCgmAtoLgl",
    "type": "date",
    "format": "%d/%m/%Y",
-   "sampleEmptyShare": 0.0142
+   "sampleEmptyShare": 0.0118
   },
   {
    "name": "DatOprComEpd",
    "type": "date",
    "format": "%d/%m/%Y",
-   "sampleEmptyShare": 0.0142
+   "sampleEmptyShare": 0.0118
   },
   {
    "name": "IdeObr",
@@ -170,8 +170,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-02T00:25:04+00:00",
-  "sha256": "d9a84fa1497095eee660670b13c4f41e58bad3eab3affac30e0dfee77fa8d6e0",
+  "observed_at": "2026-10-02T22:21:54+00:00",
+  "sha256": "b22ff1f9f435868a3fa7b01319878dc47d64bd132a50a400cf1a75a48b6bda7a",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

@@ -4,7 +4,7 @@
   "name": "ANEEL",
   "title": "ANEEL open data portal (Dados Abertos ANEEL)"
  },
- "generated_at": "2026-10-01T19:15:56+00:00",
+ "generated_at": "2026-10-02T13:54:58+00:00",
  "datasets": [
   {
    "name": "acrescimo-da-potencia-instalada",
@@ -184,6 +184,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "6afefff3-134c-48cc-add8-39c5a278628b",
+       "name": "pedidos-de-conexao-mmgd-regiao-centro-oeste.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/f0773920-9847-46cb-9bc0-dde68761c573/resource/6afefff3-134c-48cc-add8-39c5a278628b/download/pedidos-de-conexao-mmgd-regiao-centro-oeste.parquet"
+      }
+     ],
      "link": {
       "dictionary": "bf062c12-4291-45e2-8595-a4823f22fd98",
       "part": 0,
@@ -203,6 +211,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "9f2e7e25-fc53-4e99-8362-f9f5c8d4c04c",
+       "name": "pedidos-de-conexao-mmgd-regiao-nordeste.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/f0773920-9847-46cb-9bc0-dde68761c573/resource/9f2e7e25-fc53-4e99-8362-f9f5c8d4c04c/download/pedidos-de-conexao-mmgd-regiao-nordeste.parquet"
+      }
+     ],
      "link": {
       "dictionary": "bf062c12-4291-45e2-8595-a4823f22fd98",
       "part": 0,
@@ -222,6 +238,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "68f3e0e6-c836-43b0-85f3-3d5898db2e22",
+       "name": "pedidos-de-conexao-mmgd-regiao-norte.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/f0773920-9847-46cb-9bc0-dde68761c573/resource/68f3e0e6-c836-43b0-85f3-3d5898db2e22/download/pedidos-de-conexao-mmgd-regiao-norte.parquet"
+      }
+     ],
      "link": {
       "dictionary": "bf062c12-4291-45e2-8595-a4823f22fd98",
       "part": 0,
@@ -241,6 +265,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "3fdb28ba-8834-4788-8d65-3defc930da6d",
+       "name": "pedidos-de-conexao-mmgd-regiao-sudeste.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/f0773920-9847-46cb-9bc0-dde68761c573/resource/3fdb28ba-8834-4788-8d65-3defc930da6d/download/pedidos-de-conexao-mmgd-regiao-sudeste.parquet"
+      }
+     ],
      "link": {
       "dictionary": "bf062c12-4291-45e2-8595-a4823f22fd98",
       "part": 0,
@@ -260,6 +292,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "87af337a-fab1-492a-82d3-607c07c417fe",
+       "name": "pedidos-de-conexao-mmgd-regiao-sul.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/f0773920-9847-46cb-9bc0-dde68761c573/resource/87af337a-fab1-492a-82d3-607c07c417fe/download/pedidos-de-conexao-mmgd-regiao-sul.parquet"
+      }
+     ],
      "link": {
       "dictionary": "bf062c12-4291-45e2-8595-a4823f22fd98",
       "part": 0,
@@ -307,6 +347,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "ef3404d6-730f-4fb6-9de8-92efccba4a4c",
+       "name": "indicador-atendimento-emergencial.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/dcdff65d-d173-4d2e-a3b9-84eec7702f06/resource/ef3404d6-730f-4fb6-9de8-92efccba4a4c/download/indicador-atendimento-emergencial.parquet"
+      }
+     ],
      "link": {
       "dictionary": "9f42b1e5-ceaf-413d-85bc-0eb3a25a39d6",
       "part": 0,
@@ -448,6 +496,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "20f01eef-97f5-46ce-bb52-811156ef083d",
+       "name": "auto-infracao.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271/resource/20f01eef-97f5-46ce-bb52-811156ef083d/download/auto-infracao.xml"
+      }
+     ],
      "link": {
       "dictionary": "3e8feb4d-5d33-4b1f-8c19-a1e89f127c12",
       "part": 0,
@@ -479,6 +535,20 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "b682d08e-78ca-4ff2-b4c0-19af4797319d",
+       "name": "AutoInfracaoCadastrado.json",
+       "format": "json",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/eb0360f1-0d5d-4961-8311-97edde216fe9/resource/b682d08e-78ca-4ff2-b4c0-19af4797319d/download/autoinfracaocadastrado.json"
+      },
+      {
+       "id": "32ac76c6-d3c3-47d6-8fef-a75d0c6cefd0",
+       "name": "AutoInfracaoCadastrado.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/eb0360f1-0d5d-4961-8311-97edde216fe9/resource/32ac76c6-d3c3-47d6-8fef-a75d0c6cefd0/download/autoinfracaocadastrado.xml"
+      }
+     ],
      "link": null,
      "level": 0
     }
@@ -3819,10 +3889,8 @@
      "sha256": "09282b25bace56b581744e906221b025c36aaa471d2b886284343a93995dc94b",
      "bytes": 235673,
      "linked_resources": [
-      "121bd290-c7e4-4307-9d2f-48783727cd28",
       "6ad76203-68d8-48c1-a338-a6ff5e6167a7",
-      "93e532ec-5060-4ff8-8881-963624f2f065",
-      "ebf09fcb-d5c5-4c25-840e-d2e473d17e31"
+      "93e532ec-5060-4ff8-8881-963624f2f065"
      ]
     },
     {
@@ -3983,25 +4051,20 @@
       "typed": false
      },
      "described": 0,
-     "link": {
-      "dictionary": "eb3d0a80-6950-47f8-8f48-6a5b37cee720",
-      "part": 0,
-      "method": "name",
-      "score": 1.0
-     },
-     "level": 1
-    },
-    {
-     "id": "121bd290-c7e4-4307-9d2f-48783727cd28",
-     "name": "cfurh-beneficiarios-cfurh.zip",
-     "format": "ZIP",
-     "url": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3/resource/121bd290-c7e4-4307-9d2f-48783727cd28/download/cfurh-beneficiarios-cfurh.zip",
-     "candidate": "zip",
-     "last_modified": "2026-09-05T10:02:27.876491",
-     "size": 65850776,
-     "attached": false,
-     "datastore": null,
-     "described": 0,
+     "distributions": [
+      {
+       "id": "121bd290-c7e4-4307-9d2f-48783727cd28",
+       "name": "cfurh-beneficiarios-cfurh.zip",
+       "format": "zip",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3/resource/121bd290-c7e4-4307-9d2f-48783727cd28/download/cfurh-beneficiarios-cfurh.zip"
+      },
+      {
+       "id": "368bde4b-583a-490a-af67-26b126c81a1b",
+       "name": "cfurh-beneficiarios-cfurh.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3/resource/368bde4b-583a-490a-af67-26b126c81a1b/download/cfurh-beneficiarios-cfurh.parquet"
+      }
+     ],
      "link": {
       "dictionary": "eb3d0a80-6950-47f8-8f48-6a5b37cee720",
       "part": 0,
@@ -4024,25 +4087,20 @@
       "typed": false
      },
      "described": 0,
-     "link": {
-      "dictionary": "eb3d0a80-6950-47f8-8f48-6a5b37cee720",
-      "part": 0,
-      "method": "name",
-      "score": 0.667
-     },
-     "level": 1
-    },
-    {
-     "id": "ebf09fcb-d5c5-4c25-840e-d2e473d17e31",
-     "name": "cfurh-beneficiarios-royalties.zip",
-     "format": "ZIP",
-     "url": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3/resource/ebf09fcb-d5c5-4c25-840e-d2e473d17e31/download/cfurh-beneficiarios-royalties.zip",
-     "candidate": "zip",
-     "last_modified": "2026-09-05T10:02:01.316048",
-     "size": 28042964,
-     "attached": false,
-     "datastore": null,
-     "described": 0,
+     "distributions": [
+      {
+       "id": "ebf09fcb-d5c5-4c25-840e-d2e473d17e31",
+       "name": "cfurh-beneficiarios-royalties.zip",
+       "format": "zip",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3/resource/ebf09fcb-d5c5-4c25-840e-d2e473d17e31/download/cfurh-beneficiarios-royalties.zip"
+      },
+      {
+       "id": "cc2097f7-65ca-4cdd-8bd2-e90832721e8c",
+       "name": "cfurh-beneficiarios-royalties.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/855a73ed-f4e0-4e88-8467-c330ba0223d3/resource/cc2097f7-65ca-4cdd-8bd2-e90832721e8c/download/cfurh-beneficiarios-royalties.parquet"
+      }
+     ],
      "link": {
       "dictionary": "eb3d0a80-6950-47f8-8f48-6a5b37cee720",
       "part": 0,
@@ -4087,6 +4145,20 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "3772808d-230c-43d5-9de6-d88ffa08b252",
+       "name": "CompensacaoFinanceira.json",
+       "format": "json",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/39fc299f-26ad-456a-a756-2845ca69568e/resource/3772808d-230c-43d5-9de6-d88ffa08b252/download/compensacaofinanceira.json"
+      },
+      {
+       "id": "bba1be3a-8aa5-4d43-8fb3-d10ec2e1c685",
+       "name": "CompensacaoFinanceira.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/39fc299f-26ad-456a-a756-2845ca69568e/resource/bba1be3a-8aa5-4d43-8fb3-d10ec2e1c685/download/compensacaofinanceira.xml"
+      }
+     ],
      "link": {
       "dictionary": "21a65fdc-d524-46bd-acc1-7560d2721ae3",
       "part": 0,
@@ -4148,6 +4220,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "325eeb40-76bd-481b-b981-025d9d21be1b",
+       "name": "componentes-tarifarias-2012.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/325eeb40-76bd-481b-b981-025d9d21be1b/download/componentes-tarifarias-2012.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4170,6 +4250,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "03650251-c358-46d3-b58c-1b04687e517e",
+       "name": "componentes-tarifarias-2013.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/03650251-c358-46d3-b58c-1b04687e517e/download/componentes-tarifarias-2013.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4192,6 +4280,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "3f2e7e5e-b6ee-4358-a961-0f693f6dec60",
+       "name": "componentes-tarifarias-2014.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/3f2e7e5e-b6ee-4358-a961-0f693f6dec60/download/componentes-tarifarias-2014.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4214,6 +4310,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "895cb533-dcf2-4f32-a17d-6a3089da1947",
+       "name": "componentes-tarifarias-2015.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/895cb533-dcf2-4f32-a17d-6a3089da1947/download/componentes-tarifarias-2015.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4236,6 +4340,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "69161fb5-f5e8-4759-955b-53ed333a28bf",
+       "name": "componentes-tarifarias-2016.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/69161fb5-f5e8-4759-955b-53ed333a28bf/download/componentes-tarifarias-2016.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4258,6 +4370,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "beca48e6-f874-47e9-8f1f-111e28d7d8e8",
+       "name": "componentes-tarifarias-2017.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/beca48e6-f874-47e9-8f1f-111e28d7d8e8/download/componentes-tarifarias-2017.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4280,6 +4400,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "43b53e82-75f2-4be8-b576-dd8bc72dd066",
+       "name": "componentes-tarifarias-2018.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/43b53e82-75f2-4be8-b576-dd8bc72dd066/download/componentes-tarifarias-2018.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4302,6 +4430,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "a1e1fd84-b9cb-4d91-81c5-10da9f96d84b",
+       "name": "componentes-tarifarias-2019.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/a1e1fd84-b9cb-4d91-81c5-10da9f96d84b/download/componentes-tarifarias-2019.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4324,6 +4460,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "4657eb39-a4ed-4113-8feb-3565633a61e9",
+       "name": "componentes-tarifarias-2020.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/4657eb39-a4ed-4113-8feb-3565633a61e9/download/componentes-tarifarias-2020.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4346,6 +4490,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "1b79d43b-f625-4122-b790-5bb986da4bd2",
+       "name": "componentes-tarifarias-2021.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/1b79d43b-f625-4122-b790-5bb986da4bd2/download/componentes-tarifarias-2021.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4368,6 +4520,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "8e724c73-d6ca-4c56-aad0-f832dc51fffc",
+       "name": "componentes-tarifarias-2022.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/8e724c73-d6ca-4c56-aad0-f832dc51fffc/download/componentes-tarifarias-2022.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4390,6 +4550,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "8db8b51d-e0ae-4789-aa1e-23425944c0ea",
+       "name": "componentes-tarifarias-2023.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/8db8b51d-e0ae-4789-aa1e-23425944c0ea/download/componentes-tarifarias-2023.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4412,6 +4580,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "5a29d53f-b7a6-4436-8497-7de00214d8fb",
+       "name": "componentes-tarifarias-2024.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/5a29d53f-b7a6-4436-8497-7de00214d8fb/download/componentes-tarifarias-2024.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4434,6 +4610,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "2a7a5364-8bd7-4464-9c56-587d77329447",
+       "name": "componentes-tarifarias-2025.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/2a7a5364-8bd7-4464-9c56-587d77329447/download/componentes-tarifarias-2025.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4456,6 +4640,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "59c32c89-8e86-4122-a7cf-a0d5fa9d0ff5",
+       "name": "componentes-tarifarias-2026.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/59c32c89-8e86-4122-a7cf-a0d5fa9d0ff5/download/componentes-tarifarias-2026.parquet"
+      }
+     ],
      "link": {
       "dictionary": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
       "part": 0,
@@ -4503,6 +4695,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "958af64f-863b-4557-a404-5729c4a06a09",
+       "name": "composicao-societaria-polimero.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/cb79864b-0cfd-475a-8b7a-f8f23d86cf31/resource/958af64f-863b-4557-a404-5729c4a06a09/download/composicao-societaria-polimero.parquet"
+      }
+     ],
      "link": {
       "dictionary": "3e48fa49-8dcb-44aa-9a7c-7673fff1c74b",
       "part": 0,
@@ -4609,6 +4809,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "0fa851c4-3421-4cd1-ab9d-cddbce37d28a",
+       "name": "ctr-curvas-carga-redes-tipo.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/2594ebad-1306-49d1-9f30-ded144acca87/resource/0fa851c4-3421-4cd1-ab9d-cddbce37d28a/download/ctr-curvas-carga-redes-tipo.parquet"
+      }
+     ],
      "link": {
       "dictionary": "f6ebf857-44c7-42fd-a246-61c3fe4e447e",
       "part": 0,
@@ -4631,6 +4839,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "fae0d52c-5f02-4e84-a11b-d03db87e990d",
+       "name": "ctr-curvas-carga-consumidor-tipo.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/2594ebad-1306-49d1-9f30-ded144acca87/resource/fae0d52c-5f02-4e84-a11b-d03db87e990d/download/ctr-curvas-carga-consumidor-tipo.parquet"
+      }
+     ],
      "link": {
       "dictionary": "4621d2f7-43bf-41a3-8af1-9e7ca0b9925e",
       "part": 0,
@@ -4675,6 +4891,20 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "86fd53be-a800-4442-9271-ece5f3edf0ab",
+       "name": "DesempenhoConcessionaria.json",
+       "format": "json",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/2b26eeff-b2c2-4511-8fd5-1e6920d7d7be/resource/86fd53be-a800-4442-9271-ece5f3edf0ab/download/desempenhoconcessionaria.json"
+      },
+      {
+       "id": "81d510f4-0e3d-4ece-b712-2f8427428293",
+       "name": "DesempenhoConcessionaria.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/2b26eeff-b2c2-4511-8fd5-1e6920d7d7be/resource/81d510f4-0e3d-4ece-b712-2f8427428293/download/desempenhoconcessionaria.xml"
+      }
+     ],
      "link": {
       "dictionary": "e369459d-2fd6-40b7-a55c-79076ffa0222",
       "part": 0,
@@ -4722,6 +4952,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "bbf15d0b-a264-41e5-8ae3-f11a0ff27d7d",
+       "name": "empreendimento-hidreletrico-estudo.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/fb81a809-e0eb-4acb-b589-3130380cd9f4/resource/bbf15d0b-a264-41e5-8ae3-f11a0ff27d7d/download/empreendimento-hidreletrico-estudo.xml"
+      }
+     ],
      "link": {
       "dictionary": "2393e76e-6e2a-43d9-ab2e-d8a9c0e5e897",
       "part": 0,
@@ -4880,6 +5118,20 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "afb15af8-3c57-47ba-b50b-34d0c85797f3",
+       "name": "FiscalEconomicaFinanceira.json",
+       "format": "json",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/d44a7879-fff1-4921-b093-0839a95baade/resource/afb15af8-3c57-47ba-b50b-34d0c85797f3/download/fiscaleconomicafinanceira.json"
+      },
+      {
+       "id": "dafc4e16-cad8-4793-a655-5640caecdf1d",
+       "name": "FiscalEconomicaFinanceira.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/d44a7879-fff1-4921-b093-0839a95baade/resource/dafc4e16-cad8-4793-a655-5640caecdf1d/download/fiscaleconomicafinanceira.xml"
+      }
+     ],
      "link": {
       "dictionary": "3ffce41f-f9f8-451e-8d33-a322e0a71b0b",
       "part": 0,
@@ -5052,6 +5304,20 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "06f8c2e6-3ea4-4030-bf92-1ac6d5d71608",
+       "name": "FiscalizacaoGeracao.json",
+       "format": "json",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/26803a1c-f669-4a80-9f4b-4bcba24f8f43/resource/06f8c2e6-3ea4-4030-bf92-1ac6d5d71608/download/fiscalizacaogeracao.json"
+      },
+      {
+       "id": "6926037f-87d9-4696-8dc9-a9399740d43c",
+       "name": "FiscalizacaoGeracao.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/26803a1c-f669-4a80-9f4b-4bcba24f8f43/resource/6926037f-87d9-4696-8dc9-a9399740d43c/download/fiscalizacaogeracao.xml"
+      }
+     ],
      "link": {
       "dictionary": "5f18829d-f2b0-4d65-b38a-ca7b44aadb06",
       "part": 0,
@@ -5083,6 +5349,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "26c3716d-f624-469e-938c-741e2b2f56af",
+       "name": "indger-dados-servicos-comerciais.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/7cacb2c4-b165-4591-a793-9ed20d1f167d/resource/26c3716d-f624-469e-938c-741e2b2f56af/download/indger-dados-servicos-comerciais.parquet"
+      }
+     ],
      "link": null,
      "level": 0
     },
@@ -5100,6 +5374,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "92492adf-9944-4702-becf-1340ee68859d",
+       "name": "indger-dados-comerciais.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/7cacb2c4-b165-4591-a793-9ed20d1f167d/resource/92492adf-9944-4702-becf-1340ee68859d/download/indger-dados-comerciais.parquet"
+      }
+     ],
      "link": null,
      "level": 0
     },
@@ -5117,6 +5399,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "8c05a6d2-c6d4-48d6-9cc9-f805652eea2e",
+       "name": "indger-dados-tecnicos-alimentadores.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/7cacb2c4-b165-4591-a793-9ed20d1f167d/resource/8c05a6d2-c6d4-48d6-9cc9-f805652eea2e/download/indger-dados-tecnicos-alimentadores.parquet"
+      }
+     ],
      "link": null,
      "level": 0
     },
@@ -5221,6 +5511,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "d7f70fb1-725c-4748-afeb-65c6a78df550",
+       "name": "indicadores-continuidade-coletivos-2020-2029.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7/resource/d7f70fb1-725c-4748-afeb-65c6a78df550/download/indicadores-continuidade-coletivos-2020-2029.parquet"
+      }
+     ],
      "link": null,
      "level": 3
     },
@@ -5235,6 +5533,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "1706a88f-ecd6-4de9-99ee-ec240c317378",
+       "name": "indicadores-continuidade-coletivos-2010-2019.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7/resource/1706a88f-ecd6-4de9-99ee-ec240c317378/download/indicadores-continuidade-coletivos-2010-2019.parquet"
+      }
+     ],
      "link": null,
      "level": 0
     },
@@ -5249,6 +5555,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "79ba3a61-3a9c-4e29-8188-9bb19f858ec6",
+       "name": "indicadores-continuidade-coletivos-2000-2009.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7/resource/79ba3a61-3a9c-4e29-8188-9bb19f858ec6/download/indicadores-continuidade-coletivos-2000-2009.parquet"
+      }
+     ],
      "link": null,
      "level": 0
     },
@@ -5257,12 +5571,20 @@
      "name": "indicadores-continuidade-coletivos-compensacao-2020-2029",
      "format": "ZIP",
      "url": "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7/resource/364d945e-a18b-4111-ab1b-73aa0f7b06b1/download/indicadores-continuidade-coletivos-compensacao-2020-2029.csv",
-     "candidate": "csv",
+     "candidate": "zip",
      "last_modified": "2026-09-05T05:18:42.471816",
      "size": 1056390583,
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "51585540-7e99-44b5-92c5-7797f2693ae5",
+       "name": "indicadores-continuidade-coletivos-compensacao-2020-2029.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7/resource/51585540-7e99-44b5-92c5-7797f2693ae5/download/indicadores-continuidade-coletivos-compensacao-2020-2029.parquet"
+      }
+     ],
      "link": null,
      "level": 0
     },
@@ -5271,12 +5593,20 @@
      "name": "indicadores-continuidade-coletivos-compensacao-2010-2019",
      "format": "ZIP",
      "url": "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7/resource/8cdad784-07c1-4a67-a285-2f2adce5df70/download/indicadores-continuidade-coletivos-compensacao-2010-2019.csv",
-     "candidate": "csv",
+     "candidate": "zip",
      "last_modified": "2026-09-05T05:16:15.151722",
      "size": 905430133,
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "8046471d-a6b1-4c6b-b770-c4ea9e4c88c0",
+       "name": "indicadores-continuidade-coletivos-compensacao-2010-2019.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/d5f0712e-62f6-4736-8dff-9991f10758a7/resource/8046471d-a6b1-4c6b-b770-c4ea9e4c88c0/download/indicadores-continuidade-coletivos-compensacao-2010-2019.parquet"
+      }
+     ],
      "link": null,
      "level": 0
     },
@@ -5382,6 +5712,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "aae9d135-8809-4157-bab8-41a74ba149a5",
+       "name": "indicadores-conformidade-nivel-tensao.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/51f2d7ea-3171-4d22-9115-3384113d01df/resource/aae9d135-8809-4157-bab8-41a74ba149a5/download/indicadores-conformidade-nivel-tensao.parquet"
+      }
+     ],
      "link": {
       "dictionary": "84a172fb-f08b-420c-8885-6834d7c6c551",
       "part": 0,
@@ -5404,6 +5742,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "354a378c-eccc-460a-a863-f205d4be2b1f",
+       "name": "indicadores-compensacao-nivel-tensao.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/51f2d7ea-3171-4d22-9115-3384113d01df/resource/354a378c-eccc-460a-a863-f205d4be2b1f/download/indicadores-compensacao-nivel-tensao.parquet"
+      }
+     ],
      "link": {
       "dictionary": "01408b65-700a-43c6-a84b-ddf08fb314cf",
       "part": 0,
@@ -5496,6 +5842,20 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "a87455ea-158a-47b8-8f38-6641f5a99d5b",
+       "name": "FiscalIndicadorQuantitativo.json",
+       "format": "json",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/5a01baab-2890-4675-ad29-809ab364b0b6/resource/a87455ea-158a-47b8-8f38-6641f5a99d5b/download/fiscalindicadorquantitativo.json"
+      },
+      {
+       "id": "99be9779-3575-469d-8dbb-aedc4af66a5f",
+       "name": "FiscalIndicadorQuantitativo.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/5a01baab-2890-4675-ad29-809ab364b0b6/resource/99be9779-3575-469d-8dbb-aedc4af66a5f/download/fiscalindicadorquantitativo.xml"
+      }
+     ],
      "link": null,
      "level": 0
     }
@@ -5708,6 +6068,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "92198821-d0a9-4279-985b-320e18c9e6c0",
+       "name": "interrupcoes-energia-eletrica-2017.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56/resource/92198821-d0a9-4279-985b-320e18c9e6c0/download/interrupcoes-energia-eletrica-2017.parquet"
+      }
+     ],
      "link": {
       "dictionary": "6e5611de-948d-4473-b309-520d7523b762",
       "part": 0,
@@ -5727,6 +6095,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "d669e835-0b8e-47e4-94b4-a3012b3abfc6",
+       "name": "interrupcoes-energia-eletrica-2018.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56/resource/d669e835-0b8e-47e4-94b4-a3012b3abfc6/download/interrupcoes-energia-eletrica-2018.parquet"
+      }
+     ],
      "link": {
       "dictionary": "6e5611de-948d-4473-b309-520d7523b762",
       "part": 0,
@@ -5746,6 +6122,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "140e1704-9533-4004-b8ca-3d38cc8e4ba2",
+       "name": "interrupcoes-energia-eletrica-2019.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56/resource/140e1704-9533-4004-b8ca-3d38cc8e4ba2/download/interrupcoes-energia-eletrica-2019.parquet"
+      }
+     ],
      "link": {
       "dictionary": "6e5611de-948d-4473-b309-520d7523b762",
       "part": 0,
@@ -5765,6 +6149,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "19b932c7-08a4-48a2-a073-ca339b13deb3",
+       "name": "interrupcoes-energia-eletrica-2020.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56/resource/19b932c7-08a4-48a2-a073-ca339b13deb3/download/interrupcoes-energia-eletrica-2020.parquet"
+      }
+     ],
      "link": {
       "dictionary": "6e5611de-948d-4473-b309-520d7523b762",
       "part": 0,
@@ -5784,6 +6176,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "011e0086-8b2f-4fbc-a32b-f7c0f7bc9957",
+       "name": "interrupcoes-energia-eletrica-2021.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56/resource/011e0086-8b2f-4fbc-a32b-f7c0f7bc9957/download/interrupcoes-energia-eletrica-2021.parquet"
+      }
+     ],
      "link": {
       "dictionary": "6e5611de-948d-4473-b309-520d7523b762",
       "part": 0,
@@ -5803,6 +6203,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "f40b948c-81a3-4d56-8e35-0af9c2533178",
+       "name": "interrupcoes-energia-eletrica-2022.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56/resource/f40b948c-81a3-4d56-8e35-0af9c2533178/download/interrupcoes-energia-eletrica-2022.parquet"
+      }
+     ],
      "link": {
       "dictionary": "6e5611de-948d-4473-b309-520d7523b762",
       "part": 0,
@@ -5822,6 +6230,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "ddc26540-cd8c-4eef-a1ad-a234d24ed9c4",
+       "name": "interrupcoes-energia-eletrica-2023.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56/resource/ddc26540-cd8c-4eef-a1ad-a234d24ed9c4/download/interrupcoes-energia-eletrica-2023.parquet"
+      }
+     ],
      "link": {
       "dictionary": "6e5611de-948d-4473-b309-520d7523b762",
       "part": 0,
@@ -5841,6 +6257,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "fc5ca52c-329c-4443-a2d6-08ccec711ade",
+       "name": "interrupcoes-energia-eletrica-2024.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56/resource/fc5ca52c-329c-4443-a2d6-08ccec711ade/download/interrupcoes-energia-eletrica-2024.parquet"
+      }
+     ],
      "link": {
       "dictionary": "6e5611de-948d-4473-b309-520d7523b762",
       "part": 0,
@@ -5860,6 +6284,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "691de320-cb3d-471b-b9ec-8c1b86af8c83",
+       "name": "interrupcoes-energia-eletrica-2025.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56/resource/691de320-cb3d-471b-b9ec-8c1b86af8c83/download/interrupcoes-energia-eletrica-2025.parquet"
+      }
+     ],
      "link": {
       "dictionary": "6e5611de-948d-4473-b309-520d7523b762",
       "part": 0,
@@ -5879,6 +6311,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "cf722d0b-aa04-4681-bcd9-8a737e857182",
+       "name": "interrupcoes-energia-eletrica-2026.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ccb25653-f07b-4f28-84c2-62a89d1f5a56/resource/cf722d0b-aa04-4681-bcd9-8a737e857182/download/interrupcoes-energia-eletrica-2026.parquet"
+      }
+     ],
      "link": {
       "dictionary": "6e5611de-948d-4473-b309-520d7523b762",
       "part": 0,
@@ -5934,6 +6374,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "1b666f63-d263-4565-bbe7-d26df070dd06",
+       "name": "detalhado-unidades-geradoras-liberadas-operacao-comercial.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/2b2ace01-5692-4636-8c99-2a84ff094f4f/resource/1b666f63-d263-4565-bbe7-d26df070dd06/download/unidades-geradoras-liberadas-operacao-comercial-detalhado.xml"
+      }
+     ],
      "link": null,
      "level": 0
     },
@@ -5951,6 +6399,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "29115786-918d-4d7f-b948-6453c7854266",
+       "name": "resumido-unidades-geradoras-liberadas-operacao-comercial.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/2b2ace01-5692-4636-8c99-2a84ff094f4f/resource/29115786-918d-4d7f-b948-6453c7854266/download/unidades-geradoras-liberadas-operacao-comercial-resumo.xml"
+      }
+     ],
      "link": null,
      "level": 0
     }
@@ -5974,11 +6430,16 @@
      "sha256": "536f48a2467368e5e4c17dfff438c331e85b44ec983f71a2179ae76dcf889be0",
      "bytes": 113652,
      "linked_resources": [
+      "0060645e-c42c-454d-af8c-f0c06b0988ab",
+      "290433a8-a5f8-4117-a450-44d3e62ead22",
       "426f4fb2-6a89-452a-8236-cc48153ee607",
       "4af32411-da8b-492c-ae15-8f615e35d2e2",
       "6c3e074c-d9ab-4840-8c6c-7993faa36ddb",
       "83839c4e-78f9-4f68-bcb7-51dcfcf05c9c",
-      "8c42c510-6549-4285-817c-58738914be19"
+      "8c42c510-6549-4285-817c-58738914be19",
+      "908f7282-7a43-41e9-8303-edcab69c2706",
+      "a9ea21c7-1b2b-4c91-97b4-3d9732c77cec",
+      "d0f619ef-1bbe-40d1-849c-35b47172df8e"
      ]
     }
    ],
@@ -6083,6 +6544,101 @@
       "score": 0.5
      },
      "level": 1
+    },
+    {
+     "id": "290433a8-a5f8-4117-a450-44d3e62ead22",
+     "name": "manifestacoes-1-2-niveis-distribuidora-2010-2022.parquet",
+     "format": "PARQUET",
+     "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/290433a8-a5f8-4117-a450-44d3e62ead22/download/manifestacoes-1-2-niveis-distribuidora-2010-2022.parquet",
+     "candidate": "parquet",
+     "last_modified": "2026-09-26T03:08:58.148798",
+     "size": 3160702,
+     "attached": false,
+     "datastore": null,
+     "described": 0,
+     "link": {
+      "dictionary": "928f6910-1a40-41a2-8bf1-7965a5fe4ca7",
+      "part": 0,
+      "method": "single",
+      "score": 0.5
+     },
+     "level": 1
+    },
+    {
+     "id": "908f7282-7a43-41e9-8303-edcab69c2706",
+     "name": "manifestacoes-1-2-niveis-distribuidora-2023.parquet",
+     "format": "PARQUET",
+     "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/908f7282-7a43-41e9-8303-edcab69c2706/download/manifestacoes-1-2-niveis-distribuidora-2023.parquet",
+     "candidate": "parquet",
+     "last_modified": "2026-09-26T03:12:17.419687",
+     "size": 36699617,
+     "attached": false,
+     "datastore": null,
+     "described": 0,
+     "link": {
+      "dictionary": "928f6910-1a40-41a2-8bf1-7965a5fe4ca7",
+      "part": 0,
+      "method": "single",
+      "score": 0.5
+     },
+     "level": 1
+    },
+    {
+     "id": "0060645e-c42c-454d-af8c-f0c06b0988ab",
+     "name": "manifestacoes-1-2-niveis-distribuidora-2024.parquet",
+     "format": "PARQUET",
+     "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/0060645e-c42c-454d-af8c-f0c06b0988ab/download/manifestacoes-1-2-niveis-distribuidora-2024.parquet",
+     "candidate": "parquet",
+     "last_modified": "2026-09-26T03:20:19.409451",
+     "size": 44917677,
+     "attached": false,
+     "datastore": null,
+     "described": 0,
+     "link": {
+      "dictionary": "928f6910-1a40-41a2-8bf1-7965a5fe4ca7",
+      "part": 0,
+      "method": "single",
+      "score": 0.5
+     },
+     "level": 1
+    },
+    {
+     "id": "a9ea21c7-1b2b-4c91-97b4-3d9732c77cec",
+     "name": "manifestacoes-1-2-niveis-distribuidora-2025.parquet",
+     "format": "PARQUET",
+     "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/a9ea21c7-1b2b-4c91-97b4-3d9732c77cec/download/manifestacoes-1-2-niveis-distribuidora-2025.parquet",
+     "candidate": "parquet",
+     "last_modified": "2026-09-26T03:25:20.048936",
+     "size": 46489219,
+     "attached": false,
+     "datastore": null,
+     "described": 0,
+     "link": {
+      "dictionary": "928f6910-1a40-41a2-8bf1-7965a5fe4ca7",
+      "part": 0,
+      "method": "single",
+      "score": 0.5
+     },
+     "level": 1
+    },
+    {
+     "id": "d0f619ef-1bbe-40d1-849c-35b47172df8e",
+     "name": "manifestacoes-1-2-niveis-distribuidora-2026.parquet",
+     "format": "PARQUET",
+     "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/d0f619ef-1bbe-40d1-849c-35b47172df8e/download/manifestacoes-1-2-niveis-distribuidora-2026.parquet",
+     "candidate": "parquet",
+     "last_modified": "2026-09-26T03:28:08.388890",
+     "size": 27978845,
+     "attached": false,
+     "datastore": null,
+     "described": 0,
+     "link": {
+      "dictionary": "928f6910-1a40-41a2-8bf1-7965a5fe4ca7",
+      "part": 0,
+      "method": "single",
+      "score": 0.5
+     },
+     "level": 1
     }
    ],
    "level": 1
@@ -6129,6 +6685,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "84928cc0-e2da-4964-8797-cb9a138ca52e",
+       "name": "ocorrencias-emergenciais-rede-distribuicao-2017.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ced06b4c-45a5-4cae-8a7e-f576ffc3b412/resource/84928cc0-e2da-4964-8797-cb9a138ca52e/download/ocorrencias-emergenciais-rede-distribuicao-2017.parquet"
+      }
+     ],
      "link": {
       "dictionary": "00ddb056-c4fd-4fad-8cce-0807c527c8ee",
       "part": 0,
@@ -6148,6 +6712,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "4d284c9c-2684-4702-b6e0-b6f62ee46afd",
+       "name": "ocorrencias-emergenciais-rede-distribuicao-2018.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ced06b4c-45a5-4cae-8a7e-f576ffc3b412/resource/4d284c9c-2684-4702-b6e0-b6f62ee46afd/download/ocorrencias-emergenciais-rede-distribuicao-2018.parquet"
+      }
+     ],
      "link": {
       "dictionary": "00ddb056-c4fd-4fad-8cce-0807c527c8ee",
       "part": 0,
@@ -6167,6 +6739,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "96c59e1b-7994-4213-bdaf-9cab55db25dd",
+       "name": "ocorrencias-emergenciais-rede-distribuicao-2019.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ced06b4c-45a5-4cae-8a7e-f576ffc3b412/resource/96c59e1b-7994-4213-bdaf-9cab55db25dd/download/ocorrencias-emergenciais-rede-distribuicao-2019.parquet"
+      }
+     ],
      "link": {
       "dictionary": "00ddb056-c4fd-4fad-8cce-0807c527c8ee",
       "part": 0,
@@ -6186,6 +6766,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "1f98ee17-fb5b-4c2b-be12-bf6e5fc588af",
+       "name": "ocorrencias-emergenciais-rede-distribuicao-2020.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ced06b4c-45a5-4cae-8a7e-f576ffc3b412/resource/1f98ee17-fb5b-4c2b-be12-bf6e5fc588af/download/ocorrencias-emergenciais-rede-distribuicao-2020.parquet"
+      }
+     ],
      "link": {
       "dictionary": "00ddb056-c4fd-4fad-8cce-0807c527c8ee",
       "part": 0,
@@ -6205,6 +6793,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "bca75c34-e3c7-4db2-a518-b76e6e18979c",
+       "name": "ocorrencias-emergenciais-rede-distribuicao-2021.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ced06b4c-45a5-4cae-8a7e-f576ffc3b412/resource/bca75c34-e3c7-4db2-a518-b76e6e18979c/download/ocorrencias-emergenciais-rede-distribuicao-2021.parquet"
+      }
+     ],
      "link": {
       "dictionary": "00ddb056-c4fd-4fad-8cce-0807c527c8ee",
       "part": 0,
@@ -6224,6 +6820,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "25b24e8e-544d-42b9-9a8f-3e61f6a6eab1",
+       "name": "ocorrencias-emergenciais-rede-distribuicao-2022.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ced06b4c-45a5-4cae-8a7e-f576ffc3b412/resource/25b24e8e-544d-42b9-9a8f-3e61f6a6eab1/download/ocorrencias-emergenciais-rede-distribuicao-2022.parquet"
+      }
+     ],
      "link": {
       "dictionary": "00ddb056-c4fd-4fad-8cce-0807c527c8ee",
       "part": 0,
@@ -6243,6 +6847,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "560b6a3d-39b5-4b38-94ef-ca73d745866f",
+       "name": "ocorrencias-emergenciais-rede-distribuicao-2023.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ced06b4c-45a5-4cae-8a7e-f576ffc3b412/resource/560b6a3d-39b5-4b38-94ef-ca73d745866f/download/ocorrencias-emergenciais-rede-distribuicao-2023.parquet"
+      }
+     ],
      "link": {
       "dictionary": "00ddb056-c4fd-4fad-8cce-0807c527c8ee",
       "part": 0,
@@ -6262,6 +6874,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "ef1d1ae6-39f1-4d9c-ace8-3c5024ca777a",
+       "name": "ocorrencias-emergenciais-rede-distribuicao-2024.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ced06b4c-45a5-4cae-8a7e-f576ffc3b412/resource/ef1d1ae6-39f1-4d9c-ace8-3c5024ca777a/download/ocorrencias-emergenciais-rede-distribuicao-2024.parquet"
+      }
+     ],
      "link": {
       "dictionary": "00ddb056-c4fd-4fad-8cce-0807c527c8ee",
       "part": 0,
@@ -6281,6 +6901,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "6adda6b2-2e24-4637-8689-f48787847e8b",
+       "name": "ocorrencias-emergenciais-rede-distribuicao-2025.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ced06b4c-45a5-4cae-8a7e-f576ffc3b412/resource/6adda6b2-2e24-4637-8689-f48787847e8b/download/ocorrencias-emergenciais-rede-distribuicao-2025.parquet"
+      }
+     ],
      "link": {
       "dictionary": "00ddb056-c4fd-4fad-8cce-0807c527c8ee",
       "part": 0,
@@ -6300,6 +6928,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "d0669ad0-24a2-4f34-85cc-1b08e82d7ad2",
+       "name": "ocorrencias-emergenciais-rede-distribuicao-2026.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/ced06b4c-45a5-4cae-8a7e-f576ffc3b412/resource/d0669ad0-24a2-4f34-85cc-1b08e82d7ad2/download/ocorrencias-emergenciais-rede-distribuicao-2026.parquet"
+      }
+     ],
      "link": {
       "dictionary": "00ddb056-c4fd-4fad-8cce-0807c527c8ee",
       "part": 0,
@@ -6316,7 +6952,7 @@
    "title": "Ouvidoria Setorial ANEEL",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/ouvidoria-setorial-aneel",
-   "metadata_modified": "2026-10-01T10:03:00.454598",
+   "metadata_modified": "2026-10-02T10:02:17.342620",
    "resources_total": 19,
    "dictionaries": [
     {
@@ -6381,6 +7017,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "cde4a990-20ef-4633-b543-cd07a1727db4",
+       "name": "ouvidoria-aneel-2015.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26/resource/cde4a990-20ef-4633-b543-cd07a1727db4/download/ouvidoria-aneel-2015.parquet"
+      }
+     ],
      "link": {
       "dictionary": "9b01f108-34c1-45d2-a8c9-0aeb19905257",
       "part": 0,
@@ -6469,6 +7113,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "dcdef398-f158-4c0b-bad1-5f20691618d3",
+       "name": "ouvidoria-aneel-2019.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26/resource/dcdef398-f158-4c0b-bad1-5f20691618d3/download/ouvidoria-aneel-2019.parquet"
+      }
+     ],
      "link": {
       "dictionary": "9b01f108-34c1-45d2-a8c9-0aeb19905257",
       "part": 0,
@@ -6491,6 +7143,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "24d5ab9c-600b-4899-96a4-a125ed5cfbc7",
+       "name": "ouvidoria-aneel-2020.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26/resource/24d5ab9c-600b-4899-96a4-a125ed5cfbc7/download/ouvidoria-aneel-2020.parquet"
+      }
+     ],
      "link": {
       "dictionary": "9b01f108-34c1-45d2-a8c9-0aeb19905257",
       "part": 0,
@@ -6513,6 +7173,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "6a4fea1c-f377-4efc-b56d-19423eca4dba",
+       "name": "ouvidoria-aneel-2021.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26/resource/6a4fea1c-f377-4efc-b56d-19423eca4dba/download/ouvidoria-aneel-2021.parquet"
+      }
+     ],
      "link": {
       "dictionary": "9b01f108-34c1-45d2-a8c9-0aeb19905257",
       "part": 0,
@@ -6557,6 +7225,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "108bc74b-0167-41f3-a54b-0bb3a0a7e542",
+       "name": "ouvidoria-aneel-2023.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26/resource/108bc74b-0167-41f3-a54b-0bb3a0a7e542/download/ouvidoria-aneel-2023.parquet"
+      }
+     ],
      "link": {
       "dictionary": "9b01f108-34c1-45d2-a8c9-0aeb19905257",
       "part": 0,
@@ -6593,8 +7269,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26/resource/93d50388-a4dd-4c31-a9e6-065ade8078f3/download/ouvidoria-aneel-2025.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-01T10:01:49.127925",
-     "size": 70948865,
+     "last_modified": "2026-10-02T10:00:42.707942",
+     "size": 70949002,
      "attached": false,
      "datastore": {
       "fields": 13,
@@ -6615,8 +7291,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26/resource/1ee51181-9d1f-40f1-ae6e-61719d276b28/download/ouvidoria-aneel-2026.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-01T10:01:47.069442",
-     "size": 58638934,
+     "last_modified": "2026-10-02T10:01:45.017005",
+     "size": 59001612,
      "attached": false,
      "datastore": {
       "fields": 13,
@@ -6639,7 +7315,7 @@
    "title": "Pautas e Atas das Reuniões Publicas da Diretoria",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/pautas-e-atas-das-reunioes-publicas-da-diretoria",
-   "metadata_modified": "2026-09-25T03:04:53.939805",
+   "metadata_modified": "2026-10-02T03:04:43.742414",
    "resources_total": 2,
    "dictionaries": [
     {
@@ -6662,8 +7338,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/a9fb5b4b-59ca-4be8-9690-876d9547271d/resource/43386a8b-4781-44ec-a082-fa7fdfe33186/download/pautas-atas-reunioes-publicas-diretoria.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-25T03:04:53.829659",
-     "size": 18974886,
+     "last_modified": "2026-10-02T03:04:43.673170",
+     "size": 19015119,
      "attached": false,
      "datastore": {
       "fields": 13,
@@ -6899,6 +7575,20 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "b62df12b-dbf4-406f-9d7c-b20b6000211b",
+       "name": "PesquisaDesenvolvimentoTema.json",
+       "format": "json",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/2df0845e-d782-413a-85fc-4cd79d66c34d/resource/b62df12b-dbf4-406f-9d7c-b20b6000211b/download/pesquisadesenvolvimentotema.json"
+      },
+      {
+       "id": "d5462a75-4e6d-4401-918b-2269ea079021",
+       "name": "PesquisaDesenvolvimentoTema.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/2df0845e-d782-413a-85fc-4cd79d66c34d/resource/d5462a75-4e6d-4401-918b-2269ea079021/download/pesquisadesenvolvimentotema.xml"
+      }
+     ],
      "link": {
       "dictionary": "f030087c-f34f-4054-a277-e009b7a8cfc6",
       "part": 0,
@@ -6943,6 +7633,20 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "7cf34f0d-5d16-4590-aad0-3daf3f697d7a",
+       "name": "NovoProjeto.json",
+       "format": "json",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/8ea45cdf-0031-44c8-9524-e400aaf86a06/resource/7cf34f0d-5d16-4590-aad0-3daf3f697d7a/download/novoprojeto.json"
+      },
+      {
+       "id": "e653e98e-b681-4a9a-ac3d-99f148563570",
+       "name": "NovoProjeto.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/8ea45cdf-0031-44c8-9524-e400aaf86a06/resource/e653e98e-b681-4a9a-ac3d-99f148563570/download/novoprojeto.xml"
+      }
+     ],
      "link": {
       "dictionary": "687c80c9-18f8-47b5-8334-fbdb2bd657cd",
       "part": 0,
@@ -6987,6 +7691,20 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "c96404b1-644d-47b3-9d91-72e363c7835b",
+       "name": "PesquisaDesenvolvimentoProjeto.json",
+       "format": "json",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/77ec79dc-9ef0-4e50-8dfc-7c3bc7c26caf/resource/c96404b1-644d-47b3-9d91-72e363c7835b/download/pesquisadesenvolvimentoprojeto.json"
+      },
+      {
+       "id": "afa74e1f-bf62-496b-b83e-01636db5a153",
+       "name": "PesquisaDesenvolvimentoProjeto.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/77ec79dc-9ef0-4e50-8dfc-7c3bc7c26caf/resource/afa74e1f-bf62-496b-b83e-01636db5a153/download/pesquisadesenvolvimentoprojeto.xml"
+      }
+     ],
      "link": {
       "dictionary": "bd8709a4-6d5c-4817-84ad-011e73f3a18f",
       "part": 0,
@@ -7031,6 +7749,20 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "a3dfbad2-4fc2-478b-b13a-bbf6a4269c84",
+       "name": "ProjetoRetornoInvestimento.json",
+       "format": "json",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/dbe863ff-f27f-49bf-ad07-84eddb1629ba/resource/a3dfbad2-4fc2-478b-b13a-bbf6a4269c84/download/projetoretornoinvestimento.json"
+      },
+      {
+       "id": "26e1fc3c-fdb2-431d-9d96-a5cd504b26a1",
+       "name": "ProjetoRetornoInvestimento.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/dbe863ff-f27f-49bf-ad07-84eddb1629ba/resource/26e1fc3c-fdb2-431d-9d96-a5cd504b26a1/download/projetoretornoinvestimento.xml"
+      }
+     ],
      "link": {
       "dictionary": "3091b690-eef5-4d66-b8df-fcd5c10feb01",
       "part": 0,
@@ -7079,6 +7811,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "8383f5bf-cb0a-4576-be8f-9b6e430305fc",
+       "name": "qualidade-atendimento-comercial.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/b7b32b0c-4bac-4584-b9ec-76a32c05ca02/resource/8383f5bf-cb0a-4576-be8f-9b6e430305fc/download/qualidade-atendimento-comercial.parquet"
+      }
+     ],
      "link": {
       "dictionary": "c9850994-5872-4c99-97f6-eca8f3cc42b5",
       "part": 0,
@@ -7183,6 +7923,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "4cd32195-55fb-4f3f-83e9-2168369e818d",
+       "name": "ralie-usina-historico.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477/resource/4cd32195-55fb-4f3f-83e9-2168369e818d/download/ralie-usina-historico.parquet"
+      }
+     ],
      "link": null,
      "level": 0
     },
@@ -7219,6 +7967,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "896a51b2-6d40-4b0a-b2b2-b460f6a5b7ed",
+       "name": "ralie-unidade-geradora-historico.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477/resource/896a51b2-6d40-4b0a-b2b2-b460f6a5b7ed/download/ralie-unidade-geradora-historico.parquet"
+      }
+     ],
      "link": {
       "dictionary": "a3c58ecb-e936-4dc1-884b-9941f7079a73",
       "part": 0,
@@ -7255,6 +8011,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "9e335531-bc63-4b4f-8d1e-bd2c98fbcfb7",
+       "name": "ralie-leilao-historico.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477/resource/9e335531-bc63-4b4f-8d1e-bd2c98fbcfb7/download/ralie-leilao-historico.parquet"
+      }
+     ],
      "link": null,
      "level": 0
     }
@@ -7298,6 +8062,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "cd29f6eb-e08d-4db7-b6fb-ed6e3b682d27",
+       "name": "empreendimento-geracao-distribuida.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/5e0fafd2-21b9-4d5b-b622-40438d40aba2/resource/cd29f6eb-e08d-4db7-b6fb-ed6e3b682d27/download/empreendimento-geracao-distribuida.parquet"
+      }
+     ],
      "link": {
       "dictionary": "3fabb9e8-668a-4f94-8f0e-ed9cd2682979",
       "part": 0,
@@ -7339,6 +8111,14 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "703c4cb8-b7e2-4f27-a9bb-7e55324a88a4",
+       "name": "empreendimento-gd-informacoes-tecnicas-fotovoltaica.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/5e0fafd2-21b9-4d5b-b622-40438d40aba2/resource/703c4cb8-b7e2-4f27-a9bb-7e55324a88a4/download/empreendimento-gd-informacoes-tecnicas-fotovoltaica.parquet"
+      }
+     ],
      "link": {
       "dictionary": "3fabb9e8-668a-4f94-8f0e-ed9cd2682979",
       "part": 0,
@@ -7511,6 +8291,20 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "db267013-4f03-426b-a21c-3c4473b5e58f",
+       "name": "reunioes-publicas-diretoria.json",
+       "format": "json",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/43dd358f-0ee2-4eb5-80f6-73461bd7d2d1/resource/db267013-4f03-426b-a21c-3c4473b5e58f/download/reunioes-publicas-diretoria.json"
+      },
+      {
+       "id": "e612b7e0-1189-4a19-8585-c42701af6060",
+       "name": "reunioes-publicas-diretoria.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/43dd358f-0ee2-4eb5-80f6-73461bd7d2d1/resource/e612b7e0-1189-4a19-8585-c42701af6060/download/reunioes-publicas-diretoria.xml"
+      }
+     ],
      "link": {
       "dictionary": "de493bde-44a7-4de3-85bb-3d62453baea5",
       "part": 0,
@@ -7581,6 +8375,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "ef08fb35-7a0d-445b-b916-d7a09eaeab7f",
+       "name": "samp-2003.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/ef08fb35-7a0d-445b-b916-d7a09eaeab7f/download/samp-2003.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7603,6 +8405,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "b8d46c67-ab11-4e2c-b3bc-9dfcd4c60369",
+       "name": "samp-2004.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/b8d46c67-ab11-4e2c-b3bc-9dfcd4c60369/download/samp-2004.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7625,6 +8435,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "fedd65de-37f7-4178-b0aa-78399c5eaff7",
+       "name": "samp-2005.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/fedd65de-37f7-4178-b0aa-78399c5eaff7/download/samp-2005.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7647,6 +8465,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "6c1cedfa-21b7-4cde-99cf-6dee45e44919",
+       "name": "samp-2006.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/6c1cedfa-21b7-4cde-99cf-6dee45e44919/download/samp-2006.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7669,6 +8495,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "5c37a867-6b29-4307-ad1c-cf2c659dbf18",
+       "name": "samp-2007.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/5c37a867-6b29-4307-ad1c-cf2c659dbf18/download/samp-2007.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7691,6 +8525,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "4fb527d4-ee4d-4287-99a2-530bb6463799",
+       "name": "samp-2008.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/4fb527d4-ee4d-4287-99a2-530bb6463799/download/samp-2008.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7713,6 +8555,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "9f1239b1-2522-4792-902e-17372217a139",
+       "name": "samp-2009.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/9f1239b1-2522-4792-902e-17372217a139/download/samp-2009.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7735,6 +8585,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "d392d26d-09a1-4f77-aa54-ab73dc27a4ee",
+       "name": "samp-2010.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/d392d26d-09a1-4f77-aa54-ab73dc27a4ee/download/samp-2010.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7757,6 +8615,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "3bb573ca-20c6-4be6-9e77-2acb067d1afa",
+       "name": "samp-2011.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/3bb573ca-20c6-4be6-9e77-2acb067d1afa/download/samp-2011.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7779,6 +8645,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "d67a16f8-ffd0-4add-9a13-82a8ad867f05",
+       "name": "samp-2012.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/d67a16f8-ffd0-4add-9a13-82a8ad867f05/download/samp-2012.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7801,6 +8675,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "b2c6ad2a-821d-47e4-b970-aad8f4a3665d",
+       "name": "samp-2013.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/b2c6ad2a-821d-47e4-b970-aad8f4a3665d/download/samp-2013.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7823,6 +8705,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "533ffe5f-3dc7-429a-8e11-06a90caf1a6a",
+       "name": "samp-2014.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/533ffe5f-3dc7-429a-8e11-06a90caf1a6a/download/samp-2014.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7845,6 +8735,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "a873b5f4-3a46-4de4-9590-37f00f193fdd",
+       "name": "samp-2015.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/a873b5f4-3a46-4de4-9590-37f00f193fdd/download/samp-2015.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7867,6 +8765,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "625190de-b2d8-4298-9a16-8614c81ebdad",
+       "name": "samp-2016.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/625190de-b2d8-4298-9a16-8614c81ebdad/download/samp-2016.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7889,6 +8795,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "e60f6ae3-c69e-41c8-bdc7-16b61ac5e0d0",
+       "name": "samp-2017.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/e60f6ae3-c69e-41c8-bdc7-16b61ac5e0d0/download/samp-2017.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7911,6 +8825,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "99275309-636d-477b-aa2c-cda6b0c0550e",
+       "name": "samp-2018.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/99275309-636d-477b-aa2c-cda6b0c0550e/download/samp-2018.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7933,6 +8855,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "02cf17ae-36e5-4ffb-950d-5525ac9da34d",
+       "name": "samp-2019.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/02cf17ae-36e5-4ffb-950d-5525ac9da34d/download/samp-2019.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7955,6 +8885,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "89a21870-8ff4-4b86-a0be-b1ba64a9d6f2",
+       "name": "samp-2020.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/89a21870-8ff4-4b86-a0be-b1ba64a9d6f2/download/samp-2020.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7977,6 +8915,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "541d5ce5-d6e6-4632-b32f-7a045e1e10fe",
+       "name": "samp-2021.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/541d5ce5-d6e6-4632-b32f-7a045e1e10fe/download/samp-2021.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -7999,6 +8945,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "99294049-1c6b-4991-9f59-ae0872bbbae2",
+       "name": "samp-2022.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/99294049-1c6b-4991-9f59-ae0872bbbae2/download/samp-2022.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -8021,6 +8975,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "04c9bb85-6074-4fd1-a697-ecde329309dc",
+       "name": "samp-2023.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/04c9bb85-6074-4fd1-a697-ecde329309dc/download/samp-2023.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -8043,6 +9005,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "018d9180-eced-441f-8ede-d205b50421e9",
+       "name": "samp-2024.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/018d9180-eced-441f-8ede-d205b50421e9/download/samp-2024.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -8065,6 +9035,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "a757e805-fe7b-4764-bb49-19caef3e5dfe",
+       "name": "samp-2025.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/a757e805-fe7b-4764-bb49-19caef3e5dfe/download/samp-2025.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -8087,6 +9065,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "61dfadf0-518b-449e-bb62-fab89da3769b",
+       "name": "samp-2026.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/61dfadf0-518b-449e-bb62-fab89da3769b/download/samp-2026.parquet"
+      }
+     ],
      "link": {
       "dictionary": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
       "part": 0,
@@ -8134,6 +9120,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "cffe3c15-9d3e-4187-ae63-e097cf88c0af",
+       "name": "samp-balanco.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/3193ebab-81b3-406e-be0e-f968a4a21689/resource/cffe3c15-9d3e-4187-ae63-e097cf88c0af/download/samp-balanco.parquet"
+      }
+     ],
      "link": {
       "dictionary": "84ee7a78-e7b3-4e43-99ba-99e1d71b2a7c",
       "part": 0,
@@ -8264,7 +9258,7 @@
    "title": "SIGA - Sistema de Informações de Geração da ANEEL",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-   "metadata_modified": "2026-10-01T10:40:49.128748",
+   "metadata_modified": "2026-10-02T10:40:51.492367",
    "resources_total": 5,
    "dictionaries": [
     {
@@ -8296,6 +9290,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "76310626-e2e0-4880-b199-d63fe287f279",
+       "name": "siga-empreendimentos-geracao.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9/resource/76310626-e2e0-4880-b199-d63fe287f279/download/siga-empreendimentos-geracao.xml"
+      }
+     ],
      "link": {
       "dictionary": "25722a60-194d-4234-ab3b-b71354078402",
       "part": 0,
@@ -8310,7 +9312,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9/resource/2f65a1b0-19b8-4360-8238-b34ab4693d55/download/siga-empreendimentos-geracao-diario.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-01T10:40:43.374625",
+     "last_modified": "2026-10-02T10:40:41.768402",
      "size": 8418652,
      "attached": false,
      "datastore": {
@@ -8318,6 +9320,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "7ba82384-bb4d-442f-930f-4c4a743cf4fb",
+       "name": "siga-empreendimentos-geracao-diario.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9/resource/7ba82384-bb4d-442f-930f-4c4a743cf4fb/download/siga-empreendimentos-geracao-diario.xml"
+      }
+     ],
      "link": {
       "dictionary": "25722a60-194d-4234-ab3b-b71354078402",
       "part": 0,
@@ -8334,7 +9344,7 @@
    "title": "SIGEC - Sistema de Gestão de Créditos",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/sigec-sistema-de-gestao-de-creditos",
-   "metadata_modified": "2026-10-01T04:26:34.490206",
+   "metadata_modified": "2026-10-02T05:27:45.199258",
    "resources_total": 5,
    "dictionaries": [
     {
@@ -8365,8 +9375,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a/resource/eca732ac-4f08-401f-b1cf-f9eff88a9b20/download/sigec-multa-de-fiscalizacao.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-01T04:00:45.615170",
-     "size": 2205694,
+     "last_modified": "2026-10-02T05:11:41.150498",
+     "size": 2209481,
      "attached": false,
      "datastore": {
       "fields": 19,
@@ -8382,14 +9392,22 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a/resource/0bf361e5-dc58-4380-95f0-b61a55ec3423/download/sigec-taxa-de-fiscalizacao.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-01T04:25:46.087866",
-     "size": 123085875,
+     "last_modified": "2026-10-02T04:19:45.548059",
+     "size": 123181472,
      "attached": false,
      "datastore": {
       "fields": 19,
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "1b96c30f-0a5b-4377-9564-72acad6da23c",
+       "name": "sigec-taxa-de-fiscalizacao.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a/resource/1b96c30f-0a5b-4377-9564-72acad6da23c/download/sigec-taxa-de-fiscalizacao.parquet"
+      }
+     ],
      "link": null,
      "level": 0
     }
@@ -8401,7 +9419,7 @@
    "title": "Sistema de Gestão da Transmissão - SIGET",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-   "metadata_modified": "2026-10-01T10:55:57.953099",
+   "metadata_modified": "2026-10-02T10:48:56.436556",
    "resources_total": 34,
    "dictionaries": [],
    "tables": [
@@ -8411,8 +9429,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/a1366325-1071-4eeb-94bd-27915747b177/download/siget-contrato-empreendimento-obra-modulo.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-29T16:35:48.137263",
-     "size": 14646012,
+     "last_modified": "2026-10-02T05:35:42.111021",
+     "size": 14648352,
      "attached": false,
      "datastore": {
       "fields": 32,
@@ -8428,7 +9446,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/caec5e88-c904-45e5-bde4-d7e96ef139b6/download/siget-contrato-moduloequipamento-subestacao.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-29T16:36:54.110679",
+     "last_modified": "2026-10-02T05:36:42.384345",
      "size": 929356,
      "attached": false,
      "datastore": {
@@ -8445,7 +9463,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/4343dcda-284a-4ede-b3b9-e809ea18385c/download/siget-contrato-modulogeral-subestacao-tipoarranjo.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-29T16:36:49.277528",
+     "last_modified": "2026-10-02T05:36:41.633959",
      "size": 83921,
      "attached": false,
      "datastore": {
@@ -8462,7 +9480,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/89caca18-e9a8-484c-8772-c67b456d801a/download/siget-contrato-modulolinhatransmissao-subestacaoorigem-subestacaodestino.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-29T16:35:50.336289",
+     "last_modified": "2026-10-02T05:35:43.894534",
      "size": 468722,
      "attached": false,
      "datastore": {
@@ -8479,7 +9497,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/7c4e7f67-b674-4223-89c5-83c95cea1450/download/siget-contrato-modulomanobra-subestacao-tipoarranjo.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-29T16:36:52.507862",
+     "last_modified": "2026-10-02T05:35:44.661842",
      "size": 2263093,
      "attached": false,
      "datastore": {
@@ -8496,7 +9514,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/59ab6779-505e-4aa9-8641-3e07aca25699/download/siget-resolucao-contrato-agente.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-29T16:31:48.796502",
+     "last_modified": "2026-10-02T05:33:42.194993",
      "size": 1762876,
      "attached": false,
      "datastore": {
@@ -8513,8 +9531,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/60e111c3-6ee1-412e-abe3-bc15af897537/download/siget-contrato-agente.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-29T16:35:49.365322",
-     "size": 86598,
+     "last_modified": "2026-10-02T05:35:43.003714",
+     "size": 86592,
      "attached": false,
      "datastore": {
       "fields": 14,
@@ -8530,7 +9548,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/1c345514-893d-44a1-8e7e-a9362137c356/download/siget-resolucao-empreendimento-obra-modulo.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-29T16:31:50.490917",
+     "last_modified": "2026-10-02T05:33:45.283024",
      "size": 9025282,
      "attached": false,
      "datastore": {
@@ -8547,7 +9565,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/1d342bc9-4cbd-4c07-9cd4-02f6927175b9/download/siget-resolucao-moduloequipamento-subestacao.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-29T16:31:49.628026",
+     "last_modified": "2026-10-02T05:33:43.550215",
      "size": 325807,
      "attached": false,
      "datastore": {
@@ -8564,7 +9582,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/1effe1be-c6ff-4ffb-93b6-ed74228edea1/download/siget-resolucao-modulogeral-subestacao-tipoarranjo.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-29T16:32:46.642906",
+     "last_modified": "2026-10-02T05:33:44.427531",
      "size": 61041,
      "attached": false,
      "datastore": {
@@ -8581,7 +9599,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/e5c1141e-c08c-46a5-bb55-68d66152033a/download/siget-resolucao-modulolinhatransmissao-subestacaoorigem-subestacaodestino.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-29T16:31:46.492212",
+     "last_modified": "2026-10-02T05:33:41.453405",
      "size": 125025,
      "attached": false,
      "datastore": {
@@ -8598,7 +9616,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/4a6c2449-c073-4a4a-b639-4e5359a102bf/download/siget-resolucao-modulomanobra-subestacao-tipoarranjo.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-29T16:32:45.828918",
+     "last_modified": "2026-10-02T05:33:42.866779",
      "size": 595663,
      "attached": false,
      "datastore": {
@@ -8615,8 +9633,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/5e4e4916-fd70-44c7-a0eb-92bfb4efad6b/download/siget-lista-modulos-previa-reajuste-rap.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-01T10:55:43.257275",
-     "size": 27450780,
+     "last_modified": "2026-10-02T10:48:41.558459",
+     "size": 27454197,
      "attached": false,
      "datastore": {
       "fields": 37,
@@ -8632,7 +9650,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/ce4a2151-9348-42cd-afa7-ff1144387d08/download/siget-novas-instalacoes-operacao-comercial.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-01T10:54:42.696414",
+     "last_modified": "2026-10-02T10:47:40.637425",
      "size": 63973,
      "attached": false,
      "datastore": {
@@ -8649,7 +9667,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/f6e911b4-1db8-434a-88aa-6580681773b8/download/siget-obras-concluidas-sem-termo-liberacao-identificado.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-01T10:54:44.089090",
+     "last_modified": "2026-10-02T10:47:42.128805",
      "size": 1547,
      "attached": false,
      "datastore": {
@@ -8666,7 +9684,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/d381c304-8483-4974-8055-2dc08c740ddb/download/siget-termo-liberacao-reajuste-rap-em-processamento.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-01T10:54:43.345696",
+     "last_modified": "2026-10-02T10:47:41.383602",
      "size": 63755,
      "attached": false,
      "datastore": {
@@ -8683,7 +9701,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/d7ba6cc7-b5dc-4acd-b38a-e9968cc0a649/download/siget-termo-liberacao-reajuste-rap-processado.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-01T10:54:44.724330",
+     "last_modified": "2026-10-02T10:47:42.934696",
      "size": 4733152,
      "attached": false,
      "datastore": {
@@ -8824,6 +9842,20 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "cf48169c-bce3-4cbc-b31b-f32b7454d172",
+       "name": "TarifaSocial.json",
+       "format": "json",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/0ffe45bc-b0bc-4c18-99ab-e97e94841418/resource/cf48169c-bce3-4cbc-b31b-f32b7454d172/download/tarifasocial.json"
+      },
+      {
+       "id": "a54dcb4b-5ffa-4fc0-a3af-c198071278b7",
+       "name": "TarifaSocial.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/0ffe45bc-b0bc-4c18-99ab-e97e94841418/resource/a54dcb4b-5ffa-4fc0-a3af-c198071278b7/download/tarifasocial.xml"
+      }
+     ],
      "link": {
       "dictionary": "bdd21356-1111-4742-b5b3-8257626a1565",
       "part": 0,
@@ -8840,7 +9872,7 @@
    "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica",
-   "metadata_modified": "2026-10-01T10:03:39.772130",
+   "metadata_modified": "2026-10-02T10:02:57.474527",
    "resources_total": 3,
    "dictionaries": [
     {
@@ -8863,7 +9895,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/5a583f3e-1646-4f67-bf0f-69db4203e89e/resource/fcf2906c-7c32-4b9b-a637-054e7a5234f4/download/tarifas-homologadas-distribuidoras-energia-eletrica.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-01T10:01:51.361563",
+     "last_modified": "2026-10-02T10:01:47.317104",
      "size": 89235715,
      "attached": false,
      "datastore": {
@@ -8871,6 +9903,14 @@
       "typed": false
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "cfad8fce-5a1c-4f43-a1cd-6aaf415c22dd",
+       "name": "tarifas-homologadas-distribuidoras-energia-eletrica.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/5a583f3e-1646-4f67-bf0f-69db4203e89e/resource/cfad8fce-5a1c-4f43-a1cd-6aaf415c22dd/download/tarifas-homologadas-distribuidoras-energia-eletrica.xml"
+      }
+     ],
      "link": {
       "dictionary": "2d3478e0-8aa0-4cd4-81a7-5f8967cd8804",
       "part": 0,
@@ -8965,6 +10005,14 @@
       "typed": true
      },
      "described": 0,
+     "distributions": [
+      {
+       "id": "89e5fd20-0e22-45ee-9f5e-49f8b12b9119",
+       "name": "termo-notificacao.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/f72dd455-ef2b-4922-862f-e9e59f999ded/resource/89e5fd20-0e22-45ee-9f5e-49f8b12b9119/download/termo-notificacao.xml"
+      }
+     ],
      "link": {
       "dictionary": "f54d6c11-47af-4cb3-be14-f59239b0942c",
       "part": 0,
@@ -9164,7 +10212,7 @@
    "title": "TFSEE - Taxa de Fiscalização de Serviços de Energia Elétrica",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/tfsee",
-   "metadata_modified": "2026-10-01T09:01:11.451318",
+   "metadata_modified": "2026-10-02T09:00:59.314188",
    "resources_total": 2,
    "dictionaries": [
     {
@@ -9187,8 +10235,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/738e425b-5554-4fe4-8a8a-2d163308e9ff/resource/3ff1ab0a-0d0c-4fc6-b52e-050ee6ea19bd/download/taxa-fiscalizacao-servicos-energia-eletrica.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-01T09:00:51.049639",
-     "size": 6378482,
+     "last_modified": "2026-10-02T09:00:41.760833",
+     "size": 6378458,
      "attached": false,
      "datastore": {
       "fields": 15,
@@ -9239,6 +10287,20 @@
      "attached": false,
      "datastore": null,
      "described": 0,
+     "distributions": [
+      {
+       "id": "8b5f80e3-96e9-4234-a41f-124d85fa2d7a",
+       "name": "FiscalTransmissaoDistribuicao.json",
+       "format": "json",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/7cd37711-c998-453b-abf6-ebd6144d0565/resource/8b5f80e3-96e9-4234-a41f-124d85fa2d7a/download/fiscaltransmissaodistribuicao.json"
+      },
+      {
+       "id": "ba422cfc-db97-412b-ab88-dbd585e994b8",
+       "name": "FiscalTransmissaoDistribuicao.xml",
+       "format": "xml",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/7cd37711-c998-453b-abf6-ebd6144d0565/resource/ba422cfc-db97-412b-ab88-dbd585e994b8/download/fiscaltransmissaodistribuicao.xml"
+      }
+     ],
      "link": {
       "dictionary": "b7fe7f95-05b7-4504-b900-4b3978067e41",
       "part": 0,

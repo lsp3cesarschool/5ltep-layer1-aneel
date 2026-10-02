@@ -1,1 +1,1166 @@
-[]
+[
+ {
+  "id": "290433a8-a5f8-4117-a450-44d3e62ead22",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "new",
+  "since": ""
+ },
+ {
+  "id": "908f7282-7a43-41e9-8303-edcab69c2706",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "new",
+  "since": ""
+ },
+ {
+  "id": "0060645e-c42c-454d-af8c-f0c06b0988ab",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "new",
+  "since": ""
+ },
+ {
+  "id": "a9ea21c7-1b2b-4c91-97b4-3d9732c77cec",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "new",
+  "since": ""
+ },
+ {
+  "id": "d0f619ef-1bbe-40d1-849c-35b47172df8e",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "new",
+  "since": ""
+ },
+ {
+  "id": "99fee086-4cb5-4321-ab76-072318ed73ec",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": ""
+ },
+ {
+  "id": "3b3eb013-8831-4ca9-a582-01010ff4e0fb",
+  "dataset": "acrescimo-da-potencia-instalada",
+  "reason": "schema",
+  "since": "2026-10-01T19:16:14+00:00"
+ },
+ {
+  "id": "64250fc9-4f7a-4d97-b0d4-3c090e005e1c",
+  "dataset": "agentes-do-setor-eletrico",
+  "reason": "schema",
+  "since": "2026-10-01T19:16:22+00:00"
+ },
+ {
+  "id": "5a4aba15-b8f7-4f80-807e-6a12a89b89fb",
+  "dataset": "audiencias-e-consultas-publicas",
+  "reason": "schema",
+  "since": "2026-10-01T19:31:47+00:00"
+ },
+ {
+  "id": "684a68fd-4278-4af1-bcf2-c02810dd7c0c",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:42:53+00:00"
+ },
+ {
+  "id": "237f3f67-4795-4bd7-a4d2-5f6071ef39af",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:42:56+00:00"
+ },
+ {
+  "id": "0bd1f129-39c5-4edc-b272-3f1d11181cca",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:43:01+00:00"
+ },
+ {
+  "id": "f77bb713-cc06-406a-baa8-246acc357ff5",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:43:12+00:00"
+ },
+ {
+  "id": "cdf1b068-7c76-462a-ab57-d6619ad290fa",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:43:22+00:00"
+ },
+ {
+  "id": "e390baae-5304-4a94-854f-0905094b3357",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:43:35+00:00"
+ },
+ {
+  "id": "4fae7803-c71e-4c52-a221-112eea7135ab",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:44:39+00:00"
+ },
+ {
+  "id": "e5231715-4245-4c18-9e67-f52ea56816be",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:44:46+00:00"
+ },
+ {
+  "id": "673841d3-260a-4bd7-9e39-928fe96114f5",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:45:07+00:00"
+ },
+ {
+  "id": "69e189d5-8d75-44cd-a933-afcf75f2909f",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:46:42+00:00"
+ },
+ {
+  "id": "fff5e6ce-ec39-476a-bb95-9b509159b7a5",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:47:58+00:00"
+ },
+ {
+  "id": "a8a9bd1b-319c-4819-9856-28cd82d5afce",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:48:57+00:00"
+ },
+ {
+  "id": "b6393c37-44ab-4a6c-a4b8-75815bf1bb7c",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:50:14+00:00"
+ },
+ {
+  "id": "19566828-abda-4c70-a970-040ae3beee28",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:51:22+00:00"
+ },
+ {
+  "id": "e7cd0297-c8b4-4cd1-8d9d-cb8e9e1dfc74",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:52:16+00:00"
+ },
+ {
+  "id": "9776db17-b1af-47a7-bc6c-ac8ef40113ae",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:53:18+00:00"
+ },
+ {
+  "id": "162f9745-85b0-42cc-a98a-b7e8cdb5dbfc",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:54:56+00:00"
+ },
+ {
+  "id": "c1fa52b2-223d-4c46-8b9e-b01470b16d6e",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:57:10+00:00"
+ },
+ {
+  "id": "437571fd-9f8f-4320-8072-31ed04c97408",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T19:59:05+00:00"
+ },
+ {
+  "id": "11100b9b-344e-4176-aa76-31cf07d92d65",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:00:07+00:00"
+ },
+ {
+  "id": "c9cbca33-8614-4b03-b000-6a4a859a4bf2",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:04:55+00:00"
+ },
+ {
+  "id": "85bda7bd-f371-4f04-b153-8026546b173e",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:06:56+00:00"
+ },
+ {
+  "id": "c1f064bd-5bff-4263-94d1-68884be850ba",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:09:04+00:00"
+ },
+ {
+  "id": "944d0114-0d8d-4315-aea4-034189aa4b23",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:11:38+00:00"
+ },
+ {
+  "id": "0c3526c9-3318-48b4-ab11-8c0bac57fbad",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:13:12+00:00"
+ },
+ {
+  "id": "26babd50-d887-4694-a8ba-b2f0bec5d8c1",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:15:12+00:00"
+ },
+ {
+  "id": "65547189-5d1f-4e99-8efe-a3923fcd47cc",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:16:40+00:00"
+ },
+ {
+  "id": "8a09ff6c-e997-4ab3-a07b-c136d462a4d4",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:18:00+00:00"
+ },
+ {
+  "id": "7a3809d0-0d63-490a-be4f-1722db5f519c",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:19:13+00:00"
+ },
+ {
+  "id": "9c019271-832b-4a79-9802-5b3120e08039",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:20:23+00:00"
+ },
+ {
+  "id": "34fa1179-233e-4fe7-8657-56225afb6e1b",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:22:35+00:00"
+ },
+ {
+  "id": "a053ec33-4b70-415f-a011-313c9dfc952b",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:23:36+00:00"
+ },
+ {
+  "id": "502cbb9c-5763-4bca-ae4f-e9b29acba4f8",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:24:51+00:00"
+ },
+ {
+  "id": "26589323-58a4-4b1b-a09c-8b4898f9348f",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:26:00+00:00"
+ },
+ {
+  "id": "0c9855fe-40de-46b7-a32a-577994f86722",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:27:02+00:00"
+ },
+ {
+  "id": "5fd04691-4570-4459-ba65-39b17c5e963b",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:28:18+00:00"
+ },
+ {
+  "id": "9c571497-e30f-44e1-bf83-42d5f3e68658",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:30:00+00:00"
+ },
+ {
+  "id": "8337fe53-94a9-4ab1-abfe-48293aa103fa",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:32:04+00:00"
+ },
+ {
+  "id": "78d58050-f7bf-4e17-9af0-706e182e05e7",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:33:34+00:00"
+ },
+ {
+  "id": "3d52ac29-59a7-4fd9-a206-68f57e5e6f18",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:35:03+00:00"
+ },
+ {
+  "id": "d3dd0704-9c99-45c1-b298-c28f63bb6848",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:36:20+00:00"
+ },
+ {
+  "id": "992aa5fb-6a2d-4bf8-8abe-174ba6c95dfe",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:38:10+00:00"
+ },
+ {
+  "id": "d0437ed9-45a4-4f62-8a7d-90b27c87726e",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:40:22+00:00"
+ },
+ {
+  "id": "2e6d3d91-50c9-44b0-9967-cf0edaf7b2df",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:42:02+00:00"
+ },
+ {
+  "id": "99edb958-2828-402b-ba5b-a4a4e91f20f9",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:44:00+00:00"
+ },
+ {
+  "id": "1975a3f7-b6a9-4e97-98c1-38becb743ef7",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:45:29+00:00"
+ },
+ {
+  "id": "effb57ee-20ed-4266-abce-ba33e44f53dc",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:47:28+00:00"
+ },
+ {
+  "id": "0523ee9b-cb55-4a02-a839-cb92b81775fd",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:49:31+00:00"
+ },
+ {
+  "id": "6b7efcac-f042-4278-97d4-90bd3cec84e9",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:51:11+00:00"
+ },
+ {
+  "id": "73e519ed-dbfa-4533-8dc0-fc4b8448b3c1",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:53:03+00:00"
+ },
+ {
+  "id": "9730a17d-f721-4521-b200-9346d0dfa8a3",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:54:52+00:00"
+ },
+ {
+  "id": "9e7d8d2f-7188-42b2-bc99-12e8f19d77b9",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:56:28+00:00"
+ },
+ {
+  "id": "dcaf68ca-510d-4520-a290-84f3cfc215eb",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:58:07+00:00"
+ },
+ {
+  "id": "fb8580e8-61a1-43ed-8ed8-59335187d9ff",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T20:59:46+00:00"
+ },
+ {
+  "id": "736586f3-9ccc-49de-a3b5-ff1e6e26b780",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:02:01+00:00"
+ },
+ {
+  "id": "cd93c9f6-fd79-417a-808f-422c74e1d0e5",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:04:31+00:00"
+ },
+ {
+  "id": "e6585c3a-2a93-4083-bf24-bbcea6964865",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:06:02+00:00"
+ },
+ {
+  "id": "6ec535e2-b6b1-4f7d-824a-3f0d3e4682d1",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:07:59+00:00"
+ },
+ {
+  "id": "db06581c-a4b4-4211-8a1b-9bb134306d82",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:09:44+00:00"
+ },
+ {
+  "id": "dca9a28e-8649-421d-ac92-bae336ffd8f6",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:12:13+00:00"
+ },
+ {
+  "id": "5f2b0a13-d869-4057-9f42-bb0074df7e61",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:14:52+00:00"
+ },
+ {
+  "id": "224ea6ff-60de-4b5d-bfbd-a4d1c9c4c46a",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:16:45+00:00"
+ },
+ {
+  "id": "d97c6259-f38a-4d44-89a7-c9be79b144f0",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:18:36+00:00"
+ },
+ {
+  "id": "40b39033-16e5-43d5-892f-ff6d68129df3",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:20:52+00:00"
+ },
+ {
+  "id": "74402f0b-a475-4eca-837e-b4f8dcf2ffeb",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:22:58+00:00"
+ },
+ {
+  "id": "75e1c189-010c-4186-a2b6-2d889ada6927",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:25:33+00:00"
+ },
+ {
+  "id": "20a283ca-7c3e-42d5-8f7b-2f2fde25c980",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:28:08+00:00"
+ },
+ {
+  "id": "bd8004f6-2b36-45a9-b10f-cb05e7787451",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:30:01+00:00"
+ },
+ {
+  "id": "8e2c96fb-78a6-478c-97aa-707ad33db5b3",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:31:41+00:00"
+ },
+ {
+  "id": "456a0e7c-f4d3-401e-8cec-b4299253b4ee",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:34:13+00:00"
+ },
+ {
+  "id": "4cefdddd-675a-4b6b-b188-466242cb0aca",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:39:51+00:00"
+ },
+ {
+  "id": "bef7067c-4bc9-49d8-9646-9d6acbfbeb20",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:42:00+00:00"
+ },
+ {
+  "id": "c134f271-4234-44f1-827f-46cd8bd11acc",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:43:32+00:00"
+ },
+ {
+  "id": "40f5d88e-4016-4785-9046-40850519cb52",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:45:03+00:00"
+ },
+ {
+  "id": "91611e61-03b5-4abc-81ee-b73af4662767",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:47:22+00:00"
+ },
+ {
+  "id": "2f80cdc0-1663-4769-b9df-68746e9f7dbb",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:48:42+00:00"
+ },
+ {
+  "id": "7ba4a293-5cc6-402c-a24f-0f4c4e33c9f4",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:50:05+00:00"
+ },
+ {
+  "id": "957ba099-71ac-4e4d-8709-8940cc20983f",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:51:24+00:00"
+ },
+ {
+  "id": "10f19d45-7dad-49a6-9927-bf0d8abb7cbe",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:52:45+00:00"
+ },
+ {
+  "id": "71187a48-7808-439d-a62c-940c994c7af0",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:54:06+00:00"
+ },
+ {
+  "id": "02a5bce6-a0ae-412b-b255-4fd997ad65c4",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:55:34+00:00"
+ },
+ {
+  "id": "65372c6d-2040-40a6-bc00-4b464d79689d",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:56:52+00:00"
+ },
+ {
+  "id": "3fa9d3c1-7c48-429d-9713-ffdb208eefc6",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T21:58:08+00:00"
+ },
+ {
+  "id": "13504845-7bc0-4ca6-a39b-72fdb6a2ac78",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:01:32+00:00"
+ },
+ {
+  "id": "61d9fd67-2946-42a8-b633-dfc307ac696d",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:02:45+00:00"
+ },
+ {
+  "id": "15f117db-cd9a-421d-bb44-d897e30c673d",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:04:05+00:00"
+ },
+ {
+  "id": "8415fa69-65a6-413c-910a-922f4590603b",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:05:36+00:00"
+ },
+ {
+  "id": "cd5ac512-a450-4e31-8c20-54612032e887",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:07:01+00:00"
+ },
+ {
+  "id": "7d41d4bb-418c-4665-9fb9-0b50499a8eea",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:08:45+00:00"
+ },
+ {
+  "id": "16c4065a-1e32-425a-af8b-990027f03c1d",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:10:04+00:00"
+ },
+ {
+  "id": "e8b75d08-89d0-4bb8-a412-59f71465333b",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:11:23+00:00"
+ },
+ {
+  "id": "d31f2c92-eac1-42bf-93b5-738f539863db",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:13:23+00:00"
+ },
+ {
+  "id": "f65391d7-1ed8-4dcd-9981-b72bf93825c9",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:15:37+00:00"
+ },
+ {
+  "id": "ffa4d920-8243-4ff3-a46f-57496748322b",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:17:02+00:00"
+ },
+ {
+  "id": "7fc31e48-0e3c-444a-a26e-869f8ba7bdbe",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:18:35+00:00"
+ },
+ {
+  "id": "6e0153b1-e938-4c67-8c01-e7742c7228e8",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:19:57+00:00"
+ },
+ {
+  "id": "f99097fa-6abd-4ce0-96a1-7c231343be43",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:21:28+00:00"
+ },
+ {
+  "id": "d4d13b7f-16a4-4f42-836c-ae717e4c546a",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:22:56+00:00"
+ },
+ {
+  "id": "00202b52-3c74-4e87-89ab-d4af87e29530",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:24:10+00:00"
+ },
+ {
+  "id": "cf43fb13-a8e7-46b9-92ce-bb19e3c15189",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:25:28+00:00"
+ },
+ {
+  "id": "55b448fd-d402-47c3-9d86-c7b68b09bec4",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:26:42+00:00"
+ },
+ {
+  "id": "3ca864da-a2e4-4028-a609-0adf74208f53",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:27:59+00:00"
+ },
+ {
+  "id": "f7c68322-44de-4bec-97d6-73307508d21f",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:29:10+00:00"
+ },
+ {
+  "id": "d9852c6d-6678-44fe-9f1d-a6f94bb5eb6a",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:30:27+00:00"
+ },
+ {
+  "id": "0c67ed8d-db5e-4db6-b503-a0691acb1763",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:31:30+00:00"
+ },
+ {
+  "id": "879116ac-6de8-43ae-bc9d-baf41d265983",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:32:29+00:00"
+ },
+ {
+  "id": "6439f884-4b99-4026-82b8-c41eceeaa2cf",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:33:50+00:00"
+ },
+ {
+  "id": "ff5c84d0-227d-4340-8b15-4e583dd94120",
+  "dataset": "beneficiarios-da-cde",
+  "reason": "schema",
+  "since": "2026-10-01T22:34:59+00:00"
+ },
+ {
+  "id": "6fbee0f8-2617-4879-a69a-6b7892f12dad",
+  "dataset": "capacidade-instalada-por-unidade-da-federacao",
+  "reason": "schema",
+  "since": "2026-10-01T22:36:45+00:00"
+ },
+ {
+  "id": "9e63214b-f262-46cb-a0e1-cb3c634368a0",
+  "dataset": "cfurh",
+  "reason": "schema",
+  "since": "2026-10-01T22:36:46+00:00"
+ },
+ {
+  "id": "003b55b9-0864-4645-b3c3-b1d91c58bfba",
+  "dataset": "cfurh",
+  "reason": "schema",
+  "since": "2026-10-01T22:36:47+00:00"
+ },
+ {
+  "id": "96f5df6c-459b-49bc-b3f4-f0f00fcaccf0",
+  "dataset": "cfurh",
+  "reason": "schema",
+  "since": "2026-10-01T22:36:48+00:00"
+ },
+ {
+  "id": "518a4804-6c34-4559-8034-9f2cfe4a4049",
+  "dataset": "cfurh",
+  "reason": "schema",
+  "since": "2026-10-01T22:36:49+00:00"
+ },
+ {
+  "id": "21ee5fa9-669b-4220-bbc6-c077079f3cfe",
+  "dataset": "cfurh",
+  "reason": "schema",
+  "since": "2026-10-01T22:36:51+00:00"
+ },
+ {
+  "id": "df09e492-0927-4873-8488-31d854a14709",
+  "dataset": "cfurh",
+  "reason": "schema",
+  "since": "2026-10-01T22:36:52+00:00"
+ },
+ {
+  "id": "6ad76203-68d8-48c1-a338-a6ff5e6167a7",
+  "dataset": "cfurh",
+  "reason": "schema",
+  "since": "2026-10-01T22:36:55+00:00"
+ },
+ {
+  "id": "93e532ec-5060-4ff8-8881-963624f2f065",
+  "dataset": "cfurh",
+  "reason": "schema",
+  "since": "2026-10-01T22:37:57+00:00"
+ },
+ {
+  "id": "ef4129fc-d72b-47db-9a79-d49f5c5ee879",
+  "dataset": "composicao-societaria-polimero",
+  "reason": "schema",
+  "since": "2026-10-01T22:50:18+00:00"
+ },
+ {
+  "id": "90430056-d594-4f42-8b89-6c15839e5377",
+  "dataset": "conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios",
+  "reason": "schema",
+  "since": "2026-10-01T22:50:42+00:00"
+ },
+ {
+  "id": "a77cacce-6a49-44c7-af20-508aecd4539d",
+  "dataset": "ctr-curva-de-carga",
+  "reason": "schema",
+  "since": "2026-10-01T22:50:43+00:00"
+ },
+ {
+  "id": "b0418edb-038d-4fde-b624-c318d376a734",
+  "dataset": "ctr-curva-de-carga",
+  "reason": "schema",
+  "since": "2026-10-01T22:51:03+00:00"
+ },
+ {
+  "id": "e61fd029-5e78-43be-bed4-873b7b11f04c",
+  "dataset": "empreendimentos-em-operacao",
+  "reason": "schema",
+  "since": "2026-10-01T22:53:17+00:00"
+ },
+ {
+  "id": "476d0490-a225-4de7-89a8-bb7a189f0868",
+  "dataset": "indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente",
+  "reason": "schema",
+  "since": "2026-10-01T23:08:08+00:00"
+ },
+ {
+  "id": "0bb73b5d-b2e1-417d-9873-6de6b2d397d1",
+  "dataset": "indqual-inadimplencia",
+  "reason": "schema",
+  "since": "2026-10-01T23:11:03+00:00"
+ },
+ {
+  "id": "11f8d9bd-6d99-4d69-8edb-45c058da746f",
+  "dataset": "indqual-inadimplencia",
+  "reason": "schema",
+  "since": "2026-10-01T23:11:17+00:00"
+ },
+ {
+  "id": "6c3e074c-d9ab-4840-8c6c-7993faa36ddb",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "schema",
+  "since": "2026-10-01T23:48:42+00:00"
+ },
+ {
+  "id": "426f4fb2-6a89-452a-8236-cc48153ee607",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "schema",
+  "since": "2026-10-01T23:48:44+00:00"
+ },
+ {
+  "id": "4af32411-da8b-492c-ae15-8f615e35d2e2",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "schema",
+  "since": "2026-10-01T23:49:09+00:00"
+ },
+ {
+  "id": "83839c4e-78f9-4f68-bcb7-51dcfcf05c9c",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "schema",
+  "since": "2026-10-01T23:49:43+00:00"
+ },
+ {
+  "id": "8c42c510-6549-4285-817c-58738914be19",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "schema",
+  "since": "2026-10-01T23:50:20+00:00"
+ },
+ {
+  "id": "11473878-1059-44f8-abf0-677212ff247b",
+  "dataset": "qualidade-do-atendimento-comercial",
+  "reason": "schema",
+  "since": "2026-10-02T00:13:54+00:00"
+ },
+ {
+  "id": "e3724332-7de8-4273-8f0d-b20ebb91bf7c",
+  "dataset": "qualidade-do-atendimento-comercial",
+  "reason": "schema",
+  "since": "2026-10-02T00:14:09+00:00"
+ },
+ {
+  "id": "8a794ee4-3d41-4ce7-a80a-ae7702a16b7b",
+  "dataset": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
+  "reason": "schema",
+  "since": "2026-10-02T00:14:20+00:00"
+ },
+ {
+  "id": "f08f3f8f-db6f-4c3b-9f4f-7179d099c255",
+  "dataset": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
+  "reason": "schema",
+  "since": "2026-10-02T00:14:22+00:00"
+ },
+ {
+  "id": "a1328fc1-f06b-437d-8893-57ac2c8103df",
+  "dataset": "resultado-de-leiloes",
+  "reason": "schema",
+  "since": "2026-10-02T00:16:20+00:00"
+ },
+ {
+  "id": "0ed659f8-eb6c-4fe9-8784-36df0e07c74a",
+  "dataset": "reunioes-publicas-da-diretoria",
+  "reason": "schema",
+  "since": "2026-10-02T00:16:21+00:00"
+ },
+ {
+  "id": "ebe17185-a400-4f7a-a680-87c7d67f43dc",
+  "dataset": "seguranca-do-trabalho-e-das-instalacoes",
+  "reason": "schema",
+  "since": "2026-10-02T00:24:37+00:00"
+ },
+ {
+  "id": "f5afe5c7-75b2-47e3-97d6-06b2bdd142dc",
+  "dataset": "seguranca-do-trabalho-e-das-instalacoes",
+  "reason": "schema",
+  "since": "2026-10-02T00:24:41+00:00"
+ },
+ {
+  "id": "11ec447d-698d-4ab8-977f-b424d5deee6a",
+  "dataset": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+  "reason": "schema",
+  "since": "2026-10-02T00:24:41+00:00"
+ },
+ {
+  "id": "2f65a1b0-19b8-4360-8238-b34ab4693d55",
+  "dataset": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+  "reason": "schema",
+  "since": "2026-10-02T00:24:42+00:00"
+ },
+ {
+  "id": "bed05cd1-636e-4a94-839c-0a08c0a7a9db",
+  "dataset": "slc-sistema-de-licitacoes-e-contratos",
+  "reason": "schema",
+  "since": "2026-10-02T00:25:24+00:00"
+ },
+ {
+  "id": "325c828c-1cde-485e-9571-a412fa64f768",
+  "dataset": "subsidios-tarifarios",
+  "reason": "schema",
+  "since": "2026-10-02T00:25:24+00:00"
+ },
+ {
+  "id": "84ba04eb-0a82-423c-9aac-aab4ce8102a3",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "reason": "schema",
+  "since": "2026-10-02T00:27:23+00:00"
+ },
+ {
+  "id": "9914bb13-27a9-45c0-8d31-ae2473fbecc4",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "reason": "schema",
+  "since": "2026-10-02T00:27:23+00:00"
+ },
+ {
+  "id": "0e3cb385-65d2-4b9e-ae50-f1e217e4e3bf",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "reason": "schema",
+  "since": "2026-10-02T00:27:23+00:00"
+ },
+ {
+  "id": "d4549533-b969-43fa-a1d4-7b75d7868a03",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "reason": "schema",
+  "since": "2026-10-02T00:27:24+00:00"
+ },
+ {
+  "id": "18c5fcae-1b7f-40a4-b092-d47344d4d195",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "reason": "schema",
+  "since": "2026-10-02T00:27:24+00:00"
+ },
+ {
+  "id": "93d50388-a4dd-4c31-a9e6-065ade8078f3",
+  "dataset": "ouvidoria-setorial-aneel",
+  "reason": "changed",
+  "since": "2026-10-02T00:06:46+00:00"
+ },
+ {
+  "id": "1ee51181-9d1f-40f1-ae6e-61719d276b28",
+  "dataset": "ouvidoria-setorial-aneel",
+  "reason": "changed",
+  "since": "2026-10-02T00:07:01+00:00"
+ },
+ {
+  "id": "43386a8b-4781-44ec-a082-fa7fdfe33186",
+  "dataset": "pautas-e-atas-das-reunioes-publicas-da-diretoria",
+  "reason": "changed",
+  "since": "2026-10-02T00:07:11+00:00"
+ },
+ {
+  "id": "eca732ac-4f08-401f-b1cf-f9eff88a9b20",
+  "dataset": "sigec-sistema-de-gestao-de-creditos",
+  "reason": "changed",
+  "since": "2026-10-02T00:24:43+00:00"
+ },
+ {
+  "id": "0bf361e5-dc58-4380-95f0-b61a55ec3423",
+  "dataset": "sigec-sistema-de-gestao-de-creditos",
+  "reason": "changed",
+  "since": "2026-10-02T00:24:44+00:00"
+ },
+ {
+  "id": "a1366325-1071-4eeb-94bd-27915747b177",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:04+00:00"
+ },
+ {
+  "id": "caec5e88-c904-45e5-bde4-d7e96ef139b6",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:07+00:00"
+ },
+ {
+  "id": "4343dcda-284a-4ede-b3b9-e809ea18385c",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:08+00:00"
+ },
+ {
+  "id": "89caca18-e9a8-484c-8772-c67b456d801a",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:08+00:00"
+ },
+ {
+  "id": "7c4e7f67-b674-4223-89c5-83c95cea1450",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:09+00:00"
+ },
+ {
+  "id": "59ab6779-505e-4aa9-8641-3e07aca25699",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:10+00:00"
+ },
+ {
+  "id": "60e111c3-6ee1-412e-abe3-bc15af897537",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:12+00:00"
+ },
+ {
+  "id": "1c345514-893d-44a1-8e7e-a9362137c356",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:12+00:00"
+ },
+ {
+  "id": "1d342bc9-4cbd-4c07-9cd4-02f6927175b9",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:14+00:00"
+ },
+ {
+  "id": "1effe1be-c6ff-4ffb-93b6-ed74228edea1",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:14+00:00"
+ },
+ {
+  "id": "e5c1141e-c08c-46a5-bb55-68d66152033a",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:15+00:00"
+ },
+ {
+  "id": "4a6c2449-c073-4a4a-b639-4e5359a102bf",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:15+00:00"
+ },
+ {
+  "id": "5e4e4916-fd70-44c7-a0eb-92bfb4efad6b",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:16+00:00"
+ },
+ {
+  "id": "ce4a2151-9348-42cd-afa7-ff1144387d08",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:21+00:00"
+ },
+ {
+  "id": "f6e911b4-1db8-434a-88aa-6580681773b8",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:21+00:00"
+ },
+ {
+  "id": "d381c304-8483-4974-8055-2dc08c740ddb",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:22+00:00"
+ },
+ {
+  "id": "d7ba6cc7-b5dc-4acd-b38a-e9968cc0a649",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-02T00:25:22+00:00"
+ },
+ {
+  "id": "fcf2906c-7c32-4b9b-a637-054e7a5234f4",
+  "dataset": "tarifas-distribuidoras-energia-eletrica",
+  "reason": "changed",
+  "since": "2026-10-02T00:27:11+00:00"
+ },
+ {
+  "id": "3ff1ab0a-0d0c-4fc6-b52e-050ee6ea19bd",
+  "dataset": "tfsee",
+  "reason": "changed",
+  "since": "2026-10-02T00:27:24+00:00"
+ },
+ {
+  "id": "73b00e68-66b1-4a72-8d72-b7baab47048c",
+  "dataset": "atendimento-ocorrencias-emergenciais",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "cc651c68-a8e6-485f-b1c0-ac36aab0ca47",
+  "dataset": "autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "3ae4d382-7072-4b08-90a4-dcd187a2eae2",
+  "dataset": "base-de-dados-geografica-da-distribuidora-bdgd",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "3f60c1f9-f4a5-411e-b4bd-9559b59f62d3",
+  "dataset": "compensacao-financeira-royalties",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "c46cae4c-3434-464a-9a31-b6eedcdb8f77",
+  "dataset": "desempenho-das-concessionarias-de-transmissao",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "60a1d50d-78c1-41c7-86ec-d1511e436ce3",
+  "dataset": "fiscalizacao-economica-e-financeira",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "f27d877d-a44b-42ad-ac05-4d78ef21af6b",
+  "dataset": "geracao",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "e54ae6ed-0e4d-4fa8-b76f-7aa954c63d4c",
+  "dataset": "indicadores-quantitativos-modelo-vigente-ate-2015",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "8b4971ab-f750-4739-9059-678ab2ebeb23",
+  "dataset": "projetos-de-p-d-temas-estrategicos",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "2824cf06-c04c-4d37-b5b3-07a501b89503",
+  "dataset": "projetos-por-tipologia",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "cf7ad81b-ffcd-4252-9719-86fe4cec593b",
+  "dataset": "projetos-res-n-316-2008-219-2006-e-anteriores",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "862a0727-0dd1-4318-96fd-711b84360bb4",
+  "dataset": "projetos-retornos-e-investimentos",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "e6cb4eb6-3ddb-4fc7-8780-29645f9b35cf",
+  "dataset": "tarifa-social-de-energia-eletrica-beneficiarios",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "9058805d-f9bc-4a33-b88a-942475284114",
+  "dataset": "transmissao-e-distribuicao",
+  "reason": "error",
+  "since": ""
+ }
+]

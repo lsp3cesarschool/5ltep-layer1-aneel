@@ -5,8 +5,8 @@
   "name": "ANEEL",
   "title": "ANEEL open data portal (Dados Abertos ANEEL)"
  },
- "generated_at": "2026-10-02T01:04:42+00:00",
- "census_at": "2026-10-01T19:15:56+00:00",
+ "generated_at": "2026-10-02T17:59:05+00:00",
+ "census_at": "2026-10-02T13:54:58+00:00",
  "method": {
   "rotation_days": 28,
   "sample_rows": 5000,
@@ -33,86 +33,111 @@
   }
  },
  "tables": {
-  "total": 349,
+  "total": 352,
   "by_level": {
    "0": 72,
-   "1": 237,
+   "1": 240,
    "2": 0,
    "3": 1,
    "4": 39
   },
-  "validated": 334,
-  "validation_coverage": 0.957,
-  "errors": 15,
-  "queue_remaining": 0
+  "validated": 330,
+  "validation_coverage": 0.9375,
+  "errors": 22,
+  "queue_remaining": 117
  },
  "schema_sources": {
+  "extracted": 64,
   "datastore": 39
  },
  "conformance_by_source": {
+  "extracted": {
+   "verifiable": 64,
+   "conformant": 3,
+   "l1_rate": 0.0469
+  },
   "datastore": {
    "verifiable": 39,
    "conformant": 39,
    "l1_rate": 1.0
   }
  },
- "verifiable": 39,
- "conformant": 39,
- "l1_rate": 1.0,
- "l1_pass": true,
+ "verifiable": 103,
+ "conformant": 42,
+ "l1_rate": 0.4078,
+ "l1_pass": false,
  "drift": {
   "observed": 0,
   "declared": 0,
-  "files_with_baseline": 334,
-  "first_baseline_at": "2026-10-01T19:16:14+00:00",
-  "last_observed_at": "2026-10-02T00:29:02+00:00"
+  "files_with_baseline": 332,
+  "first_baseline_at": "2026-10-01T19:16:18+00:00",
+  "last_observed_at": "2026-10-02T17:53:07+00:00"
  },
  "coverage": {
-  "files": 349,
-  "read": 334,
+  "files": 352,
+  "read": 330,
   "empty": 0,
   "not_tabular": 0,
-  "not_downloaded": 15,
+  "not_downloaded": 22,
   "pending": 0,
   "not_downloaded_by_reason": {
    "redirect loop": 12,
-   "other": 2,
-   "Timeout": 1
+   "SSLError": 8,
+   "Timeout": 1,
+   "other": 1
   },
   "not_downloaded_by_host": {
    "redirect loop · dadosabertos.aneel.gov.br": 12,
-   "other · dadosabertos.aneel.gov.br": 2,
-   "Timeout · dadosabertos.aneel.gov.br": 1
+   "SSLError · dadosabertos.aneel.gov.br": 8,
+   "Timeout · dadosabertos.aneel.gov.br": 1,
+   "other · dadosabertos.aneel.gov.br": 1
   },
-  "read_without_schema": 295,
-  "checked": 39,
-  "conform": 39,
-  "fail_missing_fields": 0,
-  "fail_undeclared_columns": 0,
-  "fail_cells_over_limit": 0,
-  "fail_only_cells": 0
+  "read_without_schema": 227,
+  "checked": 103,
+  "conform": 42,
+  "fail_missing_fields": 8,
+  "fail_undeclared_columns": 8,
+  "fail_cells_over_limit": 53,
+  "fail_only_cells": 53
+ },
+ "not_tables": {
+  "count": 0,
+  "resources": []
+ },
+ "distributions": {
+  "tables_with_other_formats": 114,
+  "other_formats": 0,
+  "compared": 0,
+  "same_columns": 0,
+  "different_columns": 0,
+  "not_compared": {},
+  "by_format": {}
  },
  "network": {
   "total": {
-   "files": 349,
-   "failed_files": 15,
-   "gb": 57.58,
-   "minutes": 253.0,
-   "end_to_end_mb_s": 3.79,
-   "zip_download_mb_s": 8.64,
-   "first_byte_s_median": 0.29,
-   "request_failures": {}
+   "files": 352,
+   "failed_files": 22,
+   "gb": 55.29,
+   "minutes": 378.0,
+   "end_to_end_mb_s": 2.44,
+   "zip_download_mb_s": 6.53,
+   "first_byte_s_median": 0.38,
+   "request_failures": {
+    "SSLError": 3
+   }
   },
   "by_host": {
    "dadosabertos.aneel.gov.br": {
-    "files": 349,
-    "failed_files": 15,
-    "gb": 57.58,
-    "minutes": 253.0,
-    "end_to_end_mb_s": 3.79,
-    "zip_download_mb_s": 8.64,
-    "first_byte_s_median": 0.29,
-    "request_failures": {}
+    "files": 352,
+    "failed_files": 22,
+    "gb": 55.29,
+    "minutes": 378.0,
+    "end_to_end_mb_s": 2.44,
+    "zip_download_mb_s": 6.53,
+    "first_byte_s_median": 0.38,
+    "request_failures": {
+     "SSLError": 3
+    }
    }
   }
  },
@@ -133,11 +158,11 @@
    "naming_another_dataset": 0
   },
   "links": {
-   "tables": 349,
+   "tables": 352,
    "by_method": {
-    "single": 243,
+    "single": 248,
     "none": 80,
-    "name": 26
+    "name": 24
    },
    "fields_listed_in_description": 0
   },
@@ -151,36 +176,45 @@
    "date_fields_with_declared_format": null
   },
   "files_vs_dictionaries": {
-   "checked": 39,
-   "with_declared_fields_missing": 0,
-   "with_undeclared_columns": 0,
+   "checked": 103,
+   "with_declared_fields_missing": 8,
+   "with_undeclared_columns": 8,
    "with_spelling_differences": 0,
-   "with_probable_typos": 0,
-   "probable_typos": 0,
-   "declared_fields_missing": 0,
+   "with_similar_names": 8,
+   "similar_names": 8,
+   "declared_fields_missing": 96,
    "formats_inferred_from_data": {
-    "format": 82
+    "format": 146,
+    "decimalChar": 55,
+    "type": 8,
+    "groupChar": 50
    }
   },
   "files": {
-   "validated": 334,
+   "validated": 330,
    "encodings": {
-    "utf-8": 291,
+    "utf-8": 282,
     "cp1252": 43
    },
    "delimiters": {
-    ";": 234,
-    ",": 100
+    ";": 232,
+    ",": 93
    },
-   "with_decode_errors": 105,
+   "with_decode_errors": 98,
    "with_ragged_rows": 2,
    "zips_with_several_headers": 0,
    "with_columns_without_name": 0,
    "not_tabular": 0,
+   "not_tables": 0,
+   "formats": {
+    "csv": 325,
+    "parquet": 5
+   },
    "unreachable_by_reason": {
     "redirect loop": 12,
-    "other": 2,
-    "Timeout": 1
+    "SSLError": 8,
+    "Timeout": 1,
+    "other": 1
    }
   },
   "pdf_extraction": {
@@ -190,7 +224,7 @@
     "extracted": 33,
     "suggested": 41
    },
-   "with_probable_typos": 14,
+   "with_similar_names": 14,
    "deterministic": {
     "with_oracle": 63,
     "recall": 0.9107,
@@ -212,9 +246,9 @@
    "name": "acrescimo-da-potencia-instalada",
    "level": 1,
    "tables": 1,
-   "verifiable": 0,
-   "conformant": 0,
-   "l1_rate": null
+   "verifiable": 1,
+   "conformant": 1,
+   "l1_rate": 1.0
   },
   {
    "name": "agentes-de-geracao-de-energia-eletrica",
@@ -228,9 +262,9 @@
    "name": "agentes-do-setor-eletrico",
    "level": 1,
    "tables": 1,
-   "verifiable": 0,
-   "conformant": 0,
-   "l1_rate": null
+   "verifiable": 1,
+   "conformant": 1,
+   "l1_rate": 1.0
   },
   {
    "name": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
@@ -260,9 +294,9 @@
    "name": "audiencias-e-consultas-publicas",
    "level": 1,
    "tables": 1,
-   "verifiable": 0,
-   "conformant": 0,
-   "l1_rate": null
+   "verifiable": 1,
+   "conformant": 1,
+   "l1_rate": 1.0
   },
   {
    "name": "auto-de-infracao",
@@ -300,9 +334,9 @@
    "name": "beneficiarios-da-cde",
    "level": 1,
    "tables": 109,
-   "verifiable": 0,
+   "verifiable": 61,
    "conformant": 0,
-   "l1_rate": null
+   "l1_rate": 0.0
   },
   {
    "name": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
@@ -331,7 +365,7 @@
   {
    "name": "cfurh",
    "level": 1,
-   "tables": 10,
+   "tables": 8,
    "verifiable": 0,
    "conformant": 0,
    "l1_rate": null
@@ -523,7 +557,7 @@
   {
    "name": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
    "level": 1,
-   "tables": 5,
+   "tables": 10,
    "verifiable": 0,
    "conformant": 0,
    "l1_rate": null

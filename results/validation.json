@@ -1,17 +1,28 @@
 {
  "3b3eb013-8831-4ca9-a582-01010ff4e0fb": {
   "dataset": "acrescimo-da-potencia-instalada",
-  "checked_at": "2026-10-01T19:16:14+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:04:45+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "b4504fe02cc1eb0f",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/4bf07812-e421-48f3-8e48-eec0040764ba/resource/3b3eb013-8831-4ca9-a582-01010ff4e0fb/download/acrescimo-anual-potencia-instalada.csv",
    "last_modified": "2026-07-07T18:09:12.925886",
    "size": 1337
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.75
+  },
+  "first_seen": "2026-10-02T14:04:45+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    true
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:16:14+00:00",
-  "seconds": 3.1,
+  "validated_at": "2026-10-02T14:04:45+00:00",
+  "seconds": 0.8,
   "sha256": "8d4c9a8e421ad3ccfb21bd12d0d112e3015811670085fde82ba87f2dd5afb5db",
   "bytes": 1337,
   "kind": "csv",
@@ -26,12 +37,39 @@
    "ragged_rows": 0,
    "decode_errors": 0,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ";"
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 5,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 130,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%Y-%m-%d"
+     },
+     "MdaPotenciaMW": {
+      "decimalChar": ","
+     },
+     "MdaAcrescimoPotenciaMW": {
+      "decimalChar": ","
+     }
+    },
+    "pass": true
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -40,7 +78,7 @@
    "MdaPotenciaMW",
    "MdaAcrescimoPotenciaMW"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "20ef769f-a072-489d-9df4-c834529f8a78": {
   "dataset": "agentes-de-geracao-de-energia-eletrica",
@@ -92,17 +130,28 @@
  },
  "64250fc9-4f7a-4d97-b0d4-3c090e005e1c": {
   "dataset": "agentes-do-setor-eletrico",
-  "checked_at": "2026-10-01T19:16:22+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:04:46+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "8a916d3ed1ccab32",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/71d1007e-7e14-4875-8758-7e3a0d1118df/resource/64250fc9-4f7a-4d97-b0d4-3c090e005e1c/download/agentes-setor-eletrico.csv",
    "last_modified": "2026-10-01T05:01:19.591546",
    "size": 944749
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.84
+  },
+  "first_seen": "2026-10-02T14:04:46+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    true
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:16:22+00:00",
-  "seconds": 6.4,
+  "validated_at": "2026-10-02T14:04:46+00:00",
+  "seconds": 2.5,
   "sha256": "63e75acf405e6eac9992893ccab5732bf3a9ebaabfd463a124cafbf0c23cbd1a",
   "bytes": 944749,
   "kind": "csv",
@@ -117,12 +166,33 @@
    "ragged_rows": 0,
    "decode_errors": 0,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ";"
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 9,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 89982,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%Y-%m-%d"
+     }
+    },
+    "pass": true
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -135,7 +205,7 @@
    "IdcGeracao",
    "IdcTransmissao"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "485b47f2-7929-4bff-bdde-0414f73bc266": {
   "dataset": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
@@ -506,17 +576,28 @@
  },
  "5a4aba15-b8f7-4f80-807e-6a12a89b89fb": {
   "dataset": "audiencias-e-consultas-publicas",
-  "checked_at": "2026-10-01T19:31:47+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:04:48+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "0ad17a5c1cd6122e",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/db3838bc-96b4-4335-9061-ca330f5bb39a/resource/5a4aba15-b8f7-4f80-807e-6a12a89b89fb/download/audiencias-consultas-publicas-aneel.csv",
    "last_modified": "2026-10-01T09:00:46.939128",
    "size": 1580
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.22
+  },
+  "first_seen": "2026-10-02T14:04:48+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    true
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:31:47+00:00",
-  "seconds": 2.7,
+  "validated_at": "2026-10-02T14:04:48+00:00",
+  "seconds": 0.2,
   "sha256": "3303468e4f4fb61d9f951e79aca28012dff5b1f9fdb1710fc19a1129d51527e8",
   "bytes": 1580,
   "kind": "csv",
@@ -531,12 +612,33 @@
    "ragged_rows": 0,
    "decode_errors": 0,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ";"
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 15,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 210,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%Y-%m-%d"
+     }
+    },
+    "pass": true
+   }
   },
   "header": [
    "AnoReferencia",
@@ -555,7 +657,7 @@
    "QtdAceitasAP",
    "DatGeracaoConjuntoDados"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "f221158a-93a3-423f-b794-4312b6985a24": {
   "dataset": "auto-de-infracao",
@@ -1059,17 +1161,28 @@
  },
  "684a68fd-4278-4af1-bcf2-c02810dd7c0c": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:42:53+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:04:49+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/684a68fd-4278-4af1-bcf2-c02810dd7c0c/download/cde-beneficiarios-rede-basica-2017.csv",
    "last_modified": "2026-07-23T12:51:05.509518",
    "size": 357154
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.45
+  },
+  "first_seen": "2026-10-02T14:04:49+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:42:53+00:00",
-  "seconds": 3.3,
+  "validated_at": "2026-10-02T14:04:49+00:00",
+  "seconds": 0.8,
   "sha256": "ac0534e5bdcb9c620ad11854f1a868a7d1557d6037ee470640fb41307ecc4222",
   "bytes": 357154,
   "kind": "csv",
@@ -1084,12 +1197,58 @@
    "ragged_rows": 0,
    "decode_errors": 0,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ";"
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 6214,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1103,21 +1262,32 @@
    "VlrDesconto",
    "VlrCobranca"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "237f3f67-4795-4bd7-a4d2-5f6071ef39af": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:42:56+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:04:49+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/237f3f67-4795-4bd7-a4d2-5f6071ef39af/download/cde-beneficiarios-rede-basica-2018.csv",
    "last_modified": "2026-07-23T12:51:01.177337",
    "size": 798228
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.56
+  },
+  "first_seen": "2026-10-02T14:04:49+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:42:56+00:00",
-  "seconds": 4.8,
+  "validated_at": "2026-10-02T14:04:49+00:00",
+  "seconds": 1.1,
   "sha256": "098c125d954b570c8ab6c5b704f396fd1265dcbf5801267d73e8ceb1ce2630c3",
   "bytes": 798228,
   "kind": "csv",
@@ -1132,12 +1302,58 @@
    "ragged_rows": 0,
    "decode_errors": 0,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ";"
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 13926,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1151,21 +1367,32 @@
    "VlrDesconto",
    "VlrCobranca"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "0bd1f129-39c5-4edc-b272-3f1d11181cca": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:43:01+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:04:51+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/0bd1f129-39c5-4edc-b272-3f1d11181cca/download/cde-beneficiarios-rede-basica-2019.csv",
    "last_modified": "2026-07-23T12:50:55.938496",
    "size": 884451
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.62
+  },
+  "first_seen": "2026-10-02T14:04:51+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:43:01+00:00",
-  "seconds": 11.1,
+  "validated_at": "2026-10-02T14:04:51+00:00",
+  "seconds": 2.9,
   "sha256": "6e6d3ebe0db193ce51a7d2fc9e0d8c8124725dc882da62ed7e102ae23890e740",
   "bytes": 884451,
   "kind": "csv",
@@ -1180,12 +1407,58 @@
    "ragged_rows": 0,
    "decode_errors": 0,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ";"
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 15400,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1199,21 +1472,32 @@
    "VlrDesconto",
    "VlrCobranca"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "f77bb713-cc06-406a-baa8-246acc357ff5": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:43:12+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:04:53+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/f77bb713-cc06-406a-baa8-246acc357ff5/download/cde-beneficiarios-rede-basica-2020.csv",
    "last_modified": "2026-07-23T12:51:09.643413",
    "size": 959044
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.71
+  },
+  "first_seen": "2026-10-02T14:04:53+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:43:12+00:00",
-  "seconds": 10.2,
+  "validated_at": "2026-10-02T14:04:53+00:00",
+  "seconds": 1.2,
   "sha256": "93e49098bb036c9e2eb67e75034f1e41372cfba2eaaaa605d1d31f22c8df1430",
   "bytes": 959044,
   "kind": "csv",
@@ -1228,12 +1512,58 @@
    "ragged_rows": 0,
    "decode_errors": 0,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ";"
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 16594,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1247,21 +1577,32 @@
    "VlrDesconto",
    "VlrCobranca"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "cdf1b068-7c76-462a-ab57-d6619ad290fa": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:43:22+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:04:55+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/cdf1b068-7c76-462a-ab57-d6619ad290fa/download/cde-beneficiarios-rede-basica-2021.csv",
    "last_modified": "2026-07-23T12:50:36.057036",
    "size": 1119746
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.54
+  },
+  "first_seen": "2026-10-02T14:04:55+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:43:22+00:00",
-  "seconds": 12.8,
+  "validated_at": "2026-10-02T14:04:55+00:00",
+  "seconds": 0.9,
   "sha256": "78d87e3f282699f2cb6ef2f4507ea10f6cd772f5dbcd5b433dfddc154a43f9f7",
   "bytes": 1119746,
   "kind": "csv",
@@ -1276,12 +1617,58 @@
    "ragged_rows": 0,
    "decode_errors": 0,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ";"
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 19320,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1295,21 +1682,32 @@
    "VlrDesconto",
    "VlrCobranca"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "e390baae-5304-4a94-854f-0905094b3357": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:43:35+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:04:56+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/e390baae-5304-4a94-854f-0905094b3357/download/cde-beneficiarios-rede-basica-2022.csv",
    "last_modified": "2026-07-23T12:50:51.609092",
    "size": 1383515
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.68
+  },
+  "first_seen": "2026-10-02T14:04:56+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:43:35+00:00",
-  "seconds": 64.2,
+  "validated_at": "2026-10-02T14:04:56+00:00",
+  "seconds": 1.0,
   "sha256": "7f29a25c83ffaa864c2daf3e13699b4f28eb7f080d9d7d0f534b7de375de1d82",
   "bytes": 1383515,
   "kind": "csv",
@@ -1324,12 +1722,58 @@
    "ragged_rows": 0,
    "decode_errors": 0,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ";"
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 23952,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1343,21 +1787,32 @@
    "VlrDesconto",
    "VlrCobranca"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "4fae7803-c71e-4c52-a221-112eea7135ab": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:44:39+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:04:57+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/4fae7803-c71e-4c52-a221-112eea7135ab/download/cde-beneficiarios-rede-basica-2023.csv",
    "last_modified": "2026-07-23T12:50:41.354559",
    "size": 1714748
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.97
+  },
+  "first_seen": "2026-10-02T14:04:57+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:44:39+00:00",
-  "seconds": 6.9,
+  "validated_at": "2026-10-02T14:04:57+00:00",
+  "seconds": 1.4,
   "sha256": "25eb6abcf721a1805b7d2e8505fc7e61d96f1a9624cca37fde8be781ad6efeba",
   "bytes": 1714748,
   "kind": "csv",
@@ -1372,12 +1827,58 @@
    "ragged_rows": 0,
    "decode_errors": 0,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ";"
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 29412,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1391,21 +1892,32 @@
    "VlrDesconto",
    "VlrCobranca"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "e5231715-4245-4c18-9e67-f52ea56816be": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:44:46+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:04:58+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/e5231715-4245-4c18-9e67-f52ea56816be/download/cde-beneficiarios-rede-basica-2024.csv",
    "last_modified": "2026-07-23T12:50:47.167519",
    "size": 1878019
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.63
+  },
+  "first_seen": "2026-10-02T14:04:58+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:44:46+00:00",
-  "seconds": 20.7,
+  "validated_at": "2026-10-02T14:04:58+00:00",
+  "seconds": 1.0,
   "sha256": "81922660ea7848c1f63fde5d5a679fd50b42eb1b150ec14e0897450acbd6242e",
   "bytes": 1878019,
   "kind": "csv",
@@ -1420,12 +1932,58 @@
    "ragged_rows": 0,
    "decode_errors": 0,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ";"
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 32734,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1439,21 +1997,33 @@
    "VlrDesconto",
    "VlrCobranca"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "673841d3-260a-4bd7-9e39-928fe96114f5": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:45:07+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:04:59+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/673841d3-260a-4bd7-9e39-928fe96114f5/download/cde-beneficiarios-01jan2018.zip",
    "last_modified": "2026-07-24T17:30:19.773805",
    "size": 218987146
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.51,
+   "download_s": 31.54
+  },
+  "first_seen": "2026-10-02T14:04:59+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:45:07+00:00",
-  "seconds": 95.6,
+  "validated_at": "2026-10-02T14:04:59+00:00",
+  "seconds": 186.8,
   "sha256": "0c6b6b0b6db84d117328aa8288989077477c235ddd9e3b5608c8bed8bb68bfb7",
   "bytes": 218987146,
   "kind": "zip",
@@ -1468,12 +2038,50 @@
    "ragged_rows": 0,
    "decode_errors": 4087,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 159922462,
+    "cells_with_errors": 11423033,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 11423033,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1491,21 +2099,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "69e189d5-8d75-44cd-a933-afcf75f2909f": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:46:42+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:08:06+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/69e189d5-8d75-44cd-a933-afcf75f2909f/download/cde-beneficiarios-01feb2018.zip",
    "last_modified": "2026-07-24T17:29:12.485592",
    "size": 240942901
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.08,
+   "download_s": 59.89
+  },
+  "first_seen": "2026-10-02T14:08:06+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:46:42+00:00",
-  "seconds": 75.6,
+  "validated_at": "2026-10-02T14:08:06+00:00",
+  "seconds": 226.5,
   "sha256": "32642a2ffd61f61c5f3384c1eda91459f9ddfaa78e4f9e9da7e3d964b384cae2",
   "bytes": 240942901,
   "kind": "zip",
@@ -1520,12 +2140,50 @@
    "ragged_rows": 0,
    "decode_errors": 4112,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 175286202,
+    "cells_with_errors": 12520443,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12520443,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1543,21 +2201,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "fff5e6ce-ec39-476a-bb95-9b509159b7a5": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:47:58+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:11:53+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/fff5e6ce-ec39-476a-bb95-9b509159b7a5/download/cde-beneficiarios-01mar2018.zip",
    "last_modified": "2026-07-24T17:33:19.733950",
    "size": 248657677
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.26,
+   "download_s": 26.86
+  },
+  "first_seen": "2026-10-02T14:11:53+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:47:58+00:00",
-  "seconds": 59.1,
+  "validated_at": "2026-10-02T14:11:53+00:00",
+  "seconds": 198.1,
   "sha256": "b5b47d580a2dc5d4575f7703d985972f56ab1a0ee5f89fdf794a85f5468a24bf",
   "bytes": 248657677,
   "kind": "zip",
@@ -1572,12 +2242,50 @@
    "ragged_rows": 0,
    "decode_errors": 4170,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 179857356,
+    "cells_with_errors": 12846954,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12846954,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1595,21 +2303,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "a8a9bd1b-319c-4819-9856-28cd82d5afce": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:48:57+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:15:11+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/a8a9bd1b-319c-4819-9856-28cd82d5afce/download/cde-beneficiarios-01apr2018.zip",
    "last_modified": "2026-07-24T17:26:16.653441",
    "size": 247720786
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.19,
+   "download_s": 25.78
+  },
+  "first_seen": "2026-10-02T14:15:11+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:48:57+00:00",
-  "seconds": 76.6,
+  "validated_at": "2026-10-02T14:15:11+00:00",
+  "seconds": 193.8,
   "sha256": "d1e299f25b396c5aab031d70840c8eac5dd6f3b4ca44cfe87df046e0f3b001c8",
   "bytes": 247720786,
   "kind": "zip",
@@ -1624,12 +2344,50 @@
    "ragged_rows": 0,
    "decode_errors": 4125,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 181380780,
+    "cells_with_errors": 12955770,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12955770,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1647,21 +2405,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "b6393c37-44ab-4a6c-a4b8-75815bf1bb7c": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:50:14+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:18:25+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/b6393c37-44ab-4a6c-a4b8-75815bf1bb7c/download/cde-beneficiarios-01may2018.zip",
    "last_modified": "2026-07-24T17:34:22.938660",
    "size": 242064689
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.08,
+   "download_s": 46.97
+  },
+  "first_seen": "2026-10-02T14:18:25+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:50:14+00:00",
-  "seconds": 68.0,
+  "validated_at": "2026-10-02T14:18:25+00:00",
+  "seconds": 212.6,
   "sha256": "84b693a0a32f3b7bcd2176e218924765a6a84c22410719d41af0156960797d48",
   "bytes": 242064689,
   "kind": "zip",
@@ -1676,12 +2446,50 @@
    "ragged_rows": 0,
    "decode_errors": 4242,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 175657272,
+    "cells_with_errors": 12546948,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12546948,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1699,21 +2507,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "19566828-abda-4c70-a970-040ae3beee28": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:51:22+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:21:57+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/19566828-abda-4c70-a970-040ae3beee28/download/cde-beneficiarios-01jun2018.zip",
    "last_modified": "2026-07-24T17:32:26.099585",
    "size": 246541384
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 6.32,
+   "download_s": 168.71
+  },
+  "first_seen": "2026-10-02T14:21:57+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:51:22+00:00",
-  "seconds": 54.6,
+  "validated_at": "2026-10-02T14:21:57+00:00",
+  "seconds": 337.3,
   "sha256": "02064cd9519cc217c890ba6a4a6bcba1f3991170d143ff9b5dee9c9e931293ee",
   "bytes": 246541384,
   "kind": "zip",
@@ -1728,12 +2548,50 @@
    "ragged_rows": 0,
    "decode_errors": 4177,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 179755800,
+    "cells_with_errors": 12839700,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12839700,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1751,21 +2609,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "e7cd0297-c8b4-4cd1-8d9d-cb8e9e1dfc74": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:52:16+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:27:35+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/e7cd0297-c8b4-4cd1-8d9d-cb8e9e1dfc74/download/cde-beneficiarios-01jul2018.zip",
    "last_modified": "2026-07-24T17:31:37.593454",
    "size": 259864760
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.17,
+   "download_s": 27.96
+  },
+  "first_seen": "2026-10-02T14:27:35+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:52:16+00:00",
-  "seconds": 61.7,
+  "validated_at": "2026-10-02T14:27:35+00:00",
+  "seconds": 207.5,
   "sha256": "ea124c1d022ad225cdb1921039ca93424a0a4cd46e5c19f813038c41ebd0939f",
   "bytes": 259864760,
   "kind": "zip",
@@ -1780,12 +2650,50 @@
    "ragged_rows": 0,
    "decode_errors": 4187,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 189656278,
+    "cells_with_errors": 13546877,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13546877,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1803,21 +2711,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "9776db17-b1af-47a7-bc6c-ac8ef40113ae": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:53:18+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:31:02+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/9776db17-b1af-47a7-bc6c-ac8ef40113ae/download/cde-beneficiarios-01aug2018.zip",
    "last_modified": "2026-07-24T17:27:26.482009",
    "size": 268976553
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.03,
+   "download_s": 33.22
+  },
+  "first_seen": "2026-10-02T14:31:02+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:53:18+00:00",
-  "seconds": 97.8,
+  "validated_at": "2026-10-02T14:31:02+00:00",
+  "seconds": 214.6,
   "sha256": "154c1b42ab2e5d36757edd9fa285b0c31dd322ad91ac27b8f7d21ad917281b60",
   "bytes": 268976553,
   "kind": "zip",
@@ -1832,12 +2752,50 @@
    "ragged_rows": 0,
    "decode_errors": 18142,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 194349582,
+    "cells_with_errors": 13882113,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13882113,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1855,21 +2813,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "162f9745-85b0-42cc-a98a-b7e8cdb5dbfc": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:54:56+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:34:37+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/162f9745-85b0-42cc-a98a-b7e8cdb5dbfc/download/cde-beneficiarios-01sep2018.zip",
    "last_modified": "2026-07-24T17:38:01.050897",
    "size": 276817966
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 2.28,
+   "download_s": 41.6
+  },
+  "first_seen": "2026-10-02T14:34:37+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:54:56+00:00",
-  "seconds": 133.7,
+  "validated_at": "2026-10-02T14:34:37+00:00",
+  "seconds": 227.9,
   "sha256": "ab42e1e094f638c3632536aec3cb755499ace4759d5fef47627f962338b72878",
   "bytes": 276817966,
   "kind": "zip",
@@ -1884,12 +2854,50 @@
    "ragged_rows": 0,
    "decode_errors": 36476,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 198555714,
+    "cells_with_errors": 14182551,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14182551,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1907,21 +2915,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "c1fa52b2-223d-4c46-8b9e-b01470b16d6e": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:57:10+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:38:25+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/c1fa52b2-223d-4c46-8b9e-b01470b16d6e/download/cde-beneficiarios-01oct2018.zip",
    "last_modified": "2026-07-24T17:36:47.434585",
    "size": 275912813
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.13,
+   "download_s": 52.59
+  },
+  "first_seen": "2026-10-02T14:38:25+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:57:10+00:00",
-  "seconds": 115.0,
+  "validated_at": "2026-10-02T14:38:25+00:00",
+  "seconds": 240.4,
   "sha256": "f52228ba4077821399def8f26e4560471966e5afa7cb42a4f795792f726fae88",
   "bytes": 275912813,
   "kind": "zip",
@@ -1936,12 +2956,50 @@
    "ragged_rows": 0,
    "decode_errors": 36563,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 198866066,
+    "cells_with_errors": 14204719,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14204719,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -1959,21 +3017,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "437571fd-9f8f-4320-8072-31ed04c97408": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T19:59:05+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:42:25+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/437571fd-9f8f-4320-8072-31ed04c97408/download/cde-beneficiarios-01nov2018.zip",
    "last_modified": "2026-07-24T17:35:37.305227",
    "size": 279460651
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.32,
+   "download_s": 57.39
+  },
+  "first_seen": "2026-10-02T14:42:25+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T19:59:05+00:00",
-  "seconds": 62.8,
+  "validated_at": "2026-10-02T14:42:25+00:00",
+  "seconds": 244.2,
   "sha256": "6c4302d744d8502124e8983040a8aee35ce90f72c08c67d0575388eadb4b1a04",
   "bytes": 279460651,
   "kind": "zip",
@@ -1988,12 +3058,50 @@
    "ragged_rows": 0,
    "decode_errors": 36829,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 199447822,
+    "cells_with_errors": 14246273,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14246273,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2011,21 +3119,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "11100b9b-344e-4176-aa76-31cf07d92d65": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:00:07+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:46:29+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/11100b9b-344e-4176-aa76-31cf07d92d65/download/cde-beneficiarios-01dec2018.zip",
    "last_modified": "2026-07-24T17:28:21.444385",
    "size": 265884821
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.21,
+   "download_s": 30.54
+  },
+  "first_seen": "2026-10-02T14:46:29+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:00:07+00:00",
-  "seconds": 151.0,
+  "validated_at": "2026-10-02T14:46:29+00:00",
+  "seconds": 206.3,
   "sha256": "185eaa53bb2b77f19f702a89cae13001030b679b91759c0595e3205ca550180c",
   "bytes": 265884821,
   "kind": "zip",
@@ -2040,12 +3160,50 @@
    "ragged_rows": 0,
    "decode_errors": 36405,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 191587410,
+    "cells_with_errors": 13684815,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13684815,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2063,35 +3221,135 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "99fee086-4cb5-4321-ab76-072318ed73ec": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:02:38+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:01:39+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/99fee086-4cb5-4321-ab76-072318ed73ec/download/cde-beneficiarios-01jan2019.zip",
    "last_modified": "2026-07-24T17:30:29.418073",
    "size": 228880271
   },
-  "status": "error",
-  "error": "ProtocolError: ('Connection broken: IncompleteRead(97582425 bytes read, 131297846 more expected)', IncompleteRead(97582425 bytes read, 131297846 more expected))",
-  "reason": "new"
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.63,
+   "download_s": 28.92
+  },
+  "first_seen": "2026-10-02T14:01:39+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-02T14:01:39+00:00",
+  "seconds": 186.5,
+  "sha256": "73eb293f9fdc348b3e808967ee72424f0a16b9561389a526d98c9a401dc57ed4",
+  "bytes": 228880271,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914230.084973-228880271-2021855886\"",
+   "last_modified": "Fri, 24 Jul 2026 17:30:30 GMT",
+   "content_length": 228880271
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 11922481,
+   "ragged_rows": 0,
+   "decode_errors": 36683,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 166914734,
+    "cells_with_errors": 11922481,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 11922481,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "schema"
  },
  "c9cbca33-8614-4b03-b000-6a4a859a4bf2": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:04:55+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:49:55+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/c9cbca33-8614-4b03-b000-6a4a859a4bf2/download/cde-beneficiarios-01feb2019.zip",
    "last_modified": "2026-07-24T17:29:18.468351",
    "size": 233822179
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.24,
+   "download_s": 27.88
+  },
+  "first_seen": "2026-10-02T14:49:55+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:04:55+00:00",
-  "seconds": 121.1,
+  "validated_at": "2026-10-02T14:49:55+00:00",
+  "seconds": 186.9,
   "sha256": "b36958e0f57d05360c71cf3c55fdb4120c144766df9b9d0cc43bc70041459933",
   "bytes": 233822179,
   "kind": "zip",
@@ -2106,12 +3364,50 @@
    "ragged_rows": 0,
    "decode_errors": 36775,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 169615810,
+    "cells_with_errors": 12115415,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12115415,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2129,21 +3425,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "85bda7bd-f371-4f04-b153-8026546b173e": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:06:56+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:53:02+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/85bda7bd-f371-4f04-b153-8026546b173e/download/cde-beneficiarios-01mar2019.zip",
    "last_modified": "2026-07-24T17:33:25.674897",
    "size": 248628854
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.99,
+   "download_s": 27.01
+  },
+  "first_seen": "2026-10-02T14:53:02+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:06:56+00:00",
-  "seconds": 127.9,
+  "validated_at": "2026-10-02T14:53:02+00:00",
+  "seconds": 195.5,
   "sha256": "71b843955a8e613e7f8a214293d886c9ec3c6668dc91571a46dcadf0c729c1bc",
   "bytes": 248628854,
   "kind": "zip",
@@ -2158,12 +3466,50 @@
    "ragged_rows": 0,
    "decode_errors": 36523,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 180068182,
+    "cells_with_errors": 12862013,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12862013,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2181,21 +3527,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "c1f064bd-5bff-4263-94d1-68884be850ba": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:09:04+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:56:18+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/c1f064bd-5bff-4263-94d1-68884be850ba/download/cde-beneficiarios-01apr2019.zip",
    "last_modified": "2026-07-24T17:26:21.859207",
    "size": 251946005
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.2,
+   "download_s": 46.53
+  },
+  "first_seen": "2026-10-02T14:56:18+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:09:04+00:00",
-  "seconds": 154.4,
+  "validated_at": "2026-10-02T14:56:18+00:00",
+  "seconds": 217.1,
   "sha256": "c545393b3839e7e6c8a3cbd00b7620d83fbb7dab4a15a27e10899e6af74b5929",
   "bytes": 251946005,
   "kind": "zip",
@@ -2210,12 +3568,50 @@
    "ragged_rows": 0,
    "decode_errors": 36598,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 183838130,
+    "cells_with_errors": 13131295,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13131295,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2233,21 +3629,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "944d0114-0d8d-4315-aea4-034189aa4b23": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:11:38+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T14:59:55+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/944d0114-0d8d-4315-aea4-034189aa4b23/download/cde-beneficiarios-01may2019.zip",
    "last_modified": "2026-07-24T17:34:28.077084",
    "size": 251053021
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.16,
+   "download_s": 53.47
+  },
+  "first_seen": "2026-10-02T14:59:55+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:11:38+00:00",
-  "seconds": 93.9,
+  "validated_at": "2026-10-02T14:59:55+00:00",
+  "seconds": 223.5,
   "sha256": "010eb2cd1b5d9f6024446c685ab18b6f61a8fb43b4e3c7d5e6323a8ced8613b5",
   "bytes": 251053021,
   "kind": "zip",
@@ -2262,12 +3670,50 @@
    "ragged_rows": 0,
    "decode_errors": 36151,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 182181216,
+    "cells_with_errors": 13012944,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13012944,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2285,21 +3731,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "0c3526c9-3318-48b4-ab11-8c0bac57fbad": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:13:12+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:03:39+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/0c3526c9-3318-48b4-ab11-8c0bac57fbad/download/cde-beneficiarios-01jun2019.zip",
    "last_modified": "2026-07-24T17:32:32.553220",
    "size": 259407927
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.68,
+   "download_s": 60.64
+  },
+  "first_seen": "2026-10-02T15:03:39+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:13:12+00:00",
-  "seconds": 120.0,
+  "validated_at": "2026-10-02T15:03:39+00:00",
+  "seconds": 237.1,
   "sha256": "8eecc94daf9bf47264ee555a2918d7f4d96fea377fe7162bd8a4bb2ec200cf55",
   "bytes": 259407927,
   "kind": "zip",
@@ -2314,12 +3772,50 @@
    "ragged_rows": 0,
    "decode_errors": 36956,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 189552916,
+    "cells_with_errors": 13539494,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13539494,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2337,21 +3833,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "26babd50-d887-4694-a8ba-b2f0bec5d8c1": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:15:12+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:07:36+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/26babd50-d887-4694-a8ba-b2f0bec5d8c1/download/cde-beneficiarios-01jul2019.zip",
    "last_modified": "2026-07-24T17:31:43.941329",
    "size": 267835391
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 3.35,
+   "download_s": 71.8
+  },
+  "first_seen": "2026-10-02T15:07:36+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:15:12+00:00",
-  "seconds": 88.2,
+  "validated_at": "2026-10-02T15:07:36+00:00",
+  "seconds": 256.2,
   "sha256": "d64a82ac638bed6afbedcef8bc9ea15f44b7421947c077a1944f9f375ea2152c",
   "bytes": 267835391,
   "kind": "zip",
@@ -2366,12 +3874,50 @@
    "ragged_rows": 0,
    "decode_errors": 38359,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 194363722,
+    "cells_with_errors": 13883123,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13883123,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2389,21 +3935,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "65547189-5d1f-4e99-8efe-a3923fcd47cc": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:16:40+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:11:52+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/65547189-5d1f-4e99-8efe-a3923fcd47cc/download/cde-beneficiarios-01aug2019.zip",
    "last_modified": "2026-07-24T17:27:31.890485",
    "size": 277084571
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.39,
+   "download_s": 48.39
+  },
+  "first_seen": "2026-10-02T15:11:52+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:16:40+00:00",
-  "seconds": 79.9,
+  "validated_at": "2026-10-02T15:11:52+00:00",
+  "seconds": 237.2,
   "sha256": "3c149438e3d61e9342b087e0e9e55af4dc001471345d598bdd2adb6a40a8f573",
   "bytes": 277084571,
   "kind": "zip",
@@ -2418,12 +3976,50 @@
    "ragged_rows": 0,
    "decode_errors": 53571,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 200568816,
+    "cells_with_errors": 14326344,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14326344,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2441,21 +4037,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "8a09ff6c-e997-4ab3-a07b-c136d462a4d4": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:18:00+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:15:49+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/8a09ff6c-e997-4ab3-a07b-c136d462a4d4/download/cde-beneficiarios-01sep2019.zip",
    "last_modified": "2026-07-24T17:38:10.132510",
    "size": 257706411
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.09,
+   "download_s": 38.87
+  },
+  "first_seen": "2026-10-02T15:15:49+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:18:00+00:00",
-  "seconds": 72.8,
+  "validated_at": "2026-10-02T15:15:49+00:00",
+  "seconds": 212.1,
   "sha256": "fa470147a49065a9a73c6666e9da87f45b5245151b2dc38585e328caab29746c",
   "bytes": 257706411,
   "kind": "zip",
@@ -2470,12 +4078,50 @@
    "ragged_rows": 0,
    "decode_errors": 51889,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 188026482,
+    "cells_with_errors": 13430463,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13430463,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2493,21 +4139,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "7a3809d0-0d63-490a-be4f-1722db5f519c": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:19:13+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:19:21+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/7a3809d0-0d63-490a-be4f-1722db5f519c/download/cde-beneficiarios-01oct2019.zip",
    "last_modified": "2026-07-24T17:36:55.039600",
    "size": 266767342
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.16,
+   "download_s": 33.56
+  },
+  "first_seen": "2026-10-02T15:19:21+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:19:13+00:00",
-  "seconds": 69.9,
+  "validated_at": "2026-10-02T15:19:21+00:00",
+  "seconds": 215.8,
   "sha256": "f1cf1edbf9cf519d4f6da72ed778071ceb419fb012d72c04628cd83bfecb8a40",
   "bytes": 266767342,
   "kind": "zip",
@@ -2522,12 +4180,50 @@
    "ragged_rows": 0,
    "decode_errors": 37289,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 194552092,
+    "cells_with_errors": 13896578,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13896578,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2545,21 +4241,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "9c019271-832b-4a79-9802-5b3120e08039": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:20:23+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:22:57+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/9c019271-832b-4a79-9802-5b3120e08039/download/cde-beneficiarios-01nov2019.zip",
    "last_modified": "2026-07-24T17:35:46.889302",
    "size": 263624543
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.13,
+   "download_s": 34.71
+  },
+  "first_seen": "2026-10-02T15:22:57+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:20:23+00:00",
-  "seconds": 132.3,
+  "validated_at": "2026-10-02T15:22:57+00:00",
+  "seconds": 216.1,
   "sha256": "5ee334c0aff3187e9db2b0fafc367a395f89babf6a6bec1b4c26943fb6d7882c",
   "bytes": 263624543,
   "kind": "zip",
@@ -2574,12 +4282,50 @@
    "ragged_rows": 0,
    "decode_errors": 36764,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 194815334,
+    "cells_with_errors": 13915381,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13915381,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2597,21 +4343,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "34fa1179-233e-4fe7-8657-56225afb6e1b": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:22:35+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:26:33+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/34fa1179-233e-4fe7-8657-56225afb6e1b/download/cde-beneficiarios-01dec2019.zip",
    "last_modified": "2026-07-24T17:28:27.171563",
    "size": 264694279
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.14,
+   "download_s": 30.58
+  },
+  "first_seen": "2026-10-02T15:26:33+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:22:35+00:00",
-  "seconds": 60.6,
+  "validated_at": "2026-10-02T15:26:33+00:00",
+  "seconds": 208.1,
   "sha256": "c907531227519d80c312a89d001f112d2433b60303c07839165abfe8be746b27",
   "bytes": 264694279,
   "kind": "zip",
@@ -2626,12 +4384,50 @@
    "ragged_rows": 0,
    "decode_errors": 36442,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 192638502,
+    "cells_with_errors": 13759893,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13759893,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2649,29 +4445,37 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "a053ec33-4b70-415f-a011-313c9dfc952b": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:23:36+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:30:01+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/a053ec33-4b70-415f-a011-313c9dfc952b/download/cde-beneficiarios-01jan2020.zip",
    "last_modified": "2026-07-24T17:30:39.110946",
    "size": 266098981
   },
-  "status": "ok",
-  "validated_at": "2026-10-01T20:23:36+00:00",
-  "seconds": 74.9,
-  "sha256": "017e8687d26f674c02c596666fb08b0b4bbf58642b20d06822b150eccd7f0b0a",
-  "bytes": 266098981,
-  "kind": "zip",
-  "http": {
-   "etag": "\"1784914239.764799-266098981-1933906543\"",
-   "last_modified": "Fri, 24 Jul 2026 17:30:39 GMT",
-   "content_length": 266098981
-  },
+  "host": "dadosabertos.aneel.gov.br",
+  "status": "error",
+  "error": "SSLError: HTTPSConnectionPool(host='dadosabertos.aneel.gov.br', port=443): Max retries exceeded with url: /dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/a053ec33-4b70-415f-a011-313c9dfc952b/download/cde-beneficiarios-01jan2020.zip (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING]",
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
   "summary": {
    "tables": 1,
    "rows": 14112714,
@@ -2685,6 +4489,23 @@
     ","
    ]
   },
+  "validated_at": "2026-10-01T20:23:36+00:00",
+  "sha256": "017e8687d26f674c02c596666fb08b0b4bbf58642b20d06822b150eccd7f0b0a",
+  "reason": "schema"
+ },
+ "502cbb9c-5763-4bca-ae4f-e9b29acba4f8": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-02T15:31:23+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/502cbb9c-5763-4bca-ae4f-e9b29acba4f8/download/cde-beneficiarios-01feb2020.zip",
+   "last_modified": "2026-07-24T17:29:23.999797",
+   "size": 276235786
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "status": "error",
+  "error": "SSLError: HTTPSConnectionPool(host='dadosabertos.aneel.gov.br', port=443): Max retries exceeded with url: /dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/502cbb9c-5763-4bca-ae4f-e9b29acba4f8/download/cde-beneficiarios-01feb2020.zip (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING]",
   "header": [
    "DatGeracaoConjuntoDados",
    "AnmReferencia",
@@ -2701,29 +4522,6 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
- },
- "502cbb9c-5763-4bca-ae4f-e9b29acba4f8": {
-  "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:24:51+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
-  "ckan": {
-   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/502cbb9c-5763-4bca-ae4f-e9b29acba4f8/download/cde-beneficiarios-01feb2020.zip",
-   "last_modified": "2026-07-24T17:29:23.999797",
-   "size": 276235786
-  },
-  "status": "ok",
-  "validated_at": "2026-10-01T20:24:51+00:00",
-  "seconds": 69.5,
-  "sha256": "c1c783d02777263bd1bfda04d9d0c189fd82fd5478d57f6bdece8c2dc99fb2e2",
-  "bytes": 276235786,
-  "kind": "zip",
-  "http": {
-   "etag": "\"1784914164.64815-276235786-2237338531\"",
-   "last_modified": "Fri, 24 Jul 2026 17:29:24 GMT",
-   "content_length": 276235786
-  },
   "summary": {
    "tables": 1,
    "rows": 14375172,
@@ -2737,6 +4535,23 @@
     ","
    ]
   },
+  "validated_at": "2026-10-01T20:24:51+00:00",
+  "sha256": "c1c783d02777263bd1bfda04d9d0c189fd82fd5478d57f6bdece8c2dc99fb2e2",
+  "reason": "schema"
+ },
+ "26589323-58a4-4b1b-a09c-8b4898f9348f": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-02T15:32:35+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/26589323-58a4-4b1b-a09c-8b4898f9348f/download/cde-beneficiarios-01mar2020.zip",
+   "last_modified": "2026-07-24T17:33:30.710571",
+   "size": 274007473
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "status": "error",
+  "error": "SSLError: HTTPSConnectionPool(host='dadosabertos.aneel.gov.br', port=443): Max retries exceeded with url: /dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/26589323-58a4-4b1b-a09c-8b4898f9348f/download/cde-beneficiarios-01mar2020.zip (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING]",
   "header": [
    "DatGeracaoConjuntoDados",
    "AnmReferencia",
@@ -2753,29 +4568,6 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
- },
- "26589323-58a4-4b1b-a09c-8b4898f9348f": {
-  "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:26:00+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
-  "ckan": {
-   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/26589323-58a4-4b1b-a09c-8b4898f9348f/download/cde-beneficiarios-01mar2020.zip",
-   "last_modified": "2026-07-24T17:33:30.710571",
-   "size": 274007473
-  },
-  "status": "ok",
-  "validated_at": "2026-10-01T20:26:00+00:00",
-  "seconds": 62.0,
-  "sha256": "8621fc18aac1788069ffda3789c403b218585bcf883a28e1c41359ecb5cc66c8",
-  "bytes": 274007473,
-  "kind": "zip",
-  "http": {
-   "etag": "\"1784914411.4866872-274007473-1740902927\"",
-   "last_modified": "Fri, 24 Jul 2026 17:33:31 GMT",
-   "content_length": 274007473
-  },
   "summary": {
    "tables": 1,
    "rows": 14319263,
@@ -2789,6 +4581,23 @@
     ","
    ]
   },
+  "validated_at": "2026-10-01T20:26:00+00:00",
+  "sha256": "8621fc18aac1788069ffda3789c403b218585bcf883a28e1c41359ecb5cc66c8",
+  "reason": "schema"
+ },
+ "0c9855fe-40de-46b7-a32a-577994f86722": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-02T15:33:48+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/0c9855fe-40de-46b7-a32a-577994f86722/download/cde-beneficiarios-01apr2020.zip",
+   "last_modified": "2026-07-24T17:26:27.777620",
+   "size": 354251993
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "status": "error",
+  "error": "SSLError: HTTPSConnectionPool(host='dadosabertos.aneel.gov.br', port=443): Max retries exceeded with url: /dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/0c9855fe-40de-46b7-a32a-577994f86722/download/cde-beneficiarios-01apr2020.zip (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING]",
   "header": [
    "DatGeracaoConjuntoDados",
    "AnmReferencia",
@@ -2805,29 +4614,6 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
- },
- "0c9855fe-40de-46b7-a32a-577994f86722": {
-  "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:27:02+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
-  "ckan": {
-   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/0c9855fe-40de-46b7-a32a-577994f86722/download/cde-beneficiarios-01apr2020.zip",
-   "last_modified": "2026-07-24T17:26:27.777620",
-   "size": 354251993
-  },
-  "status": "ok",
-  "validated_at": "2026-10-01T20:27:02+00:00",
-  "seconds": 75.3,
-  "sha256": "16a02f1eda9710d88666986a3f34703ec339b5b9f7e0074879d137a24a5b2946",
-  "bytes": 354251993,
-  "kind": "zip",
-  "http": {
-   "etag": "\"1784913988.6882448-354251993-2022642238\"",
-   "last_modified": "Fri, 24 Jul 2026 17:26:28 GMT",
-   "content_length": 354251993
-  },
   "summary": {
    "tables": 1,
    "rows": 18261588,
@@ -2841,37 +4627,38 @@
     ","
    ]
   },
-  "header": [
-   "DatGeracaoConjuntoDados",
-   "AnmReferencia",
-   "SigAgente",
-   "NumCNPJDistribuidora",
-   "CodIbgeMunicipio",
-   "IdcTipoFaturamento",
-   "IdcClasseConsumidor",
-   "IdcSubclasse",
-   "IdcSubgrupoTarifario",
-   "IdcTipoCompraEnergia",
-   "NomCliente",
-   "NumCPFCNPJCliente",
-   "DscTipoSubsidio",
-   "VlrSubsidio"
-  ],
-  "reason": "new"
+  "validated_at": "2026-10-01T20:27:02+00:00",
+  "sha256": "16a02f1eda9710d88666986a3f34703ec339b5b9f7e0074879d137a24a5b2946",
+  "reason": "schema"
  },
  "5fd04691-4570-4459-ba65-39b17c5e963b": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:28:18+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:34:59+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/5fd04691-4570-4459-ba65-39b17c5e963b/download/cde-beneficiarios-01may2020.zip",
    "last_modified": "2026-07-24T17:34:33.242469",
    "size": 288133423
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 32.39,
+   "download_s": 69.77
+  },
+  "network_failures": {
+   "SSLError": 2
+  },
+  "first_seen": "2026-10-02T15:34:59+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:28:18+00:00",
-  "seconds": 101.9,
+  "validated_at": "2026-10-02T15:34:59+00:00",
+  "seconds": 264.8,
   "sha256": "0be13d5213e6a846d676ababe16e63c27c6ae7faff24a523323a9d51d98243e2",
   "bytes": 288133423,
   "kind": "zip",
@@ -2886,12 +4673,50 @@
    "ragged_rows": 0,
    "decode_errors": 50789,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 207616724,
+    "cells_with_errors": 14829766,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14829766,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2909,21 +4734,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "9c571497-e30f-44e1-bf83-42d5f3e68658": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:30:00+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:39:24+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/9c571497-e30f-44e1-bf83-42d5f3e68658/download/cde-beneficiarios-01jun2020.zip",
    "last_modified": "2026-07-24T17:32:38.069912",
    "size": 280334980
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.12,
+   "download_s": 39.0
+  },
+  "first_seen": "2026-10-02T15:39:24+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:30:00+00:00",
-  "seconds": 124.8,
+  "validated_at": "2026-10-02T15:39:24+00:00",
+  "seconds": 228.9,
   "sha256": "568faefec4fc843d72946f5f07af74be61e6fbae773cdc15db19ca6691ee8e85",
   "bytes": 280334980,
   "kind": "zip",
@@ -2938,12 +4775,61 @@
    "ragged_rows": 0,
    "decode_errors": 38221,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 202867308,
+    "cells_with_errors": 14553668,
+    "error_rate": 0.07174,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14490522,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     "VlrSubsidio": {
+      "type": {
+       "count": 63146,
+       "rows": [
+        5032,
+        5285,
+        5287,
+        5291,
+        5292
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ","
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -2961,21 +4847,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "8337fe53-94a9-4ab1-abfe-48293aa103fa": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:32:04+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:43:13+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/8337fe53-94a9-4ab1-abfe-48293aa103fa/download/cde-beneficiarios-01jul2020.zip",
    "last_modified": "2026-07-24T17:31:49.909316",
    "size": 278293671
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.23,
+   "download_s": 37.8
+  },
+  "first_seen": "2026-10-02T15:43:13+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:32:04+00:00",
-  "seconds": 89.7,
+  "validated_at": "2026-10-02T15:43:13+00:00",
+  "seconds": 225.5,
   "sha256": "51be967a515208b05a2e012fb764ec568ecc8bec6e3bef9195f7afa243fa537c",
   "bytes": 278293671,
   "kind": "zip",
@@ -2990,12 +4888,50 @@
    "ragged_rows": 0,
    "decode_errors": 37782,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 201491836,
+    "cells_with_errors": 14392274,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14392274,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3013,21 +4949,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "78d58050-f7bf-4e17-9af0-706e182e05e7": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:33:34+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:46:59+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/78d58050-f7bf-4e17-9af0-706e182e05e7/download/cde-beneficiarios-01aug2020.zip",
    "last_modified": "2026-07-24T17:27:39.812699",
    "size": 323791556
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.15,
+   "download_s": 35.45
+  },
+  "first_seen": "2026-10-02T15:46:59+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:33:34+00:00",
-  "seconds": 88.5,
+  "validated_at": "2026-10-02T15:46:59+00:00",
+  "seconds": 249.6,
   "sha256": "ec567be97127b0d0c1c02eac3f98e1710e9981390cd0b2831042d673fa17fb8b",
   "bytes": 323791556,
   "kind": "zip",
@@ -3042,12 +4990,50 @@
    "ragged_rows": 0,
    "decode_errors": 38427,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 233895060,
+    "cells_with_errors": 16706790,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16706790,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3065,21 +5051,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "3d52ac29-59a7-4fd9-a206-68f57e5e6f18": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:35:03+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:51:08+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/3d52ac29-59a7-4fd9-a206-68f57e5e6f18/download/cde-beneficiarios-01sep2020.zip",
    "last_modified": "2026-07-24T17:38:19.963096",
    "size": 335366910
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.02,
+   "download_s": 43.89
+  },
+  "first_seen": "2026-10-02T15:51:08+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:35:03+00:00",
-  "seconds": 77.6,
+  "validated_at": "2026-10-02T15:51:08+00:00",
+  "seconds": 267.4,
   "sha256": "ed06c56e28d2d0a9fb7ae339f50dc7a377b137fca0cca5358409bd85b82a5037",
   "bytes": 335366910,
   "kind": "zip",
@@ -3094,12 +5092,50 @@
    "ragged_rows": 0,
    "decode_errors": 38174,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 241835286,
+    "cells_with_errors": 17273949,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17273949,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3117,21 +5153,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "d3dd0704-9c99-45c1-b298-c28f63bb6848": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:36:20+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:55:36+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/d3dd0704-9c99-45c1-b298-c28f63bb6848/download/cde-beneficiarios-01oct2020.zip",
    "last_modified": "2026-07-24T17:37:02.725129",
    "size": 315927665
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.95,
+   "download_s": 46.86
+  },
+  "first_seen": "2026-10-02T15:55:36+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:36:20+00:00",
-  "seconds": 109.6,
+  "validated_at": "2026-10-02T15:55:36+00:00",
+  "seconds": 258.6,
   "sha256": "10e83aec3a6e0a2571c359a76cb77f39a98250bc7552d00314a8f70d460540ab",
   "bytes": 315927665,
   "kind": "zip",
@@ -3146,12 +5194,50 @@
    "ragged_rows": 0,
    "decode_errors": 38297,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 228984728,
+    "cells_with_errors": 16356052,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16356052,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3169,21 +5255,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "992aa5fb-6a2d-4bf8-8abe-174ba6c95dfe": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:38:10+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T15:59:54+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/992aa5fb-6a2d-4bf8-8abe-174ba6c95dfe/download/cde-beneficiarios-01nov2020.zip",
    "last_modified": "2026-07-24T17:35:56.186801",
    "size": 309162091
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.18,
+   "download_s": 37.2
+  },
+  "first_seen": "2026-10-02T15:59:54+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:38:10+00:00",
-  "seconds": 132.2,
+  "validated_at": "2026-10-02T15:59:54+00:00",
+  "seconds": 245.7,
   "sha256": "838112d5b0c1898627202f6b5ae93353d6fe0d430962ed5e8d619ce80cf1ed3a",
   "bytes": 309162091,
   "kind": "zip",
@@ -3198,12 +5296,50 @@
    "ragged_rows": 0,
    "decode_errors": 38501,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 224422352,
+    "cells_with_errors": 16030168,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16030168,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3221,21 +5357,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "d0437ed9-45a4-4f62-8a7d-90b27c87726e": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:40:22+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T16:04:00+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/d0437ed9-45a4-4f62-8a7d-90b27c87726e/download/cde-beneficiarios-01dec2020.zip",
    "last_modified": "2026-07-24T17:28:32.636711",
    "size": 326869517
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.24,
+   "download_s": 33.55
+  },
+  "first_seen": "2026-10-02T16:04:00+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:40:22+00:00",
-  "seconds": 99.7,
+  "validated_at": "2026-10-02T16:04:00+00:00",
+  "seconds": 255.0,
   "sha256": "67d8a4b87de94926937258e92291efa1df93c09b5d9f6e1bcb245f268d35df09",
   "bytes": 326869517,
   "kind": "zip",
@@ -3250,12 +5398,50 @@
    "ragged_rows": 0,
    "decode_errors": 38673,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 235668678,
+    "cells_with_errors": 16833477,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16833477,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3273,21 +5459,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "2e6d3d91-50c9-44b0-9967-cf0edaf7b2df": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:42:02+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T16:08:15+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/2e6d3d91-50c9-44b0-9967-cf0edaf7b2df/download/cde-beneficiarios-01jan2021.zip",
    "last_modified": "2026-07-24T17:30:49.609143",
    "size": 326561768
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.06,
+   "download_s": 37.99
+  },
+  "first_seen": "2026-10-02T16:08:15+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:42:02+00:00",
-  "seconds": 118.1,
+  "validated_at": "2026-10-02T16:08:15+00:00",
+  "seconds": 256.5,
   "sha256": "4a46d24366266e33a9339a1142bf9de631148d24be51d88507828bab904225fd",
   "bytes": 326561768,
   "kind": "zip",
@@ -3302,12 +5500,50 @@
    "ragged_rows": 0,
    "decode_errors": 38758,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 235976230,
+    "cells_with_errors": 16855445,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16855445,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3325,21 +5561,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "99edb958-2828-402b-ba5b-a4a4e91f20f9": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:44:00+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T16:12:32+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/99edb958-2828-402b-ba5b-a4a4e91f20f9/download/cde-beneficiarios-01feb2021.zip",
    "last_modified": "2026-07-24T17:29:30.845495",
    "size": 324991265
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.17,
+   "download_s": 34.93
+  },
+  "first_seen": "2026-10-02T16:12:32+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:44:00+00:00",
-  "seconds": 89.5,
+  "validated_at": "2026-10-02T16:12:32+00:00",
+  "seconds": 254.5,
   "sha256": "d49cf598b62c1728a082b1e26d48c0a651096cb0f1ab4e5f01b86eeaee585dcb",
   "bytes": 324991265,
   "kind": "zip",
@@ -3354,12 +5602,50 @@
    "ragged_rows": 0,
    "decode_errors": 38592,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 235897452,
+    "cells_with_errors": 16849818,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16849818,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3377,21 +5663,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "1975a3f7-b6a9-4e97-98c1-38becb743ef7": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:45:29+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T16:16:46+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/1975a3f7-b6a9-4e97-98c1-38becb743ef7/download/cde-beneficiarios-01mar2021.zip",
    "last_modified": "2026-07-24T17:33:38.427657",
    "size": 345096938
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 2.06,
+   "download_s": 38.89
+  },
+  "first_seen": "2026-10-02T16:16:46+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:45:29+00:00",
-  "seconds": 118.3,
+  "validated_at": "2026-10-02T16:16:46+00:00",
+  "seconds": 272.9,
   "sha256": "bf61beec3bb5f659cbfb89c7ca2a41ec45e36a2fa746f98cc4daf27095124652",
   "bytes": 345096938,
   "kind": "zip",
@@ -3406,12 +5704,50 @@
    "ragged_rows": 0,
    "decode_errors": 39055,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 248910060,
+    "cells_with_errors": 17779290,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17779290,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3429,21 +5765,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "effb57ee-20ed-4266-abce-ba33e44f53dc": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:47:28+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T16:21:19+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/effb57ee-20ed-4266-abce-ba33e44f53dc/download/cde-beneficiarios-01apr2021.zip",
    "last_modified": "2026-07-24T17:26:34.336544",
    "size": 319549217
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.52,
+   "download_s": 33.39
+  },
+  "first_seen": "2026-10-02T16:21:19+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:47:28+00:00",
-  "seconds": 123.2,
+  "validated_at": "2026-10-02T16:21:19+00:00",
+  "seconds": 248.2,
   "sha256": "efcb6e6bc788a6b0965daf81832ea465c029c69cb1bbe309447830a41efff799",
   "bytes": 319549217,
   "kind": "zip",
@@ -3458,12 +5806,50 @@
    "ragged_rows": 0,
    "decode_errors": 38111,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 231467026,
+    "cells_with_errors": 16533359,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16533359,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3481,21 +5867,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "0523ee9b-cb55-4a02-a839-cb92b81775fd": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:49:31+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T16:25:28+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/0523ee9b-cb55-4a02-a839-cb92b81775fd/download/cde-beneficiarios-01may2021.zip",
    "last_modified": "2026-07-24T17:34:41.340542",
    "size": 333883151
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.17,
+   "download_s": 33.08
+  },
+  "first_seen": "2026-10-02T16:25:28+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:49:31+00:00",
-  "seconds": 100.3,
+  "validated_at": "2026-10-02T16:25:28+00:00",
+  "seconds": 255.0,
   "sha256": "67f79adb4ebd8409dd2e5fb666f0fe77d6f6bb15159fb42a6a5212768e126848",
   "bytes": 333883151,
   "kind": "zip",
@@ -3510,12 +5908,50 @@
    "ragged_rows": 0,
    "decode_errors": 39474,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 238902804,
+    "cells_with_errors": 17064486,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17064486,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3533,21 +5969,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "6b7efcac-f042-4278-97d4-90bd3cec84e9": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:51:11+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T16:29:43+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/6b7efcac-f042-4278-97d4-90bd3cec84e9/download/cde-beneficiarios-01jun2021.zip",
    "last_modified": "2026-07-24T17:32:44.096280",
    "size": 336318611
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.13,
+   "download_s": 42.38
+  },
+  "first_seen": "2026-10-02T16:29:43+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:51:11+00:00",
-  "seconds": 111.7,
+  "validated_at": "2026-10-02T16:29:43+00:00",
+  "seconds": 262.6,
   "sha256": "8d27af4b14fb2d33c599096f8460c25256402b5d98080a79dffe61df3e9ade00",
   "bytes": 336318611,
   "kind": "zip",
@@ -3562,12 +6010,61 @@
    "ragged_rows": 0,
    "decode_errors": 41318,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 241445666,
+    "cells_with_errors": 17306956,
+    "error_rate": 0.071681,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17246119,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     "VlrSubsidio": {
+      "type": {
+       "count": 60837,
+       "rows": [
+        10008,
+        10089,
+        11305,
+        11307,
+        11309
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ","
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3585,21 +6082,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "73e519ed-dbfa-4533-8dc0-fc4b8448b3c1": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:53:03+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T16:34:05+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/73e519ed-dbfa-4533-8dc0-fc4b8448b3c1/download/cde-beneficiarios-01jul2021.zip",
    "last_modified": "2026-07-24T17:31:55.709593",
    "size": 338425622
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.68,
+   "download_s": 69.98
+  },
+  "first_seen": "2026-10-02T16:34:05+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T20:53:03+00:00",
-  "seconds": 109.5,
+  "validated_at": "2026-10-02T16:34:05+00:00",
+  "seconds": 297.6,
   "sha256": "130a0a7e3d37d498f65581a0f9d5070b25b74cda5d7e758cec4db59b7130a777",
   "bytes": 338425622,
   "kind": "zip",
@@ -3614,12 +6123,61 @@
    "ragged_rows": 0,
    "decode_errors": 41464,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 243530812,
+    "cells_with_errors": 17463110,
+    "error_rate": 0.071708,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17395058,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     "VlrSubsidio": {
+      "type": {
+       "count": 68052,
+       "rows": [
+        7462,
+        10803,
+        10832,
+        11319,
+        11320
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ","
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3637,29 +6195,37 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "9730a17d-f721-4521-b200-9346d0dfa8a3": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:54:52+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T16:39:03+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/9730a17d-f721-4521-b200-9346d0dfa8a3/download/cde-beneficiarios-01aug2021.zip",
    "last_modified": "2026-07-24T17:27:48.062969",
    "size": 340831811
   },
-  "status": "ok",
-  "validated_at": "2026-10-01T20:54:52+00:00",
-  "seconds": 95.9,
-  "sha256": "8abc79664d744f7b9114d6978e32912d3e0fea3a7d9d05ff7352be90223af683",
-  "bytes": 340831811,
-  "kind": "zip",
-  "http": {
-   "etag": "\"1784914068.8518639-340831811-1766134295\"",
-   "last_modified": "Fri, 24 Jul 2026 17:27:48 GMT",
-   "content_length": 340831811
-  },
+  "host": "dadosabertos.aneel.gov.br",
+  "status": "error",
+  "error": "SSLError: HTTPSConnectionPool(host='dadosabertos.aneel.gov.br', port=443): Max retries exceeded with url: /dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/9730a17d-f721-4521-b200-9346d0dfa8a3/download/cde-beneficiarios-01aug2021.zip (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING]",
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
   "summary": {
    "tables": 1,
    "rows": 17560444,
@@ -3673,6 +6239,23 @@
     ","
    ]
   },
+  "validated_at": "2026-10-01T20:54:52+00:00",
+  "sha256": "8abc79664d744f7b9114d6978e32912d3e0fea3a7d9d05ff7352be90223af683",
+  "reason": "schema"
+ },
+ "9e7d8d2f-7188-42b2-bc99-12e8f19d77b9": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-02T16:40:26+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/9e7d8d2f-7188-42b2-bc99-12e8f19d77b9/download/cde-beneficiarios-01sep2021.zip",
+   "last_modified": "2026-07-24T17:38:32.521631",
+   "size": 343254602
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "status": "error",
+  "error": "SSLError: HTTPSConnectionPool(host='dadosabertos.aneel.gov.br', port=443): Max retries exceeded with url: /dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/9e7d8d2f-7188-42b2-bc99-12e8f19d77b9/download/cde-beneficiarios-01sep2021.zip (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING]",
   "header": [
    "DatGeracaoConjuntoDados",
    "AnmReferencia",
@@ -3689,29 +6272,6 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
- },
- "9e7d8d2f-7188-42b2-bc99-12e8f19d77b9": {
-  "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:56:28+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
-  "ckan": {
-   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/9e7d8d2f-7188-42b2-bc99-12e8f19d77b9/download/cde-beneficiarios-01sep2021.zip",
-   "last_modified": "2026-07-24T17:38:32.521631",
-   "size": 343254602
-  },
-  "status": "ok",
-  "validated_at": "2026-10-01T20:56:28+00:00",
-  "seconds": 98.4,
-  "sha256": "1edca7ca17febc51e456d6e4697fd450337f391fcba40c0b5158a870abb8495d",
-  "bytes": 343254602,
-  "kind": "zip",
-  "http": {
-   "etag": "\"1784914713.2681863-343254602-2070745769\"",
-   "last_modified": "Fri, 24 Jul 2026 17:38:33 GMT",
-   "content_length": 343254602
-  },
   "summary": {
    "tables": 1,
    "rows": 17617305,
@@ -3725,6 +6285,23 @@
     ","
    ]
   },
+  "validated_at": "2026-10-01T20:56:28+00:00",
+  "sha256": "1edca7ca17febc51e456d6e4697fd450337f391fcba40c0b5158a870abb8495d",
+  "reason": "schema"
+ },
+ "dcaf68ca-510d-4520-a290-84f3cfc215eb": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-02T16:41:39+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/dcaf68ca-510d-4520-a290-84f3cfc215eb/download/cde-beneficiarios-01oct2021.zip",
+   "last_modified": "2026-07-24T17:37:12.962104",
+   "size": 345482009
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "status": "error",
+  "error": "SSLError: HTTPSConnectionPool(host='dadosabertos.aneel.gov.br', port=443): Max retries exceeded with url: /dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/dcaf68ca-510d-4520-a290-84f3cfc215eb/download/cde-beneficiarios-01oct2021.zip (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING]",
   "header": [
    "DatGeracaoConjuntoDados",
    "AnmReferencia",
@@ -3741,29 +6318,6 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
- },
- "dcaf68ca-510d-4520-a290-84f3cfc215eb": {
-  "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:58:07+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
-  "ckan": {
-   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/dcaf68ca-510d-4520-a290-84f3cfc215eb/download/cde-beneficiarios-01oct2021.zip",
-   "last_modified": "2026-07-24T17:37:12.962104",
-   "size": 345482009
-  },
-  "status": "ok",
-  "validated_at": "2026-10-01T20:58:07+00:00",
-  "seconds": 99.1,
-  "sha256": "277c867ec7d3e960153751f9cdda5c2ed1ca02a7f452a97de729b0c575c05cc1",
-  "bytes": 345482009,
-  "kind": "zip",
-  "http": {
-   "etag": "\"1784914633.7706249-345482009-2225935111\"",
-   "last_modified": "Fri, 24 Jul 2026 17:37:13 GMT",
-   "content_length": 345482009
-  },
   "summary": {
    "tables": 1,
    "rows": 17853239,
@@ -3777,6 +6331,23 @@
     ","
    ]
   },
+  "validated_at": "2026-10-01T20:58:07+00:00",
+  "sha256": "277c867ec7d3e960153751f9cdda5c2ed1ca02a7f452a97de729b0c575c05cc1",
+  "reason": "schema"
+ },
+ "fb8580e8-61a1-43ed-8ed8-59335187d9ff": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-02T16:42:51+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/fb8580e8-61a1-43ed-8ed8-59335187d9ff/download/cde-beneficiarios-01nov2021.zip",
+   "last_modified": "2026-07-24T17:36:08.479225",
+   "size": 383017370
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "status": "error",
+  "error": "SSLError: HTTPSConnectionPool(host='dadosabertos.aneel.gov.br', port=443): Max retries exceeded with url: /dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/fb8580e8-61a1-43ed-8ed8-59335187d9ff/download/cde-beneficiarios-01nov2021.zip (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING]",
   "header": [
    "DatGeracaoConjuntoDados",
    "AnmReferencia",
@@ -3793,29 +6364,6 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
- },
- "fb8580e8-61a1-43ed-8ed8-59335187d9ff": {
-  "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T20:59:46+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
-  "ckan": {
-   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/fb8580e8-61a1-43ed-8ed8-59335187d9ff/download/cde-beneficiarios-01nov2021.zip",
-   "last_modified": "2026-07-24T17:36:08.479225",
-   "size": 383017370
-  },
-  "status": "ok",
-  "validated_at": "2026-10-01T20:59:46+00:00",
-  "seconds": 135.3,
-  "sha256": "3171dc77480ecb338dd104a70c982b3c524ce92a08f39c12704a42ccfbb11e37",
-  "bytes": 383017370,
-  "kind": "zip",
-  "http": {
-   "etag": "\"1784914569.226799-383017370-2042892964\"",
-   "last_modified": "Fri, 24 Jul 2026 17:36:09 GMT",
-   "content_length": 383017370
-  },
   "summary": {
    "tables": 1,
    "rows": 19516813,
@@ -3829,37 +6377,38 @@
     ","
    ]
   },
-  "header": [
-   "DatGeracaoConjuntoDados",
-   "AnmReferencia",
-   "SigAgente",
-   "NumCNPJDistribuidora",
-   "CodIbgeMunicipio",
-   "IdcTipoFaturamento",
-   "IdcClasseConsumidor",
-   "IdcSubclasse",
-   "IdcSubgrupoTarifario",
-   "IdcTipoCompraEnergia",
-   "NomCliente",
-   "NumCPFCNPJCliente",
-   "DscTipoSubsidio",
-   "VlrSubsidio"
-  ],
-  "reason": "new"
+  "validated_at": "2026-10-01T20:59:46+00:00",
+  "sha256": "3171dc77480ecb338dd104a70c982b3c524ce92a08f39c12704a42ccfbb11e37",
+  "reason": "schema"
  },
  "736586f3-9ccc-49de-a3b5-ff1e6e26b780": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:02:01+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T16:44:03+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/736586f3-9ccc-49de-a3b5-ff1e6e26b780/download/cde-beneficiarios-01dec2021.zip",
    "last_modified": "2026-07-24T17:28:39.994189",
    "size": 346909174
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 12.19,
+   "download_s": 77.82
+  },
+  "network_failures": {
+   "SSLError": 1
+  },
+  "first_seen": "2026-10-02T16:44:03+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:02:01+00:00",
-  "seconds": 150.2,
+  "validated_at": "2026-10-02T16:44:03+00:00",
+  "seconds": 311.8,
   "sha256": "2b89b455c289e01467c3c9226a3cfd458747c03c59e3b7bb7982d50d889d6137",
   "bytes": 346909174,
   "kind": "zip",
@@ -3874,12 +6423,50 @@
    "ragged_rows": 0,
    "decode_errors": 37987,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 250012308,
+    "cells_with_errors": 17858022,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17858022,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3897,21 +6484,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "cd93c9f6-fd79-417a-808f-422c74e1d0e5": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:04:31+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T16:49:14+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/cd93c9f6-fd79-417a-808f-422c74e1d0e5/download/cde-beneficiarios-01jan2022.zip",
    "last_modified": "2026-07-24T17:30:58.124948",
    "size": 358495263
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.26,
+   "download_s": 42.09
+  },
+  "first_seen": "2026-10-02T16:49:14+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:04:31+00:00",
-  "seconds": 90.5,
+  "validated_at": "2026-10-02T16:49:14+00:00",
+  "seconds": 279.4,
   "sha256": "cb599a8fa2136090e09d1ec1cd406f4ca975e641d19ef89242645ee5d811da39",
   "bytes": 358495263,
   "kind": "zip",
@@ -3926,12 +6525,50 @@
    "ragged_rows": 0,
    "decode_errors": 40325,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 251380654,
+    "cells_with_errors": 17955761,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17955761,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -3949,21 +6586,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "e6585c3a-2a93-4083-bf24-bbcea6964865": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:06:02+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T16:53:54+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/e6585c3a-2a93-4083-bf24-bbcea6964865/download/cde-beneficiarios-01feb2022.zip",
    "last_modified": "2026-07-24T17:29:40.704240",
    "size": 368870593
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 2.15,
+   "download_s": 51.21
+  },
+  "first_seen": "2026-10-02T16:53:54+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:06:02+00:00",
-  "seconds": 117.4,
+  "validated_at": "2026-10-02T16:53:54+00:00",
+  "seconds": 299.0,
   "sha256": "5bf49c3529726e283a100437f1982fd1a8548dcbff3c3c662e413a2f73d4e2cb",
   "bytes": 368870593,
   "kind": "zip",
@@ -3978,12 +6627,50 @@
    "ragged_rows": 0,
    "decode_errors": 39949,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 259051310,
+    "cells_with_errors": 18503665,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 18503665,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -4001,21 +6688,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "6ec535e2-b6b1-4f7d-824a-3f0d3e4682d1": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:07:59+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T16:58:53+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/6ec535e2-b6b1-4f7d-824a-3f0d3e4682d1/download/cde-beneficiarios-01mar2022.zip",
    "last_modified": "2026-07-24T17:33:47.378908",
    "size": 377742903
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.2,
+   "download_s": 41.24
+  },
+  "first_seen": "2026-10-02T16:58:53+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:07:59+00:00",
-  "seconds": 105.3,
+  "validated_at": "2026-10-02T16:58:53+00:00",
+  "seconds": 289.0,
   "sha256": "ce91e699c4ba58ebecbb9d047aef18f433bdd19b767c61f5d87bec2e5d281daa",
   "bytes": 377742903,
   "kind": "zip",
@@ -4030,12 +6729,50 @@
    "ragged_rows": 0,
    "decode_errors": 42080,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 264815390,
+    "cells_with_errors": 18915385,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 18915385,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -4053,21 +6790,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "db06581c-a4b4-4211-8a1b-9bb134306d82": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:09:44+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T17:03:42+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/db06581c-a4b4-4211-8a1b-9bb134306d82/download/cde-beneficiarios-01apr2022.zip",
    "last_modified": "2026-07-24T17:26:42.369099",
    "size": 385702889
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.22,
+   "download_s": 61.85
+  },
+  "first_seen": "2026-10-02T17:03:42+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:09:44+00:00",
-  "seconds": 148.1,
+  "validated_at": "2026-10-02T17:03:42+00:00",
+  "seconds": 310.8,
   "sha256": "086cfbf80220a1d12492047f3f20631e31738761769d0c00b2fdbfdf68db14ff",
   "bytes": 385702889,
   "kind": "zip",
@@ -4082,12 +6831,50 @@
    "ragged_rows": 0,
    "decode_errors": 41623,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 268856042,
+    "cells_with_errors": 19204003,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 19204003,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -4105,21 +6892,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "dca9a28e-8649-421d-ac92-bae336ffd8f6": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:12:13+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T17:08:53+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/dca9a28e-8649-421d-ac92-bae336ffd8f6/download/cde-beneficiarios-01may2022.zip",
    "last_modified": "2026-07-24T17:34:51.260686",
    "size": 405040884
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 2.86,
+   "download_s": 48.19
+  },
+  "first_seen": "2026-10-02T17:08:53+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:12:13+00:00",
-  "seconds": 159.4,
+  "validated_at": "2026-10-02T17:08:53+00:00",
+  "seconds": 315.4,
   "sha256": "92b6ae0519afdf6c0ba68e71f8741a2c4ad1d34060cb1dc916b420dcd23d6449",
   "bytes": 405040884,
   "kind": "zip",
@@ -4134,12 +6933,50 @@
    "ragged_rows": 0,
    "decode_errors": 41961,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 288687504,
+    "cells_with_errors": 20620536,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 20620536,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -4157,21 +6994,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "5f2b0a13-d869-4057-9f42-bb0074df7e61": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:14:52+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T17:14:08+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/5f2b0a13-d869-4057-9f42-bb0074df7e61/download/cde-beneficiarios-01jun2022.zip",
    "last_modified": "2026-07-24T17:32:50.787918",
    "size": 379304139
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.29,
+   "download_s": 40.77
+  },
+  "first_seen": "2026-10-02T17:14:08+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:14:52+00:00",
-  "seconds": 112.8,
+  "validated_at": "2026-10-02T17:14:08+00:00",
+  "seconds": 289.8,
   "sha256": "9534a4d2dd56584709c2d462f17123ab333eb61a7a4081264d54338b55b8ebdd",
   "bytes": 379304139,
   "kind": "zip",
@@ -4186,12 +7035,50 @@
    "ragged_rows": 0,
    "decode_errors": 42453,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 266776398,
+    "cells_with_errors": 19055457,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 19055457,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -4209,21 +7096,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "224ea6ff-60de-4b5d-bfbd-a4d1c9c4c46a": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:16:45+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T17:18:58+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/224ea6ff-60de-4b5d-bfbd-a4d1c9c4c46a/download/cde-beneficiarios-01jul2022.zip",
    "last_modified": "2026-07-24T17:32:01.507661",
    "size": 385671984
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.04,
+   "download_s": 102.97
+  },
+  "first_seen": "2026-10-02T17:18:58+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:16:45+00:00",
-  "seconds": 110.8,
+  "validated_at": "2026-10-02T17:18:58+00:00",
+  "seconds": 353.1,
   "sha256": "81b3556bfcbac953dd2f10ab7b5ad5665349e3ef4a9f6dc3faf4fa568f380742",
   "bytes": 385671984,
   "kind": "zip",
@@ -4238,12 +7137,50 @@
    "ragged_rows": 0,
    "decode_errors": 41959,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 268293088,
+    "cells_with_errors": 19163792,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 19163792,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -4261,21 +7198,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "d97c6259-f38a-4d44-89a7-c9be79b144f0": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:18:36+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T17:24:51+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/d97c6259-f38a-4d44-89a7-c9be79b144f0/download/cde-beneficiarios-01aug2022.zip",
    "last_modified": "2026-07-24T17:27:54.977128",
    "size": 388574714
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 2.22,
+   "download_s": 117.18
+  },
+  "first_seen": "2026-10-02T17:24:51+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:18:36+00:00",
-  "seconds": 136.8,
+  "validated_at": "2026-10-02T17:24:51+00:00",
+  "seconds": 369.9,
   "sha256": "954cb47fab02b031ae87eeb12b9f46134ad0352a64ecc489e52bc8f67984d9a3",
   "bytes": 388574714,
   "kind": "zip",
@@ -4290,12 +7239,50 @@
    "ragged_rows": 0,
    "decode_errors": 42953,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 271506620,
+    "cells_with_errors": 19393330,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 19393330,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -4313,21 +7300,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "40b39033-16e5-43d5-892f-ff6d68129df3": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:20:52+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T17:31:01+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/40b39033-16e5-43d5-892f-ff6d68129df3/download/cde-beneficiarios-01sep2022.zip",
    "last_modified": "2026-07-24T17:38:44.168834",
    "size": 393504843
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.48,
+   "download_s": 44.18
+  },
+  "first_seen": "2026-10-02T17:31:01+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:20:52+00:00",
-  "seconds": 125.6,
+  "validated_at": "2026-10-02T17:31:01+00:00",
+  "seconds": 297.3,
   "sha256": "2aeb280e9e70cfa35d52ea071c4b9780738f0405fba4aa893aba8837e75b4192",
   "bytes": 393504843,
   "kind": "zip",
@@ -4342,12 +7341,50 @@
    "ragged_rows": 0,
    "decode_errors": 43706,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 275698220,
+    "cells_with_errors": 19692730,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 19692730,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -4365,21 +7402,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "74402f0b-a475-4eca-837e-b4f8dcf2ffeb": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:22:58+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T17:35:58+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/74402f0b-a475-4eca-837e-b4f8dcf2ffeb/download/cde-beneficiarios-01oct2022.zip",
    "last_modified": "2026-07-24T17:37:26.952687",
    "size": 388730010
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.12,
+   "download_s": 58.99
+  },
+  "first_seen": "2026-10-02T17:35:58+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:22:58+00:00",
-  "seconds": 154.6,
+  "validated_at": "2026-10-02T17:35:58+00:00",
+  "seconds": 316.3,
   "sha256": "79dfe225b5959511b0722c50e012e7250b023ffbd07e4c911b49eb72782725f4",
   "bytes": 388730010,
   "kind": "zip",
@@ -4394,12 +7443,50 @@
    "ragged_rows": 0,
    "decode_errors": 43690,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 275961756,
+    "cells_with_errors": 19711554,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 19711554,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -4417,21 +7504,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "75e1c189-010c-4186-a2b6-2d889ada6927": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:25:33+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T17:41:15+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/75e1c189-010c-4186-a2b6-2d889ada6927/download/cde-beneficiarios-01nov2022.zip",
    "last_modified": "2026-07-24T17:36:18.412923",
    "size": 397459925
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 4.45,
+   "download_s": 119.76
+  },
+  "first_seen": "2026-10-02T17:41:15+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:25:33+00:00",
-  "seconds": 155.8,
+  "validated_at": "2026-10-02T17:41:15+00:00",
+  "seconds": 375.9,
   "sha256": "70a0947bd178417d2811a501093f0bf59b47824fd8ddf8ea54ca97e0060d48d3",
   "bytes": 397459925,
   "kind": "zip",
@@ -4446,12 +7545,50 @@
    "ragged_rows": 0,
    "decode_errors": 43546,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 278384330,
+    "cells_with_errors": 19884595,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 19884595,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -4469,21 +7606,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "20a283ca-7c3e-42d5-8f7b-2f2fde25c980": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:28:08+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T17:47:31+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/20a283ca-7c3e-42d5-8f7b-2f2fde25c980/download/cde-beneficiarios-01dec2022.zip",
    "last_modified": "2026-07-24T17:28:47.533020",
    "size": 406378238
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.99,
+   "download_s": 72.6
+  },
+  "first_seen": "2026-10-02T17:47:31+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:28:08+00:00",
-  "seconds": 112.4,
+  "validated_at": "2026-10-02T17:47:31+00:00",
+  "seconds": 336.1,
   "sha256": "6b301f18451a812f0bfb82930ba6eaf8df3545c2f639a1b54c1dd042bebf7666",
   "bytes": 406378238,
   "kind": "zip",
@@ -4498,12 +7647,50 @@
    "ragged_rows": 0,
    "decode_errors": 43360,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 284864888,
+    "cells_with_errors": 20347492,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 20347492,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -4521,21 +7708,33 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "bd8004f6-2b36-45a9-b10f-cb05e7787451": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-01T21:30:01+00:00",
-  "schema_kind": null,
-  "schema_fingerprint": null,
+  "checked_at": "2026-10-02T17:53:07+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
    "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/bd8004f6-2b36-45a9-b10f-cb05e7787451/download/cde-beneficiarios-01jan2023.zip",
    "last_modified": "2026-07-24T17:31:06.141378",
    "size": 413188679
   },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.28,
+   "download_s": 52.51
+  },
+  "first_seen": "2026-10-02T17:53:07+00:00",
+  "pass_history": [
+   [
+    "2026-10-02",
+    false
+   ]
+  ],
   "status": "ok",
-  "validated_at": "2026-10-01T21:30:01+00:00",
-  "seconds": 99.6,
+  "validated_at": "2026-10-02T17:53:07+00:00",
+  "seconds": 325.2,
   "sha256": "c826fa0ab558e173de5c1c073c2d23263c386ff64cb57bc9f3ebc50d1e809831",
   "bytes": 413188679,
   "kind": "zip",
@@ -4550,12 +7749,50 @@
    "ragged_rows": 0,
    "decode_errors": 43879,
    "distinct_headers": 1,
+   "columns_without_name": 0,
    "encodings": [
     "utf-8"
    ],
    "delimiters": [
     ","
-   ]
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 289210194,
+    "cells_with_errors": 20657871,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 20657871,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
   },
   "header": [
    "DatGeracaoConjuntoDados",
@@ -4573,7 +7810,7 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "schema"
  },
  "8e2c96fb-78a6-478c-97aa-707ad33db5b3": {
   "dataset": "beneficiarios-da-cde",
@@ -20268,6 +23505,341 @@
    "MdaPotenciaInstaladaKW",
    "MesReferencia",
    "AnoReferencia"
+  ],
+  "reason": "new"
+ },
+ "290433a8-a5f8-4117-a450-44d3e62ead22": {
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "checked_at": "2026-10-02T13:56:30+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/290433a8-a5f8-4117-a450-44d3e62ead22/download/manifestacoes-1-2-niveis-distribuidora-2010-2022.parquet",
+   "last_modified": "2026-09-26T03:08:58.148798",
+   "size": 3160702
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.94,
+   "download_s": 2.72
+  },
+  "first_seen": "2026-10-02T13:56:30+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-02T13:56:30+00:00",
+  "seconds": 6.8,
+  "sha256": "71c9f569dd7de28c8819b9063ac3708324779709829e21c151198ebabda9a5b6",
+  "bytes": 3160702,
+  "kind": "parquet",
+  "http": {
+   "etag": "\"1790392138.18528-3160702-1761743385\"",
+   "last_modified": "Sat, 26 Sep 2026 03:08:58 GMT",
+   "content_length": 3160702
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 435845,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [],
+   "delimiters": [],
+   "formats": [
+    "parquet"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "DatReferencia",
+   "SigAgente",
+   "NumCPFCNPJ",
+   "CodMunicipio",
+   "NomMunicipio",
+   "SigUF",
+   "SigRegiao",
+   "NomClassificacaoAgente",
+   "CodTipoManifestacao",
+   "NomCanalManifestacao",
+   "DscManifestacao",
+   "QtdManifestacoesRecebidas",
+   "QtdManifestacoesImprocedentes",
+   "QtdManifestacoesProcedentes",
+   "NumPrazoMedioSolucao",
+   "DscFormaContato",
+   "NumSacPrazoMedioSolucaoImproc",
+   "NumOuvPrazoMedioSolucaoImproc",
+   "IdeTipoRCA",
+   "AnoCompetencia",
+   "MesCompetencia"
+  ],
+  "reason": "new"
+ },
+ "908f7282-7a43-41e9-8303-edcab69c2706": {
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "checked_at": "2026-10-02T13:56:37+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/908f7282-7a43-41e9-8303-edcab69c2706/download/manifestacoes-1-2-niveis-distribuidora-2023.parquet",
+   "last_modified": "2026-09-26T03:12:17.419687",
+   "size": 36699617
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.42,
+   "download_s": 5.11
+  },
+  "first_seen": "2026-10-02T13:56:37+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-02T13:56:37+00:00",
+  "seconds": 61.5,
+  "sha256": "47d13ce13da1ae3e5b90cac2a8fe17c439a4bb1100a551d623d8c4541cd9d4f1",
+  "bytes": 36699617,
+  "kind": "parquet",
+  "http": {
+   "etag": "\"1790392337.4729211-36699617-1813778992\"",
+   "last_modified": "Sat, 26 Sep 2026 03:12:17 GMT",
+   "content_length": 36699617
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 6044391,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [],
+   "delimiters": [],
+   "formats": [
+    "parquet"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "DatReferencia",
+   "SigAgente",
+   "NumCPFCNPJ",
+   "CodMunicipio",
+   "NomMunicipio",
+   "SigUF",
+   "SigRegiao",
+   "NomClassificacaoAgente",
+   "CodTipoManifestacao",
+   "NomCanalManifestacao",
+   "DscManifestacao",
+   "QtdManifestacoesRecebidas",
+   "QtdManifestacoesImprocedentes",
+   "QtdManifestacoesProcedentes",
+   "NumPrazoMedioSolucao",
+   "DscFormaContato",
+   "NumSacPrazoMedioSolucaoImproc",
+   "NumOuvPrazoMedioSolucaoImproc",
+   "IdeTipoRCA",
+   "AnoCompetencia",
+   "MesCompetencia"
+  ],
+  "reason": "new"
+ },
+ "0060645e-c42c-454d-af8c-f0c06b0988ab": {
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "checked_at": "2026-10-02T13:57:38+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/0060645e-c42c-454d-af8c-f0c06b0988ab/download/manifestacoes-1-2-niveis-distribuidora-2024.parquet",
+   "last_modified": "2026-09-26T03:20:19.409451",
+   "size": 44917677
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.42,
+   "download_s": 5.51
+  },
+  "first_seen": "2026-10-02T13:57:38+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-02T13:57:38+00:00",
+  "seconds": 86.8,
+  "sha256": "45835a728ed70e824af7541fd3303fbbdeb54eca1abf635775a24d334c8241f5",
+  "bytes": 44917677,
+  "kind": "parquet",
+  "http": {
+   "etag": "\"1790392819.4604156-44917677-1903956652\"",
+   "last_modified": "Sat, 26 Sep 2026 03:20:19 GMT",
+   "content_length": 44917677
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 8749642,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [],
+   "delimiters": [],
+   "formats": [
+    "parquet"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "DatReferencia",
+   "SigAgente",
+   "NumCPFCNPJ",
+   "CodMunicipio",
+   "NomMunicipio",
+   "SigUF",
+   "SigRegiao",
+   "NomClassificacaoAgente",
+   "CodTipoManifestacao",
+   "NomCanalManifestacao",
+   "DscManifestacao",
+   "QtdManifestacoesRecebidas",
+   "QtdManifestacoesImprocedentes",
+   "QtdManifestacoesProcedentes",
+   "NumPrazoMedioSolucao",
+   "DscFormaContato",
+   "NumSacPrazoMedioSolucaoImproc",
+   "NumOuvPrazoMedioSolucaoImproc",
+   "IdeTipoRCA",
+   "AnoCompetencia",
+   "MesCompetencia"
+  ],
+  "reason": "new"
+ },
+ "a9ea21c7-1b2b-4c91-97b4-3d9732c77cec": {
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "checked_at": "2026-10-02T13:59:05+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/a9ea21c7-1b2b-4c91-97b4-3d9732c77cec/download/manifestacoes-1-2-niveis-distribuidora-2025.parquet",
+   "last_modified": "2026-09-26T03:25:20.048936",
+   "size": 46489219
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.81,
+   "download_s": 7.52
+  },
+  "first_seen": "2026-10-02T13:59:05+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-02T13:59:05+00:00",
+  "seconds": 92.8,
+  "sha256": "ab3333bc55ce874ba58f9d2fef843120018323c10897c610f36eed06bad96ad3",
+  "bytes": 46489219,
+  "kind": "parquet",
+  "http": {
+   "etag": "\"1790393120.1068785-46489219-2133529321\"",
+   "last_modified": "Sat, 26 Sep 2026 03:25:20 GMT",
+   "content_length": 46489219
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 9186074,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [],
+   "delimiters": [],
+   "formats": [
+    "parquet"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "DatReferencia",
+   "SigAgente",
+   "NumCPFCNPJ",
+   "CodMunicipio",
+   "NomMunicipio",
+   "SigUF",
+   "SigRegiao",
+   "NomClassificacaoAgente",
+   "CodTipoManifestacao",
+   "NomCanalManifestacao",
+   "DscManifestacao",
+   "QtdManifestacoesRecebidas",
+   "QtdManifestacoesImprocedentes",
+   "QtdManifestacoesProcedentes",
+   "NumPrazoMedioSolucao",
+   "DscFormaContato",
+   "NumSacPrazoMedioSolucaoImproc",
+   "NumOuvPrazoMedioSolucaoImproc",
+   "IdeTipoRCA",
+   "AnoCompetencia",
+   "MesCompetencia"
+  ],
+  "reason": "new"
+ },
+ "d0f619ef-1bbe-40d1-849c-35b47172df8e": {
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "checked_at": "2026-10-02T14:00:38+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/d0f619ef-1bbe-40d1-849c-35b47172df8e/download/manifestacoes-1-2-niveis-distribuidora-2026.parquet",
+   "last_modified": "2026-09-26T03:28:08.388890",
+   "size": 27978845
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 2.1,
+   "download_s": 11.21
+  },
+  "first_seen": "2026-10-02T14:00:38+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-02T14:00:38+00:00",
+  "seconds": 60.4,
+  "sha256": "fad854f05f1b50737b607523c386f0d6595ce0dd97bc33a32f44f48c80643956",
+  "bytes": 27978845,
+  "kind": "parquet",
+  "http": {
+   "etag": "\"1790393288.4432197-27978845-2182222572\"",
+   "last_modified": "Sat, 26 Sep 2026 03:28:08 GMT",
+   "content_length": 27978845
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 5283175,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [],
+   "delimiters": [],
+   "formats": [
+    "parquet"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "DatReferencia",
+   "SigAgente",
+   "NumCPFCNPJ",
+   "CodMunicipio",
+   "NomMunicipio",
+   "SigUF",
+   "SigRegiao",
+   "NomClassificacaoAgente",
+   "CodTipoManifestacao",
+   "NomCanalManifestacao",
+   "DscManifestacao",
+   "QtdManifestacoesRecebidas",
+   "QtdManifestacoesImprocedentes",
+   "QtdManifestacoesProcedentes",
+   "NumPrazoMedioSolucao",
+   "DscFormaContato",
+   "NumSacPrazoMedioSolucaoImproc",
+   "NumOuvPrazoMedioSolucaoImproc",
+   "IdeTipoRCA",
+   "AnoCompetencia",
+   "MesCompetencia"
   ],
   "reason": "new"
  }

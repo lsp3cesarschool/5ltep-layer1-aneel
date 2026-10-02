@@ -1,0 +1,236 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "AnmMesAnoCompetencia",
+   "type": "string",
+   "description": "O valor designado a Ano e mês de competência do valor de DMR.",
+   "constraints": {
+    "maxLength": 6
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 6
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "description": "Sigla que abrevia o nome dos Agentes regulados pela ANEEL",
+   "constraints": {
+    "maxLength": 8
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 8
+  },
+  {
+   "name": "NumCNPJAgente",
+   "type": "string",
+   "description": "CNPJ do Agente do setor elétrico conforme cadastro de agentes da ANEEL",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "AnmCompetenciaDespacho",
+   "type": "string",
+   "description": "Ano e mês de competência do despacho",
+   "constraints": {
+    "maxLength": 6
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 6
+  },
+  {
+   "name": "NumDespacho",
+   "type": "string",
+   "description": "Número de identificação do despacho.",
+   "constraints": {
+    "maxLength": 17
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 17
+  },
+  {
+   "name": "DatRegistro",
+   "type": "date",
+   "description": "Data do despacho",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "IdcFaixa",
+   "type": "string",
+   "description": "É um registro que informa a faixa de consumo em que a unidade consumidora se enquadra de acordo com a energia faturada para essa unidade a cada mês: 1 - até 30 kWh, 2 - 31 até 50 kWh. 3 - 51 até 100 kWh. 4 - 101 até 220 kWh e 5 - acima de 220 kWh",
+   "constraints": {
+    "maxLength": 1
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 1
+  },
+  {
+   "name": "NumConsBaixaRenda",
+   "type": "number",
+   "description": "Quantidade de unidades consumidoras da subclasse residencial baixa renda",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NumConsIndigena",
+   "type": "number",
+   "description": "Quantidade de unidades consumidoras da subclasse residencial baixa renda indígena",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NumConsQuilombola",
+   "type": "number",
+   "description": "Quantidade de unidades consumidoras da subclasse residencial baixa renda quilombola",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NumConsBPC",
+   "type": "number",
+   "description": "Quantidade de unidades consumidoras da subclasse residencial baixa renda BPC",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NumConsMultifamiliar",
+   "type": "number",
+   "description": "Quantidade de unidades consumidoras da subclasse residencial baixa renda multifamiliar",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMWhBaixaRenda",
+   "type": "number",
+   "description": "Energia faturada das unidades consumidoras da subclasse residencial baixa renda",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMWhIndigena",
+   "type": "number",
+   "description": "Energia faturada das unidades consumidoras da subclasse residencial baixa renda indígena",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMWhQuilombola",
+   "type": "number",
+   "description": "Energia faturada das unidades consumidoras da subclasse residencial baixa renda quilombola",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMWhBPC",
+   "type": "number",
+   "description": "Energia faturada das unidades consumidoras da subclasse residencial baixa renda BPC",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMWhMultifamiliar",
+   "type": "number",
+   "description": "Energia faturada das unidades consumidoras da subclasse residencial baixa renda multifamiliar",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrFatRealBaixaRenda",
+   "type": "number",
+   "description": "Faturamento das unidades consumidoras da subclasse residencial baixa renda",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrFatRealIndigena",
+   "type": "number",
+   "description": "Faturamento das unidades consumidoras da subclasse residencial baixa renda indígena",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrFatRealQuilombola",
+   "type": "number",
+   "description": "Faturamento das unidades consumidoras da subclasse residencial baixa renda quilombola",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrFatRealBPC",
+   "type": "number",
+   "description": "Faturamento das unidades consumidoras da subclasse residencial baixa renda BPC",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrMWhMultifamiliar",
+   "type": "number",
+   "description": "Faturamento das unidades consumidoras da subclasse residencial baixa renda multifamiliar",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "QtdConsResTotal",
+   "type": "number",
+   "description": "Quantidade de unidades consumidoras da classe residencial.",
+   "declaredType": "Numérico",
+   "declaredSize": 10
+  },
+  {
+   "name": "MdaMWhConsResTotal",
+   "type": "number",
+   "description": "Energia faturada da classe residencial",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrFatRealTotal",
+   "type": "number",
+   "description": "Faturamento das unidades consumidoras da classe residencial",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrDMR",
+   "type": "number",
+   "description": "Valor da Diferença Mensal de Receita",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrCDE",
+   "type": "number",
+   "description": "Parcela da DMR custeada com recursos da Conta de Desenvolvimento Energético",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrTarifa",
+   "type": "number",
+   "description": "Parcela da DMR custeada com recursos da tarifa",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "IdcSituacaoLote",
+   "type": "string",
+   "description": "Indicador que informa a situação do arquivo de DMR analisado, podendo assumir os seguintes valores: (2) Homologado Previamente: valor de DMR publicado em Despacho para fins de reembolso pela CCEE às distribuidoras; (4) Aprovado com pendência: valor de DMR aprovado, mas não publicado em Despacho para fins de reembolso enquanto não for regularizada pendência em arquivo de competência anterior; (8) Aprovado Com Pendencia Anual: valor de DMR aprovado, mas não publicado em Despacho para fins de reembolso enquanto não for regularizada pendência de envio da base de famílias beneficiadas.",
+   "constraints": {
+    "maxLength": 1
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 1
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "f10be67d-2965-4642-ac04-9e34396ec1e5",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/942de3e1-0b52-4e41-a6c1-eff9f3b7c7d6/resource/f10be67d-2965-4642-ac04-9e34396ec1e5/download/dm-scs-sistema-de-controle-de-subvencoes-e-programas-sociais.pdf",
+   "sha256": "e2554f0e6a1deba6c976c299aa08c9437e53c152898fd4457fea00e44f07a9e1",
+   "oracle": {
+    "recall": 0.9667,
+    "precision": 0.9667,
+    "exact_match": 0.9667,
+    "levenshtein": 0.9899,
+    "missing_from_pdf": [
+     "VlrFatRealMultifamiliar"
+    ],
+    "not_in_file": [
+     "VlrMWhMultifamiliar"
+    ]
+   }
+  }
+ }
+}

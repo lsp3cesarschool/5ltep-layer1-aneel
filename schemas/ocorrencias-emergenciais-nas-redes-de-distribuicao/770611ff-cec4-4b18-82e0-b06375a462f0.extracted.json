@@ -1,0 +1,269 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "NumCnpjDistribuidora",
+   "type": "string",
+   "description": "Cadastro Nacional de Pessoas Jurídicas (CNPJ) da distribuidora.",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "description": "Nome do agente do setor regulado.",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "description": "Sigla que abrevia o nome dos Agentes regulados pela ANEEL.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "CodMunicipioIBGE",
+   "type": "string",
+   "description": "Código do município IBGE, considerando os Códigos de Municípios do Instituto Brasileiro de Geografia e Estatística (https://www.ibge.gov.br/explica/codigos-dos-municipios.php).",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "CodOcorrenciaEmergencial",
+   "type": "string",
+   "description": "Código único da ocorrência emergencial associada ao evento, definido pela distribuidora.",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "CodConjUnidConsumidora",
+   "type": "string",
+   "description": "Código do conjunto de unidades consumidoras no cadastro ANEEL.",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "CodAlimentador",
+   "type": "string",
+   "description": "Código de identificação do Alimentador, conforme encaminhado quando do envio da Base de Dados Geográfica da Distribuição (BDGD), nos termos do Módulo 10 do PRODIST. Alimentador: Rede elétrica destinada a transportar energia elétrica em tensão igual ou superior a 1 kV e inferior a 69 kV.",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "CodSubestacao",
+   "type": "string",
+   "description": "Código de identificação da Subestação de distribuição (SE) do Sistema de distribuição de alta tensão - SDAT, conforme encaminhado quando do envio da Base de Dados Geográfica da Distribuição (BDGD), nos termos do Módulo 10 do PRODIST.",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "NumAnoCompetencia",
+   "type": "string",
+   "description": "Ano de competência das informações enviadas.",
+   "constraints": {
+    "maxLength": 4
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 4
+  },
+  {
+   "name": "NumMesCompetencia",
+   "type": "string",
+   "description": "Mês de competência das informações enviadas.",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "DthIniOcorrencia",
+   "type": "datetime",
+   "description": "Informa data e hora do início da ocorrência emergencial",
+   "declaredType": "Data Hora"
+  },
+  {
+   "name": "DthFimOcorrencia",
+   "type": "datetime",
+   "description": "Informa data e hora do término da ocorrência emergencial",
+   "declaredType": "Data Hora"
+  },
+  {
+   "name": "DscFormaConhecimento",
+   "type": "string",
+   "description": "Forma de conhecimento da ocorrência emergencial.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscInterrupcaoAssociada",
+   "type": "string",
+   "description": "Informa se houve interrupção associada, conjunto de dados de Interrupções de Energia Elétrica nas Redes de Distribuição disponível em https://dadosabertos.aneel.gov.br/dataset/interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscMotivoExpurgo",
+   "type": "string",
+   "description": "Descrição do motivo para o expurgo.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscFatoGeradorOrigem",
+   "type": "string",
+   "description": "Descrição do fato gerador - origem",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscFatoGeradorTipo",
+   "type": "string",
+   "description": "Descrição do fato gerador - tipo",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscFatoGeradorCausa",
+   "type": "string",
+   "description": "Descrição do fato gerador - causa",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscFatoGeradorDetalhe",
+   "type": "string",
+   "description": "Descrição do fato gerador - detalhe",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "NumTempoPreparacao",
+   "type": "number",
+   "description": "Tempo de preparação em minutos",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NumTempoDeslocamento",
+   "type": "number",
+   "description": "Tempo de Deslocamento em minutos",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NumTempoExecucao",
+   "type": "number",
+   "description": "Tempo de Execução em minutos",
+   "declaredType": "Numérico"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "llm",
+   "dictionary_id": "00ddb056-c4fd-4fad-8cce-0807c527c8ee",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/ced06b4c-45a5-4cae-8a7e-f576ffc3b412/resource/00ddb056-c4fd-4fad-8cce-0807c527c8ee/download/dm-ocorrencias-emergenciais-nas-redes-de-distribuicao.pdf",
+   "sha256": "e12befc9c8984d6f13df545f50c2f6373e2f35318f30d986ca2a54f47a3db4dd",
+   "oracle": {
+    "recall": 0.1333,
+    "precision": 0.087,
+    "exact_match": 0.1333,
+    "levenshtein": 0.5964,
+    "missing_from_pdf": [
+     "CodIBGE",
+     "DscCanalAtendimento",
+     "DscNumInterrupcao",
+     "DscOcorrenciaAberta",
+     "DthFimOcorrenciaAberta",
+     "DthInicioOcorrenciaAberta",
+     "IdeConjUndConsumidoras",
+     "MdaDeslocamento",
+     "MdaExecucao",
+     "MdaPreparo",
+     "NumCPFCNPJ",
+     "NumOcorrencia",
+     "NumVeiculo"
+    ],
+    "not_in_file": [
+     "CodAlimentador",
+     "CodConjUnidConsumidora",
+     "CodMunicipioIBGE",
+     "CodOcorrenciaEmergencial",
+     "CodSubestacao",
+     "DscFatoGeradorCausa",
+     "DscFatoGeradorDetalhe",
+     "DscFatoGeradorOrigem",
+     "DscFatoGeradorTipo",
+     "DscFormaConhecimento",
+     "DscInterrupcaoAssociada",
+     "DscMotivoExpurgo",
+     "DthFimOcorrencia",
+     "DthIniOcorrencia",
+     "NumAnoCompetencia",
+     "NumCnpjDistribuidora",
+     "NumMesCompetencia",
+     "NumTempoDeslocamento",
+     "NumTempoExecucao",
+     "NumTempoPreparacao",
+     "SigAgente"
+    ]
+   },
+   "model": "qwen3:8b",
+   "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+   "prompt_version": "v1",
+   "ollama_version": "0.35.0"
+  }
+ }
+}

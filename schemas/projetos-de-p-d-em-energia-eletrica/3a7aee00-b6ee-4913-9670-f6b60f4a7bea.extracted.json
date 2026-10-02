@@ -1,0 +1,190 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data"
+  },
+  {
+   "name": "IdcSituacaoProjeto",
+   "type": "string",
+   "description": "Informa o estado atual do projeto: CANCELADO, CARREGADO (Execução não iniciada), EM EXECUÇÃO, EM ATRASO (Prazo de Relatório excedido), CONCLUÍDO",
+   "constraints": {
+    "maxLength": 25
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 25
+  },
+  {
+   "name": "CodProejeto",
+   "type": "string",
+   "description": "Código único identificador do projeto",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "description": "Nome pelo qual a pessoa jurídica é registrada na Junta Comercial.",
+   "constraints": {
+    "maxLength": 400
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 400
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "description": "Sigla da Empresa (já foi feito em outro conjunto, verificar)",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "NumCNPJ",
+   "type": "string",
+   "description": "Cadeia de caracteres referente ao número de cadastro de Pessoa Jurídica (CNPJ)",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "DscChamPedEstrategico",
+   "type": "string",
+   "description": "Informa o número da Chamada de P&D Estratégico, vazio se o projeto não for estratégico.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DscTituloProjeto",
+   "type": "string",
+   "description": "Título do projeto conforme cadastrado na base da ANEEL.",
+   "constraints": {
+    "maxLength": 4000
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 4000
+  },
+  {
+   "name": "QtdMesesDuracaoPrevista",
+   "type": "number",
+   "description": "Duração do Projeto em meses, conforme prevista",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "SigSegmentoSetorEletrico",
+   "type": "string",
+   "description": "Classificação do Projeto conforme segmento do setor elétrico (Geração, Transmissão, Distribuição)",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "SigTemaProjeto",
+   "type": "string",
+   "description": "Classificação do Projeto conforme as áreas temáticas vigente no regulamento.",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "SigFaseInovacaoProjeto",
+   "type": "string",
+   "description": "Classificação do Projeto conforme sua posição na cadeia de Inovação PB - Pesquisa Básica, PA - Pesquisa Aplicada, DE - Desenvolvimento Experimental, CS - Cabeça de Série, LP - Lote Pioneiro, IM - Inserção no Mercado",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "SigTipoProdutoProjeto",
+   "type": "string",
+   "description": "Classificação do Projeto conforme Tipo de Produto desenvolvido CD - Componente ou Dispositivo, SW - Software, CM - Conceito ou Metodologia, ME - Máquina ou Equipamento, MS - Material ou Substância, SM - Sistema",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "VlrCustoTotalPrevisto",
+   "type": "number",
+   "description": "Custo total do projeto, incluindo contrapartidas, estimado antes de sua execução",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "AnoGarregametno",
+   "type": "string",
+   "description": "Ano em que os dados do projeto foram carregados na base de dados",
+   "constraints": {
+    "maxLength": 4
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 4
+  },
+  {
+   "name": "DatCadastroPropostaProjeto",
+   "type": "date",
+   "description": "Data de cadastramento da Proposta de Projeto na Base da ANEEL",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "VlrCustoTotalAuditado",
+   "type": "number",
+   "description": "Custo total auditado do projeto, incluindo contrapartidas, declarado após a sua execução",
+   "declaredType": "Numérico"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "llm",
+   "dictionary_id": "8aa3a61c-41d2-48c9-b856-81d9b391fcda",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/78c2db95-fb29-4851-98f9-4d55cb5bf646/resource/8aa3a61c-41d2-48c9-b856-81d9b391fcda/download/dd-projetos-de-pd-em-energia-eletrica.pdf",
+   "sha256": "3becd681eec9f722926037275eb877ad46b76fbe949951b439fd759b02fb2020",
+   "oracle": {
+    "recall": 0.7059,
+    "precision": 0.7059,
+    "exact_match": 0.6471,
+    "levenshtein": 0.9213,
+    "missing_from_pdf": [
+     "AnoCadastroPropostaProjeto",
+     "DatConclusaoProjeto",
+     "DscCodProjeto",
+     "NumCPFCNPJ",
+     "SigFasInovacaoProjeto"
+    ],
+    "not_in_file": [
+     "AnoGarregametno",
+     "CodProejeto",
+     "DatCadastroPropostaProjeto",
+     "NumCNPJ",
+     "SigFaseInovacaoProjeto"
+    ]
+   },
+   "model": "qwen3:8b",
+   "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+   "prompt_version": "v1",
+   "ollama_version": "0.35.0"
+  }
+ }
+}

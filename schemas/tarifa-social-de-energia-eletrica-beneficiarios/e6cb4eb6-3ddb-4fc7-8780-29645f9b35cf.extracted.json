@@ -1,0 +1,58 @@
+{
+ "fields": [
+  {
+   "name": "IdeTarifaSocial",
+   "type": "number",
+   "description": "Identificador Tarifa Social",
+   "declaredType": "Numérico (PK)"
+  },
+  {
+   "name": "NomRegiao",
+   "type": "string",
+   "description": "Região demográfica do Brasil dos dados referenciados",
+   "declaredType": "Texto"
+  },
+  {
+   "name": "QtdUndConsumidorResidencial",
+   "type": "number",
+   "description": "Quantidade de unidades consumidoras da classe residencial no mês de referência",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "QtdUndConsumidorBaixaRenda",
+   "type": "number",
+   "description": "Quantidade de unidades consumidoras da subclasse residencial baixa renda (beneficiários da TSEE) no mês de referência",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MesReferencia",
+   "type": "number",
+   "description": "Mês base referência da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "number",
+   "description": "Ano base referência da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DthProcessamento",
+   "type": "number",
+   "description": "Data e hora do processamento de carga automático",
+   "declaredType": "Numérico (fins de controle)"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "bdd21356-1111-4742-b5b3-8257626a1565",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/0ffe45bc-b0bc-4c18-99ab-e97e94841418/resource/bdd21356-1111-4742-b5b3-8257626a1565/download/dd_ig_11_1.pdf",
+   "sha256": "af6346177106c36dcfbbe0498f2aa0ba78cdb38ad3e75f0d2991fb8480e54800",
+   "oracle": {}
+  }
+ }
+}

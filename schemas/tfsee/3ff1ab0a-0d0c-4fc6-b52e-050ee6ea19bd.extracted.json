@@ -1,0 +1,168 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscRamo",
+   "type": "string",
+   "description": "Descrição do ramo de atuação do agente regulado",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "description": "Sigla do nome do agente regulado",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "NumCpfCnpj",
+   "type": "string",
+   "description": "Número do CPF ou CNPJ do agente regulado",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "DscRazaoSocial",
+   "type": "string",
+   "description": "Descrição da Razão Social do agente regulado",
+   "constraints": {
+    "maxLength": 400
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 400
+  },
+  {
+   "name": "IdeUsina",
+   "type": "number",
+   "description": "ID da usina",
+   "declaredType": "Numérico",
+   "declaredSize": 10
+  },
+  {
+   "name": "NomUsina",
+   "type": "string",
+   "description": "Nome da usina",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DscTipoExploracao",
+   "type": "string",
+   "description": "Descrição do tipo de exploração",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "DscTipoGeracao",
+   "type": "string",
+   "description": "Descrição do tipo de Geração",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "AnmInicioVigenciaTaxaFiscaliz",
+   "type": "string",
+   "description": "Ano e mês inicial da vigência da taxa de fiscalização",
+   "constraints": {
+    "maxLength": 6
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 6
+  },
+  {
+   "name": "AnmFimVigenciaTaxaFiscaliz",
+   "type": "string",
+   "description": "Ano e mês final da vigência da taxa de fiscalização",
+   "constraints": {
+    "maxLength": 6
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 6
+  },
+  {
+   "name": "VlrDevidoTaxaFiscalizacao",
+   "type": "number",
+   "description": "Valor devido da taxa de fiscalização",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NumParcelasTaxaFiscalizacao",
+   "type": "string",
+   "description": "Número de parcelas da taxa de fiscalização",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "DscStatusMudanca",
+   "type": "string",
+   "description": "Descrição da mudança atribuída",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "AnmFimVigCancTaxaFiscalizacao",
+   "type": "string",
+   "description": "Ano e mês final da vigência de cancelamento histórico da taxa de fiscalização",
+   "constraints": {
+    "maxLength": 6
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 6
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "e05c1c73-381a-4f54-a30a-ab90718a1c20",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/738e425b-5554-4fe4-8a8a-2d163308e9ff/resource/e05c1c73-381a-4f54-a30a-ab90718a1c20/download/dm-taxafiscalizacaoservicosenergiaeletrica.pdf",
+   "sha256": "97bc6d82373907eabc138e2fb06335a45cd1e36155f900e1d700dcdf7539e8e7",
+   "oracle": {
+    "recall": 0.8667,
+    "precision": 0.8667,
+    "exact_match": 0.8,
+    "levenshtein": 0.9497,
+    "missing_from_pdf": [
+     "AnmFimVigenciaTaxaFiscalizacao",
+     "AnmInicioVigenciaTaxaFiscalizacao"
+    ],
+    "not_in_file": [
+     "AnmFimVigenciaTaxaFiscaliz",
+     "AnmInicioVigenciaTaxaFiscaliz"
+    ]
+   }
+  }
+ }
+}

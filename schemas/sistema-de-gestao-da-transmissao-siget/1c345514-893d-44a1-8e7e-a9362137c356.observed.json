@@ -1,0 +1,180 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeCcd",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeCcdProprietario",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeDoc",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeEpd",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeOnsEpd",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomEpd",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscEpd",
+   "type": "string",
+   "sampleEmptyShare": 0.0002
+  },
+  {
+   "name": "DscSituacaoEpd",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatEfeOprComEpd",
+   "type": "date",
+   "format": "%d/%m/%Y",
+   "sampleEmptyShare": 0.2498
+  },
+  {
+   "name": "DatCaoCgmAtoLgl",
+   "type": "date",
+   "format": "%d/%m/%Y",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatOprComEpd",
+   "type": "date",
+   "format": "%d/%m/%Y",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeObr",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscObr",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscSitObr",
+   "type": "string",
+   "sampleEmptyShare": 0.0034
+  },
+  {
+   "name": "NumVdaUtlMdl",
+   "type": "integer",
+   "sampleEmptyShare": 0.0032
+  },
+  {
+   "name": "DatOprComObr",
+   "type": "date",
+   "format": "%d/%m/%Y",
+   "sampleEmptyShare": 0.2248
+  },
+  {
+   "name": "DscTipObr",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeMdl",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeOnsMdl",
+   "type": "string",
+   "sampleEmptyShare": 0.0724
+  },
+  {
+   "name": "NomMdl",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscMdl",
+   "type": "string",
+   "sampleEmptyShare": 0.6678
+  },
+  {
+   "name": "IdeTipMdl",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscSituacaoModulo",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscTipMdl",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigTipMdl",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscClfMdl",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SglClfMdl",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscItmClfMdl",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeCcoTarReceita",
+   "type": "integer",
+   "sampleEmptyShare": 0.2556
+  },
+  {
+   "name": "VlrHisRct",
+   "type": "number",
+   "sampleEmptyShare": 0.2556
+  },
+  {
+   "name": "DatFimCcd",
+   "type": "date",
+   "format": "%d/%m/%Y",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-02T00:25:12+00:00",
+  "sha256": "1b2f71050fa6200084e6c2aabb2d81df2f0611a2d70c690dadffca86893ef892",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

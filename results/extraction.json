@@ -2165,5 +2165,1865 @@
    "QtdConsumidoresAtivos",
    "DscTipoElementoInterrompido"
   ]
+ },
+ "928f6910-1a40-41a2-8bf1-7965a5fe4ca7": {
+  "sha256": "536f48a2467368e5e4c17dfff438c331e85b44ec983f71a2179ae76dcf889be0",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "linked_resources": [
+   "426f4fb2-6a89-452a-8236-cc48153ee607",
+   "4af32411-da8b-492c-ae15-8f615e35d2e2",
+   "6c3e074c-d9ab-4840-8c6c-7993faa36ddb",
+   "83839c4e-78f9-4f68-bcb7-51dcfcf05c9c",
+   "8c42c510-6549-4285-817c-58738914be19"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 22,
+   "oracle": {
+    "available": true,
+    "header_columns": 22,
+    "extracted": 22,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:05+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "DatReferencia",
+   "SigAgente",
+   "NumCPFCNPJ",
+   "CodMunicipio",
+   "NomMunicipio",
+   "SigUF",
+   "SigRegiao",
+   "NomClassificacaoAgente",
+   "CodTipoManifestacao",
+   "NomCanalManifestacao",
+   "DscManifestacao",
+   "QtdManifestacoesRecebidas",
+   "QtdManifestacoesImprocedentes",
+   "QtdManifestacoesProcedentes",
+   "NumPrazoMedioSolucao",
+   "DscFormaContato",
+   "NumSacPrazoMedioSolucaoImproc",
+   "NumOuvPrazoMedioSolucaoImproc",
+   "IdeTipoRCA",
+   "AnoCompetencia",
+   "MesCompetencia"
+  ]
+ },
+ "00ddb056-c4fd-4fad-8cce-0807c527c8ee": {
+  "sha256": "e12befc9c8984d6f13df545f50c2f6373e2f35318f30d986ca2a54f47a3db4dd",
+  "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
+  "linked_resources": [
+   "040c840a-b9fa-4c63-bd3c-f1a99640366b",
+   "04e2d968-76a5-4433-91c2-c1d5d43147c0",
+   "4796181d-5156-4ce5-8729-43f4e71e2d45",
+   "4ecf2f60-65de-4874-b293-330927720ccf",
+   "5a7f1a13-2ec1-406c-b542-3bcba96c8a9e",
+   "770611ff-cec4-4b18-82e0-b06375a462f0",
+   "845b550c-e454-4cac-a8e7-ab7f1732fa6d",
+   "ca188f2f-2384-4690-af3a-048f44575c74",
+   "d6024771-f068-414a-8476-656e5fb83aea",
+   "f41804fe-b3c3-4f39-b777-c48c602affb1"
+  ],
+  "outcome": "suggested",
+  "stage": "llm",
+  "deterministic": {
+   "fields": 23,
+   "oracle": {
+    "available": true,
+    "header_columns": 15,
+    "extracted": 23,
+    "recall": 0.1333,
+    "precision": 0.087,
+    "exact_match": 0.1333,
+    "levenshtein": 0.5964,
+    "missing_from_pdf": [
+     "CodIBGE",
+     "DscCanalAtendimento",
+     "DscNumInterrupcao",
+     "DscOcorrenciaAberta",
+     "DthFimOcorrenciaAberta",
+     "DthInicioOcorrenciaAberta",
+     "IdeConjUndConsumidoras",
+     "MdaDeslocamento",
+     "MdaExecucao",
+     "MdaPreparo",
+     "NumCPFCNPJ",
+     "NumOcorrencia",
+     "NumVeiculo"
+    ],
+    "not_in_file": [
+     "CodAlimentador",
+     "CodConjUnidConsumidora",
+     "CodMunicipioIBGE",
+     "CodOcorrenciaEmergencial",
+     "CodSubestacao",
+     "DscFatoGeradorCausa",
+     "DscFatoGeradorDetalhe",
+     "DscFatoGeradorOrigem",
+     "DscFatoGeradorTipo",
+     "DscFormaConhecimento",
+     "DscInterrupcaoAssociada",
+     "DscMotivoExpurgo",
+     "DthFimOcorrencia",
+     "DthIniOcorrencia",
+     "NumAnoCompetencia",
+     "NumCnpjDistribuidora",
+     "NumMesCompetencia",
+     "NumTempoDeslocamento",
+     "NumTempoExecucao",
+     "NumTempoPreparacao",
+     "SigAgente"
+    ],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:06+00:00",
+  "llm": {
+   "model": "qwen3:8b",
+   "model_source": "fallback",
+   "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+   "ollama_version": "0.35.0",
+   "prompt_version": "v1",
+   "fields": 23,
+   "oracle": {
+    "available": true,
+    "header_columns": 15,
+    "extracted": 23,
+    "recall": 0.1333,
+    "precision": 0.087,
+    "exact_match": 0.1333,
+    "levenshtein": 0.5964,
+    "missing_from_pdf": [
+     "CodIBGE",
+     "DscCanalAtendimento",
+     "DscNumInterrupcao",
+     "DscOcorrenciaAberta",
+     "DthFimOcorrenciaAberta",
+     "DthInicioOcorrenciaAberta",
+     "IdeConjUndConsumidoras",
+     "MdaDeslocamento",
+     "MdaExecucao",
+     "MdaPreparo",
+     "NumCPFCNPJ",
+     "NumOcorrencia",
+     "NumVeiculo"
+    ],
+    "not_in_file": [
+     "CodAlimentador",
+     "CodConjUnidConsumidora",
+     "CodMunicipioIBGE",
+     "CodOcorrenciaEmergencial",
+     "CodSubestacao",
+     "DscFatoGeradorCausa",
+     "DscFatoGeradorDetalhe",
+     "DscFatoGeradorOrigem",
+     "DscFatoGeradorTipo",
+     "DscFormaConhecimento",
+     "DscInterrupcaoAssociada",
+     "DscMotivoExpurgo",
+     "DthFimOcorrencia",
+     "DthIniOcorrencia",
+     "NumAnoCompetencia",
+     "NumCnpjDistribuidora",
+     "NumMesCompetencia",
+     "NumTempoDeslocamento",
+     "NumTempoExecucao",
+     "NumTempoPreparacao",
+     "SigAgente"
+    ],
+    "probable_typos": {}
+   },
+   "seconds": 506.0,
+   "pdf_chars": 4118,
+   "truncated": false
+  },
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "NumCnpjDistribuidora",
+   "NomAgente",
+   "SigAgente",
+   "CodMunicipioIBGE",
+   "CodOcorrenciaEmergencial",
+   "CodConjUnidConsumidora",
+   "CodAlimentador",
+   "CodSubestacao",
+   "NumAnoCompetencia",
+   "NumMesCompetencia",
+   "DthIniOcorrencia",
+   "DthFimOcorrencia",
+   "DscFormaConhecimento",
+   "DscInterrupcaoAssociada",
+   "DscMotivoExpurgo",
+   "DscFatoGeradorOrigem",
+   "DscFatoGeradorTipo",
+   "DscFatoGeradorCausa",
+   "DscFatoGeradorDetalhe",
+   "NumTempoPreparacao",
+   "NumTempoDeslocamento",
+   "NumTempoExecucao"
+  ]
+ },
+ "9b01f108-34c1-45d2-a8c9-0aeb19905257": {
+  "sha256": "f4c20c6411bcb6379e72107aa5ea142632b6bac3340fe4fd0aa253e44ef567c3",
+  "dataset": "ouvidoria-setorial-aneel",
+  "linked_resources": [
+   "0b15d4cf-4d19-49e9-9ad8-8c81670182c7",
+   "1ee51181-9d1f-40f1-ae6e-61719d276b28",
+   "289ed6b6-1650-4261-b8de-ef1f207bd589",
+   "42419fa2-6720-4349-a91b-3ed65126aed2",
+   "43dbf8bf-5d91-417b-b977-d28cc4107f96",
+   "4632bf42-3ae4-44df-92c8-1b6a18423948",
+   "561a3eca-8c3b-4c8a-b11e-a31f7d6a1032",
+   "56d51b86-debe-4911-8d56-f2ebd9d444ff",
+   "65fdd6a5-2073-4e97-99df-b5f750042add",
+   "927c458a-760c-470f-9967-f9f5e8809095",
+   "93d50388-a4dd-4c31-a9e6-065ade8078f3",
+   "a07c92fc-b60b-4589-b579-edefe2bf99ea",
+   "e5ee09c7-e7fc-43b7-ac1f-0e2d98db9fce"
+  ],
+  "outcome": "suggested",
+  "stage": "llm",
+  "deterministic": {
+   "fields": 13,
+   "oracle": {
+    "available": true,
+    "header_columns": 13,
+    "extracted": 13,
+    "recall": 0.6154,
+    "precision": 0.6154,
+    "exact_match": 0.6154,
+    "levenshtein": 0.9135,
+    "missing_from_pdf": [
+     "CodigoMunicipio",
+     "DtCriacao",
+     "NomDecisao",
+     "NumCPFCNPJAgente",
+     "NumQtdReclamacoesDia"
+    ],
+    "not_in_file": [
+     "CodMunicipio",
+     "DatCriacao",
+     "DscDecisao",
+     "NumCPFCNPJ",
+     "QtdReclamacoesDia"
+    ],
+    "probable_typos": {
+     "CodMunicipio": "CodigoMunicipio",
+     "DatCriacao": "DtCriacao",
+     "QtdReclamacoesDia": "NumQtdReclamacoesDia"
+    }
+   }
+  },
+  "at": "2026-10-02T00:29:06+00:00",
+  "llm": {
+   "model": "qwen3:8b",
+   "model_source": "fallback",
+   "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+   "ollama_version": "0.35.0",
+   "prompt_version": "v1",
+   "fields": 13,
+   "oracle": {
+    "available": true,
+    "header_columns": 13,
+    "extracted": 13,
+    "recall": 0.6154,
+    "precision": 0.6154,
+    "exact_match": 0.6154,
+    "levenshtein": 0.9135,
+    "missing_from_pdf": [
+     "CodigoMunicipio",
+     "DtCriacao",
+     "NomDecisao",
+     "NumCPFCNPJAgente",
+     "NumQtdReclamacoesDia"
+    ],
+    "not_in_file": [
+     "CodMunicipio",
+     "DatCriacao",
+     "DscDecisao",
+     "NumCPFCNPJ",
+     "QtdReclamacoesDia"
+    ],
+    "probable_typos": {
+     "CodMunicipio": "CodigoMunicipio",
+     "DatCriacao": "DtCriacao",
+     "QtdReclamacoesDia": "NumQtdReclamacoesDia"
+    }
+   },
+   "seconds": 255.9,
+   "pdf_chars": 3176,
+   "truncated": false
+  },
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "SigAgente",
+   "NumCPFCNPJ",
+   "SigUF",
+   "CodMunicipio",
+   "NomMunicipio",
+   "NomCategoria",
+   "NomSubCategoria",
+   "NomTipologia",
+   "DscDecisao",
+   "DscSituacao",
+   "DatCriacao",
+   "QtdReclamacoesDia"
+  ]
+ },
+ "496665e6-d735-4521-88c8-d909d99d31a2": {
+  "sha256": "1426cdf49c0494333b1d4f31caa03dbb5e5881e0bc6460ec7dcd6fe37fa20449",
+  "dataset": "pautas-e-atas-das-reunioes-publicas-da-diretoria",
+  "linked_resources": [
+   "43386a8b-4781-44ec-a082-fa7fdfe33186"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 14,
+   "oracle": {
+    "available": true,
+    "header_columns": 13,
+    "extracted": 14,
+    "recall": 1.0,
+    "precision": 0.9286,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [
+     "IdcMemoriaPublicada"
+    ],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:07+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "DatReuniao",
+   "IdeReuniao",
+   "IdcSituacao",
+   "NomDiretorRelator",
+   "NumProcesso",
+   "NomClassificacaoAssunto",
+   "TxtDecisaoJulgamento",
+   "NumOrdem",
+   "NumAtoAdministrativo",
+   "NomTipoAtoAdministrativo",
+   "TxtAssunto",
+   "DscResultadoJulgamento",
+   "IdcMemoriaPublicada"
+  ]
+ },
+ "e3229241-fbe1-48e4-812b-397c6f2cce55": {
+  "sha256": "1b7e230752c0fcfb71fff5efbf80372697a03ea8a88fdadeb0f63df496c2e4a0",
+  "dataset": "pdd",
+  "linked_resources": [
+   "30b8fbb7-4d7a-49d1-8985-97e9bb7d65e0"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 13,
+   "oracle": {
+    "available": true,
+    "header_columns": 11,
+    "extracted": 13,
+    "recall": 1.0,
+    "precision": 0.8462,
+    "exact_match": 0.9091,
+    "levenshtein": 0.9545,
+    "missing_from_pdf": [],
+    "not_in_file": [
+     "Abertos",
+     "IdcAgenteSumarizacao"
+    ],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:07+00:00",
+  "fields": [
+   "Abertos",
+   "DatGeracaoConjuntoDados",
+   "IdcAgenteSumarizacao",
+   "SigAgente",
+   "NumCpfCnpj",
+   "DscTipoOutorga",
+   "SigUF",
+   "DscRegiao",
+   "AnoReferencia",
+   "DscTipoObra",
+   "DscTipoObraClasse",
+   "VlrTotalRealizado",
+   "VlrTotalPlanejado"
+  ]
+ },
+ "8aa3a61c-41d2-48c9-b856-81d9b391fcda": {
+  "sha256": "3becd681eec9f722926037275eb877ad46b76fbe949951b439fd759b02fb2020",
+  "dataset": "projetos-de-p-d-em-energia-eletrica",
+  "linked_resources": [
+   "3a7aee00-b6ee-4913-9670-f6b60f4a7bea"
+  ],
+  "outcome": "suggested",
+  "stage": "llm",
+  "deterministic": {
+   "fields": 17,
+   "oracle": {
+    "available": true,
+    "header_columns": 17,
+    "extracted": 17,
+    "recall": 0.7059,
+    "precision": 0.7059,
+    "exact_match": 0.6471,
+    "levenshtein": 0.9213,
+    "missing_from_pdf": [
+     "AnoCadastroPropostaProjeto",
+     "DatConclusaoProjeto",
+     "DscCodProjeto",
+     "NumCPFCNPJ",
+     "SigFasInovacaoProjeto"
+    ],
+    "not_in_file": [
+     "AnoGarregametno",
+     "CodProejeto",
+     "DatCadastroPropostaProjeto",
+     "NumCNPJ",
+     "SigFaseInovacaoProjeto"
+    ],
+    "probable_typos": {
+     "SigFaseInovacaoProjeto": "SigFasInovacaoProjeto",
+     "DatCadastroPropostaProjeto": "AnoCadastroPropostaProjeto"
+    }
+   }
+  },
+  "at": "2026-10-02T00:29:08+00:00",
+  "llm": {
+   "model": "qwen3:8b",
+   "model_source": "fallback",
+   "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+   "ollama_version": "0.35.0",
+   "prompt_version": "v1",
+   "fields": 17,
+   "oracle": {
+    "available": true,
+    "header_columns": 17,
+    "extracted": 17,
+    "recall": 0.7059,
+    "precision": 0.7059,
+    "exact_match": 0.6471,
+    "levenshtein": 0.9213,
+    "missing_from_pdf": [
+     "AnoCadastroPropostaProjeto",
+     "DatConclusaoProjeto",
+     "DscCodProjeto",
+     "NumCPFCNPJ",
+     "SigFasInovacaoProjeto"
+    ],
+    "not_in_file": [
+     "AnoGarregametno",
+     "CodProejeto",
+     "DatCadastroPropostaProjeto",
+     "NumCNPJ",
+     "SigFaseInovacaoProjeto"
+    ],
+    "probable_typos": {
+     "SigFaseInovacaoProjeto": "SigFasInovacaoProjeto",
+     "DatCadastroPropostaProjeto": "AnoCadastroPropostaProjeto"
+    }
+   },
+   "seconds": 420.7,
+   "pdf_chars": 4695,
+   "truncated": false
+  },
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "IdcSituacaoProjeto",
+   "CodProejeto",
+   "NomAgente",
+   "SigAgente",
+   "NumCNPJ",
+   "DscChamPedEstrategico",
+   "DscTituloProjeto",
+   "QtdMesesDuracaoPrevista",
+   "SigSegmentoSetorEletrico",
+   "SigTemaProjeto",
+   "SigFaseInovacaoProjeto",
+   "SigTipoProdutoProjeto",
+   "VlrCustoTotalPrevisto",
+   "AnoGarregametno",
+   "DatCadastroPropostaProjeto",
+   "VlrCustoTotalAuditado"
+  ]
+ },
+ "f030087c-f34f-4054-a277-e009b7a8cfc6": {
+  "sha256": "42e5cb1622eaa94d56616d19450ea49847cf8659d523e227ad218b5636affd47",
+  "dataset": "projetos-de-p-d-temas-estrategicos",
+  "linked_resources": [
+   "8b4971ab-f750-4739-9059-678ab2ebeb23"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 8,
+   "oracle": {
+    "available": false
+   }
+  },
+  "at": "2026-10-02T00:29:08+00:00",
+  "fields": [
+   "IdePesquisaDesenvolvimentoTema",
+   "NumChamada",
+   "DscProjeto",
+   "VlrEstimado",
+   "NumResolucao",
+   "MesReferencia",
+   "AnoReferencia",
+   "DthProcessamento"
+  ]
+ },
+ "687c80c9-18f8-47b5-8334-fbdb2bd657cd": {
+  "sha256": "8d809002dbff1445b3f2e97a2096585067d6768988abf75e7ac907bdbbf5b123",
+  "dataset": "projetos-por-tipologia",
+  "linked_resources": [
+   "2824cf06-c04c-4d37-b5b3-07a501b89503"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 9,
+   "oracle": {
+    "available": false
+   }
+  },
+  "at": "2026-10-02T00:29:09+00:00",
+  "fields": [
+   "IdeNovoProjeto",
+   "DscTipologia",
+   "QtdProjeto",
+   "VlrDemandaRetiradaPontaMW",
+   "VlrEconomiaEnergiaGWh",
+   "VlrInvestimento",
+   "MesReferencia",
+   "AnoReferencia",
+   "DthProcessamento"
+  ]
+ },
+ "bd8709a4-6d5c-4817-84ad-011e73f3a18f": {
+  "sha256": "b4b7c4f5b75efe47df7feea138b3ab191203ece7a5f5e33c9745b5e66eac692c",
+  "dataset": "projetos-res-n-316-2008-219-2006-e-anteriores",
+  "linked_resources": [
+   "cf7ad81b-ffcd-4252-9719-86fe4cec593b"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 9,
+   "oracle": {
+    "available": false
+   }
+  },
+  "at": "2026-10-02T00:29:09+00:00",
+  "fields": [
+   "IdePesquisaDesenvolvProjeto",
+   "NumResolucao",
+   "DscAnoReferencia",
+   "QtdProjeto",
+   "VlrEstimado",
+   "QtdEmpresa",
+   "DthProcessamento",
+   "MesReferencia",
+   "AnoReferencia"
+  ]
+ },
+ "3091b690-eef5-4d66-b8df-fcd5c10feb01": {
+  "sha256": "4e133de7fd6d79aeb7386720e23bd7e2b0cec520e748dbad23b5a171f696fa3a",
+  "dataset": "projetos-retornos-e-investimentos",
+  "linked_resources": [
+   "862a0727-0dd1-4318-96fd-711b84360bb4"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 12,
+   "oracle": {
+    "available": false
+   }
+  },
+  "at": "2026-10-02T00:29:10+00:00",
+  "fields": [
+   "IdeProjetoRetornoInvestimento",
+   "AnoCiclo",
+   "QtdProjeto",
+   "QtdAgente",
+   "QtdDemandaRetiradaPontaMW",
+   "QtdEconomiaEnergiaGWh",
+   "VlrPercentualRecOperLiquida",
+   "VlrInvestimento",
+   "DthProcessamento",
+   "IdcAtualizacaoPeriodica",
+   "MesReferencia",
+   "AnoReferencia"
+  ]
+ },
+ "c9850994-5872-4c99-97f6-eca8f3cc42b5": {
+  "sha256": "fd95947bd81ca6a6c4448331d13b6bc0cd90d2631a209f8ce77a7dd23132e227",
+  "dataset": "qualidade-do-atendimento-comercial",
+  "linked_resources": [
+   "11473878-1059-44f8-abf0-677212ff247b",
+   "e3724332-7de8-4273-8f0d-b20ebb91bf7c"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 7,
+   "oracle": {
+    "available": true,
+    "header_columns": 7,
+    "extracted": 7,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:10+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "SigAgente",
+   "NumCNPJ",
+   "SigIndicador",
+   "AnoIndice",
+   "NumPeriodoIndice",
+   "VlrIndiceEnviado"
+  ]
+ },
+ "a3c58ecb-e936-4dc1-884b-9941f7079a73": {
+  "sha256": "7d41717c09b513184aad758304936d7471946f22c2692ddac82fa622e271d4c5",
+  "dataset": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
+  "linked_resources": [
+   "8a794ee4-3d41-4ce7-a80a-ae7702a16b7b",
+   "f08f3f8f-db6f-4c3b-9f4f-7179d099c255"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 19,
+   "oracle": {
+    "available": true,
+    "header_columns": 19,
+    "extracted": 19,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:11+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "DatRalie",
+   "IdeNucleoCEG",
+   "CodCEG",
+   "DatEmissaoAto",
+   "SigUFPrincipal",
+   "DscOrigemCombustivel",
+   "SigTipoGeracao",
+   "NomEmpreendimento",
+   "NumUgUsina",
+   "MdaPotenciaUnitaria",
+   "MdaPotenciaLiberadaTeste",
+   "NumDespachoTeste",
+   "DatDescidaRotorOutorgada",
+   "DatDescidaRotorRealizada",
+   "DatInicioOpTesteOutorgada",
+   "DatLiberOpTesteRealizado",
+   "DatUGInicioOpComerOutorgado",
+   "DatPrevisaoOpComercialSFG"
+  ]
+ },
+ "3fabb9e8-668a-4f94-8f0e-ed9cd2682979": {
+  "sha256": "416dbfe47b428e088d5eccbc3146f8d8233fa282bf70891d0e255df50756e586",
+  "dataset": "relacao-de-empreendimentos-de-geracao-distribuida",
+  "linked_resources": [
+   "49fa9ca0-f609-4ae3-a6f7-b97bd0945a3a",
+   "5f903d78-25ae-4a3f-a2bd-9a93351c59fb",
+   "b1bd71e7-d0ad-4214-9053-cbd58e9564a7",
+   "bd1d3783-b389-49d8-a828-a56e193d0671",
+   "c189442a-18f0-44eb-9c89-3b48147a4d65"
+  ],
+  "outcome": "suggested",
+  "stage": "llm",
+  "deterministic": {
+   "fields": 33,
+   "oracle": {
+    "available": true,
+    "header_columns": 12,
+    "extracted": 33,
+    "recall": 0.0833,
+    "precision": 0.0303,
+    "exact_match": 0.0833,
+    "levenshtein": 0.4732,
+    "missing_from_pdf": [
+     "CodGeracaoDistribuida",
+     "DatConexao",
+     "MdaAreaArranjo",
+     "MdaPotenciaInstalada",
+     "MdaPotenciaInversores",
+     "MdaPotenciaModulos",
+     "NomFabricanteInversor",
+     "NomFabricanteModulo",
+     "NomModeloInversor",
+     "NomModeloModulo",
+     "QtdModulos"
+    ],
+    "not_in_file": [
+     "AnmPeriodoReferencia",
+     "CodCep",
+     "CodClasseConsumo",
+     "CodEmpreendimento",
+     "CodMunicipioIbge",
+     "CodSubGrupoTarifario",
+     "DscClasseConsumo",
+     "DscFonteGeracao",
+     "DscModalidadeHabilitado",
+     "DscPorte",
+     "DscSubGrupoTarifario",
+     "DthAtualizaCadastralEmpreend",
+     "MdaPotenciaInstaladakW",
+     "NomAgente",
+     "NomMunicipio",
+     "NomRegiao",
+     "NomSubEstacao",
+     "NomeTitularEmpreendimento",
+     "NumCNPJDistribuidora",
+     "NumCoordEEmpreendimento",
+     "NumCoordESub",
+     "NumCoordNEmpreendimento",
+     "NumCoordNSub",
+     "NumCpfCnpj",
+     "QtdUCRecebeCredito",
+     "SigAgente",
+     "SigModalidadeEmpreendimento",
+     "SigTipoConsumidor",
+     "SigTipoGeracao",
+     "SigUF",
+     "codRegiao",
+     "codUFibge"
+    ],
+    "probable_typos": {
+     "MdaPotenciaInstaladakW": "MdaPotenciaInstalada"
+    }
+   }
+  },
+  "at": "2026-10-02T00:29:12+00:00",
+  "llm": {
+   "model": "qwen3:8b",
+   "model_source": "fallback",
+   "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+   "ollama_version": "0.35.0",
+   "prompt_version": "v1",
+   "fields": 33,
+   "oracle": {
+    "available": true,
+    "header_columns": 12,
+    "extracted": 33,
+    "recall": 0.0833,
+    "precision": 0.0303,
+    "exact_match": 0.0833,
+    "levenshtein": 0.4732,
+    "missing_from_pdf": [
+     "CodGeracaoDistribuida",
+     "DatConexao",
+     "MdaAreaArranjo",
+     "MdaPotenciaInstalada",
+     "MdaPotenciaInversores",
+     "MdaPotenciaModulos",
+     "NomFabricanteInversor",
+     "NomFabricanteModulo",
+     "NomModeloInversor",
+     "NomModeloModulo",
+     "QtdModulos"
+    ],
+    "not_in_file": [
+     "AnmPeriodoReferencia",
+     "CodCep",
+     "CodClasseConsumo",
+     "CodEmpreendimento",
+     "CodMunicipioIbge",
+     "CodSubGrupoTarifario",
+     "DscClasseConsumo",
+     "DscFonteGeracao",
+     "DscModalidadeHabilitado",
+     "DscPorte",
+     "DscSubGrupoTarifario",
+     "DthAtualizaCadastralEmpreend",
+     "MdaPotenciaInstaladakW",
+     "NomAgente",
+     "NomMunicipio",
+     "NomRegiao",
+     "NomSubEstacao",
+     "NomeTitularEmpreendimento",
+     "NumCNPJDistribuidora",
+     "NumCoordEEmpreendimento",
+     "NumCoordESub",
+     "NumCoordNEmpreendimento",
+     "NumCoordNSub",
+     "NumCpfCnpj",
+     "QtdUCRecebeCredito",
+     "SigAgente",
+     "SigModalidadeEmpreendimento",
+     "SigTipoConsumidor",
+     "SigTipoGeracao",
+     "SigUF",
+     "codRegiao",
+     "codUFibge"
+    ],
+    "probable_typos": {
+     "MdaPotenciaInstaladakW": "MdaPotenciaInstalada"
+    }
+   },
+   "seconds": 831.0,
+   "pdf_chars": 7076,
+   "truncated": false
+  },
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "AnmPeriodoReferencia",
+   "NumCNPJDistribuidora",
+   "SigAgente",
+   "NomAgente",
+   "CodClasseConsumo",
+   "DscClasseConsumo",
+   "CodSubGrupoTarifario",
+   "DscSubGrupoTarifario",
+   "codUFibge",
+   "SigUF",
+   "codRegiao",
+   "NomRegiao",
+   "CodMunicipioIbge",
+   "NomMunicipio",
+   "CodCep",
+   "SigTipoConsumidor",
+   "NumCpfCnpj",
+   "NomeTitularEmpreendimento",
+   "CodEmpreendimento",
+   "DthAtualizaCadastralEmpreend",
+   "SigModalidadeEmpreendimento",
+   "DscModalidadeHabilitado",
+   "QtdUCRecebeCredito",
+   "SigTipoGeracao",
+   "DscFonteGeracao",
+   "DscPorte",
+   "NumCoordNEmpreendimento",
+   "NumCoordEEmpreendimento",
+   "MdaPotenciaInstaladakW",
+   "NomSubEstacao",
+   "NumCoordESub",
+   "NumCoordNSub"
+  ]
+ },
+ "745885f1-1c40-41a9-9fc9-efea3f836c30": {
+  "sha256": "10b83db531931cb93608f88f880953582edb753567c84a0c768c98e76c85ffaf",
+  "dataset": "resultado-de-leiloes",
+  "linked_resources": [
+   "a1328fc1-f06b-437d-8893-57ac2c8103df"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 26,
+   "oracle": {
+    "available": true,
+    "header_columns": 26,
+    "extracted": 26,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:13+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "AnoLeilao",
+   "DatLeilao",
+   "NumLeilao",
+   "DscNumeroLeilaoCCEE",
+   "DscTipoLeilao",
+   "NomEmpreendimento",
+   "CodCEG",
+   "IdeNucleoCEG",
+   "SigTipoGeracao",
+   "DscFonteEnergia",
+   "DscDetalhamentoFonteEnergia",
+   "MdaPotenciaInstaladaMW",
+   "MdaGarantiaFisicaSEL",
+   "VlrEnergiaVendida",
+   "VlrPrecoTeto",
+   "VlrPrecoLeilao",
+   "VlrDesagio",
+   "VlrInvestimentoPrevisto",
+   "MdaDuracaoContrato",
+   "SigUFPrincipal",
+   "VlrCotacaoDolar",
+   "VlrPrecoTetoDolar",
+   "VlrPrecoDolar",
+   "VlrInvestimentoDolar",
+   "DscEmpresaVencedora"
+  ]
+ },
+ "c8d16a2e-f738-43cc-9dbe-efa95e5056c1": {
+  "sha256": "60f5d8d730aa534e184f8346d74e68580c0cbc3941ff08370197aabc672a8a43",
+  "dataset": "resultado-de-leiloes",
+  "linked_resources": [
+   "453cb742-8089-4c16-aaf2-42088b5553dc"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 15,
+   "oracle": {
+    "available": true,
+    "header_columns": 15,
+    "extracted": 15,
+    "recall": 0.9333,
+    "precision": 0.9333,
+    "exact_match": 0.9333,
+    "levenshtein": 0.9862,
+    "missing_from_pdf": [
+     "MdaExtensaoLinhaTransmissaoKm"
+    ],
+    "not_in_file": [
+     "MdaTotalLinhaTransmissaoKm"
+    ],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:14+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "AnoLeilao",
+   "DatLeilao",
+   "NumLeilao",
+   "NumLoteLeilao",
+   "NomEmpreendimento",
+   "SigUFPrincipal",
+   "QtdPrazoConstrucaoMeses",
+   "MdaTotalLinhaTransmissaoKm",
+   "MdaSubEstacoesMVA",
+   "VlrInvestimentoPrevisto",
+   "VlrRAPEditalLeilao",
+   "NomVencedorLeilao",
+   "VlrRAPVencedorLeilao",
+   "PctDesagio"
+  ]
+ },
+ "de493bde-44a7-4de3-85bb-3d62453baea5": {
+  "sha256": "2c5254c6a6e0487098912c79f5d1b243d511edba6c83be96c1e71787e25c5435",
+  "dataset": "reunioes-publicas-da-diretoria",
+  "linked_resources": [
+   "0ed659f8-eb6c-4fe9-8784-36df0e07c74a"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 5,
+   "oracle": {
+    "available": true,
+    "header_columns": 5,
+    "extracted": 5,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:14+00:00",
+  "fields": [
+   "DatReuniao",
+   "IdeReuniao",
+   "DscTipoSessao",
+   "DscSituacaoReuniao",
+   "DatGeracaoConjuntoDados"
+  ]
+ },
+ "7dbb8074-9168-4e11-9380-1aab3c9ebba3": {
+  "sha256": "f2d7362239430b267f0da96f13c7cb1c64526a753a6a5524b1d7dd6fbee1f5c0",
+  "dataset": "samp",
+  "linked_resources": [
+   "0e414659-5840-4db3-8639-2ae678e15600",
+   "1a35925f-8f7d-4074-973e-42dfbaa99636",
+   "28fa2d25-233d-4a96-9345-fdc13fa76d6c",
+   "29f9fec9-34dd-454b-8f3c-6b4ca5b22f2c",
+   "349ca6b0-8e1b-4e1e-991d-b3d9edf6e368",
+   "475a41c8-905d-46c6-8fc9-fe9a8a9c6868",
+   "4a84f3c8-9dc8-4448-bba8-cc2dfbc26ca2",
+   "53fa913e-32bc-4765-b7c4-2c0544e33eb3",
+   "56f1c242-5017-4cef-a365-0a96fffb0f2b",
+   "620bd3ee-7ad4-4e23-ae64-251e22a58303",
+   "641003d6-4e87-4095-9416-ae5fbb5c94d3",
+   "6ab6596e-170d-42e8-af93-9de024ebe36b",
+   "6fac5605-5df0-469d-be08-04ee22934f60",
+   "7e097631-46ad-4051-8954-9ef8fb594fdc",
+   "81fb84e5-2305-41b4-bc97-7673bc327796",
+   "84906f77-0bb4-4527-b9a0-cb6c2b525661",
+   "944c4215-96d1-4646-ac9b-8c8146168eca",
+   "9c25ad95-a433-482c-9847-4f7c5c2b3df0",
+   "a8ea4590-2202-4b50-a32d-74b1dc1280a7",
+   "b2f4411d-90db-4455-91c7-ebe399ba93c5",
+   "b53ee5a1-26f0-47f3-8dea-ae6894d714ac",
+   "b9ad890b-d500-4294-bd36-1108acc54832",
+   "f5421c87-81c5-42e4-bbf0-33af4cc98800",
+   "ff80dd21-eade-4eb5-9ca8-d802c883940e"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 17,
+   "oracle": {
+    "available": true,
+    "header_columns": 18,
+    "extracted": 17,
+    "recall": 0.8889,
+    "precision": 0.9412,
+    "exact_match": 0.8333,
+    "levenshtein": 0.9529,
+    "missing_from_pdf": [
+     "DscModalidadeTarifaria",
+     "NomAgenteAcessante"
+    ],
+    "not_in_file": [
+     "DscClassificacao"
+    ],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:15+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "NumCNPJAgenteDistribuidora",
+   "SigAgenteDistribuidora",
+   "NomAgenteDistribuidora",
+   "DscClassificacao",
+   "NomTipoMercado",
+   "DscSubGrupoTarifario",
+   "DscClasseConsumoMercado",
+   "DscSubClasseConsumidor",
+   "DscDetalheConsumidor",
+   "IdeNucleoCEG",
+   "NumCNPJAgenteAcessante",
+   "DscPostoTarifario",
+   "DscOpcaoEnergia",
+   "DscDetalheMercado",
+   "DatCompetencia",
+   "VlrMercado"
+  ]
+ },
+ "84ee7a78-e7b3-4e43-99ba-99e1d71b2a7c": {
+  "sha256": "38d25ab7ab7815fcc2e5dee83f97d0babec7fe793d57d9c1e6190d1195fca45a",
+  "dataset": "samp-balanco",
+  "linked_resources": [
+   "9f03a034-fb01-4daa-b6a6-e25a84d979ed"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 12,
+   "oracle": {
+    "available": true,
+    "header_columns": 12,
+    "extracted": 12,
+    "recall": 0.8333,
+    "precision": 0.8333,
+    "exact_match": 0.8333,
+    "levenshtein": 0.9917,
+    "missing_from_pdf": [
+     "AnoReferenciaBalanco",
+     "MesReferenciaBalanco"
+    ],
+    "not_in_file": [
+     "AnoRefrenciaBalanco",
+     "MesRefrenciaBalanco"
+    ],
+    "probable_typos": {
+     "AnoRefrenciaBalanco": "AnoReferenciaBalanco",
+     "MesRefrenciaBalanco": "MesReferenciaBalanco"
+    }
+   }
+  },
+  "at": "2026-10-02T00:29:16+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "NumCPFCNPJ",
+   "NomAgente",
+   "AnmCompetenciaBalanco",
+   "DscModalidadeBalanco",
+   "DscFluxoEnergia",
+   "DscCctBalanco",
+   "DscClassificacaoAgente",
+   "AnoRefrenciaBalanco",
+   "MesRefrenciaBalanco",
+   "DscDetalheBalanco",
+   "VlrEnergia"
+  ]
+ },
+ "f10be67d-2965-4642-ac04-9e34396ec1e5": {
+  "sha256": "e2554f0e6a1deba6c976c299aa08c9437e53c152898fd4457fea00e44f07a9e1",
+  "dataset": "scs-sistema-de-controle-de-subvencoes-e-programas-sociais",
+  "linked_resources": [
+   "87764789-84c3-4592-a845-cb2b317f6142"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 30,
+   "oracle": {
+    "available": true,
+    "header_columns": 30,
+    "extracted": 30,
+    "recall": 0.9667,
+    "precision": 0.9667,
+    "exact_match": 0.9667,
+    "levenshtein": 0.9899,
+    "missing_from_pdf": [
+     "VlrFatRealMultifamiliar"
+    ],
+    "not_in_file": [
+     "VlrMWhMultifamiliar"
+    ],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:16+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "AnmMesAnoCompetencia",
+   "SigAgente",
+   "NumCNPJAgente",
+   "AnmCompetenciaDespacho",
+   "NumDespacho",
+   "DatRegistro",
+   "IdcFaixa",
+   "NumConsBaixaRenda",
+   "NumConsIndigena",
+   "NumConsQuilombola",
+   "NumConsBPC",
+   "NumConsMultifamiliar",
+   "MdaMWhBaixaRenda",
+   "MdaMWhIndigena",
+   "MdaMWhQuilombola",
+   "MdaMWhBPC",
+   "MdaMWhMultifamiliar",
+   "VlrFatRealBaixaRenda",
+   "VlrFatRealIndigena",
+   "VlrFatRealQuilombola",
+   "VlrFatRealBPC",
+   "VlrMWhMultifamiliar",
+   "QtdConsResTotal",
+   "MdaMWhConsResTotal",
+   "VlrFatRealTotal",
+   "VlrDMR",
+   "VlrCDE",
+   "VlrTarifa",
+   "IdcSituacaoLote"
+  ]
+ },
+ "e959b0a5-3bf9-42fd-9a7a-4721c2bd7c79": {
+  "sha256": "814cf424038771eb76c00dc43091ec17ffc5085e5bde70ca5f9501eaa23df7bc",
+  "dataset": "seguranca-do-trabalho-e-das-instalacoes",
+  "linked_resources": [
+   "ebe17185-a400-4f7a-a680-87c7d67f43dc",
+   "f5afe5c7-75b2-47e3-97d6-06b2bdd142dc"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 7,
+   "oracle": {
+    "available": true,
+    "header_columns": 7,
+    "extracted": 7,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:17+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "SigAgente",
+   "NumCNPJ",
+   "SigIndicador",
+   "AnoIndice",
+   "NumPeriodoIndice",
+   "VlrIndiceEnviado"
+  ]
+ },
+ "25722a60-194d-4234-ab3b-b71354078402": {
+  "sha256": "765488e53aef975f35bc1e35d84a6bbe58be1beeab7012cc7e9b72425b3ce92c",
+  "dataset": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+  "linked_resources": [
+   "11ec447d-698d-4ab8-977f-b424d5deee6a",
+   "2f65a1b0-19b8-4360-8238-b34ab4693d55"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 23,
+   "oracle": {
+    "available": true,
+    "header_columns": 23,
+    "extracted": 23,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:17+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "NomEmpreendimento",
+   "IdeNucleoCEG",
+   "CodCEG",
+   "SigUFPrincipal",
+   "SigTipoGeracao",
+   "DscFaseUsina",
+   "DscOrigemCombustivel",
+   "DscFonteCombustivel",
+   "DscTipoOutorga",
+   "NomFonteCombustivel",
+   "DatEntradaOperacao",
+   "MdaPotenciaOutorgadaKw",
+   "MdaPotenciaFiscalizadaKw",
+   "MdaGarantiaFisicaKw",
+   "IdcGeracaoQualificada",
+   "NumCoordNEmpreendimento",
+   "NumCoordEEmpreendimento",
+   "DatInicioVigencia",
+   "DatFimVigencia",
+   "DscPropriRegimePariticipacao",
+   "DscSubBacia",
+   "DscMuninicpios"
+  ]
+ },
+ "47a7bd99-6494-4158-ab4d-a97d5f1bfaee": {
+  "sha256": "4b7311855d34ca734d5fc06b53ed96e165e0a6ad1b2e6fa03cb2f1aa21f6c078",
+  "dataset": "slc-sistema-de-licitacoes-e-contratos",
+  "linked_resources": [
+   "bed05cd1-636e-4a94-839c-0a08c0a7a9db"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 14,
+   "oracle": {
+    "available": true,
+    "header_columns": 14,
+    "extracted": 14,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:18+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "NomFornecedor",
+   "NumCPFCNPJ",
+   "NumInstrumentoContratual",
+   "NumContratoSIC",
+   "DatIniVigContrato",
+   "DatFimVigContrato",
+   "DscObjetoContrato",
+   "TxtObjetoResumido",
+   "NomSuperintendencia",
+   "NumFormaContratacao",
+   "DscModalidadeLicitatoria",
+   "VlrTotalContrato",
+   "VlrContatroVigencia"
+  ]
+ },
+ "107dc0bb-ae8a-4220-97a9-a5f1a4bb68cf": {
+  "sha256": "892c1271d5715e7cea05e8e02d2953069d306616372ff6ca3af006abd89bde76",
+  "dataset": "subsidios-tarifarios",
+  "linked_resources": [
+   "325c828c-1cde-485e-9571-a412fa64f768"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 14,
+   "oracle": {
+    "available": true,
+    "header_columns": 14,
+    "extracted": 14,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:18+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "DatSubsidio",
+   "NumCNPJDistribuidora",
+   "SigAgente",
+   "NomAgente",
+   "DscTipoMontante",
+   "DscTipoSubsidio",
+   "VlrSubsidio",
+   "DscAtoNormativo",
+   "NumAto",
+   "DatAssinaturaAto",
+   "DatInicioVigenciaAto",
+   "DatFimVigenciaAto",
+   "DthPublicacaoAto"
+  ]
+ },
+ "bdd21356-1111-4742-b5b3-8257626a1565": {
+  "sha256": "af6346177106c36dcfbbe0498f2aa0ba78cdb38ad3e75f0d2991fb8480e54800",
+  "dataset": "tarifa-social-de-energia-eletrica-beneficiarios",
+  "linked_resources": [
+   "e6cb4eb6-3ddb-4fc7-8780-29645f9b35cf"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 7,
+   "oracle": {
+    "available": false
+   }
+  },
+  "at": "2026-10-02T00:29:18+00:00",
+  "fields": [
+   "IdeTarifaSocial",
+   "NomRegiao",
+   "QtdUndConsumidorResidencial",
+   "QtdUndConsumidorBaixaRenda",
+   "MesReferencia",
+   "AnoReferencia",
+   "DthProcessamento"
+  ]
+ },
+ "2d3478e0-8aa0-4cd4-81a7-5f8967cd8804": {
+  "sha256": "6233892f8512c3064dce107066459557fcc29c7df18c3dec28284e2bacabc6ef",
+  "dataset": "tarifas-distribuidoras-energia-eletrica",
+  "linked_resources": [
+   "fcf2906c-7c32-4b9b-a637-054e7a5234f4"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 17,
+   "oracle": {
+    "available": true,
+    "header_columns": 17,
+    "extracted": 17,
+    "recall": 0.8235,
+    "precision": 0.8235,
+    "exact_match": 0.6471,
+    "levenshtein": 0.886,
+    "missing_from_pdf": [
+     "DscBaseTarifaria",
+     "DscREH",
+     "DscUnidadeTerciaria"
+    ],
+    "not_in_file": [
+     "DscBaseTarifa",
+     "DscResolucaoHomologatoria",
+     "DscUnidade"
+    ],
+    "probable_typos": {
+     "DscBaseTarifa": "DscBaseTarifaria"
+    }
+   }
+  },
+  "at": "2026-10-02T00:29:19+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "DscResolucaoHomologatoria",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "DatInicioVigencia",
+   "DatFimVigencia",
+   "DscBaseTarifa",
+   "DscSubgrupo",
+   "DscModalidadeTarifaria",
+   "DscClasse",
+   "DscSubClasse",
+   "DscDetalhe",
+   "NomPostoTarifario",
+   "DscUnidade",
+   "SigAgenteAcessante",
+   "VlrTusd",
+   "VlrTe"
+  ]
+ },
+ "fa22f7f1-2a20-4168-9234-9d14d0fb955c": {
+  "sha256": "7d67c4c322e7a18dcb2c761ca11ca96760bdef4e267699471223876c50201ed0",
+  "dataset": "termo-de-intimacao-ti",
+  "linked_resources": [
+   "186f7895-2d71-4c68-93c9-57de0e5c5498"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 26,
+   "oracle": {
+    "available": true,
+    "header_columns": 26,
+    "extracted": 26,
+    "recall": 0.9615,
+    "precision": 0.9615,
+    "exact_match": 0.9615,
+    "levenshtein": 0.9979,
+    "missing_from_pdf": [
+     "DscEnquadramentoTI"
+    ],
+    "not_in_file": [
+     "DscEnquatramentoTI"
+    ],
+    "probable_typos": {
+     "DscEnquatramentoTI": "DscEnquadramentoTI"
+    }
+   }
+  },
+  "at": "2026-10-02T00:29:20+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "SigAgenteFiscalizador",
+   "NumTermoIntimacao",
+   "DatLavraturaTermoIntimacao",
+   "DscNaturezaFiscalizacao",
+   "DscObjetoFiscalizado",
+   "CodObjetoFiscalizado",
+   "NomAgenteFiscalizado",
+   "NumCPFCNPJAgenteFiscalizado",
+   "NumProcessoFiscalizacao",
+   "NumProcessoPunitivo",
+   "DatRecebimentoTI",
+   "DscTipoPenalidade",
+   "DatRecebimentoManifestacao",
+   "DscDecisaoManifestacao",
+   "DscAtoManifestacao",
+   "DatDecisaoManifestacao",
+   "DatPublicacaoManifestacao",
+   "DatProtocoloRecurso",
+   "DscDecisaoDiretoria",
+   "DscAtoDiretoria",
+   "DatDecisaoDiretoria",
+   "DatPublicacaoDiretoria",
+   "NumTermoEncerramento",
+   "DatLavraturaTE",
+   "DscEnquatramentoTI"
+  ]
+ },
+ "f54d6c11-47af-4cb3-be14-f59239b0942c": {
+  "sha256": "603704c2ff4d78839f07d2e4f107b792b5bf6514f5ef43d5ecc162b60db71dd6",
+  "dataset": "termo-de-notificacao",
+  "linked_resources": [
+   "3aec3f42-5004-44e1-8b9c-4562084196f6"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 18,
+   "oracle": {
+    "available": true,
+    "header_columns": 17,
+    "extracted": 18,
+    "recall": 1.0,
+    "precision": 0.9444,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [
+     "CodFiscalizacao"
+    ],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:21+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "CodFiscalizacao",
+   "NomNaturezaFiscalizacao",
+   "SigAgenteFiscalizador",
+   "SigArea",
+   "SigSubArea",
+   "DscObjeto",
+   "CodObjeto",
+   "NomAgenteFiscalizado",
+   "NumCNPJ",
+   "NumProcesso",
+   "NumTermoNotificacao",
+   "DatLavraturaTN",
+   "DatAvisoRecebimento",
+   "DatManifestacao",
+   "SigDecisao",
+   "NumDocumentoDecisao",
+   "DatLavraturaDecisao"
+  ]
+ },
+ "4b3b970f-25f7-41c4-8355-77faaae9f94b": {
+  "sha256": "8f15231d043a170fad50b2feacd00f21826abe0026aab1cb612924ac01f0c685",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "linked_resources": [
+   "84ba04eb-0a82-423c-9aac-aab4ce8102a3"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 14,
+   "oracle": {
+    "available": true,
+    "header_columns": 14,
+    "extracted": 14,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:21+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "SigAgenteFiscalizador",
+   "NumPenaEdital",
+   "DatLavraturaPenaEdital",
+   "NomNaturezaFiscalizacao",
+   "DscObjetoFiscalizado",
+   "CodObjetoFiscalizado",
+   "DscTipoAtoOutorga",
+   "NumAtoOutorga",
+   "NomAgenteFiscalizado",
+   "NumCPFCNPJAgenteFiscalizado",
+   "NumProcessoFiscalizacao",
+   "DatRecebimentoTIPE",
+   "DscTipoPenalidade"
+  ]
+ },
+ "60c90c06-4983-4c79-a5a0-545e2f354560": {
+  "sha256": "1fcfe086ea2cbfa2603be772ef92901cf24347825e59615aafd93a4e57123a13",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "linked_resources": [
+   "9914bb13-27a9-45c0-8d31-ae2473fbecc4"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 14,
+   "oracle": {
+    "available": true,
+    "header_columns": 14,
+    "extracted": 14,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:22+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "NumPenaEdital",
+   "DatProtocoloManifestacao",
+   "DscDespachoDecisaoManifestacao",
+   "DatDecisaoManifestacao",
+   "DatPublicacaoDecisaoManifestacao",
+   "DscDecisaoManifestacao",
+   "VlrMultaAposDecisaoManifestacao",
+   "DatProtocoloRecurso",
+   "DscDespachoDecisaoDiretoria",
+   "DatDecisaoDiretoria",
+   "DatPublicacaoDiretoria",
+   "DscDecisaoDiretoria",
+   "VlrMultaAposDiretoria"
+  ]
+ },
+ "a3ad3084-62b6-4ade-8f64-b41bfb356383": {
+  "sha256": "7de302f505132bd5d437bb48e4c765785dac44c3aa92d4589bcff16336cd867e",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "linked_resources": [
+   "0e3cb385-65d2-4b9e-ae50-f1e217e4e3bf"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 16,
+   "oracle": {
+    "available": true,
+    "header_columns": 16,
+    "extracted": 16,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:22+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "NumPenaEdital",
+   "VlrMulta",
+   "DscTipoGarantia",
+   "DatProtocoloManifestacao",
+   "DscDespachoDecisaoManifestacao",
+   "DatDecisaoManifestacao",
+   "DatPublicacaoDecisaoManifestacao",
+   "DscDecisaoManifestacao",
+   "VlrMultaAposDecisaoManifestacao",
+   "DatProtocoloRecurso",
+   "DscDespachoDecisaoDiretoria",
+   "DatDecisaoDiretoria",
+   "DatPublicacaoDiretoria",
+   "DscDecisaoDiretoria",
+   "VlrMultaAposDiretoria"
+  ]
+ },
+ "8d89f775-d70f-4337-851e-5e8f80427a1e": {
+  "sha256": "9ded4c1fa9d797eabdf2ddccb5c05f47f48fd356475601f98d22e54b514c77fe",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "linked_resources": [
+   "d4549533-b969-43fa-a1d4-7b75d7868a03"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 16,
+   "oracle": {
+    "available": true,
+    "header_columns": 16,
+    "extracted": 16,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:23+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "NumPenaEdital",
+   "MdaTempoSuspencao",
+   "DscControladorCadeiaSocietaria",
+   "DatProtocoloManifestacao",
+   "DscDespachoDecisaoManifestacao",
+   "DatDecisaoManifestacao",
+   "DatPublicacaoDecisaoManifestacao",
+   "DscDecisaoManifestacao",
+   "MdaSuspencaoAposDecManifest",
+   "DatProtocoloRecurso",
+   "DscDespachoDecisaoDiretoria",
+   "DatDecisaoDiretoria",
+   "DatPublicacaoDiretoria",
+   "DscDecisaoDiretoria",
+   "MdaSuspencaoAposDecDiretoria"
+  ]
+ },
+ "4ac24b5d-38be-4487-84c5-0883fd458ec0": {
+  "sha256": "ad9ccd7813457074b80ad74fcb6013ffa2f6c1cc849731f8b5eb8571ed209796",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "linked_resources": [
+   "18c5fcae-1b7f-40a4-b092-d47344d4d195"
+  ],
+  "outcome": "extracted",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 16,
+   "oracle": {
+    "available": true,
+    "header_columns": 16,
+    "extracted": 16,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:23+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "NumPenaEdital",
+   "MdaTempoSuspencao",
+   "DscControladorCadeiaSocietaria",
+   "DatProtocoloManifestacao",
+   "DscDespachoDecisaoManifestacao",
+   "DatDecisaoManifestacao",
+   "DatPublicacaoDecisaoManifestacao",
+   "DscDecisaoManifestacao",
+   "MdaSuspencaoAposDecManifest",
+   "DatProtocoloRecurso",
+   "DscDespachoDecisaoDiretoria",
+   "DatDecisaoDiretoria",
+   "DatPublicacaoDiretoria",
+   "DscDecisaoDiretoria",
+   "MdaSuspencaoAposDecDiretoria"
+  ]
+ },
+ "e05c1c73-381a-4f54-a30a-ab90718a1c20": {
+  "sha256": "97bc6d82373907eabc138e2fb06335a45cd1e36155f900e1d700dcdf7539e8e7",
+  "dataset": "tfsee",
+  "linked_resources": [
+   "3ff1ab0a-0d0c-4fc6-b52e-050ee6ea19bd"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 15,
+   "oracle": {
+    "available": true,
+    "header_columns": 15,
+    "extracted": 15,
+    "recall": 0.8667,
+    "precision": 0.8667,
+    "exact_match": 0.8,
+    "levenshtein": 0.9497,
+    "missing_from_pdf": [
+     "AnmFimVigenciaTaxaFiscalizacao",
+     "AnmInicioVigenciaTaxaFiscalizacao"
+    ],
+    "not_in_file": [
+     "AnmFimVigenciaTaxaFiscaliz",
+     "AnmInicioVigenciaTaxaFiscaliz"
+    ],
+    "probable_typos": {
+     "AnmInicioVigenciaTaxaFiscaliz": "AnmInicioVigenciaTaxaFiscalizacao",
+     "AnmFimVigenciaTaxaFiscaliz": "AnmFimVigenciaTaxaFiscalizacao"
+    }
+   }
+  },
+  "at": "2026-10-02T00:29:24+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "DscRamo",
+   "SigAgente",
+   "NumCpfCnpj",
+   "DscRazaoSocial",
+   "IdeUsina",
+   "NomUsina",
+   "DscTipoExploracao",
+   "DscTipoGeracao",
+   "AnmInicioVigenciaTaxaFiscaliz",
+   "AnmFimVigenciaTaxaFiscaliz",
+   "VlrDevidoTaxaFiscalizacao",
+   "NumParcelasTaxaFiscalizacao",
+   "DscStatusMudanca",
+   "AnmFimVigCancTaxaFiscalizacao"
+  ]
+ },
+ "b7fe7f95-05b7-4504-b900-4b3978067e41": {
+  "sha256": "8a4510005bab09f267b78bc762acf0789492ef1efeba9f71dcf0aca42fa2e8e1",
+  "dataset": "transmissao-e-distribuicao",
+  "linked_resources": [
+   "9058805d-f9bc-4a33-b88a-942475284114"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 6,
+   "oracle": {
+    "available": false
+   }
+  },
+  "at": "2026-10-02T00:29:24+00:00",
+  "fields": [
+   "IdeFiscTransmissaoDistribuicao",
+   "DscItemFiscalizado",
+   "QtdFiscalizacao",
+   "MesReferencia",
+   "AnoReferencia",
+   "DthProcessamento"
+  ]
+ },
+ "17cf2f0f-31b9-4744-8962-780d2312b0e2": {
+  "sha256": "51df1391adf2bb2b257a308dfccfc535ef606c914bb228437a5b9c5b6ec500d7",
+  "dataset": "usinas-termeletricas-por-tipo",
+  "linked_resources": [
+   "0803a420-10ba-473a-941c-e2b569e3ad2b"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 8,
+   "oracle": {
+    "available": true,
+    "header_columns": 8,
+    "extracted": 8,
+    "recall": 0.875,
+    "precision": 0.875,
+    "exact_match": 0.75,
+    "levenshtein": 0.9256,
+    "missing_from_pdf": [
+     "DscOrigem"
+    ],
+    "not_in_file": [
+     "DscOrigemCombustivel"
+    ],
+    "probable_typos": {}
+   }
+  },
+  "at": "2026-10-02T00:29:25+00:00",
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "DscOrigemCombustivel",
+   "NomTipoUsina",
+   "NomSubTipoUsina",
+   "QtdUsinaTermeletrica",
+   "MdaPotenciaInstaladakW",
+   "MesReferencia",
+   "AnoReferencia"
+  ]
  }
 }

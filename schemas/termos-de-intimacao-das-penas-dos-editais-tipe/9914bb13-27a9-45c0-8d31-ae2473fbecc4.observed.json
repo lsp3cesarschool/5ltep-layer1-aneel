@@ -1,0 +1,93 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumPenaEdital",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatProtocoloManifestacao",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.22
+  },
+  {
+   "name": "DscDespachoDecisaoManifestacao",
+   "type": "string",
+   "sampleEmptyShare": 0.18
+  },
+  {
+   "name": "DatDecisaoManifestacao",
+   "type": "datetime",
+   "format": "%Y-%m-%d %H:%M:%S",
+   "sampleEmptyShare": 0.18
+  },
+  {
+   "name": "DatPublicacaoDecisaoManifestacao",
+   "type": "datetime",
+   "format": "%Y-%m-%d %H:%M:%S",
+   "sampleEmptyShare": 0.18
+  },
+  {
+   "name": "DscDecisaoManifestacao",
+   "type": "string",
+   "sampleEmptyShare": 0.18
+  },
+  {
+   "name": "VlrMultaAposDecisaoManifestacao",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.35
+  },
+  {
+   "name": "DatProtocoloRecurso",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.65
+  },
+  {
+   "name": "DscDespachoDecisaoDiretoria",
+   "type": "string",
+   "sampleEmptyShare": 0.97
+  },
+  {
+   "name": "DatDecisaoDiretoria",
+   "type": "datetime",
+   "format": "%Y-%m-%d %H:%M:%S",
+   "sampleEmptyShare": 0.97
+  },
+  {
+   "name": "DatPublicacaoDiretoria",
+   "type": "datetime",
+   "format": "%Y-%m-%d %H:%M:%S",
+   "sampleEmptyShare": 0.97
+  },
+  {
+   "name": "DscDecisaoDiretoria",
+   "type": "string",
+   "sampleEmptyShare": 0.97
+  },
+  {
+   "name": "VlrMultaAposDiretoria",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.97
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-02T00:27:23+00:00",
+  "sha256": "5f234769f95a8ba2a1c0477c6996d9638d9d7f56ad6da2cff32f020234fc483f",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 100,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

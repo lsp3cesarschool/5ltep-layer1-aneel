@@ -1,0 +1,96 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeOnsSbe",
+   "type": "string",
+   "sampleEmptyShare": 0.0135
+  },
+  {
+   "name": "SglTipAnj",
+   "type": "string",
+   "sampleEmptyShare": 0.2929
+  },
+  {
+   "name": "DscTipAnj",
+   "type": "string",
+   "sampleEmptyShare": 0.2929
+  },
+  {
+   "name": "IdeMdl",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeTipMdl",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeTipAnj",
+   "type": "integer",
+   "sampleEmptyShare": 0.2929
+  },
+  {
+   "name": "IdeSbe",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcPrtMdlGrl",
+   "type": "integer",
+   "sampleEmptyShare": 0.5125
+  },
+  {
+   "name": "NomSubestacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomLongoSubestacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigUFSubestacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumOprMdl",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomMdl",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcSitMdl",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumTnsMdl",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-02T00:25:08+00:00",
+  "sha256": "11c8a5a6feec0ace86f4fd9b54d0b065d1392d27fc6ad407a208e81ffcd2f0b2",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 519,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

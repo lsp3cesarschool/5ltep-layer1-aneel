@@ -1,0 +1,103 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcSituacaoProjeto",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscCodProjeto",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0003
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0003
+  },
+  {
+   "name": "NumCPFCNPJ",
+   "type": "string",
+   "sampleEmptyShare": 0.0003
+  },
+  {
+   "name": "DscChamPEDEstrategico",
+   "type": "string",
+   "sampleEmptyShare": 0.9595
+  },
+  {
+   "name": "DscTituloProjeto",
+   "type": "string",
+   "sampleEmptyShare": 0.0253
+  },
+  {
+   "name": "QtdMesesDuracaoPrevista",
+   "type": "integer",
+   "sampleEmptyShare": 0.0133
+  },
+  {
+   "name": "SigSegmentoSetorEletrico",
+   "type": "string",
+   "sampleEmptyShare": 0.025
+  },
+  {
+   "name": "SigTemaProjeto",
+   "type": "string",
+   "sampleEmptyShare": 0.025
+  },
+  {
+   "name": "SigFasInovacaoProjeto",
+   "type": "string",
+   "sampleEmptyShare": 0.025
+  },
+  {
+   "name": "SigTipoProdutoProjeto",
+   "type": "string",
+   "sampleEmptyShare": 0.0253
+  },
+  {
+   "name": "VlrCustoTotalPrevisto",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.029
+  },
+  {
+   "name": "AnoCadastroPropostaProjeto",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatConclusaoProjeto",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.4536
+  },
+  {
+   "name": "VlrCustoTotalAuditado",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4088
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-02T00:07:20+00:00",
+  "sha256": "1d240c0a8cd60a90ab7dff0fd4ce4f301fa47aedc991382bbc4625f76ca0c76a",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 3997,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

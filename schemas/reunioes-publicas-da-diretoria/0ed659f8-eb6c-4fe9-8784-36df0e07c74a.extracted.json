@@ -1,0 +1,65 @@
+{
+ "fields": [
+  {
+   "name": "DatReuniao",
+   "type": "date",
+   "description": "Data de prevista para realização da reunião",
+   "declaredType": "Data"
+  },
+  {
+   "name": "IdeReuniao",
+   "type": "string",
+   "description": "Identificador único da reunião. (Ex: 14/2021 - RPO)",
+   "constraints": {
+    "maxLength": 15
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 15
+  },
+  {
+   "name": "DscTipoSessao",
+   "type": "string",
+   "description": "Tipo de sessão da reunião (ordinária ou extraordinária)",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "DscSituacaoReuniao",
+   "type": "string",
+   "description": "Situação da reunião agendada (executada ou cancelada)",
+   "constraints": {
+    "maxLength": 9
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 9
+  },
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data e hora do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data"
+  }
+ ],
+ "x5ltep": {
+  "status": "extracted",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "de493bde-44a7-4de3-85bb-3d62453baea5",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/43dd358f-0ee2-4eb5-80f6-73461bd7d2d1/resource/de493bde-44a7-4de3-85bb-3d62453baea5/download/dd-reunioes-publicas-da-diretoria-da-aneel.pdf",
+   "sha256": "2c5254c6a6e0487098912c79f5d1b243d511edba6c83be96c1e71787e25c5435",
+   "oracle": {
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": []
+   }
+  }
+ }
+}

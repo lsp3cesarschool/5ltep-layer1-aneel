@@ -1,0 +1,119 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatRalie",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeNucleoCEG",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodCEG",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatEmissaoAto",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigUFPrincipal",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscOrigemCombustivel",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigTipoGeracao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomEmpreendimento",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumUgUsina",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPotenciaUnitaria",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPotenciaLiberadaTeste",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.9828
+  },
+  {
+   "name": "NumDespachoTeste",
+   "type": "string",
+   "sampleEmptyShare": 0.9828
+  },
+  {
+   "name": "DatDescidaRotorOutorgada",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.9996
+  },
+  {
+   "name": "DatDescidaRotorRealizada",
+   "type": "any",
+   "sampleEmptyShare": 1.0
+  },
+  {
+   "name": "DatInicioOpTesteOutorgada",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.9282
+  },
+  {
+   "name": "DatLiberOpTesteRealizado",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.9828
+  },
+  {
+   "name": "DatUGInicioOpComerOutorgado",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatPrevisaoOpComercialSFG",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.1062
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-02T00:14:20+00:00",
+  "sha256": "cbb765640566f641519f6fb8e128e24f66b986ac743657d899fd636a17a36b51",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

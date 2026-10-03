@@ -1,0 +1,88 @@
+{
+ "fields": [
+  {
+   "name": "IdeProjetoRetornoInvestimento",
+   "type": "number",
+   "description": "Identificador Projeto Retorno Investimento",
+   "declaredType": "Numérico (PK)"
+  },
+  {
+   "name": "AnoCiclo",
+   "type": "string",
+   "description": "Ciclo de período anual ao qual pertence o projeto",
+   "declaredType": "Texto"
+  },
+  {
+   "name": "QtdProjeto",
+   "type": "number",
+   "description": "Número de projetos previstos no ciclo",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "QtdAgente",
+   "type": "number",
+   "description": "Quantidade de distribuidoras participantes do ciclo",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "QtdDemandaRetiradaPontaMW",
+   "type": "number",
+   "description": "Valor previsto em (MW) de demanda que foi retirada da ponta com a execução dos projetos.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "QtdEconomiaEnergiaGWh",
+   "type": "number",
+   "description": "Valor previsto de energia em (GWh/ano) economizado com a execução dos projetos",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrPercentualRecOperLiquida",
+   "type": "number",
+   "description": "Percentual da Receita Operacional Líquida que a distribuidora investiu no projeto de eficiência energética (EE)",
+   "declaredType": "Decimal"
+  },
+  {
+   "name": "VlrInvestimento",
+   "type": "number",
+   "description": "Valor investido em projetos de EE durante o ciclo em milhões de reais.",
+   "declaredType": "Decimal"
+  },
+  {
+   "name": "DthProcessamento",
+   "type": "number",
+   "description": "Data e hora do processamento de carga automático",
+   "declaredType": "Numérico (fins de controle)"
+  },
+  {
+   "name": "IdcAtualizacaoPeriodica",
+   "type": "string",
+   "description": "Sim ou Não",
+   "declaredType": "Texto"
+  },
+  {
+   "name": "MesReferencia",
+   "type": "number",
+   "description": "Mês base da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "number",
+   "description": "Ano base da informação",
+   "declaredType": "Numérico"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "3091b690-eef5-4d66-b8df-fcd5c10feb01",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/dbe863ff-f27f-49bf-ad07-84eddb1629ba/resource/3091b690-eef5-4d66-b8df-fcd5c10feb01/download/dd_ig_7_1.pdf",
+   "sha256": "4e133de7fd6d79aeb7386720e23bd7e2b0cec520e748dbad23b5a171f696fa3a",
+   "oracle": {}
+  }
+ }
+}

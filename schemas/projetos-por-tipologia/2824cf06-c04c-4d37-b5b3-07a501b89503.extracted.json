@@ -1,0 +1,70 @@
+{
+ "fields": [
+  {
+   "name": "IdeNovoProjeto",
+   "type": "number",
+   "description": "Identificador Novo Projeto",
+   "declaredType": "Numérico (PK)"
+  },
+  {
+   "name": "DscTipologia",
+   "type": "string",
+   "description": "Descrição da tipologia de novos projetos",
+   "declaredType": "Texto"
+  },
+  {
+   "name": "QtdProjeto",
+   "type": "number",
+   "description": "Quantidade de Projetos",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrDemandaRetiradaPontaMW",
+   "type": "number",
+   "description": "Valor previsto em (MW) de demanda que foi retirada da ponta com a execução dos projetos.",
+   "declaredType": "Decimal"
+  },
+  {
+   "name": "VlrEconomiaEnergiaGWh",
+   "type": "number",
+   "description": "Valor previsto de energia em GWh/ano economizado com a execução dos projetos.",
+   "declaredType": "Decimal"
+  },
+  {
+   "name": "VlrInvestimento",
+   "type": "number",
+   "description": "Valor investido em projetos de EE durante o ciclo em milhões de Reais",
+   "declaredType": "Decimal"
+  },
+  {
+   "name": "MesReferencia",
+   "type": "number",
+   "description": "Mês de referência da coleta da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "number",
+   "description": "Ano de referência da coleta da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DthProcessamento",
+   "type": "number",
+   "description": "Data e hora do processamento de carga automático",
+   "declaredType": "Numérico (fins de controle)"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "687c80c9-18f8-47b5-8334-fbdb2bd657cd",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/8ea45cdf-0031-44c8-9524-e400aaf86a06/resource/687c80c9-18f8-47b5-8334-fbdb2bd657cd/download/dd_ig_7_2.pdf",
+   "sha256": "8d809002dbff1445b3f2e97a2096585067d6768988abf75e7ac907bdbbf5b123",
+   "oracle": {}
+  }
+ }
+}

@@ -1,0 +1,122 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatCompetencia",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "AnoCompetencia",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscMesAnoCompetencia",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCPFCNPJ",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodCEG",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomEmpreendimento",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcUsinaProrrogada",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "PctEmpresa",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrGeracaoTotal",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrGeracaoDistribuida",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrPrincipal",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrMultaJuros",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrTotal",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrPrincipalDistribuido",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrMultaJurosDistribuido",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrTotalDistribuido",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrTarifa",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T11:50:14+00:00",
+  "sha256": "c1d20e2dc7dba5a3294c637f6c09e6a0a9af0910d119a1ab869b2ec9f20eba6b",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

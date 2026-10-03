@@ -1,0 +1,65 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscFibrasCaboParaRaio",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrPrecoNorte",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrPrecoNordeste",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrPrecoCentroOeste",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrPrecoSudeste",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrPrecoSul",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MesBase",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "AnoBase",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T11:49:56+00:00",
+  "sha256": "c2edbabd9da56a49abe8202acc2337063b2e4c640a81cd4f341bb8c8574b76da",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

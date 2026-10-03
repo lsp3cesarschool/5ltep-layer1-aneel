@@ -1,0 +1,56 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatReferencia",
+   "type": "date",
+   "format": "%d/%m/%Y",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomUsinaPrincipal",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodCEGPrincipal",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomUsinaMontante",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodCEGMontante",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "PctRepasse",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrOrdem",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T11:50:12+00:00",
+  "sha256": "95ee250f918b99bd8e3879ebc971f90b8d2fea8f99c3070fe7888596dfb35cd7",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 2818,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

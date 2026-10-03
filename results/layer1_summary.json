@@ -5,7 +5,7 @@
   "name": "ANEEL",
   "title": "ANEEL open data portal (Dados Abertos ANEEL)"
  },
- "generated_at": "2026-10-03T07:55:34+00:00",
+ "generated_at": "2026-10-03T11:57:03+00:00",
  "census_at": "2026-10-03T03:07:24+00:00",
  "method": {
   "rotation_days": 28,
@@ -41,55 +41,55 @@
    "3": 40,
    "4": 0
   },
-  "validated": 71,
-  "validation_coverage": 0.2017,
-  "errors": 2,
-  "queue_remaining": 279
+  "validated": 170,
+  "validation_coverage": 0.483,
+  "errors": 3,
+  "queue_remaining": 179
  },
  "schema_sources": {
-  "extracted": 58
+  "extracted": 122
  },
  "conformance_by_source": {
   "extracted": {
-   "verifiable": 58,
-   "conformant": 3,
-   "l1_rate": 0.0517
+   "verifiable": 122,
+   "conformant": 9,
+   "l1_rate": 0.0738
   }
  },
- "verifiable": 58,
- "conformant": 3,
- "l1_rate": 0.0517,
+ "verifiable": 122,
+ "conformant": 9,
+ "l1_rate": 0.0738,
  "l1_pass": false,
  "drift": {
   "observed": 0,
   "declared": 0,
-  "files_with_baseline": 71,
+  "files_with_baseline": 170,
   "first_baseline_at": "2026-10-03T04:21:08+00:00",
-  "last_observed_at": "2026-10-03T07:50:21+00:00"
+  "last_observed_at": "2026-10-03T11:56:13+00:00"
  },
  "coverage": {
   "files": 352,
-  "read": 71,
+  "read": 170,
   "empty": 0,
   "not_tabular": 0,
   "too_large": 0,
-  "not_downloaded": 2,
-  "pending": 279,
+  "not_downloaded": 3,
+  "pending": 179,
   "not_downloaded_by_reason": {
-   "redirect loop": 1,
+   "redirect loop": 2,
    "other": 1
   },
   "not_downloaded_by_host": {
-   "redirect loop · dadosabertos.aneel.gov.br": 1,
+   "redirect loop · dadosabertos.aneel.gov.br": 2,
    "other · dadosabertos.aneel.gov.br": 1
   },
-  "read_without_schema": 13,
-  "checked": 58,
-  "conform": 3,
-  "fail_missing_fields": 8,
-  "fail_undeclared_columns": 8,
-  "fail_cells_over_limit": 47,
-  "fail_only_cells": 47
+  "read_without_schema": 48,
+  "checked": 122,
+  "conform": 9,
+  "fail_missing_fields": 9,
+  "fail_undeclared_columns": 9,
+  "fail_cells_over_limit": 105,
+  "fail_only_cells": 104
  },
  "not_tables": {
   "count": 0,
@@ -97,36 +97,37 @@
  },
  "distributions": {
   "tables_with_other_formats": 114,
-  "other_formats": 7,
-  "compared": 7,
-  "same_columns": 7,
+  "other_formats": 17,
+  "compared": 17,
+  "same_columns": 17,
   "spelling_only": 0,
   "different_columns": 0,
   "not_compared": {},
   "by_format": {
-   "parquet": 6,
-   "xml": 1
+   "parquet": 14,
+   "xml": 1,
+   "zip": 2
   }
  },
  "network": {
   "total": {
-   "files": 73,
-   "failed_files": 2,
-   "gb": 15.4,
-   "minutes": 209.7,
-   "end_to_end_mb_s": 1.22,
-   "zip_download_mb_s": 5.47,
+   "files": 173,
+   "failed_files": 3,
+   "gb": 37.71,
+   "minutes": 448.4,
+   "end_to_end_mb_s": 1.4,
+   "zip_download_mb_s": 6.56,
    "first_byte_s_median": 1.08,
    "request_failures": {}
   },
   "by_host": {
    "dadosabertos.aneel.gov.br": {
-    "files": 73,
-    "failed_files": 2,
-    "gb": 15.4,
-    "minutes": 209.7,
-    "end_to_end_mb_s": 1.22,
-    "zip_download_mb_s": 5.47,
+    "files": 173,
+    "failed_files": 3,
+    "gb": 37.71,
+    "minutes": 448.4,
+    "end_to_end_mb_s": 1.4,
+    "zip_download_mb_s": 6.56,
     "first_byte_s_median": 1.08,
     "request_failures": {}
    }
@@ -143,6 +144,7 @@
    "machine_readable_and_read": 0,
    "unreadable_by_reason": {},
    "pdf_link_not_a_pdf": 0,
+   "unreachable": 0,
    "orphans": 47,
    "declaring_resource_ids": 0,
    "broken_declared_links": 0,
@@ -167,41 +169,41 @@
    "date_fields_with_declared_format": null
   },
   "files_vs_dictionaries": {
-   "checked": 58,
-   "with_declared_fields_missing": 8,
-   "with_undeclared_columns": 8,
+   "checked": 122,
+   "with_declared_fields_missing": 9,
+   "with_undeclared_columns": 9,
    "with_spelling_differences": 0,
    "with_similar_names": 8,
    "similar_names": 8,
-   "declared_fields_missing": 96,
+   "declared_fields_missing": 100,
    "formats_inferred_from_data": {
-    "format": 58,
-    "decimalChar": 49,
+    "format": 128,
+    "decimalChar": 136,
     "type": 8,
-    "groupChar": 42
+    "groupChar": 96
    }
   },
   "files": {
-   "validated": 71,
+   "validated": 170,
    "encodings": {
-    "utf-8": 70,
-    "cp1252": 1
+    "utf-8": 168,
+    "cp1252": 2
    },
    "delimiters": {
-    ";": 25,
-    ",": 46
+    ";": 69,
+    ",": 101
    },
-   "with_decode_errors": 47,
+   "with_decode_errors": 102,
    "with_ragged_rows": 0,
    "zips_with_several_headers": 0,
    "with_columns_without_name": 0,
    "not_tabular": 0,
    "not_tables": 0,
    "formats": {
-    "csv": 71
+    "csv": 170
    },
    "unreachable_by_reason": {
-    "redirect loop": 1,
+    "redirect loop": 2,
     "other": 1
    }
   },
@@ -322,7 +324,7 @@
    "name": "beneficiarios-da-cde",
    "level": 1,
    "tables": 109,
-   "verifiable": 54,
+   "verifiable": 109,
    "conformant": 0,
    "l1_rate": 0.0
   },
@@ -346,17 +348,17 @@
    "name": "capacidade-instalada-por-unidade-da-federacao",
    "level": 1,
    "tables": 1,
-   "verifiable": 0,
-   "conformant": 0,
-   "l1_rate": null
+   "verifiable": 1,
+   "conformant": 1,
+   "l1_rate": 1.0
   },
   {
    "name": "cfurh",
    "level": 1,
    "tables": 8,
-   "verifiable": 0,
-   "conformant": 0,
-   "l1_rate": null
+   "verifiable": 8,
+   "conformant": 5,
+   "l1_rate": 0.625
   },
   {
    "name": "compensacao-financeira-royalties",

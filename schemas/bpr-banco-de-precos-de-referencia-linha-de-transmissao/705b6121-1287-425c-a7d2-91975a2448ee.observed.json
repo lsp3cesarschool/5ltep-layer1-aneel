@@ -1,0 +1,69 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscTipoEstrutura",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscTipoTensao",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdNumeroCabos",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdeCS",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdeD1",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdeD2",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdeCD",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MesBase",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "AnoBase",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T11:49:52+00:00",
+  "sha256": "c0da86774cb4026b4f3539201b54e2ea5bfb24c10d00b350740e312c54741806",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 54,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

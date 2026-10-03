@@ -1,0 +1,107 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCNPJAgenteDistribuidora",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigAgenteDistribuidora",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomAgenteDistribuidora",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomTipoMercado",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscModalidadeTarifaria",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscSubGrupoTarifario",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscClasseConsumoMercado",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscSubClasseConsumidor",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscDetalheConsumidor",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeNucleoCeg",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCNPJAgenteAcessante",
+   "type": "string",
+   "sampleEmptyShare": 0.012
+  },
+  {
+   "name": "NomAgenteAcessante",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscPostoTarifario",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscOpcaoEnergia",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscDetalheMercado",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatCompetencia",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrMercado",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T13:53:54+00:00",
+  "sha256": "b42a20e436dc2a26f7830f7736f4fc586c29d3694279bb0f1c2be56ac3a31ae1",
+  "encoding": "cp1252",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

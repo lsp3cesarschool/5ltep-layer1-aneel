@@ -1,0 +1,172 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "AnmPeriodoReferencia",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCNPJDistribuidora",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodClasseConsumo",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscClasseConsumo",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodSubGrupoTarifario",
+   "type": "any",
+   "sampleEmptyShare": 1.0
+  },
+  {
+   "name": "DscSubGrupoTarifario",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodUFibge",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigUF",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodRegiao",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomRegiao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodMunicipioIbge",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomMunicipio",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodCEP",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigTipoConsumidor",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCPFCNPJ",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodEmpreendimento",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DthAtualizaCadastralEmpreend",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigModalidadeEmpreendimento",
+   "type": "any",
+   "sampleEmptyShare": 1.0
+  },
+  {
+   "name": "DscModalidadeHabilitado",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdUCRecebeCredito",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigTipoGeracao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscFonteGeracao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscPorte",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPotenciaInstaladaKW",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomSubEstacao",
+   "type": "any",
+   "sampleEmptyShare": 1.0
+  },
+  {
+   "name": "NumCoordESub",
+   "type": "any",
+   "sampleEmptyShare": 1.0
+  },
+  {
+   "name": "NumCoordNSub",
+   "type": "any",
+   "sampleEmptyShare": 1.0
+  },
+  {
+   "name": "NomTitularEmpreendimento",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T13:51:45+00:00",
+  "sha256": "7b85d2dbd9f312b88eaf66947eef9046d540a9391c914c060e87e6374bf33740",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

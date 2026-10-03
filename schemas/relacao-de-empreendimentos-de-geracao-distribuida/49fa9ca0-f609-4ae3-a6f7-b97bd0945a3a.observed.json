@@ -1,0 +1,80 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodGeracaoDistribuida",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaAreaArranjo",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPotenciaInstalada",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomFabricanteModulo",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomFabricanteInversor",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatConexao",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPotenciaModulos",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPotenciaInversores",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdModulos",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomModeloModulo",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomModeloInversor",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T13:52:35+00:00",
+  "sha256": "8b62fb274326f9f1cf7503cd3c1ba9d27c18afec6cd1b89b0582e57bfe536421",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

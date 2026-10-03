@@ -1,0 +1,30 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigIndicador",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscIndicador",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T12:26:40+00:00",
+  "sha256": "d5eff5ec8cd407454c616bbf9384638596fc4d40a3320fb35b8b1c1fd5cf9182",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 484,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

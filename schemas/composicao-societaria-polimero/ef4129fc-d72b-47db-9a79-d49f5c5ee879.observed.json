@@ -1,0 +1,158 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "AnoExercicio",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcTrimestreFormulario",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCPFCNPJPaiCadeiaSocietaria",
+   "type": "string",
+   "sampleEmptyShare": 0.109
+  },
+  {
+   "name": "NomRazSocPaiCadeiaSocietaria",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumNivelCadeiaSocietaria",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscTipoCadeiaSocietaria",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCPFCNPJSocio",
+   "type": "string",
+   "sampleEmptyShare": 0.2406
+  },
+  {
+   "name": "NomRazaoSocialSocio",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "PctParticipacaoNivelAcima",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcEspolio",
+   "type": "boolean",
+   "trueValues": [
+    "SIM"
+   ],
+   "falseValues": [
+    "NAO"
+   ],
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcPessoaEstrangeira",
+   "type": "boolean",
+   "trueValues": [
+    "SIM"
+   ],
+   "falseValues": [
+    "NAO"
+   ],
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcSucessaoDesconhecida",
+   "type": "boolean",
+   "trueValues": [
+    "SIM"
+   ],
+   "falseValues": [
+    "NAO"
+   ],
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcGoverno",
+   "type": "boolean",
+   "trueValues": [
+    "SIM"
+   ],
+   "falseValues": [
+    "NAO"
+   ],
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcFundacao",
+   "type": "boolean",
+   "trueValues": [
+    "SIM"
+   ],
+   "falseValues": [
+    "NAO"
+   ],
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcEmpresaEstrangeira",
+   "type": "boolean",
+   "trueValues": [
+    "SIM"
+   ],
+   "falseValues": [
+    "NAO"
+   ],
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcCadSocietariaDesconhecida",
+   "type": "boolean",
+   "trueValues": [
+    "SIM"
+   ],
+   "falseValues": [
+    "NAO"
+   ],
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcPerfilSocietario",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscTipoSociedade",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumOrdemCadeiaSocietaria",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T12:04:45+00:00",
+  "sha256": "c181b89f08c42789a62839e7c73a07ed1bc21d844bb06cc6c6970f56c5c504be",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

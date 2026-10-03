@@ -1,0 +1,117 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCNPJ",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomTipoOutorga",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodConjuntoUC",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodSubEstacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatReferenciaInformada",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdUCAtivoSub",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdRecl1N2001",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumMesUltInspecVisual",
+   "type": "string",
+   "sampleEmptyShare": 0.0026
+  },
+  {
+   "name": "NumAnoUltInspecVisual",
+   "type": "integer",
+   "sampleEmptyShare": 0.0026
+  },
+  {
+   "name": "NumMesUltInspecTermo",
+   "type": "string",
+   "sampleEmptyShare": 0.003
+  },
+  {
+   "name": "NumAnoUltInspecTermo",
+   "type": "integer",
+   "sampleEmptyShare": 0.003
+  },
+  {
+   "name": "NumMesUltManutPrev",
+   "type": "string",
+   "sampleEmptyShare": 0.0032
+  },
+  {
+   "name": "NumAnoUltManutPrev",
+   "type": "integer",
+   "sampleEmptyShare": 0.0032
+  },
+  {
+   "name": "NumMesUltManutCorr",
+   "type": "string",
+   "sampleEmptyShare": 0.0342
+  },
+  {
+   "name": "NumAnoUltManutCorr",
+   "type": "integer",
+   "sampleEmptyShare": 0.0342
+  },
+  {
+   "name": "PctCargaMaxima",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.003
+  },
+  {
+   "name": "DthCarga",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T12:16:43+00:00",
+  "sha256": "1bc455c8e945b267afd3195e456ae6d3d10eb52240d82be5db648c4f86f1fdb4",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

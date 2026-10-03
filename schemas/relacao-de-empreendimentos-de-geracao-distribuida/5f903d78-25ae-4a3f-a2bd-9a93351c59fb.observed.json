@@ -1,0 +1,57 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodGeracaoDistribuida",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomFabricanteAerogerador",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscModeloAerogerador",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPotenciaInstalada",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaAlturaPa",
+   "type": "any",
+   "sampleEmptyShare": 1.0
+  },
+  {
+   "name": "DatConexao",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcEixoRotor",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T13:52:35+00:00",
+  "sha256": "491d84bdcfaabe6158f7707582d01a6d9b2287dda8e3aa2bd271891edc4a7b9f",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 94,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

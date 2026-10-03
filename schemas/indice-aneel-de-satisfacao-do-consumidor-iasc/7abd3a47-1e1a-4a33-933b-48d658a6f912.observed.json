@@ -1,0 +1,942 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumAno",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscClassificacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DescricaoCategoria",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCNPJ",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumOrdemIASC",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaIndicadorQualidade",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaIndicadorSatisfacao",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaIndicadorFidelidade",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0697
+  },
+  {
+   "name": "MdaIndicadorValor",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaIndicadorConfianca",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaSatisfacaoR2",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaFidelidadeR2",
+   "type": "string",
+   "sampleEmptyShare": 0.0697
+  },
+  {
+   "name": "MdaValorR2",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaConfiancaR2",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPesoQualidadeInformacao",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPesoQualidadeAcesso",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPesoQualidadeConfiabilidade",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPesoSatisfacaoS1",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPesoSatisfacaoS2",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPesoSatisfacaoS3",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPesoFidelidadeV33",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.653
+  },
+  {
+   "name": "MdaPesoFidelidadeV34",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaPesoFidelidadeV35",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaPesoFidelidadeV36",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaPesoValorV28",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.653
+  },
+  {
+   "name": "MdaPesoValorV29",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaPesoValorV30",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaPesoValorV31",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaPesoValorV91",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.5834
+  },
+  {
+   "name": "MdaPesoConfiancaV37",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPesoConfiancaV38",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPesoConfiancaV39",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaPesoConfiancaV40",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV15",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV16",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV21",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.347
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV22",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV23",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV24",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV90",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.5834
+  },
+  {
+   "name": "MdaMediaQualidadeAcessoV10",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaQualidadeAcessoV11",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaQualidadeAcessoV12",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaQualidadeAcessoV17",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaQualidadeAcessoV19",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidadeV8",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidadeV9",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidadeV13",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.347
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidadeV14",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidadeV18",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidadeV20",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaSatisfacaoS1",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaSatisfacaoS2",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaSatisfacaoS3",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaFidelidadeV33",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.653
+  },
+  {
+   "name": "MdaMediaFidelidadeV34",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaMediaFidelidadeV35",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaMediaFidelidadeV36",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaMediaFidelidadeV93",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.7904
+  },
+  {
+   "name": "MdaMediaFidelidadeV94",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.5834
+  },
+  {
+   "name": "MdaMediaValorV28",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.653
+  },
+  {
+   "name": "MdaMediaValorV29",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaMediaValorV30",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaMediaValorV31",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaMediaValorV91",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.5834
+  },
+  {
+   "name": "MdaMediaValorV92",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.9303
+  },
+  {
+   "name": "MdaMediaConfiancaV37",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaConfiancaV38",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaConfiancaV39",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaMediaConfiancaV40",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaMediaQualidadeInformacao",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaQualidadeAcesso",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidade",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaQualidade",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaSatisfacao",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaFidelidade",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0697
+  },
+  {
+   "name": "MdaMediaValor",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaMediaConfianca",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV15",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV16",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV21",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.347
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV22",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV23",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV24",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV90",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.5834
+  },
+  {
+   "name": "MdaDsvPadQualidadeAcessoV10",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidadeAcessoV11",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidadeAcessoV12",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidadeAcessoV17",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidadeAcessoV19",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidadeV8",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidadeV9",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidadeV13",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.347
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidadeV14",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidadeV18",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidadeV20",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadSatisfacaoS1",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadSatisfacaoS2",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadSatisfacaoS3",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadFidelidadeV33",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.653
+  },
+  {
+   "name": "MdaDsvPadFidelidadeV34",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaDsvPadFidelidadeV35",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaDsvPadFidelidadeV36",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaDsvPadFidelidadeV93",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.7904
+  },
+  {
+   "name": "MdaDsvPadFidelidadeV94",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.5834
+  },
+  {
+   "name": "MdaDsvPadValorV28",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.653
+  },
+  {
+   "name": "MdaDsvPadValorV29",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaDsvPadValorV30",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaDsvPadValorV31",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaDsvPadValorV91",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.5834
+  },
+  {
+   "name": "MdaDsvPadValorV92",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.9303
+  },
+  {
+   "name": "MdaDsvPadConfiancaV37",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadConfiancaV38",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadConfiancaV39",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaDsvPadConfiancaV40",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacao",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidadeAcesso",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidade",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadQualidade",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadSatisfacao",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadFidelidade",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0697
+  },
+  {
+   "name": "MdaDsvPadValor",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDsvPadConfianca",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaCoeficienteQualidadeValor",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaCoeficienteQualidadeSatisfacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaCoeficienteValorSatisfacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaCoeficienteQualidadeConfianca",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaCoeficienteSatisfacaoConfianca",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaCoeficienteConfiancaFidelidade",
+   "type": "string",
+   "sampleEmptyShare": 0.0697
+  },
+  {
+   "name": "MdaCoeficienteSatisfacaoFidelidade",
+   "type": "string",
+   "sampleEmptyShare": 0.0697
+  },
+  {
+   "name": "QtdSexoV11",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdSexoV12",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdFaixaEtariaV21",
+   "type": "integer",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "QtdFaixaEtariaV22",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdFaixaEtariaV23",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdFaixaEtariaV24",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdFaixaEtariaV25",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdFaixaEtariaV26",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdFaixaEtariaV27",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdFaixaEtariaV28",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdFaixaEtariaV29",
+   "type": "integer",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "QtdEscolaridadeV31",
+   "type": "integer",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "QtdEscolaridadeV32",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdEscolaridadeV33",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdEscolaridadeV34",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdEscolaridadeV35",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdEscolaridadeV36",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdEscolaridadeV37",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdEscolaridadeV38",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdEscolaridadeV39",
+   "type": "integer",
+   "sampleEmptyShare": 0.4166
+  },
+  {
+   "name": "QtdRendaV41",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdRendaV42",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdRendaV43",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdRendaV44",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdRendaV45",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdRendaV46",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdRendaV47",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPesoFidelidadeV105",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.793
+  },
+  {
+   "name": "MdaMediaFidelidadeV105",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.793
+  },
+  {
+   "name": "MdaDsvPadFidelidadeV105",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.793
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T12:26:12+00:00",
+  "sha256": "99f4c617c101bad8a205e3de0b4c184caca5679217b42549a6262bd2584c8162",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 1493,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

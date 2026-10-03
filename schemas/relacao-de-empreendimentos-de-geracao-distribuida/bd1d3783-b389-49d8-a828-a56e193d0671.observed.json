@@ -1,0 +1,47 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodGeracaoDistribuida",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPotenciaInstalada",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatConexao",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscCicloTermodinamico",
+   "type": "string",
+   "sampleEmptyShare": 0.0531
+  },
+  {
+   "name": "DscMaquinaMotrizTermica",
+   "type": "string",
+   "sampleEmptyShare": 0.0531
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T13:53:24+00:00",
+  "sha256": "75b867a7d4ffa1b49c8edf2d3cb3e2660ba772e42ca67721de5f560ce27a9e61",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 659,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

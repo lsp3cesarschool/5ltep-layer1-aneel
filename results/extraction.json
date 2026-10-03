@@ -3782,5 +3782,30 @@
    "MesReferencia",
    "AnoReferencia"
   ]
+ },
+ "21a65fdc-d524-46bd-acc1-7560d2721ae3": {
+  "sha256": "aae7f52a4c925366722ded0a23717f7ad36d401796ac0dbb11c2ada529a944fb",
+  "dataset": "compensacao-financeira-royalties",
+  "linked_resources": [
+   "3f60c1f9-f4a5-411e-b4bd-9559b59f62d3"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "deterministic": {
+   "fields": 7,
+   "oracle": {
+    "available": false
+   }
+  },
+  "at": "2026-10-03T11:57:42+00:00",
+  "fields": [
+   "IdeCompensacaoFinanceira",
+   "NomBeneficiario",
+   "VlrCompensacaoFinanceira",
+   "VlrRoyaltiesItaipu",
+   "MesReferencia",
+   "AnoReferencia",
+   "DthProcessamento"
+  ]
  }
 }

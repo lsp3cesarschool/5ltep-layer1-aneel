@@ -1,0 +1,51 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%d-%m-%Y",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCNPJ",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigIndicador",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "AnoIndice",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumPeriodoIndice",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrIndiceEnviado",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T12:26:14+00:00",
+  "sha256": "4ed094c99d6057667e6a0f1eb19fb5d19c72d854059549a7d5d24d16cdb32308",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

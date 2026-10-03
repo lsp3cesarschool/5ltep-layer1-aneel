@@ -1,0 +1,73 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatRalie",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeNucleoCEG",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodCEG",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatEmissaoAto",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigUFPrincipal",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscOrigemCombustivel",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigTipoGeracao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomEmpreendimento",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodLeilao",
+   "type": "string",
+   "sampleEmptyShare": 0.0644
+  },
+  {
+   "name": "DatInicioSuprimento",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.7464
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T13:51:43+00:00",
+  "sha256": "26b66505dbce5961505935c023e3a3c57759b00d4e107bd978e94fc77d76a5e8",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

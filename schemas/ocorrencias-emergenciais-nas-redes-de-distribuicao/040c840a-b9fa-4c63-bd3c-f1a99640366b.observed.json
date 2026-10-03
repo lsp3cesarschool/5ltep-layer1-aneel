@@ -1,0 +1,141 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCnpjDistribuidora",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodMunicipioIBGE",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodOcorrenciaEmergencial",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodConjUnidConsumidora",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodAlimentador",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodSubestacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumAnoCompetencia",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumMesCompetencia",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DthIniOcorrencia",
+   "type": "datetime",
+   "format": "%Y-%m-%d %H:%M:%S",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DthFimOcorrencia",
+   "type": "datetime",
+   "format": "%Y-%m-%d %H:%M:%S",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscFormaConhecimento",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscInterrupcaoAssociada",
+   "type": "boolean",
+   "trueValues": [
+    "Sim"
+   ],
+   "falseValues": [
+    "Não"
+   ],
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscMotivoExpurgo",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscFatoGeradorOrigem",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscFatoGeradorTipo",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscFatoGeradorCausa",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscFatoGeradorDetalhe",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumTempoPreparacao",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.1794
+  },
+  {
+   "name": "NumTempoDeslocamento",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.173
+  },
+  {
+   "name": "NumTempoExecucao",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.177
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T13:32:30+00:00",
+  "sha256": "7ed1050092342916bc6e797f4dd79577ac84683956963e1f2c3be652a7876c8c",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCnpjDistribuidora",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodEventoSituacaoEmergencia",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "AnoCompetencia",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MesCompetencia",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DthInicioEvento",
+   "type": "datetime",
+   "format": "%Y-%m-%d %H:%M:%S",
+   "sampleEmptyShare": 0.004
+  },
+  {
+   "name": "DthFimEvento",
+   "type": "datetime",
+   "format": "%Y-%m-%d %H:%M:%S",
+   "sampleEmptyShare": 0.004
+  },
+  {
+   "name": "VlrChiLimiteDistribuidora",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0316
+  },
+  {
+   "name": "VlrSomaChiEvento",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0237
+  },
+  {
+   "name": "DscAcionamentoPlanoContingencia",
+   "type": "boolean",
+   "trueValues": [
+    "Sim"
+   ],
+   "falseValues": [
+    "Não"
+   ],
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumNivelMaximoContingenciaEvento",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscOrigemEvento",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscLinkRelatorioExpurgos",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T12:08:07+00:00",
+  "sha256": "cf831e7ddbdc963570e5ec149227a08a76462e7b28abed665ec888c5e8931b56",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 253,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigTipoGeracao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdUsinasPeriodo",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPotenciaInstaladaKW",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MesReferencia",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T12:08:06+00:00",
+  "sha256": "ccb83ed1da32d74ec8580fda6e0ce5acf74df5603d95ade079e67c0d4db4c75e",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 509,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

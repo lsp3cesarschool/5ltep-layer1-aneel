@@ -1,0 +1,152 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCnpj",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomLin",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodLin",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaLngFaiSvc",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodMunSbeOri",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodMunSbeDst",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCnpjAgtOrigem",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomAgenteOrigem",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCnpjAgtDestino",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomAgenteDestino",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcTipPop",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaDtaPntGeo",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.1558
+  },
+  {
+   "name": "MdaCpoEle",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrRefCpoEle",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscUndMdaCpoEle",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaCpoMgt",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrRefCpoMgt",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscUndMdaCpoMgt",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdcTipMda",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatMda",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.7024
+  },
+  {
+   "name": "HorMda",
+   "type": "string",
+   "sampleEmptyShare": 0.7024
+  },
+  {
+   "name": "DscMtdCalCpoMgt",
+   "type": "string",
+   "sampleEmptyShare": 0.2976
+  },
+  {
+   "name": "DscMtdCalCpoEle",
+   "type": "string",
+   "sampleEmptyShare": 0.2976
+  },
+  {
+   "name": "DscEqpUtl",
+   "type": "string",
+   "sampleEmptyShare": 0.7024
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T12:10:02+00:00",
+  "sha256": "32ed80cbf5499d1b6f1d58fc7675ef29eab7f1d4bbc9743954f4cefa60b7d1ca",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

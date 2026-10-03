@@ -1,0 +1,158 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data simples de processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data"
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "description": "Sigla que abrevia o nome dos Agentes regulados pela ANEEL",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "NumCPFCNPJ",
+   "type": "string",
+   "description": "Cadeia de caracteres referente ao número de cadastro de Pessoa Física (CPF) ou Pessoa Jurídica (CNPJ) do proprietário do Empreendimento de Geração Distribuída",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "SigUF",
+   "type": "string",
+   "description": "Cadeia de Sigla do IBGE referente ao Estado do Brasil em que se situa o Agente regulado pela ANEEL",
+   "constraints": {
+    "maxLength": 30
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 30
+  },
+  {
+   "name": "CodMunicipio",
+   "type": "string",
+   "description": "Código do município cadastrado no IBGE.",
+   "constraints": {
+    "maxLength": 7
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 7
+  },
+  {
+   "name": "NomMunicipio",
+   "type": "string",
+   "description": "Cadeia de Nome do Município onde atribuído pelo IBGE em que se situa o Agente regulado pela ANEEL",
+   "constraints": {
+    "maxLength": 40
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 40
+  },
+  {
+   "name": "NomCategoria",
+   "type": "string",
+   "description": "Cadeia de Nome da categoria em 1° nível do registro da solicitação. Menor granularidade na classificação do registro de solicitação",
+   "constraints": {
+    "maxLength": 15
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 15
+  },
+  {
+   "name": "NomSubCategoria",
+   "type": "string",
+   "description": "Cadeia de Nome da categoria em 2° nível do registro da solicitação. Granularidade média na classificação do registro de solicitação",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "NomTipologia",
+   "type": "string",
+   "description": "Cadeia de Nome da categoria em 3° nível do registro da solicitação. Maior granularidade na classificação do registro de solicitação",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DscDecisao",
+   "type": "string",
+   "description": "Especifica quanto a procedência/improcedência do registro da solicitação.",
+   "constraints": {
+    "maxLength": 12
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 12
+  },
+  {
+   "name": "DscSituacao",
+   "type": "string",
+   "description": "Especifica a fase atual da análise/resolução do registro de solicitação",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DatCriacao",
+   "type": "date",
+   "description": "Data simples de cadastro do registro de solicitação junto a ANEEL",
+   "declaredType": "Data"
+  },
+  {
+   "name": "QtdReclamacoesDia",
+   "type": "number",
+   "description": "Quantidade de registros de solicitações.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "llm",
+   "dictionary_id": "9b01f108-34c1-45d2-a8c9-0aeb19905257",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26/resource/9b01f108-34c1-45d2-a8c9-0aeb19905257/download/dm-ouvidoriaaneel.pdf",
+   "sha256": "f4c20c6411bcb6379e72107aa5ea142632b6bac3340fe4fd0aa253e44ef567c3",
+   "oracle": {
+    "recall": 0.6154,
+    "precision": 0.6154,
+    "exact_match": 0.6154,
+    "levenshtein": 0.9135,
+    "missing_from_pdf": [
+     "CodigoMunicipio",
+     "DtCriacao",
+     "NomDecisao",
+     "NumCPFCNPJAgente",
+     "NumQtdReclamacoesDia"
+    ],
+    "not_in_file": [
+     "CodMunicipio",
+     "DatCriacao",
+     "DscDecisao",
+     "NumCPFCNPJ",
+     "QtdReclamacoesDia"
+    ]
+   },
+   "model": "qwen3:8b",
+   "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+   "prompt_version": "v1",
+   "ollama_version": "0.35.0"
+  }
+ }
+}

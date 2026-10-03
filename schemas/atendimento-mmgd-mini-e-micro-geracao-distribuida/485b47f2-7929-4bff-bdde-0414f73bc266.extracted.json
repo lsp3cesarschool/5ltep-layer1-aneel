@@ -1,0 +1,202 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "SigAgenteDistribuicao",
+   "type": "string",
+   "description": "Sigla da Distribuidora",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "NumCPFCNPJ",
+   "type": "string",
+   "description": "Número do CNPJ ou CPF da Distribuidora",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "CodMunicipioIBGE",
+   "type": "number",
+   "description": "Código Externo do IBGE referente ao Município em que se situa o Empreendimento de Geração Distribuída.",
+   "declaredType": "Numérico",
+   "declaredSize": 10
+  },
+  {
+   "name": "NomUF",
+   "type": "string",
+   "description": "Nome da Unidade da Federação (Estado e Distrito Federal)",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "NomMunicipio",
+   "type": "string",
+   "description": "Nome do Município onde atribuído pelo IBGE em que se situa o empreendimento.",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DatSolicitacao",
+   "type": "date",
+   "description": "Data solicitação cadastro",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatPrzEnvio",
+   "type": "date",
+   "description": "Código de envio do cadastro",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatInj",
+   "type": "date",
+   "description": "Data de início para injeção",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatLim",
+   "type": "date",
+   "description": "Data limite para injeção (art. 655-0, artigo 4o, REN 1/2021)",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatOrcamentoConexao",
+   "type": "date",
+   "description": "Data do orçamento da conexão",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatVistoria",
+   "type": "date",
+   "description": "Data da realização da vistoria",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "SigTipoGeracao",
+   "type": "string",
+   "description": "Abreviação do tipo de geração. Classificado em: UTN - Usina Termonuclear UTE - Usina Termelétrica UHE - Usina Hidrelétrica UFV - Central Geradora Solar Fotovoltaica PCH - Pequena Central Hidrelétrica EOL - Central Geradora Eólica CGU - Central Geradora Undi-elétrica CGH - Central Geradora Hidrelétrica",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "DscModalidade",
+   "type": "string",
+   "description": "Descrição da modalidade de geração",
+   "constraints": {
+    "maxLength": 30
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 30
+  },
+  {
+   "name": "DscMotivoSituacao",
+   "type": "string",
+   "description": "Descrição do motivo de não aceitação na análise da documentação",
+   "constraints": {
+    "maxLength": 110
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 110
+  },
+  {
+   "name": "DscNecessidadeObras",
+   "type": "string",
+   "description": "Descrição indicativa das necessidades de obras",
+   "constraints": {
+    "maxLength": 30
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 30
+  },
+  {
+   "name": "DscSituacaoConexao",
+   "type": "string",
+   "description": "Descrição da Situação da Conexão",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DscStatusConexao",
+   "type": "string",
+   "description": "Descrição da situação dos pedidos da conexão",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscSubgrupoTarifario",
+   "type": "string",
+   "description": "Grupamento de unidades consumidoras de acordo com os grupos tarifários: A1 - tensão de fornecimento igual ou superior a 230 kV; A2 - tensão de fornecimento de 88 kV a 138 kV; A3 - tensão de fornecimento de 69 kV; A3a - tensão de fornecimento de 30 kV a 44 kV; A4 - tensão de fornecimento de 2,3 kV a 25 kV; A5 – subterrâneo; B1 – residencial; B2 – rural; B3 - demais classes; B4 - iluminação pública.",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "MdaPotencia",
+   "type": "number",
+   "description": "Potência da central de microgeração ou minigeração",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NumProtocolo",
+   "type": "string",
+   "description": "Número do Protocolo referente ao envio",
+   "constraints": {
+    "maxLength": 30
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 30
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "bf062c12-4291-45e2-8595-a4823f22fd98",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/f0773920-9847-46cb-9bc0-dde68761c573/resource/bf062c12-4291-45e2-8595-a4823f22fd98/download/dm-mmgd-mini-e-micro-geracao-distribuida.pdf",
+   "sha256": "9fe39ba66f4dd9f15728a613e7847d9951be40f9552fa786a45b45fd7be6b303",
+   "oracle": {
+    "recall": 0.9524,
+    "precision": 0.9524,
+    "exact_match": 0.9524,
+    "levenshtein": 0.9748,
+    "missing_from_pdf": [
+     "DscFonteGeracao"
+    ],
+    "not_in_file": [
+     "SigTipoGeracao"
+    ]
+   }
+  }
+ }
+}

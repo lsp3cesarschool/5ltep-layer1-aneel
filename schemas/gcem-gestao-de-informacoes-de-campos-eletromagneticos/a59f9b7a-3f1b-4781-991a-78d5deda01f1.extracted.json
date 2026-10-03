@@ -1,0 +1,202 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "NumCNPJAgente",
+   "type": "string",
+   "description": "Número do CNPJ do Agente",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "description": "Nome do Agente",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "NomCut",
+   "type": "string",
+   "description": "Nome curto da Subestação",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "SigUFSbe",
+   "type": "string",
+   "description": "Sigla da Unidade Federativa da Subestação",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "CodMunSbe",
+   "type": "number",
+   "description": "Código do Município da Subestação de Origem da Linha de Transmissão",
+   "declaredType": "Numérico",
+   "declaredSize": 20
+  },
+  {
+   "name": "DscTensoesSbe",
+   "type": "string",
+   "description": "Tensões da Subestação",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "IdcTipPop",
+   "type": "string",
+   "description": "Tipo de População. Valores de domínio: PO - População Ocupacional; PG - População Geral.",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "MdaDtaPntGeo",
+   "type": "number",
+   "description": "Distância do Ponto Geométrico Central",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaCpoEle",
+   "type": "number",
+   "description": "Medida do Campo Elétrico",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrRefCpoEle",
+   "type": "number",
+   "description": "Valor de referência do campo elétrico para o Público em Geral ou População Ocupacional",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DscUndMdaCpoEle",
+   "type": "string",
+   "description": "Unidade de Medida Utilizada",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "MdaCpoMgt",
+   "type": "number",
+   "description": "Medida do Campo Magnético",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrRefCpoMgt",
+   "type": "number",
+   "description": "Valor de referência do campo magnético para o Público em Geral ou População Ocupacional",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DscUndMdaCpoMgt",
+   "type": "string",
+   "description": "Unidade de Medida do Campo Magnético",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "IdcTipMda",
+   "type": "string",
+   "description": "Tipo de Medição. Valores de domínio: C - CALCULADO M - MEDIDO",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DatMda",
+   "type": "date",
+   "description": "Data da Medição",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "HorMda",
+   "type": "time",
+   "description": "Hora da Medição",
+   "declaredType": "Hora"
+  },
+  {
+   "name": "DscMtdCalCpoMgt",
+   "type": "string",
+   "description": "Método Utilizado para Cálculo de Campo Magnético",
+   "constraints": {
+    "maxLength": 30
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 30
+  },
+  {
+   "name": "DscMtdCalCpoEle",
+   "type": "string",
+   "description": "Método Utilizado para Cálculo de Campo Elétrico",
+   "constraints": {
+    "maxLength": 30
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 30
+  },
+  {
+   "name": "DscEqpUtl",
+   "type": "string",
+   "description": "Equipamento Utilizado para Realizar as Medições",
+   "constraints": {
+    "maxLength": 150
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 150
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "2eecb20b-8faa-438e-9247-1e5473d7fd83",
+   "dictionary_name": "Dicionário de dados - Subestação",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/f8258ef8-1b0d-4dc2-a5db-f3de743d6608/resource/2eecb20b-8faa-438e-9247-1e5473d7fd83/download/dm-gcem-subestacao.pdf",
+   "sha256": "c7d505103f5556d9892c541366c98bf57930491d8f63334bb09c2b773b956b42",
+   "oracle": {
+    "recall": 0.9524,
+    "precision": 0.9524,
+    "exact_match": 0.9524,
+    "levenshtein": 0.9728,
+    "missing_from_pdf": [
+     "NumCnpj"
+    ],
+    "not_in_file": [
+     "NumCNPJAgente"
+    ]
+   }
+  }
+ }
+}

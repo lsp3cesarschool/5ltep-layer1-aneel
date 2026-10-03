@@ -1,0 +1,154 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatReuniao",
+   "type": "date",
+   "description": "Data da reunião.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "IdeReuniao",
+   "type": "string",
+   "description": "Identificador único da reunião composto pelo Número da Sessão, Ano, Tipo da Reunião e Tipo da Sessão. (Ex: 14 2017 PO)",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "IdcSituacao",
+   "type": "string",
+   "description": "Indica a situação do(s) processo(s) distribuído(s). Sendo: 1 - Aguardando Submissão; 2 - Submetido Sorteio; 3 - Em Sorteio; 4 - Sorteado; 5 - Encerrado; 6 - Submetido Pauta; 7- Em Pauta; 8- Submetido Bloco ; 9- Em Bloco;",
+   "constraints": {
+    "maxLength": 1
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 1
+  },
+  {
+   "name": "NomDiretorRelator",
+   "type": "string",
+   "description": "Nome do diretor/relator que foi sorteado para a sessão",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "NumProcesso",
+   "type": "string",
+   "description": "Número do processo validado na ANEEL.",
+   "constraints": {
+    "maxLength": 17
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 17
+  },
+  {
+   "name": "NomClassificacaoAssunto",
+   "type": "string",
+   "description": "Nome da classificação do assunto.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "TxtDecisaoJulgamento",
+   "type": "string",
+   "description": "Texto descritivo da decisão do julgamento.",
+   "constraints": {
+    "maxLength": 4000
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 4000
+  },
+  {
+   "name": "NumOrdem",
+   "type": "number",
+   "description": "Número da ordem de priorização",
+   "declaredType": "Numérico",
+   "declaredSize": 10
+  },
+  {
+   "name": "NumAtoAdministrativo",
+   "type": "string",
+   "description": "Número do ato administrativo.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "NomTipoAtoAdministrativo",
+   "type": "string",
+   "description": "Nome do tipo de ato administrativo",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "TxtAssunto",
+   "type": "string",
+   "description": "Descrição do assunto do documento.",
+   "constraints": {
+    "maxLength": 4000
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 4000
+  },
+  {
+   "name": "DscResultadoJulgamento",
+   "type": "string",
+   "description": "Descrição do resultado do julgamento",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "IdcMemoriaPublicada",
+   "type": "string",
+   "description": "Identificado da memória dos resultados do julgamento. 1 - Deliberado 2 - Parcialmente Deliberado 3 - Não Deliberado 4 - Pedido de Vista 5 - Retirado da Pauta 6 - Pedido de Vista + Retirado de Pauta 7 - Pedido de Vista + Parcialmente Deliberado 8 - Pedido de Vista + Não Deliberado 9 - Pedido de Vista + Prorrogação",
+   "constraints": {
+    "maxLength": 1
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 1
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "496665e6-d735-4521-88c8-d909d99d31a2",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a9fb5b4b-59ca-4be8-9690-876d9547271d/resource/496665e6-d735-4521-88c8-d909d99d31a2/download/dm-pautas-e-atas-das-reunioes-publicas-da-diretoria.pdf",
+   "sha256": "1426cdf49c0494333b1d4f31caa03dbb5e5881e0bc6460ec7dcd6fe37fa20449",
+   "oracle": {
+    "recall": 1.0,
+    "precision": 0.9286,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [
+     "IdcMemoriaPublicada"
+    ]
+   }
+  }
+ }
+}

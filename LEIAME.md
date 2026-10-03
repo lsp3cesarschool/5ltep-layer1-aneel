@@ -81,7 +81,7 @@ origem acima; os esquemas e resultados são commitados pelo workflow.
 
 ## Limitações
 
-Valem as limitações da instância principal. Específico da ANEEL: dicionários em PDF cujas tabelas não
+Valem as limitações da instância principal, inclusive os [limites de tamanho e de tempo](https://github.com/lsp3cesarschool/5ltep-layer1/blob/main/LEIAME.md#limites-de-tamanho-e-de-tempo) (o que o GitHub e o sistema aceitam). Específico da ANEEL: dicionários em PDF cujas tabelas não
 seguem o modelo, ou que não têm camada de texto, dependem da etapa do LLM ou ficam no nível 1.
 
 ## Documentação e referências

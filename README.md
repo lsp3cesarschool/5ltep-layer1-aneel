@@ -80,7 +80,7 @@ upstream commit above; the schemas and results are committed by the workflow.
 
 ## Limitations
 
-The limitations of the main instance apply. Specific to ANEEL: PDF dictionaries whose tables do not
+The limitations of the main instance apply, including its [size and time limits](https://github.com/lsp3cesarschool/5ltep-layer1#size-and-time-limits) (what GitHub and the system accept). Specific to ANEEL: PDF dictionaries whose tables do not
 follow the template, or that have no text layer, depend on the LLM stage or stay at level 1.
 
 ## Documentation and references

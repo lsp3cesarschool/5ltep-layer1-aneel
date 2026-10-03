@@ -1,0 +1,102 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "description": "Sigla que abrevia o nome dos Agentes regulados pela ANEEL",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "NumCNPJ",
+   "type": "string",
+   "description": "CNPJ do Agente do setor elétrico conforme cadastro de agentes da ANEEL",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "IdeConjUndConsumidoras",
+   "type": "string",
+   "description": "Identificador do Conjunto de Unidades Consumidoras.",
+   "constraints": {
+    "maxLength": 5
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 5
+  },
+  {
+   "name": "DscConjUndConsumidoras",
+   "type": "string",
+   "description": "Descrição do Conjunto de Unidades Consumidoras",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "SigIndicador",
+   "type": "string",
+   "description": "Sigla do Tipo de Indicador. As siglas e descrições completas das mesmas estão disponibilizadas em um arquivo à parte devido a volumetria que esses dados gerariam. Vide o arquivo dominio-indicadores.csv disponibilizado na mesma página desse conjunto de dados.",
+   "constraints": {
+    "maxLength": 3
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 3
+  },
+  {
+   "name": "AnoIndice",
+   "type": "string",
+   "description": "Ano de competência do índice.",
+   "constraints": {
+    "maxLength": 4
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 4
+  },
+  {
+   "name": "NumPeriodoIndice",
+   "type": "number",
+   "description": "Período do índice expressado em meses.",
+   "declaredType": "Numérico",
+   "declaredSize": 4
+  },
+  {
+   "name": "VlrIndiceEnviado",
+   "type": "number",
+   "description": "Valor do índice enviado.",
+   "declaredType": "Numérico"
+  }
+ ],
+ "x5ltep": {
+  "status": "extracted",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "9f42b1e5-ceaf-413d-85bc-0eb3a25a39d6",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/dcdff65d-d173-4d2e-a3b9-84eec7702f06/resource/9f42b1e5-ceaf-413d-85bc-0eb3a25a39d6/download/dm-atendimento-as-ocorrencias-emergenciais.pdf",
+   "sha256": "becdf03e4d35ce88e09688c519efc74f40457e03df1777c72a315629980914bc",
+   "oracle": {
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": []
+   }
+  }
+ }
+}

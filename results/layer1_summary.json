@@ -1,0 +1,810 @@
+{
+ "layer": 1,
+ "portal": {
+  "portal_url": "https://dadosabertos.aneel.gov.br",
+  "name": "ANEEL",
+  "title": "ANEEL open data portal (Dados Abertos ANEEL)"
+ },
+ "generated_at": "2026-10-03T07:55:34+00:00",
+ "census_at": "2026-10-03T03:07:24+00:00",
+ "method": {
+  "rotation_days": 28,
+  "sample_rows": 5000,
+  "l1_max_error_rate": 0.01,
+  "l1_pass_threshold": 0.85,
+  "oracle_accept": 1.0,
+  "oracle_llm_below": 0.8,
+  "llm_model": "auto",
+  "llm_seed": 42,
+  "extraction_prompt_version": "v1"
+ },
+ "environment": {
+  "python": "3.11.16"
+ },
+ "datasets": {
+  "total": 72,
+  "with_tables": 72,
+  "by_level": {
+   "0": 15,
+   "1": 51,
+   "2": 0,
+   "3": 6,
+   "4": 0
+  }
+ },
+ "tables": {
+  "total": 352,
+  "by_level": {
+   "0": 72,
+   "1": 240,
+   "2": 0,
+   "3": 40,
+   "4": 0
+  },
+  "validated": 71,
+  "validation_coverage": 0.2017,
+  "errors": 2,
+  "queue_remaining": 279
+ },
+ "schema_sources": {
+  "extracted": 58
+ },
+ "conformance_by_source": {
+  "extracted": {
+   "verifiable": 58,
+   "conformant": 3,
+   "l1_rate": 0.0517
+  }
+ },
+ "verifiable": 58,
+ "conformant": 3,
+ "l1_rate": 0.0517,
+ "l1_pass": false,
+ "drift": {
+  "observed": 0,
+  "declared": 0,
+  "files_with_baseline": 71,
+  "first_baseline_at": "2026-10-03T04:21:08+00:00",
+  "last_observed_at": "2026-10-03T07:50:21+00:00"
+ },
+ "coverage": {
+  "files": 352,
+  "read": 71,
+  "empty": 0,
+  "not_tabular": 0,
+  "too_large": 0,
+  "not_downloaded": 2,
+  "pending": 279,
+  "not_downloaded_by_reason": {
+   "redirect loop": 1,
+   "other": 1
+  },
+  "not_downloaded_by_host": {
+   "redirect loop · dadosabertos.aneel.gov.br": 1,
+   "other · dadosabertos.aneel.gov.br": 1
+  },
+  "read_without_schema": 13,
+  "checked": 58,
+  "conform": 3,
+  "fail_missing_fields": 8,
+  "fail_undeclared_columns": 8,
+  "fail_cells_over_limit": 47,
+  "fail_only_cells": 47
+ },
+ "not_tables": {
+  "count": 0,
+  "resources": []
+ },
+ "distributions": {
+  "tables_with_other_formats": 114,
+  "other_formats": 7,
+  "compared": 7,
+  "same_columns": 7,
+  "spelling_only": 0,
+  "different_columns": 0,
+  "not_compared": {},
+  "by_format": {
+   "parquet": 6,
+   "xml": 1
+  }
+ },
+ "network": {
+  "total": {
+   "files": 73,
+   "failed_files": 2,
+   "gb": 15.4,
+   "minutes": 209.7,
+   "end_to_end_mb_s": 1.22,
+   "zip_download_mb_s": 5.47,
+   "first_byte_s_median": 1.08,
+   "request_failures": {}
+  },
+  "by_host": {
+   "dadosabertos.aneel.gov.br": {
+    "files": 73,
+    "failed_files": 2,
+    "gb": 15.4,
+    "minutes": 209.7,
+    "end_to_end_mb_s": 1.22,
+    "zip_download_mb_s": 5.47,
+    "first_byte_s_median": 1.08,
+    "request_failures": {}
+   }
+  }
+ },
+ "findings": {
+  "dictionaries": {
+   "total": 121,
+   "by_format": {
+    "PDF": 121
+   },
+   "machine_readable": 0,
+   "human_readable": 121,
+   "machine_readable_and_read": 0,
+   "unreadable_by_reason": {},
+   "pdf_link_not_a_pdf": 0,
+   "orphans": 47,
+   "declaring_resource_ids": 0,
+   "broken_declared_links": 0,
+   "naming_another_dataset": 0
+  },
+  "links": {
+   "tables": 352,
+   "by_method": {
+    "single": 248,
+    "none": 80,
+    "name": 24
+   },
+   "fields_listed_in_description": 0
+  },
+  "types": {
+   "fields_declared": 0,
+   "distinct_spellings": 0,
+   "fields_with_recognised_type": null,
+   "unrecognised_spellings": [],
+   "top_spellings": {},
+   "date_fields": 0,
+   "date_fields_with_declared_format": null
+  },
+  "files_vs_dictionaries": {
+   "checked": 58,
+   "with_declared_fields_missing": 8,
+   "with_undeclared_columns": 8,
+   "with_spelling_differences": 0,
+   "with_similar_names": 8,
+   "similar_names": 8,
+   "declared_fields_missing": 96,
+   "formats_inferred_from_data": {
+    "format": 58,
+    "decimalChar": 49,
+    "type": 8,
+    "groupChar": 42
+   }
+  },
+  "files": {
+   "validated": 71,
+   "encodings": {
+    "utf-8": 70,
+    "cp1252": 1
+   },
+   "delimiters": {
+    ";": 25,
+    ",": 46
+   },
+   "with_decode_errors": 47,
+   "with_ragged_rows": 0,
+   "zips_with_several_headers": 0,
+   "with_columns_without_name": 0,
+   "not_tabular": 0,
+   "not_tables": 0,
+   "formats": {
+    "csv": 71
+   },
+   "unreachable_by_reason": {
+    "redirect loop": 1,
+    "other": 1
+   }
+  },
+  "pdf_extraction": {
+   "pdf_dictionaries_linked": 74,
+   "processed": 64,
+   "by_outcome": {
+    "extracted": 34,
+    "suggested": 30
+   },
+   "with_similar_names": 14,
+   "deterministic": {
+    "with_oracle": 64,
+    "recall": 0.9121,
+    "precision": 0.911,
+    "exact_match": 0.8983,
+    "levenshtein": 0.9622
+   },
+   "llm": {
+    "with_oracle": 7,
+    "recall": 0.465,
+    "precision": 0.4662,
+    "exact_match": 0.4566,
+    "levenshtein": 0.7537
+   }
+  }
+ },
+ "per_dataset": [
+  {
+   "name": "acrescimo-da-potencia-instalada",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 1,
+   "conformant": 1,
+   "l1_rate": 1.0
+  },
+  {
+   "name": "agentes-de-geracao-de-energia-eletrica",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "agentes-do-setor-eletrico",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 1,
+   "conformant": 1,
+   "l1_rate": 1.0
+  },
+  {
+   "name": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
+   "level": 1,
+   "tables": 5,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "atendimento-ocorrencias-emergenciais",
+   "level": 3,
+   "tables": 1,
+   "verifiable": 1,
+   "conformant": 0,
+   "l1_rate": 0.0
+  },
+  {
+   "name": "atos-de-outorgas-de-geracao",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "audiencias-e-consultas-publicas",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 1,
+   "conformant": 1,
+   "l1_rate": 1.0
+  },
+  {
+   "name": "auto-de-infracao",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015",
+   "level": 0,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "bandeiras-tarifarias",
+   "level": 0,
+   "tables": 3,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "base-de-dados-geografica-da-distribuidora-bdgd",
+   "level": 0,
+   "tables": 3,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "beneficiarios-da-cde",
+   "level": 1,
+   "tables": 109,
+   "verifiable": 54,
+   "conformant": 0,
+   "l1_rate": 0.0
+  },
+  {
+   "name": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
+   "level": 0,
+   "tables": 25,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "bpr-banco-de-precos-de-referencia-subestacao",
+   "level": 0,
+   "tables": 4,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "capacidade-instalada-por-unidade-da-federacao",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "cfurh",
+   "level": 1,
+   "tables": 8,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "compensacao-financeira-royalties",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "componentes-tarifarias",
+   "level": 1,
+   "tables": 15,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "composicao-societaria-polimero",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "conta-desenvolvimento-energetico-cde-custeio-dos-beneficios-tarifarios",
+   "level": 3,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "ctr-curva-de-carga",
+   "level": 1,
+   "tables": 2,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "desempenho-das-concessionarias-de-transmissao",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "empreendimento-hidreletrico-em-estudo",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "empreendimentos-em-operacao",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "evento-situacao-de-emergencia",
+   "level": 0,
+   "tables": 2,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "fiscalizacao-economica-e-financeira",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "fsb-fiscalizacao-de-seguranca-de-barragens",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "gcem-gestao-de-informacoes-de-campos-eletromagneticos",
+   "level": 1,
+   "tables": 2,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "geracao",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "indger-indicadores-gerenciais-da-distribuicao",
+   "level": 0,
+   "tables": 5,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "indicadores-coletivos-de-continuidade-dec-e-fec",
+   "level": 0,
+   "tables": 8,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente",
+   "level": 0,
+   "tables": 3,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "indicadores-de-qualidade-do-atendimento-telefonico",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "indicadores-quantitativos-modelo-vigente-ate-2015",
+   "level": 0,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "indice-aneel-de-satisfacao-do-consumidor-iasc",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "indqual-inadimplencia",
+   "level": 1,
+   "tables": 2,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "indqual-municipio",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
+   "level": 1,
+   "tables": 10,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
+   "level": 0,
+   "tables": 2,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+   "level": 1,
+   "tables": 10,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
+   "level": 1,
+   "tables": 10,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "ouvidoria-setorial-aneel",
+   "level": 1,
+   "tables": 13,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "pautas-e-atas-das-reunioes-publicas-da-diretoria",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "pdd",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "projetos-de-eficiencia-energetica",
+   "level": 0,
+   "tables": 3,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "projetos-de-p-d-em-energia-eletrica",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "projetos-de-p-d-temas-estrategicos",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "projetos-por-tipologia",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "projetos-res-n-316-2008-219-2006-e-anteriores",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "projetos-retornos-e-investimentos",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "qualidade-do-atendimento-comercial",
+   "level": 1,
+   "tables": 2,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
+   "level": 0,
+   "tables": 6,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "relacao-de-empreendimentos-de-geracao-distribuida",
+   "level": 1,
+   "tables": 5,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "resultado-de-leiloes",
+   "level": 1,
+   "tables": 2,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "reunioes-publicas-da-diretoria",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "samp",
+   "level": 3,
+   "tables": 24,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "samp-balanco",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "scs-sistema-de-controle-de-subvencoes-e-programas-sociais",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "seguranca-do-trabalho-e-das-instalacoes",
+   "level": 1,
+   "tables": 2,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+   "level": 1,
+   "tables": 2,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "sigec-sistema-de-gestao-de-creditos",
+   "level": 0,
+   "tables": 2,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "sistema-de-gestao-da-transmissao-siget",
+   "level": 0,
+   "tables": 17,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "slc-sistema-de-licitacoes-e-contratos",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "subsidios-tarifarios",
+   "level": 3,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "tarifa-social-de-energia-eletrica-beneficiarios",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "tarifas-distribuidoras-energia-eletrica",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "termo-de-intimacao-ti",
+   "level": 3,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "termo-de-notificacao",
+   "level": 3,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "termos-de-intimacao-das-penas-dos-editais-tipe",
+   "level": 1,
+   "tables": 5,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "tfsee",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "transmissao-e-distribuicao",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  },
+  {
+   "name": "usinas-termeletricas-por-tipo",
+   "level": 1,
+   "tables": 1,
+   "verifiable": 0,
+   "conformant": 0,
+   "l1_rate": null
+  }
+ ]
+}

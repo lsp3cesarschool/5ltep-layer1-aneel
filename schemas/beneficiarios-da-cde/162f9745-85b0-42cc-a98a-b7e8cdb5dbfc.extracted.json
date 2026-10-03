@@ -1,0 +1,155 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "AnmReferencia",
+   "type": "string",
+   "description": "Ano e mês base de referência da informação",
+   "constraints": {
+    "maxLength": 6
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 6
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "description": "Sigla que abrevia o nome dos Agentes regulados pela ANEEL",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "NumCNPJDistribuidora",
+   "type": "string",
+   "description": "Número do CNPJ ou CPF do agente fiscalizado.",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "CodIbgeMunicipio",
+   "type": "string",
+   "description": "Código do IBGE do município",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "IdcTipoFaturamento",
+   "type": "string",
+   "description": "Identificador do tipo de faturamento. 1 - Faturamento; 2 - Cancelamento; 3 - Refaturamento tipo 1; 4 - Refaturamento tipo 2.",
+   "constraints": {
+    "maxLength": 5
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 5
+  },
+  {
+   "name": "IdcClasseConsumidor",
+   "type": "string",
+   "description": "Identificador da subclasse consumidor: 1 - Residencial; 2 - Industrial; 3 - Comercial; 4 - Rural; 5 - Serviço Público; 6 - Poder Público; 7 - Iluminação Pública; 8 - Consumo Próprio; 9 - Não se aplica.",
+   "constraints": {
+    "maxLength": 5
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 5
+  },
+  {
+   "name": "IdcSubclasse",
+   "type": "string",
+   "description": "Identificadores das Subclasses: 3.1 - Residencial - Residencial; 3.2 - Residencial - Residencial baixa renda; 3.3 - Residencial - Residencial baixa renda indígena; 3.4 - Residencial - Residencial baixa renda quilombola; 3.5 - Residencial - Residencial baixa renda beneficiário de prestação continuada da assistência social - BPC; 3.6 - Residencial - Residencial baixa renda multifamiliar ; 3.7 - Comercial - Comercial; 3.8 - Comercial - Serviços de transporte, exceto tração elétrica; 3.9 - Comercial - Serviços de comunicações e telecomunicações; 3.10 - Comercial - Associação e entidades filantrópicas; 3.11 - Comercial - Templos religiosos; 3.12 - Comercial - Administração condominial: iluminação e instalações de uso comum de prédio ou conjunto de edificações ; 3.13 - Comercial - Iluminação em rodovias: solicitada por quem detenha concessão ou autorização para administração em rodovias ; 3.14 - Comercial - Semáforos, radares e câmeras de monitoramento de trânsito, solicitados por quem detenha concessão ou autorização para controle de trânsito; 3.15 - Comercial - Outros serviços e outras atividades; 3.16 - Rural - Agropecuária rural; 3.17 - Rural - Agropecuária urbana; 3.18 - Rural - Residencial rural; 3.19 - Rural - Cooperativa de eletrificação rural; 3.20 - Rural - Agroindustrial; 3.21 - Rural - Serviço público de irrigação rural; 3.22 - Rural - Escola agrotécnica; 3.23 - Rural - Aquicultura; 3.24 - Poder público - Federal; 3.25 - Poder público – Estadual ou Distrital; 3.26 - Poder público - Municipal; 3.27 - Serviço público - Tração elétrica; 3.28 - Serviço público - Água, esgoto e saneamento; 3.29 - Consumo próprio - Não se aplica; 3.30 - Industrial - Não se aplica; 3.31 - Iluminação pública - Não se aplica.",
+   "constraints": {
+    "maxLength": 5
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 5
+  },
+  {
+   "name": "IdcSubgrupoTarifario",
+   "type": "string",
+   "description": "Identificadores dos subgrupos tarifários 1 – A0; 2 – A1; 3 – A2; 4 – A3; 5 – A3a; 6 – A4; 7 – A4a; 8 – A4b; 9 – A4c; 10 – AS; 11 – B1; 12 – B2; 13 – B3; 14 – B4a; 15 – B4b; 16 – BT1 Geração (Tipo 1); 17 – BT2 Geração (Tipo 2); Conforme REN nº 414/2010, ou o que vier a sucedê-la. Itens 16 e 17 conforme parágrafo 12 do Submódulo 7.4 do PRORET.",
+   "constraints": {
+    "maxLength": 5
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 5
+  },
+  {
+   "name": "IdcTipoCompraEnergia",
+   "type": "string",
+   "description": "Identificador do tipo de compra de energia. 1 - Cativo; 2 - Livre; 3 - Parcialmente Livre; 4 - Consumidor Especial; 5 - Parcialmente Especial; 6 - Comunhão; 7 - Suprimento; 8 - Distribuidora.",
+   "constraints": {
+    "maxLength": 5
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 5
+  },
+  {
+   "name": "NomCliente",
+   "type": "string",
+   "description": "Nome do cliente",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "NumCPFCNPJCliente",
+   "type": "string",
+   "description": "Documento do cliente",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DscTipoSubsidio",
+   "type": "string",
+   "description": "Descrição do tipo de subsídio",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "VlrSubsidio",
+   "type": "number",
+   "description": "Valor do Subsídio",
+   "declaredType": "Numérico"
+  }
+ ],
+ "x5ltep": {
+  "status": "extracted",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "6652dd79-5230-47de-8997-978ecda34752",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/6652dd79-5230-47de-8997-978ecda34752/download/dm-beneficiarios-da-cde.pdf",
+   "sha256": "8f9514aff5b0c4309dd3f68a6d8c2dc63e7d47202c5030cc45b8c0deae477d6f",
+   "oracle": {
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": []
+   }
+  }
+ }
+}

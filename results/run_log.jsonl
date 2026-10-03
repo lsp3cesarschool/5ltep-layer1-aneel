@@ -1,1 +1,4 @@
 {"at": "2026-10-03T03:07:24+00:00", "stage": "census", "run_id": "37086853026", "datasets": 72, "tables": 352, "queued": 352, "declared_drift": 0}
+{"at": "2026-10-03T03:08:54+00:00", "stage": "extract-deterministic", "run_id": "37086853026", "processed": 64, "suggested": 64, "llm_needed": 7}
+{"at": "2026-10-03T04:21:08+00:00", "stage": "extract-llm", "run_id": "37086853026", "processed": 7, "suggested": 41, "llm_needed": 0}
+{"at": "2026-10-03T07:55:04+00:00", "stage": "validate", "run_id": "37086853026", "done": 73, "left": 279, "drift": 0}

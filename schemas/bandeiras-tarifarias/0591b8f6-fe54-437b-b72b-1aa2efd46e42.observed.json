@@ -1,0 +1,37 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatCompetencia",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomBandeiraAcionada",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrAdicionalBandeira",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T04:33:32+00:00",
+  "sha256": "b07b23cf889a37cb102fcaedd3713481006fa4b9893f3b85f9c5461c6c9bdb5c",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 141,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

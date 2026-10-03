@@ -1,0 +1,220 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data e hora do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "NomEmpreendimento",
+   "type": "string",
+   "description": "Nome do empreendimento de geração",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "IdeNucleoCEG",
+   "type": "string",
+   "description": "Núcleo do Código Único de Empreendimentos de Geração",
+   "constraints": {
+    "maxLength": 6
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 6
+  },
+  {
+   "name": "CodCEG",
+   "type": "string",
+   "description": "Código Único de Empreendimentos de Geração: GGG.FF.UF.999999-D.VV. Onde: GGG é o Tipo de Geração, FF é a Fonte, UF é a UF principal, 999999 é o Núcleo do CEG, D é o dígito verificador e VV é a versão (Se 1 é a primeira, se maior que 1 sofreu alteração)",
+   "constraints": {
+    "maxLength": 21
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 21
+  },
+  {
+   "name": "SigUFPrincipal",
+   "type": "string",
+   "description": "UF principal do empreendimento.",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "SigTipoGeracao",
+   "type": "string",
+   "description": "Abreviação do tipo de geração. Classificado em: UTN - Usina Termonuclear UTE - Usina Termelétrica UHE - Usina Hidrelétrica UFV - Central Geradora Solar Fotovoltaica PCH - Pequena Central Hidrelétrica EOL - Central Geradora Eólica CGU - Central Geradora Undi-elétrica CGH - Central Geradora Hidrelétrica",
+   "constraints": {
+    "maxLength": 3
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 3
+  },
+  {
+   "name": "DscFaseUsina",
+   "type": "string",
+   "description": "Fase atual do empreendimento, desde etapas anteriores à outorga até a revogação",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DscOrigemCombustivel",
+   "type": "string",
+   "description": "Origem da fonte do Empreendimento",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DscFonteCombustivel",
+   "type": "string",
+   "description": "Tipo da fonte do Empreendimento",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DscTipoOutorga",
+   "type": "string",
+   "description": "Tipo de Atuação do empreendimento, se Registro, Autorização ou Concessão",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "NomFonteCombustivel",
+   "type": "string",
+   "description": "Nome da fonte ou combustível do empreendimento",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DatEntradaOperacao",
+   "type": "date",
+   "description": "Data de entrada em operação da primeira unidade geradora do empreendimento",
+   "declaredType": "Data simples",
+   "declaredSize": 10
+  },
+  {
+   "name": "MdaPotenciaOutorgadaKw",
+   "type": "number",
+   "description": "Potência total Outorgada ou Registrada do empreendimento",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPotenciaFiscalizadaKw",
+   "type": "number",
+   "description": "Potência do empreendimento que está em operação, caso a usina ainda esteja em operação. Caso não esteja mais, é a última potência considerada em operação.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaGarantiaFisicaKw",
+   "type": "number",
+   "description": "Garantia Física homologada pelo MME (Ministério das Minas e Energia)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "IdcGeracaoQualificada",
+   "type": "string",
+   "description": "Identifica se o empreendimento foi enquadrado como Geração Qualificada conforme critérios da Resolução Normativa Nr 235, de 14 de novembro de 2006",
+   "constraints": {
+    "maxLength": 3
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 3
+  },
+  {
+   "name": "NumCoordNEmpreendimento",
+   "type": "number",
+   "description": "Latitude aproximada em grau decimal do ponto centróide de localização do empreendimento",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NumCoordEEmpreendimento",
+   "type": "number",
+   "description": "Longitude aproximada em grau decimal do ponto centróide de localização do empreendimento",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DatInicioVigencia",
+   "type": "date",
+   "description": "Data de início da Vigência da Outorga, caso houver",
+   "declaredType": "Data simples",
+   "declaredSize": 10
+  },
+  {
+   "name": "DatFimVigencia",
+   "type": "date",
+   "description": "Data de fim da Vigência da Outorga, caso houver",
+   "declaredType": "Data simples",
+   "declaredSize": 10
+  },
+  {
+   "name": "DscPropriRegimePariticipacao",
+   "type": "string",
+   "description": "Descritivo do percentual de participação por agente na propriedade do empreendimento e o regime de exploração do agente em relação a este empreendimento",
+   "constraints": {
+    "maxLength": 500
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 500
+  },
+  {
+   "name": "DscSubBacia",
+   "type": "string",
+   "description": "Código e Descrição da Sub-bacia do rio onde está o empreendimento. Preenchido apenas para usinas com fonte hídricas.",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "DscMuninicpios",
+   "type": "string",
+   "description": "Descrição dos municípios e estados onde está o empreendimento",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 255
+  }
+ ],
+ "x5ltep": {
+  "status": "extracted",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "25722a60-194d-4234-ab3b-b71354078402",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9/resource/25722a60-194d-4234-ab3b-b71354078402/download/dm-siga-sistema-de-informacoes-de-geracao-da-aneel.pdf",
+   "sha256": "765488e53aef975f35bc1e35d84a6bbe58be1beeab7012cc7e9b72425b3ce92c",
+   "oracle": {
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": []
+   }
+  }
+ }
+}

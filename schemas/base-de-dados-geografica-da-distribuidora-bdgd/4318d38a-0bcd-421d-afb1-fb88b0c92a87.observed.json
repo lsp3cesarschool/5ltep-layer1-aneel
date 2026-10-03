@@ -1,0 +1,520 @@
+{
+ "fields": [
+  {
+   "name": "COD_ID_ENCR",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "PN_CON",
+   "type": "string",
+   "sampleEmptyShare": 0.0005
+  },
+  {
+   "name": "DIST",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "PAC",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CTAT",
+   "type": "string",
+   "sampleEmptyShare": 0.091
+  },
+  {
+   "name": "SUB",
+   "type": "string",
+   "sampleEmptyShare": 0.0405
+  },
+  {
+   "name": "CONJ",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MUN",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CEG_GD",
+   "type": "string",
+   "sampleEmptyShare": 0.9491
+  },
+  {
+   "name": "LGRD",
+   "type": "string",
+   "sampleEmptyShare": 0.0042
+  },
+  {
+   "name": "BRR",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CEP",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CLAS_SUB",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CNAE",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "TIP_CC",
+   "type": "string",
+   "sampleEmptyShare": 0.0066
+  },
+  {
+   "name": "FAS_CON",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "GRU_TEN",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "TEN_FORN",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "GRU_TAR",
+   "type": "string",
+   "sampleEmptyShare": 0.0038
+  },
+  {
+   "name": "SIT_ATIV",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DAT_CON",
+   "type": "date",
+   "format": "%d/%m/%Y",
+   "sampleEmptyShare": 0.0024
+  },
+  {
+   "name": "CAR_INST",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "LIV",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ARE_LOC",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "TIP_SIST",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_CONT",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_P_01",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_P_02",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_P_03",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_P_04",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_P_05",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_P_06",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_P_07",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_P_08",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_P_09",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_P_10",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_P_11",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_P_12",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_F_01",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_F_02",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_F_03",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_F_04",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_F_05",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_F_06",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_F_07",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_F_08",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_F_09",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_F_10",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_F_11",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DEM_F_12",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_P_01",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_P_02",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_P_03",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_P_04",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_P_05",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_P_06",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_P_07",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_P_08",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_P_09",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_P_10",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_P_11",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_P_12",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_F_01",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_F_02",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_F_03",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_F_04",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_F_05",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_F_06",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_F_07",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_F_08",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_F_09",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_F_10",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_F_11",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "ENE_F_12",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DIC_01",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DIC_02",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DIC_03",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DIC_04",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DIC_05",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DIC_06",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DIC_07",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DIC_08",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DIC_09",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DIC_10",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DIC_11",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DIC_12",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "FIC_01",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "FIC_02",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "FIC_03",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "FIC_04",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "FIC_05",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "FIC_06",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "FIC_07",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "FIC_08",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "FIC_09",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "FIC_10",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "FIC_11",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "FIC_12",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DESCR",
+   "type": "string",
+   "sampleEmptyShare": 0.4566
+  },
+  {
+   "name": "POINT_X",
+   "type": "number",
+   "sampleEmptyShare": 0.0221
+  },
+  {
+   "name": "POINT_Y",
+   "type": "number",
+   "sampleEmptyShare": 0.0221
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T04:33:35+00:00",
+  "sha256": "fb33840420dd87339c1ef11c29356c7682f9b3be68281a9fdcdc1b6068215469",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 2122,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

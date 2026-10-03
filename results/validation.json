@@ -1,0 +1,7040 @@
+{
+ "3b3eb013-8831-4ca9-a582-01010ff4e0fb": {
+  "dataset": "acrescimo-da-potencia-instalada",
+  "checked_at": "2026-10-03T04:21:08+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "b4504fe02cc1eb0f",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/4bf07812-e421-48f3-8e48-eec0040764ba/resource/3b3eb013-8831-4ca9-a582-01010ff4e0fb/download/acrescimo-anual-potencia-instalada.csv",
+   "last_modified": "2026-07-07T18:09:12.925886",
+   "size": 1337
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.69
+  },
+  "first_seen": "2026-10-03T04:21:08+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    true
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:21:08+00:00",
+  "seconds": 1.2,
+  "sha256": "8d4c9a8e421ad3ccfb21bd12d0d112e3015811670085fde82ba87f2dd5afb5db",
+  "bytes": 1337,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1783447752.9771152-1337-1908281965\"",
+   "last_modified": "Tue, 07 Jul 2026 18:09:12 GMT",
+   "content_length": 1337
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 26,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 5,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 130,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%Y-%m-%d"
+     },
+     "MdaPotenciaMW": {
+      "decimalChar": ","
+     },
+     "MdaAcrescimoPotenciaMW": {
+      "decimalChar": ","
+     }
+    },
+    "pass": true
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "MesReferencia",
+   "AnoReferencia",
+   "MdaPotenciaMW",
+   "MdaAcrescimoPotenciaMW"
+  ],
+  "reason": "new"
+ },
+ "20ef769f-a072-489d-9df4-c834529f8a78": {
+  "dataset": "agentes-de-geracao-de-energia-eletrica",
+  "checked_at": "2026-10-03T04:21:09+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/283a0172-3966-49e7-ae45-d2885ad17b03/resource/20ef769f-a072-489d-9df4-c834529f8a78/download/agentes-geracao-energia-eletrica.csv",
+   "last_modified": "2026-10-01T05:01:30.521884",
+   "size": 4516322
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.37
+  },
+  "first_seen": "2026-10-03T04:21:09+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:21:09+00:00",
+  "seconds": 8.1,
+  "sha256": "0833e7a3089beb04c0ab4d3a3bb3bc2efc68489f491a24838d51ce6c215c6da4",
+  "bytes": 4516322,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1790830890.551568-4516322-2013008505\"",
+   "last_modified": "Thu, 01 Oct 2026 05:01:30 GMT",
+   "content_length": 4516322
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 25554,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "NumCPFCNPJ",
+   "NomAgente",
+   "IdeNucleoCEG",
+   "CodCEG",
+   "NomEmpreendimento",
+   "PctParticipacao",
+   "DscRegimeExploracao",
+   "SigTipoGeracao",
+   "DscFaseUsina"
+  ],
+  "reason": "new"
+ },
+ "64250fc9-4f7a-4d97-b0d4-3c090e005e1c": {
+  "dataset": "agentes-do-setor-eletrico",
+  "checked_at": "2026-10-03T04:21:18+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "8a916d3ed1ccab32",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/71d1007e-7e14-4875-8758-7e3a0d1118df/resource/64250fc9-4f7a-4d97-b0d4-3c090e005e1c/download/agentes-setor-eletrico.csv",
+   "last_modified": "2026-10-01T05:01:19.591546",
+   "size": 944749
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.21
+  },
+  "first_seen": "2026-10-03T04:21:18+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    true
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:21:18+00:00",
+  "seconds": 0.7,
+  "sha256": "63e75acf405e6eac9992893ccab5732bf3a9ebaabfd463a124cafbf0c23cbd1a",
+  "bytes": 944749,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1790830879.6237974-944749-1961562751\"",
+   "last_modified": "Thu, 01 Oct 2026 05:01:19 GMT",
+   "content_length": 944749
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 9998,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 9,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 89982,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%Y-%m-%d"
+     }
+    },
+    "pass": true
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "NumCnpj",
+   "SigPessoa",
+   "NomRazaoSocial",
+   "IdcAtivo",
+   "IdcComercializacao",
+   "IdcDistribuicao",
+   "IdcGeracao",
+   "IdcTransmissao"
+  ],
+  "reason": "new"
+ },
+ "485b47f2-7929-4bff-bdde-0414f73bc266": {
+  "dataset": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
+  "checked_at": "2026-10-03T04:21:18+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/f0773920-9847-46cb-9bc0-dde68761c573/resource/485b47f2-7929-4bff-bdde-0414f73bc266/download/pedidos-de-conexao-mmgd-regiao-centro-oeste.zip",
+   "last_modified": "2026-10-01T05:51:54.996002",
+   "size": 163539307
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.24,
+   "download_s": 33.84
+  },
+  "distributions": [
+   {
+    "id": "6afefff3-134c-48cc-add8-39c5a278628b",
+    "format": "parquet",
+    "name": "pedidos-de-conexao-mmgd-regiao-centro-oeste.parquet",
+    "status": "ok",
+    "read_as": "parquet",
+    "same_columns": true,
+    "missing": [],
+    "extra": []
+   }
+  ],
+  "first_seen": "2026-10-03T04:21:18+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:21:18+00:00",
+  "seconds": 67.4,
+  "sha256": "cfd338004d0226c3a36fdc7c9a199bb9c7ed0982e58547af8bb0182b5b202109",
+  "bytes": 163539307,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1790833915.143127-163539307-2034045636\"",
+   "last_modified": "Thu, 01 Oct 2026 05:51:55 GMT",
+   "content_length": 163539307
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 6512787,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "CodMunicipioIBGE",
+   "DatInj",
+   "DatLim",
+   "DatOrcamentoConexao",
+   "DatVistoria",
+   "DatSolicitacao",
+   "DscFonteGeracao",
+   "DscModalidade",
+   "DscMotivoSituacao",
+   "DscNecessidadeObras",
+   "MdaPotencia",
+   "NumProtocolo",
+   "DscSituacaoConexao",
+   "DscStatusConexao",
+   "DscSubgrupoTarifario",
+   "DatPrzEnvio",
+   "SigAgenteDistribuicao",
+   "NumCPFCNPJ",
+   "NomMunicipio",
+   "NomUF"
+  ],
+  "reason": "new"
+ },
+ "c0f86267-a2e2-4840-8c65-91dd2f9147d7": {
+  "dataset": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
+  "checked_at": "2026-10-03T04:22:26+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/f0773920-9847-46cb-9bc0-dde68761c573/resource/c0f86267-a2e2-4840-8c65-91dd2f9147d7/download/pedidos-de-conexao-mmgd-regiao-nordeste.zip",
+   "last_modified": "2026-10-01T05:53:46.224244",
+   "size": 337830693
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.27,
+   "download_s": 34.03
+  },
+  "distributions": [
+   {
+    "id": "9f2e7e25-fc53-4e99-8362-f9f5c8d4c04c",
+    "format": "parquet",
+    "name": "pedidos-de-conexao-mmgd-regiao-nordeste.parquet",
+    "status": "ok",
+    "read_as": "parquet",
+    "same_columns": true,
+    "missing": [],
+    "extra": []
+   }
+  ],
+  "first_seen": "2026-10-03T04:22:26+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:22:26+00:00",
+  "seconds": 97.3,
+  "sha256": "f0b9a185bb36ea823b7ac9aa0d57e2a4fce2910e37ed0a5b71145dfe81befc61",
+  "bytes": 337830693,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1790834026.4727921-337830693-1911951926\"",
+   "last_modified": "Thu, 01 Oct 2026 05:53:46 GMT",
+   "content_length": 337830693
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 13390819,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "CodMunicipioIBGE",
+   "DatInj",
+   "DatLim",
+   "DatOrcamentoConexao",
+   "DatVistoria",
+   "DatSolicitacao",
+   "DscFonteGeracao",
+   "DscModalidade",
+   "DscMotivoSituacao",
+   "DscNecessidadeObras",
+   "MdaPotencia",
+   "NumProtocolo",
+   "DscSituacaoConexao",
+   "DscStatusConexao",
+   "DscSubgrupoTarifario",
+   "DatPrzEnvio",
+   "SigAgenteDistribuicao",
+   "NumCPFCNPJ",
+   "NomMunicipio",
+   "NomUF"
+  ],
+  "reason": "new"
+ },
+ "99a8a17c-6360-4c40-83fe-3810620d666b": {
+  "dataset": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
+  "checked_at": "2026-10-03T04:24:03+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/f0773920-9847-46cb-9bc0-dde68761c573/resource/99a8a17c-6360-4c40-83fe-3810620d666b/download/pedidos-de-conexao-mmgd-regiao-norte.zip",
+   "last_modified": "2026-10-01T05:51:13.791860",
+   "size": 80267303
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.24,
+   "download_s": 8.0
+  },
+  "distributions": [
+   {
+    "id": "68f3e0e6-c836-43b0-85f3-3d5898db2e22",
+    "format": "parquet",
+    "name": "pedidos-de-conexao-mmgd-regiao-norte.parquet",
+    "status": "ok",
+    "read_as": "parquet",
+    "same_columns": true,
+    "missing": [],
+    "extra": []
+   }
+  ],
+  "first_seen": "2026-10-03T04:24:03+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:24:03+00:00",
+  "seconds": 28.4,
+  "sha256": "66295e98587c55169741cd4890ff4486a27fd497200d362f6eff2e2f90c20ba1",
+  "bytes": 80267303,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1790833873.8769915-80267303-1864176121\"",
+   "last_modified": "Thu, 01 Oct 2026 05:51:13 GMT",
+   "content_length": 80267303
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 3522614,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "CodMunicipioIBGE",
+   "DatInj",
+   "DatLim",
+   "DatOrcamentoConexao",
+   "DatVistoria",
+   "DatSolicitacao",
+   "DscFonteGeracao",
+   "DscModalidade",
+   "DscMotivoSituacao",
+   "DscNecessidadeObras",
+   "MdaPotencia",
+   "NumProtocolo",
+   "DscSituacaoConexao",
+   "DscStatusConexao",
+   "DscSubgrupoTarifario",
+   "DatPrzEnvio",
+   "SigAgenteDistribuicao",
+   "NumCPFCNPJ",
+   "NomMunicipio",
+   "NomUF"
+  ],
+  "reason": "new"
+ },
+ "7bdb5144-33a3-41f2-ba66-9de6698243da": {
+  "dataset": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
+  "checked_at": "2026-10-03T04:24:31+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/f0773920-9847-46cb-9bc0-dde68761c573/resource/7bdb5144-33a3-41f2-ba66-9de6698243da/download/pedidos-de-conexao-mmgd-regiao-sudeste.zip",
+   "last_modified": "2026-10-01T05:58:59.702752",
+   "size": 524487443
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.44,
+   "download_s": 73.06
+  },
+  "distributions": [
+   {
+    "id": "3fdb28ba-8834-4788-8d65-3defc930da6d",
+    "format": "parquet",
+    "name": "pedidos-de-conexao-mmgd-regiao-sudeste.parquet",
+    "status": "ok",
+    "read_as": "parquet",
+    "same_columns": true,
+    "missing": [],
+    "extra": []
+   }
+  ],
+  "first_seen": "2026-10-03T04:24:31+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:24:31+00:00",
+  "seconds": 191.0,
+  "sha256": "2c89fce774eefc072305def0f6d1846c7211fe45c16b292cd5e2c16e8d04c5ea",
+  "bytes": 524487443,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1790834340.1202052-524487443-2011566726\"",
+   "last_modified": "Thu, 01 Oct 2026 05:59:00 GMT",
+   "content_length": 524487443
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 20429917,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "CodMunicipioIBGE",
+   "DatInj",
+   "DatLim",
+   "DatOrcamentoConexao",
+   "DatVistoria",
+   "DatSolicitacao",
+   "DscFonteGeracao",
+   "DscModalidade",
+   "DscMotivoSituacao",
+   "DscNecessidadeObras",
+   "MdaPotencia",
+   "NumProtocolo",
+   "DscSituacaoConexao",
+   "DscStatusConexao",
+   "DscSubgrupoTarifario",
+   "DatPrzEnvio",
+   "SigAgenteDistribuicao",
+   "NumCPFCNPJ",
+   "NomMunicipio",
+   "NomUF"
+  ],
+  "reason": "new"
+ },
+ "5d803f7e-68eb-4af1-a166-81285465da74": {
+  "dataset": "atendimento-mmgd-mini-e-micro-geracao-distribuida",
+  "checked_at": "2026-10-03T04:27:42+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/f0773920-9847-46cb-9bc0-dde68761c573/resource/5d803f7e-68eb-4af1-a166-81285465da74/download/pedidos-de-conexao-mmgd-regiao-sul.zip",
+   "last_modified": "2026-10-01T05:53:07.536820",
+   "size": 348180580
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.25,
+   "download_s": 35.37
+  },
+  "distributions": [
+   {
+    "id": "87af337a-fab1-492a-82d3-607c07c417fe",
+    "format": "parquet",
+    "name": "pedidos-de-conexao-mmgd-regiao-sul.parquet",
+    "status": "ok",
+    "read_as": "parquet",
+    "same_columns": true,
+    "missing": [],
+    "extra": []
+   }
+  ],
+  "first_seen": "2026-10-03T04:27:42+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:27:42+00:00",
+  "seconds": 112.0,
+  "sha256": "12985552c7ab57e2994915b75dde3353e46f032914195fc46486279ef9ce20be",
+  "bytes": 348180580,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1790833987.808604-348180580-2050101858\"",
+   "last_modified": "Thu, 01 Oct 2026 05:53:07 GMT",
+   "content_length": 348180580
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 12954672,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "CodMunicipioIBGE",
+   "DatInj",
+   "DatLim",
+   "DatOrcamentoConexao",
+   "DatVistoria",
+   "DatSolicitacao",
+   "DscFonteGeracao",
+   "DscModalidade",
+   "DscMotivoSituacao",
+   "DscNecessidadeObras",
+   "MdaPotencia",
+   "NumProtocolo",
+   "DscSituacaoConexao",
+   "DscStatusConexao",
+   "DscSubgrupoTarifario",
+   "DatPrzEnvio",
+   "SigAgenteDistribuicao",
+   "NumCPFCNPJ",
+   "NomMunicipio",
+   "NomUF"
+  ],
+  "reason": "new"
+ },
+ "73b00e68-66b1-4a72-8d72-b7baab47048c": {
+  "dataset": "atendimento-ocorrencias-emergenciais",
+  "checked_at": "2026-10-03T04:29:34+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "b9569088c82a353f",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/dcdff65d-d173-4d2e-a3b9-84eec7702f06/resource/73b00e68-66b1-4a72-8d72-b7baab47048c/download/indicador-atendimento-emergencial.csv",
+   "last_modified": "2026-09-05T05:02:58.740562",
+   "size": 622267115
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.25
+  },
+  "distributions": [
+   {
+    "id": "ef3404d6-730f-4fb6-9de8-92efccba4a4c",
+    "format": "parquet",
+    "name": "indicador-atendimento-emergencial.parquet",
+    "status": "ok",
+    "read_as": "parquet",
+    "same_columns": true,
+    "missing": [],
+    "extra": []
+   }
+  ],
+  "first_seen": "2026-10-03T04:29:34+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:29:34+00:00",
+  "seconds": 127.6,
+  "sha256": "e741d64d5232448db933463d2cd4dcc6fec5a37ca9f0132b508aa2f63a22b24a",
+  "bytes": 622267115,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1788584579.2195802-622267115-1916408448\"",
+   "last_modified": "Sat, 05 Sep 2026 05:02:59 GMT",
+   "content_length": 622267115
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 6785058,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 9,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 61065522,
+    "cells_with_errors": 1903994,
+    "error_rate": 0.03118,
+    "errors_by_field": {
+     "SigIndicador": {
+      "maxLength": {
+       "count": 1903994,
+       "rows": [
+        2445133,
+        2445134,
+        2445135,
+        2445136,
+        2445137
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d-%m-%Y"
+     },
+     "VlrIndiceEnviado": {
+      "decimalChar": ","
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "SigAgente",
+   "NumCNPJ",
+   "IdeConjUndConsumidoras",
+   "DscConjUndConsumidoras",
+   "SigIndicador",
+   "AnoIndice",
+   "NumPeriodoIndice",
+   "VlrIndiceEnviado"
+  ],
+  "reason": "new"
+ },
+ "3710b245-88f0-4aa6-8cfb-8b1426e9021d": {
+  "dataset": "atos-de-outorgas-de-geracao",
+  "checked_at": "2026-10-03T04:31:42+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/2d8a4c72-ed48-4afc-b14f-cc8f5c499a68/resource/3710b245-88f0-4aa6-8cfb-8b1426e9021d/download/atos-outorgas-aneel.csv",
+   "last_modified": "2026-10-01T05:01:25.229022",
+   "size": 13895445
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.31
+  },
+  "first_seen": "2026-10-03T04:31:42+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:31:42+00:00",
+  "seconds": 1.4,
+  "sha256": "5e52e58df778f6ddf9442170ec5b0c9fe4c87531f983a3e75083443142d1dd45",
+  "bytes": 13895445,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1790830885.2876787-13895445-1866404431\"",
+   "last_modified": "Thu, 01 Oct 2026 05:01:25 GMT",
+   "content_length": 13895445
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 59324,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "cp1252"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "DatPublicacao",
+   "DscNumAto",
+   "DscEmpreendimento",
+   "CodCEG",
+   "IdeNucleoCEG",
+   "SigTipoGeracao",
+   "DscAssunto",
+   "DscObjeto",
+   "DscAmbiente",
+   "DscTipoAto",
+   "DscProcesso",
+   "DscCombustivel",
+   "MdaPotenciaInstaladaMW",
+   "MdaAmpliacaoReducaoMW",
+   "NomAgente",
+   "NomMunicipio",
+   "SigUF",
+   "SigRegimeExploracao",
+   "DscRio"
+  ],
+  "reason": "new"
+ },
+ "5a4aba15-b8f7-4f80-807e-6a12a89b89fb": {
+  "dataset": "audiencias-e-consultas-publicas",
+  "checked_at": "2026-10-03T04:31:43+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "0ad17a5c1cd6122e",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/db3838bc-96b4-4335-9061-ca330f5bb39a/resource/5a4aba15-b8f7-4f80-807e-6a12a89b89fb/download/audiencias-consultas-publicas-aneel.csv",
+   "last_modified": "2026-10-01T09:00:46.939128",
+   "size": 1580
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.22
+  },
+  "first_seen": "2026-10-03T04:31:43+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    true
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:31:43+00:00",
+  "seconds": 0.2,
+  "sha256": "3303468e4f4fb61d9f951e79aca28012dff5b1f9fdb1710fc19a1129d51527e8",
+  "bytes": 1580,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1790845246.9953392-1580-2144735982\"",
+   "last_modified": "Thu, 01 Oct 2026 09:00:46 GMT",
+   "content_length": 1580
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 14,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 15,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 210,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%Y-%m-%d"
+     }
+    },
+    "pass": true
+   }
+  },
+  "header": [
+   "AnoReferencia",
+   "QtdConsultasPublicas",
+   "QtdContribuintesCP",
+   "QtdContribuicoesCP",
+   "QtdAceitasCP",
+   "QtdTomadasSubsidios",
+   "QtdContribuintesTS",
+   "QtdContribuicoesTS",
+   "QtdAceitasTS",
+   "QtdAudienciasPublicas",
+   "QtdExpositoresAP",
+   "QtdContribuintesAP",
+   "QtdContribuicoesAP",
+   "QtdAceitasAP",
+   "DatGeracaoConjuntoDados"
+  ],
+  "reason": "new"
+ },
+ "f221158a-93a3-423f-b794-4312b6985a24": {
+  "dataset": "auto-de-infracao",
+  "checked_at": "2026-10-03T04:31:44+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271/resource/f221158a-93a3-423f-b794-4312b6985a24/download/auto-infracao.csv",
+   "last_modified": "2026-09-28T08:00:54.758705",
+   "size": 702933
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.23
+  },
+  "distributions": [
+   {
+    "id": "20f01eef-97f5-46ce-bb52-811156ef083d",
+    "format": "xml",
+    "name": "auto-infracao.xml",
+    "status": "ok",
+    "read_as": "xml",
+    "same_columns": true,
+    "missing": [],
+    "extra": []
+   }
+  ],
+  "first_seen": "2026-10-03T04:31:44+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:31:44+00:00",
+  "seconds": 1.0,
+  "sha256": "fc59416c977cedcd1f7f127b025480f7f38d05c679b31587a57e0040aae2bd6d",
+  "bytes": 702933,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1790582454.8156817-702933-1793331652\"",
+   "last_modified": "Mon, 28 Sep 2026 08:00:54 GMT",
+   "content_length": 702933
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 1601,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "SigAgenteFiscalizador",
+   "NumAutoInfracao",
+   "DatLavraturaAutoInfracao",
+   "NomNaturezaFiscalizacao",
+   "DscObjetoFiscalizado",
+   "CodObjetoFiscalizado",
+   "NomAgenteFiscalizado",
+   "NumCPFCNPJAgenteFiscalizado",
+   "NumProcessoPunitivo",
+   "NumProcessoPunitivoANEEL",
+   "DatRecebimentoAutoInfracao",
+   "DscTipoPenalidade",
+   "VlrPenalidade",
+   "DtRecebimentoRecurso",
+   "DatDecisaoJuizo",
+   "DscDecisaoCompletaJuizo",
+   "DscAtoJuizo",
+   "VlrMultaAposJuizo",
+   "DatDecisaoDiretoria",
+   "DscDecisaoCompletaDiretoria",
+   "DscAtoDiretoria",
+   "VlrMultaAposDiretoria",
+   "NumTermoEncerramento",
+   "DatLavraturaTE",
+   "DscEnquadramentoAI",
+   "NumTermoNotificacao",
+   "NumProcessoFiscalizacao"
+  ],
+  "reason": "new"
+ },
+ "cc651c68-a8e6-485f-b1c0-ac36aab0ca47": {
+  "dataset": "autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015",
+  "checked_at": "2026-10-03T04:31:45+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/eb0360f1-0d5d-4961-8311-97edde216fe9/resource/cc651c68-a8e6-485f-b1c0-ac36aab0ca47/download/autoinfracaocadastrado.csv",
+   "last_modified": "2021-11-30T18:42:36.327964",
+   "size": 1039
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "status": "error",
+  "error": "TooManyRedirects: Exceeded 30 redirects.",
+  "reason": "new"
+ },
+ "5879ca80-b3bd-45b1-a135-d9b77c1d5b36": {
+  "dataset": "bandeiras-tarifarias",
+  "checked_at": "2026-10-03T04:33:32+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c/resource/5879ca80-b3bd-45b1-a135-d9b77c1d5b36/download/bandeira-tarifaria-adicional.csv",
+   "last_modified": "2026-07-15T14:55:00.737389",
+   "size": 1968
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.23
+  },
+  "first_seen": "2026-10-03T04:33:32+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:33:32+00:00",
+  "seconds": 0.2,
+  "sha256": "a470305069a3b2571cfe1b41c11ef638ad0cd1bcabeeae955a20d670bf375cfa",
+  "bytes": 1968,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1784127300.8235786-1968-2048332469\"",
+   "last_modified": "Wed, 15 Jul 2026 14:55:00 GMT",
+   "content_length": 1968
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 27,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "DscResolucao",
+   "DatVigencia",
+   "NomBandeiraAcionada",
+   "VlrAdicionalBandeiraRSMWh"
+  ],
+  "reason": "new"
+ },
+ "0591b8f6-fe54-437b-b72b-1aa2efd46e42": {
+  "dataset": "bandeiras-tarifarias",
+  "checked_at": "2026-10-03T04:33:32+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c/resource/0591b8f6-fe54-437b-b72b-1aa2efd46e42/download/bandeira-tarifaria-acionamento.csv",
+   "last_modified": "2026-10-01T05:01:18.346051",
+   "size": 6417
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.2
+  },
+  "first_seen": "2026-10-03T04:33:32+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:33:32+00:00",
+  "seconds": 0.2,
+  "sha256": "b07b23cf889a37cb102fcaedd3713481006fa4b9893f3b85f9c5461c6c9bdb5c",
+  "bytes": 6417,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1790830878.3848233-6417-2037519077\"",
+   "last_modified": "Thu, 01 Oct 2026 05:01:18 GMT",
+   "content_length": 6417
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 141,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ]
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "DatCompetencia",
+   "NomBandeiraAcionada",
+   "VlrAdicionalBandeira"
+  ],
+  "reason": "new"
+ },
+ "e62b61dd-0a27-41b6-b1d2-19faa6c61501": {
+  "dataset": "bandeiras-tarifarias",
+  "checked_at": "2026-10-03T04:33:33+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c/resource/e62b61dd-0a27-41b6-b1d2-19faa6c61501/download/bandeira-tarifaria-conta-bandeira.csv",
+   "last_modified": "2026-10-01T05:01:17.570860",
+   "size": 3522219
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.38
+  },
+  "first_seen": "2026-10-03T04:33:33+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:33:33+00:00",
+  "seconds": 2.3,
+  "sha256": "63446da4cdc12473f6a869097e7ac42b9f62eb9702a934565ef192fa8d3d32a1",
+  "bytes": 3522219,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1790830877.6228395-3522219-2100302492\"",
+   "last_modified": "Thu, 01 Oct 2026 05:01:17 GMT",
+   "content_length": 3522219
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 13745,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ]
+  },
+  "header": [
+   "SigAgente",
+   "DatGeracaoConjuntoDados",
+   "NumCNPJDistribuidora",
+   "DatCompetencia",
+   "VlrReceitaFaturada",
+   "VlrRepasseContaBandeira",
+   "VlrResultadoMCP",
+   "VlrCCEARD",
+   "VlrRiscoHidrologicoCCGFRepactuadas",
+   "VlrRiscoHidrologicoItaipu",
+   "VlrRiscoHidrologicoRepactuadas",
+   "VlrRiscoHidrologicoCCGF",
+   "VlrPrevisaoRiscoHidrologico",
+   "VlrPremioDeRisco",
+   "VlrESSEER",
+   "VlrRessarcimentoCONER",
+   "VlrCVAEnergiaMesAnterior",
+   "VlrESSEERMesAnterior",
+   "VlrExposicaoInvoluntariaMesAnt",
+   "VlrCVAEnergiaReceitaAlocada",
+   "VlrCVAESSEERReceitaAlocada",
+   "VlrExposicaoInvolunReceitaAloc",
+   "VlrCVAEnergiaAposRepasse",
+   "VlrCVAESSEERAposRepasse",
+   "VlrExposicaoInvolunAposRepasse",
+   "VlrAjusteRepasse"
+  ],
+  "reason": "new"
+ },
+ "4318d38a-0bcd-421d-afb1-fb88b0c92a87": {
+  "dataset": "base-de-dados-geografica-da-distribuidora-bdgd",
+  "checked_at": "2026-10-03T04:33:35+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/4459e483-451f-4444-8022-bd8b5eac05c5/resource/4318d38a-0bcd-421d-afb1-fb88b0c92a87/download/ucat_pj.csv",
+   "last_modified": "2026-09-01T19:29:01.089773",
+   "size": 1419376
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.22
+  },
+  "first_seen": "2026-10-03T04:33:35+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:33:35+00:00",
+  "seconds": 0.9,
+  "sha256": "fb33840420dd87339c1ef11c29356c7682f9b3be68281a9fdcdc1b6068215469",
+  "bytes": 1419376,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1788290941.1987667-1419376-2111312652\"",
+   "last_modified": "Tue, 01 Sep 2026 19:29:01 GMT",
+   "content_length": 1419376
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 2122,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ]
+  },
+  "header": [
+   "COD_ID_ENCR",
+   "PN_CON",
+   "DIST",
+   "PAC",
+   "CTAT",
+   "SUB",
+   "CONJ",
+   "MUN",
+   "CEG_GD",
+   "LGRD",
+   "BRR",
+   "CEP",
+   "CLAS_SUB",
+   "CNAE",
+   "TIP_CC",
+   "FAS_CON",
+   "GRU_TEN",
+   "TEN_FORN",
+   "GRU_TAR",
+   "SIT_ATIV",
+   "DAT_CON",
+   "CAR_INST",
+   "LIV",
+   "ARE_LOC",
+   "TIP_SIST",
+   "DEM_CONT",
+   "DEM_P_01",
+   "DEM_P_02",
+   "DEM_P_03",
+   "DEM_P_04",
+   "DEM_P_05",
+   "DEM_P_06",
+   "DEM_P_07",
+   "DEM_P_08",
+   "DEM_P_09",
+   "DEM_P_10",
+   "DEM_P_11",
+   "DEM_P_12",
+   "DEM_F_01",
+   "DEM_F_02",
+   "DEM_F_03",
+   "DEM_F_04",
+   "DEM_F_05",
+   "DEM_F_06",
+   "DEM_F_07",
+   "DEM_F_08",
+   "DEM_F_09",
+   "DEM_F_10",
+   "DEM_F_11",
+   "DEM_F_12",
+   "ENE_P_01",
+   "ENE_P_02",
+   "ENE_P_03",
+   "ENE_P_04",
+   "ENE_P_05",
+   "ENE_P_06",
+   "ENE_P_07",
+   "ENE_P_08",
+   "ENE_P_09",
+   "ENE_P_10",
+   "ENE_P_11",
+   "ENE_P_12",
+   "ENE_F_01",
+   "ENE_F_02",
+   "ENE_F_03",
+   "ENE_F_04",
+   "ENE_F_05",
+   "ENE_F_06",
+   "ENE_F_07",
+   "ENE_F_08",
+   "ENE_F_09",
+   "ENE_F_10",
+   "ENE_F_11",
+   "ENE_F_12",
+   "DIC_01",
+   "DIC_02",
+   "DIC_03",
+   "DIC_04",
+   "DIC_05",
+   "DIC_06",
+   "DIC_07",
+   "DIC_08",
+   "DIC_09",
+   "DIC_10",
+   "DIC_11",
+   "DIC_12",
+   "FIC_01",
+   "FIC_02",
+   "FIC_03",
+   "FIC_04",
+   "FIC_05",
+   "FIC_06",
+   "FIC_07",
+   "FIC_08",
+   "FIC_09",
+   "FIC_10",
+   "FIC_11",
+   "FIC_12",
+   "DESCR",
+   "POINT_X",
+   "POINT_Y"
+  ],
+  "reason": "new"
+ },
+ "f6671cba-f269-42ef-8eb3-62cb3bfa0b98": {
+  "dataset": "base-de-dados-geografica-da-distribuidora-bdgd",
+  "checked_at": "2026-10-03T04:33:36+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/4459e483-451f-4444-8022-bd8b5eac05c5/resource/f6671cba-f269-42ef-8eb3-62cb3bfa0b98/download/ucmt_pj.csv",
+   "last_modified": "2026-09-01T16:13:44.586984",
+   "size": 160323011
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.21
+  },
+  "first_seen": "2026-10-03T04:33:36+00:00",
+  "pass_history": [],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:33:36+00:00",
+  "seconds": 15.6,
+  "sha256": "2b5f1d46a89f6a95271c137c394e7a3bf6430c5dc63b8f9fbb11b8eb7ed6322e",
+  "bytes": 160323011,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1788279224.733632-160323011-2216825676\"",
+   "last_modified": "Tue, 01 Sep 2026 16:13:44 GMT",
+   "content_length": 160323011
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 314493,
+   "ragged_rows": 0,
+   "decode_errors": 1517,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ]
+  },
+  "header": [
+   "COD_ID_ENCR",
+   "DIST",
+   "PN_CON",
+   "PAC",
+   "CTMT",
+   "UNI_TR_AT",
+   "SUB",
+   "CONJ",
+   "MUN",
+   "CEG_GD",
+   "LGRD",
+   "BRR",
+   "CEP",
+   "CLAS_SUB",
+   "CNAE",
+   "TIP_CC",
+   "FAS_CON",
+   "GRU_TEN",
+   "TEN_FORN",
+   "GRU_TAR",
+   "SIT_ATIV",
+   "DAT_CON",
+   "CAR_INST",
+   "LIV",
+   "ARE_LOC",
+   "TIP_SIST",
+   "DEM_CONT",
+   "DEM_01",
+   "DEM_02",
+   "DEM_03",
+   "DEM_04",
+   "DEM_05",
+   "DEM_06",
+   "DEM_07",
+   "DEM_08",
+   "DEM_09",
+   "DEM_10",
+   "DEM_11",
+   "DEM_12",
+   "ENE_01",
+   "ENE_02",
+   "ENE_03",
+   "ENE_04",
+   "ENE_05",
+   "ENE_06",
+   "ENE_07",
+   "ENE_08",
+   "ENE_09",
+   "ENE_10",
+   "ENE_11",
+   "ENE_12",
+   "DIC_01",
+   "DIC_02",
+   "DIC_03",
+   "DIC_04",
+   "DIC_05",
+   "DIC_06",
+   "DIC_07",
+   "DIC_08",
+   "DIC_09",
+   "DIC_10",
+   "DIC_11",
+   "DIC_12",
+   "FIC_01",
+   "FIC_02",
+   "FIC_03",
+   "FIC_04",
+   "FIC_05",
+   "FIC_06",
+   "FIC_07",
+   "FIC_08",
+   "FIC_09",
+   "FIC_10",
+   "FIC_11",
+   "FIC_12",
+   "SEMRED",
+   "DESCR",
+   "DATA_BASE",
+   "POINT_X",
+   "POINT_Y"
+  ],
+  "reason": "new"
+ },
+ "3ae4d382-7072-4b08-90a4-dcd187a2eae2": {
+  "dataset": "base-de-dados-geografica-da-distribuidora-bdgd",
+  "checked_at": "2026-10-03T04:33:51+00:00",
+  "schema_kind": null,
+  "schema_fingerprint": null,
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/4459e483-451f-4444-8022-bd8b5eac05c5/resource/3ae4d382-7072-4b08-90a4-dcd187a2eae2/download/ucbt_pj.zip",
+   "last_modified": "2026-09-01T18:43:02.087777",
+   "size": 1261222746
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "status": "error",
+  "error": "ProtocolError: (…, IncompleteRead(1096032256 bytes read, 165190490 more expected))",
+  "reason": "new"
+ },
+ "684a68fd-4278-4af1-bcf2-c02810dd7c0c": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:36:17+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/684a68fd-4278-4af1-bcf2-c02810dd7c0c/download/cde-beneficiarios-rede-basica-2017.csv",
+   "last_modified": "2026-07-23T12:51:05.509518",
+   "size": 357154
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.27
+  },
+  "first_seen": "2026-10-03T04:36:17+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:36:17+00:00",
+  "seconds": 2.1,
+  "sha256": "ac0534e5bdcb9c620ad11854f1a868a7d1557d6037ee470640fb41307ecc4222",
+  "bytes": 357154,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1784811066.1230707-357154-2041451234\"",
+   "last_modified": "Thu, 23 Jul 2026 12:51:06 GMT",
+   "content_length": 357154
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 3107,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 6214,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "NumAno",
+   "NomMes",
+   "NomAgente",
+   "NumCNPJ",
+   "DscGrupoTarifario",
+   "IdcClasseConsumidor",
+   "IdcTipo",
+   "VlrDesconto",
+   "VlrCobranca"
+  ],
+  "reason": "new"
+ },
+ "237f3f67-4795-4bd7-a4d2-5f6071ef39af": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:36:19+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/237f3f67-4795-4bd7-a4d2-5f6071ef39af/download/cde-beneficiarios-rede-basica-2018.csv",
+   "last_modified": "2026-07-23T12:51:01.177337",
+   "size": 798228
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.67
+  },
+  "first_seen": "2026-10-03T04:36:19+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:36:19+00:00",
+  "seconds": 1.5,
+  "sha256": "098c125d954b570c8ab6c5b704f396fd1265dcbf5801267d73e8ceb1ce2630c3",
+  "bytes": 798228,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1784811061.8331478-798228-1911231130\"",
+   "last_modified": "Thu, 23 Jul 2026 12:51:01 GMT",
+   "content_length": 798228
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 6963,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 13926,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "NumAno",
+   "NomMes",
+   "NomAgente",
+   "NumCNPJ",
+   "DscGrupoTarifario",
+   "IdcClasseConsumidor",
+   "IdcTipo",
+   "VlrDesconto",
+   "VlrCobranca"
+  ],
+  "reason": "new"
+ },
+ "0bd1f129-39c5-4edc-b272-3f1d11181cca": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:36:21+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/0bd1f129-39c5-4edc-b272-3f1d11181cca/download/cde-beneficiarios-rede-basica-2019.csv",
+   "last_modified": "2026-07-23T12:50:55.938496",
+   "size": 884451
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.43
+  },
+  "first_seen": "2026-10-03T04:36:21+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:36:21+00:00",
+  "seconds": 1.0,
+  "sha256": "6e6d3ebe0db193ce51a7d2fc9e0d8c8124725dc882da62ed7e102ae23890e740",
+  "bytes": 884451,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1784811056.5872416-884451-2082345681\"",
+   "last_modified": "Thu, 23 Jul 2026 12:50:56 GMT",
+   "content_length": 884451
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 7700,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 15400,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "NumAno",
+   "NomMes",
+   "NomAgente",
+   "NumCNPJ",
+   "DscGrupoTarifario",
+   "IdcClasseConsumidor",
+   "IdcTipo",
+   "VlrDesconto",
+   "VlrCobranca"
+  ],
+  "reason": "new"
+ },
+ "f77bb713-cc06-406a-baa8-246acc357ff5": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:36:22+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/f77bb713-cc06-406a-baa8-246acc357ff5/download/cde-beneficiarios-rede-basica-2020.csv",
+   "last_modified": "2026-07-23T12:51:09.643413",
+   "size": 959044
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.58
+  },
+  "first_seen": "2026-10-03T04:36:22+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:36:22+00:00",
+  "seconds": 0.9,
+  "sha256": "93e49098bb036c9e2eb67e75034f1e41372cfba2eaaaa605d1d31f22c8df1430",
+  "bytes": 959044,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1784811070.2789962-959044-2154304271\"",
+   "last_modified": "Thu, 23 Jul 2026 12:51:10 GMT",
+   "content_length": 959044
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 8297,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 16594,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "NumAno",
+   "NomMes",
+   "NomAgente",
+   "NumCNPJ",
+   "DscGrupoTarifario",
+   "IdcClasseConsumidor",
+   "IdcTipo",
+   "VlrDesconto",
+   "VlrCobranca"
+  ],
+  "reason": "new"
+ },
+ "cdf1b068-7c76-462a-ab57-d6619ad290fa": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:36:22+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/cdf1b068-7c76-462a-ab57-d6619ad290fa/download/cde-beneficiarios-rede-basica-2021.csv",
+   "last_modified": "2026-07-23T12:50:36.057036",
+   "size": 1119746
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.9
+  },
+  "first_seen": "2026-10-03T04:36:22+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:36:22+00:00",
+  "seconds": 1.4,
+  "sha256": "78d87e3f282699f2cb6ef2f4507ea10f6cd772f5dbcd5b433dfddc154a43f9f7",
+  "bytes": 1119746,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1784811036.700598-1119746-2155287272\"",
+   "last_modified": "Thu, 23 Jul 2026 12:50:36 GMT",
+   "content_length": 1119746
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 9660,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 19320,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "NumAno",
+   "NomMes",
+   "NomAgente",
+   "NumCNPJ",
+   "DscGrupoTarifario",
+   "IdcClasseConsumidor",
+   "IdcTipo",
+   "VlrDesconto",
+   "VlrCobranca"
+  ],
+  "reason": "new"
+ },
+ "e390baae-5304-4a94-854f-0905094b3357": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:36:24+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/e390baae-5304-4a94-854f-0905094b3357/download/cde-beneficiarios-rede-basica-2022.csv",
+   "last_modified": "2026-07-23T12:50:51.609092",
+   "size": 1383515
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.43
+  },
+  "first_seen": "2026-10-03T04:36:24+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:36:24+00:00",
+  "seconds": 0.9,
+  "sha256": "7f29a25c83ffaa864c2daf3e13699b4f28eb7f080d9d7d0f534b7de375de1d82",
+  "bytes": 1383515,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1784811052.2933185-1383515-1990857204\"",
+   "last_modified": "Thu, 23 Jul 2026 12:50:52 GMT",
+   "content_length": 1383515
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 11976,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 23952,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "NumAno",
+   "NomMes",
+   "NomAgente",
+   "NumCNPJ",
+   "DscGrupoTarifario",
+   "IdcClasseConsumidor",
+   "IdcTipo",
+   "VlrDesconto",
+   "VlrCobranca"
+  ],
+  "reason": "new"
+ },
+ "4fae7803-c71e-4c52-a221-112eea7135ab": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:36:25+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/4fae7803-c71e-4c52-a221-112eea7135ab/download/cde-beneficiarios-rede-basica-2023.csv",
+   "last_modified": "2026-07-23T12:50:41.354559",
+   "size": 1714748
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.5
+  },
+  "first_seen": "2026-10-03T04:36:25+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:36:25+00:00",
+  "seconds": 1.1,
+  "sha256": "25eb6abcf721a1805b7d2e8505fc7e61d96f1a9624cca37fde8be781ad6efeba",
+  "bytes": 1714748,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1784811041.5685108-1714748-2053378718\"",
+   "last_modified": "Thu, 23 Jul 2026 12:50:41 GMT",
+   "content_length": 1714748
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 14706,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 29412,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "NumAno",
+   "NomMes",
+   "NomAgente",
+   "NumCNPJ",
+   "DscGrupoTarifario",
+   "IdcClasseConsumidor",
+   "IdcTipo",
+   "VlrDesconto",
+   "VlrCobranca"
+  ],
+  "reason": "new"
+ },
+ "e5231715-4245-4c18-9e67-f52ea56816be": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:36:26+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/e5231715-4245-4c18-9e67-f52ea56816be/download/cde-beneficiarios-rede-basica-2024.csv",
+   "last_modified": "2026-07-23T12:50:47.167519",
+   "size": 1878019
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.48
+  },
+  "first_seen": "2026-10-03T04:36:26+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:36:26+00:00",
+  "seconds": 0.8,
+  "sha256": "81922660ea7848c1f63fde5d5a679fd50b42eb1b150ec14e0897450acbd6242e",
+  "bytes": 1878019,
+  "kind": "csv",
+  "http": {
+   "etag": "\"1784811047.3824065-1878019-1707479553\"",
+   "last_modified": "Thu, 23 Jul 2026 12:50:47 GMT",
+   "content_length": 1878019
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 16367,
+   "ragged_rows": 0,
+   "decode_errors": 0,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ";"
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [
+     "AnmReferencia",
+     "CodIbgeMunicipio",
+     "DscTipoSubsidio",
+     "IdcSubclasse",
+     "IdcSubgrupoTarifario",
+     "IdcTipoCompraEnergia",
+     "IdcTipoFaturamento",
+     "NomCliente",
+     "NumCNPJDistribuidora",
+     "NumCPFCNPJCliente",
+     "SigAgente",
+     "VlrSubsidio"
+    ],
+    "undeclared": [
+     "DscGrupoTarifario",
+     "IdcTipo",
+     "NomAgente",
+     "NomMes",
+     "NumAno",
+     "NumCNPJ",
+     "VlrCobranca",
+     "VlrDesconto"
+    ],
+    "spelling": {},
+    "similar_names": {
+     "IdcSubgrupoTarifario": "DscGrupoTarifario"
+    },
+    "cells_checked": 32734,
+    "cells_with_errors": 0,
+    "error_rate": 0.0,
+    "errors_by_field": {},
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "type": "datetime (date values carry a time)",
+      "format": "%d/%m/%Y %H:%M:%S"
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "NumAno",
+   "NomMes",
+   "NomAgente",
+   "NumCNPJ",
+   "DscGrupoTarifario",
+   "IdcClasseConsumidor",
+   "IdcTipo",
+   "VlrDesconto",
+   "VlrCobranca"
+  ],
+  "reason": "new"
+ },
+ "673841d3-260a-4bd7-9e39-928fe96114f5": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:36:27+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/673841d3-260a-4bd7-9e39-928fe96114f5/download/cde-beneficiarios-01jan2018.zip",
+   "last_modified": "2026-07-24T17:30:19.773805",
+   "size": 218987146
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.48,
+   "download_s": 21.94
+  },
+  "first_seen": "2026-10-03T04:36:27+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:36:27+00:00",
+  "seconds": 180.5,
+  "sha256": "0c6b6b0b6db84d117328aa8288989077477c235ddd9e3b5608c8bed8bb68bfb7",
+  "bytes": 218987146,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914220.4641461-218987146-1793790476\"",
+   "last_modified": "Fri, 24 Jul 2026 17:30:20 GMT",
+   "content_length": 218987146
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 11423033,
+   "ragged_rows": 0,
+   "decode_errors": 4087,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 159922462,
+    "cells_with_errors": 11423033,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 11423033,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "69e189d5-8d75-44cd-a933-afcf75f2909f": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:39:27+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/69e189d5-8d75-44cd-a933-afcf75f2909f/download/cde-beneficiarios-01feb2018.zip",
+   "last_modified": "2026-07-24T17:29:12.485592",
+   "size": 240942901
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.11,
+   "download_s": 25.91
+  },
+  "first_seen": "2026-10-03T04:39:27+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:39:27+00:00",
+  "seconds": 200.6,
+  "sha256": "32642a2ffd61f61c5f3384c1eda91459f9ddfaa78e4f9e9da7e3d964b384cae2",
+  "bytes": 240942901,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914153.2573547-240942901-2034832088\"",
+   "last_modified": "Fri, 24 Jul 2026 17:29:13 GMT",
+   "content_length": 240942901
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 12520443,
+   "ragged_rows": 0,
+   "decode_errors": 4112,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 175286202,
+    "cells_with_errors": 12520443,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12520443,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "fff5e6ce-ec39-476a-bb95-9b509159b7a5": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:42:48+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/fff5e6ce-ec39-476a-bb95-9b509159b7a5/download/cde-beneficiarios-01mar2018.zip",
+   "last_modified": "2026-07-24T17:33:19.733950",
+   "size": 248657677
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.18,
+   "download_s": 24.97
+  },
+  "first_seen": "2026-10-03T04:42:48+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:42:48+00:00",
+  "seconds": 204.6,
+  "sha256": "b5b47d580a2dc5d4575f7703d985972f56ab1a0ee5f89fdf794a85f5468a24bf",
+  "bytes": 248657677,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914400.6188862-248657677-2426016559\"",
+   "last_modified": "Fri, 24 Jul 2026 17:33:20 GMT",
+   "content_length": 248657677
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 12846954,
+   "ragged_rows": 0,
+   "decode_errors": 4170,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 179857356,
+    "cells_with_errors": 12846954,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12846954,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "a8a9bd1b-319c-4819-9856-28cd82d5afce": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:46:12+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/a8a9bd1b-319c-4819-9856-28cd82d5afce/download/cde-beneficiarios-01apr2018.zip",
+   "last_modified": "2026-07-24T17:26:16.653441",
+   "size": 247720786
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.11,
+   "download_s": 32.23
+  },
+  "first_seen": "2026-10-03T04:46:12+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:46:12+00:00",
+  "seconds": 211.9,
+  "sha256": "d1e299f25b396c5aab031d70840c8eac5dd6f3b4ca44cfe87df046e0f3b001c8",
+  "bytes": 247720786,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784913977.5434368-247720786-2094142199\"",
+   "last_modified": "Fri, 24 Jul 2026 17:26:17 GMT",
+   "content_length": 247720786
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 12955770,
+   "ragged_rows": 0,
+   "decode_errors": 4125,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 181380780,
+    "cells_with_errors": 12955770,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12955770,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "b6393c37-44ab-4a6c-a4b8-75815bf1bb7c": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:49:44+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/b6393c37-44ab-4a6c-a4b8-75815bf1bb7c/download/cde-beneficiarios-01may2018.zip",
+   "last_modified": "2026-07-24T17:34:22.938660",
+   "size": 242064689
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 2.11,
+   "download_s": 26.38
+  },
+  "first_seen": "2026-10-03T04:49:44+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:49:44+00:00",
+  "seconds": 199.9,
+  "sha256": "84b693a0a32f3b7bcd2176e218924765a6a84c22410719d41af0156960797d48",
+  "bytes": 242064689,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914463.6887314-242064689-2031293155\"",
+   "last_modified": "Fri, 24 Jul 2026 17:34:23 GMT",
+   "content_length": 242064689
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 12546948,
+   "ragged_rows": 0,
+   "decode_errors": 4242,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 175657272,
+    "cells_with_errors": 12546948,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12546948,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "19566828-abda-4c70-a970-040ae3beee28": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:53:04+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/19566828-abda-4c70-a970-040ae3beee28/download/cde-beneficiarios-01jun2018.zip",
+   "last_modified": "2026-07-24T17:32:26.099585",
+   "size": 246541384
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.95,
+   "download_s": 25.72
+  },
+  "first_seen": "2026-10-03T04:53:04+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:53:04+00:00",
+  "seconds": 202.9,
+  "sha256": "02064cd9519cc217c890ba6a4a6bcba1f3991170d143ff9b5dee9c9e931293ee",
+  "bytes": 246541384,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914346.9128697-246541384-1922175666\"",
+   "last_modified": "Fri, 24 Jul 2026 17:32:26 GMT",
+   "content_length": 246541384
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 12839700,
+   "ragged_rows": 0,
+   "decode_errors": 4177,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 179755800,
+    "cells_with_errors": 12839700,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12839700,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "e7cd0297-c8b4-4cd1-8d9d-cb8e9e1dfc74": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T04:56:27+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/e7cd0297-c8b4-4cd1-8d9d-cb8e9e1dfc74/download/cde-beneficiarios-01jul2018.zip",
+   "last_modified": "2026-07-24T17:31:37.593454",
+   "size": 259864760
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.1,
+   "download_s": 27.78
+  },
+  "first_seen": "2026-10-03T04:56:27+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T04:56:27+00:00",
+  "seconds": 215.5,
+  "sha256": "ea124c1d022ad225cdb1921039ca93424a0a4cd46e5c19f813038c41ebd0939f",
+  "bytes": 259864760,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914298.5127425-259864760-2272793482\"",
+   "last_modified": "Fri, 24 Jul 2026 17:31:38 GMT",
+   "content_length": 259864760
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 13546877,
+   "ragged_rows": 0,
+   "decode_errors": 4187,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 189656278,
+    "cells_with_errors": 13546877,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13546877,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "9776db17-b1af-47a7-bc6c-ac8ef40113ae": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:00:03+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/9776db17-b1af-47a7-bc6c-ac8ef40113ae/download/cde-beneficiarios-01aug2018.zip",
+   "last_modified": "2026-07-24T17:27:26.482009",
+   "size": 268976553
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.38,
+   "download_s": 95.75
+  },
+  "first_seen": "2026-10-03T05:00:03+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:00:03+00:00",
+  "seconds": 287.8,
+  "sha256": "154c1b42ab2e5d36757edd9fa285b0c31dd322ad91ac27b8f7d21ad917281b60",
+  "bytes": 268976553,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914047.2692356-268976553-2171016002\"",
+   "last_modified": "Fri, 24 Jul 2026 17:27:27 GMT",
+   "content_length": 268976553
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 13882113,
+   "ragged_rows": 0,
+   "decode_errors": 18142,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 194349582,
+    "cells_with_errors": 13882113,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13882113,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "162f9745-85b0-42cc-a98a-b7e8cdb5dbfc": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:04:50+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/162f9745-85b0-42cc-a98a-b7e8cdb5dbfc/download/cde-beneficiarios-01sep2018.zip",
+   "last_modified": "2026-07-24T17:38:01.050897",
+   "size": 276817966
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.1,
+   "download_s": 67.99
+  },
+  "first_seen": "2026-10-03T05:04:50+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:04:50+00:00",
+  "seconds": 265.9,
+  "sha256": "ab42e1e094f638c3632536aec3cb755499ace4759d5fef47627f962338b72878",
+  "bytes": 276817966,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914681.9197536-276817966-1954026319\"",
+   "last_modified": "Fri, 24 Jul 2026 17:38:01 GMT",
+   "content_length": 276817966
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 14182551,
+   "ragged_rows": 0,
+   "decode_errors": 36476,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 198555714,
+    "cells_with_errors": 14182551,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14182551,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "c1fa52b2-223d-4c46-8b9e-b01470b16d6e": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:09:16+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/c1fa52b2-223d-4c46-8b9e-b01470b16d6e/download/cde-beneficiarios-01oct2018.zip",
+   "last_modified": "2026-07-24T17:36:47.434585",
+   "size": 275912813
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.11,
+   "download_s": 29.76
+  },
+  "first_seen": "2026-10-03T05:09:16+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:09:16+00:00",
+  "seconds": 225.9,
+  "sha256": "f52228ba4077821399def8f26e4560471966e5afa7cb42a4f795792f726fae88",
+  "bytes": 275912813,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914608.293086-275912813-2076840614\"",
+   "last_modified": "Fri, 24 Jul 2026 17:36:48 GMT",
+   "content_length": 275912813
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 14204719,
+   "ragged_rows": 0,
+   "decode_errors": 36563,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 198866066,
+    "cells_with_errors": 14204719,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14204719,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "437571fd-9f8f-4320-8072-31ed04c97408": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:13:02+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/437571fd-9f8f-4320-8072-31ed04c97408/download/cde-beneficiarios-01nov2018.zip",
+   "last_modified": "2026-07-24T17:35:37.305227",
+   "size": 279460651
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.05,
+   "download_s": 27.81
+  },
+  "first_seen": "2026-10-03T05:13:02+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:13:02+00:00",
+  "seconds": 226.4,
+  "sha256": "6c4302d744d8502124e8983040a8aee35ce90f72c08c67d0575388eadb4b1a04",
+  "bytes": 279460651,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914538.1973672-279460651-1810239954\"",
+   "last_modified": "Fri, 24 Jul 2026 17:35:38 GMT",
+   "content_length": 279460651
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 14246273,
+   "ragged_rows": 0,
+   "decode_errors": 36829,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 199447822,
+    "cells_with_errors": 14246273,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14246273,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "11100b9b-344e-4176-aa76-31cf07d92d65": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:16:49+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/11100b9b-344e-4176-aa76-31cf07d92d65/download/cde-beneficiarios-01dec2018.zip",
+   "last_modified": "2026-07-24T17:28:21.444385",
+   "size": 265884821
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.88,
+   "download_s": 29.05
+  },
+  "first_seen": "2026-10-03T05:16:49+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:16:49+00:00",
+  "seconds": 221.1,
+  "sha256": "185eaa53bb2b77f19f702a89cae13001030b679b91759c0595e3205ca550180c",
+  "bytes": 265884821,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914102.299271-265884821-1786384921\"",
+   "last_modified": "Fri, 24 Jul 2026 17:28:22 GMT",
+   "content_length": 265884821
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 13684815,
+   "ragged_rows": 0,
+   "decode_errors": 36405,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 191587410,
+    "cells_with_errors": 13684815,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13684815,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "99fee086-4cb5-4321-ab76-072318ed73ec": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:20:30+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/99fee086-4cb5-4321-ab76-072318ed73ec/download/cde-beneficiarios-01jan2019.zip",
+   "last_modified": "2026-07-24T17:30:29.418073",
+   "size": 228880271
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.15,
+   "download_s": 41.49
+  },
+  "first_seen": "2026-10-03T05:20:30+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:20:30+00:00",
+  "seconds": 204.0,
+  "sha256": "73eb293f9fdc348b3e808967ee72424f0a16b9561389a526d98c9a401dc57ed4",
+  "bytes": 228880271,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914230.084973-228880271-2021855886\"",
+   "last_modified": "Fri, 24 Jul 2026 17:30:30 GMT",
+   "content_length": 228880271
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 11922481,
+   "ragged_rows": 0,
+   "decode_errors": 36683,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 166914734,
+    "cells_with_errors": 11922481,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 11922481,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "c9cbca33-8614-4b03-b000-6a4a859a4bf2": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:23:54+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/c9cbca33-8614-4b03-b000-6a4a859a4bf2/download/cde-beneficiarios-01feb2019.zip",
+   "last_modified": "2026-07-24T17:29:18.468351",
+   "size": 233822179
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.05,
+   "download_s": 24.84
+  },
+  "first_seen": "2026-10-03T05:23:54+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:23:54+00:00",
+  "seconds": 195.0,
+  "sha256": "b36958e0f57d05360c71cf3c55fdb4120c144766df9b9d0cc43bc70041459933",
+  "bytes": 233822179,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914159.1572487-233822179-2097812128\"",
+   "last_modified": "Fri, 24 Jul 2026 17:29:19 GMT",
+   "content_length": 233822179
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 12115415,
+   "ragged_rows": 0,
+   "decode_errors": 36775,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 169615810,
+    "cells_with_errors": 12115415,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12115415,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "85bda7bd-f371-4f04-b153-8026546b173e": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:27:09+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/85bda7bd-f371-4f04-b153-8026546b173e/download/cde-beneficiarios-01mar2019.zip",
+   "last_modified": "2026-07-24T17:33:25.674897",
+   "size": 248628854
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.22,
+   "download_s": 27.59
+  },
+  "first_seen": "2026-10-03T05:27:09+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:27:09+00:00",
+  "seconds": 205.3,
+  "sha256": "71b843955a8e613e7f8a214293d886c9ec3c6668dc91571a46dcadf0c729c1bc",
+  "bytes": 248628854,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914406.3217819-248628854-2097222226\"",
+   "last_modified": "Fri, 24 Jul 2026 17:33:26 GMT",
+   "content_length": 248628854
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 12862013,
+   "ragged_rows": 0,
+   "decode_errors": 36523,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 180068182,
+    "cells_with_errors": 12862013,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 12862013,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "c1f064bd-5bff-4263-94d1-68884be850ba": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:30:34+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/c1f064bd-5bff-4263-94d1-68884be850ba/download/cde-beneficiarios-01apr2019.zip",
+   "last_modified": "2026-07-24T17:26:21.859207",
+   "size": 251946005
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 0.98,
+   "download_s": 32.04
+  },
+  "first_seen": "2026-10-03T05:30:34+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:30:34+00:00",
+  "seconds": 214.7,
+  "sha256": "c545393b3839e7e6c8a3cbd00b7620d83fbb7dab4a15a27e10899e6af74b5929",
+  "bytes": 251946005,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784913982.636349-251946005-2119701181\"",
+   "last_modified": "Fri, 24 Jul 2026 17:26:22 GMT",
+   "content_length": 251946005
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 13131295,
+   "ragged_rows": 0,
+   "decode_errors": 36598,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 183838130,
+    "cells_with_errors": 13131295,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13131295,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "944d0114-0d8d-4315-aea4-034189aa4b23": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:34:09+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/944d0114-0d8d-4315-aea4-034189aa4b23/download/cde-beneficiarios-01may2019.zip",
+   "last_modified": "2026-07-24T17:34:28.077084",
+   "size": 251053021
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.08,
+   "download_s": 29.85
+  },
+  "first_seen": "2026-10-03T05:34:09+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:34:09+00:00",
+  "seconds": 208.2,
+  "sha256": "010eb2cd1b5d9f6024446c685ab18b6f61a8fb43b4e3c7d5e6323a8ced8613b5",
+  "bytes": 251053021,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914468.734639-251053021-1802899983\"",
+   "last_modified": "Fri, 24 Jul 2026 17:34:28 GMT",
+   "content_length": 251053021
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 13012944,
+   "ragged_rows": 0,
+   "decode_errors": 36151,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 182181216,
+    "cells_with_errors": 13012944,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13012944,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "0c3526c9-3318-48b4-ab11-8c0bac57fbad": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:37:37+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/0c3526c9-3318-48b4-ab11-8c0bac57fbad/download/cde-beneficiarios-01jun2019.zip",
+   "last_modified": "2026-07-24T17:32:32.553220",
+   "size": 259407927
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.08,
+   "download_s": 27.63
+  },
+  "first_seen": "2026-10-03T05:37:37+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:37:37+00:00",
+  "seconds": 214.9,
+  "sha256": "8eecc94daf9bf47264ee555a2918d7f4d96fea377fe7162bd8a4bb2ec200cf55",
+  "bytes": 259407927,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914353.3827512-259407927-1867256533\"",
+   "last_modified": "Fri, 24 Jul 2026 17:32:33 GMT",
+   "content_length": 259407927
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 13539494,
+   "ragged_rows": 0,
+   "decode_errors": 36956,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 189552916,
+    "cells_with_errors": 13539494,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13539494,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "26babd50-d887-4694-a8ba-b2f0bec5d8c1": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:41:12+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/26babd50-d887-4694-a8ba-b2f0bec5d8c1/download/cde-beneficiarios-01jul2019.zip",
+   "last_modified": "2026-07-24T17:31:43.941329",
+   "size": 267835391
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.09,
+   "download_s": 28.11
+  },
+  "first_seen": "2026-10-03T05:41:12+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:41:12+00:00",
+  "seconds": 222.2,
+  "sha256": "d64a82ac638bed6afbedcef8bc9ea15f44b7421947c077a1944f9f375ea2152c",
+  "bytes": 267835391,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914304.7396307-267835391-2172195651\"",
+   "last_modified": "Fri, 24 Jul 2026 17:31:44 GMT",
+   "content_length": 267835391
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 13883123,
+   "ragged_rows": 0,
+   "decode_errors": 38359,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 194363722,
+    "cells_with_errors": 13883123,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13883123,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "65547189-5d1f-4e99-8efe-a3923fcd47cc": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:44:54+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/65547189-5d1f-4e99-8efe-a3923fcd47cc/download/cde-beneficiarios-01aug2019.zip",
+   "last_modified": "2026-07-24T17:27:31.890485",
+   "size": 277084571
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.22,
+   "download_s": 28.44
+  },
+  "first_seen": "2026-10-03T05:44:54+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:44:54+00:00",
+  "seconds": 229.5,
+  "sha256": "3c149438e3d61e9342b087e0e9e55af4dc001471345d598bdd2adb6a40a8f573",
+  "bytes": 277084571,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914052.653143-277084571-1883968214\"",
+   "last_modified": "Fri, 24 Jul 2026 17:27:32 GMT",
+   "content_length": 277084571
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 14326344,
+   "ragged_rows": 0,
+   "decode_errors": 53571,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 200568816,
+    "cells_with_errors": 14326344,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14326344,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "8a09ff6c-e997-4ab3-a07b-c136d462a4d4": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:48:44+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/8a09ff6c-e997-4ab3-a07b-c136d462a4d4/download/cde-beneficiarios-01sep2019.zip",
+   "last_modified": "2026-07-24T17:38:10.132510",
+   "size": 257706411
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.13,
+   "download_s": 25.81
+  },
+  "first_seen": "2026-10-03T05:48:44+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:48:44+00:00",
+  "seconds": 212.2,
+  "sha256": "fa470147a49065a9a73c6666e9da87f45b5245151b2dc38585e328caab29746c",
+  "bytes": 257706411,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914690.9765897-257706411-2191921897\"",
+   "last_modified": "Fri, 24 Jul 2026 17:38:10 GMT",
+   "content_length": 257706411
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 13430463,
+   "ragged_rows": 0,
+   "decode_errors": 51889,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 188026482,
+    "cells_with_errors": 13430463,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13430463,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "7a3809d0-0d63-490a-be4f-1722db5f519c": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:52:16+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/7a3809d0-0d63-490a-be4f-1722db5f519c/download/cde-beneficiarios-01oct2019.zip",
+   "last_modified": "2026-07-24T17:36:55.039600",
+   "size": 266767342
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.07,
+   "download_s": 28.48
+  },
+  "first_seen": "2026-10-03T05:52:16+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:52:16+00:00",
+  "seconds": 220.6,
+  "sha256": "f1cf1edbf9cf519d4f6da72ed778071ceb419fb012d72c04628cd83bfecb8a40",
+  "bytes": 266767342,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914615.8339496-266767342-1924076161\"",
+   "last_modified": "Fri, 24 Jul 2026 17:36:55 GMT",
+   "content_length": 266767342
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 13896578,
+   "ragged_rows": 0,
+   "decode_errors": 37289,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 194552092,
+    "cells_with_errors": 13896578,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13896578,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "9c019271-832b-4a79-9802-5b3120e08039": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:55:57+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/9c019271-832b-4a79-9802-5b3120e08039/download/cde-beneficiarios-01nov2019.zip",
+   "last_modified": "2026-07-24T17:35:46.889302",
+   "size": 263624543
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.42,
+   "download_s": 26.69
+  },
+  "first_seen": "2026-10-03T05:55:57+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:55:57+00:00",
+  "seconds": 222.1,
+  "sha256": "5ee334c0aff3187e9db2b0fafc367a395f89babf6a6bec1b4c26943fb6d7882c",
+  "bytes": 263624543,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914547.7281926-263624543-1680675171\"",
+   "last_modified": "Fri, 24 Jul 2026 17:35:47 GMT",
+   "content_length": 263624543
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 13915381,
+   "ragged_rows": 0,
+   "decode_errors": 36764,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 194815334,
+    "cells_with_errors": 13915381,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13915381,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "34fa1179-233e-4fe7-8657-56225afb6e1b": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T05:59:39+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/34fa1179-233e-4fe7-8657-56225afb6e1b/download/cde-beneficiarios-01dec2019.zip",
+   "last_modified": "2026-07-24T17:28:27.171563",
+   "size": 264694279
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.07,
+   "download_s": 29.43
+  },
+  "first_seen": "2026-10-03T05:59:39+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T05:59:39+00:00",
+  "seconds": 221.3,
+  "sha256": "c907531227519d80c312a89d001f112d2433b60303c07839165abfe8be746b27",
+  "bytes": 264694279,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914107.7711728-264694279-1870008926\"",
+   "last_modified": "Fri, 24 Jul 2026 17:28:27 GMT",
+   "content_length": 264694279
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 13759893,
+   "ragged_rows": 0,
+   "decode_errors": 36442,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 192638502,
+    "cells_with_errors": 13759893,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 13759893,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "a053ec33-4b70-415f-a011-313c9dfc952b": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T06:03:20+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/a053ec33-4b70-415f-a011-313c9dfc952b/download/cde-beneficiarios-01jan2020.zip",
+   "last_modified": "2026-07-24T17:30:39.110946",
+   "size": 266098981
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.08,
+   "download_s": 45.36
+  },
+  "first_seen": "2026-10-03T06:03:20+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T06:03:20+00:00",
+  "seconds": 242.8,
+  "sha256": "017e8687d26f674c02c596666fb08b0b4bbf58642b20d06822b150eccd7f0b0a",
+  "bytes": 266098981,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914239.764799-266098981-1933906543\"",
+   "last_modified": "Fri, 24 Jul 2026 17:30:39 GMT",
+   "content_length": 266098981
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 14112714,
+   "ragged_rows": 0,
+   "decode_errors": 39179,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 197577996,
+    "cells_with_errors": 14112714,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14112714,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "502cbb9c-5763-4bca-ae4f-e9b29acba4f8": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T06:07:23+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/502cbb9c-5763-4bca-ae4f-e9b29acba4f8/download/cde-beneficiarios-01feb2020.zip",
+   "last_modified": "2026-07-24T17:29:23.999797",
+   "size": 276235786
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.74,
+   "download_s": 88.05
+  },
+  "first_seen": "2026-10-03T06:07:23+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T06:07:23+00:00",
+  "seconds": 286.9,
+  "sha256": "c1c783d02777263bd1bfda04d9d0c189fd82fd5478d57f6bdece8c2dc99fb2e2",
+  "bytes": 276235786,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914164.64815-276235786-2237338531\"",
+   "last_modified": "Fri, 24 Jul 2026 17:29:24 GMT",
+   "content_length": 276235786
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 14375172,
+   "ragged_rows": 0,
+   "decode_errors": 38673,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 201252408,
+    "cells_with_errors": 14375172,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14375172,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "26589323-58a4-4b1b-a09c-8b4898f9348f": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T06:12:10+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/26589323-58a4-4b1b-a09c-8b4898f9348f/download/cde-beneficiarios-01mar2020.zip",
+   "last_modified": "2026-07-24T17:33:30.710571",
+   "size": 274007473
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.49,
+   "download_s": 111.27
+  },
+  "first_seen": "2026-10-03T06:12:10+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T06:12:10+00:00",
+  "seconds": 307.1,
+  "sha256": "8621fc18aac1788069ffda3789c403b218585bcf883a28e1c41359ecb5cc66c8",
+  "bytes": 274007473,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914411.4866872-274007473-1740902927\"",
+   "last_modified": "Fri, 24 Jul 2026 17:33:31 GMT",
+   "content_length": 274007473
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 14319263,
+   "ragged_rows": 0,
+   "decode_errors": 52734,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 200469682,
+    "cells_with_errors": 14319263,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14319263,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "0c9855fe-40de-46b7-a32a-577994f86722": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T06:17:17+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/0c9855fe-40de-46b7-a32a-577994f86722/download/cde-beneficiarios-01apr2020.zip",
+   "last_modified": "2026-07-24T17:26:27.777620",
+   "size": 354251993
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 2.48,
+   "download_s": 177.48
+  },
+  "first_seen": "2026-10-03T06:17:17+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T06:17:17+00:00",
+  "seconds": 431.5,
+  "sha256": "16a02f1eda9710d88666986a3f34703ec339b5b9f7e0074879d137a24a5b2946",
+  "bytes": 354251993,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784913988.6882448-354251993-2022642238\"",
+   "last_modified": "Fri, 24 Jul 2026 17:26:28 GMT",
+   "content_length": 354251993
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 18261588,
+   "ragged_rows": 0,
+   "decode_errors": 40790,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 255662232,
+    "cells_with_errors": 18261588,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 18261588,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "5fd04691-4570-4459-ba65-39b17c5e963b": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T06:24:28+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/5fd04691-4570-4459-ba65-39b17c5e963b/download/cde-beneficiarios-01may2020.zip",
+   "last_modified": "2026-07-24T17:34:33.242469",
+   "size": 288133423
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 2.23,
+   "download_s": 73.87
+  },
+  "first_seen": "2026-10-03T06:24:28+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T06:24:28+00:00",
+  "seconds": 278.8,
+  "sha256": "0be13d5213e6a846d676ababe16e63c27c6ae7faff24a523323a9d51d98243e2",
+  "bytes": 288133423,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914474.032542-288133423-1786909188\"",
+   "last_modified": "Fri, 24 Jul 2026 17:34:34 GMT",
+   "content_length": 288133423
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 14829766,
+   "ragged_rows": 0,
+   "decode_errors": 50789,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 207616724,
+    "cells_with_errors": 14829766,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14829766,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "9c571497-e30f-44e1-bf83-42d5f3e68658": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T06:29:07+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/9c571497-e30f-44e1-bf83-42d5f3e68658/download/cde-beneficiarios-01jun2020.zip",
+   "last_modified": "2026-07-24T17:32:38.069912",
+   "size": 280334980
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 2.69,
+   "download_s": 118.48
+  },
+  "first_seen": "2026-10-03T06:29:07+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T06:29:07+00:00",
+  "seconds": 319.1,
+  "sha256": "568faefec4fc843d72946f5f07af74be61e6fbae773cdc15db19ca6691ee8e85",
+  "bytes": 280334980,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914358.797652-280334980-1912869440\"",
+   "last_modified": "Fri, 24 Jul 2026 17:32:38 GMT",
+   "content_length": 280334980
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 14490522,
+   "ragged_rows": 0,
+   "decode_errors": 38221,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 202867308,
+    "cells_with_errors": 14553668,
+    "error_rate": 0.07174,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14490522,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     "VlrSubsidio": {
+      "type": {
+       "count": 63146,
+       "rows": [
+        5032,
+        5285,
+        5287,
+        5291,
+        5292
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ","
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "8337fe53-94a9-4ab1-abfe-48293aa103fa": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T06:34:26+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/8337fe53-94a9-4ab1-abfe-48293aa103fa/download/cde-beneficiarios-01jul2020.zip",
+   "last_modified": "2026-07-24T17:31:49.909316",
+   "size": 278293671
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.12,
+   "download_s": 74.4
+  },
+  "first_seen": "2026-10-03T06:34:26+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T06:34:26+00:00",
+  "seconds": 272.1,
+  "sha256": "51be967a515208b05a2e012fb764ec568ecc8bec6e3bef9195f7afa243fa537c",
+  "bytes": 278293671,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914310.6565242-278293671-2039812834\"",
+   "last_modified": "Fri, 24 Jul 2026 17:31:50 GMT",
+   "content_length": 278293671
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 14392274,
+   "ragged_rows": 0,
+   "decode_errors": 37782,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 201491836,
+    "cells_with_errors": 14392274,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 14392274,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "78d58050-f7bf-4e17-9af0-706e182e05e7": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T06:38:58+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/78d58050-f7bf-4e17-9af0-706e182e05e7/download/cde-beneficiarios-01aug2020.zip",
+   "last_modified": "2026-07-24T17:27:39.812699",
+   "size": 323791556
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.13,
+   "download_s": 96.43
+  },
+  "first_seen": "2026-10-03T06:38:58+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T06:38:58+00:00",
+  "seconds": 330.5,
+  "sha256": "ec567be97127b0d0c1c02eac3f98e1710e9981390cd0b2831042d673fa17fb8b",
+  "bytes": 323791556,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914060.538007-323791556-1957302884\"",
+   "last_modified": "Fri, 24 Jul 2026 17:27:40 GMT",
+   "content_length": 323791556
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 16706790,
+   "ragged_rows": 0,
+   "decode_errors": 38427,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 233895060,
+    "cells_with_errors": 16706790,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16706790,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "3d52ac29-59a7-4fd9-a206-68f57e5e6f18": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T06:44:29+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/3d52ac29-59a7-4fd9-a206-68f57e5e6f18/download/cde-beneficiarios-01sep2020.zip",
+   "last_modified": "2026-07-24T17:38:19.963096",
+   "size": 335366910
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 5.4,
+   "download_s": 84.77
+  },
+  "first_seen": "2026-10-03T06:44:29+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T06:44:29+00:00",
+  "seconds": 322.1,
+  "sha256": "ed06c56e28d2d0a9fb7ae339f50dc7a377b137fca0cca5358409bd85b82a5037",
+  "bytes": 335366910,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914700.8444111-335366910-2040402589\"",
+   "last_modified": "Fri, 24 Jul 2026 17:38:20 GMT",
+   "content_length": 335366910
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 17273949,
+   "ragged_rows": 0,
+   "decode_errors": 38174,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 241835286,
+    "cells_with_errors": 17273949,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17273949,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "d3dd0704-9c99-45c1-b298-c28f63bb6848": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T06:49:51+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/d3dd0704-9c99-45c1-b298-c28f63bb6848/download/cde-beneficiarios-01oct2020.zip",
+   "last_modified": "2026-07-24T17:37:02.725129",
+   "size": 315927665
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.1,
+   "download_s": 79.12
+  },
+  "first_seen": "2026-10-03T06:49:51+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T06:49:51+00:00",
+  "seconds": 305.9,
+  "sha256": "10e83aec3a6e0a2571c359a76cb77f39a98250bc7552d00314a8f70d460540ab",
+  "bytes": 315927665,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914623.4748113-315927665-2017989226\"",
+   "last_modified": "Fri, 24 Jul 2026 17:37:03 GMT",
+   "content_length": 315927665
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 16356052,
+   "ragged_rows": 0,
+   "decode_errors": 38297,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 228984728,
+    "cells_with_errors": 16356052,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16356052,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "992aa5fb-6a2d-4bf8-8abe-174ba6c95dfe": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T06:54:57+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/992aa5fb-6a2d-4bf8-8abe-174ba6c95dfe/download/cde-beneficiarios-01nov2020.zip",
+   "last_modified": "2026-07-24T17:35:56.186801",
+   "size": 309162091
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 2.51,
+   "download_s": 111.04
+  },
+  "first_seen": "2026-10-03T06:54:57+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T06:54:57+00:00",
+  "seconds": 331.8,
+  "sha256": "838112d5b0c1898627202f6b5ae93353d6fe0d430962ed5e8d619ce80cf1ed3a",
+  "bytes": 309162091,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914556.7780268-309162091-2290357167\"",
+   "last_modified": "Fri, 24 Jul 2026 17:35:56 GMT",
+   "content_length": 309162091
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 16030168,
+   "ragged_rows": 0,
+   "decode_errors": 38501,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 224422352,
+    "cells_with_errors": 16030168,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16030168,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "d0437ed9-45a4-4f62-8a7d-90b27c87726e": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T07:00:29+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/d0437ed9-45a4-4f62-8a7d-90b27c87726e/download/cde-beneficiarios-01dec2020.zip",
+   "last_modified": "2026-07-24T17:28:32.636711",
+   "size": 326869517
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.11,
+   "download_s": 121.38
+  },
+  "first_seen": "2026-10-03T07:00:29+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T07:00:29+00:00",
+  "seconds": 355.8,
+  "sha256": "67d8a4b87de94926937258e92291efa1df93c09b5d9f6e1bcb245f268d35df09",
+  "bytes": 326869517,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914113.3250728-326869517-1989284456\"",
+   "last_modified": "Fri, 24 Jul 2026 17:28:33 GMT",
+   "content_length": 326869517
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 16833477,
+   "ragged_rows": 0,
+   "decode_errors": 38673,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 235668678,
+    "cells_with_errors": 16833477,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16833477,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "2e6d3d91-50c9-44b0-9967-cf0edaf7b2df": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T07:06:24+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/2e6d3d91-50c9-44b0-9967-cf0edaf7b2df/download/cde-beneficiarios-01jan2021.zip",
+   "last_modified": "2026-07-24T17:30:49.609143",
+   "size": 326561768
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.14,
+   "download_s": 139.86
+  },
+  "first_seen": "2026-10-03T07:06:24+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T07:06:24+00:00",
+  "seconds": 372.4,
+  "sha256": "4a46d24366266e33a9339a1142bf9de631148d24be51d88507828bab904225fd",
+  "bytes": 326561768,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914250.3636086-326561768-2031751968\"",
+   "last_modified": "Fri, 24 Jul 2026 17:30:50 GMT",
+   "content_length": 326561768
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 16855445,
+   "ragged_rows": 0,
+   "decode_errors": 38758,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 235976230,
+    "cells_with_errors": 16855445,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16855445,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "99edb958-2828-402b-ba5b-a4a4e91f20f9": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T07:12:37+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/99edb958-2828-402b-ba5b-a4a4e91f20f9/download/cde-beneficiarios-01feb2021.zip",
+   "last_modified": "2026-07-24T17:29:30.845495",
+   "size": 324991265
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.09,
+   "download_s": 34.55
+  },
+  "first_seen": "2026-10-03T07:12:37+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T07:12:37+00:00",
+  "seconds": 274.4,
+  "sha256": "d49cf598b62c1728a082b1e26d48c0a651096cb0f1ab4e5f01b86eeaee585dcb",
+  "bytes": 324991265,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914171.5270262-324991265-2043351743\"",
+   "last_modified": "Fri, 24 Jul 2026 17:29:31 GMT",
+   "content_length": 324991265
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 16849818,
+   "ragged_rows": 0,
+   "decode_errors": 38592,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 235897452,
+    "cells_with_errors": 16849818,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16849818,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "1975a3f7-b6a9-4e97-98c1-38becb743ef7": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T07:17:11+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/1975a3f7-b6a9-4e97-98c1-38becb743ef7/download/cde-beneficiarios-01mar2021.zip",
+   "last_modified": "2026-07-24T17:33:38.427657",
+   "size": 345096938
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.02,
+   "download_s": 36.66
+  },
+  "first_seen": "2026-10-03T07:17:11+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T07:17:11+00:00",
+  "seconds": 282.6,
+  "sha256": "bf61beec3bb5f659cbfb89c7ca2a41ec45e36a2fa746f98cc4daf27095124652",
+  "bytes": 345096938,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914419.208546-345096938-2000687828\"",
+   "last_modified": "Fri, 24 Jul 2026 17:33:39 GMT",
+   "content_length": 345096938
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 17779290,
+   "ragged_rows": 0,
+   "decode_errors": 39055,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 248910060,
+    "cells_with_errors": 17779290,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17779290,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "effb57ee-20ed-4266-abce-ba33e44f53dc": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T07:21:54+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/effb57ee-20ed-4266-abce-ba33e44f53dc/download/cde-beneficiarios-01apr2021.zip",
+   "last_modified": "2026-07-24T17:26:34.336544",
+   "size": 319549217
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.14,
+   "download_s": 38.72
+  },
+  "first_seen": "2026-10-03T07:21:54+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T07:21:54+00:00",
+  "seconds": 270.4,
+  "sha256": "efcb6e6bc788a6b0965daf81832ea465c029c69cb1bbe309447830a41efff799",
+  "bytes": 319549217,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784913995.0241356-319549217-2483819474\"",
+   "last_modified": "Fri, 24 Jul 2026 17:26:35 GMT",
+   "content_length": 319549217
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 16533359,
+   "ragged_rows": 0,
+   "decode_errors": 38111,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 231467026,
+    "cells_with_errors": 16533359,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 16533359,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "0523ee9b-cb55-4a02-a839-cb92b81775fd": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T07:26:24+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/0523ee9b-cb55-4a02-a839-cb92b81775fd/download/cde-beneficiarios-01may2021.zip",
+   "last_modified": "2026-07-24T17:34:41.340542",
+   "size": 333883151
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 5.09,
+   "download_s": 88.51
+  },
+  "first_seen": "2026-10-03T07:26:24+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T07:26:24+00:00",
+  "seconds": 325.6,
+  "sha256": "67f79adb4ebd8409dd2e5fb666f0fe77d6f6bb15159fb42a6a5212768e126848",
+  "bytes": 333883151,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914482.1103942-333883151-2043024056\"",
+   "last_modified": "Fri, 24 Jul 2026 17:34:42 GMT",
+   "content_length": 333883151
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 17064486,
+   "ragged_rows": 0,
+   "decode_errors": 39474,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 238902804,
+    "cells_with_errors": 17064486,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17064486,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "6b7efcac-f042-4278-97d4-90bd3cec84e9": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T07:31:50+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/6b7efcac-f042-4278-97d4-90bd3cec84e9/download/cde-beneficiarios-01jun2021.zip",
+   "last_modified": "2026-07-24T17:32:44.096280",
+   "size": 336318611
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.08,
+   "download_s": 35.92
+  },
+  "first_seen": "2026-10-03T07:31:50+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T07:31:50+00:00",
+  "seconds": 274.3,
+  "sha256": "8d27af4b14fb2d33c599096f8460c25256402b5d98080a79dffe61df3e9ade00",
+  "bytes": 336318611,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914364.8395414-336318611-2246841127\"",
+   "last_modified": "Fri, 24 Jul 2026 17:32:44 GMT",
+   "content_length": 336318611
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 17246119,
+   "ragged_rows": 0,
+   "decode_errors": 41318,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 241445666,
+    "cells_with_errors": 17306956,
+    "error_rate": 0.071681,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17246119,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     "VlrSubsidio": {
+      "type": {
+       "count": 60837,
+       "rows": [
+        10008,
+        10089,
+        11305,
+        11307,
+        11309
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ","
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "73e519ed-dbfa-4533-8dc0-fc4b8448b3c1": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T07:36:24+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/73e519ed-dbfa-4533-8dc0-fc4b8448b3c1/download/cde-beneficiarios-01jul2021.zip",
+   "last_modified": "2026-07-24T17:31:55.709593",
+   "size": 338425622
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.06,
+   "download_s": 34.73
+  },
+  "first_seen": "2026-10-03T07:36:24+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T07:36:24+00:00",
+  "seconds": 275.0,
+  "sha256": "130a0a7e3d37d498f65581a0f9d5070b25b74cda5d7e758cec4db59b7130a777",
+  "bytes": 338425622,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914316.2574234-338425622-2214138648\"",
+   "last_modified": "Fri, 24 Jul 2026 17:31:56 GMT",
+   "content_length": 338425622
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 17395058,
+   "ragged_rows": 0,
+   "decode_errors": 41464,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 243530812,
+    "cells_with_errors": 17463110,
+    "error_rate": 0.071708,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17395058,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     "VlrSubsidio": {
+      "type": {
+       "count": 68052,
+       "rows": [
+        7462,
+        10803,
+        10832,
+        11319,
+        11320
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ","
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "9730a17d-f721-4521-b200-9346d0dfa8a3": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T07:40:59+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/9730a17d-f721-4521-b200-9346d0dfa8a3/download/cde-beneficiarios-01aug2021.zip",
+   "last_modified": "2026-07-24T17:27:48.062969",
+   "size": 340831811
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.17,
+   "download_s": 36.95
+  },
+  "first_seen": "2026-10-03T07:40:59+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T07:40:59+00:00",
+  "seconds": 281.7,
+  "sha256": "8abc79664d744f7b9114d6978e32912d3e0fea3a7d9d05ff7352be90223af683",
+  "bytes": 340831811,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914068.8518639-340831811-1766134295\"",
+   "last_modified": "Fri, 24 Jul 2026 17:27:48 GMT",
+   "content_length": 340831811
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 17560444,
+   "ragged_rows": 0,
+   "decode_errors": 39545,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 245846216,
+    "cells_with_errors": 17631928,
+    "error_rate": 0.071719,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17560444,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     },
+     "VlrSubsidio": {
+      "type": {
+       "count": 71484,
+       "rows": [
+        11292,
+        11293,
+        11294,
+        11300,
+        11301
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ","
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "9e7d8d2f-7188-42b2-bc99-12e8f19d77b9": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T07:45:41+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/9e7d8d2f-7188-42b2-bc99-12e8f19d77b9/download/cde-beneficiarios-01sep2021.zip",
+   "last_modified": "2026-07-24T17:38:32.521631",
+   "size": 343254602
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.09,
+   "download_s": 34.53
+  },
+  "first_seen": "2026-10-03T07:45:41+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T07:45:41+00:00",
+  "seconds": 279.9,
+  "sha256": "1edca7ca17febc51e456d6e4697fd450337f391fcba40c0b5158a870abb8495d",
+  "bytes": 343254602,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914713.2681863-343254602-2070745769\"",
+   "last_modified": "Fri, 24 Jul 2026 17:38:33 GMT",
+   "content_length": 343254602
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 17617305,
+   "ragged_rows": 0,
+   "decode_errors": 39314,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 246642270,
+    "cells_with_errors": 17617305,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17617305,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ },
+ "dcaf68ca-510d-4520-a290-84f3cfc215eb": {
+  "dataset": "beneficiarios-da-cde",
+  "checked_at": "2026-10-03T07:50:21+00:00",
+  "schema_kind": "extracted",
+  "schema_fingerprint": "88c62cc15e95a4a2",
+  "ckan": {
+   "url": "https://dadosabertos.aneel.gov.br/dataset/a7191647-b187-4893-b20a-8954d57ff89c/resource/dcaf68ca-510d-4520-a290-84f3cfc215eb/download/cde-beneficiarios-01oct2021.zip",
+   "last_modified": "2026-07-24T17:37:12.962104",
+   "size": 345482009
+  },
+  "host": "dadosabertos.aneel.gov.br",
+  "timing": {
+   "first_byte_s": 1.07,
+   "download_s": 34.91
+  },
+  "first_seen": "2026-10-03T07:50:21+00:00",
+  "pass_history": [
+   [
+    "2026-10-03",
+    false
+   ]
+  ],
+  "status": "ok",
+  "validated_at": "2026-10-03T07:50:21+00:00",
+  "seconds": 283.4,
+  "sha256": "277c867ec7d3e960153751f9cdda5c2ed1ca02a7f452a97de729b0c575c05cc1",
+  "bytes": 345482009,
+  "kind": "zip",
+  "http": {
+   "etag": "\"1784914633.7706249-345482009-2225935111\"",
+   "last_modified": "Fri, 24 Jul 2026 17:37:13 GMT",
+   "content_length": 345482009
+  },
+  "summary": {
+   "tables": 1,
+   "rows": 17853239,
+   "ragged_rows": 0,
+   "decode_errors": 39568,
+   "distinct_headers": 1,
+   "columns_without_name": 0,
+   "encodings": [
+    "utf-8"
+   ],
+   "delimiters": [
+    ","
+   ],
+   "formats": [
+    "csv"
+   ],
+   "conformance": {
+    "declared_fields": 14,
+    "missing": [],
+    "undeclared": [],
+    "spelling": {},
+    "similar_names": {},
+    "cells_checked": 249945346,
+    "cells_with_errors": 17853239,
+    "error_rate": 0.071429,
+    "errors_by_field": {
+     "AnmReferencia": {
+      "maxLength": {
+       "count": 17853239,
+       "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+       ]
+      }
+     }
+    },
+    "inferred_formats": {
+     "DatGeracaoConjuntoDados": {
+      "format": "%d/%m/%Y"
+     },
+     "VlrSubsidio": {
+      "decimalChar": ",",
+      "groupChar": "."
+     }
+    },
+    "pass": false
+   }
+  },
+  "header": [
+   "DatGeracaoConjuntoDados",
+   "AnmReferencia",
+   "SigAgente",
+   "NumCNPJDistribuidora",
+   "CodIbgeMunicipio",
+   "IdcTipoFaturamento",
+   "IdcClasseConsumidor",
+   "IdcSubclasse",
+   "IdcSubgrupoTarifario",
+   "IdcTipoCompraEnergia",
+   "NomCliente",
+   "NumCPFCNPJCliente",
+   "DscTipoSubsidio",
+   "VlrSubsidio"
+  ],
+  "reason": "new"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "NomUF",
+   "type": "string",
+   "description": "Nome da Unidade da Federação (Estado e Distrito Federal)",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "SigUF",
+   "type": "string",
+   "description": "Sigla da Unidade da Federação (Estado e Distrito Federal)",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "MdaPotenciaInstaladakW",
+   "type": "number",
+   "description": "Potência instalada total em kW, por estado brasileiro, até o trimestre mais recente, em ordem decrescente em kW (quilowatt).",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MesReferencia",
+   "type": "string",
+   "description": "Mes de referência da coleta da potência instalada total por UF em KW",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "string",
+   "description": "Ano de referência da coleta da potência instalada total por UF em KW",
+   "constraints": {
+    "maxLength": 4
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 4
+  }
+ ],
+ "x5ltep": {
+  "status": "extracted",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "4a724ef8-c41e-4bcf-8769-af14ac4a899d",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/cec20fdd-97e4-40a8-870f-c63339f5d8b7/resource/4a724ef8-c41e-4bcf-8769-af14ac4a899d/download/dm-capacidade-instalada-de-geracao-por-uf.pdf",
+   "sha256": "11c273d8d41ed1028856f1b0f1574c60bd6303eceb4f71b9129aa38638d671c1",
+   "oracle": {
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": []
+   }
+  }
+ }
+}

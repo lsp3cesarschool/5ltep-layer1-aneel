@@ -1,0 +1,206 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatPublicacao",
+   "type": "date",
+   "description": "Data da publicação do ato de outorga.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscNumAto",
+   "type": "string",
+   "description": "Número do Ato de Outorga.",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "description": "Nome do agente empreendedor.",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "IdeNucleCEG",
+   "type": "string",
+   "description": "Núcleo do Código Único de Empreendimentos de Geração",
+   "constraints": {
+    "maxLength": 6
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 6
+  },
+  {
+   "name": "CodCEG",
+   "type": "string",
+   "description": "Código Único de Empreendimentos de Geração: GGG.FF.UF.999999-D.VV. Onde: GGG é o Tipo de Geração, FF é a Fonte, UF é a UF principal, 999999 é o Núcleo do CEG, D é o dígito verificador e VV é a versão (Se 1 é a primeira, se maior que 1 sofreu alteração)",
+   "constraints": {
+    "maxLength": 21
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 21
+  },
+  {
+   "name": "SigTipoGeracao",
+   "type": "string",
+   "description": "Abreviação do tipo de geração. Classificado em: UTN - Usina Termonuclear UTE - Usina Termelétrica UHE - Usina Hidrelétrica UFV - Central Geradora Solar Fotovoltaica PCH - Pequena Central Hidrelétrica EOL - Central Geradora Eólica CGU - Central Geradora Undi-elétrica CGH - Central Geradora Hidrelétrica",
+   "constraints": {
+    "maxLength": 3
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 3
+  },
+  {
+   "name": "DscAssunto",
+   "type": "string",
+   "description": "Descrição do Assunto referente ao processo e tipo de objeto.",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "DscObjeto",
+   "type": "string",
+   "description": "Nome do tipo de objeto determinado pela área.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscAmbiente",
+   "type": "string",
+   "description": "Informa a Outorga está dentro ou fora do Ambiente de Contratação Regulada (ACR). Ambiente ACR: usinas outorgadas através de uma Portaria. Alterações posteriores no mesmo empreendimento também serão consideradas \"Ambiente ACR\"; Ambiente Fora ACR: usinas outorgadas através de uma Resolução Autorizativa. Alterações no mesmo empreendimento também serão consideradas \"Ambiente Fora ACR\".",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DscTipoAto",
+   "type": "string",
+   "description": "Informa o tipo do ato de Outorga",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DscProcesso",
+   "type": "string",
+   "description": "Número do Processo dentro da ANEEL",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "DscFonteCombustivel",
+   "type": "string",
+   "description": "Tipo da fonte do Empreendimento",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "MdaPotenciaInstaladaMW",
+   "type": "any",
+   "description": "Armazena os dados expressos em quantidades e potência instalada em MW (quilowatt), definida pela somatória das potências elétricas ativas nominais dos módulos da central de geração distribuída",
+   "declaredType": "",
+   "mappingNote": "type not declared"
+  },
+  {
+   "name": "MdaAmpliacaoReducaoMW",
+   "type": "any",
+   "description": "Informa as quantidades de potência instalada em MW (quilowatt) acrescida ao empreendimento.",
+   "declaredType": "",
+   "mappingNote": "type not declared"
+  },
+  {
+   "name": "NomMunicipio",
+   "type": "string",
+   "description": "Nome do Município onde atribuído pelo IBGE em que se situa o empreendimento de Geração Distribuída.",
+   "constraints": {
+    "maxLength": 40
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 40
+  },
+  {
+   "name": "SigUF",
+   "type": "string",
+   "description": "Mostra as siglas das UFs das outorgas",
+   "constraints": {
+    "maxLength": 30
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 30
+  },
+  {
+   "name": "SigRegimeExploracao",
+   "type": "string",
+   "description": "Sigla do tipo de regime de exploração. SP - Serviço Público; AP - Autoprodutor de energia elétrica; PIE - Produtor independente de energia elétrica.",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DscRio",
+   "type": "string",
+   "description": "Descrição do rio em que o empreendimento está atuando",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "1ee73090-a1cd-4021-941f-897cb5b69b79",
+   "dictionary_name": "Dicionário de Dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/2d8a4c72-ed48-4afc-b14f-cc8f5c499a68/resource/1ee73090-a1cd-4021-941f-897cb5b69b79/download/dm-atos-de-outorgas-de-geracao.pdf",
+   "sha256": "380c6852a9f454d0980f411c700e0cbb716478abe34fbc07d70fe48dceec16a2",
+   "oracle": {
+    "recall": 0.85,
+    "precision": 0.8947,
+    "exact_match": 0.85,
+    "levenshtein": 0.9562,
+    "missing_from_pdf": [
+     "DscCombustivel",
+     "DscEmpreendimento",
+     "IdeNucleoCEG"
+    ],
+    "not_in_file": [
+     "DscFonteCombustivel",
+     "IdeNucleCEG"
+    ]
+   }
+  }
+ }
+}

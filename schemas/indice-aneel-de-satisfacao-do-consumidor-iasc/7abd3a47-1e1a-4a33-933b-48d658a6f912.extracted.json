@@ -1,0 +1,1024 @@
+{
+ "fields": [
+  {
+   "name": "NumAno",
+   "type": "string",
+   "description": "Descrição 2006 - 2018: Ano de realização da pesquisa. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "constraints": {
+    "maxLength": 4
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 4
+  },
+  {
+   "name": "DscClassificacao",
+   "type": "string",
+   "description": "Descrição 2006 - 2018: Descrição da classificação da distribuidora. Concessionária (8) ou Permissionária (9). Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "DescricaoCategoria",
+   "type": "string",
+   "description": "Descrição 2006 - 2018: Nome da categoria do Prêmio ANEEL de Qualidade que a distribuidora pertence. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "description": "Descrição 2006 - 2018: Sigla do agente de distribuição na ANEEL. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "NumCNPJ",
+   "type": "string",
+   "description": "CNPJ do Agente do setor elétrico conforme cadastro de agentes da ANEEL",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "NumOrdemIASC",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Ordem relativa do agente de distribuição entre as concessionárias e entre as permissionárias. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "MdaIndicadorQualidade",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Indicador de Qualidade Percebida ou Construto de Qualidade Percebida. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaIndicadorSatisfacao",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Indicador de Satisfação = IASC = Índice ANEEL de Satisfação do Consumidor = Construto de Satisfação. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaIndicadorFidelidade",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Indicador de Fidelidade ou Construto de Fidelidade. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Indicador de Fidelidade ou Construto de Fidelidade. (Em função de testes, em 2020 o construto de Fidelidade não se formou. Consequentemente, não há a informação do indicador.)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaIndicadorValor",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Indicador de Valor Percebido ou Construto de Valor Percebido. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaIndicadorConfianca",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Indicador de Confiança ou Construto de Confiança. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaSatisfacaoR2",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Coeficiente de determinação do Construto de Satisfação. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaFidelidadeR2",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Coeficiente de determinação do Construto de Fidelidade. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Coeficiente de determinação do Construto de Fidelidade. (Em função de testes, em 2020 o construto de Fidelidade não se formou. Consequentemente, não há a informação do coeficiente.)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaValorR2",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Coeficiente de determinação do Construto de Valor Percebido. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaConfiancaR2",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Coeficiente de determinação do Construto de Confiança. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoQualidadeInformacao",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Qualidade. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoQualidadeAcesso",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Qualidade. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoQualidadeConfiabilidade",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Qualidade. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoSatisfacaoS1",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Satisfação. S1 = Satisfação Glogal Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoSatisfacaoS2",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Satisfação. S2 = Desconformidade Glogal Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoSatisfacaoS3",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Satisfação. S3 = Distância do Ideal Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoFidelidadeV33",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Fidelidade. (questão aplicada, mas que não formava o construto de Fidelidade. Consequentemente, não há a informação do peso.) Descrição 2019: Peso decorrente da regressão PLS, Construto de Fidelidade. (questão aplicada, mas que não formava o construto de Fidelidade. Consequentemente, não há a informação do peso.) Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoFidelidadeV34",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Fidelidade. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoFidelidadeV35",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Fidelidade. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoFidelidadeV36",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Fidelidade. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoValorV28",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Valor. (questão aplicada, mas que não formava o construto de Valor. Consequentemente, não há a informação do peso.) Descrição 2019: Peso decorrente da regressão PLS, Construto de Valor. (questão aplicada, mas que não formava o construto de Valor. Consequentemente, não há a informação do peso.) Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoValorV29",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, construto de Valor. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoValorV30",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Valor. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoValorV31",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Valor. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoValorV91",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: (questão não existia) Descrição 2019: (questão não existia) Descrição 2020: Peso decorrente da regressão PLS, Construto de Valor (Em função de testes, em 2020, passou a compor o construto de Valor).",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoConfiancaV37",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Confiança. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoConfiancaV38",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Confiança. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoConfiancaV39",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Confiança. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaPesoConfiancaV40",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Peso decorrente da regressão PLS, Construto de Confiança. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV15",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: explicação sobre o uso adequado de energia. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV16",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: segurança no valor cobrado. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV21",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: atendimento igualitário a todos os clientes. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV22",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: informação/orientação sobre riscos associados ao uso da energia. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV23",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: esclarecimentos sobre direitos e deveres dos clientes. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV24",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: detalhamento das contas. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeInformacaoV90",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: (questão não existia) Descrição 2019: (questão não existia) Descrição 2020: Média das notas para a questão: divulgação de informações importantes pelas distribuidoras.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeAcessoV10",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: pontualidade na prestação dos serviços. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeAcessoV11",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: facilidade para entrar em contato com a empresa. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeAcessoV12",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: cordialidade no atendimento. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeAcessoV17",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: facilidade de acesso aos postos de recebimento da conta. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeAcessoV19",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: respostas rápidas às solicitações dos clientes. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidadeV8",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: fornecimento de energia sem interrupção. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidadeV9",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: fornecimento de energia sem variação na tensão. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidadeV13",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: avisos antecipados sobre o corte de energia por falta de pagamento. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidadeV14",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: confiabilidade das soluções dadas. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidadeV18",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: rapidez na volta da energia quando há interrupção. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidadeV20",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: avisos antecipados sobre falta de energia para manutenção. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaSatisfacaoS1",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão de Satisfação Global. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaSatisfacaoS2",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão de Desconformidade Global. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaSatisfacaoS3",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão de Distância do Ideal. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaFidelidadeV33",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas da questão sobre se o consumidor trocaria de distribuidora de energia, caso fosse possível. Descrição 2019: Média das notas da questão sobre se o consumidor trocaria de distribuidora de energia, caso fosse possível. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaFidelidadeV34",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: nota troca / preço. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaFidelidadeV35",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: nota troca / qualidade. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaFidelidadeV36",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: nota troca / atendimento. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaFidelidadeV93",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: (questão não existia) Descrição 2019: (questão não existia) Descrição 2020: Média das notas para a questão: mudaria de distribuidora por mais qualidade, mas com preço 20% maior.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaFidelidadeV94",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: (questão não existia) Descrição 2019: (questão não existia) Descrição 2020: Média das notas para a questão: indicaria a empresa para parentes e amigos.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaValorV28",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: avaliar o preço. Descrição 2019: Média das notas para a questão: avaliar o preço. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaValorV29",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas de valor percebido, Preço/Benefício. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaValorV30",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas de valor percebido, Preço/Fornecimento. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaValorV31",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas de valor percebido, Preço/Atendimento. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaValorV91",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: (questão não existia) Descrição 2019: (questão não existia) Descrição 2020: Média das notas para a questão: Considerando a qualidade, avaliar o preço.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaValorV92",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: (questão não existia) Descrição 2019: (questão não existia) Descrição 2020: Média das notas para a questão: Considerando o preço, avaliar a qualidade.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaConfiancaV37",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: confiança geral. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaConfiancaV38",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: preocupação com o cliente. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaConfiancaV39",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: competência. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaConfiancaV40",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a questão: informações verdadeiras / corretas. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeInformacao",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a dimensão de Informações ao Cliente. Questões v15, v16, v21, v22, v23 e v24 compõem essa dimensão. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Média das notas para a dimensão de Informações ao Cliente. Questões v16, v21, v24 e v90 compõem essa dimensão.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeAcesso",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a dimensão de Acesso a Empresa. Questões v10, v11, v12, v17 e v19 compõem essa dimensão. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Média das notas para a dimensão de Acesso a Empresa. Questões v10, v11, v12 e v17 compõem essa dimensão.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidadeConfiabilidade",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das notas para a dimensão de Confiabilidade nos Serviços. Questões v8, v9, v13, v14, v18 e v20 compõem essa dimensão. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaQualidade",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das médias das dimensões de Qualidade: Informações ao Cliente, Acesso à empresa e Confiabilidade nos serviços. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaSatisfacao",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das médias de S1, S2 e S3. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaFidelidade",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das médias de Fidel_v34, Fidel_v35 e Fidel_v36. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (Em função de testes, em 2020 o construto de Fidelidade não se formou. Consequentemente, não há a informação da Média.)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaValor",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das médias de Valor_v29, Valor_v30 e Valor_v31. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Média de Fidel_v91.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaMediaConfianca",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Média das médias de Conf_v37, Conf_v38, Conf_v39 e Conf_v40. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Média das médias de Conf_v37 e Conf_v38.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV15",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: explicação sobre o uso adequado de energia. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV16",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: segurança no valor cobrado. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV21",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: atendimento igualitário a todos os clientes. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV22",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: informação/orientação sobre riscos associados ao uso da energia. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV23",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: esclarecimentos sobre direitos e deveres dos clientes. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV24",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: detalhamento das contas. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacaoV90",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: (questão não existia) Descrição 2019: (questão não existia) Descrição 2020: Desvio Padrão das notas para a questão: divulgação de informações importantes pelas distribuidoras.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeAcessoV10",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: pontualidade na prestação dos serviços. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeAcessoV11",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: facilidade para entrar em contato com a empresa. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeAcessoV12",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: cordialidade no atendimento. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeAcessoV17",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: facilidade de acesso aos postos de recebimento da conta. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeAcessoV19",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: respostas rápidas às solicitações dos clientes. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidadeV8",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: fornecimento de energia sem interrupção. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidadeV9",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: fornecimento de energia sem variação na tensão. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidadeV13",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: avisos antecipados sobre o corte de energia por falta de pagamento. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidadeV14",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: confiabilidade das soluções dadas. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidadeV18",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: rapidez na volta da energia quando há interrupção. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidadeV20",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: avisos antecipados sobre falta de energia para manutenção. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadSatisfacaoS1",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão de Satisfação Global. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadSatisfacaoS2",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão de Desconformidade Global. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadSatisfacaoS3",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão de Distância do Ideal. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadFidelidadeV33",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas da questão sobre se o consumidor trocaria de distribuidora de energia, caso fosse possível. Descrição 2019: Desvio Padrão das notas da questão sobre se o consumidor trocaria de distribuidora de energia, caso fosse possível. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadFidelidadeV34",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: nota troca / preço. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadFidelidadeV35",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: nota troca / qualidade. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadFidelidadeV36",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: nota troca / atendimento. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadFidelidadeV93",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: (questão não existia) Descrição 2019: (questão não existia) Descrição 2020: Desvio Padrão das notas para a questão: mudaria de distribuidora por mais qualidade, mas com preço 20% maior.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadFidelidadeV94",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: (questão não existia) Descrição 2019: (questão não existia) Descrição 2020: Desvio Padrão das notas para a questão: indicaria a empresa para parentes e amigos.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadValorV28",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: avaliar o preço. Descrição 2019: Desvio Padrão das notas para a questão: avaliar o preço. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadValorV29",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas de valor percebido, Preço/Benefício. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadValorV30",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas de valor percebido, Preço/Fornecimento. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadValorV31",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas de valor percebido, Preço/Atendimento. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadValorV91",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: (questão não existia) Descrição 2019: (questão não existia) Descrição 2020: Desvio Padrão das notas para a questão: Considerando a qualidade, avaliar o preço.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadValorV92",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: (questão não existia) Descrição 2019: (questão não existia) Descrição 2020: Desvio Padrão das notas para a questão: Considerando o preço, avaliar a qualidade.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadConfiancaV37",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: confiança geral. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadConfiancaV38",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: preocupação com o cliente. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadConfiancaV39",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: competência. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadConfiancaV40",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a questão: informações verdadeiras / corretas. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (questão não foi aplicada)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeInformacao",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a dimensão de Informações ao Cliente. Questões v15, v16, v21, v22, v23 e v24 compõem essa dimensão. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Desvio Padrão das notas para a dimensão de Informações ao Cliente. Questões v16, v21, v24 e v90 compõem essa dimensão.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeAcesso",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a dimensão de Acesso a Empresa. Questões v10, v11, v12, v17 e v19 compõem essa dimensão. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Desvio Padrão das notas para a dimensão de Acesso a Empresa. Questões v10, v11, v12 e v17 compõem essa dimensão.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidadeConfiabilidade",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das notas para a dimensão de Confiabilidade nos Serviços. Questões v8, v9, v13, v14, v18 e v20 compõem essa dimensão. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadQualidade",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das médias das dimensões de Qualidade: Informações ao Cliente, Acesso à empresa e Confiabilidade nos serviços. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadSatisfacao",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das médias de S1, S2 e S3. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadFidelidade",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das médias de Fidel_v34, Fidel_v35 e Fidel_v36. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: (Em função de testes, em 2020 o construto de Fidelidade não se formou. Consequentemente, não há a informação do Desvio Padrão.)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadValor",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das médias de Valor_v29, Valor_v30 e Valor_v31. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaDsvPadConfianca",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Desvio Padrão das médias de Conf_v37, Conf_v38, Conf_v39 e Conf_v40. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaCoeficienteQualidadeValor",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Beta da regressão do Valor Percebido em relação a Qualidade Percebida. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaCoeficienteQualidadeSatisfacao",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Beta da regressão da Satisfação em relação a Qualidade Percebida e Valor Percebido. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaCoeficienteValorSatisfacao",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Beta da regressão da Satisfação em relação a Qualidade Percebida e Valor Percebido. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaCoeficienteQualidadeConfianca",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Beta da regressão da Confiança em relação a Qualidade Percebida e Satisfação. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaCoeficienteSatisfacaoConfianca",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Beta da regressão da Confiança em relação a Qualidade Percebida e Satisfação. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaCoeficienteConfiancaFidelidade",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Beta da regressão da Fidelidade em relação a Confiança e Satisfação. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Beta da regressão da Fidelidade em relação a Confiança e Satisfação (Em função de testes, em 2020 o construto de Fidelidade não se formou. Consequentemente, não há a informação do coeficiente.)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaCoeficienteSatisfacaoFidelidade",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Beta regressão da Fidelidade em relação a Confiança e Satisfação. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Beta regressão da Fidelidade em relação a Confiança e Satisfação (Em função de testes, em 2020 o construto de Fidelidade não se formou. Consequentemente, não há a informação do coeficiente.)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "QtdSexoV11",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondentes do sexo masculino. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdSexoV12",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondentes do sexo feminino. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdFaixaEtariaV21",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente até 18 anos. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdFaixaEtariaV22",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com mais de 18 até 25 anos. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdFaixaEtariaV23",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente entre 26 e 35 anos. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdFaixaEtariaV24",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente entre 36 e 45 anos. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdFaixaEtariaV25",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente entre 46 e 55 anos. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdFaixaEtariaV26",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente entre 56 e 65 anos. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdFaixaEtariaV27",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente acima de 65 anos. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Respondente entre 65 e 70 anos.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdFaixaEtariaV28",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: (item inexistente) Descrição 2019: (item inexistente) Descrição 2020: Respondente acima de 70 anos.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdFaixaEtariaV29",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente Não Sabe/Não Respondeu - NS/NR. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdEscolaridadeV31",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente Analfabeto. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdEscolaridadeV32",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com Ensino fundamental incompleto (sabe ler) (1º ao 9º ano incompleto). Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdEscolaridadeV33",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com Ensino fundamental completo (1º ao 9º ano completo). Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdEscolaridadeV34",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com Ensino médio incompleto (2º grau incompleto). Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdEscolaridadeV35",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com Ensino médio completo (2º grau completo). Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdEscolaridadeV36",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com Ensino Superior Incompleto. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdEscolaridadeV37",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com Ensino Superior Completo. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdEscolaridadeV38",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: (item inexistente) Descrição 2019: Respondente com Pós-graduação. Descrição 2020: Idem descrição 2019.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdEscolaridadeV39",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente Não Sabe/Não Respondeu - NS/NR. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdRendaV41",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com Menos de 1 salário mínimo por mês. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdRendaV42",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com Mais de 1 até 2 salários mínimos por mês. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdRendaV43",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com Mais de 2 até 5 salários mínimos por mês. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdRendaV44",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com Mais de 5 até 10 salários mínimos por mês. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdRendaV45",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com Mais de 10 até 15 salários mínimos por mês. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdRendaV46",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com Mais de 15 até 20 salários mínimos por mês. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "QtdRendaV47",
+   "type": "number",
+   "description": "Descrição 2006 - 2018: Respondente com Mais de 20 salários mínimos por mês. Descrição 2019: Idem descrição 2006 - 2018. Descrição 2020: Idem descrição 2006 - 2018.",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "0aa882a7-3045-4cad-ba88-761be2e8d921",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/f216da23-4b7e-4bbe-9833-06905331a827/resource/0aa882a7-3045-4cad-ba88-761be2e8d921/download/dm-indice-aneel-de-satisfacao-do-consumidor-iasc.pdf",
+   "sha256": "ed64e8e0564f4155e621ac945cfa581bec6a64e95fdd69a1c26141b315436ade",
+   "oracle": {
+    "recall": 0.9753,
+    "precision": 1.0,
+    "exact_match": 0.9753,
+    "levenshtein": 0.994,
+    "missing_from_pdf": [
+     "DatGeracaoConjuntoDados",
+     "MdaDsvPadFidelidadeV105",
+     "MdaMediaFidelidadeV105",
+     "MdaPesoFidelidadeV105"
+    ],
+    "not_in_file": []
+   }
+  }
+ }
+}

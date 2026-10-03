@@ -1,0 +1,143 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "AnoLeilao",
+   "type": "string",
+   "description": "Atributo numérico utilizado para representar o número do ano do leilão foi realizado",
+   "constraints": {
+    "maxLength": 4
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 4
+  },
+  {
+   "name": "DatLeilao",
+   "type": "date",
+   "description": "Chave artificial da dimensão Tempo. Uma surrogate key é um identificador único atribuído a cada registro em uma tabela de dimensão. Esta chave não tem sentido negocial.",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "NumLeilao",
+   "type": "string",
+   "description": "Número designado ao leilão.",
+   "constraints": {
+    "maxLength": 15
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 15
+  },
+  {
+   "name": "NumLoteLeilao",
+   "type": "string",
+   "description": "Lote do leilão",
+   "constraints": {
+    "maxLength": 3
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 3
+  },
+  {
+   "name": "NomEmpreendimento",
+   "type": "string",
+   "description": "Nome do empreendimento de geração.",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "SigUFPrincipal",
+   "type": "string",
+   "description": "Sigla da principal Unidade da Federação da usina de energia elétrica",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "QtdPrazoConstrucaoMeses",
+   "type": "number",
+   "description": "Tempo do Prazo da construção em Meses",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "MdaTotalLinhaTransmissaoKm",
+   "type": "number",
+   "description": "Quantidade total de Km em linhas de transmissão",
+   "declaredType": "Numérico",
+   "declaredSize": 3
+  },
+  {
+   "name": "MdaSubEstacoesMVA",
+   "type": "number",
+   "description": "Medida em mega-volt-ampères (MVA) da capacidade de transformação de subestações.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrInvestimentoPrevisto",
+   "type": "number",
+   "description": "Valor do Investimento declarado pelo agente à EPE para implementação da Usina",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrRAPEditalLeilao",
+   "type": "number",
+   "description": "Valor da Receita Anual Permitida de referência (RAP máxima) do edital",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NomVencedorLeilao",
+   "type": "string",
+   "description": "Nome do vencedor do leilão",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "VlrRAPVencedorLeilao",
+   "type": "number",
+   "description": "Valor da Receita Anual Permitida de referência (RAP máxima) do vencedor",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctDesagio",
+   "type": "number",
+   "description": "Percentual do Deságio",
+   "declaredType": "Numerico"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "c8d16a2e-f738-43cc-9dbe-efa95e5056c1",
+   "dictionary_name": "Dicionário de dados - Leilões de transmissão",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/593537c6-9e0e-4ed9-817a-2c5d5de05147/resource/c8d16a2e-f738-43cc-9dbe-efa95e5056c1/download/dm-resultados-dos-leiloes-de-transmissao.pdf",
+   "sha256": "60f5d8d730aa534e184f8346d74e68580c0cbc3941ff08370197aabc672a8a43",
+   "oracle": {
+    "recall": 0.9333,
+    "precision": 0.9333,
+    "exact_match": 0.9333,
+    "levenshtein": 0.9862,
+    "missing_from_pdf": [
+     "MdaExtensaoLinhaTransmissaoKm"
+    ],
+    "not_in_file": [
+     "MdaTotalLinhaTransmissaoKm"
+    ]
+   }
+  }
+ }
+}

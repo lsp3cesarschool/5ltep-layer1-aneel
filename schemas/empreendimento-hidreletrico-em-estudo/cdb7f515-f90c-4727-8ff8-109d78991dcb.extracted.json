@@ -1,0 +1,251 @@
+{
+ "fields": [
+  {
+   "name": "CodEmpreendimento",
+   "type": "string",
+   "description": "Identificador único do código de empreendimento hidroelétrico em estudo na da base de dados da ANEEL.",
+   "constraints": {
+    "maxLength": 40
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 40
+  },
+  {
+   "name": "CodCEG",
+   "type": "string",
+   "description": "Código Único de Empreendimentos de Geração: GGG.FF.UF.999999-D.VV. Onde: GGG é o Tipo de Geração, FF é a Fonte, UF é a UF principal, 999999 é o Núcleo do CEG, D é o dígito verificador e VV é a versão (Se 1 é a primeira, se maior que 1 sofreu alteração)",
+   "constraints": {
+    "maxLength": 21
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 21
+  },
+  {
+   "name": "NomEmpreendimento",
+   "type": "string",
+   "description": "Nome do empreendimento do empreendimento hidroelétrico em estudo.",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "NumLatitude",
+   "type": "any",
+   "description": "Latitude aproximada em grau decimal do ponto centróide de localização do empreendimento",
+   "declaredType": "medida",
+   "mappingNote": "declared type not recognised: 'medida'"
+  },
+  {
+   "name": "Longitude Decimal",
+   "type": "any",
+   "description": "Longitude aproximada em grau decimal do ponto centróide de localização do empreendimento",
+   "declaredType": "medida",
+   "mappingNote": "declared type not recognised: 'medida'"
+  },
+  {
+   "name": "IdeStatusHist",
+   "type": "integer",
+   "description": "Maiores informações sobre a definição negocial deste campo, encaminhar e-mail para siscg@aneel.gov.br",
+   "declaredType": "inteiro"
+  },
+  {
+   "name": "IdeUFHist",
+   "type": "integer",
+   "description": "Maiores informações sobre a definição negocial deste campo, encaminhar e-mail para siscg@aneel.gov.br",
+   "declaredType": "inteiro"
+  },
+  {
+   "name": "NumProcesso",
+   "type": "string",
+   "description": "Maiores informações sobre a definição negocial deste campo, encaminhar e-mail para siscg@aneel.gov.br",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "NomEmpreendimentoHist",
+   "type": "string",
+   "description": "Maiores informações sobre a definição negocial deste campo, encaminhar e-mail para siscg@aneel.gov.br",
+   "constraints": {
+    "maxLength": 8000
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 8000
+  },
+  {
+   "name": "MdaPotencia",
+   "type": "any",
+   "description": "Maiores informações sobre a definição negocial deste campo, encaminhar e-mail para siscg@aneel.gov.br",
+   "declaredType": "medida",
+   "mappingNote": "declared type not recognised: 'medida'"
+  },
+  {
+   "name": "DscCursoDagua",
+   "type": "string",
+   "description": "Maiores informações sobre a definição negocial deste campo, encaminhar e-mail para siscg@aneel.gov.br",
+   "constraints": {
+    "maxLength": 4000
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 4000
+  },
+  {
+   "name": "DscEmpreendedores1",
+   "type": "string",
+   "description": "Maiores informações sobre a definição negocial deste campo, encaminhar e-mail para siscg@aneel.gov.br",
+   "constraints": {
+    "maxLength": 500
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 500
+  },
+  {
+   "name": "DscEmpreendedores2",
+   "type": "string",
+   "description": "Maiores informações sobre a definição negocial deste campo, encaminhar e-mail para siscg@aneel.gov.br",
+   "constraints": {
+    "maxLength": 500
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 500
+  },
+  {
+   "name": "DscEmpreendedoresN",
+   "type": "string",
+   "description": "Maiores informações sobre a definição negocial deste campo, encaminhar e-mail para siscg@aneel.gov.br",
+   "constraints": {
+    "maxLength": 500
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 500
+  },
+  {
+   "name": "DscNumeroAtoProrrogado",
+   "type": "string",
+   "description": "Número do ato de outorga que foi prorrogado",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "DatValidadeProrrogada",
+   "type": "date",
+   "description": "Data da validade da prorrogação do ato de outorga que foi prorrogado",
+   "declaredType": "data simples",
+   "declaredSize": 10
+  },
+  {
+   "name": "DatPublicacaoProrrogada",
+   "type": "date",
+   "description": "Data da publicação do ato de outorga que foi prorrogado",
+   "declaredType": "data simples",
+   "declaredSize": 10
+  },
+  {
+   "name": "Id SubBacia",
+   "type": "number",
+   "description": "Código da sub-bacia hidrográfica",
+   "declaredType": "numérico",
+   "declaredSize": 9
+  },
+  {
+   "name": "DscSubBacia",
+   "type": "string",
+   "description": "Nome da sub-bacia hidrográfica de acordo com o SIGEL - Sistema de Informações Georreferenciadas do Setor Elétrico",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "IdeUF",
+   "type": "integer",
+   "description": "Mostra os códigos das UF's das outorgas",
+   "declaredType": "inteiro"
+  },
+  {
+   "name": "SigUF",
+   "type": "string",
+   "description": "Mostra as siglas das UF's das outorgas",
+   "constraints": {
+    "maxLength": 30
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 30
+  },
+  {
+   "name": "NomUF",
+   "type": "string",
+   "description": "Mostra aos nomes das UF's das outorgas",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "IdcStatus",
+   "type": "integer",
+   "description": "Indicador de registro atual para manutenção do histórico de alterações realizadas na dimensão, utilizando o SCD - Slowly Changing Dimensions (Dimensões que Mudam Lentamente, em português) tipo 2. O SCD Tipo 2 é a técnica mais utilizada para atualizações de dimensões. Nesse tipo de SCD é adicionado um novo registro com as mudanças, preservando sempre os dados anteriores. Dessa forma, os registros da tabela fato vão apontar para a versão correspondente nas dimensões de acordo com a data de referência.",
+   "declaredType": "inteiro"
+  },
+  {
+   "name": "DscStatus",
+   "type": "string",
+   "description": "Maiores informações sobre a definição negocial deste campo, encaminhar e-mail para siscg@aneel.gov.br",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "datetime",
+   "description": "Data e hora do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "data hora"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "llm",
+   "dictionary_id": "2393e76e-6e2a-43d9-ab2e-d8a9c0e5e897",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/fb81a809-e0eb-4acb-b589-3130380cd9f4/resource/2393e76e-6e2a-43d9-ab2e-d8a9c0e5e897/download/dd-empreendimento-hidreletrico-em-estudo.pdf",
+   "sha256": "810e8d409de743598305c5f52a5fcbeb6d713e749709ee98660dff1db23fa7de",
+   "oracle": {
+    "recall": 0.7586,
+    "precision": 0.88,
+    "exact_match": 0.7586,
+    "levenshtein": 0.901,
+    "missing_from_pdf": [
+     "DatAtoAtivacao",
+     "DatCargaHistorico",
+     "DatValidadeAtoOriginal",
+     "DscValorAtoAtivacao",
+     "IdSubBacia",
+     "NumCoordEEmpreendimento",
+     "NumCoordNEmpreendimento"
+    ],
+    "not_in_file": [
+     "Id SubBacia",
+     "Longitude Decimal",
+     "NumLatitude"
+    ]
+   },
+   "model": "qwen3:8b",
+   "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+   "prompt_version": "v1",
+   "ollama_version": "0.35.0"
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigAgenteFiscalizador",
+   "type": "string",
+   "sampleEmptyShare": 0.0101
+  },
+  {
+   "name": "NumPenaEdital",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatLavraturaPenaEdital",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomNaturezaFiscalizacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscObjetoFiscalizado",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "CodObjetoFiscalizado",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscTipoAtoOutorga",
+   "type": "string",
+   "sampleEmptyShare": 0.005
+  },
+  {
+   "name": "NumAtoOutorga",
+   "type": "string",
+   "sampleEmptyShare": 0.0201
+  },
+  {
+   "name": "NomAgenteFiscalizado",
+   "type": "string",
+   "sampleEmptyShare": 0.0101
+  },
+  {
+   "name": "NumCPFCNPJAgenteFiscalizado",
+   "type": "string",
+   "sampleEmptyShare": 0.0101
+  },
+  {
+   "name": "NumProcessoFiscalizacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatRecebimentoTIPE",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.2915
+  },
+  {
+   "name": "DscTipoPenalidade",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T14:17:22+00:00",
+  "sha256": "251d0c8103b58c28281e91233d420c8b1b554f8f1914be83f2505135582db858",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 199,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

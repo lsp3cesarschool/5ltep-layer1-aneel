@@ -5,7 +5,7 @@
    "name": "ANEEL",
    "title": "ANEEL open data portal (Dados Abertos ANEEL)"
   },
-  "generated_at": "2026-10-03T14:07:23+00:00",
+  "generated_at": "2026-10-03T14:21:07+00:00",
   "census_at": "2026-10-03T03:07:24+00:00",
   "datasets": {
    "total": 72,
@@ -14,8 +14,8 @@
     "0": 15,
     "1": 51,
     "2": 0,
-    "3": 5,
-    "4": 1
+    "3": 3,
+    "4": 3
    }
   },
   "tables": {
@@ -24,50 +24,52 @@
     "0": 72,
     "1": 240,
     "2": 0,
-    "3": 13,
-    "4": 27
+    "3": 5,
+    "4": 35
    },
-   "validated": 299,
-   "validation_coverage": 0.8494,
-   "errors": 12,
-   "queue_remaining": 41
+   "validated": 335,
+   "validation_coverage": 0.9517,
+   "errors": 17,
+   "queue_remaining": 0
   },
-  "verifiable": 172,
-  "conformant": 51,
-  "l1_rate": 0.2965,
+  "verifiable": 190,
+  "conformant": 62,
+  "l1_rate": 0.3263,
   "l1_pass": false,
   "drift": {
    "observed": 0,
    "declared": 0,
-   "files_with_baseline": 299,
+   "files_with_baseline": 335,
    "first_baseline_at": "2026-10-03T04:21:08+00:00",
-   "last_observed_at": "2026-10-03T14:04:54+00:00"
+   "last_observed_at": "2026-10-03T14:18:26+00:00"
   },
   "coverage": {
    "files": 352,
-   "read": 299,
+   "read": 335,
    "empty": 0,
    "not_tabular": 0,
    "too_large": 0,
-   "not_downloaded": 12,
-   "pending": 41,
+   "not_downloaded": 17,
+   "pending": 0,
    "not_downloaded_by_reason": {
-    "redirect loop": 10,
-    "other": 1,
-    "batch time limit": 1
+    "redirect loop": 12,
+    "other": 3,
+    "batch time limit": 1,
+    "Timeout": 1
    },
    "not_downloaded_by_host": {
-    "redirect loop · dadosabertos.aneel.gov.br": 10,
-    "other · dadosabertos.aneel.gov.br": 1,
-    "batch time limit · dadosabertos.aneel.gov.br": 1
+    "redirect loop · dadosabertos.aneel.gov.br": 12,
+    "other · dadosabertos.aneel.gov.br": 3,
+    "batch time limit · dadosabertos.aneel.gov.br": 1,
+    "Timeout · dadosabertos.aneel.gov.br": 1
    },
-   "read_without_schema": 127,
-   "checked": 172,
-   "conform": 51,
-   "fail_missing_fields": 11,
-   "fail_undeclared_columns": 11,
-   "fail_cells_over_limit": 113,
-   "fail_only_cells": 110
+   "read_without_schema": 145,
+   "checked": 190,
+   "conform": 62,
+   "fail_missing_fields": 12,
+   "fail_undeclared_columns": 12,
+   "fail_cells_over_limit": 120,
+   "fail_only_cells": 116
   },
   "not_tables": {
    "count": 0,
@@ -75,45 +77,45 @@
   },
   "distributions": {
    "tables_with_other_formats": 114,
-   "other_formats": 96,
-   "compared": 96,
-   "same_columns": 95,
+   "other_formats": 103,
+   "compared": 103,
+   "same_columns": 101,
    "spelling_only": 0,
-   "different_columns": 1,
+   "different_columns": 2,
    "not_compared": {},
    "by_format": {
-    "parquet": 88,
-    "xml": 5,
+    "parquet": 91,
+    "xml": 9,
     "zip": 2,
     "json": 1
    }
   },
   "network": {
    "total": {
-    "files": 311,
-    "failed_files": 12,
-    "gb": 56.94,
-    "minutes": 563.1,
-    "end_to_end_mb_s": 1.69,
+    "files": 352,
+    "failed_files": 17,
+    "gb": 57.85,
+    "minutes": 585.1,
+    "end_to_end_mb_s": 1.65,
     "zip_download_mb_s": 6.47,
-    "first_byte_s_median": 0.41,
-    "network_share": null,
-    "network_mb_s": null,
+    "first_byte_s_median": 0.45,
+    "network_share": 0.908,
+    "network_mb_s": 0.76,
     "request_failures": {
      "HTTP 502": 1
     }
    },
    "by_host": {
     "dadosabertos.aneel.gov.br": {
-     "files": 311,
-     "failed_files": 12,
-     "gb": 56.94,
-     "minutes": 563.1,
-     "end_to_end_mb_s": 1.69,
+     "files": 352,
+     "failed_files": 17,
+     "gb": 57.85,
+     "minutes": 585.1,
+     "end_to_end_mb_s": 1.65,
      "zip_download_mb_s": 6.47,
-     "first_byte_s_median": 0.41,
-     "network_share": null,
-     "network_mb_s": null,
+     "first_byte_s_median": 0.45,
+     "network_share": 0.908,
+     "network_mb_s": 0.76,
      "request_failures": {
       "HTTP 502": 1
      }
@@ -121,18 +123,18 @@
    }
   },
   "schema_sources": {
-   "extracted": 146,
-   "datastore": 26
+   "extracted": 156,
+   "datastore": 34
   },
   "conformance_by_source": {
    "extracted": {
-    "verifiable": 146,
-    "conformant": 25,
-    "l1_rate": 0.1712
+    "verifiable": 156,
+    "conformant": 28,
+    "l1_rate": 0.1795
    },
    "datastore": {
-    "verifiable": 26,
-    "conformant": 26,
+    "verifiable": 34,
+    "conformant": 34,
     "l1_rate": 1.0
    }
   },
@@ -172,52 +174,53 @@
     "date_fields_with_declared_format": null
    },
    "files_vs_dictionaries": {
-    "checked": 172,
-    "with_declared_fields_missing": 11,
-    "with_undeclared_columns": 11,
+    "checked": 190,
+    "with_declared_fields_missing": 12,
+    "with_undeclared_columns": 12,
     "with_spelling_differences": 1,
     "with_similar_names": 8,
     "similar_names": 8,
-    "declared_fields_missing": 110,
+    "declared_fields_missing": 115,
     "formats_inferred_from_data": {
-     "format": 226,
-     "decimalChar": 177,
-     "type": 8,
+     "format": 302,
+     "decimalChar": 193,
+     "type": 16,
      "groupChar": 96
     }
    },
    "files": {
-    "validated": 299,
+    "validated": 335,
     "encodings": {
-     "utf-8": 262,
-     "cp1252": 32
+     "utf-8": 289,
+     "cp1252": 41
     },
     "delimiters": {
-     ";": 193,
+     ";": 229,
      ",": 101
     },
-    "with_decode_errors": 105,
-    "with_ragged_rows": 1,
+    "with_decode_errors": 106,
+    "with_ragged_rows": 2,
     "zips_with_several_headers": 0,
     "with_columns_without_name": 0,
     "not_tabular": 0,
     "not_tables": 0,
     "formats": {
-     "csv": 294,
+     "csv": 330,
      "parquet": 5
     },
     "unreachable_by_reason": {
-     "redirect loop": 10,
-     "other": 1,
-     "batch time limit": 1
+     "redirect loop": 12,
+     "other": 3,
+     "batch time limit": 1,
+     "Timeout": 1
     }
    },
    "pdf_extraction": {
     "pdf_dictionaries_linked": 74,
-    "processed": 65,
+    "processed": 72,
     "by_outcome": {
      "extracted": 34,
-     "suggested": 31
+     "suggested": 38
     },
     "with_similar_names": 14,
     "deterministic": {
@@ -240,28 +243,32 @@
     "hosts": {
      "dadosabertos.aneel.gov.br": {
       "linked": 352,
-      "files": 299,
-      "served_by": [],
+      "files": 335,
+      "served_by": [
+       "dadosabertos.aneel.gov.br"
+      ],
       "server": [],
       "probes": 0,
       "range": "unknown",
-      "with_etag": 299,
-      "with_last_modified": 299,
+      "with_etag": 335,
+      "with_last_modified": 335,
       "without_validator": 0,
       "without_length": 0,
-      "of": 299,
+      "of": 335,
       "generic_type": 0,
-      "typed": 0,
-      "content_types": {},
+      "typed": 36,
+      "content_types": {
+       "text/csv": 36
+      },
       "broken_links": 0,
-      "redirect_loops": 10
+      "redirect_loops": 12
      }
     },
     "suggestions": [
      {
       "id": "redirect-loops",
       "host": "dadosabertos.aneel.gov.br",
-      "n": 10,
+      "n": 12,
       "of": 352
      }
     ]
@@ -16359,7 +16366,7 @@
     {
      "id": "6fac5605-5df0-469d-be08-04ee22934f60",
      "name": "samp-2025.csv",
-     "level": 3,
+     "level": 4,
      "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/6fac5605-5df0-469d-be08-04ee22934f60/download/samp-2025.csv",
      "dictionary": {
       "name": "Dicionário de dados",
@@ -16370,26 +16377,50 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/7dbb8074-9168-4e11-9380-1aab3c9ebba3/download/dd-samp.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/samp/resource/7dbb8074-9168-4e11-9380-1aab3c9ebba3"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:08:14+00:00",
+     "rows": 1372287,
+     "schema_kind": "datastore",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "cp1252"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": true,
+      "error_rate": 0.0,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 18,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       },
+       "DatCompetencia": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {}
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [
       {
        "id": "a757e805-fe7b-4764-bb49-19caef3e5dfe",
-       "name": "samp-2025.parquet",
        "format": "parquet",
-       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/a757e805-fe7b-4764-bb49-19caef3e5dfe/download/samp-2025.parquet"
+       "name": "samp-2025.parquet",
+       "status": "ok",
+       "read_as": "parquet",
+       "same_columns": true,
+       "missing": [],
+       "extra": []
       }
      ],
      "schema_files": {
-      "datastore": "schemas/samp/6fac5605-5df0-469d-be08-04ee22934f60.datastore.json"
+      "datastore": "schemas/samp/6fac5605-5df0-469d-be08-04ee22934f60.datastore.json",
+      "observed": "schemas/samp/6fac5605-5df0-469d-be08-04ee22934f60.observed.json"
      }
     },
     {
@@ -16406,11 +16437,11 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/7dbb8074-9168-4e11-9380-1aab3c9ebba3/download/dd-samp.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/samp/resource/7dbb8074-9168-4e11-9380-1aab3c9ebba3"
      },
-     "status": null,
+     "status": "error",
      "validated_at": null,
      "rows": null,
-     "schema_kind": null,
-     "error": null,
+     "schema_kind": "datastore",
+     "error": "ProtocolError: (…, IncompleteRead(40271210 bytes read, 196273103 more expected))",
      "encodings": null,
      "distinct_headers": null,
      "conformance": null,
@@ -16463,25 +16494,33 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/3193ebab-81b3-406e-be0e-f968a4a21689/resource/84ee7a78-e7b3-4e43-99ba-99e1d71b2a7c/download/dm-samp-balanco.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/samp-balanco/resource/84ee7a78-e7b3-4e43-99ba-99e1d71b2a7c"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:08:14+00:00",
+     "rows": 549552,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [
       {
        "id": "cffe3c15-9d3e-4187-ae63-e097cf88c0af",
-       "name": "samp-balanco.parquet",
        "format": "parquet",
-       "url": "https://dadosabertos.aneel.gov.br/dataset/3193ebab-81b3-406e-be0e-f968a4a21689/resource/cffe3c15-9d3e-4187-ae63-e097cf88c0af/download/samp-balanco.parquet"
+       "name": "samp-balanco.parquet",
+       "status": "ok",
+       "read_as": "parquet",
+       "same_columns": true,
+       "missing": [],
+       "extra": []
       }
      ],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/samp-balanco/9f03a034-fb01-4daa-b6a6-e25a84d979ed.observed.json"
+     }
     }
    ]
   },
@@ -16518,18 +16557,22 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/942de3e1-0b52-4e41-a6c1-eff9f3b7c7d6/resource/f10be67d-2965-4642-ac04-9e34396ec1e5/download/dm-scs-sistema-de-controle-de-subvencoes-e-programas-sociais.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/scs-sistema-de-controle-de-subvencoes-e-programas-sociais/resource/f10be67d-2965-4642-ac04-9e34396ec1e5"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:10:15+00:00",
+     "rows": 75365,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/scs-sistema-de-controle-de-subvencoes-e-programas-sociais/87764789-84c3-4592-a845-cb2b317f6142.observed.json"
+     }
     }
    ]
   },
@@ -16566,11 +16609,11 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/65e3b443-aadf-4d7c-bc61-827101cca4a7/resource/e959b0a5-3bf9-42fd-9a7a-4721c2bd7c79/download/dm-seguranca-do-trabalho-e-das-instalacoes.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/seguranca-do-trabalho-e-das-instalacoes/resource/e959b0a5-3bf9-42fd-9a7a-4721c2bd7c79"
      },
-     "status": null,
+     "status": "error",
      "validated_at": null,
      "rows": null,
-     "schema_kind": null,
-     "error": null,
+     "schema_kind": "extracted",
+     "error": "ReadTimeoutError: HTTPSConnectionPool(host=…, port=443): Read timed out.",
      "encodings": null,
      "distinct_headers": null,
      "conformance": null,
@@ -16595,19 +16638,48 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/65e3b443-aadf-4d7c-bc61-827101cca4a7/resource/e959b0a5-3bf9-42fd-9a7a-4721c2bd7c79/download/dm-seguranca-do-trabalho-e-das-instalacoes.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/seguranca-do-trabalho-e-das-instalacoes/resource/e959b0a5-3bf9-42fd-9a7a-4721c2bd7c79"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:11:54+00:00",
+     "rows": 484,
+     "schema_kind": "extracted",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "cp1252"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": false,
+      "error_rate": 0.480372,
+      "missing": [
+       "AnoIndice",
+       "NumCNPJ",
+       "NumPeriodoIndice",
+       "SigAgente",
+       "VlrIndiceEnviado"
+      ],
+      "undeclared": [
+       "DscIndicador"
+      ],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 7,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {
+       "SigIndicador": {
+        "maxLength": 465
+       }
+      }
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
-      "extracted": "schemas/seguranca-do-trabalho-e-das-instalacoes/f5afe5c7-75b2-47e3-97d6-06b2bdd142dc.extracted.json"
+      "extracted": "schemas/seguranca-do-trabalho-e-das-instalacoes/f5afe5c7-75b2-47e3-97d6-06b2bdd142dc.extracted.json",
+      "observed": "schemas/seguranca-do-trabalho-e-das-instalacoes/f5afe5c7-75b2-47e3-97d6-06b2bdd142dc.observed.json"
      }
     }
    ]
@@ -16645,26 +16717,72 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9/resource/25722a60-194d-4234-ab3b-b71354078402/download/dm-siga-sistema-de-informacoes-de-geracao-da-aneel.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel/resource/25722a60-194d-4234-ab3b-b71354078402"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:11:54+00:00",
+     "rows": 25045,
+     "schema_kind": "extracted",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": true,
+      "error_rate": 3.3e-05,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 23,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       },
+       "DatEntradaOperacao": {
+        "format": "%Y-%m-%d"
+       },
+       "MdaPotenciaOutorgadaKw": {
+        "decimalChar": ","
+       },
+       "MdaGarantiaFisicaKw": {
+        "decimalChar": ","
+       },
+       "NumCoordNEmpreendimento": {
+        "decimalChar": ","
+       },
+       "NumCoordEEmpreendimento": {
+        "decimalChar": ","
+       },
+       "DatInicioVigencia": {
+        "format": "%Y-%m-%d"
+       },
+       "DatFimVigencia": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {
+       "DscPropriRegimePariticipacao": {
+        "maxLength": 19
+       }
+      }
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [
       {
        "id": "76310626-e2e0-4880-b199-d63fe287f279",
-       "name": "siga-empreendimentos-geracao.xml",
        "format": "xml",
-       "url": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9/resource/76310626-e2e0-4880-b199-d63fe287f279/download/siga-empreendimentos-geracao.xml"
+       "name": "siga-empreendimentos-geracao.xml",
+       "status": "ok",
+       "read_as": "xml",
+       "same_columns": true,
+       "missing": [],
+       "extra": []
       }
      ],
      "schema_files": {
-      "extracted": "schemas/siga-sistema-de-informacoes-de-geracao-da-aneel/11ec447d-698d-4ab8-977f-b424d5deee6a.extracted.json"
+      "extracted": "schemas/siga-sistema-de-informacoes-de-geracao-da-aneel/11ec447d-698d-4ab8-977f-b424d5deee6a.extracted.json",
+      "observed": "schemas/siga-sistema-de-informacoes-de-geracao-da-aneel/11ec447d-698d-4ab8-977f-b424d5deee6a.observed.json"
      }
     },
     {
@@ -16681,26 +16799,72 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9/resource/25722a60-194d-4234-ab3b-b71354078402/download/dm-siga-sistema-de-informacoes-de-geracao-da-aneel.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel/resource/25722a60-194d-4234-ab3b-b71354078402"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:12:18+00:00",
+     "rows": 25045,
+     "schema_kind": "extracted",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": true,
+      "error_rate": 3.3e-05,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 23,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       },
+       "DatEntradaOperacao": {
+        "format": "%Y-%m-%d"
+       },
+       "MdaPotenciaOutorgadaKw": {
+        "decimalChar": ","
+       },
+       "MdaGarantiaFisicaKw": {
+        "decimalChar": ","
+       },
+       "NumCoordNEmpreendimento": {
+        "decimalChar": ","
+       },
+       "NumCoordEEmpreendimento": {
+        "decimalChar": ","
+       },
+       "DatInicioVigencia": {
+        "format": "%Y-%m-%d"
+       },
+       "DatFimVigencia": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {
+       "DscPropriRegimePariticipacao": {
+        "maxLength": 19
+       }
+      }
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [
       {
        "id": "7ba82384-bb4d-442f-930f-4c4a743cf4fb",
-       "name": "siga-empreendimentos-geracao-diario.xml",
        "format": "xml",
-       "url": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9/resource/7ba82384-bb4d-442f-930f-4c4a743cf4fb/download/siga-empreendimentos-geracao-diario.xml"
+       "name": "siga-empreendimentos-geracao-diario.xml",
+       "status": "ok",
+       "read_as": "xml",
+       "same_columns": true,
+       "missing": [],
+       "extra": []
       }
      ],
      "schema_files": {
-      "extracted": "schemas/siga-sistema-de-informacoes-de-geracao-da-aneel/2f65a1b0-19b8-4360-8238-b34ab4693d55.extracted.json"
+      "extracted": "schemas/siga-sistema-de-informacoes-de-geracao-da-aneel/2f65a1b0-19b8-4360-8238-b34ab4693d55.extracted.json",
+      "observed": "schemas/siga-sistema-de-informacoes-de-geracao-da-aneel/2f65a1b0-19b8-4360-8238-b34ab4693d55.observed.json"
      }
     }
    ]
@@ -16740,18 +16904,22 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a/resource/eca732ac-4f08-401f-b1cf-f9eff88a9b20/download/sigec-multa-de-fiscalizacao.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:12:38+00:00",
+     "rows": 7448,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/sigec-sistema-de-gestao-de-creditos/eca732ac-4f08-401f-b1cf-f9eff88a9b20.observed.json"
+     }
     },
     {
      "id": "0bf361e5-dc58-4380-95f0-b61a55ec3423",
@@ -16759,25 +16927,33 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a/resource/0bf361e5-dc58-4380-95f0-b61a55ec3423/download/sigec-taxa-de-fiscalizacao.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:12:57+00:00",
+     "rows": 451370,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [
       {
        "id": "1b96c30f-0a5b-4377-9564-72acad6da23c",
-       "name": "sigec-taxa-de-fiscalizacao.parquet",
        "format": "parquet",
-       "url": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a/resource/1b96c30f-0a5b-4377-9564-72acad6da23c/download/sigec-taxa-de-fiscalizacao.parquet"
+       "name": "sigec-taxa-de-fiscalizacao.parquet",
+       "status": "ok",
+       "read_as": "parquet",
+       "same_columns": true,
+       "missing": [],
+       "extra": []
       }
      ],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/sigec-sistema-de-gestao-de-creditos/0bf361e5-dc58-4380-95f0-b61a55ec3423.observed.json"
+     }
     }
    ]
   },
@@ -16795,11 +16971,11 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/a1366325-1071-4eeb-94bd-27915747b177/download/siget-contrato-empreendimento-obra-modulo.csv",
      "dictionary": null,
-     "status": null,
+     "status": "error",
      "validated_at": null,
      "rows": null,
      "schema_kind": null,
-     "error": null,
+     "error": "ProtocolError: (…, IncompleteRead(10583373 bytes read, 4064979 more expected))",
      "encodings": null,
      "distinct_headers": null,
      "conformance": null,
@@ -16811,106 +16987,215 @@
     {
      "id": "caec5e88-c904-45e5-bde4-d7e96ef139b6",
      "name": "SIGET - Contrato Módulo Equipamento Subestacao.csv",
-     "level": 3,
+     "level": 4,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/caec5e88-c904-45e5-bde4-d7e96ef139b6/download/siget-contrato-moduloequipamento-subestacao.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:04+00:00",
+     "rows": 4318,
+     "schema_kind": "datastore",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": true,
+      "error_rate": 0.0,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 21,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {}
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
-      "datastore": "schemas/sistema-de-gestao-da-transmissao-siget/caec5e88-c904-45e5-bde4-d7e96ef139b6.datastore.json"
+      "datastore": "schemas/sistema-de-gestao-da-transmissao-siget/caec5e88-c904-45e5-bde4-d7e96ef139b6.datastore.json",
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/caec5e88-c904-45e5-bde4-d7e96ef139b6.observed.json"
      }
     },
     {
      "id": "4343dcda-284a-4ede-b3b9-e809ea18385c",
      "name": "SIGET - Contrato Módulo Geral Subestação Tipo Arranjo.csv",
-     "level": 3,
+     "level": 4,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/4343dcda-284a-4ede-b3b9-e809ea18385c/download/siget-contrato-modulogeral-subestacao-tipoarranjo.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:11+00:00",
+     "rows": 519,
+     "schema_kind": "datastore",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": true,
+      "error_rate": 0.0,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 16,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {}
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
-      "datastore": "schemas/sistema-de-gestao-da-transmissao-siget/4343dcda-284a-4ede-b3b9-e809ea18385c.datastore.json"
+      "datastore": "schemas/sistema-de-gestao-da-transmissao-siget/4343dcda-284a-4ede-b3b9-e809ea18385c.datastore.json",
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/4343dcda-284a-4ede-b3b9-e809ea18385c.observed.json"
      }
     },
     {
      "id": "89caca18-e9a8-484c-8772-c67b456d801a",
      "name": "SIGET - Contrato Módulo Linha Transmissão Subestação Origem Subestação Destino.csv",
-     "level": 3,
+     "level": 4,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/89caca18-e9a8-484c-8772-c67b456d801a/download/siget-contrato-modulolinhatransmissao-subestacaoorigem-subestacaodestino.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:13+00:00",
+     "rows": 1741,
+     "schema_kind": "datastore",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": true,
+      "error_rate": 0.0,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 29,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {}
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
-      "datastore": "schemas/sistema-de-gestao-da-transmissao-siget/89caca18-e9a8-484c-8772-c67b456d801a.datastore.json"
+      "datastore": "schemas/sistema-de-gestao-da-transmissao-siget/89caca18-e9a8-484c-8772-c67b456d801a.datastore.json",
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/89caca18-e9a8-484c-8772-c67b456d801a.observed.json"
      }
     },
     {
      "id": "7c4e7f67-b674-4223-89c5-83c95cea1450",
      "name": "SIGET - Contrato Módulo Manobra Subestação Tipo Arranjo.csv",
-     "level": 3,
+     "level": 4,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/7c4e7f67-b674-4223-89c5-83c95cea1450/download/siget-contrato-modulomanobra-subestacao-tipoarranjo.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:14+00:00",
+     "rows": 9968,
+     "schema_kind": "datastore",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": true,
+      "error_rate": 0.0,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 20,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {}
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
-      "datastore": "schemas/sistema-de-gestao-da-transmissao-siget/7c4e7f67-b674-4223-89c5-83c95cea1450.datastore.json"
+      "datastore": "schemas/sistema-de-gestao-da-transmissao-siget/7c4e7f67-b674-4223-89c5-83c95cea1450.datastore.json",
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/7c4e7f67-b674-4223-89c5-83c95cea1450.observed.json"
      }
     },
     {
      "id": "59ab6779-505e-4aa9-8641-3e07aca25699",
      "name": "SIGET - Resolução Contrato Agente.csv",
-     "level": 3,
+     "level": 4,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/59ab6779-505e-4aa9-8641-3e07aca25699/download/siget-resolucao-contrato-agente.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:15+00:00",
+     "rows": 2133,
+     "schema_kind": "datastore",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": true,
+      "error_rate": 0.0,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 24,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       },
+       "DatAsnCcd": {
+        "format": "%Y-%m-%d"
+       },
+       "DatFimCcd": {
+        "format": "%Y-%m-%d"
+       },
+       "DatAssDoc": {
+        "format": "%Y-%m-%d"
+       },
+       "DatEmiDoc": {
+        "format": "%Y-%m-%d"
+       },
+       "DatPubDoc": {
+        "format": "%Y-%m-%d"
+       },
+       "DatEfeOprComEpd": {
+        "format": "%Y-%m-%d"
+       },
+       "DatCaoCgmAtoLgl": {
+        "format": "%Y-%m-%d"
+       },
+       "DatOprComEpd": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {}
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
-      "datastore": "schemas/sistema-de-gestao-da-transmissao-siget/59ab6779-505e-4aa9-8641-3e07aca25699.datastore.json"
+      "datastore": "schemas/sistema-de-gestao-da-transmissao-siget/59ab6779-505e-4aa9-8641-3e07aca25699.datastore.json",
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/59ab6779-505e-4aa9-8641-3e07aca25699.observed.json"
      }
     },
     {
@@ -16919,18 +17204,22 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/60e111c3-6ee1-412e-abe3-bc15af897537/download/siget-contrato-agente.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:16+00:00",
+     "rows": 413,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "cp1252"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/60e111c3-6ee1-412e-abe3-bc15af897537.observed.json"
+     }
     },
     {
      "id": "1c345514-893d-44a1-8e7e-a9362137c356",
@@ -16938,18 +17227,22 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/1c345514-893d-44a1-8e7e-a9362137c356/download/siget-resolucao-empreendimento-obra-modulo.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:17+00:00",
+     "rows": 10838,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/1c345514-893d-44a1-8e7e-a9362137c356.observed.json"
+     }
     },
     {
      "id": "1d342bc9-4cbd-4c07-9cd4-02f6927175b9",
@@ -16957,18 +17250,22 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/1d342bc9-4cbd-4c07-9cd4-02f6927175b9/download/siget-resolucao-moduloequipamento-subestacao.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:32+00:00",
+     "rows": 2022,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/1d342bc9-4cbd-4c07-9cd4-02f6927175b9.observed.json"
+     }
     },
     {
      "id": "1effe1be-c6ff-4ffb-93b6-ed74228edea1",
@@ -16976,18 +17273,22 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/1effe1be-c6ff-4ffb-93b6-ed74228edea1/download/siget-resolucao-modulogeral-subestacao-tipoarranjo.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:33+00:00",
+     "rows": 527,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/1effe1be-c6ff-4ffb-93b6-ed74228edea1.observed.json"
+     }
     },
     {
      "id": "e5c1141e-c08c-46a5-bb55-68d66152033a",
@@ -16995,18 +17296,22 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/e5c1141e-c08c-46a5-bb55-68d66152033a/download/siget-resolucao-modulolinhatransmissao-subestacaoorigem-subestacaodestino.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:34+00:00",
+     "rows": 578,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/e5c1141e-c08c-46a5-bb55-68d66152033a.observed.json"
+     }
     },
     {
      "id": "4a6c2449-c073-4a4a-b639-4e5359a102bf",
@@ -17014,18 +17319,22 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/4a6c2449-c073-4a4a-b639-4e5359a102bf/download/siget-resolucao-modulomanobra-subestacao-tipoarranjo.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:38+00:00",
+     "rows": 3743,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/4a6c2449-c073-4a4a-b639-4e5359a102bf.observed.json"
+     }
     },
     {
      "id": "5e4e4916-fd70-44c7-a0eb-92bfb4efad6b",
@@ -17033,18 +17342,22 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/5e4e4916-fd70-44c7-a0eb-92bfb4efad6b/download/siget-lista-modulos-previa-reajuste-rap.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:39+00:00",
+     "rows": 47392,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "cp1252"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/5e4e4916-fd70-44c7-a0eb-92bfb4efad6b.observed.json"
+     }
     },
     {
      "id": "ce4a2151-9348-42cd-afa7-ff1144387d08",
@@ -17052,18 +17365,22 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/ce4a2151-9348-42cd-afa7-ff1144387d08/download/siget-novas-instalacoes-operacao-comercial.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:41+00:00",
+     "rows": 175,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "cp1252"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/ce4a2151-9348-42cd-afa7-ff1144387d08.observed.json"
+     }
     },
     {
      "id": "f6e911b4-1db8-434a-88aa-6580681773b8",
@@ -17071,18 +17388,22 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/f6e911b4-1db8-434a-88aa-6580681773b8/download/siget-obras-concluidas-sem-termo-liberacao-identificado.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:41+00:00",
+     "rows": 4,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "cp1252"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/f6e911b4-1db8-434a-88aa-6580681773b8.observed.json"
+     }
     },
     {
      "id": "d381c304-8483-4974-8055-2dc08c740ddb",
@@ -17090,18 +17411,22 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/d381c304-8483-4974-8055-2dc08c740ddb/download/siget-termo-liberacao-reajuste-rap-em-processamento.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:41+00:00",
+     "rows": 190,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "cp1252"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/d381c304-8483-4974-8055-2dc08c740ddb.observed.json"
+     }
     },
     {
      "id": "d7ba6cc7-b5dc-4acd-b38a-e9968cc0a649",
@@ -17109,18 +17434,22 @@
      "level": 0,
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/d7ba6cc7-b5dc-4acd-b38a-e9968cc0a649/download/siget-termo-liberacao-reajuste-rap-processado.csv",
      "dictionary": null,
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:42+00:00",
+     "rows": 14887,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "cp1252"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/sistema-de-gestao-da-transmissao-siget/d7ba6cc7-b5dc-4acd-b38a-e9968cc0a649.observed.json"
+     }
     }
    ]
   },
@@ -17157,19 +17486,48 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/45192a41-e5c0-4e1e-af71-4f2c74166768/resource/47a7bd99-6494-4158-ab4d-a97d5f1bfaee/download/dm-slc-sistema-de-licitacoes-e-contratos.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/slc-sistema-de-licitacoes-e-contratos/resource/47a7bd99-6494-4158-ab4d-a97d5f1bfaee"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:50+00:00",
+     "rows": 4870,
+     "schema_kind": "extracted",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": true,
+      "error_rate": 0.0,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 14,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       },
+       "DatIniVigContrato": {
+        "format": "%Y-%m-%d"
+       },
+       "DatFimVigContrato": {
+        "format": "%Y-%m-%d"
+       },
+       "VlrTotalContrato": {
+        "decimalChar": ","
+       },
+       "VlrContatroVigencia": {
+        "decimalChar": ","
+       }
+      },
+      "errors_by_field": {}
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
-      "extracted": "schemas/slc-sistema-de-licitacoes-e-contratos/bed05cd1-636e-4a94-839c-0a08c0a7a9db.extracted.json"
+      "extracted": "schemas/slc-sistema-de-licitacoes-e-contratos/bed05cd1-636e-4a94-839c-0a08c0a7a9db.extracted.json",
+      "observed": "schemas/slc-sistema-de-licitacoes-e-contratos/bed05cd1-636e-4a94-839c-0a08c0a7a9db.observed.json"
      }
     }
    ]
@@ -17207,20 +17565,59 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/28a6b7de-6f3a-4a5b-aa69-229f3bc4fbc9/resource/107dc0bb-ae8a-4220-97a9-a5f1a4bb68cf/download/dm-subsidios-tarifarios.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/subsidios-tarifarios/resource/107dc0bb-ae8a-4220-97a9-a5f1a4bb68cf"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:15:54+00:00",
+     "rows": 320300,
+     "schema_kind": "extracted",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": false,
+      "error_rate": 0.069265,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 14,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       },
+       "DatSubsidio": {
+        "format": "%d/%m/%Y"
+       },
+       "VlrSubsidio": {
+        "decimalChar": ","
+       },
+       "DatAssinaturaAto": {
+        "format": "%d/%m/%Y"
+       },
+       "DatInicioVigenciaAto": {
+        "format": "%d/%m/%Y"
+       },
+       "DatFimVigenciaAto": {
+        "format": "%d/%m/%Y"
+       },
+       "DthPublicacaoAto": {
+        "format": "%d/%m/%Y"
+       }
+      },
+      "errors_by_field": {
+       "NomAgente": {
+        "maxLength": 310597
+       }
+      }
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
       "extracted": "schemas/subsidios-tarifarios/325c828c-1cde-485e-9571-a412fa64f768.extracted.json",
-      "datastore": "schemas/subsidios-tarifarios/325c828c-1cde-485e-9571-a412fa64f768.datastore.json"
+      "datastore": "schemas/subsidios-tarifarios/325c828c-1cde-485e-9571-a412fa64f768.datastore.json",
+      "observed": "schemas/subsidios-tarifarios/325c828c-1cde-485e-9571-a412fa64f768.observed.json"
      }
     }
    ]
@@ -17258,11 +17655,11 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/0ffe45bc-b0bc-4c18-99ab-e97e94841418/resource/bdd21356-1111-4742-b5b3-8257626a1565/download/dd_ig_11_1.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/tarifa-social-de-energia-eletrica-beneficiarios/resource/bdd21356-1111-4742-b5b3-8257626a1565"
      },
-     "status": null,
+     "status": "error",
      "validated_at": null,
      "rows": null,
      "schema_kind": null,
-     "error": null,
+     "error": "TooManyRedirects: Exceeded 30 redirects.",
      "encodings": null,
      "distinct_headers": null,
      "conformance": null,
@@ -17319,25 +17716,33 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/5a583f3e-1646-4f67-bf0f-69db4203e89e/resource/2d3478e0-8aa0-4cd4-81a7-5f8967cd8804/download/dd-tarifas-por-distribuidora.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica/resource/2d3478e0-8aa0-4cd4-81a7-5f8967cd8804"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:16:18+00:00",
+     "rows": 328293,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [
       {
        "id": "cfad8fce-5a1c-4f43-a1cd-6aaf415c22dd",
-       "name": "tarifas-homologadas-distribuidoras-energia-eletrica.xml",
        "format": "xml",
-       "url": "https://dadosabertos.aneel.gov.br/dataset/5a583f3e-1646-4f67-bf0f-69db4203e89e/resource/cfad8fce-5a1c-4f43-a1cd-6aaf415c22dd/download/tarifas-homologadas-distribuidoras-energia-eletrica.xml"
+       "name": "tarifas-homologadas-distribuidoras-energia-eletrica.xml",
+       "status": "ok",
+       "read_as": "xml",
+       "same_columns": true,
+       "missing": [],
+       "extra": []
       }
      ],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/tarifas-distribuidoras-energia-eletrica/fcf2906c-7c32-4b9b-a637-054e7a5234f4.observed.json"
+     }
     }
    ]
   },
@@ -17346,7 +17751,7 @@
    "title": "Termo de Intimação (TI)",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/termo-de-intimacao-ti",
-   "level": 3,
+   "level": 4,
    "dictionaries": [
     {
      "name": "Dicionário de dados",
@@ -17363,7 +17768,7 @@
     {
      "id": "186f7895-2d71-4c68-93c9-57de0e5c5498",
      "name": "termo-intimacao",
-     "level": 3,
+     "level": 4,
      "url": "https://dadosabertos.aneel.gov.br/dataset/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10/resource/186f7895-2d71-4c68-93c9-57de0e5c5498/download/termo-intimacao.csv",
      "dictionary": {
       "name": "Dicionário de dados",
@@ -17374,19 +17779,54 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10/resource/fa22f7f1-2a20-4168-9234-9d14d0fb955c/download/dm-termo-de-intimacao-ti.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/termo-de-intimacao-ti/resource/fa22f7f1-2a20-4168-9234-9d14d0fb955c"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:17:19+00:00",
+     "rows": 423,
+     "schema_kind": "datastore",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": true,
+      "error_rate": 0.0,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 26,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       },
+       "DatLavraturaTermoIntimacao": {
+        "format": "%Y-%m-%d"
+       },
+       "DatRecebimentoTI": {
+        "format": "%Y-%m-%d"
+       },
+       "DatRecebimentoManifestacao": {
+        "format": "%Y-%m-%d"
+       },
+       "DatDecisaoManifestacao": {
+        "format": "%Y-%m-%d %H:%M:%S"
+       },
+       "DatPublicacaoManifestacao": {
+        "format": "%Y-%m-%d %H:%M:%S"
+       },
+       "DatLavraturaTE": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {}
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
-      "datastore": "schemas/termo-de-intimacao-ti/186f7895-2d71-4c68-93c9-57de0e5c5498.datastore.json"
+      "datastore": "schemas/termo-de-intimacao-ti/186f7895-2d71-4c68-93c9-57de0e5c5498.datastore.json",
+      "observed": "schemas/termo-de-intimacao-ti/186f7895-2d71-4c68-93c9-57de0e5c5498.observed.json"
      }
     }
    ]
@@ -17396,7 +17836,7 @@
    "title": "Termo de Notificação",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/termo-de-notificacao",
-   "level": 3,
+   "level": 4,
    "dictionaries": [
     {
      "name": "Dicionário de dados",
@@ -17413,7 +17853,7 @@
     {
      "id": "3aec3f42-5004-44e1-8b9c-4562084196f6",
      "name": "termo-notificacao.csv",
-     "level": 3,
+     "level": 4,
      "url": "https://dadosabertos.aneel.gov.br/dataset/f72dd455-ef2b-4922-862f-e9e59f999ded/resource/3aec3f42-5004-44e1-8b9c-4562084196f6/download/termo-notificacao.csv",
      "dictionary": {
       "name": "Dicionário de dados",
@@ -17424,26 +17864,63 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/f72dd455-ef2b-4922-862f-e9e59f999ded/resource/f54d6c11-47af-4cb3-be14-f59239b0942c/download/dm-termo-de-notificacao.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/termo-de-notificacao/resource/f54d6c11-47af-4cb3-be14-f59239b0942c"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:17:20+00:00",
+     "rows": 2598,
+     "schema_kind": "datastore",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": true,
+      "error_rate": 0.0,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 17,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       },
+       "DatLavraturaTN": {
+        "format": "%Y-%m-%d"
+       },
+       "DatAvisoRecebimento": {
+        "format": "%Y-%m-%d"
+       },
+       "DatManifestacao": {
+        "format": "%Y-%m-%d"
+       },
+       "DatLavraturaDecisao": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {}
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [
       {
        "id": "89e5fd20-0e22-45ee-9f5e-49f8b12b9119",
-       "name": "termo-notificacao.xml",
        "format": "xml",
-       "url": "https://dadosabertos.aneel.gov.br/dataset/f72dd455-ef2b-4922-862f-e9e59f999ded/resource/89e5fd20-0e22-45ee-9f5e-49f8b12b9119/download/termo-notificacao.xml"
+       "name": "termo-notificacao.xml",
+       "status": "ok",
+       "read_as": "xml",
+       "same_columns": false,
+       "missing": [],
+       "extra": [
+        "codfiscalizacao"
+       ],
+       "spelling": {},
+       "spelling_only": false
       }
      ],
      "schema_files": {
-      "datastore": "schemas/termo-de-notificacao/3aec3f42-5004-44e1-8b9c-4562084196f6.datastore.json"
+      "datastore": "schemas/termo-de-notificacao/3aec3f42-5004-44e1-8b9c-4562084196f6.datastore.json",
+      "observed": "schemas/termo-de-notificacao/3aec3f42-5004-44e1-8b9c-4562084196f6.observed.json"
      }
     }
    ]
@@ -17521,19 +17998,49 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8/resource/4b3b970f-25f7-41c4-8355-77faaae9f94b/download/dm-termos-de-intimacao-das-penas-dos-editais-tipe-principal.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/termos-de-intimacao-das-penas-dos-editais-tipe/resource/4b3b970f-25f7-41c4-8355-77faaae9f94b"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:17:22+00:00",
+     "rows": 199,
+     "schema_kind": "extracted",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": false,
+      "error_rate": 0.03051,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 14,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       },
+       "DatLavraturaPenaEdital": {
+        "format": "%Y-%m-%d"
+       },
+       "DatRecebimentoTIPE": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {
+       "DscTipoPenalidade": {
+        "maxLength": 84
+       },
+       "DscObjetoFiscalizado": {
+        "maxLength": 1
+       }
+      }
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
-      "extracted": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/84ba04eb-0a82-423c-9aac-aab4ce8102a3.extracted.json"
+      "extracted": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/84ba04eb-0a82-423c-9aac-aab4ce8102a3.extracted.json",
+      "observed": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/84ba04eb-0a82-423c-9aac-aab4ce8102a3.observed.json"
      }
     },
     {
@@ -17550,19 +18057,71 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8/resource/60c90c06-4983-4c79-a5a0-545e2f354560/download/dm-termos-de-intimacao-das-penas-dos-editais-tipe-advertencia.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/termos-de-intimacao-das-penas-dos-editais-tipe/resource/60c90c06-4983-4c79-a5a0-545e2f354560"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:17:31+00:00",
+     "rows": 100,
+     "schema_kind": "extracted",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": false,
+      "error_rate": 0.041429,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 14,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       },
+       "DatProtocoloManifestacao": {
+        "format": "%Y-%m-%d"
+       },
+       "DatDecisaoManifestacao": {
+        "type": "datetime (date values carry a time)",
+        "format": "%Y-%m-%d %H:%M:%S"
+       },
+       "DatPublicacaoDecisaoManifestacao": {
+        "type": "datetime (date values carry a time)",
+        "format": "%Y-%m-%d %H:%M:%S"
+       },
+       "VlrMultaAposDecisaoManifestacao": {
+        "decimalChar": ","
+       },
+       "DatProtocoloRecurso": {
+        "format": "%Y-%m-%d"
+       },
+       "DatDecisaoDiretoria": {
+        "type": "datetime (date values carry a time)",
+        "format": "%Y-%m-%d %H:%M:%S"
+       },
+       "DatPublicacaoDiretoria": {
+        "type": "datetime (date values carry a time)",
+        "format": "%Y-%m-%d %H:%M:%S"
+       },
+       "VlrMultaAposDiretoria": {
+        "decimalChar": ","
+       }
+      },
+      "errors_by_field": {
+       "DscDecisaoManifestacao": {
+        "maxLength": 57
+       },
+       "DscDecisaoDiretoria": {
+        "maxLength": 1
+       }
+      }
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
-      "extracted": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/9914bb13-27a9-45c0-8d31-ae2473fbecc4.extracted.json"
+      "extracted": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/9914bb13-27a9-45c0-8d31-ae2473fbecc4.extracted.json",
+      "observed": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/9914bb13-27a9-45c0-8d31-ae2473fbecc4.observed.json"
      }
     },
     {
@@ -17579,19 +18138,74 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8/resource/a3ad3084-62b6-4ade-8f64-b41bfb356383/download/dm-termos-de-intimacao-das-penas-dos-editais-tipe-multa.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/termos-de-intimacao-das-penas-dos-editais-tipe/resource/a3ad3084-62b6-4ade-8f64-b41bfb356383"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:17:32+00:00",
+     "rows": 284,
+     "schema_kind": "extracted",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": false,
+      "error_rate": 0.03213,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 16,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       },
+       "VlrMulta": {
+        "decimalChar": ","
+       },
+       "DatProtocoloManifestacao": {
+        "format": "%Y-%m-%d"
+       },
+       "DatDecisaoManifestacao": {
+        "type": "datetime (date values carry a time)",
+        "format": "%Y-%m-%d %H:%M:%S"
+       },
+       "DatPublicacaoDecisaoManifestacao": {
+        "type": "datetime (date values carry a time)",
+        "format": "%Y-%m-%d %H:%M:%S"
+       },
+       "VlrMultaAposDecisaoManifestacao": {
+        "decimalChar": ","
+       },
+       "DatProtocoloRecurso": {
+        "format": "%Y-%m-%d"
+       },
+       "DatDecisaoDiretoria": {
+        "type": "datetime (date values carry a time)",
+        "format": "%Y-%m-%d %H:%M:%S"
+       },
+       "DatPublicacaoDiretoria": {
+        "type": "datetime (date values carry a time)",
+        "format": "%Y-%m-%d %H:%M:%S"
+       },
+       "VlrMultaAposDiretoria": {
+        "decimalChar": ","
+       }
+      },
+      "errors_by_field": {
+       "DscDecisaoManifestacao": {
+        "maxLength": 136
+       },
+       "DscDecisaoDiretoria": {
+        "maxLength": 10
+       }
+      }
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
-      "extracted": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/0e3cb385-65d2-4b9e-ae50-f1e217e4e3bf.extracted.json"
+      "extracted": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/0e3cb385-65d2-4b9e-ae50-f1e217e4e3bf.extracted.json",
+      "observed": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/0e3cb385-65d2-4b9e-ae50-f1e217e4e3bf.observed.json"
      }
     },
     {
@@ -17608,19 +18222,61 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8/resource/8d89f775-d70f-4337-851e-5e8f80427a1e/download/dm-termos-de-intimacao-das-penas-dos-editais-tipe-suspensao.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/termos-de-intimacao-das-penas-dos-editais-tipe/resource/8d89f775-d70f-4337-851e-5e8f80427a1e"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:17:34+00:00",
+     "rows": 84,
+     "schema_kind": "extracted",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": false,
+      "error_rate": 0.043899,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 16,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       },
+       "DatProtocoloManifestacao": {
+        "format": "%Y-%m-%d"
+       },
+       "DatDecisaoManifestacao": {
+        "format": "%Y-%m-%d"
+       },
+       "DatPublicacaoDecisaoManifestacao": {
+        "format": "%Y-%m-%d"
+       },
+       "DatProtocoloRecurso": {
+        "format": "%Y-%m-%d"
+       },
+       "DatDecisaoDiretoria": {
+        "format": "%Y-%m-%d"
+       },
+       "DatPublicacaoDiretoria": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {
+       "DscDecisaoManifestacao": {
+        "maxLength": 58
+       },
+       "DscDecisaoDiretoria": {
+        "maxLength": 1
+       }
+      }
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
-      "extracted": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/d4549533-b969-43fa-a1d4-7b75d7868a03.extracted.json"
+      "extracted": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/d4549533-b969-43fa-a1d4-7b75d7868a03.extracted.json",
+      "observed": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/d4549533-b969-43fa-a1d4-7b75d7868a03.observed.json"
      }
     },
     {
@@ -17637,19 +18293,61 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8/resource/4ac24b5d-38be-4487-84c5-0883fd458ec0/download/dm-termos-de-intimacao-das-penas-dos-editais-tipe-inidoneidade.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/termos-de-intimacao-das-penas-dos-editais-tipe/resource/4ac24b5d-38be-4487-84c5-0883fd458ec0"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
-     "schema_kind": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:17:38+00:00",
+     "rows": 79,
+     "schema_kind": "extracted",
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
-     "conformance": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
+     "conformance": {
+      "pass": false,
+      "error_rate": 0.044304,
+      "missing": [],
+      "undeclared": [],
+      "spelling": {},
+      "similar_names": {},
+      "declared_fields": 16,
+      "inferred_formats": {
+       "DatGeracaoConjuntoDados": {
+        "format": "%Y-%m-%d"
+       },
+       "DatProtocoloManifestacao": {
+        "format": "%Y-%m-%d"
+       },
+       "DatDecisaoManifestacao": {
+        "format": "%Y-%m-%d"
+       },
+       "DatPublicacaoDecisaoManifestacao": {
+        "format": "%Y-%m-%d"
+       },
+       "DatProtocoloRecurso": {
+        "format": "%Y-%m-%d"
+       },
+       "DatDecisaoDiretoria": {
+        "format": "%Y-%m-%d"
+       },
+       "DatPublicacaoDiretoria": {
+        "format": "%Y-%m-%d"
+       }
+      },
+      "errors_by_field": {
+       "DscDecisaoManifestacao": {
+        "maxLength": 55
+       },
+       "DscDecisaoDiretoria": {
+        "maxLength": 1
+       }
+      }
+     },
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
      "schema_files": {
-      "extracted": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/18c5fcae-1b7f-40a4-b092-d47344d4d195.extracted.json"
+      "extracted": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/18c5fcae-1b7f-40a4-b092-d47344d4d195.extracted.json",
+      "observed": "schemas/termos-de-intimacao-das-penas-dos-editais-tipe/18c5fcae-1b7f-40a4-b092-d47344d4d195.observed.json"
      }
     }
    ]
@@ -17687,18 +18385,22 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/738e425b-5554-4fe4-8a8a-2d163308e9ff/resource/e05c1c73-381a-4f54-a30a-ab90718a1c20/download/dm-taxafiscalizacaoservicosenergiaeletrica.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/tfsee/resource/e05c1c73-381a-4f54-a30a-ab90718a1c20"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:17:39+00:00",
+     "rows": 32389,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "cp1252"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/tfsee/3ff1ab0a-0d0c-4fc6-b52e-050ee6ea19bd.observed.json"
+     }
     }
    ]
   },
@@ -17735,11 +18437,11 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/7cd37711-c998-453b-abf6-ebd6144d0565/resource/b7fe7f95-05b7-4504-b900-4b3978067e41/download/dd_ig_12_2.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/transmissao-e-distribuicao/resource/b7fe7f95-05b7-4504-b900-4b3978067e41"
      },
-     "status": null,
+     "status": "error",
      "validated_at": null,
      "rows": null,
      "schema_kind": null,
-     "error": null,
+     "error": "TooManyRedirects: Exceeded 30 redirects.",
      "encodings": null,
      "distinct_headers": null,
      "conformance": null,
@@ -17796,18 +18498,22 @@
       "url": "https://dadosabertos.aneel.gov.br/dataset/4cc8f5c8-4d94-41b2-bf7e-482ae787be6d/resource/17cf2f0f-31b9-4744-8962-780d2312b0e2/download/dm-usinas-termeletricas-por-tipo.pdf",
       "page": "https://dadosabertos.aneel.gov.br/dataset/usinas-termeletricas-por-tipo/resource/17cf2f0f-31b9-4744-8962-780d2312b0e2"
      },
-     "status": null,
-     "validated_at": null,
-     "rows": null,
+     "status": "ok",
+     "validated_at": "2026-10-03T14:18:26+00:00",
+     "rows": 1473,
      "schema_kind": null,
      "error": null,
-     "encodings": null,
-     "distinct_headers": null,
+     "encodings": [
+      "utf-8"
+     ],
+     "distinct_headers": 1,
      "conformance": null,
      "drift_events": 0,
      "not_a_table": false,
      "distributions": [],
-     "schema_files": {}
+     "schema_files": {
+      "observed": "schemas/usinas-termeletricas-por-tipo/0803a420-10ba-473a-941c-e2b569e3ad2b.observed.json"
+     }
     }
    ]
   }
@@ -17944,6 +18650,61 @@
    "status": "error",
    "reason": "batch time limit",
    "detail": "did not finish within the batch time limit"
+  },
+  {
+   "dataset": "samp",
+   "title": "SAMP - Sistema de Acompanhamento de Informações de Mercado para Regulação Econômica",
+   "file": "samp-2026.csv",
+   "id": "56f1c242-5017-4cef-a365-0a96fffb0f2b",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/56f1c242-5017-4cef-a365-0a96fffb0f2b/download/samp-2026.csv",
+   "host": "dadosabertos.aneel.gov.br",
+   "status": "error",
+   "reason": "other",
+   "detail": "ProtocolError: (…, IncompleteRead(40271210 bytes read, 196273103 more expected))"
+  },
+  {
+   "dataset": "seguranca-do-trabalho-e-das-instalacoes",
+   "title": "Segurança do Trabalho e das Instalações",
+   "file": "seguranca-trabalho-instalacoes",
+   "id": "ebe17185-a400-4f7a-a680-87c7d67f43dc",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/65e3b443-aadf-4d7c-bc61-827101cca4a7/resource/ebe17185-a400-4f7a-a680-87c7d67f43dc/download/seguranca-trabalho-instalacoes.csv",
+   "host": "dadosabertos.aneel.gov.br",
+   "status": "error",
+   "reason": "Timeout",
+   "detail": "ReadTimeoutError: HTTPSConnectionPool(host=…, port=443): Read timed out."
+  },
+  {
+   "dataset": "sistema-de-gestao-da-transmissao-siget",
+   "title": "Sistema de Gestão da Transmissão - SIGET",
+   "file": "SIGET - Contrato Empreendimento Obra Módulo.csv",
+   "id": "a1366325-1071-4eeb-94bd-27915747b177",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/a1366325-1071-4eeb-94bd-27915747b177/download/siget-contrato-empreendimento-obra-modulo.csv",
+   "host": "dadosabertos.aneel.gov.br",
+   "status": "error",
+   "reason": "other",
+   "detail": "ProtocolError: (…, IncompleteRead(10583373 bytes read, 4064979 more expected))"
+  },
+  {
+   "dataset": "tarifa-social-de-energia-eletrica-beneficiarios",
+   "title": "Tarifa Social de Energia Elétrica – Beneficiários (descontinuado)",
+   "file": "TarifaSocial.csv",
+   "id": "e6cb4eb6-3ddb-4fc7-8780-29645f9b35cf",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/0ffe45bc-b0bc-4c18-99ab-e97e94841418/resource/e6cb4eb6-3ddb-4fc7-8780-29645f9b35cf/download/tarifasocial.csv",
+   "host": "dadosabertos.aneel.gov.br",
+   "status": "error",
+   "reason": "redirect loop",
+   "detail": "TooManyRedirects: Exceeded 30 redirects."
+  },
+  {
+   "dataset": "transmissao-e-distribuicao",
+   "title": "Fiscalizaçao da Transmissão e Distribuição (descontinuado)",
+   "file": "FiscalTransmissaoDistribuicao.csv",
+   "id": "9058805d-f9bc-4a33-b88a-942475284114",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/7cd37711-c998-453b-abf6-ebd6144d0565/resource/9058805d-f9bc-4a33-b88a-942475284114/download/fiscaltransmissaodistribuicao.csv",
+   "host": "dadosabertos.aneel.gov.br",
+   "status": "error",
+   "reason": "redirect loop",
+   "detail": "TooManyRedirects: Exceeded 30 redirects."
   }
  ],
  "pdf": [
@@ -18321,8 +19082,8 @@
    "dictionary": "Dicionário de dados",
    "url": "https://dadosabertos.aneel.gov.br/dataset/2b26eeff-b2c2-4511-8fd5-1e6920d7d7be/resource/e369459d-2fd6-40b7-a55c-79076ffa0222/download/dd_ig_6_4.pdf",
    "files": 1,
-   "outcome": "pending",
-   "stage": null,
+   "outcome": "suggested",
+   "stage": "deterministic",
    "model": null,
    "recall": null,
    "precision": null,
@@ -18368,8 +19129,8 @@
    "dictionary": "Dicionário de dados",
    "url": "https://dadosabertos.aneel.gov.br/dataset/d44a7879-fff1-4921-b093-0839a95baade/resource/3ffce41f-f9f8-451e-8d33-a322e0a71b0b/download/dd_ig_12_3.pdf",
    "files": 1,
-   "outcome": "pending",
-   "stage": null,
+   "outcome": "suggested",
+   "stage": "deterministic",
    "model": null,
    "recall": null,
    "precision": null,
@@ -18434,8 +19195,8 @@
    "dictionary": "Dicionário de dados",
    "url": "https://dadosabertos.aneel.gov.br/dataset/26803a1c-f669-4a80-9f4b-4bcba24f8f43/resource/5f18829d-f2b0-4d65-b38a-ca7b44aadb06/download/dd_ig_12_1.pdf",
    "files": 1,
-   "outcome": "pending",
-   "stage": null,
+   "outcome": "suggested",
+   "stage": "deterministic",
    "model": null,
    "recall": null,
    "precision": null,
@@ -18653,8 +19414,8 @@
    "dictionary": "Dicionário de dados",
    "url": "https://dadosabertos.aneel.gov.br/dataset/2df0845e-d782-413a-85fc-4cd79d66c34d/resource/f030087c-f34f-4054-a277-e009b7a8cfc6/download/dd_ig_8_2.pdf",
    "files": 1,
-   "outcome": "pending",
-   "stage": null,
+   "outcome": "suggested",
+   "stage": "deterministic",
    "model": null,
    "recall": null,
    "precision": null,
@@ -18668,8 +19429,8 @@
    "dictionary": "Dicionário de dados",
    "url": "https://dadosabertos.aneel.gov.br/dataset/8ea45cdf-0031-44c8-9524-e400aaf86a06/resource/687c80c9-18f8-47b5-8334-fbdb2bd657cd/download/dd_ig_7_2.pdf",
    "files": 1,
-   "outcome": "pending",
-   "stage": null,
+   "outcome": "suggested",
+   "stage": "deterministic",
    "model": null,
    "recall": null,
    "precision": null,
@@ -18683,8 +19444,8 @@
    "dictionary": "Dicionário de dados",
    "url": "https://dadosabertos.aneel.gov.br/dataset/77ec79dc-9ef0-4e50-8dfc-7c3bc7c26caf/resource/bd8709a4-6d5c-4817-84ad-011e73f3a18f/download/dd_ig_8_1.pdf",
    "files": 1,
-   "outcome": "pending",
-   "stage": null,
+   "outcome": "suggested",
+   "stage": "deterministic",
    "model": null,
    "recall": null,
    "precision": null,
@@ -18698,8 +19459,8 @@
    "dictionary": "Dicionário de dados",
    "url": "https://dadosabertos.aneel.gov.br/dataset/dbe863ff-f27f-49bf-ad07-84eddb1629ba/resource/3091b690-eef5-4d66-b8df-fcd5c10feb01/download/dd_ig_7_1.pdf",
    "files": 1,
-   "outcome": "pending",
-   "stage": null,
+   "outcome": "suggested",
+   "stage": "deterministic",
    "model": null,
    "recall": null,
    "precision": null,
@@ -19178,5 +19939,38 @@
    "similarity": 0.8
   }
  ],
- "history": []
+ "history": [
+  {
+   "at": "2026-10-03T03:07:24+00:00",
+   "report_at": "2026-10-03T14:21:07+00:00",
+   "commit": "5feef00",
+   "files": 352,
+   "read": 335,
+   "checked": 190,
+   "conform": 62,
+   "l1_rate": 0.3263,
+   "not_downloaded": 17,
+   "levels": [
+    72,
+    240,
+    0,
+    5,
+    35
+   ],
+   "dataset_levels": [
+    15,
+    51,
+    0,
+    3,
+    3
+   ],
+   "fixed": 0,
+   "broken": 0,
+   "new_files": 335,
+   "gone_files": 0,
+   "gone_total": 0,
+   "drift_observed": 0,
+   "drift_declared": 0
+  }
+ ]
 }

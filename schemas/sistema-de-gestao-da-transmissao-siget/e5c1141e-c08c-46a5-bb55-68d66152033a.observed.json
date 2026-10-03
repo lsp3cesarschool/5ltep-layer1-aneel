@@ -1,0 +1,111 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscSitLinTms",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomLinTms",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCcuLinTms",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdTorLinTms",
+   "type": "integer",
+   "sampleEmptyShare": 0.0225
+  },
+  {
+   "name": "IdeOnsSbeOrigem",
+   "type": "string",
+   "sampleEmptyShare": 0.0017
+  },
+  {
+   "name": "IdeOnsSbeDestino",
+   "type": "string",
+   "sampleEmptyShare": 0.0104
+  },
+  {
+   "name": "IdeMdl",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeTipMdl",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeLinTms",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeSbeOri",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeSbeDsn",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumEtnLinTms",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0017
+  },
+  {
+   "name": "NomSubestacaoOrigem",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomLongoSubestacaoOrigem",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigUFSubestacaoOrigem",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomSubestacaoDestino",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomLongoSubestacaoDestino",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigUFSubestacaoDestino",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T14:15:34+00:00",
+  "sha256": "37efea1005af873c00eff2c9e73015bd07cb015ca6297e9b156ace336ee0855d",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 578,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

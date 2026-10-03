@@ -1,0 +1,56 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscOrigem",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomTipoUsina",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomSubTipoUsina",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "QtdUsinaTermeletrica",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MdaPotenciaInstaladaKW",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "MesReferencia",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T14:18:26+00:00",
+  "sha256": "4bfa5161a3e6e28762f7ee78cf56b956a6827e96350059ba900ebc5b5aaab4be",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 1473,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

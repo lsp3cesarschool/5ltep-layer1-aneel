@@ -1,0 +1,118 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "Codcvnarr",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "AnmArrecadacao",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatVencimentoTitulo",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatIncidenciaMultaMora",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatPagamentoTitulo",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.002
+  },
+  {
+   "name": "QtdDiasEmAtraso",
+   "type": "integer",
+   "sampleEmptyShare": 0.002
+  },
+  {
+   "name": "NumCPFCNPJ",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigNomAgente",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomEmpreendimento",
+   "type": "string",
+   "sampleEmptyShare": 0.0002
+  },
+  {
+   "name": "NumProcessoSIC",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumAutoInfracao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscSituacaoArrecadacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscSituacaoCredito",
+   "type": "string",
+   "sampleEmptyShare": 0.002
+  },
+  {
+   "name": "VlrPcpPrvArr",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrTotPvrArr",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrTotPagArr",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.002
+  },
+  {
+   "name": "VlrTotDifPvrPagArr",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrSelic",
+   "type": "number",
+   "decimalChar": ",",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-03T14:12:57+00:00",
+  "sha256": "5aba6c14bc1e4eb8b1f0c07db7e45885a02d42ba539ad491f7bd9fb328211bc5",
+  "encoding": "utf-8",
+  "delimiter": ";",
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

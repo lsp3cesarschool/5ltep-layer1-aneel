@@ -1,0 +1,50 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "datetime",
+   "declaredType": "timestamp"
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "NumCNPJ",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "CodUndCnmSrt",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "SigIndicador",
+   "type": "string",
+   "declaredType": "text"
+  },
+  {
+   "name": "AnoIndice",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "NumPeriodoIndice",
+   "type": "number",
+   "declaredType": "numeric"
+  },
+  {
+   "name": "VlrIndiceEnviado",
+   "type": "string",
+   "declaredType": "text"
+  }
+ ],
+ "x5ltep": {
+  "status": "datastore",
+  "source": {
+   "kind": "datastore"
+  }
+ }
+}

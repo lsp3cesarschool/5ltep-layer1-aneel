@@ -7,6 +7,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 5,
    "oracle": {
@@ -19,10 +20,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:08+00:00",
+  "at": "2026-10-05T10:53:42+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "MesReferencia",
@@ -39,6 +41,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 10,
    "oracle": {
@@ -57,10 +60,11 @@
     ],
     "similar_names": {
      "IdeNuceloCEG": "IdeNucleoCEG"
-    }
+    },
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:08+00:00",
+  "at": "2026-10-05T10:53:43+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "NumCPFCNPJ",
@@ -82,6 +86,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 9,
    "oracle": {
@@ -94,10 +99,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:09+00:00",
+  "at": "2026-10-05T10:53:44+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "NumCnpj",
@@ -122,6 +128,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 21,
    "oracle": {
@@ -138,10 +145,11 @@
     "not_in_file": [
      "SigTipoGeracao"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:10+00:00",
+  "at": "2026-10-05T10:53:44+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigAgenteDistribuicao",
@@ -174,6 +182,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 9,
    "oracle": {
@@ -186,10 +195,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:10+00:00",
+  "at": "2026-10-05T10:53:45+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigAgente",
@@ -210,6 +220,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 19,
    "oracle": {
@@ -231,10 +242,13 @@
     ],
     "similar_names": {
      "IdeNucleCEG": "IdeNucleoCEG"
+    },
+    "by_position": {
+     "DscFonteCombustivel": "DscCombustivel"
     }
    }
   },
-  "at": "2026-10-03T03:08:10+00:00",
+  "at": "2026-10-05T10:53:45+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "DatPublicacao",
@@ -265,6 +279,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 15,
    "oracle": {
@@ -277,10 +292,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:11+00:00",
+  "at": "2026-10-05T10:53:46+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "AnoReferencia",
@@ -307,6 +323,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 28,
    "oracle": {
@@ -323,10 +340,13 @@
     "not_in_file": [
      "DatLavramentoTE"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {
+     "DatLavramentoTE": "DatLavraturaTE"
+    }
    }
   },
-  "at": "2026-10-03T03:08:12+00:00",
+  "at": "2026-10-05T10:53:47+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigAgenteFiscalizador",
@@ -366,6 +386,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 26,
    "oracle": {
@@ -386,10 +407,11 @@
     ],
     "similar_names": {
      "VlrRiscoHidroCCGFRepactuadas": "VlrRiscoHidrologicoCCGFRepactuadas"
-    }
+    },
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:12+00:00",
+  "at": "2026-10-05T10:53:47+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigAgente",
@@ -535,6 +557,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 14,
    "oracle": {
@@ -547,10 +570,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:13+00:00",
+  "at": "2026-10-05T10:53:48+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "AnmReferencia",
@@ -576,6 +600,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 6,
    "oracle": {
@@ -588,10 +613,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:14+00:00",
+  "at": "2026-10-05T10:53:49+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "NomUF",
@@ -609,6 +635,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 17,
    "oracle": {
@@ -621,10 +648,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:15+00:00",
+  "at": "2026-10-05T10:53:50+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigUF",
@@ -653,6 +681,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 17,
    "oracle": {
@@ -665,10 +694,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:15+00:00",
+  "at": "2026-10-05T10:53:50+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigUF",
@@ -697,6 +727,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 8,
    "oracle": {
@@ -709,10 +740,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:16+00:00",
+  "at": "2026-10-05T10:53:51+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "DatReferencia",
@@ -732,6 +764,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 14,
    "oracle": {
@@ -744,10 +777,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:17+00:00",
+  "at": "2026-10-05T10:53:52+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigUF",
@@ -773,6 +807,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 7,
    "oracle": {
@@ -785,10 +820,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:17+00:00",
+  "at": "2026-10-05T10:53:53+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "NomEmpreendimento",
@@ -807,6 +843,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 20,
    "oracle": {
@@ -819,10 +856,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:18+00:00",
+  "at": "2026-10-05T10:53:53+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "DatCompetencia",
@@ -855,6 +893,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 21,
    "oracle": {
@@ -867,10 +906,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:19+00:00",
+  "at": "2026-10-05T10:53:55+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "DatCompetencia",
@@ -917,6 +957,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 17,
    "oracle": {
@@ -937,10 +978,13 @@
     ],
     "similar_names": {
      "SigAgenteAcessante": "SigNomeAgenteAcessante"
+    },
+    "by_position": {
+     "SigAgente": "SigNomeAgente"
     }
    }
   },
-  "at": "2026-10-03T03:08:20+00:00",
+  "at": "2026-10-05T10:53:56+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "DscResolucaoHomologatoria",
@@ -969,6 +1013,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 20,
    "oracle": {
@@ -981,10 +1026,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:21+00:00",
+  "at": "2026-10-05T10:53:56+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "AnoExercicio",
@@ -1016,6 +1062,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 5,
    "oracle": {
@@ -1028,10 +1075,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:21+00:00",
+  "at": "2026-10-05T10:53:57+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "AnoReferencia",
@@ -1048,6 +1096,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 12,
    "oracle": {
@@ -1060,10 +1109,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:22+00:00",
+  "at": "2026-10-05T10:53:57+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "IdeCcs",
@@ -1087,6 +1137,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 11,
    "oracle": {
@@ -1099,10 +1150,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:22+00:00",
+  "at": "2026-10-05T10:53:58+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "IdeCcs",
@@ -1125,6 +1177,7 @@
   ],
   "outcome": "suggested",
   "stage": "llm",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 24,
    "oracle": {
@@ -1148,10 +1201,14 @@
      "NumLatitude",
      "medida"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {
+     "NumLatitude": "NumCoordNEmpreendimento",
+     "medida": "NumCoordEEmpreendimento"
+    }
    }
   },
-  "at": "2026-10-03T03:08:22+00:00",
+  "at": "2026-10-05T10:53:59+00:00",
   "llm": {
    "model": "qwen3:8b",
    "model_source": "benchmark",
@@ -1183,9 +1240,13 @@
     ],
     "similar_names": {
      "Id SubBacia": "IdSubBacia"
+    },
+    "by_position": {
+     "NumLatitude": "NumCoordNEmpreendimento",
+     "Longitude Decimal": "NumCoordEEmpreendimento"
     }
    },
-   "seconds": 811.5,
+   "seconds": 696.2,
    "pdf_chars": 4932,
    "pieces": 1
   },
@@ -1225,6 +1286,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 6,
    "oracle": {
@@ -1237,10 +1299,11 @@
     "levenshtein": 0.9924,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:23+00:00",
+  "at": "2026-10-05T10:54:00+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigTipoGeracao",
@@ -1258,6 +1321,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 87,
    "oracle": {
@@ -1282,10 +1346,11 @@
     "similar_names": {
      "IdeNuceloCEG": "IdeNucleoCEG",
      "IdcClassificacaoBarramento": "IdcClassificacaoBarragens"
-    }
+    },
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:24+00:00",
+  "at": "2026-10-05T10:54:02+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "IdeNuceloCEG",
@@ -1384,6 +1449,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 21,
    "oracle": {
@@ -1400,10 +1466,13 @@
     "not_in_file": [
      "NumCNPJAgente"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {
+     "NumCNPJAgente": "NumCnpj"
+    }
    }
   },
-  "at": "2026-10-03T03:08:25+00:00",
+  "at": "2026-10-05T10:54:02+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "NumCNPJAgente",
@@ -1436,6 +1505,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 25,
    "oracle": {
@@ -1460,10 +1530,11 @@
     "similar_names": {
      "NumCNPJAgenteOrigem": "NumCnpjAgtOrigem",
      "NumCNPJAgenteDestino": "NumCnpjAgtDestino"
-    }
+    },
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:27+00:00",
+  "at": "2026-10-05T10:54:03+00:00",
   "fields": [
    "NumCNPJAgente",
    "NomAgente",
@@ -1500,6 +1571,7 @@
   ],
   "outcome": "suggested",
   "stage": "llm",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 7,
    "oracle": {
@@ -1519,10 +1591,11 @@
      "AnoLimiteQualidade",
      "VlrLimite"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:28+00:00",
+  "at": "2026-10-05T10:54:04+00:00",
   "llm": {
    "model": "qwen3:8b",
    "model_source": "benchmark",
@@ -1547,9 +1620,10 @@
      "AnoLimiteQualidade",
      "VlrLimite"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    },
-   "seconds": 194.7,
+   "seconds": 173.5,
    "pdf_chars": 2731,
    "pieces": 1
   },
@@ -1571,6 +1645,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 9,
    "oracle": {
@@ -1583,10 +1658,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:29+00:00",
+  "at": "2026-10-05T10:54:04+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigAgente",
@@ -1607,6 +1683,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 31,
    "oracle": {
@@ -1623,10 +1700,13 @@
     "not_in_file": [
      "NumCPFCNPJ"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {
+     "NumCPFCNPJ": "NumCNPJ"
+    }
    }
   },
-  "at": "2026-10-03T03:08:30+00:00",
+  "at": "2026-10-05T10:54:05+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigAgente",
@@ -1669,6 +1749,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 158,
    "oracle": {
@@ -1686,10 +1767,11 @@
      "MdaPesoFidelidadeV105"
     ],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:36+00:00",
+  "at": "2026-10-05T10:54:11+00:00",
   "fields": [
    "NumAno",
    "DscClassificacao",
@@ -1860,6 +1942,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 7,
    "oracle": {
@@ -1872,10 +1955,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:36+00:00",
+  "at": "2026-10-05T10:54:12+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigAgente",
@@ -1894,6 +1978,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 5,
    "oracle": {
@@ -1912,10 +1997,11 @@
     ],
     "similar_names": {
      "IdeConjUndConsumidoras": "IdeConjUnidConsumidoras"
-    }
+    },
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:37+00:00",
+  "at": "2026-10-05T10:54:12+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "IdeConjUndConsumidoras",
@@ -1941,6 +2027,7 @@
   ],
   "outcome": "suggested",
   "stage": "llm",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 26,
    "oracle": {
@@ -1987,10 +2074,11 @@
      "QtdConsumidoresAfetados",
      "QtdConsumidoresAtivos"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:38+00:00",
+  "at": "2026-10-05T10:54:13+00:00",
   "llm": {
    "model": "qwen3:8b",
    "model_source": "benchmark",
@@ -2042,9 +2130,10 @@
      "QtdConsumidoresAfetados",
      "QtdConsumidoresAtivos"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    },
-   "seconds": 750.2,
+   "seconds": 653.0,
    "pdf_chars": 4948,
    "pieces": 1
   },
@@ -2094,6 +2183,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 22,
    "oracle": {
@@ -2106,10 +2196,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:38+00:00",
+  "at": "2026-10-05T10:54:14+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "DatReferencia",
@@ -2152,6 +2243,7 @@
   ],
   "outcome": "suggested",
   "stage": "llm",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 23,
    "oracle": {
@@ -2200,10 +2292,11 @@
      "NumTempoPreparacao",
      "SigAgente"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:39+00:00",
+  "at": "2026-10-05T10:54:15+00:00",
   "llm": {
    "model": "qwen3:8b",
    "model_source": "benchmark",
@@ -2257,9 +2350,10 @@
      "NumTempoPreparacao",
      "SigAgente"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    },
-   "seconds": 611.8,
+   "seconds": 516.2,
    "pdf_chars": 4118,
    "pieces": 1
   },
@@ -2309,6 +2403,7 @@
   ],
   "outcome": "suggested",
   "stage": "llm",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 13,
    "oracle": {
@@ -2337,10 +2432,14 @@
      "CodMunicipio": "CodigoMunicipio",
      "DatCriacao": "DtCriacao",
      "QtdReclamacoesDia": "NumQtdReclamacoesDia"
+    },
+    "by_position": {
+     "NumCPFCNPJ": "NumCPFCNPJAgente",
+     "DscDecisao": "NomDecisao"
     }
    }
   },
-  "at": "2026-10-03T03:08:39+00:00",
+  "at": "2026-10-05T10:54:15+00:00",
   "llm": {
    "model": "qwen3:8b",
    "model_source": "benchmark",
@@ -2374,9 +2473,13 @@
      "CodMunicipio": "CodigoMunicipio",
      "DatCriacao": "DtCriacao",
      "QtdReclamacoesDia": "NumQtdReclamacoesDia"
+    },
+    "by_position": {
+     "NumCPFCNPJ": "NumCPFCNPJAgente",
+     "DscDecisao": "NomDecisao"
     }
    },
-   "seconds": 319.4,
+   "seconds": 276.7,
    "pdf_chars": 3176,
    "pieces": 1
   },
@@ -2404,6 +2507,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 14,
    "oracle": {
@@ -2418,10 +2522,11 @@
     "not_in_file": [
      "IdcMemoriaPublicada"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:40+00:00",
+  "at": "2026-10-05T10:54:16+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "DatReuniao",
@@ -2447,6 +2552,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 13,
    "oracle": {
@@ -2462,10 +2568,11 @@
      "Abertos",
      "IdcAgenteSumarizacao"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:40+00:00",
+  "at": "2026-10-05T10:54:16+00:00",
   "fields": [
    "Abertos",
    "DatGeracaoConjuntoDados",
@@ -2490,6 +2597,7 @@
   ],
   "outcome": "suggested",
   "stage": "llm",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 17,
    "oracle": {
@@ -2517,10 +2625,14 @@
     "similar_names": {
      "SigFaseInovacaoProjeto": "SigFasInovacaoProjeto",
      "DatCadastroPropostaProjeto": "AnoCadastroPropostaProjeto"
+    },
+    "by_position": {
+     "CodProejeto": "DscCodProjeto",
+     "NumCNPJ": "NumCPFCNPJ"
     }
    }
   },
-  "at": "2026-10-03T03:08:41+00:00",
+  "at": "2026-10-05T10:54:17+00:00",
   "llm": {
    "model": "qwen3:8b",
    "model_source": "benchmark",
@@ -2553,9 +2665,13 @@
     "similar_names": {
      "SigFaseInovacaoProjeto": "SigFasInovacaoProjeto",
      "DatCadastroPropostaProjeto": "AnoCadastroPropostaProjeto"
+    },
+    "by_position": {
+     "CodProejeto": "DscCodProjeto",
+     "NumCNPJ": "NumCPFCNPJ"
     }
    },
-   "seconds": 498.9,
+   "seconds": 439.3,
    "pdf_chars": 4695,
    "pieces": 1
   },
@@ -2588,6 +2704,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 7,
    "oracle": {
@@ -2600,10 +2717,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:42+00:00",
+  "at": "2026-10-05T10:54:19+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigAgente",
@@ -2623,6 +2741,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 19,
    "oracle": {
@@ -2635,10 +2754,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:42+00:00",
+  "at": "2026-10-05T10:54:20+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "DatRalie",
@@ -2673,6 +2793,7 @@
   ],
   "outcome": "suggested",
   "stage": "llm",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 33,
    "oracle": {
@@ -2732,10 +2853,11 @@
     ],
     "similar_names": {
      "MdaPotenciaInstaladakW": "MdaPotenciaInstalada"
-    }
+    },
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:43+00:00",
+  "at": "2026-10-05T10:54:21+00:00",
   "llm": {
    "model": "qwen3:8b",
    "model_source": "benchmark",
@@ -2800,9 +2922,10 @@
     ],
     "similar_names": {
      "MdaPotenciaInstaladakW": "MdaPotenciaInstalada"
-    }
+    },
+    "by_position": {}
    },
-   "seconds": 1070.3,
+   "seconds": 845.3,
    "pdf_chars": 7076,
    "pieces": 1
   },
@@ -2850,6 +2973,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 26,
    "oracle": {
@@ -2862,10 +2986,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:44+00:00",
+  "at": "2026-10-05T10:54:21+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "AnoLeilao",
@@ -2903,6 +3028,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 15,
    "oracle": {
@@ -2919,10 +3045,13 @@
     "not_in_file": [
      "MdaTotalLinhaTransmissaoKm"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {
+     "MdaTotalLinhaTransmissaoKm": "MdaExtensaoLinhaTransmissaoKm"
+    }
    }
   },
-  "at": "2026-10-03T03:08:45+00:00",
+  "at": "2026-10-05T10:54:22+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "AnoLeilao",
@@ -2949,6 +3078,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 5,
    "oracle": {
@@ -2961,10 +3091,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:45+00:00",
+  "at": "2026-10-05T10:54:23+00:00",
   "fields": [
    "DatReuniao",
    "IdeReuniao",
@@ -3004,6 +3135,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 17,
    "oracle": {
@@ -3021,10 +3153,11 @@
     "not_in_file": [
      "DscClassificacao"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:46+00:00",
+  "at": "2026-10-05T10:54:23+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "NumCNPJAgenteDistribuidora",
@@ -3053,6 +3186,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 12,
    "oracle": {
@@ -3074,10 +3208,11 @@
     "similar_names": {
      "AnoRefrenciaBalanco": "AnoReferenciaBalanco",
      "MesRefrenciaBalanco": "MesReferenciaBalanco"
-    }
+    },
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:47+00:00",
+  "at": "2026-10-05T10:54:24+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "NumCPFCNPJ",
@@ -3101,6 +3236,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 30,
    "oracle": {
@@ -3117,10 +3253,11 @@
     "not_in_file": [
      "VlrMWhMultifamiliar"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:47+00:00",
+  "at": "2026-10-05T10:54:24+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "AnmMesAnoCompetencia",
@@ -3161,32 +3298,84 @@
    "ebe17185-a400-4f7a-a680-87c7d67f43dc",
    "f5afe5c7-75b2-47e3-97d6-06b2bdd142dc"
   ],
-  "outcome": "extracted",
+  "outcome": "llm-needed",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 7,
    "oracle": {
     "available": true,
-    "header_columns": 7,
+    "header_columns": 3,
     "extracted": 7,
-    "recall": 1.0,
-    "precision": 1.0,
-    "exact_match": 1.0,
-    "levenshtein": 1.0,
-    "missing_from_pdf": [],
-    "not_in_file": [],
-    "similar_names": {}
+    "recall": 0.6667,
+    "precision": 0.2857,
+    "exact_match": 0.6667,
+    "levenshtein": 0.9167,
+    "missing_from_pdf": [
+     "DscIndicador"
+    ],
+    "not_in_file": [
+     "AnoIndice",
+     "NumCNPJ",
+     "NumPeriodoIndice",
+     "SigAgente",
+     "VlrIndiceEnviado"
+    ],
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:48+00:00",
-  "fields": [
-   "DatGeracaoConjuntoDados",
-   "SigAgente",
-   "NumCNPJ",
-   "SigIndicador",
-   "AnoIndice",
-   "NumPeriodoIndice",
-   "VlrIndiceEnviado"
+  "at": "2026-10-05T10:54:25+00:00",
+  "candidate": [
+   {
+    "name": "DatGeracaoConjuntoDados",
+    "type": "Data Simples",
+    "size": "",
+    "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+    "allowed": ""
+   },
+   {
+    "name": "SigAgente",
+    "type": "Cadeia de caracteres",
+    "size": "20",
+    "description": "Sigla que abrevia o nome dos Agentes regulados pela ANEEL",
+    "allowed": ""
+   },
+   {
+    "name": "NumCNPJ",
+    "type": "Cadeia de Caracteres",
+    "size": "14",
+    "description": "CNPJ do Agente do setor elétrico conforme cadastro de agentes da ANEEL",
+    "allowed": ""
+   },
+   {
+    "name": "SigIndicador",
+    "type": "Cadeia de Caracteres",
+    "size": "3",
+    "description": "Sigla do Tipo de Indicador. As siglas e descrições completas das mesmas estão disponibilizadas em um arquivo à parte devido a volumetria que esses dados gerariam. Vide o arquivo dominio-indicadores.csv disponibilizado na mesma página desse conjunto de dados.",
+    "allowed": ""
+   },
+   {
+    "name": "AnoIndice",
+    "type": "Cadeia de Caracteres",
+    "size": "4",
+    "description": "Ano de competência do índice.",
+    "allowed": ""
+   },
+   {
+    "name": "NumPeriodoIndice",
+    "type": "Numérico",
+    "size": "4",
+    "description": "Período do índice expressado em meses.",
+    "allowed": ""
+   },
+   {
+    "name": "VlrIndiceEnviado",
+    "type": "Numérico",
+    "size": "18,2",
+    "description": "Valor do índice enviado.",
+    "allowed": ""
+   }
   ]
  },
  "25722a60-194d-4234-ab3b-b71354078402": {
@@ -3198,6 +3387,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 23,
    "oracle": {
@@ -3210,10 +3400,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:48+00:00",
+  "at": "2026-10-05T10:54:25+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "NomEmpreendimento",
@@ -3248,6 +3439,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 14,
    "oracle": {
@@ -3260,10 +3452,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:49+00:00",
+  "at": "2026-10-05T10:54:26+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "NomFornecedor",
@@ -3289,6 +3482,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 14,
    "oracle": {
@@ -3301,10 +3495,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:49+00:00",
+  "at": "2026-10-05T10:54:26+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "DatSubsidio",
@@ -3330,6 +3525,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 17,
    "oracle": {
@@ -3352,10 +3548,14 @@
     ],
     "similar_names": {
      "DscBaseTarifa": "DscBaseTarifaria"
+    },
+    "by_position": {
+     "DscResolucaoHomologatoria": "DscREH",
+     "DscUnidade": "DscUnidadeTerciaria"
     }
    }
   },
-  "at": "2026-10-03T03:08:50+00:00",
+  "at": "2026-10-05T10:54:27+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "DscResolucaoHomologatoria",
@@ -3384,6 +3584,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 26,
    "oracle": {
@@ -3402,10 +3603,11 @@
     ],
     "similar_names": {
      "DscEnquatramentoTI": "DscEnquadramentoTI"
-    }
+    },
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:50+00:00",
+  "at": "2026-10-05T10:54:28+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigAgenteFiscalizador",
@@ -3443,6 +3645,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 18,
    "oracle": {
@@ -3457,10 +3660,11 @@
     "not_in_file": [
      "CodFiscalizacao"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:51+00:00",
+  "at": "2026-10-05T10:54:28+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "CodFiscalizacao",
@@ -3490,6 +3694,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 14,
    "oracle": {
@@ -3502,10 +3707,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:51+00:00",
+  "at": "2026-10-05T10:54:29+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "SigAgenteFiscalizador",
@@ -3531,6 +3737,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 14,
    "oracle": {
@@ -3543,10 +3750,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:52+00:00",
+  "at": "2026-10-05T10:54:29+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "NumPenaEdital",
@@ -3572,6 +3780,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 16,
    "oracle": {
@@ -3584,10 +3793,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:52+00:00",
+  "at": "2026-10-05T10:54:30+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "NumPenaEdital",
@@ -3615,6 +3825,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 16,
    "oracle": {
@@ -3627,10 +3838,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:53+00:00",
+  "at": "2026-10-05T10:54:30+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "NumPenaEdital",
@@ -3658,6 +3870,7 @@
   ],
   "outcome": "extracted",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 16,
    "oracle": {
@@ -3670,10 +3883,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": [],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:53+00:00",
+  "at": "2026-10-05T10:54:31+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "NumPenaEdital",
@@ -3701,6 +3915,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 15,
    "oracle": {
@@ -3722,10 +3937,11 @@
     "similar_names": {
      "AnmInicioVigenciaTaxaFiscaliz": "AnmInicioVigenciaTaxaFiscalizacao",
      "AnmFimVigenciaTaxaFiscaliz": "AnmFimVigenciaTaxaFiscalizacao"
-    }
+    },
+    "by_position": {}
    }
   },
-  "at": "2026-10-03T03:08:54+00:00",
+  "at": "2026-10-05T10:54:31+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "DscRamo",
@@ -3752,6 +3968,7 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 8,
    "oracle": {
@@ -3768,10 +3985,13 @@
     "not_in_file": [
      "DscOrigemCombustivel"
     ],
-    "similar_names": {}
+    "similar_names": {},
+    "by_position": {
+     "DscOrigemCombustivel": "DscOrigem"
+    }
    }
   },
-  "at": "2026-10-03T03:08:54+00:00",
+  "at": "2026-10-05T10:54:32+00:00",
   "fields": [
    "DatGeracaoConjuntoDados",
    "DscOrigemCombustivel",
@@ -3791,13 +4011,14 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 7,
    "oracle": {
     "available": false
    }
   },
-  "at": "2026-10-03T11:57:42+00:00",
+  "at": "2026-10-05T10:53:55+00:00",
   "fields": [
    "IdeCompensacaoFinanceira",
    "NomBeneficiario",
@@ -3816,13 +4037,14 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 5,
    "oracle": {
     "available": false
    }
   },
-  "at": "2026-10-03T14:08:09+00:00",
+  "at": "2026-10-05T10:53:58+00:00",
   "fields": [
    "IdeDesempenhoConcessionaria",
    "DscIndicadorDesempenho",
@@ -3839,13 +4061,14 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 6,
    "oracle": {
     "available": false
    }
   },
-  "at": "2026-10-03T14:08:10+00:00",
+  "at": "2026-10-05T10:54:00+00:00",
   "fields": [
    "IdeFiscalEconomiaFinanceira",
    "DscItemFiscalizado",
@@ -3863,13 +4086,14 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 6,
    "oracle": {
     "available": false
    }
   },
-  "at": "2026-10-03T14:08:11+00:00",
+  "at": "2026-10-05T10:54:03+00:00",
   "fields": [
    "IdeFiscalizacaoGeracao",
    "NomFiscalizacaoGeracao",
@@ -3887,13 +4111,14 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 8,
    "oracle": {
     "available": false
    }
   },
-  "at": "2026-10-03T14:08:12+00:00",
+  "at": "2026-10-05T10:54:17+00:00",
   "fields": [
    "IdePesquisaDesenvolvimentoTema",
    "NumChamada",
@@ -3913,13 +4138,14 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 9,
    "oracle": {
     "available": false
    }
   },
-  "at": "2026-10-03T14:08:12+00:00",
+  "at": "2026-10-05T10:54:17+00:00",
   "fields": [
    "IdeNovoProjeto",
    "DscTipologia",
@@ -3940,13 +4166,14 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 9,
    "oracle": {
     "available": false
    }
   },
-  "at": "2026-10-03T14:08:13+00:00",
+  "at": "2026-10-05T10:54:18+00:00",
   "fields": [
    "IdePesquisaDesenvolvProjeto",
    "NumResolucao",
@@ -3967,13 +4194,14 @@
   ],
   "outcome": "suggested",
   "stage": "deterministic",
+  "reader_version": "v2",
   "deterministic": {
    "fields": 12,
    "oracle": {
     "available": false
    }
   },
-  "at": "2026-10-03T14:08:13+00:00",
+  "at": "2026-10-05T10:54:18+00:00",
   "fields": [
    "IdeProjetoRetornoInvestimento",
    "AnoCiclo",
@@ -3987,6 +4215,57 @@
    "IdcAtualizacaoPeriodica",
    "MesReferencia",
    "AnoReferencia"
+  ]
+ },
+ "bdd21356-1111-4742-b5b3-8257626a1565": {
+  "sha256": "af6346177106c36dcfbbe0498f2aa0ba78cdb38ad3e75f0d2991fb8480e54800",
+  "dataset": "tarifa-social-de-energia-eletrica-beneficiarios",
+  "linked_resources": [
+   "e6cb4eb6-3ddb-4fc7-8780-29645f9b35cf"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "reader_version": "v2",
+  "deterministic": {
+   "fields": 7,
+   "oracle": {
+    "available": false
+   }
+  },
+  "at": "2026-10-05T10:54:26+00:00",
+  "fields": [
+   "IdeTarifaSocial",
+   "NomRegiao",
+   "QtdUndConsumidorResidencial",
+   "QtdUndConsumidorBaixaRenda",
+   "MesReferencia",
+   "AnoReferencia",
+   "DthProcessamento"
+  ]
+ },
+ "b7fe7f95-05b7-4504-b900-4b3978067e41": {
+  "sha256": "8a4510005bab09f267b78bc762acf0789492ef1efeba9f71dcf0aca42fa2e8e1",
+  "dataset": "transmissao-e-distribuicao",
+  "linked_resources": [
+   "9058805d-f9bc-4a33-b88a-942475284114"
+  ],
+  "outcome": "suggested",
+  "stage": "deterministic",
+  "reader_version": "v2",
+  "deterministic": {
+   "fields": 6,
+   "oracle": {
+    "available": false
+   }
+  },
+  "at": "2026-10-05T10:54:32+00:00",
+  "fields": [
+   "IdeFiscTransmissaoDistribuicao",
+   "DscItemFiscalizado",
+   "QtdFiscalizacao",
+   "MesReferencia",
+   "AnoReferencia",
+   "DthProcessamento"
   ]
  }
 }

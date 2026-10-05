@@ -7,39 +7,22 @@
    "sampleEmptyShare": 0.0
   },
   {
-   "name": "DscResolucaoHomologatoria",
+   "name": "NumCNPJAgenteDistribuidora",
    "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
-   "name": "SigNomeAgente",
+   "name": "SigAgenteDistribuidora",
    "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
-   "name": "NumCPFCNPJ",
+   "name": "NomAgenteDistribuidora",
    "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
-   "name": "DatInicioVigencia",
-   "type": "date",
-   "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.0
-  },
-  {
-   "name": "DatFimVigencia",
-   "type": "date",
-   "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.0
-  },
-  {
-   "name": "DscBaseTarifaria",
-   "type": "string",
-   "sampleEmptyShare": 0.0
-  },
-  {
-   "name": "DscSubGrupoTarifario",
+   "name": "NomTipoMercado",
    "type": "string",
    "sampleEmptyShare": 0.0
   },
@@ -49,7 +32,12 @@
    "sampleEmptyShare": 0.0
   },
   {
-   "name": "DscClasseConsumidor",
+   "name": "DscSubGrupoTarifario",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscClasseConsumoMercado",
    "type": "string",
    "sampleEmptyShare": 0.0
   },
@@ -64,36 +52,53 @@
    "sampleEmptyShare": 0.0
   },
   {
+   "name": "IdeNucleoCeg",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCNPJAgenteAcessante",
+   "type": "string",
+   "sampleEmptyShare": 0.0788
+  },
+  {
+   "name": "NomAgenteAcessante",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
    "name": "DscPostoTarifario",
    "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
-   "name": "DscUnidade",
+   "name": "DscOpcaoEnergia",
    "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
-   "name": "SigNomeAgenteAcessante",
+   "name": "DscDetalheMercado",
    "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
-   "name": "DscComponenteTarifario",
-   "type": "string",
+   "name": "DatCompetencia",
+   "type": "date",
+   "format": "%Y-%m-%d",
    "sampleEmptyShare": 0.0
   },
   {
-   "name": "VlrComponenteTarifario",
-   "type": "string",
+   "name": "VlrMercado",
+   "type": "number",
+   "decimalChar": ",",
    "sampleEmptyShare": 0.0
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-05T12:04:16+00:00",
-  "sha256": "4148d4719b6767e6d39bc0dcd92e63c56cd1e9ab7ad438a2fd75bc96f293b843",
-  "encoding": "utf-8",
+  "observed_at": "2026-10-05T11:58:18+00:00",
+  "sha256": "8687c0c10ef4a3cbeef925fbf85b562e83319bbfe923b3ce66301f81e08c7e8b",
+  "encoding": "cp1252",
   "delimiter": ";",
   "sample_rows": 5000,
   "tables": 1,

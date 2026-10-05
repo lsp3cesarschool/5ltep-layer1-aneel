@@ -61,46 +61,46 @@
    "name": "DatRecebimentoTI",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.5366
+   "sampleEmptyShare": 0.541
   },
   {
    "name": "DscTipoPenalidade",
    "type": "string",
-   "sampleEmptyShare": 0.5414
+   "sampleEmptyShare": 0.5363
   },
   {
    "name": "DatRecebimentoManifestacao",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.792
+   "sampleEmptyShare": 0.7939
   },
   {
    "name": "DscDecisaoManifestacao",
    "type": "string",
-   "sampleEmptyShare": 0.8274
+   "sampleEmptyShare": 0.829
   },
   {
    "name": "DscAtoManifestacao",
    "type": "string",
-   "sampleEmptyShare": 0.8274
+   "sampleEmptyShare": 0.829
   },
   {
    "name": "DatDecisaoManifestacao",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.8274
+   "sampleEmptyShare": 0.829
   },
   {
    "name": "DatPublicacaoManifestacao",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.8274
+   "sampleEmptyShare": 0.829
   },
   {
    "name": "DatProtocoloRecurso",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9905
+   "sampleEmptyShare": 0.9906
   },
   {
    "name": "DscDecisaoDiretoria",
@@ -125,27 +125,27 @@
   {
    "name": "NumTermoEncerramento",
    "type": "string",
-   "sampleEmptyShare": 0.5508
+   "sampleEmptyShare": 0.555
   },
   {
    "name": "DatLavraturaTE",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.5508
+   "sampleEmptyShare": 0.555
   },
   {
    "name": "DscEnquadramentoTI",
    "type": "string",
-   "sampleEmptyShare": 0.5414
+   "sampleEmptyShare": 0.5363
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T14:17:19+00:00",
-  "sha256": "e638c264fb6f693837aba9f96e5b177c3967e203b2f9f7607d7763069e11eda2",
+  "observed_at": "2026-10-05T12:28:27+00:00",
+  "sha256": "55e22c8c1b65be718e4a7b548a75a6a8af074a339060cd4903676fc43e868bb5",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 423,
+  "sample_rows": 427,
   "tables": 1,
   "distinct_headers": 1
  }

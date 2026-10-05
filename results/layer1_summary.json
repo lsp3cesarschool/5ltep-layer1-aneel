@@ -5,8 +5,8 @@
   "name": "ANEEL",
   "title": "ANEEL open data portal (Dados Abertos ANEEL)"
  },
- "generated_at": "2026-10-03T14:21:07+00:00",
- "census_at": "2026-10-03T03:07:24+00:00",
+ "generated_at": "2026-10-05T12:55:33+00:00",
+ "census_at": "2026-10-05T10:51:35+00:00",
  "method": {
   "rotation_days": 28,
   "sample_rows": 5000,
@@ -16,7 +16,11 @@
   "oracle_llm_below": 0.8,
   "llm_model": "auto",
   "llm_seed": 42,
-  "extraction_prompt_version": "v1"
+  "extraction_prompt_version": "v1",
+  "pdf_reader_version": "v2",
+  "zip_documents_sample": 50,
+  "zip_stop_at_sample": 0,
+  "copies_once": 0
  },
  "environment": {
   "python": "3.11.16"
@@ -28,8 +32,8 @@
    "0": 15,
    "1": 51,
    "2": 0,
-   "3": 3,
-   "4": 3
+   "3": 2,
+   "4": 4
   }
  },
  "tables": {
@@ -38,68 +42,85 @@
    "0": 72,
    "1": 240,
    "2": 0,
-   "3": 5,
-   "4": 35
+   "3": 3,
+   "4": 37
   },
-  "validated": 335,
-  "validation_coverage": 0.9517,
-  "errors": 17,
-  "queue_remaining": 0
+  "validated": 338,
+  "validation_coverage": 0.9602,
+  "errors": 14,
+  "queue_remaining": 0,
+  "declared_gb": 59.78,
+  "size_unknown": 0,
+  "by_format": {
+   "csv": {
+    "files": 204,
+    "gb": 15.43,
+    "size_unknown": 0
+   },
+   "zip": {
+    "files": 143,
+    "gb": 44.19,
+    "size_unknown": 0
+   },
+   "parquet": {
+    "files": 5,
+    "gb": 0.16,
+    "size_unknown": 0
+   }
+  },
+  "queue_gb": 0.0,
+  "queue_largest": []
  },
  "schema_sources": {
-  "extracted": 156,
-  "datastore": 34
+  "extracted": 157,
+  "datastore": 36
  },
  "conformance_by_source": {
   "extracted": {
-   "verifiable": 156,
+   "verifiable": 157,
    "conformant": 28,
-   "l1_rate": 0.1795
+   "l1_rate": 0.1783
   },
   "datastore": {
-   "verifiable": 34,
-   "conformant": 34,
+   "verifiable": 36,
+   "conformant": 36,
    "l1_rate": 1.0
   }
  },
- "verifiable": 190,
- "conformant": 62,
- "l1_rate": 0.3263,
+ "verifiable": 193,
+ "conformant": 64,
+ "l1_rate": 0.3316,
  "l1_pass": false,
  "drift": {
   "observed": 0,
   "declared": 0,
-  "files_with_baseline": 335,
+  "files_with_baseline": 338,
   "first_baseline_at": "2026-10-03T04:21:08+00:00",
-  "last_observed_at": "2026-10-03T14:18:26+00:00"
+  "last_observed_at": "2026-10-05T12:50:57+00:00"
  },
  "coverage": {
   "files": 352,
-  "read": 335,
+  "read": 338,
   "empty": 0,
   "not_tabular": 0,
   "too_large": 0,
-  "not_downloaded": 17,
+  "not_downloaded": 14,
   "pending": 0,
   "not_downloaded_by_reason": {
    "redirect loop": 12,
-   "other": 3,
-   "batch time limit": 1,
-   "Timeout": 1
+   "other": 2
   },
   "not_downloaded_by_host": {
    "redirect loop · dadosabertos.aneel.gov.br": 12,
-   "other · dadosabertos.aneel.gov.br": 3,
-   "batch time limit · dadosabertos.aneel.gov.br": 1,
-   "Timeout · dadosabertos.aneel.gov.br": 1
+   "other · dadosabertos.aneel.gov.br": 2
   },
   "read_without_schema": 145,
-  "checked": 190,
-  "conform": 62,
+  "checked": 193,
+  "conform": 64,
   "fail_missing_fields": 12,
   "fail_undeclared_columns": 12,
-  "fail_cells_over_limit": 120,
-  "fail_only_cells": 116
+  "fail_cells_over_limit": 121,
+  "fail_only_cells": 117
  },
  "not_tables": {
   "count": 0,
@@ -107,14 +128,14 @@
  },
  "distributions": {
   "tables_with_other_formats": 114,
-  "other_formats": 103,
-  "compared": 103,
-  "same_columns": 101,
+  "other_formats": 104,
+  "compared": 104,
+  "same_columns": 102,
   "spelling_only": 0,
   "different_columns": 2,
   "not_compared": {},
   "by_format": {
-   "parquet": 91,
+   "parquet": 92,
    "xml": 9,
    "zip": 2,
    "json": 1
@@ -123,14 +144,14 @@
  "network": {
   "total": {
    "files": 352,
-   "failed_files": 17,
-   "gb": 57.85,
-   "minutes": 585.1,
-   "end_to_end_mb_s": 1.65,
-   "zip_download_mb_s": 6.47,
-   "first_byte_s_median": 0.45,
-   "network_share": 0.908,
-   "network_mb_s": 0.76,
+   "failed_files": 14,
+   "gb": 57.69,
+   "minutes": 613.3,
+   "end_to_end_mb_s": 1.57,
+   "zip_download_mb_s": 6.43,
+   "first_byte_s_median": 0.43,
+   "network_share": 0.358,
+   "network_mb_s": 2.98,
    "request_failures": {
     "HTTP 502": 1
    }
@@ -138,14 +159,14 @@
   "by_host": {
    "dadosabertos.aneel.gov.br": {
     "files": 352,
-    "failed_files": 17,
-    "gb": 57.85,
-    "minutes": 585.1,
-    "end_to_end_mb_s": 1.65,
-    "zip_download_mb_s": 6.47,
-    "first_byte_s_median": 0.45,
-    "network_share": 0.908,
-    "network_mb_s": 0.76,
+    "failed_files": 14,
+    "gb": 57.69,
+    "minutes": 613.3,
+    "end_to_end_mb_s": 1.57,
+    "zip_download_mb_s": 6.43,
+    "first_byte_s_median": 0.43,
+    "network_share": 0.358,
+    "network_mb_s": 2.98,
     "request_failures": {
      "HTTP 502": 1
     }
@@ -188,7 +209,7 @@
    "date_fields_with_declared_format": null
   },
   "files_vs_dictionaries": {
-   "checked": 190,
+   "checked": 193,
    "with_declared_fields_missing": 12,
    "with_undeclared_columns": 12,
    "with_spelling_differences": 1,
@@ -196,20 +217,29 @@
    "similar_names": 8,
    "declared_fields_missing": 115,
    "formats_inferred_from_data": {
-    "format": 302,
-    "decimalChar": 193,
+    "format": 307,
+    "decimalChar": 194,
     "type": 16,
     "groupChar": 96
    }
   },
+  "copies": {
+   "files": 0,
+   "of_files": 0,
+   "datasets": 0,
+   "gb": 0.0,
+   "identical": 0,
+   "different": 0,
+   "results_copied": 0
+  },
   "files": {
-   "validated": 335,
+   "validated": 338,
    "encodings": {
-    "utf-8": 289,
-    "cp1252": 41
+    "utf-8": 290,
+    "cp1252": 43
    },
    "delimiters": {
-    ";": 229,
+    ";": 232,
     ",": 101
    },
    "with_decode_errors": 106,
@@ -219,30 +249,29 @@
    "not_tabular": 0,
    "not_tables": 0,
    "formats": {
-    "csv": 330,
+    "csv": 333,
     "parquet": 5
    },
    "unreachable_by_reason": {
     "redirect loop": 12,
-    "other": 3,
-    "batch time limit": 1,
-    "Timeout": 1
+    "other": 2
    }
   },
   "pdf_extraction": {
    "pdf_dictionaries_linked": 74,
-   "processed": 72,
+   "processed": 74,
    "by_outcome": {
-    "extracted": 34,
-    "suggested": 38
+    "extracted": 33,
+    "suggested": 40,
+    "llm-needed": 1
    },
    "with_similar_names": 14,
    "deterministic": {
     "with_oracle": 64,
-    "recall": 0.9121,
-    "precision": 0.911,
-    "exact_match": 0.8983,
-    "levenshtein": 0.9622
+    "recall": 0.9069,
+    "precision": 0.8998,
+    "exact_match": 0.8931,
+    "levenshtein": 0.9609
    },
    "llm": {
     "with_oracle": 7,
@@ -253,26 +282,30 @@
    }
   },
   "delivery": {
-   "probed_at": null,
+   "probed_at": "2026-10-05T10:51:34+00:00",
    "hosts": {
     "dadosabertos.aneel.gov.br": {
      "linked": 352,
-     "files": 335,
+     "files": 338,
      "served_by": [
       "dadosabertos.aneel.gov.br"
      ],
-     "server": [],
-     "probes": 0,
-     "range": "unknown",
-     "with_etag": 335,
-     "with_last_modified": 335,
+     "server": [
+      "nginx"
+     ],
+     "probes": 3,
+     "range": "honoured",
+     "with_etag": 338,
+     "with_last_modified": 338,
      "without_validator": 0,
      "without_length": 0,
-     "of": 335,
+     "of": 338,
      "generic_type": 0,
-     "typed": 36,
+     "typed": 78,
      "content_types": {
-      "text/csv": 36
+      "text/csv": 66,
+      "application/zip": 7,
+      "application/octet-stream": 5
      },
      "broken_links": 0,
      "redirect_loops": 12
@@ -731,10 +764,10 @@
   },
   {
    "name": "samp",
-   "level": 3,
+   "level": 4,
    "tables": 24,
-   "verifiable": 22,
-   "conformant": 22,
+   "verifiable": 24,
+   "conformant": 24,
    "l1_rate": 1.0
   },
   {
@@ -757,7 +790,7 @@
    "name": "seguranca-do-trabalho-e-das-instalacoes",
    "level": 1,
    "tables": 2,
-   "verifiable": 1,
+   "verifiable": 2,
    "conformant": 0,
    "l1_rate": 0.0
   },

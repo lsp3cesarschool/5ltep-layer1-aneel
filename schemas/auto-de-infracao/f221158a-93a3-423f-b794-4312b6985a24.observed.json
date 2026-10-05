@@ -55,95 +55,95 @@
   {
    "name": "NumProcessoPunitivoANEEL",
    "type": "integer",
-   "sampleEmptyShare": 0.8738
+   "sampleEmptyShare": 0.8666
   },
   {
    "name": "DatRecebimentoAutoInfracao",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.0294
+   "sampleEmptyShare": 0.0389
   },
   {
    "name": "DscTipoPenalidade",
    "type": "string",
-   "sampleEmptyShare": 0.0119
+   "sampleEmptyShare": 0.0124
   },
   {
    "name": "VlrPenalidade",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0119
+   "sampleEmptyShare": 0.0124
   },
   {
    "name": "DtRecebimentoRecurso",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.7152
+   "sampleEmptyShare": 0.7183
   },
   {
    "name": "DatDecisaoJuizo",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.8301
+   "sampleEmptyShare": 0.832
   },
   {
    "name": "DscDecisaoCompletaJuizo",
    "type": "string",
-   "sampleEmptyShare": 0.8082
+   "sampleEmptyShare": 0.8104
   },
   {
    "name": "DscAtoJuizo",
    "type": "string",
-   "sampleEmptyShare": 0.9051
+   "sampleEmptyShare": 0.9061
   },
   {
    "name": "VlrMultaAposJuizo",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.837
+   "sampleEmptyShare": 0.8388
   },
   {
    "name": "DatDecisaoDiretoria",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.8707
+   "sampleEmptyShare": 0.8721
   },
   {
    "name": "DscDecisaoCompletaDiretoria",
    "type": "string",
-   "sampleEmptyShare": 0.8382
+   "sampleEmptyShare": 0.84
   },
   {
    "name": "DscAtoDiretoria",
    "type": "string",
-   "sampleEmptyShare": 0.9063
+   "sampleEmptyShare": 0.9074
   },
   {
    "name": "VlrMultaAposDiretoria",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.852
+   "sampleEmptyShare": 0.8536
   },
   {
    "name": "NumTermoEncerramento",
    "type": "string",
-   "sampleEmptyShare": 0.5946
+   "sampleEmptyShare": 0.5985
   },
   {
    "name": "DatLavraturaTE",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.5953
+   "sampleEmptyShare": 0.5991
   },
   {
    "name": "DscEnquadramentoAI",
    "type": "string",
-   "sampleEmptyShare": 0.0643
+   "sampleEmptyShare": 0.0642
   },
   {
    "name": "NumTermoNotificacao",
    "type": "string",
-   "sampleEmptyShare": 0.005
+   "sampleEmptyShare": 0.0049
   },
   {
    "name": "NumProcessoFiscalizacao",
@@ -153,11 +153,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T04:31:44+00:00",
-  "sha256": "fc59416c977cedcd1f7f127b025480f7f38d05c679b31587a57e0040aae2bd6d",
+  "observed_at": "2026-10-05T11:58:19+00:00",
+  "sha256": "a05192defd1399864639e899a5fbdc2ca6661e543a0aa1ff998edc7ce75b8d13",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 1601,
+  "sample_rows": 1619,
   "tables": 1,
   "distinct_headers": 1
  }

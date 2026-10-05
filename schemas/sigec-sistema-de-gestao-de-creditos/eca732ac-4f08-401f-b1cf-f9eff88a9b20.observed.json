@@ -32,12 +32,12 @@
    "name": "DatPagamentoTitulo",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.1768
+   "sampleEmptyShare": 0.1758
   },
   {
    "name": "QtdDiasEmAtraso",
    "type": "integer",
-   "sampleEmptyShare": 0.1768
+   "sampleEmptyShare": 0.1758
   },
   {
    "name": "SigNomAgente",
@@ -90,7 +90,7 @@
    "name": "VlrTotPagArr",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.1766
+   "sampleEmptyShare": 0.1756
   },
   {
    "name": "VlrTotDifPvrPagArr",
@@ -107,8 +107,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T14:12:38+00:00",
-  "sha256": "b53fbb586397a3f89d99ac223b4375c5f0d637a1b62d51f75f62f79afd219853",
+  "observed_at": "2026-10-05T12:27:47+00:00",
+  "sha256": "92a519e20e4630e98a1f51f3702a8bfe47b8da5b4d7122bf481b59850366becb",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

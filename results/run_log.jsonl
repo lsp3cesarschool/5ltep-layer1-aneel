@@ -11,3 +11,6 @@
 {"at": "2026-10-05T10:54:32+00:00", "stage": "extract-deterministic", "run_id": "37298548410", "processed": 74, "suggested": 74, "llm_needed": 8}
 {"at": "2026-10-05T11:55:30+00:00", "stage": "extract-llm", "run_id": "37298548410", "processed": 8, "suggested": 41, "llm_needed": 1}
 {"at": "2026-10-05T12:54:53+00:00", "stage": "validate", "run_id": "37298548410", "done": 73, "left": 0, "drift": 0}
+{"at": "2026-10-05T12:56:20+00:00", "stage": "extract-deterministic", "run_id": "37312946169", "processed": 0, "suggested": 0, "llm_needed": 1}
+{"at": "2026-10-05T13:00:00+00:00", "stage": "extract-llm", "run_id": "37312946169", "processed": 1, "suggested": 2, "llm_needed": 0}
+{"at": "2026-10-05T13:00:01+00:00", "stage": "validate", "run_id": "37312946169", "done": 0, "left": 0, "drift": 0}

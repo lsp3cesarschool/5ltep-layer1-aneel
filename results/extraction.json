@@ -3298,8 +3298,8 @@
    "ebe17185-a400-4f7a-a680-87c7d67f43dc",
    "f5afe5c7-75b2-47e3-97d6-06b2bdd142dc"
   ],
-  "outcome": "llm-needed",
-  "stage": "deterministic",
+  "outcome": "suggested",
+  "stage": "llm",
   "reader_version": "v2",
   "deterministic": {
    "fields": 7,
@@ -3326,56 +3326,38 @@
    }
   },
   "at": "2026-10-05T10:54:25+00:00",
-  "candidate": [
-   {
-    "name": "DatGeracaoConjuntoDados",
-    "type": "Data Simples",
-    "size": "",
-    "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
-    "allowed": ""
+  "llm": {
+   "model": "qwen3:8b",
+   "model_source": "benchmark",
+   "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+   "ollama_version": "0.35.0",
+   "prompt_version": "v1",
+   "fields": 7,
+   "oracle": {
+    "available": true,
+    "header_columns": 7,
+    "extracted": 7,
+    "recall": 1.0,
+    "precision": 1.0,
+    "exact_match": 1.0,
+    "levenshtein": 1.0,
+    "missing_from_pdf": [],
+    "not_in_file": [],
+    "similar_names": {},
+    "by_position": {}
    },
-   {
-    "name": "SigAgente",
-    "type": "Cadeia de caracteres",
-    "size": "20",
-    "description": "Sigla que abrevia o nome dos Agentes regulados pela ANEEL",
-    "allowed": ""
-   },
-   {
-    "name": "NumCNPJ",
-    "type": "Cadeia de Caracteres",
-    "size": "14",
-    "description": "CNPJ do Agente do setor elétrico conforme cadastro de agentes da ANEEL",
-    "allowed": ""
-   },
-   {
-    "name": "SigIndicador",
-    "type": "Cadeia de Caracteres",
-    "size": "3",
-    "description": "Sigla do Tipo de Indicador. As siglas e descrições completas das mesmas estão disponibilizadas em um arquivo à parte devido a volumetria que esses dados gerariam. Vide o arquivo dominio-indicadores.csv disponibilizado na mesma página desse conjunto de dados.",
-    "allowed": ""
-   },
-   {
-    "name": "AnoIndice",
-    "type": "Cadeia de Caracteres",
-    "size": "4",
-    "description": "Ano de competência do índice.",
-    "allowed": ""
-   },
-   {
-    "name": "NumPeriodoIndice",
-    "type": "Numérico",
-    "size": "4",
-    "description": "Período do índice expressado em meses.",
-    "allowed": ""
-   },
-   {
-    "name": "VlrIndiceEnviado",
-    "type": "Numérico",
-    "size": "18,2",
-    "description": "Valor do índice enviado.",
-    "allowed": ""
-   }
+   "seconds": 170.7,
+   "pdf_chars": 2447,
+   "pieces": 1
+  },
+  "fields": [
+   "DatGeracaoConjuntoDados",
+   "SigAgente",
+   "NumCNPJ",
+   "SigIndicador",
+   "AnoIndice",
+   "NumPeriodoIndice",
+   "VlrIndiceEnviado"
   ]
  },
  "25722a60-194d-4234-ab3b-b71354078402": {

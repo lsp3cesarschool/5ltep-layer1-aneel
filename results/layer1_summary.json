@@ -5,7 +5,7 @@
   "name": "ANEEL",
   "title": "ANEEL open data portal (Dados Abertos ANEEL)"
  },
- "generated_at": "2026-10-05T12:55:33+00:00",
+ "generated_at": "2026-10-05T13:00:37+00:00",
  "census_at": "2026-10-05T10:51:35+00:00",
  "method": {
   "rotation_days": 28,
@@ -262,8 +262,7 @@
    "processed": 74,
    "by_outcome": {
     "extracted": 33,
-    "suggested": 40,
-    "llm-needed": 1
+    "suggested": 41
    },
    "with_similar_names": 14,
    "deterministic": {
@@ -274,11 +273,11 @@
     "levenshtein": 0.9609
    },
    "llm": {
-    "with_oracle": 7,
-    "recall": 0.465,
-    "precision": 0.4662,
-    "exact_match": 0.4566,
-    "levenshtein": 0.7537
+    "with_oracle": 8,
+    "recall": 0.5319,
+    "precision": 0.533,
+    "exact_match": 0.5245,
+    "levenshtein": 0.7845
    }
   },
   "delivery": {

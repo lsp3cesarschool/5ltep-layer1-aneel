@@ -1,1 +1,440 @@
-[]
+[
+ {
+  "id": "ff80dd21-eade-4eb5-9ca8-d802c883940e",
+  "dataset": "samp",
+  "reason": "schema",
+  "since": ""
+ },
+ {
+  "id": "f221158a-93a3-423f-b794-4312b6985a24",
+  "dataset": "auto-de-infracao",
+  "reason": "changed",
+  "since": "2026-10-03T04:31:44+00:00"
+ },
+ {
+  "id": "0591b8f6-fe54-437b-b72b-1aa2efd46e42",
+  "dataset": "bandeiras-tarifarias",
+  "reason": "changed",
+  "since": "2026-10-03T04:33:32+00:00"
+ },
+ {
+  "id": "e62b61dd-0a27-41b6-b1d2-19faa6c61501",
+  "dataset": "bandeiras-tarifarias",
+  "reason": "changed",
+  "since": "2026-10-03T04:33:33+00:00"
+ },
+ {
+  "id": "9e63214b-f262-46cb-a0e1-cb3c634368a0",
+  "dataset": "cfurh",
+  "reason": "changed",
+  "since": "2026-10-03T11:50:11+00:00"
+ },
+ {
+  "id": "003b55b9-0864-4645-b3c3-b1d91c58bfba",
+  "dataset": "cfurh",
+  "reason": "changed",
+  "since": "2026-10-03T11:50:11+00:00"
+ },
+ {
+  "id": "96f5df6c-459b-49bc-b3f4-f0f00fcaccf0",
+  "dataset": "cfurh",
+  "reason": "changed",
+  "since": "2026-10-03T11:50:12+00:00"
+ },
+ {
+  "id": "518a4804-6c34-4559-8034-9f2cfe4a4049",
+  "dataset": "cfurh",
+  "reason": "changed",
+  "since": "2026-10-03T11:50:13+00:00"
+ },
+ {
+  "id": "21ee5fa9-669b-4220-bbc6-c077079f3cfe",
+  "dataset": "cfurh",
+  "reason": "changed",
+  "since": "2026-10-03T11:50:14+00:00"
+ },
+ {
+  "id": "df09e492-0927-4873-8488-31d854a14709",
+  "dataset": "cfurh",
+  "reason": "changed",
+  "since": "2026-10-03T11:50:14+00:00"
+ },
+ {
+  "id": "6ad76203-68d8-48c1-a338-a6ff5e6167a7",
+  "dataset": "cfurh",
+  "reason": "changed",
+  "since": "2026-10-03T11:50:16+00:00"
+ },
+ {
+  "id": "93e532ec-5060-4ff8-8881-963624f2f065",
+  "dataset": "cfurh",
+  "reason": "changed",
+  "since": "2026-10-03T11:51:14+00:00"
+ },
+ {
+  "id": "a4060165-3a0c-404f-926c-83901088b67c",
+  "dataset": "componentes-tarifarias",
+  "reason": "changed",
+  "since": "2026-10-03T12:02:25+00:00"
+ },
+ {
+  "id": "e8717aa8-2521-453f-bf16-fbb9a16eea39",
+  "dataset": "componentes-tarifarias",
+  "reason": "changed",
+  "since": "2026-10-03T12:04:14+00:00"
+ },
+ {
+  "id": "4493985c-baea-429c-9df5-3030422c71d7",
+  "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
+  "reason": "changed",
+  "since": "2026-10-03T12:16:53+00:00"
+ },
+ {
+  "id": "b4dbdc46-a8a3-4e5d-9565-9f23b1156496",
+  "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
+  "reason": "changed",
+  "since": "2026-10-03T12:17:46+00:00"
+ },
+ {
+  "id": "33818f8c-bb8f-4a81-b89b-cacbd0a79e75",
+  "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
+  "reason": "changed",
+  "since": "2026-10-03T12:18:16+00:00"
+ },
+ {
+  "id": "364d945e-a18b-4111-ab1b-73aa0f7b06b1",
+  "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
+  "reason": "changed",
+  "since": "2026-10-03T12:18:26+00:00"
+ },
+ {
+  "id": "8cdad784-07c1-4a67-a285-2f2adce5df70",
+  "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
+  "reason": "changed",
+  "since": "2026-10-03T12:20:37+00:00"
+ },
+ {
+  "id": "fd69e1dd-fd66-4269-b60c-cc0b7eb221b4",
+  "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
+  "reason": "changed",
+  "since": "2026-10-03T12:23:05+00:00"
+ },
+ {
+  "id": "3c780aca-38cf-406d-9d45-f07a9216eef2",
+  "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
+  "reason": "changed",
+  "since": "2026-10-03T12:23:08+00:00"
+ },
+ {
+  "id": "17fc99b7-e707-4ec4-9553-a43d7a41f7a6",
+  "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
+  "reason": "changed",
+  "since": "2026-10-03T12:23:15+00:00"
+ },
+ {
+  "id": "153c0076-28cf-45ac-bf6e-e9ac29b25d21",
+  "dataset": "indicadores-de-qualidade-do-atendimento-telefonico",
+  "reason": "changed",
+  "since": "2026-10-03T12:24:32+00:00"
+ },
+ {
+  "id": "6c3e074c-d9ab-4840-8c6c-7993faa36ddb",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "changed",
+  "since": "2026-10-03T12:44:22+00:00"
+ },
+ {
+  "id": "426f4fb2-6a89-452a-8236-cc48153ee607",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "changed",
+  "since": "2026-10-03T12:44:31+00:00"
+ },
+ {
+  "id": "4af32411-da8b-492c-ae15-8f615e35d2e2",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "changed",
+  "since": "2026-10-03T12:46:31+00:00"
+ },
+ {
+  "id": "83839c4e-78f9-4f68-bcb7-51dcfcf05c9c",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "changed",
+  "since": "2026-10-03T12:49:20+00:00"
+ },
+ {
+  "id": "8c42c510-6549-4285-817c-58738914be19",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "changed",
+  "since": "2026-10-03T12:52:17+00:00"
+ },
+ {
+  "id": "290433a8-a5f8-4117-a450-44d3e62ead22",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "changed",
+  "since": "2026-10-03T12:54:15+00:00"
+ },
+ {
+  "id": "908f7282-7a43-41e9-8303-edcab69c2706",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "changed",
+  "since": "2026-10-03T12:54:28+00:00"
+ },
+ {
+  "id": "0060645e-c42c-454d-af8c-f0c06b0988ab",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "changed",
+  "since": "2026-10-03T12:57:06+00:00"
+ },
+ {
+  "id": "a9ea21c7-1b2b-4c91-97b4-3d9732c77cec",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "changed",
+  "since": "2026-10-03T13:00:49+00:00"
+ },
+ {
+  "id": "d0f619ef-1bbe-40d1-849c-35b47172df8e",
+  "dataset": "manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
+  "reason": "changed",
+  "since": "2026-10-03T13:07:27+00:00"
+ },
+ {
+  "id": "93d50388-a4dd-4c31-a9e6-065ade8078f3",
+  "dataset": "ouvidoria-setorial-aneel",
+  "reason": "changed",
+  "since": "2026-10-03T13:36:25+00:00"
+ },
+ {
+  "id": "1ee51181-9d1f-40f1-ae6e-61719d276b28",
+  "dataset": "ouvidoria-setorial-aneel",
+  "reason": "changed",
+  "since": "2026-10-03T13:36:36+00:00"
+ },
+ {
+  "id": "b1bd71e7-d0ad-4214-9053-cbd58e9564a7",
+  "dataset": "relacao-de-empreendimentos-de-geracao-distribuida",
+  "reason": "changed",
+  "since": "2026-10-03T13:51:45+00:00"
+ },
+ {
+  "id": "5f903d78-25ae-4a3f-a2bd-9a93351c59fb",
+  "dataset": "relacao-de-empreendimentos-de-geracao-distribuida",
+  "reason": "changed",
+  "since": "2026-10-03T13:52:35+00:00"
+ },
+ {
+  "id": "49fa9ca0-f609-4ae3-a6f7-b97bd0945a3a",
+  "dataset": "relacao-de-empreendimentos-de-geracao-distribuida",
+  "reason": "changed",
+  "since": "2026-10-03T13:52:35+00:00"
+ },
+ {
+  "id": "c189442a-18f0-44eb-9c89-3b48147a4d65",
+  "dataset": "relacao-de-empreendimentos-de-geracao-distribuida",
+  "reason": "changed",
+  "since": "2026-10-03T13:53:24+00:00"
+ },
+ {
+  "id": "bd1d3783-b389-49d8-a828-a56e193d0671",
+  "dataset": "relacao-de-empreendimentos-de-geracao-distribuida",
+  "reason": "changed",
+  "since": "2026-10-03T13:53:24+00:00"
+ },
+ {
+  "id": "2f65a1b0-19b8-4360-8238-b34ab4693d55",
+  "dataset": "siga-sistema-de-informacoes-de-geracao-da-aneel",
+  "reason": "changed",
+  "since": "2026-10-03T14:12:18+00:00"
+ },
+ {
+  "id": "eca732ac-4f08-401f-b1cf-f9eff88a9b20",
+  "dataset": "sigec-sistema-de-gestao-de-creditos",
+  "reason": "changed",
+  "since": "2026-10-03T14:12:38+00:00"
+ },
+ {
+  "id": "0bf361e5-dc58-4380-95f0-b61a55ec3423",
+  "dataset": "sigec-sistema-de-gestao-de-creditos",
+  "reason": "changed",
+  "since": "2026-10-03T14:12:57+00:00"
+ },
+ {
+  "id": "5e4e4916-fd70-44c7-a0eb-92bfb4efad6b",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-03T14:15:39+00:00"
+ },
+ {
+  "id": "ce4a2151-9348-42cd-afa7-ff1144387d08",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-03T14:15:41+00:00"
+ },
+ {
+  "id": "f6e911b4-1db8-434a-88aa-6580681773b8",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-03T14:15:41+00:00"
+ },
+ {
+  "id": "d381c304-8483-4974-8055-2dc08c740ddb",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-03T14:15:41+00:00"
+ },
+ {
+  "id": "d7ba6cc7-b5dc-4acd-b38a-e9968cc0a649",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "changed",
+  "since": "2026-10-03T14:15:42+00:00"
+ },
+ {
+  "id": "fcf2906c-7c32-4b9b-a637-054e7a5234f4",
+  "dataset": "tarifas-distribuidoras-energia-eletrica",
+  "reason": "changed",
+  "since": "2026-10-03T14:16:18+00:00"
+ },
+ {
+  "id": "186f7895-2d71-4c68-93c9-57de0e5c5498",
+  "dataset": "termo-de-intimacao-ti",
+  "reason": "changed",
+  "since": "2026-10-03T14:17:19+00:00"
+ },
+ {
+  "id": "3aec3f42-5004-44e1-8b9c-4562084196f6",
+  "dataset": "termo-de-notificacao",
+  "reason": "changed",
+  "since": "2026-10-03T14:17:20+00:00"
+ },
+ {
+  "id": "84ba04eb-0a82-423c-9aac-aab4ce8102a3",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "reason": "changed",
+  "since": "2026-10-03T14:17:22+00:00"
+ },
+ {
+  "id": "9914bb13-27a9-45c0-8d31-ae2473fbecc4",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "reason": "changed",
+  "since": "2026-10-03T14:17:31+00:00"
+ },
+ {
+  "id": "0e3cb385-65d2-4b9e-ae50-f1e217e4e3bf",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "reason": "changed",
+  "since": "2026-10-03T14:17:32+00:00"
+ },
+ {
+  "id": "d4549533-b969-43fa-a1d4-7b75d7868a03",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "reason": "changed",
+  "since": "2026-10-03T14:17:34+00:00"
+ },
+ {
+  "id": "18c5fcae-1b7f-40a4-b092-d47344d4d195",
+  "dataset": "termos-de-intimacao-das-penas-dos-editais-tipe",
+  "reason": "changed",
+  "since": "2026-10-03T14:17:38+00:00"
+ },
+ {
+  "id": "3ff1ab0a-0d0c-4fc6-b52e-050ee6ea19bd",
+  "dataset": "tfsee",
+  "reason": "changed",
+  "since": "2026-10-03T14:17:39+00:00"
+ },
+ {
+  "id": "cc651c68-a8e6-485f-b1c0-ac36aab0ca47",
+  "dataset": "autos-de-infracao-cadastrados-pelas-areas-de-fiscalizacao-modelo-vigente-ate-2015",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "3ae4d382-7072-4b08-90a4-dcd187a2eae2",
+  "dataset": "base-de-dados-geografica-da-distribuidora-bdgd",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "3f60c1f9-f4a5-411e-b4bd-9559b59f62d3",
+  "dataset": "compensacao-financeira-royalties",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "c46cae4c-3434-464a-9a31-b6eedcdb8f77",
+  "dataset": "desempenho-das-concessionarias-de-transmissao",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "60a1d50d-78c1-41c7-86ec-d1511e436ce3",
+  "dataset": "fiscalizacao-economica-e-financeira",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "f27d877d-a44b-42ad-ac05-4d78ef21af6b",
+  "dataset": "geracao",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "e54ae6ed-0e4d-4fa8-b76f-7aa954c63d4c",
+  "dataset": "indicadores-quantitativos-modelo-vigente-ate-2015",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "8b4971ab-f750-4739-9059-678ab2ebeb23",
+  "dataset": "projetos-de-p-d-temas-estrategicos",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "2824cf06-c04c-4d37-b5b3-07a501b89503",
+  "dataset": "projetos-por-tipologia",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "cf7ad81b-ffcd-4252-9719-86fe4cec593b",
+  "dataset": "projetos-res-n-316-2008-219-2006-e-anteriores",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "862a0727-0dd1-4318-96fd-711b84360bb4",
+  "dataset": "projetos-retornos-e-investimentos",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "56f1c242-5017-4cef-a365-0a96fffb0f2b",
+  "dataset": "samp",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "ebe17185-a400-4f7a-a680-87c7d67f43dc",
+  "dataset": "seguranca-do-trabalho-e-das-instalacoes",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "a1366325-1071-4eeb-94bd-27915747b177",
+  "dataset": "sistema-de-gestao-da-transmissao-siget",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "e6cb4eb6-3ddb-4fc7-8780-29645f9b35cf",
+  "dataset": "tarifa-social-de-energia-eletrica-beneficiarios",
+  "reason": "error",
+  "since": ""
+ },
+ {
+  "id": "9058805d-f9bc-4a33-b88a-942475284114",
+  "dataset": "transmissao-e-distribuicao",
+  "reason": "error",
+  "since": ""
+ }
+]

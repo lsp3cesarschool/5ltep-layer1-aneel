@@ -1,0 +1,69 @@
+{
+ "fields": [
+  {
+   "name": "IdePesquisaDesenvolvProjeto",
+   "type": "number",
+   "description": "Identificador Pesquisa Desenvolvimento Projeto",
+   "declaredType": "Numérico (PK)"
+  },
+  {
+   "name": "NumResolucao",
+   "type": "string",
+   "declaredType": "Texto"
+  },
+  {
+   "name": "DscAnoReferencia",
+   "type": "string",
+   "description": "Ano de referência da coleta da informação",
+   "declaredType": "Texto"
+  },
+  {
+   "name": "QtdProjeto",
+   "type": "number",
+   "description": "Quantidade de projetos prioritários carregados durante o ano",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrEstimado",
+   "type": "number",
+   "description": "Custo do projeto prioritário por ano de submissão em Reais.",
+   "declaredType": "Decimal"
+  },
+  {
+   "name": "QtdEmpresa",
+   "type": "number",
+   "description": "Quantidade de Empresas",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DthProcessamento",
+   "type": "number",
+   "description": "Data e hora do processamento de carga automático",
+   "declaredType": "Numérico (fins de controle)"
+  },
+  {
+   "name": "MesReferencia",
+   "type": "number",
+   "description": "Mês de referência da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "number",
+   "description": "Ano de referência da coleta dos dados",
+   "declaredType": "Numérico"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "bd8709a4-6d5c-4817-84ad-011e73f3a18f",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/77ec79dc-9ef0-4e50-8dfc-7c3bc7c26caf/resource/bd8709a4-6d5c-4817-84ad-011e73f3a18f/download/dd_ig_8_1.pdf",
+   "sha256": "b4b7c4f5b75efe47df7feea138b3ab191203ece7a5f5e33c9745b5e66eac692c",
+   "oracle": {}
+  }
+ }
+}

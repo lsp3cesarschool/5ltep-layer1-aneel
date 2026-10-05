@@ -1,0 +1,52 @@
+{
+ "fields": [
+  {
+   "name": "IdeFiscTransmissaoDistribuicao",
+   "type": "number",
+   "description": "Identificador Fiscalização Transmissão Distribuição",
+   "declaredType": "Numérico (PK)"
+  },
+  {
+   "name": "DscItemFiscalizado",
+   "type": "string",
+   "description": "Descrição do Item Fiscalizado",
+   "declaredType": "Texto"
+  },
+  {
+   "name": "QtdFiscalizacao",
+   "type": "number",
+   "description": "Quantidade de Fiscalizações realizadas por item",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MesReferencia",
+   "type": "number",
+   "description": "Mês base de referência da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "number",
+   "description": "Ano base de referência da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DthProcessamento",
+   "type": "number",
+   "description": "Data e hora do processamento de carga automático",
+   "declaredType": "Numérico (fins de controle)"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "b7fe7f95-05b7-4504-b900-4b3978067e41",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/7cd37711-c998-453b-abf6-ebd6144d0565/resource/b7fe7f95-05b7-4504-b900-4b3978067e41/download/dd_ig_12_2.pdf",
+   "sha256": "8a4510005bab09f267b78bc762acf0789492ef1efeba9f71dcf0aca42fa2e8e1",
+   "oracle": {}
+  }
+ }
+}

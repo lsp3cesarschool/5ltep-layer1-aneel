@@ -1,0 +1,193 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "description": "Sigla que abrevia o nome dos Agentes regulados pela ANEEL",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "NumCPFCNPJ",
+   "type": "string",
+   "description": "CNPJ do Agente do setor elétrico conforme cadastro de agentes da ANEEL.",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "DatCompetencia",
+   "type": "date",
+   "description": "Data de competência da apuração dos repasses da Conta Bandeira",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "VlrReceitaFaturada",
+   "type": "number",
+   "description": "Valor faturado pelas distribuidoras com a aplicação dos adicionais da conta bandeira nas tarifas dos consumidores. Valores informados pelas distribuidoras por meio do SAMP.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrRepasseContaBandeira",
+   "type": "number",
+   "description": "Valores dos repasses da Conta Bandeira: Valores positivos são recebimentos de recursos pela distribuidora e os valores negativos são repasses de recursos pela distribuidora para a conta. Valores definidos pela ANEEL após a apuração dos custos de geração de energia pela CCEE.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrResultadoMCP",
+   "type": "number",
+   "description": "Custos com Mercado de Curto Prazo - MCP para o mês de competência, apurados e informados pela CCEE.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrCCEARD",
+   "type": "number",
+   "description": "Custos com efeito de disponibilidade dos contratos de CCEAR-D para o mês de competência, apurados e informados pela CCEE.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrRiscoHidroCCGFRepactuadas",
+   "type": "number",
+   "description": "Custos com Risco Hidrológico associado aos contratos CCGF e das usinas repactuadas para o mês de competência, apurados e informados pela CCEE. Esse valor é obtido após a dedução do prêmio de risco das usinas repactuadas e da previsão de risco hidrológico concedida no processo tarifário.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrRiscoHidrologicoItaipu",
+   "type": "number",
+   "description": "Custos de Risco Hidrológico associado à Itaipu para o mês de competência, apurados e informados pela CCEE.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrRiscoHidrologicoRepactuadas",
+   "type": "number",
+   "description": "Custos com Risco Hidrológico associado às usinas repactuadas para o mês de competência, apurados e informados pela CCEE.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrRiscoHidrologicoCCGF",
+   "type": "number",
+   "description": "Custos com Risco Hidrológico associado aos contratos CCGF para o mês de competência, apurados e informados pela CCEE.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrPrevisaoRiscoHidrologico",
+   "type": "number",
+   "description": "Previsão de Risco Hidrológico considerado nos processos tarifários das distribuidoras.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrPremiodeRisco",
+   "type": "number",
+   "description": "Valor do prêmio de risco associado aos contratos das usinas repactuadas.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrESSEER",
+   "type": "number",
+   "description": "Custos com Encargos de Serviço de Sistemas - ESS e Encargos de Energia de Reserva (EER) para o mês de competência, apurados e informados pela CCEE.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrRessarcimentoCONER",
+   "type": "number",
+   "description": "Recebimento do ressarcimento da CONER para o mês de competência, apurado e informado pela CCEE.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrCVAEnergiaMesAnterior",
+   "type": "number",
+   "description": "Custos acumulados não amortizados com CVA Energia para o mês anterior ao de competência da apuração da Conta Bandeira.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrESSEERMesAnterior",
+   "type": "number",
+   "description": "Custos acumulados não amortizados com Encargos de Serviço de Sistemas - ESS e Encargos de Energia de Reserva (EER) para o mês anterior ao de competência da apuração da Conta Bandeira.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrExposicaoInvoluntariaMesAnt",
+   "type": "number",
+   "description": "Custos acumulados não amortizados com exposição involuntária no mercado de curto prazo para o mês anterior ao de competência da apuração da Conta Bandeira.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrCVAEnergiaReceitaAlocada",
+   "type": "number",
+   "description": "Receita alocada para a cobertura dos custos de CVA de Energia no mês de competência",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrCVAESSEERReceitaAlocada",
+   "type": "number",
+   "description": "Receita alocada para a cobertura dos custos de ESS /EER no mês de competência.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrExposicaoInvolunReceitaAloc",
+   "type": "number",
+   "description": "Receita alocada para a cobertura dos custos de exposição involuntária no mês de competência",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrCVAEnergiaAposRepasse",
+   "type": "number",
+   "description": "Custos acumulados não amortizados com CVA Energia após repasse.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrCVAESSEERAposRepasse",
+   "type": "number",
+   "description": "Custos acumulados não amortizados com Encargos de Serviço de Sistemas - ESS e Encargos de Energia de Reserva (EER) após repasse.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrExposicaoInvolunAposRepasse",
+   "type": "number",
+   "description": "Custos acumulados não amortizadas com exposição involuntária no mercado de curto prazo após repasse.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrAjusteRepasse",
+   "type": "number",
+   "description": "Ajuste para repasses menores do que R$ 1,00",
+   "declaredType": "Numérico"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "c4419e4a-d1ad-4e1e-a490-1895fa9abd4f",
+   "dictionary_name": "Dicionário de Dados - Conta Bandeira",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c/resource/c4419e4a-d1ad-4e1e-a490-1895fa9abd4f/download/dm-bandeira-tarifaria-conta-bandeira.pdf",
+   "sha256": "5038c79e4289045c0cd7d70a8b190faa1c940b4b35cb5e8bf57d38ee82304002",
+   "oracle": {
+    "recall": 0.9231,
+    "precision": 0.9231,
+    "exact_match": 0.8846,
+    "levenshtein": 0.9642,
+    "missing_from_pdf": [
+     "NumCNPJDistribuidora",
+     "VlrRiscoHidrologicoCCGFRepactuadas"
+    ],
+    "not_in_file": [
+     "NumCPFCNPJ",
+     "VlrRiscoHidroCCGFRepactuadas"
+    ]
+   }
+  }
+ }
+}

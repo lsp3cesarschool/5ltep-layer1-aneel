@@ -1,0 +1,180 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscResolucaoHomologatoria",
+   "type": "string",
+   "description": "Informação sobre o número e data da Resolução Homologatória",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "SigAgente",
+   "type": "number",
+   "description": "Sigla que abrevia o nome dos Agentes regulados pela ANEEL",
+   "declaredType": "Numérico",
+   "declaredSize": 10
+  },
+  {
+   "name": "NumCPFCNPJ",
+   "type": "string",
+   "description": "Número do CNPJ ou CPF do agente fiscalizado (órgão).",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "DatInicioVigencia",
+   "type": "date",
+   "description": "Informação sobre a data de início da vigência das tarifas",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatFimVigencia",
+   "type": "date",
+   "description": "Informação sobre a data de fim da vigência das tarifas",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscBaseTarifaria",
+   "type": "string",
+   "description": "Tarifa de Aplicação, Base Econômica e CVA. A Tarifa de Aplicação é a tarifa utilizada pela distribuidora para o faturamento dos acessantes (consumidores, geradores e distribuidoras), cujos valores constam na Resolução Homologatória. Já a Tarifa Base Econômica e CVA referem-se a valores utilizados estritamente para cálculo tarifário.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscSubGrupoTarifario",
+   "type": "string",
+   "description": "Grupamento de unidades consumidoras de acordo com os grupos tarifários: A1 - tensão de fornecimento igual ou superior a 230 kV A2 - tensão de fornecimento de 88 kV a 138 kV A3 - tensão de fornecimento de 69 kV A3a - tensão de fornecimento de 30 kV a 44 kV A4 - tensão de fornecimento de 2,3 kV a 25 kV AS - subterrâneo B1 - residencial B2 - rural B3 - demais classes B4 - iluminação pública",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "DscModalidadeTarifaria",
+   "type": "string",
+   "description": "Conjunto de tarifas aplicáveis às componentes de consumo de energia elétrica e demanda, definidas pela Resolução Normativa nº 1000/2021: convencional; horária (verde e azul), branca, pré-pagamento, geração e distribuição.",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "DscClasseConsumidor",
+   "type": "string",
+   "description": "Classificação do tipo de unidade consumidora conforme a finalidade de utilização da energia elétrica, definido na Resolução Normativa nº 1000/2021, e aplicação tarifária: residencial; rural; iluminação pública e não se aplica (industrial; comércio, serviços e outras atividades; poder público; serviço público e consumo próprio).",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "DscSubClasseConsumidor",
+   "type": "string",
+   "description": "Classificação do tipo de unidade consumidora, como subdivisão das classes, conforme a finalidade de utilização da energia elétrica, definido na Resolução Normativa nº 1000/2021",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "DscDetalheConsumidor",
+   "type": "string",
+   "description": "Conjunto complementar de variáveis utilizadas na definição das tarifas quanto a critérios de aplicação ou universo de acessantes elegíveis",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "DscPostoTarifario",
+   "type": "string",
+   "description": "Identificação do posto tarifário, definido como período em horas para aplicação das tarifas de forma diferenciada ao longo do dia conforme a Resolução Normativa nº 1000/2021.",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "DscUnidade",
+   "type": "string",
+   "description": "Unidade da tarifa, conforme a grandeza elétrica aplicável, podendo ser R$/kW e R$/MWh para TUSD e R$/MWh para TE.",
+   "constraints": {
+    "maxLength": 5
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 5
+  },
+  {
+   "name": "SigAgenteAcessante",
+   "type": "string",
+   "description": "Aplicável nos casos de tarifas nominais, aplicáveis especificamente a um usuário (distribuidora, unidade consumidora ou gerador). A sigla informada conforme registrada no cadastro de agentes da ANEEL. Ex: AmE, CEMIG-D, EMT, DCELT, CERFOX, CEPRAG, etc.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DscComponenteTarifario",
+   "type": "string",
+   "description": "Descrição do componente tarifário definido conforme procedimentos descritos no Módulo 7 do PRORET: \"Componentes da Tarifa de Uso do Sistema de Distribuição - TUSD e da Tarifa de Energia – TE.”",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "VlrComponenteTarifario",
+   "type": "number",
+   "description": "Apresenta o valor das componentes da TE e da TUSD conforme DscUnidade.",
+   "declaredType": "Numérico"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "cb1d06a8-5b4c-45a0-bb41-9e9546cc578b",
+   "dictionary_name": "Dicionário de metadados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/cb1d06a8-5b4c-45a0-bb41-9e9546cc578b/download/dm-componentes-tarifarias.pdf",
+   "sha256": "0c0f4d0cf9a102227ad8faa34c55c92a4b55e8fef0b27ce38dcb261576ffae17",
+   "oracle": {
+    "recall": 0.8824,
+    "precision": 0.8824,
+    "exact_match": 0.8824,
+    "levenshtein": 0.9712,
+    "missing_from_pdf": [
+     "SigNomeAgente",
+     "SigNomeAgenteAcessante"
+    ],
+    "not_in_file": [
+     "SigAgente",
+     "SigAgenteAcessante"
+    ]
+   }
+  }
+ }
+}

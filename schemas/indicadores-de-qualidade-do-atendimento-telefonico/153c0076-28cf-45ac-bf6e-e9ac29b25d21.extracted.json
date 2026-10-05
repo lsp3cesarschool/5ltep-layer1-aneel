@@ -1,0 +1,241 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "description": "Sigla que abrevia o nome dos Agentes regulados pela ANEEL",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "NumCPFCNPJ",
+   "type": "string",
+   "description": "CNPJ do Agente do setor elétrico conforme cadastro de agentes da ANEEL",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "SigUF",
+   "type": "string",
+   "description": "Sigla da Unidade da Federação (UF) à qual os dados do indicador estão associados.",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "NomRegiao",
+   "type": "string",
+   "description": "Nome da região geográfica brasileira (Norte, Nordeste, Centro-Oeste, Sudeste ou Sul).",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "number",
+   "description": "Ano de referência dos indicadores de atendimento telefônico.",
+   "declaredType": "Numérico",
+   "declaredSize": 4
+  },
+  {
+   "name": "MesReferencia",
+   "type": "number",
+   "description": "Mês de referência dos indicadores de atendimento telefônico.",
+   "declaredType": "Numérico",
+   "declaredSize": 2
+  },
+  {
+   "name": "PctINS",
+   "type": "number",
+   "description": "Percentual do Indicador de Nível de Serviço (INS) apurado para o período de referência. O INS mede a capacidade da central de atendimento em atender as chamadas dentro do padrão regulatório estabelecido (Indicador de Nível de Serviço – INS deve ser maior ou igual a 85%). O INS é a razão entre o total de chamadas atendidas em tempo menor ou igual a 30 segundos, e a diferença entre o total de chamadas recebidas (atendidas mais abandonadas) e o total de chamadas abandonadas em tempo menor ou igual a 30 segundos, em termos percentuais, apenas levando-se em consideração os períodos típicos.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctINSCheio",
+   "type": "number",
+   "description": "Valor do Indicador de Nível de Serviço Cheio (INSCheio) expresso em percentual completo (sem arredondamentos ou agregações aplicadas para divulgação). O INSCheio é a razão entre o total de chamadas atendidas em tempo menor ou igual a 30 segundos, e a diferença entre o total de chamadas recebidas (atendidas mais abandonadas) e o total de chamadas abandonadas em tempo menor ou igual a 30 segundos, em termos percentuais, levando-se em consideração todos os períodos típicos e atípicos.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctVariacaoINS",
+   "type": "number",
+   "description": "Variação percentual do Indicador de Nível de Serviço Cheio (INSCheio) em relação ao Indicador de Nível de Serviço (INS).",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctIAb",
+   "type": "number",
+   "description": "Percentual do Indicador de Abandono (IAb) apurado para o período de referência. Representa a proporção de chamadas abandonadas antes da conclusão do atendimento (Indicador de Abandono – IAb deve ser menor ou igual a 4%). O IAb é a razão entre o total de chamadas abandonadas em tempo maior que 30 segundos e a diferença entre o total de chamadas recebidas (atendidas mais abandonadas) e o total de chamadas abandonadas em tempo menor ou igual a 30 segundos, em termos percentuais, apenas levando-se em consideração os períodos típicos.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctIAbCheio",
+   "type": "number",
+   "description": "Valor completo do Indicador de Abandono Cheio (IAbCheio), em percentual. O IAbCheio é a razão entre o total de chamadas abandonadas em tempo maior que 30 segundos e a diferença entre o total de chamadas recebidas (atendidas mais abandonadas) e o total de chamadas abandonadas em tempo menor ou igual a 30 segundos, em termos percentuais, levando-se em consideração todos os períodos típicos e atípicos.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctVariacaoIAb",
+   "type": "number",
+   "description": "Variação percentual do Indicador de Abandono Cheio (IAbCheio) em relação ao Indicador de Abandono (IAb).",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctICO",
+   "type": "number",
+   "description": "Percentual do Indicador de Chamadas Ocupadas (ICO) apurado para o período de referência. Representa a proporção de chamadas que não puderam ser completadas devido à indisponibilidade de atendimento (Indicador de Chamadas Ocupadas – ICO deve ser menor ou igual a 2%). O ICO é a razão entre o total de chamadas ocupadas e o total de chamadas oferecidas, em termos percentuais, apenas levando-se em consideração os períodos típicos.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctICOCheio",
+   "type": "number",
+   "description": "Valor completo do Indicador de Chamadas Ocupadas Cheio (ICOCheio), em percentual. O ICOCheio é a razão entre o total de chamadas ocupadas e o total de chamadas oferecidas, em termos percentuais, levando-se em consideração todos os períodos típicos e atípicos.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctVariacaoICO",
+   "type": "number",
+   "description": "Variação percentual do Indicador de Chamadas Ocupadas Cheio (ICOCheio) em relação Indicador de Chamadas Ocupadas (ICO).",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "QtdChoc",
+   "type": "number",
+   "description": "Quantidade de chamadas ocupadas registradas no período (com expurgo dos períodos atípicos).",
+   "declaredType": "Numérico",
+   "declaredSize": 20
+  },
+  {
+   "name": "QtdChocCheio",
+   "type": "number",
+   "description": "Quantidade total de chamadas ocupadas registradas no período (sem expurgo dos períodos atípicos).",
+   "declaredType": "Numérico",
+   "declaredSize": 20
+  },
+  {
+   "name": "PctVariacaoChoc",
+   "type": "number",
+   "description": "Variação percentual da Quantidade total de chamadas ocupadas registradas no período (sem expurgo dos períodos atípicos) em relação a Quantidade de chamadas ocupadas registradas no período (com expurgo dos períodos atípicos).",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "QtdChof",
+   "type": "number",
+   "description": "Quantidade de chamadas oferecidas à central de atendimento telefônico no período de referência (com expurgo dos períodos atípicos).",
+   "declaredType": "Numérico",
+   "declaredSize": 20
+  },
+  {
+   "name": "QtdChofCheio",
+   "type": "number",
+   "description": "Quantidade total de chamadas oferecidas à central de atendimento no período (sem expurgo dos períodos atípicos).",
+   "declaredType": "Numérico",
+   "declaredSize": 20
+  },
+  {
+   "name": "PctVariacaoChof",
+   "type": "number",
+   "description": "Variação percentual da Quantidade total de chamadas oferecidas registradas no período (sem expurgo dos períodos atípicos) em relação a Quantidade de chamadas oferecidas registradas no período (com expurgo dos períodos atípicos).",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "QtdChamadasAtendidas",
+   "type": "number",
+   "description": "Quantidade de chamadas atendidas via teleatendimento no período de referência (com expurgo dos períodos atípicos).",
+   "declaredType": "Numérico",
+   "declaredSize": 20
+  },
+  {
+   "name": "QtdChamadasAtendidasCheio",
+   "type": "number",
+   "description": "Quantidade total de chamadas atendidas (sem expurgo dos períodos atípicos).",
+   "declaredType": "Numérico",
+   "declaredSize": 20
+  },
+  {
+   "name": "QtdChamadasAbandonadas",
+   "type": "number",
+   "description": "Quantidade de chamadas abandonadas pelos consumidores antes da conclusão do atendimento (com expurgo dos períodos atípicos).",
+   "declaredType": "Numérico",
+   "declaredSize": 20
+  },
+  {
+   "name": "QtdChamadasAbandonadasCheio",
+   "type": "number",
+   "description": "Quantidade total de chamadas abandonadas pelos consumidores antes da conclusão do atendimento (sem expurgo dos períodos atípicos).",
+   "declaredType": "Numérico",
+   "declaredSize": 20
+  },
+  {
+   "name": "PctVariacaoChamadasAbandonadas",
+   "type": "number",
+   "description": "Variação percentual da quantidade total de chamadas abandonadas (sem expurgo dos períodos atípicos) em relação a Quantidade total de chamadas abandonadas (com expurgo dos períodos atípicos).",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "QtdChamadasNaoAtendidas",
+   "type": "number",
+   "description": "Quantidade total de chamadas não atendidas pela central de teleatendimento (com expurgo dos períodos atípicos).",
+   "declaredType": "Numérico",
+   "declaredSize": 20
+  },
+  {
+   "name": "QtdChamadasNaoAtendidasCheio",
+   "type": "number",
+   "description": "Quantidade total de chamadas não atendidas pela central de teleatendimento (sem expurgo dos períodos atípicos).",
+   "declaredType": "Numérico",
+   "declaredSize": 20
+  },
+  {
+   "name": "PctVariacaoChamadasNaoAtendidas",
+   "type": "number",
+   "description": "Variação percentual da quantidade total de chamadas não atendidas (sem expurgo dos períodos atípicos) em relação quantidade de chamadas não atendidas pela central de atendimento (com expurgo dos períodos atípicos).",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DthCarga",
+   "type": "datetime",
+   "description": "Data e hora da carga, atualização ou processamento do registro na base de dados da ANEEL.",
+   "declaredType": "Data e hora"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "18d06765-6f43-454f-b0fb-360abadbeb6f",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/df624eb6-f1ed-46ed-bf84-bf641f97b4cb/resource/18d06765-6f43-454f-b0fb-360abadbeb6f/download/dm-indqual_atendimentotelefonico.pdf",
+   "sha256": "a0b16f25703b44f38da84d0387ac76fc8b3fe6fe3c2530977cde4ba51c57bc83",
+   "oracle": {
+    "recall": 0.9677,
+    "precision": 0.9677,
+    "exact_match": 0.9677,
+    "levenshtein": 0.9903,
+    "missing_from_pdf": [
+     "NumCNPJ"
+    ],
+    "not_in_file": [
+     "NumCPFCNPJ"
+    ]
+   }
+  }
+ }
+}

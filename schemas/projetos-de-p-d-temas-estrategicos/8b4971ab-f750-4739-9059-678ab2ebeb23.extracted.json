@@ -1,0 +1,64 @@
+{
+ "fields": [
+  {
+   "name": "IdePesquisaDesenvolvimentoTema",
+   "type": "number",
+   "description": "Identificador Pesquisa Desenvolvimento Tema",
+   "declaredType": "Numérico (PK)"
+  },
+  {
+   "name": "NumChamada",
+   "type": "number",
+   "description": "Número da Chamada",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DscProjeto",
+   "type": "string",
+   "description": "Descrição do Projeto",
+   "declaredType": "Texto"
+  },
+  {
+   "name": "VlrEstimado",
+   "type": "number",
+   "description": "Valor Estimado do Projeto em Reais",
+   "declaredType": "Decimal"
+  },
+  {
+   "name": "NumResolucao",
+   "type": "number",
+   "description": "Número da Resolução Normativa",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MesReferencia",
+   "type": "number",
+   "description": "Mes de referência da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "number",
+   "description": "Ano de referência da coleta dos dados",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DthProcessamento",
+   "type": "number",
+   "description": "Data e hora do processamento de carga automático",
+   "declaredType": "Numérico (fins de controle)"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "f030087c-f34f-4054-a277-e009b7a8cfc6",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/2df0845e-d782-413a-85fc-4cd79d66c34d/resource/f030087c-f34f-4054-a277-e009b7a8cfc6/download/dd_ig_8_2.pdf",
+   "sha256": "42e5cb1622eaa94d56616d19450ea49847cf8659d523e227ad218b5636affd47",
+   "oracle": {}
+  }
+ }
+}

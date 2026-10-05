@@ -1,0 +1,119 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "NumCPFCNPJ",
+   "type": "string",
+   "description": "Número do CNPJ ou CPF do agente fiscalizado (órgão).",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "description": "Nome pelo qual a pessoa jurídica é registrada na Junta Comercial.",
+   "constraints": {
+    "maxLength": 400
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 400
+  },
+  {
+   "name": "IdeNuceloCEG",
+   "type": "string",
+   "description": "Núcleo do Código Único de Empreendimentos de Geração",
+   "constraints": {
+    "maxLength": 8
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 8
+  },
+  {
+   "name": "CodCEG",
+   "type": "string",
+   "description": "Código Único de Empreendimentos de Geração: GGG.FF.UF.999999-D.VV. Onde: GGG é o Tipo de Geração, FF é a Fonte, UF é a UF principal, 999999 é o Núcleo do CEG, D é o dígito verificador e VV é a versão (Se 1 é a primeira, se maior que 1 sofreu alteração)",
+   "constraints": {
+    "maxLength": 21
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 21
+  },
+  {
+   "name": "NomEmpreendimento",
+   "type": "string",
+   "description": "Nome do empreendimento de geração.",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "PctParticipacao",
+   "type": "number",
+   "description": "Descritivo do percentual de participação por agente na propriedade do empreendimento.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DscRegimeExploracao",
+   "type": "string",
+   "description": "Descrição do tipo de regime de exploração.",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "SigTipogeracao",
+   "type": "string",
+   "description": "Abreviação do tipo de geração. Classificado em: UTN - Usina Termonuclear UTE - Usina Termelétrica UHE - Usina Hidrelétrica UFV - Central Geradora Solar Fotovoltaica PCH - Pequena Central Hidrelétrica EOL - Central Geradora Eólica CGU - Central Geradora Undi-elétrica CGH - Central Geradora Hidrelétrica",
+   "constraints": {
+    "maxLength": 3
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 3
+  },
+  {
+   "name": "DscFaseUsina",
+   "type": "string",
+   "description": "Fase atual do empreendimento, desde etapas anteriores à outorga até a revogação. Neste conjunto de dados, constam apenas usinas com outorga válida (Operação, Construção ou Construção não iniciada)",
+   "constraints": {
+    "maxLength": 60
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 60
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "26cad4e9-fa05-4962-be79-0ab9dcfc03e1",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/283a0172-3966-49e7-ae45-d2885ad17b03/resource/26cad4e9-fa05-4962-be79-0ab9dcfc03e1/download/dm-agentes-de-geracao-de-energia-eletrica.pdf",
+   "sha256": "b9525a8cc6fece2157fb99cad51b31650e4c175c7c7ddade70dfb60bedfff2d5",
+   "oracle": {
+    "recall": 0.9,
+    "precision": 0.9,
+    "exact_match": 0.8,
+    "levenshtein": 0.9762,
+    "missing_from_pdf": [
+     "IdeNucleoCEG"
+    ],
+    "not_in_file": [
+     "IdeNuceloCEG"
+    ]
+   }
+  }
+ }
+}

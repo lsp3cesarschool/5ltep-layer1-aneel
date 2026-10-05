@@ -1,0 +1,183 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "NumCNPJAgenteDistribuidora",
+   "type": "string",
+   "description": "CNPJ do Agente do setor elétrico conforme cadastro de agentes da ANEEL",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "SigAgenteDistribuidora",
+   "type": "string",
+   "description": "Sigla que abrevia o nome dos agentes econômicos regulados pela ANEEL. Ex: AmE, Cemig, EDP ES, CEDRAP, CERIS, EMG etc.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "NomAgenteDistribuidora",
+   "type": "string",
+   "description": "Nome pelo qual a pessoa jurídica é registrada na Junta Comercial.",
+   "constraints": {
+    "maxLength": 400
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 400
+  },
+  {
+   "name": "DscClassificacao",
+   "type": "string",
+   "description": "Descrição da classificação do Agente por tipo de concessão da distribuidora no cadastro de agentes da ANEEL, por exemplo, concessionária, permissionária e outros.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "NomTipoMercado",
+   "type": "string",
+   "description": "Identifica a característica básica do mercado recebido da concessionária, conforme a seguir: - Sistema Regular: informações do mercado atendido pelo Sistema Interligado - SIN; - Sistema Isolado: informações do mercado atendido pelo Sistema Isolado - SI; - Sistema Individual: informações de Sistema Individual se Geração de Energia Elétrica com Fonte Intermitente (SIGFI) conforme Resolução Normativa REN nº 493/2012; - Sistema de Compensação: informações de microgeração e minigeração distribuída aos sistemas de distribuição de energia elétrica conforme Resolução Normativa - REN nº 482/2012; - RTE: informações de Recomposição Tarifária Extraordinária - RTE com base nos §§ 1º e 16º do art. 4º da Lei nº 10.438, de 26 de abril de 2002. - Refaturamento: representa as informações de energia elétrica de meses anteriores apresentadas no mês em curso;",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscSubGrupoTarifario",
+   "type": "string",
+   "description": "Subgrupos tarifários, definidos pela Resolução Normativa nº 1000/2021., distribuídos em: A1 - tensão de fornecimento igual ou superior a 230 kV A2 - tensão de fornecimento de 88 kV a 138 kV A3 - tensão de fornecimento de 69 kV A3a - tensão de fornecimento de 30 kV a 44 kV A4 - tensão de fornecimento de 2,3 kV a 25 kV AS - subterrâneo B1 - residencial B2 - rural B3 - demais classes B4 - iluminação pública",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "DscClasseConsumoMercado",
+   "type": "string",
+   "description": "Descrição da Classe de atendimento conforme a Resolução Normativa nº 1000/2021: - Comercial - Consumo próprio - Iluminação pública - Industrial - Não se aplica - Poder público - Residencial - Rural - Serviço público",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscSubClasseConsumidor",
+   "type": "string",
+   "description": "Detalhamento da classe de atendimento conforme a Resolução Normativa nº 1000/2021: - Agropecuária rural - Água, esgoto e saneamento - Aquicultura - Cooperativa de eletrificação rural - Iluminação pública – B4a - Iluminação pública – B4b - Iluminação pública – B4c - Não se aplica - Residencial - Residencial baixa renda – faixa 01 - Residencial baixa renda – faixa 02 - Residencial baixa renda – faixa 03 - Residencial baixa renda – faixa 04 - Serviço público de irrigação rural - Tração elétrica",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscDetalheConsumidor",
+   "type": "string",
+   "description": "São descrições das características adicionais do consumidor: - APE - Cooperativas autorizadas - Cooperativas autorizadas PR - Dupla contratação - ERC - Fonte incentivada - IRRIG./AQUIC. - IRRIG./AQUIC. PR - Não se aplica",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "IdeNucleoCEG",
+   "type": "number",
+   "description": "Núcleo numérico do código CEG (Código Empreendimento Geração)",
+   "declaredType": "Numérico",
+   "declaredSize": 5
+  },
+  {
+   "name": "NumCNPJAgenteAcessante",
+   "type": "string",
+   "description": "CNPJ do Agente do setor elétrico conforme cadastro de agentes da ANEEL. Para geradores, deve-se buscar a chave no campo “IdeAgenteAcessante”.",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "DscPostoTarifario",
+   "type": "string",
+   "description": "Identifica o posto tarifário dentro da fonte de dados, conforme Resolução Normativa nº 1000/2021 e Submódulo 10.6 do PRORET, classificados em - Fora ponta - Intermediário - Não se aplica - Ponta",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscOpcaoEnergia",
+   "type": "string",
+   "description": "Opção de compra de energia segregada em: - Cativo: Consumidor que adquire a energia da distribuidora detentora da concessão ou permissão na área onde se localizam as instalações da unidade consumidora. É faturado pela TUSD – Tarifa de Uso do Sistema de Distribuição e pela TE – Tarifa de Energia. - Livre: consumidores que exerceram a opção de compra de energia de outro fornecedor distinto da distribuidora local. - Distribuição: distribuidoras conectadas ao sistema de distribuição. - Geração: centrais geradoras conectadas ao sistema de distribuição. - Suprimento: distribuidoras conectadas ao sistema de distribuição.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscDetalheMercado",
+   "type": "string",
+   "description": "São as descrições das informações apresentadas na métrica VlrMercado.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DatCompetencia",
+   "type": "date",
+   "description": "Identificador da data de competência em que o dado foi gerado no sistema",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "VlrMercado",
+   "type": "number",
+   "description": "Métrica utilizada para computar o valor de mercado.",
+   "declaredType": "Numérico"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "7dbb8074-9168-4e11-9380-1aab3c9ebba3",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/7dbb8074-9168-4e11-9380-1aab3c9ebba3/download/dd-samp.pdf",
+   "sha256": "f2d7362239430b267f0da96f13c7cb1c64526a753a6a5524b1d7dd6fbee1f5c0",
+   "oracle": {
+    "recall": 0.8889,
+    "precision": 0.9412,
+    "exact_match": 0.8333,
+    "levenshtein": 0.9529,
+    "missing_from_pdf": [
+     "DscModalidadeTarifaria",
+     "NomAgenteAcessante"
+    ],
+    "not_in_file": [
+     "DscClassificacao"
+    ]
+   }
+  }
+ }
+}

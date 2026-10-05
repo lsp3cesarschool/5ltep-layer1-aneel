@@ -1,0 +1,144 @@
+{
+ "fields": [
+  {
+   "name": "Abertos",
+   "type": "any",
+   "description": "Campo",
+   "declaredType": "",
+   "mappingNote": "type not declared"
+  },
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Date",
+   "declaredSize": 10
+  },
+  {
+   "name": "IdcAgenteSumarizacao",
+   "type": "integer",
+   "description": "indicador de contagem para agente de Sumarizacao",
+   "declaredType": "Int",
+   "declaredSize": 10
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "description": "Sigla do Agente",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Varchar",
+   "declaredSize": 20
+  },
+  {
+   "name": "NumCpfCnpj",
+   "type": "string",
+   "description": "Numero do Cpf ou CNPJ do agente",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Varchar",
+   "declaredSize": 14
+  },
+  {
+   "name": "DscTipoOutorga",
+   "type": "string",
+   "description": "Descrição do tipo de outorga Descrição do tipo de outorga",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Varchar",
+   "declaredSize": 10
+  },
+  {
+   "name": "SigUF",
+   "type": "string",
+   "description": "Sigla da unidade federativa",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Varchar",
+   "declaredSize": 2
+  },
+  {
+   "name": "DscRegiao",
+   "type": "string",
+   "description": "Descrição da região",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Varchar",
+   "declaredSize": 20
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "integer",
+   "description": "Ano de referência (WHERE [Ano] BETWEEN YEAR(GETDATE()) - 10 AND YEAR(GETDATE()) + 4)",
+   "declaredType": "int",
+   "declaredSize": 10
+  },
+  {
+   "name": "DscTipoObra",
+   "type": "string",
+   "description": "Descrição do tipo de obra",
+   "constraints": {
+    "maxLength": 35
+   },
+   "declaredType": "Varchar",
+   "declaredSize": 35
+  },
+  {
+   "name": "DscTipoObraClasse",
+   "type": "string",
+   "description": "Descrição da classe da obra",
+   "constraints": {
+    "maxLength": 35
+   },
+   "declaredType": "Varchar",
+   "declaredSize": 35
+  },
+  {
+   "name": "VlrTotalRealizado",
+   "type": "string",
+   "description": "Valor monetário total realizado",
+   "constraints": {
+    "maxLength": 4000
+   },
+   "declaredType": "Varchar",
+   "declaredSize": 4000
+  },
+  {
+   "name": "VlrTotalPlanejado",
+   "type": "string",
+   "description": "Valor monetário total planejado",
+   "constraints": {
+    "maxLength": 4000
+   },
+   "declaredType": "Varchar",
+   "declaredSize": 4000
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "e3229241-fbe1-48e4-812b-397c6f2cce55",
+   "dictionary_name": "Dicionário de Dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/6838f13d-7ea5-4482-a2b9-1515fa56ef42/resource/e3229241-fbe1-48e4-812b-397c6f2cce55/download/dm-pdd.pdf",
+   "sha256": "1b7e230752c0fcfb71fff5efbf80372697a03ea8a88fdadeb0f63df496c2e4a0",
+   "oracle": {
+    "recall": 1.0,
+    "precision": 0.8462,
+    "exact_match": 0.9091,
+    "levenshtein": 0.9545,
+    "missing_from_pdf": [],
+    "not_in_file": [
+     "Abertos",
+     "IdcAgenteSumarizacao"
+    ]
+   }
+  }
+ }
+}

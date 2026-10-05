@@ -1,0 +1,46 @@
+{
+ "fields": [
+  {
+   "name": "IdeDesempenhoConcessionaria",
+   "type": "number",
+   "description": "Identificador Desempenho Concessionaria",
+   "declaredType": "Numérico (PK)"
+  },
+  {
+   "name": "DscIndicadorDesempenho",
+   "type": "string",
+   "description": "Descrição dos indicadores de desempenho",
+   "declaredType": "Texto"
+  },
+  {
+   "name": "VrDeducaoReceita",
+   "type": "number",
+   "description": "Valor adicional pago somente às concessionárias de transmissão não licitadas, devido à eficiência apresentada no período.",
+   "declaredType": "Decimal"
+  },
+  {
+   "name": "DscPeriodoReferencia",
+   "type": "number",
+   "description": "Período base da informação (mês e ano)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DthProcessamento",
+   "type": "number",
+   "description": "Data e hora do processamento de carga automático",
+   "declaredType": "Numérico"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "e369459d-2fd6-40b7-a55c-79076ffa0222",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/2b26eeff-b2c2-4511-8fd5-1e6920d7d7be/resource/e369459d-2fd6-40b7-a55c-79076ffa0222/download/dd_ig_6_4.pdf",
+   "sha256": "4d98fe5e566889cb2cc1c33bc051870b1046ea914f2b4678a25dc77c7bd53e3f",
+   "oracle": {}
+  }
+ }
+}

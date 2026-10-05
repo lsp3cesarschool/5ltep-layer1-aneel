@@ -1,0 +1,770 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "IdeNuceloCEG",
+   "type": "string",
+   "description": "Núcleo do Código Único de Empreendimentos de Geração",
+   "constraints": {
+    "maxLength": 8
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 8
+  },
+  {
+   "name": "NomUsina",
+   "type": "string",
+   "description": "Nome da usina/empreendimento.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "NomEmpresa",
+   "type": "string",
+   "description": "Nome da empresa responsável pelo empreendimento.",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "NomBarramento",
+   "type": "string",
+   "description": "Nome do Barramento que faz do empreendimento.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscTipo",
+   "type": "string",
+   "description": "Armazena o Tipo do Barramento",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "DscNivelSegurancaBarragem",
+   "type": "string",
+   "description": "Define o nível de segurança do barramento.",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "IdcClassificacaoBarramento",
+   "type": "string",
+   "description": "Define a classificação do barramento. Notas: A, B ou C.",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "DscCategoriaRiscoGeral",
+   "type": "string",
+   "description": "Define o valor da categoria de risco geral do barramento.",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "DscDanoPotencialGeral",
+   "type": "string",
+   "description": "Define o valor do dano potencial geral do barramento.",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "DscVersao",
+   "type": "string",
+   "description": "Número da versão.",
+   "constraints": {
+    "maxLength": 15
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 15
+  },
+  {
+   "name": "NomCampanha",
+   "type": "string",
+   "description": "Nome da campanha.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DatInicioCampanha",
+   "type": "date",
+   "description": "Data início da campanha.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatFimCampanha",
+   "type": "date",
+   "description": "Data de finalização da campanha.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatInicioPrazoLegalCampanha",
+   "type": "date",
+   "description": "Data início do prazo legal para a campanha.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatFimPrazoLegalCampanha",
+   "type": "date",
+   "description": "Data final do prazo legal para a campanha.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "NomSecundario",
+   "type": "string",
+   "description": "Armazena o nome pelo qual a Barragem secundária é conhecida.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DatInicioConstrucao",
+   "type": "date",
+   "description": "Armazena a data de início da construção do barramento.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatConclusaoConstrucao",
+   "type": "date",
+   "description": "Armazena a data de conclusão da construção do barramento.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "MdaAlturaMacicoTerreno",
+   "type": "number",
+   "description": "Armazena a altura do maciço a partir do nível do terreno (medida em metros).",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaAlturaMacicoFundacao",
+   "type": "number",
+   "description": "Armazena a altura do maciço a partir do nível da fundação (medida em metros).",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaComprimento",
+   "type": "number",
+   "description": "Armazena o comprimento do barramento (medida em metros).",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NumBarramento",
+   "type": "number",
+   "description": "Coluna responsável por armazenar o número correspondente do barramento.",
+   "declaredType": "Numérico",
+   "declaredSize": 4
+  },
+  {
+   "name": "DscExisteAcidenteIncidente",
+   "type": "string",
+   "description": "Coluna responsável por identificar se existe histórico de acidente ou incidente relacionado a segurança do barramento.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "QtdAcidenteIncidente",
+   "type": "number",
+   "description": "Coluna responsável por armazenar a quantidade de acidentes e incidentes no barramento.",
+   "declaredType": "Numérico",
+   "declaredSize": 4
+  },
+  {
+   "name": "MdaLatitude",
+   "type": "number",
+   "description": "Armazena a distância em graus em relação a linha do equador (Latitude) da UCGD",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaLongitude",
+   "type": "number",
+   "description": "Armazena a distância em graus em relação a linha do Greenwich (Longitude) da UCGD",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DthCadastro",
+   "type": "datetime",
+   "description": "Data e hora do cadastro do formulário.",
+   "declaredType": "Data Hora"
+  },
+  {
+   "name": "DthEnvio",
+   "type": "datetime",
+   "description": "Coluna responsável por armazenar a data e hora do formulário.",
+   "declaredType": "Data Hora"
+  },
+  {
+   "name": "DscEnvioPrazoLegal",
+   "type": "string",
+   "description": "Coluna responsável por armazenar valor referente ao envio dentro ou fora do prazo legal.",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "NomRioEmpreendimento",
+   "type": "string",
+   "description": "Nome do rio que banha o empreendimento.",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "MdaCapacidadeTotalEmp",
+   "type": "number",
+   "description": "Capacidade total do reservatório em metros cúbicos.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DatPrimeiroEnchimento",
+   "type": "date",
+   "description": "Data do primeiro enchimento do reservatório.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscFaseVidaEmpreendimento",
+   "type": "string",
+   "description": "Campo que vai armazenar as fases da vida do Empreendimento.",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "QtdBarramentoEmpreendimento",
+   "type": "number",
+   "description": "Número total de barramentos da usina.",
+   "declaredType": "Numérico",
+   "declaredSize": 4
+  },
+  {
+   "name": "MdaAreaSuperficieReservatorio",
+   "type": "number",
+   "description": "Essa coluna tem como objetivo armazenar a área da superfície do reservatório em m2, na cota máxima máximo um - campo decimal (ex: 1.0000,00).",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NumCnpj",
+   "type": "string",
+   "description": "CNPJ do Agente do setor elétrico conforme cadastro de agentes da ANEEL.",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "MdaPotenciaImplantacao",
+   "type": "number",
+   "description": "Potência da usina no ato da outorga. Medida em Kw/h",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaGarantiaFisicaKw",
+   "type": "number",
+   "description": "Garantia Física homologada pelo MME (Ministério das Minas e Energia)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "PctParticipacaoEmpreendimento",
+   "type": "number",
+   "description": "Valor do percentual de participação do agente no empreendimento.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "CodCEG",
+   "type": "string",
+   "description": "Código Único de Empreendimentos de Geração: GGG.FF.UF.999999-D.VV. Onde: GGG é o Tipo de Geração, FF é a Fonte, UF é a UF principal, 999999 é o Núcleo do CEG, D é o dígito verificador e VV é a versão (Se 1 é a primeira, se maior que 1 sofreu alteração)",
+   "constraints": {
+    "maxLength": 21
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 21
+  },
+  {
+   "name": "NomFonteEnergia",
+   "type": "string",
+   "description": "Nome da fonte de energia do empreendimento.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "SigEstadoUsina",
+   "type": "string",
+   "description": "Sigla do Estado principal da usina",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "DscFaseUsina",
+   "type": "string",
+   "description": "Descrição de qual fase a usina se encontra",
+   "constraints": {
+    "maxLength": 40
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 40
+  },
+  {
+   "name": "DscTipoGeracao",
+   "type": "string",
+   "description": "Identificador do tipo de geração",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DscTipoFundacao",
+   "type": "string",
+   "description": "Armazena o Tipo de Fundação da Barragem.",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DscTipoConstrucaoBarragem",
+   "type": "string",
+   "description": "Armazena o Tipo da Construção da Barragem.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscEstimativaVazaoProjeto",
+   "type": "string",
+   "description": "Armazena a estimativa da vazão de projeto.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscCasaForca",
+   "type": "string",
+   "description": "Armazena a casa de força da barragem.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscComprimento",
+   "type": "string",
+   "description": "Armazena o indicador do comprimento da barragem.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscIdadeBarragem",
+   "type": "string",
+   "description": "Coluna para especificar a faixa de idade da barragem.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscAltura",
+   "type": "string",
+   "description": "Armazena o indicador da faixa de altura da barragem.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscExisteDeformacao",
+   "type": "string",
+   "description": "Armazena o indicador se existe deformação.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscCondicaoEclusa",
+   "type": "string",
+   "description": "Armazena o indicador da condição da eclusa.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscCondicaoDeterioracao",
+   "type": "string",
+   "description": "Armazena o indicador da condição da deterioração.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscPercolacao",
+   "type": "string",
+   "description": "Armazena a situação da percolação da barragem.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscConfEstruturasAducao",
+   "type": "string",
+   "description": "Armazena a confiabilidade das estruturas de adução da barragem.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscConfEstruturaExtravasora",
+   "type": "string",
+   "description": "Armazena a confiabilidade das estruturas extravasoras da barragem.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscExisteDocumentacaoProjeto",
+   "type": "string",
+   "description": "Coluna para especificar a documentação do projeto.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscPossuiTecnicoEstrutura",
+   "type": "string",
+   "description": "Coluna para especificar a estrutura organizacional e qualificação técnica dos profissionais da equipe de Segurança de Barragem.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscPossuiInspecaoMonitoramento",
+   "type": "string",
+   "description": "Coluna para especificar se possui e indicar os procedimentos de roteiro de inspeções de segurança e de monitoramento.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscRegraOperDispositivo",
+   "type": "string",
+   "description": "Coluna para especificar se existe regra operacional dos dispositivos de descarga da barragem.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscEmiteRelatorio",
+   "type": "string",
+   "description": "Coluna para especificar se é emitido relatórios de inspeção de segurança com análise e interpretação.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscTamanhoVolumeReservatorio",
+   "type": "string",
+   "description": "Coluna para especificar o tamanho da capacidade do volume do reservatório.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DscProbabilidadeMorte",
+   "type": "string",
+   "description": "Coluna para especificar a probabilidade de perda de vidas humanas.",
+   "constraints": {
+    "maxLength": 500
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 500
+  },
+  {
+   "name": "DscImpactoAmbiental",
+   "type": "string",
+   "description": "Coluna para especificar o impacto ambiental.",
+   "constraints": {
+    "maxLength": 500
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 500
+  },
+  {
+   "name": "DscImpactoSocioEconomico",
+   "type": "string",
+   "description": "Coluna para especificar o impacto socioeconômico.",
+   "constraints": {
+    "maxLength": 500
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 500
+  },
+  {
+   "name": "DscPSBElaborado",
+   "type": "string",
+   "description": "Define se o Plano de Segurança da Barragem (PSB) foi elaborado.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DatConclusaoPSB",
+   "type": "date",
+   "description": "Data de conclusão do PSB.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatPrevistaConclusaoPSB",
+   "type": "date",
+   "description": "Data de prevista para a conclusão do PSB.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscPAEElaborado",
+   "type": "string",
+   "description": "Define se o Plano de Ação de Emergência (PAE) foi elaborado.",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DatConclusaoPAE",
+   "type": "date",
+   "description": "Data de conclusão do PAE.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatPrevistaConclusaoPAE",
+   "type": "date",
+   "description": "Data de conclusão do PAE.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscISRRealizada",
+   "type": "string",
+   "description": "Define se a Inspeção de Segurança Regular (ISR) foi realizada.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DatConclusaoISR",
+   "type": "date",
+   "description": "Define a data de conclusão da Inspeção de Segurança Regular (ISR) foi realizada.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatPrevistaConclusaoISR",
+   "type": "date",
+   "description": "Data de prevista para a conclusão do ISR.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscISERealizada",
+   "type": "string",
+   "description": "Data de prevista para a conclusão do ISR.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DatConclusaoISE",
+   "type": "date",
+   "description": "Data de conclusão do ISE.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatPrevistaConclusaoISE",
+   "type": "date",
+   "description": "Data Prevista para a conclusão do ISE.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "QtdMunicipioAfetado",
+   "type": "number",
+   "description": "Quantidade de municípios que foram afetados pelas obrigações normativas da ANEEL.",
+   "declaredType": "Numérico",
+   "declaredSize": 4
+  },
+  {
+   "name": "MdaVazaoVertedouro",
+   "type": "number",
+   "description": "Coluna para armazenar a vazão de projeto do vertedouro. Medida em M³/seg.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaCotaCoroamentoBarramento",
+   "type": "number",
+   "description": "Essa coluna tem como objetivo armazenar a Cota de coroamento do barramento principal (m) (ex: 1.0000,00)",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "NomTipoEstrutural",
+   "type": "string",
+   "description": "Nome do tipo da estrutura funcional da barragem.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DscTipoEstrutural",
+   "type": "string",
+   "description": "Coluna para especificar o tipo estrutural da barragem.",
+   "constraints": {
+    "maxLength": 250
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 250
+  },
+  {
+   "name": "DscEstudoRompimento",
+   "type": "string",
+   "description": "Campo para selecionar o Andamento dos estudos de rompimento em Cascata.",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscFinalidade",
+   "type": "string",
+   "description": "Uso preponderante do empreendimento",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "DscEnquadraResolucao",
+   "type": "string",
+   "description": "Define se o barramento se enquadra na resolução Normativa ANEEL no. 696/2015.",
+   "constraints": {
+    "maxLength": 3
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 3
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "a63b28b8-94ae-4909-8856-054314a8f446",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/fa46f760-d963-495e-89c7-6339a4f1ed5c/resource/a63b28b8-94ae-4909-8856-054314a8f446/download/dm-fsb-fiscalizacao-de-seguranca-de-barragens.pdf",
+   "sha256": "0375064e54661f1ff57cfe4366b488827c2914405b074f00543f3c605e4316e0",
+   "oracle": {
+    "recall": 0.9545,
+    "precision": 0.9655,
+    "exact_match": 0.9545,
+    "levenshtein": 0.9868,
+    "missing_from_pdf": [
+     "DatEmissaoRelatorio",
+     "IdcClassificacaoBarragens",
+     "IdcDeclCondEstabilidade",
+     "IdeNucleoCEG"
+    ],
+    "not_in_file": [
+     "IdcClassificacaoBarramento",
+     "IdeNuceloCEG",
+     "MdaGarantiaFisicaKw"
+    ]
+   }
+  }
+ }
+}

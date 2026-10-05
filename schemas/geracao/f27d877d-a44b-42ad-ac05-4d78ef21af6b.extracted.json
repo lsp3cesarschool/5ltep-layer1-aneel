@@ -1,0 +1,52 @@
+{
+ "fields": [
+  {
+   "name": "IdeFiscalizacaoGeracao",
+   "type": "number",
+   "description": "Identificador Fiscalização Geração",
+   "declaredType": "Numérico (PK)"
+  },
+  {
+   "name": "NomFiscalizacaoGeracao",
+   "type": "string",
+   "description": "Descrição do tipo de fiscalização realizada.",
+   "declaredType": "Texto"
+  },
+  {
+   "name": "QtdFiscalizacaoGeracao",
+   "type": "number",
+   "description": "Quantidade de fiscalizações no período.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MesReferencia",
+   "type": "number",
+   "description": "Mês base de referência da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "number",
+   "description": "Ano base de referência da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DthProcessamento",
+   "type": "number",
+   "description": "Data e hora do processamento de carga automático",
+   "declaredType": "Numérico (fins de controle)"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "5f18829d-f2b0-4d65-b38a-ca7b44aadb06",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/26803a1c-f669-4a80-9f4b-4bcba24f8f43/resource/5f18829d-f2b0-4d65-b38a-ca7b44aadb06/download/dd_ig_12_1.pdf",
+   "sha256": "91d810029fb8bb3840f6f9a4fdba77d6405b52a812632fb59649be35b9352f2b",
+   "oracle": {}
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "fields": [
+  {
+   "name": "IdeCompensacaoFinanceira",
+   "type": "number",
+   "description": "Identificador Compensação Financeira",
+   "declaredType": "Numérico (PK)"
+  },
+  {
+   "name": "NomBeneficiario",
+   "type": "string",
+   "description": "Nome do beneficiário",
+   "declaredType": "Texto"
+  },
+  {
+   "name": "VlrCompensacaoFinanceira",
+   "type": "number",
+   "description": "Valores de Repasses em Reais de Compensação Financeira",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrRoyaltiesItaipu",
+   "type": "number",
+   "description": "Valores de Repasses em Reais Royalties de Itaipu",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MesReferencia",
+   "type": "number",
+   "description": "Mês base de referência da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "number",
+   "description": "Ano base de referência da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DthProcessamento",
+   "type": "number",
+   "description": "Data e hora do processamento de carga automático",
+   "declaredType": "Numérico (fins de controle)"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "21a65fdc-d524-46bd-acc1-7560d2721ae3",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/39fc299f-26ad-456a-a756-2845ca69568e/resource/21a65fdc-d524-46bd-acc1-7560d2721ae3/download/dd_ig_14_2.pdf",
+   "sha256": "aae7f52a4c925366722ded0a23717f7ad36d401796ac0dbb11c2ada529a944fb",
+   "oracle": {}
+  }
+ }
+}

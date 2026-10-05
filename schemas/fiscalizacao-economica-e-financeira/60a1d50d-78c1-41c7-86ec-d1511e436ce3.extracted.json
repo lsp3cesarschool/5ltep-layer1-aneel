@@ -1,0 +1,52 @@
+{
+ "fields": [
+  {
+   "name": "IdeFiscalEconomiaFinanceira",
+   "type": "number",
+   "description": "Identificador Fiscalização Econômica e Financeira",
+   "declaredType": "Numérico (PK)"
+  },
+  {
+   "name": "DscItemFiscalizado",
+   "type": "string",
+   "description": "Descrição do Item Ficalizado",
+   "declaredType": "Texto"
+  },
+  {
+   "name": "QtdFiscalizacao",
+   "type": "number",
+   "description": "Quantidade de Fiscalizações realizadas por item",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MesReferencia",
+   "type": "number",
+   "description": "Mês base de referencia da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "number",
+   "description": "Ano base referencia da informação",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DthProcessamento",
+   "type": "number",
+   "description": "Data e hora do processamento de carga automático",
+   "declaredType": "Numérico (fins de controle)"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "3ffce41f-f9f8-451e-8d33-a322e0a71b0b",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/d44a7879-fff1-4921-b093-0839a95baade/resource/3ffce41f-f9f8-451e-8d33-a322e0a71b0b/download/dd_ig_12_3.pdf",
+   "sha256": "6731cd8f62cdd3025c2224fb6da1715df362130dec4065ba8485c60282ed490a",
+   "oracle": {}
+  }
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscOrigemCombustivel",
+   "type": "string",
+   "description": "Descrição da classe de combustível utilizado na geração de energia.",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "NomTipoUsina",
+   "type": "string",
+   "description": "Nome do tipo de Usina",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "NomSubTipoUsina",
+   "type": "string",
+   "description": "Nome do Subtipo de usinas Termelétricas",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "QtdUsinaTermeletrica",
+   "type": "number",
+   "description": "Quantidade corresponde ao número de empreendimentos em operação comercial no período especificado.",
+   "declaredType": "Numérico",
+   "declaredSize": 10
+  },
+  {
+   "name": "MdaPotenciaInstaladakW",
+   "type": "number",
+   "description": "Armazena os dados expressos em quantidades e potência instalada em kW (quilowatt). A potência instalada determina o porte da central geradora para fins de outorga, regulação e fiscalização, definida pelo somatório das potências elétricas ativas nominais das unidades geradoras principais da central.",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MesReferencia",
+   "type": "string",
+   "description": "Mês de referência em que os dados foram coletados.",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "AnoReferencia",
+   "type": "string",
+   "description": "Ano de referência em que os dados foram coletados.",
+   "constraints": {
+    "maxLength": 4
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 4
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "17cf2f0f-31b9-4744-8962-780d2312b0e2",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/4cc8f5c8-4d94-41b2-bf7e-482ae787be6d/resource/17cf2f0f-31b9-4744-8962-780d2312b0e2/download/dm-usinas-termeletricas-por-tipo.pdf",
+   "sha256": "51df1391adf2bb2b257a308dfccfc535ef606c914bb228437a5b9c5b6ec500d7",
+   "oracle": {
+    "recall": 0.875,
+    "precision": 0.875,
+    "exact_match": 0.75,
+    "levenshtein": 0.9256,
+    "missing_from_pdf": [
+     "DscOrigem"
+    ],
+    "not_in_file": [
+     "DscOrigemCombustivel"
+    ]
+   }
+  }
+ }
+}

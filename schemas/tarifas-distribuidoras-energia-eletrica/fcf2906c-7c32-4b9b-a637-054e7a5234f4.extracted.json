@@ -1,0 +1,183 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscResolucaoHomologatoria",
+   "type": "string",
+   "description": "Informação sobre o número e data da Resolução Homologatória",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "SigAgente",
+   "type": "string",
+   "description": "Sigla que abrevia o nome dos Agentes regulados pela ANEEL",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "NumCNPJDistribuidora",
+   "type": "string",
+   "description": "Cadastro Nacional de Pessoas Jurídicas do Ministério da Fazenda.",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "DatInicioVigencia",
+   "type": "date",
+   "description": "Informação sobre a data de início da vigência das tarifas",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DatFimVigencia",
+   "type": "date",
+   "description": "Informação sobre a data de fim da vigência das tarifas",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "DscBaseTarifa",
+   "type": "string",
+   "description": "Tarifa de Aplicação e Base Econômica. A Tarifa de Aplicação é a tarifa utilizada pela distribuidora para o faturamento dos acessantes (consumidores, geradores e distribuidoras), cujos valores constam na Resolução Homologatória. Já a Tarifa Base Econômica refere-se aos valores que serão utilizados estritamente para cálculo tarifário.",
+   "constraints": {
+    "maxLength": 30
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 30
+  },
+  {
+   "name": "DscSubgrupo",
+   "type": "string",
+   "description": "Subgrupos tarifários: A1, A2, A3, A3a, A4, AS, B1, B2, B3, B4a e B4b, referentes aos subgrupos tarifários definidos pela Resolução Normativa nº 1000/2021. Adota-se também o subgrupo B para demais acessantes (distribuidora e central geradora)",
+   "constraints": {
+    "maxLength": 15
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 15
+  },
+  {
+   "name": "DscModalidadeTarifaria",
+   "type": "string",
+   "description": "Conjunto de tarifas aplicáveis às componentes de consumo de energia elétrica e demanda, definidas pela Resolução Normativa nº 1000/2021: convencional; horária (verde e azul), branca, pré-pagamento, geração e distribuição.",
+   "constraints": {
+    "maxLength": 40
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 40
+  },
+  {
+   "name": "DscClasse",
+   "type": "string",
+   "description": "Classificação do tipo de unidade consumidora conforme a finalidade de utilização da energia elétrica, definido na Resolução Normativa nº 1000/2021, e aplicação tarifária: residencial; rural; iluminação pública e não se aplica (industrial; comércio, serviços e outras atividades; poder público; serviço público e consumo próprio).",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DscSubClasse",
+   "type": "string",
+   "description": "Classificação do tipo de unidade consumidora, como subdivisão das classes, conforme a finalidade de utilização da energia elétrica, definido na Resolução Normativa nº 1000/2021",
+   "constraints": {
+    "maxLength": 150
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 150
+  },
+  {
+   "name": "DscDetalhe",
+   "type": "string",
+   "description": "Conjunto complementar de variáveis utilizadas na definição das tarifas quanto a critérios de aplicação ou universo de acessantes elegíveis",
+   "constraints": {
+    "maxLength": 40
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 40
+  },
+  {
+   "name": "NomPostoTarifario",
+   "type": "string",
+   "description": "Identificação do posto tarifário, definido como período em horas para aplicação das tarifas de forma diferenciada ao longo do dia conforme a Resolução Normativa nº 1000/2021.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DscUnidade",
+   "type": "string",
+   "description": "Unidade da tarifa, conforme a grandeza elétrica aplicável, podendo ser R$/kW e R$/MWh para TUSD e R$/MWh para TE.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "SigAgenteAcessante",
+   "type": "string",
+   "description": "Aplicável nos casos de tarifas nominais, aplicáveis especificamente a um usuário (distribuidora, unidade consumidora ou gerador). A sigla informada conforme registrada no cadastro de agentes da ANEEL. Ex: AmE, CEMIG-D, EMT, DCELT, CERFOX, CEPRAG, etc.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "VlrTusd",
+   "type": "any",
+   "description": "Apresenta o valor da Tarifa de Uso do Sistema de Distribuição - TUSD em valor monetário (R$/MWh ou R$/kW), conforme grandeza descrita em DscUnidade",
+   "declaredType": "",
+   "mappingNote": "type not declared"
+  },
+  {
+   "name": "VlrTe",
+   "type": "any",
+   "description": "Apresenta o valor da Tarifa de Energia – TE em valor monetário (R$/MWh).",
+   "declaredType": "",
+   "mappingNote": "type not declared"
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "2d3478e0-8aa0-4cd4-81a7-5f8967cd8804",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/5a583f3e-1646-4f67-bf0f-69db4203e89e/resource/2d3478e0-8aa0-4cd4-81a7-5f8967cd8804/download/dd-tarifas-por-distribuidora.pdf",
+   "sha256": "6233892f8512c3064dce107066459557fcc29c7df18c3dec28284e2bacabc6ef",
+   "oracle": {
+    "recall": 0.8235,
+    "precision": 0.8235,
+    "exact_match": 0.6471,
+    "levenshtein": 0.886,
+    "missing_from_pdf": [
+     "DscBaseTarifaria",
+     "DscREH",
+     "DscUnidadeTerciaria"
+    ],
+    "not_in_file": [
+     "DscBaseTarifa",
+     "DscResolucaoHomologatoria",
+     "DscUnidade"
+    ]
+   }
+  }
+ }
+}

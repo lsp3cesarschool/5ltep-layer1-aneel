@@ -1,0 +1,247 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "description": "Data do processamento de carga automática no momento da geração para publicação do conjunto de dados abertos.",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "SigAgenteFiscalizador",
+   "type": "string",
+   "description": "Sigla do agente fiscalizador.",
+   "constraints": {
+    "maxLength": 16
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 16
+  },
+  {
+   "name": "NumTermoIntimacao",
+   "type": "string",
+   "description": "Número de Termo de Intimação.",
+   "constraints": {
+    "maxLength": 25
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 25
+  },
+  {
+   "name": "DatLavraturaTermoIntimacao",
+   "type": "date",
+   "description": "Data de lavratura do Termo de Intimação.",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "DscNaturezaFiscalizacao",
+   "type": "string",
+   "description": "Nome da natureza de fiscalização definido pela área de fiscalização. Texto livre sem restrição.",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "DscObjetoFiscalizado",
+   "type": "string",
+   "description": "Descrição do Objeto Fiscalizado",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "CodObjetoFiscalizado",
+   "type": "string",
+   "description": "Código do Objeto Fiscalizado",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "NomAgenteFiscalizado",
+   "type": "string",
+   "description": "Nome do Agente Fiscalizado",
+   "constraints": {
+    "maxLength": 200
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 200
+  },
+  {
+   "name": "NumCPFCNPJAgenteFiscalizado",
+   "type": "string",
+   "description": "Número do CNPJ ou CPF do agente fiscalizado (órgão).",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "NumProcessoFiscalizacao",
+   "type": "string",
+   "description": "Número do Processo de Fiscalização",
+   "constraints": {
+    "maxLength": 17
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 17
+  },
+  {
+   "name": "NumProcessoPunitivo",
+   "type": "string",
+   "description": "Número processo punitivo do termo de intimação. Pode ser um protocolo originado na ANEEL ou em uma Agencia Estadual. Quando o agente fiscalizador for a própria ANEEL o número deve ser validado no SICNET.",
+   "constraints": {
+    "maxLength": 17
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 17
+  },
+  {
+   "name": "DatRecebimentoTI",
+   "type": "date",
+   "description": "Data de recebimento do Termo de Intimação.",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "DscTipoPenalidade",
+   "type": "string",
+   "description": "Texto livre descrevendo a penalidade.",
+   "constraints": {
+    "maxLength": 50
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 50
+  },
+  {
+   "name": "DatRecebimentoManifestacao",
+   "type": "date",
+   "description": "Data recebimento da manifestação.",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "DscDecisaoManifestacao",
+   "type": "string",
+   "description": "Descrição da decisão da manifestação",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DscAtoManifestacao",
+   "type": "string",
+   "description": "Descrição do ato de manifestação",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DatDecisaoManifestacao",
+   "type": "date",
+   "description": "Data da decisão da manifestação",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "DatPublicacaoManifestacao",
+   "type": "date",
+   "description": "Data da publicação da manifestação",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "DatProtocoloRecurso",
+   "type": "date",
+   "description": "Data de recebimento do recurso.",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "DscDecisaoDiretoria",
+   "type": "string",
+   "description": "Descrição da decisão da diretoria.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DscAtoDiretoria",
+   "type": "string",
+   "description": "Descrição do ato da decisão da diretoria baseado em uma norma.",
+   "constraints": {
+    "maxLength": 150
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 150
+  },
+  {
+   "name": "DatDecisaoDiretoria",
+   "type": "date",
+   "description": "Data da decisão da diretoria.",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "DatPublicacaoDiretoria",
+   "type": "date",
+   "description": "Data da publicação da decisão da diretoria.",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "NumTermoEncerramento",
+   "type": "string",
+   "description": "Número do termo de encerramento.",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DatLavraturaTE",
+   "type": "date",
+   "description": "Data de lavratura do Termo Encerramento",
+   "declaredType": "Data simples"
+  },
+  {
+   "name": "DscEnquatramentoTI",
+   "type": "string",
+   "description": "Descrição do enquadramento no Termo de Intimação.",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de caracteres",
+   "declaredSize": 255
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "fa22f7f1-2a20-4168-9234-9d14d0fb955c",
+   "dictionary_name": "Dicionário de dados",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10/resource/fa22f7f1-2a20-4168-9234-9d14d0fb955c/download/dm-termo-de-intimacao-ti.pdf",
+   "sha256": "7d67c4c322e7a18dcb2c761ca11ca96760bdef4e267699471223876c50201ed0",
+   "oracle": {
+    "recall": 0.9615,
+    "precision": 0.9615,
+    "exact_match": 0.9615,
+    "levenshtein": 0.9979,
+    "missing_from_pdf": [
+     "DscEnquadramentoTI"
+    ],
+    "not_in_file": [
+     "DscEnquatramentoTI"
+    ]
+   }
+  }
+ }
+}

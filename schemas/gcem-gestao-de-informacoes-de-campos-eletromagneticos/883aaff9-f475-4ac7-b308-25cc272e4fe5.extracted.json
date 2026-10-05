@@ -1,0 +1,244 @@
+{
+ "fields": [
+  {
+   "name": "NumCNPJAgente",
+   "type": "string",
+   "description": "Número do CNPJ do Agente",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "NomAgente",
+   "type": "string",
+   "description": "Nome do Agente",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "NomLin",
+   "type": "string",
+   "description": "Nome da Linha de Transmissão",
+   "constraints": {
+    "maxLength": 250
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 250
+  },
+  {
+   "name": "CodLin",
+   "type": "string",
+   "description": "Código da Linha de Transmissão",
+   "constraints": {
+    "maxLength": 10
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 10
+  },
+  {
+   "name": "MdaLngFaiSvc",
+   "type": "number",
+   "description": "Largura da Faixa de Servidão",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "CodMunSbeOri",
+   "type": "number",
+   "description": "Código do Município da Subestação de Origem da Linha de Transmissão",
+   "declaredType": "Numérico",
+   "declaredSize": 20
+  },
+  {
+   "name": "CodMunSbeDst",
+   "type": "number",
+   "description": "Código do Município da Subestação de Destino da Linha de Transmissão",
+   "declaredType": "Numérico",
+   "declaredSize": 20
+  },
+  {
+   "name": "NumCNPJAgenteOrigem",
+   "type": "string",
+   "description": "Número do CNPJ do Agente de Origem",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "NomAgenteOrigem",
+   "type": "string",
+   "description": "Nome do Agente de Origem",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "NumCNPJAgenteDestino",
+   "type": "string",
+   "description": "Número do CNPJ do Agente de Destino",
+   "constraints": {
+    "maxLength": 14
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 14
+  },
+  {
+   "name": "NomAgenteDestino",
+   "type": "string",
+   "description": "Nome do Agente de Destino",
+   "constraints": {
+    "maxLength": 255
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 255
+  },
+  {
+   "name": "IdcTipPop",
+   "type": "string",
+   "description": "Tipo de População. Valores de domínio: PO - População Ocupacional; PG - População Geral.",
+   "constraints": {
+    "maxLength": 2
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 2
+  },
+  {
+   "name": "MdaDtaPntGeo",
+   "type": "number",
+   "description": "Distância do Ponto Geométrico Central",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "MdaCpoEle",
+   "type": "number",
+   "description": "Medida do Campo Elétrico",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrRefCpoEle",
+   "type": "number",
+   "description": "Valor de referência do campo elétrico para o Público em Geral ou População Ocupacional",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DscUndMdaCpoEle",
+   "type": "string",
+   "description": "Unidade de Medida Utilizada",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "MdaCpoMgt",
+   "type": "number",
+   "description": "Medida do Campo Magnético",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "VlrRefCpoMgt",
+   "type": "number",
+   "description": "Valor de referência do campo magnético para o Público em Geral ou População Ocupacional",
+   "declaredType": "Numérico"
+  },
+  {
+   "name": "DscUndMdaCpoMgt",
+   "type": "string",
+   "description": "Unidade de Medida do Campo Magnético",
+   "constraints": {
+    "maxLength": 100
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 100
+  },
+  {
+   "name": "IdcTipMda",
+   "type": "string",
+   "description": "Tipo de Medição. Valores de domínio: C - CALCULADO M - MEDIDO",
+   "constraints": {
+    "maxLength": 20
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 20
+  },
+  {
+   "name": "DatMda",
+   "type": "date",
+   "description": "Data da Medição",
+   "declaredType": "Data Simples"
+  },
+  {
+   "name": "HorMda",
+   "type": "time",
+   "description": "Hora da Medição",
+   "declaredType": "Hora"
+  },
+  {
+   "name": "DscMtdCalCpoMgt",
+   "type": "string",
+   "description": "Método Utilizado para Cálculo de Campo Magnético",
+   "constraints": {
+    "maxLength": 30
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 30
+  },
+  {
+   "name": "DscMtdCalCpoEle",
+   "type": "string",
+   "description": "Método Utilizado para Cálculo de Campo Elétrico",
+   "constraints": {
+    "maxLength": 30
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 30
+  },
+  {
+   "name": "DscEqpUtl",
+   "type": "string",
+   "description": "Equipamento Utilizado para Realizar as Medições",
+   "constraints": {
+    "maxLength": 150
+   },
+   "declaredType": "Cadeia de Caracteres",
+   "declaredSize": 150
+  }
+ ],
+ "x5ltep": {
+  "status": "suggested",
+  "source": {
+   "kind": "pdf",
+   "stage": "deterministic",
+   "dictionary_id": "55521913-5299-46eb-ba4d-cb8d9a8881cc",
+   "dictionary_name": "Dicionário de dados - Linha de Transmissão",
+   "url": "https://dadosabertos.aneel.gov.br/dataset/f8258ef8-1b0d-4dc2-a5db-f3de743d6608/resource/55521913-5299-46eb-ba4d-cb8d9a8881cc/download/dm-gcem-linha-de-transmissao.pdf",
+   "sha256": "7d5bc1f138f68b135de520245c8c59d2d2bc0c861e17cb003a46bdde6f02f76d",
+   "oracle": {
+    "recall": 0.8462,
+    "precision": 0.88,
+    "exact_match": 0.8462,
+    "levenshtein": 0.9209,
+    "missing_from_pdf": [
+     "DatGeracaoConjuntoDados",
+     "NumCnpj",
+     "NumCnpjAgtDestino",
+     "NumCnpjAgtOrigem"
+    ],
+    "not_in_file": [
+     "NumCNPJAgente",
+     "NumCNPJAgenteDestino",
+     "NumCNPJAgenteOrigem"
+    ]
+   }
+  }
+ }
+}

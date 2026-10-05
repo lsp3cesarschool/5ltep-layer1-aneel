@@ -61,10 +61,10 @@
   }
  ],
  "x5ltep": {
-  "status": "extracted",
+  "status": "suggested",
   "source": {
    "kind": "pdf",
-   "stage": "deterministic",
+   "stage": "llm",
    "dictionary_id": "e959b0a5-3bf9-42fd-9a7a-4721c2bd7c79",
    "dictionary_name": "Dicionário de dados",
    "url": "https://dadosabertos.aneel.gov.br/dataset/65e3b443-aadf-4d7c-bc61-827101cca4a7/resource/e959b0a5-3bf9-42fd-9a7a-4721c2bd7c79/download/dm-seguranca-do-trabalho-e-das-instalacoes.pdf",
@@ -76,7 +76,11 @@
     "levenshtein": 1.0,
     "missing_from_pdf": [],
     "not_in_file": []
-   }
+   },
+   "model": "qwen3:8b",
+   "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+   "prompt_version": "v1",
+   "ollama_version": "0.35.0"
   }
  }
 }

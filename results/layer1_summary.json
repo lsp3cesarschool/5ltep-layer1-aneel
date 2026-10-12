@@ -5,8 +5,8 @@
   "name": "ANEEL",
   "title": "ANEEL open data portal (Dados Abertos ANEEL)"
  },
- "generated_at": "2026-10-05T13:00:37+00:00",
- "census_at": "2026-10-05T10:51:35+00:00",
+ "generated_at": "2026-10-12T12:11:18+00:00",
+ "census_at": "2026-10-12T11:22:07+00:00",
  "method": {
   "rotation_days": 28,
   "sample_rows": 5000,
@@ -23,7 +23,7 @@
   "copies_once": 0
  },
  "environment": {
-  "python": "3.11.16"
+  "python": "3.11.17"
  },
  "datasets": {
   "total": 72,
@@ -45,16 +45,16 @@
    "3": 3,
    "4": 37
   },
-  "validated": 338,
-  "validation_coverage": 0.9602,
-  "errors": 14,
+  "validated": 339,
+  "validation_coverage": 0.9631,
+  "errors": 13,
   "queue_remaining": 0,
-  "declared_gb": 59.78,
+  "declared_gb": 59.85,
   "size_unknown": 0,
   "by_format": {
    "csv": {
     "files": 204,
-    "gb": 15.43,
+    "gb": 15.51,
     "size_unknown": 0
    },
    "zip": {
@@ -94,27 +94,27 @@
  "drift": {
   "observed": 0,
   "declared": 0,
-  "files_with_baseline": 338,
+  "files_with_baseline": 339,
   "first_baseline_at": "2026-10-03T04:21:08+00:00",
-  "last_observed_at": "2026-10-05T12:50:57+00:00"
+  "last_observed_at": "2026-10-12T11:48:49+00:00"
  },
  "coverage": {
   "files": 352,
-  "read": 338,
+  "read": 339,
   "empty": 0,
   "not_tabular": 0,
   "too_large": 0,
-  "not_downloaded": 14,
+  "not_downloaded": 13,
   "pending": 0,
   "not_downloaded_by_reason": {
    "redirect loop": 12,
-   "other": 2
+   "other": 1
   },
   "not_downloaded_by_host": {
    "redirect loop · dadosabertos.aneel.gov.br": 12,
-   "other · dadosabertos.aneel.gov.br": 2
+   "other · dadosabertos.aneel.gov.br": 1
   },
-  "read_without_schema": 145,
+  "read_without_schema": 146,
   "checked": 193,
   "conform": 64,
   "fail_missing_fields": 12,
@@ -128,14 +128,14 @@
  },
  "distributions": {
   "tables_with_other_formats": 114,
-  "other_formats": 104,
-  "compared": 104,
-  "same_columns": 102,
+  "other_formats": 105,
+  "compared": 105,
+  "same_columns": 103,
   "spelling_only": 0,
   "different_columns": 2,
   "not_compared": {},
   "by_format": {
-   "parquet": 92,
+   "parquet": 93,
    "xml": 9,
    "zip": 2,
    "json": 1
@@ -144,14 +144,14 @@
  "network": {
   "total": {
    "files": 352,
-   "failed_files": 14,
-   "gb": 57.69,
-   "minutes": 613.3,
+   "failed_files": 13,
+   "gb": 58.59,
+   "minutes": 622.2,
    "end_to_end_mb_s": 1.57,
-   "zip_download_mb_s": 6.43,
-   "first_byte_s_median": 0.43,
-   "network_share": 0.358,
-   "network_mb_s": 2.98,
+   "zip_download_mb_s": 6.46,
+   "first_byte_s_median": 0.39,
+   "network_share": 0.302,
+   "network_mb_s": 3.54,
    "request_failures": {
     "HTTP 502": 1
    }
@@ -159,14 +159,14 @@
   "by_host": {
    "dadosabertos.aneel.gov.br": {
     "files": 352,
-    "failed_files": 14,
-    "gb": 57.69,
-    "minutes": 613.3,
+    "failed_files": 13,
+    "gb": 58.59,
+    "minutes": 622.2,
     "end_to_end_mb_s": 1.57,
-    "zip_download_mb_s": 6.43,
-    "first_byte_s_median": 0.43,
-    "network_share": 0.358,
-    "network_mb_s": 2.98,
+    "zip_download_mb_s": 6.46,
+    "first_byte_s_median": 0.39,
+    "network_share": 0.302,
+    "network_mb_s": 3.54,
     "request_failures": {
      "HTTP 502": 1
     }
@@ -233,13 +233,13 @@
    "results_copied": 0
   },
   "files": {
-   "validated": 338,
+   "validated": 339,
    "encodings": {
-    "utf-8": 290,
+    "utf-8": 291,
     "cp1252": 43
    },
    "delimiters": {
-    ";": 232,
+    ";": 233,
     ",": 101
    },
    "with_decode_errors": 106,
@@ -249,12 +249,12 @@
    "not_tabular": 0,
    "not_tables": 0,
    "formats": {
-    "csv": 333,
+    "csv": 334,
     "parquet": 5
    },
    "unreachable_by_reason": {
     "redirect loop": 12,
-    "other": 2
+    "other": 1
    }
   },
   "pdf_extraction": {
@@ -281,11 +281,11 @@
    }
   },
   "delivery": {
-   "probed_at": "2026-10-05T10:51:34+00:00",
+   "probed_at": "2026-10-12T11:22:07+00:00",
    "hosts": {
     "dadosabertos.aneel.gov.br": {
      "linked": 352,
-     "files": 338,
+     "files": 339,
      "served_by": [
       "dadosabertos.aneel.gov.br"
      ],
@@ -294,15 +294,15 @@
      ],
      "probes": 3,
      "range": "honoured",
-     "with_etag": 338,
-     "with_last_modified": 338,
+     "with_etag": 339,
+     "with_last_modified": 339,
      "without_validator": 0,
      "without_length": 0,
-     "of": 338,
+     "of": 339,
      "generic_type": 0,
-     "typed": 78,
+     "typed": 88,
      "content_types": {
-      "text/csv": 66,
+      "text/csv": 76,
       "application/zip": 7,
       "application/octet-stream": 5
      },

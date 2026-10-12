@@ -55,7 +55,7 @@
    "falseValues": [
     "N"
    ],
-   "sampleEmptyShare": 0.5035
+   "sampleEmptyShare": 0.5025
   },
   {
    "name": "DscFinMdlEqp",
@@ -95,8 +95,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T14:15:32+00:00",
-  "sha256": "358d5986fa9e9ef2fe947787fbe536fcfce9b91f79b4689a90f4062cfb2bd672",
+  "observed_at": "2026-10-12T11:26:38+00:00",
+  "sha256": "67189220b707eb056f9880482e95a851c3c276d7bd4d7cd0869f5e2eb8fb6a76",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 2022,

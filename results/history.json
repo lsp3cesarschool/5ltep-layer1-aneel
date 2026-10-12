@@ -62,5 +62,37 @@
   "gone_total": 0,
   "drift_observed": 0,
   "drift_declared": 0
+ },
+ {
+  "at": "2026-10-12T11:22:07+00:00",
+  "report_at": "2026-10-12T12:11:18+00:00",
+  "commit": "5f443e3",
+  "files": 352,
+  "read": 339,
+  "checked": 193,
+  "conform": 64,
+  "l1_rate": 0.3316,
+  "not_downloaded": 13,
+  "levels": [
+   72,
+   240,
+   0,
+   3,
+   37
+  ],
+  "dataset_levels": [
+   15,
+   51,
+   0,
+   2,
+   4
+  ],
+  "fixed": 0,
+  "broken": 0,
+  "new_files": 0,
+  "gone_files": 0,
+  "gone_total": 0,
+  "drift_observed": 0,
+  "drift_declared": 0
  }
 ]

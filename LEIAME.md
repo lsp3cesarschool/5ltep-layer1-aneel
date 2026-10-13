@@ -1,4 +1,4 @@
-# 5LTEP-L1 · Instância ANEEL (experimento de controle)
+# 5LTEP-L1 · Instância ANEEL (aplicação em outro contexto)
 
 [![Tests](https://github.com/lsp3cesarschool/5ltep-layer1-aneel/actions/workflows/tests.yml/badge.svg)](https://github.com/lsp3cesarschool/5ltep-layer1-aneel/actions/workflows/tests.yml) [![Camada 1](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flsp3cesarschool%2F5ltep-layer1-aneel%2Fmain%2Fdocs%2Fdata%2Fstatus.pt.json)](https://github.com/lsp3cesarschool/5ltep-layer1-aneel/actions/workflows/layer1.yml) [![Licença: MIT](https://img.shields.io/badge/Licen%C3%A7a-MIT-blue.svg)](LICENSE)
 
@@ -6,8 +6,7 @@
 
 **A Camada 1 (contratos estruturais) do 5L-TEP aplicada ao portal de dados abertos da ANEEL, a
 agência reguladora de energia elétrica: uma segunda instância de
-[5ltep-layer1](https://github.com/lsp3cesarschool/5ltep-layer1), montada pelo autor como caso de
-controle do estudo do IBAMA.**
+[5ltep-layer1](https://github.com/lsp3cesarschool/5ltep-layer1), montada pelo autor como aplicação do mesmo sistema em outro contexto.**
 
 | Recurso | O que você encontra |
 |---|---|
@@ -15,7 +14,7 @@ controle do estudo do IBAMA.**
 | 🔀 **Deriva de esquema** | [![issues de deriva](https://img.shields.io/github/issues/lsp3cesarschool/5ltep-layer1-aneel/layer1?label=issues%20de%20deriva&color=0366d6)](https://github.com/lsp3cesarschool/5ltep-layer1-aneel/issues?q=is%3Aissue+label%3Alayer1) |
 | 🧑‍⚖️ **Esquemas sugeridos** | [pull requests](https://github.com/lsp3cesarschool/5ltep-layer1-aneel/pulls?q=is%3Apr+schemas+suggested) com esquemas extraídos de dicionários em PDF, aguardando uma pessoa |
 | 🏛️ **Instância principal** | [5ltep-layer1](https://github.com/lsp3cesarschool/5ltep-layer1): IBAMA, e a documentação completa |
-| 🔁 **Outro controle** | [5ltep-layer1-recife](https://github.com/lsp3cesarschool/5ltep-layer1-recife): o portal da cidade do Recife |
+| 🔁 **Outra aplicação** | [5ltep-layer1-recife](https://github.com/lsp3cesarschool/5ltep-layer1-recife): o portal da cidade do Recife |
 
 > **Situação: demonstração de pesquisa.** Este repositório não é operado, afiliado nem endossado pela
 > ANEEL; ele só lê os dados abertos da ANEEL. Mostra que a ferramenta pode ser reutilizada em outro
@@ -31,7 +30,9 @@ transforma os que estão em PDF em esquemas legíveis por máquina (primeiro len
 com um modelo de IA local, e sempre com pessoas decidindo o que o próprio cabeçalho do arquivo não
 confirma) e verifica cada CSV publicado contra o seu esquema, semana após semana.
 
-## Por que um experimento de controle
+## Por que aplicar o sistema em outro contexto
+
+Esta instância demonstra a reutilização do mesmo sistema em outro contexto e permite avaliar os limites dessa transferência.
 
 A ferramenta da Camada 1 foi construída sobre o portal do IBAMA. Um método que funciona num portal pode
 ter aprendido só os hábitos daquele portal. Este repositório roda **o mesmo código** em outro órgão e
@@ -58,8 +59,8 @@ Conforme observado ao montar esta instância (01/10/2026); o painel tem os núme
 | `portal.json` | `portal_url` = `https://dadosabertos.aneel.gov.br` |
 | `README.md`, `LEIAME.md`, `CITATION.cff` | este texto e a citação deste repositório |
 
-Todo o resto é o código de `5ltep-layer1` no commit `8bddff6`
-([8bddff6b86a1ca9b60c2e6cd7a23a3e9d7fbe0b3](https://github.com/lsp3cesarschool/5ltep-layer1/commit/8bddff6b86a1ca9b60c2e6cd7a23a3e9d7fbe0b3)).
+Todo o resto é o código de `5ltep-layer1` no commit `273d079`
+([273d0794e8ea20b98e89fb980908b6f217f9f768](https://github.com/lsp3cesarschool/5ltep-layer1/commit/273d0794e8ea20b98e89fb980908b6f217f9f768)).
 
 ## Rodando, e adaptando de novo
 

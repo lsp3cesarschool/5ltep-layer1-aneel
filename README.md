@@ -1,4 +1,4 @@
-# 5LTEP-L1 · ANEEL instance (control experiment)
+# 5LTEP-L1 · ANEEL instance (application in another context)
 
 [![Tests](https://github.com/lsp3cesarschool/5ltep-layer1-aneel/actions/workflows/tests.yml/badge.svg)](https://github.com/lsp3cesarschool/5ltep-layer1-aneel/actions/workflows/tests.yml) [![Layer 1](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Flsp3cesarschool%2F5ltep-layer1-aneel%2Fmain%2Fdocs%2Fdata%2Fstatus.json)](https://github.com/lsp3cesarschool/5ltep-layer1-aneel/actions/workflows/layer1.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -6,7 +6,7 @@
 
 **5L-TEP Layer 1 (structural contracts) applied to the open data portal of ANEEL, Brazil's electricity
 regulator: a second instance of [5ltep-layer1](https://github.com/lsp3cesarschool/5ltep-layer1), set up
-by the author as a control case for the IBAMA study.**
+by the author as an application of the same system in another context.**
 
 | Resource | What you find there |
 |---|---|
@@ -14,7 +14,7 @@ by the author as a control case for the IBAMA study.**
 | 🔀 **Schema drift** | [![drift issues](https://img.shields.io/github/issues/lsp3cesarschool/5ltep-layer1-aneel/layer1?label=drift%20issues&color=0366d6)](https://github.com/lsp3cesarschool/5ltep-layer1-aneel/issues?q=is%3Aissue+label%3Alayer1) |
 | 🧑‍⚖️ **Suggested schemas** | [pull requests](https://github.com/lsp3cesarschool/5ltep-layer1-aneel/pulls?q=is%3Apr+schemas+suggested) with schemas extracted from PDF dictionaries, waiting for a person |
 | 🏛️ **Main instance** | [5ltep-layer1](https://github.com/lsp3cesarschool/5ltep-layer1): IBAMA, and the full documentation |
-| 🔁 **Other control** | [5ltep-layer1-recife](https://github.com/lsp3cesarschool/5ltep-layer1-recife): the Recife city portal |
+| 🔁 **Another application** | [5ltep-layer1-recife](https://github.com/lsp3cesarschool/5ltep-layer1-recife): the Recife city portal |
 
 > **Status: research demonstration.** This repository is not operated by, affiliated with or endorsed
 > by ANEEL; it only reads ANEEL's open data. It shows that the toolkit can be reused on another portal.
@@ -30,7 +30,9 @@ machine-readable schemas (first by reading their tables, then with a local AI mo
 people deciding what the file's own header does not confirm), and checks every published CSV against
 its schema, week after week.
 
-## Why a control experiment
+## Why apply the system in another context
+
+This instance demonstrates reuse of the same system in another context and helps assess the limits of that transfer.
 
 The Layer 1 toolkit was built on IBAMA's portal. A method that works on one portal may only have
 learned that portal's habits. This repository runs **the same code** on another agency and portal,
@@ -57,8 +59,8 @@ As observed when this instance was set up (01/10/2026); the dashboard has the cu
 | `portal.json` | `portal_url` = `https://dadosabertos.aneel.gov.br` |
 | `README.md`, `LEIAME.md`, `CITATION.cff` | this text and the citation of this repository |
 
-Everything else is the code of `5ltep-layer1` at commit `8bddff6`
-([8bddff6b86a1ca9b60c2e6cd7a23a3e9d7fbe0b3](https://github.com/lsp3cesarschool/5ltep-layer1/commit/8bddff6b86a1ca9b60c2e6cd7a23a3e9d7fbe0b3)).
+Everything else is the code of `5ltep-layer1` at commit `273d079`
+([273d0794e8ea20b98e89fb980908b6f217f9f768](https://github.com/lsp3cesarschool/5ltep-layer1/commit/273d0794e8ea20b98e89fb980908b6f217f9f768)).
 
 ## Running it, and adapting it again
 

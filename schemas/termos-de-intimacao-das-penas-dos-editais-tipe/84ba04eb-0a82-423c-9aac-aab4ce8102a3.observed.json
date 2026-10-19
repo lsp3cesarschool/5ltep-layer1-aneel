@@ -9,7 +9,7 @@
   {
    "name": "SigAgenteFiscalizador",
    "type": "string",
-   "sampleEmptyShare": 0.0101
+   "sampleEmptyShare": 0.01
   },
   {
    "name": "NumPenaEdital",
@@ -45,17 +45,17 @@
   {
    "name": "NumAtoOutorga",
    "type": "string",
-   "sampleEmptyShare": 0.0201
+   "sampleEmptyShare": 0.02
   },
   {
    "name": "NomAgenteFiscalizado",
    "type": "string",
-   "sampleEmptyShare": 0.0101
+   "sampleEmptyShare": 0.01
   },
   {
    "name": "NumCPFCNPJAgenteFiscalizado",
    "type": "string",
-   "sampleEmptyShare": 0.0101
+   "sampleEmptyShare": 0.01
   },
   {
    "name": "NumProcessoFiscalizacao",
@@ -66,7 +66,7 @@
    "name": "DatRecebimentoTIPE",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.2915
+   "sampleEmptyShare": 0.29
   },
   {
    "name": "DscTipoPenalidade",
@@ -76,11 +76,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-05T12:28:27+00:00",
-  "sha256": "4ac6392792431e21b72b6aa5e763c554bca83aafe345e9b29c2aa07bb7981e64",
+  "observed_at": "2026-10-19T09:31:33+00:00",
+  "sha256": "262b4ae1dcd5adb6165545283225de12cc832b5201b1a7a034f00bb54c05f85c",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 199,
+  "sample_rows": 200,
   "tables": 1,
   "distinct_headers": 1
  }

@@ -55,63 +55,63 @@
   {
    "name": "NumProcessoPunitivoANEEL",
    "type": "integer",
-   "sampleEmptyShare": 0.8666
+   "sampleEmptyShare": 0.866
   },
   {
    "name": "DatRecebimentoAutoInfracao",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.0389
+   "sampleEmptyShare": 0.0302
   },
   {
    "name": "DscTipoPenalidade",
    "type": "string",
-   "sampleEmptyShare": 0.0124
+   "sampleEmptyShare": 0.0123
   },
   {
    "name": "VlrPenalidade",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0124
+   "sampleEmptyShare": 0.0123
   },
   {
    "name": "DtRecebimentoRecurso",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.7183
+   "sampleEmptyShare": 0.7185
   },
   {
    "name": "DatDecisaoJuizo",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.832
+   "sampleEmptyShare": 0.8321
   },
   {
    "name": "DscDecisaoCompletaJuizo",
    "type": "string",
-   "sampleEmptyShare": 0.8104
+   "sampleEmptyShare": 0.8105
   },
   {
    "name": "DscAtoJuizo",
    "type": "string",
-   "sampleEmptyShare": 0.9061
+   "sampleEmptyShare": 0.9062
   },
   {
    "name": "VlrMultaAposJuizo",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.8388
+   "sampleEmptyShare": 0.8389
   },
   {
    "name": "DatDecisaoDiretoria",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.8721
+   "sampleEmptyShare": 0.8722
   },
   {
    "name": "DscDecisaoCompletaDiretoria",
    "type": "string",
-   "sampleEmptyShare": 0.84
+   "sampleEmptyShare": 0.8401
   },
   {
    "name": "DscAtoDiretoria",
@@ -122,18 +122,18 @@
    "name": "VlrMultaAposDiretoria",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.8536
+   "sampleEmptyShare": 0.8537
   },
   {
    "name": "NumTermoEncerramento",
    "type": "string",
-   "sampleEmptyShare": 0.5985
+   "sampleEmptyShare": 0.5988
   },
   {
    "name": "DatLavraturaTE",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.5991
+   "sampleEmptyShare": 0.5994
   },
   {
    "name": "DscEnquadramentoAI",
@@ -153,11 +153,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-05T11:58:19+00:00",
-  "sha256": "a05192defd1399864639e899a5fbdc2ca6661e543a0aa1ff998edc7ce75b8d13",
+  "observed_at": "2026-10-19T09:31:15+00:00",
+  "sha256": "ce62fbc008a32e53be7dce5dac125538146e859761a62b7279a433761c8f9443",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 1619,
+  "sample_rows": 1620,
   "tables": 1,
   "distinct_headers": 1
  }

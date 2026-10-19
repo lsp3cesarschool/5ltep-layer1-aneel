@@ -59,7 +59,7 @@
   {
    "name": "NumCNPJAgenteAcessante",
    "type": "string",
-   "sampleEmptyShare": 0.0894
+   "sampleEmptyShare": 0.0774
   },
   {
    "name": "NomAgenteAcessante",
@@ -96,8 +96,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T14:04:19+00:00",
-  "sha256": "a79fd5095badfa51334f060d6ac3a47c64d2407d043232dca195cbfe95458a3a",
+  "observed_at": "2026-10-19T09:28:19+00:00",
+  "sha256": "a2574ca4b8889838f4a19b620a4655dfe3a9af10d2f31fd1669f919fa304edfc",
   "encoding": "cp1252",
   "delimiter": ";",
   "sample_rows": 5000,

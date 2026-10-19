@@ -30,7 +30,7 @@
   {
    "name": "NomMunicipio",
    "type": "string",
-   "sampleEmptyShare": 0.0006
+   "sampleEmptyShare": 0.0012
   },
   {
    "name": "SigUF",
@@ -117,8 +117,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:37:46+00:00",
-  "sha256": "33290a123c76380c839633e43e220e5d5a5733844858a32422e22f7a6a6d398e",
+  "observed_at": "2026-10-19T09:50:48+00:00",
+  "sha256": "046dc6808a845a9c499145391f02b863ffad9b9571baa97d2f4df1e926fba732",
   "encoding": null,
   "delimiter": null,
   "sample_rows": 5000,

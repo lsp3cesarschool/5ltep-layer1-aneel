@@ -19,7 +19,7 @@
   {
    "name": "IdeDoc",
    "type": "integer",
-   "sampleEmptyShare": 0.4586
+   "sampleEmptyShare": 0.458
   },
   {
    "name": "IdeEpd",
@@ -50,19 +50,19 @@
    "name": "DatEfeOprComEpd",
    "type": "date",
    "format": "%d/%m/%Y",
-   "sampleEmptyShare": 0.1936
+   "sampleEmptyShare": 0.1916
   },
   {
    "name": "DatCaoCgmAtoLgl",
    "type": "date",
    "format": "%d/%m/%Y",
-   "sampleEmptyShare": 0.0118
+   "sampleEmptyShare": 0.0112
   },
   {
    "name": "DatOprComEpd",
    "type": "date",
    "format": "%d/%m/%Y",
-   "sampleEmptyShare": 0.0118
+   "sampleEmptyShare": 0.0112
   },
   {
    "name": "IdeObr",
@@ -88,7 +88,7 @@
    "name": "DatOprComObr",
    "type": "date",
    "format": "%d/%m/%Y",
-   "sampleEmptyShare": 0.1354
+   "sampleEmptyShare": 0.1348
   },
   {
    "name": "DscTipObr",
@@ -113,7 +113,7 @@
   {
    "name": "DscMdl",
    "type": "string",
-   "sampleEmptyShare": 0.6426
+   "sampleEmptyShare": 0.6428
   },
   {
    "name": "IdeTipMdl",
@@ -170,8 +170,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:48:49+00:00",
-  "sha256": "9c03497e1fd2c56fc810f966ca06eea5ee0e448d8ccfcfd111f15b2dc5ac00ca",
+  "observed_at": "2026-10-19T10:13:23+00:00",
+  "sha256": "d7ac2c58dc9619849de82f7ee2b956938dfe4a61b3b4418dd4031192fb2594b2",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

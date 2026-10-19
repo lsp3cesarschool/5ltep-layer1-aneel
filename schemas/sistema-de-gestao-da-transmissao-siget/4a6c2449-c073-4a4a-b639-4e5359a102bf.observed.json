@@ -39,12 +39,12 @@
   {
    "name": "QtdDijMdlMno",
    "type": "integer",
-   "sampleEmptyShare": 0.1133
+   "sampleEmptyShare": 0.1125
   },
   {
    "name": "QtdChvSccMdlMno",
    "type": "integer",
-   "sampleEmptyShare": 0.1087
+   "sampleEmptyShare": 0.1079
   },
   {
    "name": "IdeOnsSbe",
@@ -84,8 +84,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:26:39+00:00",
-  "sha256": "ee103ec28f7030a2ee08e378b5eae934e39fd63bbbcad598370673cbecb3222b",
+  "observed_at": "2026-10-19T09:35:37+00:00",
+  "sha256": "e55be6db420731470bbf44b1ead2c4f4d2da2496a5d3dd136863e9e188451d3b",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 3743,

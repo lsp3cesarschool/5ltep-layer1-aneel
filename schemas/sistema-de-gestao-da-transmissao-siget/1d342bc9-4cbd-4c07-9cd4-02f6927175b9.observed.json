@@ -55,7 +55,7 @@
    "falseValues": [
     "N"
    ],
-   "sampleEmptyShare": 0.5025
+   "sampleEmptyShare": 0.4985
   },
   {
    "name": "DscFinMdlEqp",
@@ -75,7 +75,7 @@
   {
    "name": "MdaTnsTiaMdlEqp",
    "type": "number",
-   "sampleEmptyShare": 0.7013
+   "sampleEmptyShare": 0.6998
   },
   {
    "name": "NomSubestacao",
@@ -95,8 +95,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:26:38+00:00",
-  "sha256": "67189220b707eb056f9880482e95a851c3c276d7bd4d7cd0869f5e2eb8fb6a76",
+  "observed_at": "2026-10-19T09:35:19+00:00",
+  "sha256": "4c5781f8cd139cd5bac29e5d6842608e74e71f207cc745147d4e8ac4c52d9778",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 2022,

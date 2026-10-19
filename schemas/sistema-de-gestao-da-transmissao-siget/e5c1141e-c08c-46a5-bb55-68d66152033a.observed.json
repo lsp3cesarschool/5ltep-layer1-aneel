@@ -24,7 +24,7 @@
   {
    "name": "QtdTorLinTms",
    "type": "integer",
-   "sampleEmptyShare": 0.0225
+   "sampleEmptyShare": 0.0224
   },
   {
    "name": "IdeOnsSbeOrigem",
@@ -34,7 +34,7 @@
   {
    "name": "IdeOnsSbeDestino",
    "type": "string",
-   "sampleEmptyShare": 0.0104
+   "sampleEmptyShare": 0.0103
   },
   {
    "name": "IdeMdl",
@@ -100,11 +100,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:26:39+00:00",
-  "sha256": "8707921df437f2f64564a29d400370b15829c9d2b7f7fbb99c0afe385e3e7ed3",
+  "observed_at": "2026-10-19T09:35:30+00:00",
+  "sha256": "9726d2d0df4deada2e57015823c4766e9361f2314ce8c17cef77a93aa4c296ee",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 578,
+  "sample_rows": 581,
   "tables": 1,
   "distinct_headers": 1
  }

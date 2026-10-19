@@ -9,7 +9,7 @@
   {
    "name": "DscRamo",
    "type": "string",
-   "sampleEmptyShare": 0.0042
+   "sampleEmptyShare": 0.0044
   },
   {
    "name": "SigAgente",
@@ -29,22 +29,22 @@
   {
    "name": "IdeUsina",
    "type": "integer",
-   "sampleEmptyShare": 0.0964
+   "sampleEmptyShare": 0.1412
   },
   {
    "name": "NomUsina",
    "type": "string",
-   "sampleEmptyShare": 0.0964
+   "sampleEmptyShare": 0.1412
   },
   {
    "name": "DscTipoExploracao",
    "type": "string",
-   "sampleEmptyShare": 0.0964
+   "sampleEmptyShare": 0.1412
   },
   {
    "name": "DscTipoGeracao",
    "type": "string",
-   "sampleEmptyShare": 0.0964
+   "sampleEmptyShare": 0.1412
   },
   {
    "name": "AnmInicioVigenciaTaxaFiscalizacao",
@@ -75,13 +75,13 @@
   {
    "name": "AnmFimVigCancTaxaFiscalizacao",
    "type": "string",
-   "sampleEmptyShare": 0.9626
+   "sampleEmptyShare": 0.956
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:48:46+00:00",
-  "sha256": "6fb741a934c3503545dc5142939bd356cc80d2db7a59dd0bc6bcd0687f5810d3",
+  "observed_at": "2026-10-19T10:13:21+00:00",
+  "sha256": "56452aafc383abefa28e17990640acd74a310a9f4f62d810f259b489351670e5",
   "encoding": "cp1252",
   "delimiter": ";",
   "sample_rows": 5000,

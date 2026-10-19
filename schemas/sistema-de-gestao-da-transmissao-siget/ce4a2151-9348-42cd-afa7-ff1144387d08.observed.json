@@ -24,7 +24,7 @@
   {
    "name": "DscUso",
    "type": "string",
-   "sampleEmptyShare": 0.9143
+   "sampleEmptyShare": 0.8421
   },
   {
    "name": "SigAgente",
@@ -69,7 +69,7 @@
   {
    "name": "NumAtoLegal",
    "type": "string",
-   "sampleEmptyShare": 0.4114
+   "sampleEmptyShare": 0.4421
   },
   {
    "name": "DscRAP",
@@ -97,12 +97,12 @@
   {
    "name": "SigUsuarioPagador",
    "type": "string",
-   "sampleEmptyShare": 0.9143
+   "sampleEmptyShare": 0.8421
   },
   {
    "name": "NumCNPJPagador",
    "type": "string",
-   "sampleEmptyShare": 0.9143
+   "sampleEmptyShare": 0.8421
   },
   {
    "name": "DscCicloTarifario",
@@ -117,11 +117,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:48:21+00:00",
-  "sha256": "6440a03862c924cc2747b2f641743d12609c4b9bc7b3df533ec55213a5d7a5f8",
+  "observed_at": "2026-10-19T10:12:57+00:00",
+  "sha256": "2d215e5fa8a35150a209d4708c24a10f4940d77e84e762047f0dedeff6a5292f",
   "encoding": "cp1252",
   "delimiter": ";",
-  "sample_rows": 175,
+  "sample_rows": 380,
   "tables": 1,
   "distinct_headers": 1
  }

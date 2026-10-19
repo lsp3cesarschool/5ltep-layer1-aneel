@@ -1,0 +1,206 @@
+{
+ "fields": [
+  {
+   "name": "DatGeracaoConjuntoDados",
+   "type": "date",
+   "format": "%Y-%m-%d",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomEdificacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomModulo",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigUF",
+   "type": "string",
+   "sampleEmptyShare": 0.0824
+  },
+  {
+   "name": "IdeMdl",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigClassificacao",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomFuncaoTransmissao",
+   "type": "string",
+   "sampleEmptyShare": 0.5552
+  },
+  {
+   "name": "SigConcessionariaModulo",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCNPJConcessionariaMdl",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumContratoModulo",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomGrupoEquipamento",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeGrp",
+   "type": "integer",
+   "sampleEmptyShare": 0.3864
+  },
+  {
+   "name": "DscTipoUso",
+   "type": "string",
+   "sampleEmptyShare": 0.3864
+  },
+  {
+   "name": "IdeRct",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "IdeObr",
+   "type": "integer",
+   "sampleEmptyShare": 0.8808
+  },
+  {
+   "name": "IdeOnsEpd",
+   "type": "string",
+   "sampleEmptyShare": 0.8808
+  },
+  {
+   "name": "SigConcessionariaReceita",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumCNPJConcessionariaRct",
+   "type": "integer",
+   "sampleEmptyShare": 0.5008
+  },
+  {
+   "name": "NumContratoReceita",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscAtualizacaoPA",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigIndice",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NomTipoReceita",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "NumAtoRAP",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "VlrRAPAtoLegal",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatRefRAP",
+   "type": "datetime",
+   "format": "%Y-%m-%dT%H:%M:%S",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscReceita",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatIniVigencia",
+   "type": "datetime",
+   "format": "%Y-%m-%dT%H:%M:%S",
+   "sampleEmptyShare": 0.0568
+  },
+  {
+   "name": "DatFimVigencia",
+   "type": "datetime",
+   "format": "%Y-%m-%dT%H:%M:%S",
+   "sampleEmptyShare": 0.0568
+  },
+  {
+   "name": "DatPrevisao",
+   "type": "datetime",
+   "format": "%Y-%m-%dT%H:%M:%S",
+   "sampleEmptyShare": 0.9432
+  },
+  {
+   "name": "DatOprComercial",
+   "type": "datetime",
+   "format": "%Y-%m-%dT%H:%M:%S",
+   "sampleEmptyShare": 0.6768
+  },
+  {
+   "name": "VlrRAPCiclo",
+   "type": "number",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DatRefCiclo",
+   "type": "datetime",
+   "format": "%Y-%m-%dT%H:%M:%S",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DcsSitRAP",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "SigConcessionariaUsr",
+   "type": "string",
+   "sampleEmptyShare": 0.5008
+  },
+  {
+   "name": "NumCNPJConcessionariaUsr",
+   "type": "integer",
+   "sampleEmptyShare": 0.0
+  },
+  {
+   "name": "DscTipoUsuario",
+   "type": "string",
+   "sampleEmptyShare": 0.5008
+  },
+  {
+   "name": "QtdAnosCcoTar",
+   "type": "string",
+   "sampleEmptyShare": 0.0
+  }
+ ],
+ "x5ltep": {
+  "status": "observed",
+  "observed_at": "2026-10-19T09:26:23+00:00",
+  "sha256": "2548ba9a228106aa3a6998f141561541dab800b76316f852039e009d3b5b17af",
+  "encoding": null,
+  "delimiter": null,
+  "sample_rows": 5000,
+  "tables": 1,
+  "distinct_headers": 1
+ }
+}

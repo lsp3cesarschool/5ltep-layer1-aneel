@@ -26,7 +26,7 @@
    "name": "DatEmissaoAto",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.0
+   "sampleEmptyShare": 0.0004
   },
   {
    "name": "SigUFPrincipal",
@@ -57,16 +57,16 @@
    "name": "DatInicioSuprimento",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9453
+   "sampleEmptyShare": 0.9202
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:26:33+00:00",
-  "sha256": "c35f8561ccee74c31dc41cffcddab372dc37bfacd0e69abb493169a439939fe8",
+  "observed_at": "2026-10-19T09:34:48+00:00",
+  "sha256": "01a8b30ba55c6a769410e6edce87f822377316e934efb206889ca43e6d47df47",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 2249,
+  "sample_rows": 2256,
   "tables": 1,
   "distinct_headers": 1
  }

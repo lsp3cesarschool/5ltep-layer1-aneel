@@ -85,7 +85,7 @@
    "name": "DatInicioOpTesteOutorgada",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9286
+   "sampleEmptyShare": 0.913
   },
   {
    "name": "DatLiberOpTesteRealizado",
@@ -103,13 +103,13 @@
    "name": "DatPrevisaoOpComercialSFG",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.1062
+   "sampleEmptyShare": 0.1076
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:26:20+00:00",
-  "sha256": "dba2fddf13ad32eca46fc9c4628e41bb2673132283ee78ddd5da30d6adb94a9a",
+  "observed_at": "2026-10-19T09:34:23+00:00",
+  "sha256": "490ad9bc30197b5fe9ca85aee1efc08b080877a33364e0d3d99add60f2ff1137",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

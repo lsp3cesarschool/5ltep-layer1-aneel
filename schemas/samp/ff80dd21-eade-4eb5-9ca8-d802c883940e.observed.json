@@ -54,12 +54,12 @@
   {
    "name": "IdeNucleoCeg",
    "type": "integer",
-   "sampleEmptyShare": 0.0
+   "sampleEmptyShare": 0.0014
   },
   {
    "name": "NumCNPJAgenteAcessante",
    "type": "string",
-   "sampleEmptyShare": 0.0788
+   "sampleEmptyShare": 0.0602
   },
   {
    "name": "NomAgenteAcessante",
@@ -96,8 +96,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-05T11:58:18+00:00",
-  "sha256": "8687c0c10ef4a3cbeef925fbf85b562e83319bbfe923b3ce66301f81e08c7e8b",
+  "observed_at": "2026-10-19T09:31:06+00:00",
+  "sha256": "488ac030ce38cf92fbe8d9ece3a2f9f1d7f4b4b81094671e8742d9cf0b9f33f8",
   "encoding": "cp1252",
   "delimiter": ";",
   "sample_rows": 5000,

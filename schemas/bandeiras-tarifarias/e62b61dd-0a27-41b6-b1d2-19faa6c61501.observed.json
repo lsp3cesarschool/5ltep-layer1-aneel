@@ -116,7 +116,7 @@
    "name": "VlrCVAEnergiaReceitaAlocada",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0004
+   "sampleEmptyShare": 0.0
   },
   {
    "name": "VlrCVAESSEERReceitaAlocada",
@@ -134,7 +134,7 @@
    "name": "VlrCVAEnergiaAposRepasse",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0004
+   "sampleEmptyShare": 0.0
   },
   {
    "name": "VlrCVAESSEERAposRepasse",
@@ -152,13 +152,13 @@
    "name": "VlrAjusteRepasse",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.6276
+   "sampleEmptyShare": 0.6416
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:26:40+00:00",
-  "sha256": "dd2692969ca58b5777df1ba1efce31800f5980ba225ca536406eabbf023c9aff",
+  "observed_at": "2026-10-19T09:35:43+00:00",
+  "sha256": "cfc1d0d8ebd99397df824d722371dd73fb2944a23954e87a55814ba6cb36b615",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

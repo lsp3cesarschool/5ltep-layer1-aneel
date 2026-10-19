@@ -19,7 +19,7 @@
   {
    "name": "SigUF",
    "type": "string",
-   "sampleEmptyShare": 0.1948
+   "sampleEmptyShare": 0.0824
   },
   {
    "name": "IdeMdl",
@@ -34,7 +34,7 @@
   {
    "name": "NomFuncaoTransmissao",
    "type": "string",
-   "sampleEmptyShare": 0.2228
+   "sampleEmptyShare": 0.5552
   },
   {
    "name": "SigConcessionariaModulo",
@@ -59,12 +59,12 @@
   {
    "name": "IdeGrp",
    "type": "integer",
-   "sampleEmptyShare": 0.7616
+   "sampleEmptyShare": 0.3864
   },
   {
    "name": "DscTipoUso",
    "type": "string",
-   "sampleEmptyShare": 0.7616
+   "sampleEmptyShare": 0.3864
   },
   {
    "name": "IdeRct",
@@ -74,12 +74,12 @@
   {
    "name": "IdeObr",
    "type": "integer",
-   "sampleEmptyShare": 0.904
+   "sampleEmptyShare": 0.8808
   },
   {
    "name": "IdeOnsEpd",
    "type": "string",
-   "sampleEmptyShare": 0.904
+   "sampleEmptyShare": 0.8808
   },
   {
    "name": "SigConcessionariaReceita",
@@ -89,7 +89,7 @@
   {
    "name": "NumCNPJConcessionariaRct",
    "type": "string",
-   "sampleEmptyShare": 0.8036
+   "sampleEmptyShare": 0.5008
   },
   {
    "name": "NumContratoReceita",
@@ -137,25 +137,25 @@
    "name": "DatIniVigencia",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.0132
+   "sampleEmptyShare": 0.0568
   },
   {
    "name": "DatFimVigencia",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.0132
+   "sampleEmptyShare": 0.0568
   },
   {
    "name": "DatPrevisao",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.9868
+   "sampleEmptyShare": 0.9432
   },
   {
    "name": "DatOprComercial",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.5518
+   "sampleEmptyShare": 0.6768
   },
   {
    "name": "VlrRAPCiclo",
@@ -177,7 +177,7 @@
   {
    "name": "SigConcessionariaUsr",
    "type": "string",
-   "sampleEmptyShare": 0.8036
+   "sampleEmptyShare": 0.5008
   },
   {
    "name": "NumCNPJConcessionariaUsr",
@@ -187,7 +187,7 @@
   {
    "name": "DscTipoUsuario",
    "type": "string",
-   "sampleEmptyShare": 0.8036
+   "sampleEmptyShare": 0.5008
   },
   {
    "name": "QtdAnosCcoTar",
@@ -197,8 +197,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:48:20+00:00",
-  "sha256": "bcb2db295bebb2181420545e83e51c7cffa6a644e3d8a463b5e8cd30da9c793a",
+  "observed_at": "2026-10-19T10:12:57+00:00",
+  "sha256": "201cd1f8004c512c6b1650bfeea8486bf2c03c97693bb4a70ae8d8375e0b419f",
   "encoding": "cp1252",
   "delimiter": ";",
   "sample_rows": 5000,

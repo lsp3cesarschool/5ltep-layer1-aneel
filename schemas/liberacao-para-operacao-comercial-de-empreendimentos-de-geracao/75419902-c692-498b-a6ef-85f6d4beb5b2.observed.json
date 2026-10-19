@@ -78,7 +78,7 @@
   {
    "name": "NumDespachoTeste",
    "type": "integer",
-   "sampleEmptyShare": 0.4866
+   "sampleEmptyShare": 0.4906
   },
   {
    "name": "MdaPotenciaLiberadaComercial",
@@ -101,13 +101,13 @@
   {
    "name": "NumDespachoComercial",
    "type": "integer",
-   "sampleEmptyShare": 0.4858
+   "sampleEmptyShare": 0.4898
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:26:14+00:00",
-  "sha256": "8835f44a3928ed45390042da968ac15f871a4a72784d580b4a8d8e0d47439bba",
+  "observed_at": "2026-10-19T09:33:48+00:00",
+  "sha256": "80b26c7a1aa0dfd34bd29709384eaff90cfea10776ff94d78140cb6f1ed1de0f",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

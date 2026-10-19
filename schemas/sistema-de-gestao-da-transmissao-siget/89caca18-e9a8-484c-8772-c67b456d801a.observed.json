@@ -49,7 +49,7 @@
   {
    "name": "QtdTorLinTms",
    "type": "integer",
-   "sampleEmptyShare": 0.0873
+   "sampleEmptyShare": 0.0851
   },
   {
    "name": "NumEtnLinTms",
@@ -60,7 +60,7 @@
   {
    "name": "IdeOnsSbeOrigem",
    "type": "string",
-   "sampleEmptyShare": 0.0167
+   "sampleEmptyShare": 0.0161
   },
   {
    "name": "NomSubestacaoOrigem",
@@ -80,7 +80,7 @@
   {
    "name": "IdeOnsSbeDestino",
    "type": "string",
-   "sampleEmptyShare": 0.0264
+   "sampleEmptyShare": 0.0265
   },
   {
    "name": "NomSubestacaoDestino",
@@ -105,12 +105,12 @@
   {
    "name": "NumCpdCnteCutLinhaTransm",
    "type": "integer",
-   "sampleEmptyShare": 0.1941
+   "sampleEmptyShare": 0.1921
   },
   {
    "name": "NumCpdCnteLgaLinhaTransm",
    "type": "integer",
-   "sampleEmptyShare": 0.174
+   "sampleEmptyShare": 0.1719
   },
   {
    "name": "IdcTipoCircuitoLinhaTransm",
@@ -120,27 +120,27 @@
   {
    "name": "IdcTipoEstruturaLinhaTransm",
    "type": "integer",
-   "sampleEmptyShare": 0.0902
+   "sampleEmptyShare": 0.088
   },
   {
    "name": "NumCaboCondutorLinhaTransm",
    "type": "integer",
-   "sampleEmptyShare": 0.0953
+   "sampleEmptyShare": 0.0932
   },
   {
    "name": "NumCaboParaRaioLinhaTransm",
    "type": "integer",
-   "sampleEmptyShare": 0.1011
+   "sampleEmptyShare": 0.0989
   },
   {
    "name": "IdeCaboCondutor",
    "type": "integer",
-   "sampleEmptyShare": 0.1218
+   "sampleEmptyShare": 0.1202
   },
   {
    "name": "IdeCaboParaRaio",
    "type": "integer",
-   "sampleEmptyShare": 0.1063
+   "sampleEmptyShare": 0.1041
   },
   {
    "name": "NumTensaoBaseLinhaTransm",
@@ -151,11 +151,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:26:35+00:00",
-  "sha256": "831c5b580d3bfb22079abde549ccec1c7797a188a7e65dd0ff47b5bbf4a55f2d",
+  "observed_at": "2026-10-19T09:34:59+00:00",
+  "sha256": "9e4b038fa3efc07027926b5fc07ba1789db3c150ee09f773da9d41fd55adc3b1",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 1741,
+  "sample_rows": 1739,
   "tables": 1,
   "distinct_headers": 1
  }

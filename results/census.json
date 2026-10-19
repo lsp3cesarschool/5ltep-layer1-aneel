@@ -4,7 +4,7 @@
   "name": "ANEEL",
   "title": "ANEEL open data portal (Dados Abertos ANEEL)"
  },
- "generated_at": "2026-10-12T11:22:07+00:00",
+ "generated_at": "2026-10-19T09:23:50+00:00",
  "datasets": [
   {
    "name": "acrescimo-da-potencia-instalada",
@@ -465,7 +465,7 @@
    "title": "Auto de Infração",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/auto-de-infracao",
-   "metadata_modified": "2026-10-05T08:01:04.928489",
+   "metadata_modified": "2026-10-19T08:01:48.543095",
    "resources_total": 3,
    "dictionaries": [
     {
@@ -488,8 +488,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/4d690c9d-8158-4b04-ae44-7d3de8616271/resource/f221158a-93a3-423f-b794-4312b6985a24/download/auto-infracao.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-05T08:00:41.077938",
-     "size": 709575,
+     "last_modified": "2026-10-19T08:01:20.005623",
+     "size": 710093,
      "attached": false,
      "datastore": {
       "fields": 28,
@@ -560,7 +560,7 @@
    "title": "Bandeiras Tarifárias",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/bandeiras-tarifarias",
-   "metadata_modified": "2026-10-10T04:01:44.411022",
+   "metadata_modified": "2026-10-19T08:04:05.386420",
    "resources_total": 6,
    "dictionaries": [
     {
@@ -620,7 +620,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c/resource/0591b8f6-fe54-437b-b72b-1aa2efd46e42/download/bandeira-tarifaria-acionamento.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-10T04:00:43.848827",
+     "last_modified": "2026-10-19T08:04:01.817196",
      "size": 6458,
      "attached": false,
      "datastore": {
@@ -637,8 +637,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/7f43a020-6dc5-44b8-80b4-d97eaa94436c/resource/e62b61dd-0a27-41b6-b1d2-19faa6c61501/download/bandeira-tarifaria-conta-bandeira.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-10T04:00:31.968299",
-     "size": 3552234,
+     "last_modified": "2026-10-19T08:04:01.425157",
+     "size": 7097825,
      "attached": false,
      "datastore": {
       "fields": 26,
@@ -4175,7 +4175,7 @@
    "title": "Componentes Tarifárias",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/componentes-tarifarias",
-   "metadata_modified": "2026-10-12T05:32:20.821992",
+   "metadata_modified": "2026-10-18T05:35:11.138052",
    "resources_total": 31,
    "dictionaries": [
     {
@@ -4602,7 +4602,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/a4060165-3a0c-404f-926c-83901088b67c/download/componentes-tarifarias-2025.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T05:26:42.993369",
+     "last_modified": "2026-10-13T05:21:40.395971",
      "size": 829063403,
      "attached": false,
      "datastore": {
@@ -4632,8 +4632,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/613e6b74-1a4b-4c48-a231-096815e96bd5/resource/e8717aa8-2521-453f-bf16-fbb9a16eea39/download/componentes-tarifarias-2026.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T05:29:33.187023",
-     "size": 353053791,
+     "last_modified": "2026-10-18T05:28:46.357448",
+     "size": 697528904,
      "attached": false,
      "datastore": {
       "fields": 17,
@@ -6335,7 +6335,7 @@
    "title": "Liberação para operação comercial de empreendimentos de geração",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
-   "metadata_modified": "2026-10-06T15:52:59.587337",
+   "metadata_modified": "2026-10-16T19:04:44.360624",
    "resources_total": 6,
    "dictionaries": [
     {
@@ -6366,8 +6366,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/2b2ace01-5692-4636-8c99-2a84ff094f4f/resource/75419902-c692-498b-a6ef-85f6d4beb5b2/download/unidades-geradoras-liberadas-operacao-comercial-detalhado.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-06T15:52:38.226325",
-     "size": 13442445,
+     "last_modified": "2026-10-16T19:04:17.223658",
+     "size": 13456894,
      "attached": false,
      "datastore": {
       "fields": 19,
@@ -6391,7 +6391,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/2b2ace01-5692-4636-8c99-2a84ff094f4f/resource/60b47530-6189-445f-acfa-882cb43bef8d/download/unidades-geradoras-liberadas-operacao-comercial-resumido.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-06T15:52:41.608688",
+     "last_modified": "2026-10-16T19:04:22.168645",
      "size": 8147,
      "attached": false,
      "datastore": {
@@ -6418,7 +6418,7 @@
    "title": "Manifestações no 1° e 2° nível da Distribuidora",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/manifestacoes-no-1o-e-2o-niveis-da-distribuidora",
-   "metadata_modified": "2026-10-10T03:29:46.618551",
+   "metadata_modified": "2026-10-17T03:41:48.821966",
    "resources_total": 11,
    "dictionaries": [
     {
@@ -6450,8 +6450,8 @@
      "format": "ZIP",
      "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/6c3e074c-d9ab-4840-8c6c-7993faa36ddb/download/manifestacoes-1-2-niveis-distribuidora-2010-2022.zip",
      "candidate": "zip",
-     "last_modified": "2026-10-10T03:08:30.599454",
-     "size": 4607836,
+     "last_modified": "2026-10-17T03:10:21.594915",
+     "size": 5170638,
      "attached": false,
      "datastore": {
       "fields": 19,
@@ -6472,8 +6472,8 @@
      "format": "ZIP",
      "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/426f4fb2-6a89-452a-8236-cc48153ee607/download/manifestacoes-1-2-niveis-distribuidora-2023.zip",
      "candidate": "zip",
-     "last_modified": "2026-10-10T03:12:29.943031",
-     "size": 59612354,
+     "last_modified": "2026-10-17T03:16:16.877809",
+     "size": 78300665,
      "attached": false,
      "datastore": {
       "fields": 19,
@@ -6494,8 +6494,8 @@
      "format": "ZIP",
      "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/4af32411-da8b-492c-ae15-8f615e35d2e2/download/manifestacoes-1-2-niveis-distribuidora-2024.zip",
      "candidate": "zip",
-     "last_modified": "2026-10-10T03:20:29.034123",
-     "size": 78345608,
+     "last_modified": "2026-10-17T03:24:17.796229",
+     "size": 103369658,
      "attached": false,
      "datastore": null,
      "described": 0,
@@ -6513,8 +6513,8 @@
      "format": "ZIP",
      "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/83839c4e-78f9-4f68-bcb7-51dcfcf05c9c/download/manifestacoes-1-2-niveis-distribuidora-2025.zip",
      "candidate": "zip",
-     "last_modified": "2026-10-10T03:26:29.694435",
-     "size": 81752303,
+     "last_modified": "2026-10-17T03:32:18.082063",
+     "size": 108430746,
      "attached": false,
      "datastore": null,
      "described": 0,
@@ -6532,8 +6532,8 @@
      "format": "ZIP",
      "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/8c42c510-6549-4285-817c-58738914be19/download/manifestacoes-1-2-niveis-distribuidora-2026.zip",
      "candidate": "zip",
-     "last_modified": "2026-10-10T03:29:29.164875",
-     "size": 54675861,
+     "last_modified": "2026-10-17T03:41:16.502128",
+     "size": 72319109,
      "attached": false,
      "datastore": null,
      "described": 0,
@@ -6551,8 +6551,8 @@
      "format": "PARQUET",
      "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/290433a8-a5f8-4117-a450-44d3e62ead22/download/manifestacoes-1-2-niveis-distribuidora-2010-2022.parquet",
      "candidate": "parquet",
-     "last_modified": "2026-10-10T03:08:37.438510",
-     "size": 3125757,
+     "last_modified": "2026-10-17T03:10:32.590046",
+     "size": 4928207,
      "attached": false,
      "datastore": null,
      "described": 0,
@@ -6570,8 +6570,8 @@
      "format": "PARQUET",
      "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/908f7282-7a43-41e9-8303-edcab69c2706/download/manifestacoes-1-2-niveis-distribuidora-2023.parquet",
      "candidate": "parquet",
-     "last_modified": "2026-10-10T03:12:56.286110",
-     "size": 36302909,
+     "last_modified": "2026-10-17T03:17:00.338683",
+     "size": 46481343,
      "attached": false,
      "datastore": null,
      "described": 0,
@@ -6589,8 +6589,8 @@
      "format": "PARQUET",
      "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/0060645e-c42c-454d-af8c-f0c06b0988ab/download/manifestacoes-1-2-niveis-distribuidora-2024.parquet",
      "candidate": "parquet",
-     "last_modified": "2026-10-10T03:20:55.855760",
-     "size": 43672581,
+     "last_modified": "2026-10-17T03:25:00.364058",
+     "size": 57239037,
      "attached": false,
      "datastore": null,
      "described": 0,
@@ -6608,8 +6608,8 @@
      "format": "PARQUET",
      "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/a9ea21c7-1b2b-4c91-97b4-3d9732c77cec/download/manifestacoes-1-2-niveis-distribuidora-2025.parquet",
      "candidate": "parquet",
-     "last_modified": "2026-10-10T03:26:55.793247",
-     "size": 45402511,
+     "last_modified": "2026-10-17T03:33:08.706642",
+     "size": 59659007,
      "attached": false,
      "datastore": null,
      "described": 0,
@@ -6627,8 +6627,8 @@
      "format": "PARQUET",
      "url": "https://dadosabertos.aneel.gov.br/dataset/364859a2-7cb8-45ea-9c88-b4392516a6ba/resource/d0f619ef-1bbe-40d1-849c-35b47172df8e/download/manifestacoes-1-2-niveis-distribuidora-2026.parquet",
      "candidate": "parquet",
-     "last_modified": "2026-10-10T03:29:46.565701",
-     "size": 31179645,
+     "last_modified": "2026-10-17T03:41:48.791698",
+     "size": 40834481,
      "attached": false,
      "datastore": null,
      "described": 0,
@@ -6952,7 +6952,7 @@
    "title": "Ouvidoria Setorial ANEEL",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/ouvidoria-setorial-aneel",
-   "metadata_modified": "2026-10-12T10:02:58.896737",
+   "metadata_modified": "2026-10-18T10:03:22.619775",
    "resources_total": 19,
    "dictionaries": [
     {
@@ -7269,8 +7269,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26/resource/93d50388-a4dd-4c31-a9e6-065ade8078f3/download/ouvidoria-aneel-2025.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T10:01:24.621849",
-     "size": 70948704,
+     "last_modified": "2026-10-18T10:02:21.620815",
+     "size": 70949821,
      "attached": false,
      "datastore": {
       "fields": 13,
@@ -7291,8 +7291,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/1206d323-ad8c-46c6-bc2d-9b731e42ee26/resource/1ee51181-9d1f-40f1-ae6e-61719d276b28/download/ouvidoria-aneel-2026.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T10:02:29.403008",
-     "size": 61596770,
+     "last_modified": "2026-10-18T10:02:19.367898",
+     "size": 63217397,
      "attached": false,
      "datastore": {
       "fields": 13,
@@ -7315,7 +7315,7 @@
    "title": "Pautas e Atas das Reuniões Publicas da Diretoria",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/pautas-e-atas-das-reunioes-publicas-da-diretoria",
-   "metadata_modified": "2026-10-09T03:05:30.515619",
+   "metadata_modified": "2026-10-16T03:05:46.913101",
    "resources_total": 2,
    "dictionaries": [
     {
@@ -7338,8 +7338,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/a9fb5b4b-59ca-4be8-9690-876d9547271d/resource/43386a8b-4781-44ec-a082-fa7fdfe33186/download/pautas-atas-reunioes-publicas-diretoria.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-09T03:05:30.424894",
-     "size": 19095667,
+     "last_modified": "2026-10-16T03:05:18.776131",
+     "size": 19120611,
      "attached": false,
      "datastore": {
       "fields": 13,
@@ -7857,7 +7857,7 @@
    "title": "RALIE – Relatório de Acompanhamento da Expansão da Oferta de Geração de Energia Elétrica",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
-   "metadata_modified": "2026-10-06T16:59:55.337761",
+   "metadata_modified": "2026-10-16T20:15:40.116614",
    "resources_total": 12,
    "dictionaries": [
     {
@@ -7901,8 +7901,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477/resource/4a615df8-4c25-48fa-bbea-873a36a79518/download/ralie-usina-atual.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-06T16:49:35.175614",
-     "size": 1739404,
+     "last_modified": "2026-10-16T20:04:24.747767",
+     "size": 1743721,
      "attached": false,
      "datastore": {
       "fields": 79,
@@ -7918,8 +7918,8 @@
      "format": "ZIP",
      "url": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477/resource/6b476bbe-e269-4133-a808-5309860cffb6/download/ralie-usina-historico.zip",
      "candidate": "zip",
-     "last_modified": "2026-10-06T16:55:05.867469",
-     "size": 26087663,
+     "last_modified": "2026-10-16T20:09:16.304123",
+     "size": 26176576,
      "attached": false,
      "datastore": null,
      "described": 0,
@@ -7940,8 +7940,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477/resource/8a794ee4-3d41-4ce7-a80a-ae7702a16b7b/download/ralie-unidade-geradora-atual.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-06T16:49:34.533718",
-     "size": 12461745,
+     "last_modified": "2026-10-16T20:04:17.889973",
+     "size": 12072862,
      "attached": false,
      "datastore": {
       "fields": 19,
@@ -7962,8 +7962,8 @@
      "format": "ZIP",
      "url": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477/resource/f08f3f8f-db6f-4c3b-9f4f-7179d099c255/download/ralie-unidade-geradora-historico.zip",
      "candidate": "zip",
-     "last_modified": "2026-10-06T16:59:34.818201",
-     "size": 118936937,
+     "last_modified": "2026-10-16T20:15:18.101262",
+     "size": 119437720,
      "attached": false,
      "datastore": null,
      "described": 0,
@@ -7989,8 +7989,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477/resource/2e47d5a5-ec9c-4f9e-b58d-08fcf37461f4/download/ralie-leilao-atual.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-06T16:49:35.661908",
-     "size": 272484,
+     "last_modified": "2026-10-16T20:04:28.714851",
+     "size": 274072,
      "attached": false,
      "datastore": {
       "fields": 11,
@@ -8006,8 +8006,8 @@
      "format": "ZIP",
      "url": "https://dadosabertos.aneel.gov.br/dataset/57e4b8b5-a5db-40e6-9901-27ca629d0477/resource/c8adddf9-bed6-4f25-989d-69e463fa0ade/download/ralie-leilao-historico.zip",
      "candidate": "zip",
-     "last_modified": "2026-10-06T16:51:35.321814",
-     "size": 2161779,
+     "last_modified": "2026-10-16T20:05:17.285855",
+     "size": 2170283,
      "attached": false,
      "datastore": null,
      "described": 0,
@@ -8321,7 +8321,7 @@
    "title": "SAMP - Sistema de Acompanhamento de Informações de Mercado para Regulação Econômica",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/samp",
-   "metadata_modified": "2026-09-15T05:22:51.386971",
+   "metadata_modified": "2026-10-15T05:26:08.502541",
    "resources_total": 49,
    "dictionaries": [
     {
@@ -8907,8 +8907,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/84906f77-0bb4-4527-b9a0-cb6c2b525661/download/samp-2021.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-15T05:03:11.526475",
-     "size": 263097154,
+     "last_modified": "2026-10-15T05:05:24.450608",
+     "size": 263142010,
      "attached": false,
      "datastore": {
       "fields": 18,
@@ -8937,8 +8937,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/7e097631-46ad-4051-8954-9ef8fb594fdc/download/samp-2022.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-15T05:07:13.473117",
-     "size": 270165302,
+     "last_modified": "2026-10-15T05:09:28.250158",
+     "size": 270215436,
      "attached": false,
      "datastore": {
       "fields": 18,
@@ -8967,8 +8967,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/b9ad890b-d500-4294-bd36-1108acc54832/download/samp-2023.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-15T05:11:35.105363",
-     "size": 310985865,
+     "last_modified": "2026-10-15T05:13:25.380607",
+     "size": 311055851,
      "attached": false,
      "datastore": {
       "fields": 18,
@@ -8997,8 +8997,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/ff80dd21-eade-4eb5-9ca8-d802c883940e/download/samp-2024.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-15T05:15:15.785095",
-     "size": 369234945,
+     "last_modified": "2026-10-15T05:18:27.219440",
+     "size": 369310608,
      "attached": false,
      "datastore": {
       "fields": 18,
@@ -9027,8 +9027,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/6fac5605-5df0-469d-be08-04ee22934f60/download/samp-2025.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-15T05:18:12.828313",
-     "size": 389171079,
+     "last_modified": "2026-10-15T05:21:25.692080",
+     "size": 389206491,
      "attached": false,
      "datastore": {
       "fields": 18,
@@ -9057,8 +9057,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/3e153db4-a503-4093-88be-75d31b002dcf/resource/56f1c242-5017-4cef-a365-0a96fffb0f2b/download/samp-2026.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-15T05:20:08.929496",
-     "size": 236544313,
+     "last_modified": "2026-10-15T05:22:53.369626",
+     "size": 274171820,
      "attached": false,
      "datastore": {
       "fields": 18,
@@ -9089,7 +9089,7 @@
    "title": "SAMP - Balanço",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/samp-balanco",
-   "metadata_modified": "2026-09-15T05:02:06.336027",
+   "metadata_modified": "2026-10-15T05:02:20.323465",
    "resources_total": 3,
    "dictionaries": [
     {
@@ -9112,8 +9112,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/3193ebab-81b3-406e-be0e-f968a4a21689/resource/9f03a034-fb01-4daa-b6a6-e25a84d979ed/download/samp-balanco.csv",
      "candidate": "csv",
-     "last_modified": "2026-09-15T05:01:08.609871",
-     "size": 136767843,
+     "last_modified": "2026-10-15T05:01:23.299437",
+     "size": 137272652,
      "attached": false,
      "datastore": {
       "fields": 12,
@@ -9258,7 +9258,7 @@
    "title": "SIGA - Sistema de Informações de Geração da ANEEL",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/siga-sistema-de-informacoes-de-geracao-da-aneel",
-   "metadata_modified": "2026-10-12T10:40:29.925530",
+   "metadata_modified": "2026-10-18T10:45:00.652905",
    "resources_total": 5,
    "dictionaries": [
     {
@@ -9312,8 +9312,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/6d90b77c-c5f5-4d81-bdec-7bc619494bb9/resource/2f65a1b0-19b8-4360-8238-b34ab4693d55/download/siga-empreendimentos-geracao-diario.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T10:40:24.023378",
-     "size": 8418652,
+     "last_modified": "2026-10-18T10:44:50.478600",
+     "size": 7885301,
      "attached": false,
      "datastore": {
       "fields": 23,
@@ -9344,7 +9344,7 @@
    "title": "SIGEC - Sistema de Gestão de Créditos",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/sigec-sistema-de-gestao-de-creditos",
-   "metadata_modified": "2026-10-12T04:18:26.432501",
+   "metadata_modified": "2026-10-19T04:18:14.404812",
    "resources_total": 5,
    "dictionaries": [
     {
@@ -9375,8 +9375,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a/resource/eca732ac-4f08-401f-b1cf-f9eff88a9b20/download/sigec-multa-de-fiscalizacao.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T04:01:25.375046",
-     "size": 2211002,
+     "last_modified": "2026-10-19T04:03:12.492636",
+     "size": 4594790,
      "attached": false,
      "datastore": {
       "fields": 19,
@@ -9392,8 +9392,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/da3d8da5-bdc0-471a-b57e-09e49f557c9a/resource/0bf361e5-dc58-4380-95f0-b61a55ec3423/download/sigec-taxa-de-fiscalizacao.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T04:17:27.304897",
-     "size": 124064522,
+     "last_modified": "2026-10-19T04:15:19.300135",
+     "size": 250485024,
      "attached": false,
      "datastore": {
       "fields": 19,
@@ -9419,8 +9419,8 @@
    "title": "Sistema de Gestão da Transmissão - SIGET",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/sistema-de-gestao-da-transmissao-siget",
-   "metadata_modified": "2026-10-12T10:48:38.437198",
-   "resources_total": 34,
+   "metadata_modified": "2026-10-18T10:51:58.281877",
+   "resources_total": 35,
    "dictionaries": [],
    "tables": [
     {
@@ -9429,8 +9429,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/a1366325-1071-4eeb-94bd-27915747b177/download/siget-contrato-empreendimento-obra-modulo.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-08T05:35:30.945546",
-     "size": 14652655,
+     "last_modified": "2026-10-18T05:55:52.946385",
+     "size": 14652173,
      "attached": false,
      "datastore": {
       "fields": 32,
@@ -9446,8 +9446,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/caec5e88-c904-45e5-bde4-d7e96ef139b6/download/siget-contrato-moduloequipamento-subestacao.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-08T05:36:32.688402",
-     "size": 929575,
+     "last_modified": "2026-10-18T05:58:54.466512",
+     "size": 929821,
      "attached": false,
      "datastore": {
       "fields": 21,
@@ -9463,7 +9463,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/4343dcda-284a-4ede-b3b9-e809ea18385c/download/siget-contrato-modulogeral-subestacao-tipoarranjo.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-08T05:36:31.100098",
+     "last_modified": "2026-10-18T05:58:52.989043",
      "size": 83921,
      "attached": false,
      "datastore": {
@@ -9480,8 +9480,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/89caca18-e9a8-484c-8772-c67b456d801a/download/siget-contrato-modulolinhatransmissao-subestacaoorigem-subestacaodestino.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-08T05:35:32.779177",
-     "size": 468722,
+     "last_modified": "2026-10-18T05:55:54.517613",
+     "size": 468231,
      "attached": false,
      "datastore": {
       "fields": 29,
@@ -9497,8 +9497,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/7c4e7f67-b674-4223-89c5-83c95cea1450/download/siget-contrato-modulomanobra-subestacao-tipoarranjo.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-08T05:36:31.880429",
-     "size": 2263732,
+     "last_modified": "2026-10-18T05:58:53.690013",
+     "size": 2263190,
      "attached": false,
      "datastore": {
       "fields": 20,
@@ -9514,8 +9514,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/59ab6779-505e-4aa9-8641-3e07aca25699/download/siget-resolucao-contrato-agente.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-08T05:34:32.337553",
-     "size": 1762900,
+     "last_modified": "2026-10-18T05:52:57.078303",
+     "size": 1764533,
      "attached": false,
      "datastore": {
       "fields": 24,
@@ -9531,7 +9531,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/60e111c3-6ee1-412e-abe3-bc15af897537/download/siget-contrato-agente.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-08T05:35:32.060451",
+     "last_modified": "2026-10-18T05:55:53.915011",
      "size": 86592,
      "attached": false,
      "datastore": {
@@ -9548,8 +9548,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/1c345514-893d-44a1-8e7e-a9362137c356/download/siget-resolucao-empreendimento-obra-modulo.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-08T05:34:33.142387",
-     "size": 9025315,
+     "last_modified": "2026-10-18T05:53:00.335296",
+     "size": 9032921,
      "attached": false,
      "datastore": {
       "fields": 32,
@@ -9565,8 +9565,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/1d342bc9-4cbd-4c07-9cd4-02f6927175b9/download/siget-resolucao-moduloequipamento-subestacao.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-08T05:35:34.359337",
-     "size": 325809,
+     "last_modified": "2026-10-18T05:52:58.694626",
+     "size": 325830,
      "attached": false,
      "datastore": {
       "fields": 17,
@@ -9582,7 +9582,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/1effe1be-c6ff-4ffb-93b6-ed74228edea1/download/siget-resolucao-modulogeral-subestacao-tipoarranjo.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-08T05:35:34.948932",
+     "last_modified": "2026-10-18T05:52:59.438513",
      "size": 61041,
      "attached": false,
      "datastore": {
@@ -9599,8 +9599,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/e5c1141e-c08c-46a5-bb55-68d66152033a/download/siget-resolucao-modulolinhatransmissao-subestacaoorigem-subestacaodestino.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-08T05:34:31.476665",
-     "size": 125025,
+     "last_modified": "2026-10-18T05:52:56.097218",
+     "size": 125694,
      "attached": false,
      "datastore": {
       "fields": 19,
@@ -9616,8 +9616,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/4a6c2449-c073-4a4a-b639-4e5359a102bf/download/siget-resolucao-modulomanobra-subestacao-tipoarranjo.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-08T05:35:33.641482",
-     "size": 595663,
+     "last_modified": "2026-10-18T05:52:57.743742",
+     "size": 595669,
      "attached": false,
      "datastore": {
       "fields": 16,
@@ -9633,8 +9633,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/5e4e4916-fd70-44c7-a0eb-92bfb4efad6b/download/siget-lista-modulos-previa-reajuste-rap.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T10:48:23.986034",
-     "size": 27456137,
+     "last_modified": "2026-10-18T10:50:54.243062",
+     "size": 134870481,
      "attached": false,
      "datastore": {
       "fields": 37,
@@ -9650,8 +9650,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/ce4a2151-9348-42cd-afa7-ff1144387d08/download/siget-novas-instalacoes-operacao-comercial.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T10:47:23.390550",
-     "size": 63973,
+     "last_modified": "2026-10-18T10:50:52.284693",
+     "size": 139218,
      "attached": false,
      "datastore": {
       "fields": 22,
@@ -9667,8 +9667,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/f6e911b4-1db8-434a-88aa-6580681773b8/download/siget-obras-concluidas-sem-termo-liberacao-identificado.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T10:47:24.687712",
-     "size": 2023,
+     "last_modified": "2026-10-18T10:50:58.070305",
+     "size": 8713,
      "attached": false,
      "datastore": {
       "fields": 14,
@@ -9684,8 +9684,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/d381c304-8483-4974-8055-2dc08c740ddb/download/siget-termo-liberacao-reajuste-rap-em-processamento.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T10:47:24.085867",
-     "size": 63755,
+     "last_modified": "2026-10-18T10:50:57.509512",
+     "size": 127371,
      "attached": false,
      "datastore": {
       "fields": 13,
@@ -9701,13 +9701,27 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/d7ba6cc7-b5dc-4acd-b38a-e9968cc0a649/download/siget-termo-liberacao-reajuste-rap-processado.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T10:47:25.388692",
-     "size": 4733152,
+     "last_modified": "2026-10-18T10:50:58.780832",
+     "size": 9466165,
      "attached": false,
      "datastore": {
       "fields": 13,
       "typed": false
      },
+     "described": 0,
+     "link": null,
+     "level": 0
+    },
+    {
+     "id": "4a025d46-5e5e-4bb9-a63a-4f2ac90628d5",
+     "name": "siget-lista-modulos-previa-reajuste-rap.parquet",
+     "format": "PARQUET",
+     "url": "https://dadosabertos.aneel.gov.br/dataset/beefe870-7452-4830-a7b0-6611e3d5eff6/resource/4a025d46-5e5e-4bb9-a63a-4f2ac90628d5/download/siget-lista-modulos-previa-reajuste-rap.parquet",
+     "candidate": "parquet",
+     "last_modified": "2026-10-18T10:50:56.982212",
+     "size": 5504938,
+     "attached": false,
+     "datastore": null,
      "described": 0,
      "link": null,
      "level": 0
@@ -9872,8 +9886,8 @@
    "title": "Tarifas de aplicação das distribuidoras de energia elétrica",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/tarifas-distribuidoras-energia-eletrica",
-   "metadata_modified": "2026-10-12T10:03:39.682550",
-   "resources_total": 3,
+   "metadata_modified": "2026-10-18T10:06:25.956494",
+   "resources_total": 4,
    "dictionaries": [
     {
      "id": "2d3478e0-8aa0-4cd4-81a7-5f8967cd8804",
@@ -9895,8 +9909,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/5a583f3e-1646-4f67-bf0f-69db4203e89e/resource/fcf2906c-7c32-4b9b-a637-054e7a5234f4/download/tarifas-homologadas-distribuidoras-energia-eletrica.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T10:02:32.167352",
-     "size": 90426603,
+     "last_modified": "2026-10-18T10:02:24.219223",
+     "size": 178230008,
      "attached": false,
      "datastore": {
       "fields": 17,
@@ -9904,6 +9918,12 @@
      },
      "described": 0,
      "distributions": [
+      {
+       "id": "9af99ef4-376a-4493-a075-5e48ab4da51b",
+       "name": "tarifas-homologadas-distribuidoras-energia-eletrica.parquet",
+       "format": "parquet",
+       "url": "https://dadosabertos.aneel.gov.br/dataset/5a583f3e-1646-4f67-bf0f-69db4203e89e/resource/9af99ef4-376a-4493-a075-5e48ab4da51b/download/tarifas-homologadas-distribuidoras-energia-eletrica.parquet"
+      },
       {
        "id": "cfad8fce-5a1c-4f43-a1cd-6aaf415c22dd",
        "name": "tarifas-homologadas-distribuidoras-energia-eletrica.xml",
@@ -9927,7 +9947,7 @@
    "title": "Termo de Intimação (TI)",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/termo-de-intimacao-ti",
-   "metadata_modified": "2026-10-05T08:00:52.143128",
+   "metadata_modified": "2026-10-19T08:01:31.863414",
    "resources_total": 2,
    "dictionaries": [
     {
@@ -9950,8 +9970,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/e8d03b9e-3717-46dc-b0c4-c33d3bf80b10/resource/186f7895-2d71-4c68-93c9-57de0e5c5498/download/termo-intimacao.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-05T08:00:37.967855",
-     "size": 155494,
+     "last_modified": "2026-10-19T08:01:15.920908",
+     "size": 156101,
      "attached": false,
      "datastore": {
       "fields": 26,
@@ -9974,7 +9994,7 @@
    "title": "Termo de Notificação",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/termo-de-notificacao",
-   "metadata_modified": "2026-10-05T08:00:49.577785",
+   "metadata_modified": "2026-10-19T08:01:25.125282",
    "resources_total": 3,
    "dictionaries": [
     {
@@ -9997,8 +10017,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/f72dd455-ef2b-4922-862f-e9e59f999ded/resource/3aec3f42-5004-44e1-8b9c-4562084196f6/download/termo-notificacao.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-05T08:00:37.049414",
-     "size": 843323,
+     "last_modified": "2026-10-19T08:01:14.836164",
+     "size": 843706,
      "attached": false,
      "datastore": {
       "fields": 17,
@@ -10029,7 +10049,7 @@
    "title": "Termos de Intimação das Penas dos Editais (TIPE)",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/termos-de-intimacao-das-penas-dos-editais-tipe",
-   "metadata_modified": "2026-10-05T08:01:38.064242",
+   "metadata_modified": "2026-10-19T08:01:45.315553",
    "resources_total": 10,
    "dictionaries": [
     {
@@ -10100,8 +10120,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8/resource/84ba04eb-0a82-423c-9aac-aab4ce8102a3/download/tipe-principal.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-05T08:00:39.723098",
-     "size": 61142,
+     "last_modified": "2026-10-19T08:01:18.743341",
+     "size": 61410,
      "attached": false,
      "datastore": {
       "fields": 14,
@@ -10122,7 +10142,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8/resource/9914bb13-27a9-45c0-8d31-ae2473fbecc4/download/tipe-advertencia.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-05T08:00:40.099616",
+     "last_modified": "2026-10-19T08:01:19.139622",
      "size": 15247,
      "attached": false,
      "datastore": {
@@ -10144,8 +10164,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8/resource/0e3cb385-65d2-4b9e-ae50-f1e217e4e3bf/download/tipe-multa.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-05T08:00:38.728367",
-     "size": 54426,
+     "last_modified": "2026-10-19T08:01:17.764103",
+     "size": 54625,
      "attached": false,
      "datastore": {
       "fields": 16,
@@ -10166,7 +10186,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8/resource/d4549533-b969-43fa-a1d4-7b75d7868a03/download/tipe-suspensao.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-05T08:00:40.516347",
+     "last_modified": "2026-10-19T08:01:19.562275",
      "size": 11793,
      "attached": false,
      "datastore": {
@@ -10188,7 +10208,7 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/34ea9837-61d5-4585-9968-0a3862eff8f8/resource/18c5fcae-1b7f-40a4-b092-d47344d4d195/download/tipe-inidoneidade.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-05T08:01:36.127053",
+     "last_modified": "2026-10-19T08:01:16.354589",
      "size": 11227,
      "attached": false,
      "datastore": {
@@ -10212,7 +10232,7 @@
    "title": "TFSEE - Taxa de Fiscalização de Serviços de Energia Elétrica",
    "organization": "Agência Nacional de Energia Elétrica",
    "url": "https://dadosabertos.aneel.gov.br/dataset/tfsee",
-   "metadata_modified": "2026-10-12T09:02:42.504592",
+   "metadata_modified": "2026-10-19T09:04:17.858704",
    "resources_total": 2,
    "dictionaries": [
     {
@@ -10235,8 +10255,8 @@
      "format": "CSV",
      "url": "https://dadosabertos.aneel.gov.br/dataset/738e425b-5554-4fe4-8a8a-2d163308e9ff/resource/3ff1ab0a-0d0c-4fc6-b52e-050ee6ea19bd/download/taxa-fiscalizacao-servicos-energia-eletrica.csv",
      "candidate": "csv",
-     "last_modified": "2026-10-12T09:02:24.160025",
-     "size": 6384993,
+     "last_modified": "2026-10-19T09:04:02.276815",
+     "size": 12774906,
      "attached": false,
      "datastore": {
       "fields": 15,
@@ -10361,7 +10381,7 @@
   }
  ],
  "delivery": {
-  "probed_at": "2026-10-12T11:22:07+00:00",
+  "probed_at": "2026-10-19T09:23:50+00:00",
   "by_host": {
    "dadosabertos.aneel.gov.br": [
     {

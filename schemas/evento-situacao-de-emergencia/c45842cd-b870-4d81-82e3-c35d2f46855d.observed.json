@@ -30,25 +30,25 @@
    "name": "DthInicioEvento",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.004
+   "sampleEmptyShare": 0.0031
   },
   {
    "name": "DthFimEvento",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.004
+   "sampleEmptyShare": 0.0031
   },
   {
    "name": "VlrChiLimiteDistribuidora",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0316
+   "sampleEmptyShare": 0.0246
   },
   {
    "name": "VlrSomaChiEvento",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0237
+   "sampleEmptyShare": 0.0246
   },
   {
    "name": "DscAcionamentoPlanoContingencia",
@@ -79,11 +79,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T12:08:07+00:00",
-  "sha256": "cf831e7ddbdc963570e5ec149227a08a76462e7b28abed665ec888c5e8931b56",
+  "observed_at": "2026-10-26T09:38:25+00:00",
+  "sha256": "e0228af64014570c698e89b2a3a9805d284474ee83295649fe25f08e380b781d",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 253,
+  "sample_rows": 325,
   "tables": 1,
   "distinct_headers": 1
  }

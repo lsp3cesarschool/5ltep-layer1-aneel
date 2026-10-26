@@ -72,7 +72,7 @@
    "name": "DatManifestacao",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.112
+   "sampleEmptyShare": 0.1118
   },
   {
    "name": "SigDecisao",
@@ -93,11 +93,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-19T09:31:31+00:00",
-  "sha256": "1dd10fbd031a8916c7a11c5496453aa5a5d3a17e064fb6bcdbdfcde5f9144c3a",
+  "observed_at": "2026-10-26T09:43:30+00:00",
+  "sha256": "3e0ffbd445dfb899a8ca362ac8e5a33c12559055ca953fd658de9bf9fa9d85f7",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 2615,
+  "sample_rows": 2621,
   "tables": 1,
   "distinct_headers": 1
  }

@@ -8,7 +8,7 @@
   },
   {
    "name": "NumCNPJ",
-   "type": "integer",
+   "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
@@ -34,7 +34,7 @@
   {
    "name": "CodLinhaDistribuicao",
    "type": "string",
-   "sampleEmptyShare": 0.0
+   "sampleEmptyShare": 0.0014
   },
   {
    "name": "DatReferenciaInformada",
@@ -45,48 +45,48 @@
   {
    "name": "NumMesUltInspecaoLD",
    "type": "string",
-   "sampleEmptyShare": 0.067
+   "sampleEmptyShare": 0.1032
   },
   {
    "name": "NumAnoUltInspecaoLD",
    "type": "integer",
-   "sampleEmptyShare": 0.067
+   "sampleEmptyShare": 0.1032
   },
   {
    "name": "NumMesUltInspecaoTermoLD",
    "type": "string",
-   "sampleEmptyShare": 0.2552
+   "sampleEmptyShare": 0.1184
   },
   {
    "name": "NumAnoUltInspecaoTermoLD",
    "type": "integer",
-   "sampleEmptyShare": 0.2552
+   "sampleEmptyShare": 0.1184
   },
   {
    "name": "NumMesUltManutPrevLD",
    "type": "string",
-   "sampleEmptyShare": 0.117
+   "sampleEmptyShare": 0.191
   },
   {
    "name": "NumAnoUltManutPrevLD",
    "type": "integer",
-   "sampleEmptyShare": 0.117
+   "sampleEmptyShare": 0.191
   },
   {
    "name": "NumMesUltManutCorrLD",
    "type": "string",
-   "sampleEmptyShare": 0.6898
+   "sampleEmptyShare": 0.2166
   },
   {
    "name": "NumAnoUltManutCorrLD",
    "type": "integer",
-   "sampleEmptyShare": 0.6898
+   "sampleEmptyShare": 0.2166
   },
   {
    "name": "PctCarregamentoMax",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0048
+   "sampleEmptyShare": 0.0024
   },
   {
    "name": "DthCarga",
@@ -96,8 +96,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T12:16:34+00:00",
-  "sha256": "f7f33d54c6703f321d7f66b342357afef25fd286217056983027a8ffce68929d",
+  "observed_at": "2026-10-26T09:40:43+00:00",
+  "sha256": "bf11c5caf7672583e9f11c7d4c89b04c236b987c80ae161f6e9ca09b296f2bbc",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

@@ -103,13 +103,13 @@
    "name": "DatPrevisaoOpComercialSFG",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.1076
+   "sampleEmptyShare": 0.1342
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-19T09:34:23+00:00",
-  "sha256": "490ad9bc30197b5fe9ca85aee1efc08b080877a33364e0d3d99add60f2ff1137",
+  "observed_at": "2026-10-26T09:44:04+00:00",
+  "sha256": "71a66aa391f817b99ad860d2c8b138592d77ed86c81a01f4fb00053ccc7fc75e",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

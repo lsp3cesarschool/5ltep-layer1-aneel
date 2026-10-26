@@ -87,17 +87,17 @@
   {
    "name": "QtdServAindaNaoRealiz",
    "type": "integer",
-   "sampleEmptyShare": 0.9308
+   "sampleEmptyShare": 0.9304
   },
   {
    "name": "QtdServSuspenso",
    "type": "integer",
-   "sampleEmptyShare": 0.9934
+   "sampleEmptyShare": 0.9928
   },
   {
    "name": "QtdServPendAtdDescPrazo",
    "type": "integer",
-   "sampleEmptyShare": 0.9834
+   "sampleEmptyShare": 0.9824
   },
   {
    "name": "MdaAtrazoServPendAtdDescPrazo",
@@ -124,12 +124,12 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T12:11:51+00:00",
-  "sha256": "6198caff730d7b87fa62c06e45b281dcb2d1dba6415886e0b8d25afacd8da031",
+  "observed_at": "2026-10-26T09:39:42+00:00",
+  "sha256": "c5d4cc72e500da5e414ff71f60fab997d31f1deb86f1d1885b6c4774e9c961e3",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,
-  "tables": 44,
+  "tables": 45,
   "distinct_headers": 1
  }
 }

@@ -19,7 +19,7 @@
   {
    "name": "IdeDoc",
    "type": "integer",
-   "sampleEmptyShare": 0.458
+   "sampleEmptyShare": 0.4582
   },
   {
    "name": "IdeEpd",
@@ -50,19 +50,19 @@
    "name": "DatEfeOprComEpd",
    "type": "date",
    "format": "%d/%m/%Y",
-   "sampleEmptyShare": 0.1916
+   "sampleEmptyShare": 0.191
   },
   {
    "name": "DatCaoCgmAtoLgl",
    "type": "date",
    "format": "%d/%m/%Y",
-   "sampleEmptyShare": 0.0112
+   "sampleEmptyShare": 0.0114
   },
   {
    "name": "DatOprComEpd",
    "type": "date",
    "format": "%d/%m/%Y",
-   "sampleEmptyShare": 0.0112
+   "sampleEmptyShare": 0.0114
   },
   {
    "name": "IdeObr",
@@ -88,7 +88,7 @@
    "name": "DatOprComObr",
    "type": "date",
    "format": "%d/%m/%Y",
-   "sampleEmptyShare": 0.1348
+   "sampleEmptyShare": 0.135
   },
   {
    "name": "DscTipObr",
@@ -103,7 +103,7 @@
   {
    "name": "IdeOnsMdl",
    "type": "string",
-   "sampleEmptyShare": 0.0888
+   "sampleEmptyShare": 0.0896
   },
   {
    "name": "NomMdl",
@@ -113,7 +113,7 @@
   {
    "name": "DscMdl",
    "type": "string",
-   "sampleEmptyShare": 0.6428
+   "sampleEmptyShare": 0.644
   },
   {
    "name": "IdeTipMdl",
@@ -153,13 +153,13 @@
   {
    "name": "IdeCcoTarReceita",
    "type": "integer",
-   "sampleEmptyShare": 0.1334
+   "sampleEmptyShare": 0.1366
   },
   {
    "name": "VlrHisRct",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.1334
+   "sampleEmptyShare": 0.1366
   },
   {
    "name": "DatFimCcd",
@@ -170,8 +170,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-19T10:13:23+00:00",
-  "sha256": "d7ac2c58dc9619849de82f7ee2b956938dfe4a61b3b4418dd4031192fb2594b2",
+  "observed_at": "2026-10-26T10:09:45+00:00",
+  "sha256": "5621bf327c5dd2e650291844bde68e8e8d0da0ad20571c501e43a650948ee1fb",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

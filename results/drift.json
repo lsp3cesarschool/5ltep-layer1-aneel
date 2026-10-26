@@ -1,1 +1,18 @@
-[]
+[
+ {
+  "id": "d99887b34bbbbc4a",
+  "kind": "observed",
+  "dataset": "indicadores-coletivos-de-continuidade-dec-e-fec",
+  "resource_id": "17fc99b7-e707-4ec4-9553-a43d7a41f7a6",
+  "resource_name": "dominio-indicadores-indqual",
+  "at": "2026-10-26T09:43:16+00:00",
+  "before_sha256": "fd08d3dab0af7a082ca354cbcf116848ddd544b90aeb9d0a83e630e706dd17c5",
+  "after_sha256": "819b4482a70cc47c34c81d3bd9b075d0db8ce101a7bad0c04955ed2c93d753d5",
+  "changes": {
+   "encoding": {
+    "before": "utf-8",
+    "after": "cp1252"
+   }
+  }
+ }
+]

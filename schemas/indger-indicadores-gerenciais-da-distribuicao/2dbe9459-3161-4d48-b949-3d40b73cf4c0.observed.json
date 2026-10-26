@@ -55,48 +55,48 @@
   {
    "name": "NumMesUltInspecVisual",
    "type": "string",
-   "sampleEmptyShare": 0.0026
+   "sampleEmptyShare": 0.497
   },
   {
    "name": "NumAnoUltInspecVisual",
    "type": "integer",
-   "sampleEmptyShare": 0.0026
+   "sampleEmptyShare": 0.497
   },
   {
    "name": "NumMesUltInspecTermo",
    "type": "string",
-   "sampleEmptyShare": 0.003
+   "sampleEmptyShare": 0.0308
   },
   {
    "name": "NumAnoUltInspecTermo",
    "type": "integer",
-   "sampleEmptyShare": 0.003
+   "sampleEmptyShare": 0.0308
   },
   {
    "name": "NumMesUltManutPrev",
    "type": "string",
-   "sampleEmptyShare": 0.0032
+   "sampleEmptyShare": 0.0224
   },
   {
    "name": "NumAnoUltManutPrev",
    "type": "integer",
-   "sampleEmptyShare": 0.0032
+   "sampleEmptyShare": 0.0224
   },
   {
    "name": "NumMesUltManutCorr",
    "type": "string",
-   "sampleEmptyShare": 0.0342
+   "sampleEmptyShare": 0.1498
   },
   {
    "name": "NumAnoUltManutCorr",
    "type": "integer",
-   "sampleEmptyShare": 0.0342
+   "sampleEmptyShare": 0.1498
   },
   {
    "name": "PctCargaMaxima",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.003
+   "sampleEmptyShare": 0.0
   },
   {
    "name": "DthCarga",
@@ -106,8 +106,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T12:16:43+00:00",
-  "sha256": "1bc455c8e945b267afd3195e456ae6d3d10eb52240d82be5db648c4f86f1fdb4",
+  "observed_at": "2026-10-26T09:40:52+00:00",
+  "sha256": "bb0966f153ba29a120b265f5b8072d2a1f5972b7cb69cd872b06e59b4e260d15",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

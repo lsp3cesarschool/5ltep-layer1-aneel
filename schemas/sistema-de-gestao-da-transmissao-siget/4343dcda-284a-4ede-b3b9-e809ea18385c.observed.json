@@ -9,17 +9,17 @@
   {
    "name": "IdeOnsSbe",
    "type": "string",
-   "sampleEmptyShare": 0.0135
+   "sampleEmptyShare": 0.0131
   },
   {
    "name": "SglTipAnj",
    "type": "string",
-   "sampleEmptyShare": 0.2929
+   "sampleEmptyShare": 0.3114
   },
   {
    "name": "DscTipAnj",
    "type": "string",
-   "sampleEmptyShare": 0.2929
+   "sampleEmptyShare": 0.3114
   },
   {
    "name": "IdeMdl",
@@ -34,7 +34,7 @@
   {
    "name": "IdeTipAnj",
    "type": "integer",
-   "sampleEmptyShare": 0.2929
+   "sampleEmptyShare": 0.3114
   },
   {
    "name": "IdeSbe",
@@ -44,7 +44,7 @@
   {
    "name": "IdcPrtMdlGrl",
    "type": "integer",
-   "sampleEmptyShare": 0.5125
+   "sampleEmptyShare": 0.4991
   },
   {
    "name": "NomSubestacao",
@@ -85,11 +85,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-19T09:34:57+00:00",
-  "sha256": "55b2db98efc117862324ef55920c24b517feed1e87bde35832054832227ef9cd",
+  "observed_at": "2026-10-26T09:44:28+00:00",
+  "sha256": "dd38778766890876ec1980e9dbecceaf6b6882264caee5ed7a94501aa3d8bb01",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 519,
+  "sample_rows": 533,
   "tables": 1,
   "distinct_headers": 1
  }

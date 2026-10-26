@@ -63,12 +63,12 @@
    "name": "MdaPotenciaLiberadaTeste",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.9484
+   "sampleEmptyShare": 0.948
   },
   {
    "name": "NumDespachoTeste",
    "type": "string",
-   "sampleEmptyShare": 0.9484
+   "sampleEmptyShare": 0.948
   },
   {
    "name": "DatDescidaRotorOutorgada",
@@ -86,13 +86,13 @@
    "name": "DatInicioOpTesteOutorgada",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.4636
+   "sampleEmptyShare": 0.4642
   },
   {
    "name": "DatLiberOpTesteRealizado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9482
+   "sampleEmptyShare": 0.9478
   },
   {
    "name": "DatUGInicioOpComerOutorgado",
@@ -104,13 +104,13 @@
    "name": "DatPrevisaoOpComercialSFG",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.4236
+   "sampleEmptyShare": 0.4254
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-19T09:34:45+00:00",
-  "sha256": "61f57f7d08c605e3e4075e044b8e0aa90d4ea408c39a02b82bcc01bd7224ad97",
+  "observed_at": "2026-10-26T09:44:23+00:00",
+  "sha256": "f877feb5b18ac3ff7360630dac82579f8871584f02cb79955024b888ab015d98",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

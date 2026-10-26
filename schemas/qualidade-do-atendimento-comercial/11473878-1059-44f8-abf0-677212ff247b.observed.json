@@ -9,7 +9,7 @@
   {
    "name": "SigAgente",
    "type": "string",
-   "sampleEmptyShare": 0.0108
+   "sampleEmptyShare": 0.0102
   },
   {
    "name": "NumCNPJ",
@@ -40,8 +40,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T13:43:43+00:00",
-  "sha256": "72a521c3da992d9893646affaaf1a0e8d0b04090dad829741e98e6fe44520764",
+  "observed_at": "2026-10-26T09:41:14+00:00",
+  "sha256": "ad2aac10054c61d0175c2fd3ccfc02811e41b85560a078b446c8263f4b954ae9",
   "encoding": "cp1252",
   "delimiter": ";",
   "sample_rows": 5000,

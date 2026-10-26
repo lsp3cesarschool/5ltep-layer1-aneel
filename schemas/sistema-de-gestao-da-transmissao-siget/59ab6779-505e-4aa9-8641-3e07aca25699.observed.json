@@ -115,7 +115,7 @@
    "name": "DatEfeOprComEpd",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.3176
+   "sampleEmptyShare": 0.3179
   },
   {
    "name": "DatCaoCgmAtoLgl",
@@ -132,11 +132,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-19T09:35:07+00:00",
-  "sha256": "7336688bf1ed74981748cb99bb763e85715dd5a1e49d08e834de55ecb572bdb1",
+  "observed_at": "2026-10-26T09:44:30+00:00",
+  "sha256": "d3e877a1b280dc7901df7cc3f468b3f06dbf4bb70fd396e08416f2c67609d7aa",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 2135,
+  "sample_rows": 2142,
   "tables": 1,
   "distinct_headers": 1
  }

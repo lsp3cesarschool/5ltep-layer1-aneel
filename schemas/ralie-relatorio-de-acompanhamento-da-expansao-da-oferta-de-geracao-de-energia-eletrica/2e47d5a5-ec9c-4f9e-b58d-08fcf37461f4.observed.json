@@ -57,16 +57,16 @@
    "name": "DatInicioSuprimento",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9202
+   "sampleEmptyShare": 0.9197
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-19T09:34:48+00:00",
-  "sha256": "01a8b30ba55c6a769410e6edce87f822377316e934efb206889ca43e6d47df47",
+  "observed_at": "2026-10-26T09:44:24+00:00",
+  "sha256": "9eb4cb45da549989e906e396216c42d2ccabdb555e20b810de9a4a9a7da3bf1a",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 2256,
+  "sample_rows": 2253,
   "tables": 1,
   "distinct_headers": 1
  }

@@ -55,13 +55,13 @@
   {
    "name": "NumProcessoPunitivoANEEL",
    "type": "integer",
-   "sampleEmptyShare": 0.866
+   "sampleEmptyShare": 0.8665
   },
   {
    "name": "DatRecebimentoAutoInfracao",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.0302
+   "sampleEmptyShare": 0.0338
   },
   {
    "name": "DscTipoPenalidade",
@@ -78,67 +78,67 @@
    "name": "DtRecebimentoRecurso",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.7185
+   "sampleEmptyShare": 0.7196
   },
   {
    "name": "DatDecisaoJuizo",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.8321
+   "sampleEmptyShare": 0.8327
   },
   {
    "name": "DscDecisaoCompletaJuizo",
    "type": "string",
-   "sampleEmptyShare": 0.8105
+   "sampleEmptyShare": 0.8112
   },
   {
    "name": "DscAtoJuizo",
    "type": "string",
-   "sampleEmptyShare": 0.9062
+   "sampleEmptyShare": 0.9065
   },
   {
    "name": "VlrMultaAposJuizo",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.8389
+   "sampleEmptyShare": 0.8395
   },
   {
    "name": "DatDecisaoDiretoria",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.8722
+   "sampleEmptyShare": 0.8727
   },
   {
    "name": "DscDecisaoCompletaDiretoria",
    "type": "string",
-   "sampleEmptyShare": 0.8401
+   "sampleEmptyShare": 0.8407
   },
   {
    "name": "DscAtoDiretoria",
    "type": "string",
-   "sampleEmptyShare": 0.9074
+   "sampleEmptyShare": 0.9077
   },
   {
    "name": "VlrMultaAposDiretoria",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.8537
+   "sampleEmptyShare": 0.8542
   },
   {
    "name": "NumTermoEncerramento",
    "type": "string",
-   "sampleEmptyShare": 0.5988
+   "sampleEmptyShare": 0.599
   },
   {
    "name": "DatLavraturaTE",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.5994
+   "sampleEmptyShare": 0.5996
   },
   {
    "name": "DscEnquadramentoAI",
    "type": "string",
-   "sampleEmptyShare": 0.0642
+   "sampleEmptyShare": 0.064
   },
   {
    "name": "NumTermoNotificacao",
@@ -153,11 +153,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-19T09:31:15+00:00",
-  "sha256": "ce62fbc008a32e53be7dce5dac125538146e859761a62b7279a433761c8f9443",
+  "observed_at": "2026-10-26T09:43:27+00:00",
+  "sha256": "1117a61d095cf95da10ee3cf560b42697ec063781b49cd88edb9262047a26ba4",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 1620,
+  "sample_rows": 1626,
   "tables": 1,
   "distinct_headers": 1
  }

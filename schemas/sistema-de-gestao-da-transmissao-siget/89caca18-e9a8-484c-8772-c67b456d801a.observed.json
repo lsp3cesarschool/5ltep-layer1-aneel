@@ -49,7 +49,7 @@
   {
    "name": "QtdTorLinTms",
    "type": "integer",
-   "sampleEmptyShare": 0.0851
+   "sampleEmptyShare": 0.0845
   },
   {
    "name": "NumEtnLinTms",
@@ -105,12 +105,12 @@
   {
    "name": "NumCpdCnteCutLinhaTransm",
    "type": "integer",
-   "sampleEmptyShare": 0.1921
+   "sampleEmptyShare": 0.1915
   },
   {
    "name": "NumCpdCnteLgaLinhaTransm",
    "type": "integer",
-   "sampleEmptyShare": 0.1719
+   "sampleEmptyShare": 0.1714
   },
   {
    "name": "IdcTipoCircuitoLinhaTransm",
@@ -120,27 +120,27 @@
   {
    "name": "IdcTipoEstruturaLinhaTransm",
    "type": "integer",
-   "sampleEmptyShare": 0.088
+   "sampleEmptyShare": 0.0874
   },
   {
    "name": "NumCaboCondutorLinhaTransm",
    "type": "integer",
-   "sampleEmptyShare": 0.0932
+   "sampleEmptyShare": 0.0926
   },
   {
    "name": "NumCaboParaRaioLinhaTransm",
    "type": "integer",
-   "sampleEmptyShare": 0.0989
+   "sampleEmptyShare": 0.0983
   },
   {
    "name": "IdeCaboCondutor",
    "type": "integer",
-   "sampleEmptyShare": 0.1202
+   "sampleEmptyShare": 0.1196
   },
   {
    "name": "IdeCaboParaRaio",
    "type": "integer",
-   "sampleEmptyShare": 0.1041
+   "sampleEmptyShare": 0.1035
   },
   {
    "name": "NumTensaoBaseLinhaTransm",
@@ -151,8 +151,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-19T09:34:59+00:00",
-  "sha256": "9e4b038fa3efc07027926b5fc07ba1789db3c150ee09f773da9d41fd55adc3b1",
+  "observed_at": "2026-10-26T09:44:28+00:00",
+  "sha256": "fe9863ee4fd4912f6495a7b68fe00af5d3dac454bbbc9173acd4271379fd2ba9",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 1739,

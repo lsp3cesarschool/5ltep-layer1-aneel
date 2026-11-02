@@ -5,7 +5,7 @@
   "name": "ANEEL",
   "title": "ANEEL open data portal (Dados Abertos ANEEL)"
  },
- "generated_at": "2026-11-02T15:56:33+00:00",
+ "generated_at": "2026-11-02T18:28:54+00:00",
  "census_at": "2026-11-02T11:46:55+00:00",
  "method": {
   "rotation_days": 28,
@@ -48,7 +48,7 @@
   "validated": 327,
   "validation_coverage": 0.9263,
   "errors": 26,
-  "queue_remaining": 107,
+  "queue_remaining": 0,
   "declared_gb": 72.09,
   "size_unknown": 0,
   "by_format": {
@@ -68,34 +68,8 @@
     "size_unknown": 0
    }
   },
-  "queue_gb": 26.62,
-  "queue_largest": [
-   {
-    "id": "ab0f6630-9e5d-41a1-8097-343bf09d7c16",
-    "name": "componentes-tarifarias-2022.csv",
-    "gb": 0.47
-   },
-   {
-    "id": "b6755d51-f537-4e0f-8fd8-d2cead66178a",
-    "name": "indicadores-conformidade-nivel-tensao",
-    "gb": 0.43
-   },
-   {
-    "id": "4cefdddd-675a-4b6b-b188-466242cb0aca",
-    "name": "Beneficiários da CDE - abr/23",
-    "gb": 0.42
-   },
-   {
-    "id": "456a0e7c-f4d3-401e-8cec-b4299253b4ee",
-    "name": "Beneficiários da CDE - mar/23",
-    "gb": 0.42
-   },
-   {
-    "id": "bef7067c-4bc9-49d8-9646-9d6acbfbeb20",
-    "name": "Beneficiários da CDE - mai/23",
-    "gb": 0.42
-   }
-  ]
+  "queue_gb": 0.0,
+  "queue_largest": []
  },
  "schema_sources": {
   "extracted": 157,
@@ -121,8 +95,8 @@
   "observed": 2,
   "declared": 0,
   "files_with_baseline": 327,
-  "first_baseline_at": "2026-10-03T08:34:42+00:00",
-  "last_observed_at": "2026-11-02T15:50:42+00:00"
+  "first_baseline_at": "2026-10-05T12:04:35+00:00",
+  "last_observed_at": "2026-11-02T18:27:36+00:00"
  },
  "coverage": {
   "files": 353,
@@ -159,11 +133,13 @@
  "distributions": {
   "tables_with_other_formats": 113,
   "other_formats": 97,
-  "compared": 97,
-  "same_columns": 95,
+  "compared": 96,
+  "same_columns": 94,
   "spelling_only": 0,
   "different_columns": 2,
-  "not_compared": {},
+  "not_compared": {
+   "error": 1
+  },
   "by_format": {
    "parquet": 88,
    "xml": 6,
@@ -176,12 +152,12 @@
    "files": 353,
    "failed_files": 26,
    "gb": 61.17,
-   "minutes": 810.1,
-   "end_to_end_mb_s": 1.26,
-   "zip_download_mb_s": 5.51,
+   "minutes": 1034.1,
+   "end_to_end_mb_s": 0.99,
+   "zip_download_mb_s": 5.45,
    "first_byte_s_median": 0.86,
-   "network_share": 0.198,
-   "network_mb_s": 5.22,
+   "network_share": 0.16,
+   "network_mb_s": 6.16,
    "request_failures": {
     "ConnectionError": 1,
     "HTTP 502": 3
@@ -192,12 +168,12 @@
     "files": 353,
     "failed_files": 26,
     "gb": 61.17,
-    "minutes": 810.1,
-    "end_to_end_mb_s": 1.26,
-    "zip_download_mb_s": 5.51,
+    "minutes": 1034.1,
+    "end_to_end_mb_s": 0.99,
+    "zip_download_mb_s": 5.45,
     "first_byte_s_median": 0.86,
-    "network_share": 0.198,
-    "network_mb_s": 5.22,
+    "network_share": 0.16,
+    "network_mb_s": 6.16,
     "request_failures": {
      "ConnectionError": 1,
      "HTTP 502": 3
@@ -335,10 +311,10 @@
      "without_length": 0,
      "of": 327,
      "generic_type": 0,
-     "typed": 222,
+     "typed": 327,
      "content_types": {
-      "text/csv": 184,
-      "application/zip": 32,
+      "text/csv": 227,
+      "application/zip": 94,
       "application/octet-stream": 6
      },
      "broken_links": 0,

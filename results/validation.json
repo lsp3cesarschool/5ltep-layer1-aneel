@@ -8459,7 +8459,7 @@
  },
  "d97c6259-f38a-4d44-89a7-c9be79b144f0": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T08:34:42+00:00",
+  "checked_at": "2026-11-02T15:58:00+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -8469,26 +8469,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.2,
-   "download_s": 51.74
+   "first_byte_s": 1.19,
+   "download_s": 42.39,
+   "network_s": 35.68
   },
   "first_seen": "2026-10-03T08:34:42+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T08:34:42+00:00",
-  "seconds": 267.1,
+  "validated_at": "2026-11-02T15:58:00+00:00",
+  "seconds": 464.6,
   "sha256": "954cb47fab02b031ae87eeb12b9f46134ad0352a64ecc489e52bc8f67984d9a3",
   "bytes": 388574714,
   "kind": "zip",
   "http": {
    "etag": "\"1784914075.7217455-388574714-2034766498\"",
    "last_modified": "Fri, 24 Jul 2026 17:27:55 GMT",
-   "content_length": 388574714
+   "content_length": 388574714,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -8557,11 +8564,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "40b39033-16e5-43d5-892f-ff6d68129df3": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T08:39:09+00:00",
+  "checked_at": "2026-11-02T15:58:40+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -8571,26 +8578,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.13,
-   "download_s": 39.56
+   "first_byte_s": 0.72,
+   "download_s": 40.21,
+   "network_s": 33.89
   },
   "first_seen": "2026-10-03T08:39:09+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T08:39:09+00:00",
-  "seconds": 258.3,
+  "validated_at": "2026-11-02T15:58:40+00:00",
+  "seconds": 657.1,
   "sha256": "2aeb280e9e70cfa35d52ea071c4b9780738f0405fba4aa893aba8837e75b4192",
   "bytes": 393504843,
   "kind": "zip",
   "http": {
    "etag": "\"1784914724.8669765-393504843-1780748853\"",
    "last_modified": "Fri, 24 Jul 2026 17:38:44 GMT",
-   "content_length": 393504843
+   "content_length": 393504843,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -8659,11 +8673,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "74402f0b-a475-4eca-837e-b4f8dcf2ffeb": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T08:43:28+00:00",
+  "checked_at": "2026-11-02T15:59:33+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -8673,26 +8687,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 2.32,
-   "download_s": 40.66
+   "first_byte_s": 0.56,
+   "download_s": 52.41,
+   "network_s": 44.14
   },
   "first_seen": "2026-10-03T08:43:28+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T08:43:28+00:00",
-  "seconds": 260.9,
+  "validated_at": "2026-11-02T15:59:33+00:00",
+  "seconds": 452.4,
   "sha256": "79dfe225b5959511b0722c50e012e7250b023ffbd07e4c911b49eb72782725f4",
   "bytes": 388730010,
   "kind": "zip",
   "http": {
    "etag": "\"1784914647.7103727-388730010-2036536186\"",
    "last_modified": "Fri, 24 Jul 2026 17:37:27 GMT",
-   "content_length": 388730010
+   "content_length": 388730010,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -8761,11 +8782,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "75e1c189-010c-4186-a2b6-2d889ada6927": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T08:47:49+00:00",
+  "checked_at": "2026-11-02T16:05:02+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -8775,26 +8796,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.15,
-   "download_s": 41.15
+   "first_byte_s": 0.52,
+   "download_s": 52.46,
+   "network_s": 43.52
   },
   "first_seen": "2026-10-03T08:47:49+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T08:47:49+00:00",
-  "seconds": 262.2,
+  "validated_at": "2026-11-02T16:05:02+00:00",
+  "seconds": 573.6,
   "sha256": "70a0947bd178417d2811a501093f0bf59b47824fd8ddf8ea54ca97e0060d48d3",
   "bytes": 397459925,
   "kind": "zip",
   "http": {
    "etag": "\"1784914579.1326177-397459925-1847726636\"",
    "last_modified": "Fri, 24 Jul 2026 17:36:19 GMT",
-   "content_length": 397459925
+   "content_length": 397459925,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -8863,11 +8891,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "20a283ca-7c3e-42d5-8f7b-2f2fde25c980": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T08:52:11+00:00",
+  "checked_at": "2026-11-02T16:06:13+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -8877,26 +8905,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.15,
-   "download_s": 73.93
+   "first_byte_s": 1.2,
+   "download_s": 62.89,
+   "network_s": 53.42
   },
   "first_seen": "2026-10-03T08:52:11+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T08:52:11+00:00",
-  "seconds": 300.3,
+  "validated_at": "2026-11-02T16:06:13+00:00",
+  "seconds": 620.2,
   "sha256": "6b301f18451a812f0bfb82930ba6eaf8df3545c2f639a1b54c1dd042bebf7666",
   "bytes": 406378238,
   "kind": "zip",
   "http": {
    "etag": "\"1784914128.2508044-406378238-2085163750\"",
    "last_modified": "Fri, 24 Jul 2026 17:28:48 GMT",
-   "content_length": 406378238
+   "content_length": 406378238,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -8965,11 +9000,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "bd8004f6-2b36-45a9-b10f-cb05e7787451": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T08:57:11+00:00",
+  "checked_at": "2026-11-02T16:08:57+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -8979,26 +9014,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.17,
-   "download_s": 45.22
+   "first_byte_s": 0.72,
+   "download_s": 75.32,
+   "network_s": 66.18
   },
   "first_seen": "2026-10-03T08:57:11+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T08:57:11+00:00",
-  "seconds": 274.2,
+  "validated_at": "2026-11-02T16:08:57+00:00",
+  "seconds": 477.6,
   "sha256": "c826fa0ab558e173de5c1c073c2d23263c386ff64cb57bc9f3ebc50d1e809831",
   "bytes": 413188679,
   "kind": "zip",
   "http": {
    "etag": "\"1784914266.8143127-413188679-2022249043\"",
    "last_modified": "Fri, 24 Jul 2026 17:31:06 GMT",
-   "content_length": 413188679
+   "content_length": 413188679,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -9067,11 +9109,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "8e2c96fb-78a6-478c-97aa-707ad33db5b3": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:01:45+00:00",
+  "checked_at": "2026-11-02T16:13:43+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -9081,26 +9123,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 4.9,
-   "download_s": 76.56
+   "first_byte_s": 2.57,
+   "download_s": 61.75,
+   "network_s": 50.53
   },
   "first_seen": "2026-10-03T09:01:45+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:01:45+00:00",
-  "seconds": 312.5,
+  "validated_at": "2026-11-02T16:13:43+00:00",
+  "seconds": 513.3,
   "sha256": "52f8156331b6c5a2fac79eff2f78c83162980cb8e0b95a6df53025ad5165ae5f",
   "bytes": 416812934,
   "kind": "zip",
   "http": {
    "etag": "\"1784914190.22269-416812934-2132873974\"",
    "last_modified": "Fri, 24 Jul 2026 17:29:50 GMT",
-   "content_length": 416812934
+   "content_length": 416812934,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -9169,11 +9218,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "456a0e7c-f4d3-401e-8cec-b4299253b4ee": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:06:58+00:00",
+  "checked_at": "2026-11-02T16:15:30+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -9183,26 +9232,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 2.11,
-   "download_s": 46.16
+   "first_byte_s": 1.3,
+   "download_s": 42.09,
+   "network_s": 32.14
   },
   "first_seen": "2026-10-03T09:06:58+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:06:58+00:00",
-  "seconds": 278.9,
+  "validated_at": "2026-11-02T16:15:30+00:00",
+  "seconds": 532.2,
   "sha256": "82ca033a1bd48f185c34680a8d89f345523c2da1857422007330d46a0a7de2c9",
   "bytes": 419564653,
   "kind": "zip",
   "http": {
    "etag": "\"1784914437.1542172-419564653-2086146791\"",
    "last_modified": "Fri, 24 Jul 2026 17:33:57 GMT",
-   "content_length": 419564653
+   "content_length": 419564653,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -9271,11 +9327,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "4cefdddd-675a-4b6b-b188-466242cb0aca": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:11:37+00:00",
+  "checked_at": "2026-11-02T16:16:11+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -9285,26 +9341,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.05,
-   "download_s": 92.62
+   "first_byte_s": 1.4,
+   "download_s": 40.71,
+   "network_s": 30.96
   },
   "first_seen": "2026-10-03T09:11:37+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:11:37+00:00",
-  "seconds": 328.0,
+  "validated_at": "2026-11-02T16:16:11+00:00",
+  "seconds": 749.6,
   "sha256": "ad37724070d72d6e1b61d1ed3f51f7bfc9e08b93c4c72e6af13765fb8755c76f",
   "bytes": 423297962,
   "kind": "zip",
   "http": {
    "etag": "\"1784914014.1968052-423297962-2408125294\"",
    "last_modified": "Fri, 24 Jul 2026 17:26:54 GMT",
-   "content_length": 423297962
+   "content_length": 423297962,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -9373,11 +9436,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "bef7067c-4bc9-49d8-9646-9d6acbfbeb20": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:17:05+00:00",
+  "checked_at": "2026-11-02T16:21:15+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -9387,26 +9450,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.14,
-   "download_s": 42.59
+   "first_byte_s": 0.86,
+   "download_s": 43.48,
+   "network_s": 33.82
   },
   "first_seen": "2026-10-03T09:17:05+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:17:05+00:00",
-  "seconds": 272.5,
+  "validated_at": "2026-11-02T16:21:15+00:00",
+  "seconds": 574.6,
   "sha256": "f255442da14ced427e64c7d964c932c2fc179285f165cf648e97ce2b7277cb57",
   "bytes": 417010905,
   "kind": "zip",
   "http": {
    "etag": "\"1784914501.4610398-417010905-2230522712\"",
    "last_modified": "Fri, 24 Jul 2026 17:35:01 GMT",
-   "content_length": 417010905
+   "content_length": 417010905,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -9475,11 +9545,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "c134f271-4234-44f1-827f-46cd8bd11acc": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:21:37+00:00",
+  "checked_at": "2026-11-02T16:23:40+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -9489,26 +9559,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.21,
-   "download_s": 39.47
+   "first_byte_s": 1.39,
+   "download_s": 59.09,
+   "network_s": 49.57
   },
   "first_seen": "2026-10-03T09:21:37+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:21:37+00:00",
-  "seconds": 258.3,
+  "validated_at": "2026-11-02T16:23:40+00:00",
+  "seconds": 453.8,
   "sha256": "00033ef9ea2463412a01c0b31ae0ad50ef3555e4b02703c85f0463a962e62df4",
   "bytes": 394846231,
   "kind": "zip",
   "http": {
    "etag": "\"1784914379.8382668-394846231-1804407420\"",
    "last_modified": "Fri, 24 Jul 2026 17:32:59 GMT",
-   "content_length": 394846231
+   "content_length": 394846231,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -9577,11 +9654,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "40f5d88e-4016-4785-9046-40850519cb52": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:25:56+00:00",
+  "checked_at": "2026-11-02T16:28:00+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -9591,26 +9668,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.44,
-   "download_s": 39.23
+   "first_byte_s": 3.25,
+   "download_s": 44.04,
+   "network_s": 32.63
   },
   "first_seen": "2026-10-03T09:25:56+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:25:56+00:00",
-  "seconds": 260.6,
+  "validated_at": "2026-11-02T16:28:00+00:00",
+  "seconds": 602.4,
   "sha256": "0c1c4d981b1c792ad37ded28ded4c6ba9fc013cd80bb0bac5731909072f2517b",
   "bytes": 396958888,
   "kind": "zip",
   "http": {
    "etag": "\"1784914328.5952017-396958888-1715409264\"",
    "last_modified": "Fri, 24 Jul 2026 17:32:08 GMT",
-   "content_length": 396958888
+   "content_length": 396958888,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -9679,11 +9763,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "91611e61-03b5-4abc-81ee-b73af4662767": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:30:16+00:00",
+  "checked_at": "2026-11-02T16:30:06+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -9693,26 +9777,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 5.59,
-   "download_s": 68.06
+   "first_byte_s": 1.18,
+   "download_s": 35.61,
+   "network_s": 26.83
   },
   "first_seen": "2026-10-03T09:30:16+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:30:16+00:00",
-  "seconds": 277.8,
+  "validated_at": "2026-11-02T16:30:06+00:00",
+  "seconds": 535.6,
   "sha256": "d2f35aabac8cd403b97f03bf38f9c30c32197eea01701798e14d7bbe8dcd9dba",
   "bytes": 373663648,
   "kind": "zip",
   "http": {
    "etag": "\"1784914083.4816096-373663648-1899434580\"",
    "last_modified": "Fri, 24 Jul 2026 17:28:03 GMT",
-   "content_length": 373663648
+   "content_length": 373663648,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -9781,11 +9872,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "2f80cdc0-1663-4769-b9df-68746e9f7dbb": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:34:54+00:00",
+  "checked_at": "2026-11-02T16:30:57+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -9795,26 +9886,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.24,
-   "download_s": 42.77
+   "first_byte_s": 1.19,
+   "download_s": 50.53,
+   "network_s": 41.42
   },
   "first_seen": "2026-10-03T09:34:54+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:34:54+00:00",
-  "seconds": 265.6,
+  "validated_at": "2026-11-02T16:30:57+00:00",
+  "seconds": 398.6,
   "sha256": "bea1bac85d79106f61ebb9f22048dc9b3e8e0fdbbe8c2cd084b08dee7d873a46",
   "bytes": 398791802,
   "kind": "zip",
   "http": {
    "etag": "\"1784914737.2597523-398791802-1999770321\"",
    "last_modified": "Fri, 24 Jul 2026 17:38:57 GMT",
-   "content_length": 398791802
+   "content_length": 398791802,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -9883,11 +9981,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "7ba4a293-5cc6-402c-a24f-0f4c4e33c9f4": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:39:20+00:00",
+  "checked_at": "2026-11-02T16:36:45+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -9897,26 +9995,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.98,
-   "download_s": 36.82
+   "first_byte_s": 0.58,
+   "download_s": 41.34,
+   "network_s": 33.28
   },
   "first_seen": "2026-10-03T09:39:20+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:39:20+00:00",
-  "seconds": 243.2,
+  "validated_at": "2026-11-02T16:36:45+00:00",
+  "seconds": 435.8,
   "sha256": "1852d059332b81254bd63de12b00576295b58344a44ea2bd600913f1d83903b2",
   "bytes": 367512617,
   "kind": "zip",
   "http": {
    "etag": "\"1784914656.975205-367512617-2100761308\"",
    "last_modified": "Fri, 24 Jul 2026 17:37:36 GMT",
-   "content_length": 367512617
+   "content_length": 367512617,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -9985,11 +10090,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "957ba099-71ac-4e4d-8709-8940cc20983f": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:43:23+00:00",
+  "checked_at": "2026-11-02T16:37:40+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -9999,26 +10104,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 4.86,
-   "download_s": 53.81
+   "first_byte_s": 1.04,
+   "download_s": 55.65,
+   "network_s": 47.12
   },
   "first_seen": "2026-10-03T09:43:23+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:43:23+00:00",
-  "seconds": 256.0,
+  "validated_at": "2026-11-02T16:37:40+00:00",
+  "seconds": 657.5,
   "sha256": "04f2d0fe0053258801e1d29b8ba5396e428b3dd186a97823cbf14e9dbb805fe2",
   "bytes": 360472014,
   "kind": "zip",
   "http": {
    "etag": "\"1784914587.080472-360472014-1935741500\"",
    "last_modified": "Fri, 24 Jul 2026 17:36:27 GMT",
-   "content_length": 360472014
+   "content_length": 360472014,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -10087,11 +10199,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "10f19d45-7dad-49a6-9927-bf0d8abb7cbe": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:47:39+00:00",
+  "checked_at": "2026-11-02T16:38:32+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -10101,26 +10213,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.22,
-   "download_s": 55.23
+   "first_byte_s": 0.52,
+   "download_s": 51.06,
+   "network_s": 43.35
   },
   "first_seen": "2026-10-03T09:47:39+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:47:39+00:00",
-  "seconds": 255.3,
+  "validated_at": "2026-11-02T16:38:32+00:00",
+  "seconds": 427.9,
   "sha256": "62a8baefd5e2573e804c1df08cc3268d3de4de45b6f9de3e43346dd63ff5c9c7",
   "bytes": 348309818,
   "kind": "zip",
   "http": {
    "etag": "\"1784914135.9246664-348309818-2062816077\"",
    "last_modified": "Fri, 24 Jul 2026 17:28:55 GMT",
-   "content_length": 348309818
+   "content_length": 348309818,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -10189,11 +10308,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "71187a48-7808-439d-a62c-940c994c7af0": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:51:54+00:00",
+  "checked_at": "2026-11-02T16:43:19+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -10203,26 +10322,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.26,
-   "download_s": 38.56
+   "first_byte_s": 0.56,
+   "download_s": 35.26,
+   "network_s": 27.2
   },
   "first_seen": "2026-10-03T09:51:54+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:51:54+00:00",
-  "seconds": 237.8,
+  "validated_at": "2026-11-02T16:43:19+00:00",
+  "seconds": 382.6,
   "sha256": "e40b8c645663adfd8b3b99fc0ff161c6093c945dcf8b00bfb069e43fd435c552",
   "bytes": 345736895,
   "kind": "zip",
   "http": {
    "etag": "\"1784914276.2141435-345736895-1711936009\"",
    "last_modified": "Fri, 24 Jul 2026 17:31:16 GMT",
-   "content_length": 345736895
+   "content_length": 345736895,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -10291,11 +10417,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "02a5bce6-a0ae-412b-b255-4fd997ad65c4": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:55:52+00:00",
+  "checked_at": "2026-11-02T16:44:48+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -10305,26 +10431,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.1,
-   "download_s": 34.7
+   "first_byte_s": 1.22,
+   "download_s": 36.16,
+   "network_s": 27.67
   },
   "first_seen": "2026-10-03T09:55:52+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:55:52+00:00",
-  "seconds": 230.5,
+  "validated_at": "2026-11-02T16:44:48+00:00",
+  "seconds": 466.4,
   "sha256": "143c5580d9711c3afe46c5d28792ba80a39219f52da51f33acfc27a7eeed9523",
   "bytes": 341529795,
   "kind": "zip",
   "http": {
    "etag": "\"1784914197.5735579-341529795-2197689098\"",
    "last_modified": "Fri, 24 Jul 2026 17:29:57 GMT",
-   "content_length": 341529795
+   "content_length": 341529795,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -10393,11 +10526,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "65372c6d-2040-40a6-bc00-4b464d79689d": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T09:59:43+00:00",
+  "checked_at": "2026-11-02T16:47:42+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -10407,26 +10540,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.99,
-   "download_s": 79.42
+   "first_byte_s": 0.67,
+   "download_s": 37.91,
+   "network_s": 30.05
   },
   "first_seen": "2026-10-03T09:59:43+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T09:59:43+00:00",
-  "seconds": 274.5,
+  "validated_at": "2026-11-02T16:47:42+00:00",
+  "seconds": 575.2,
   "sha256": "4f8a94de0dce659f30b33a6739c225d22ae61a921288c430b895ff16523142e5",
   "bytes": 340367419,
   "kind": "zip",
   "http": {
    "etag": "\"1784914445.2120697-340367419-1763643891\"",
    "last_modified": "Fri, 24 Jul 2026 17:34:05 GMT",
-   "content_length": 340367419
+   "content_length": 340367419,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -10495,11 +10635,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "3fa9d3c1-7c48-429d-9713-ffdb208eefc6": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:04:17+00:00",
+  "checked_at": "2026-11-02T16:49:07+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -10509,26 +10649,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.16,
-   "download_s": 42.73
+   "first_byte_s": 1.31,
+   "download_s": 35.56,
+   "network_s": 27.12
   },
   "first_seen": "2026-10-03T10:04:17+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:04:17+00:00",
-  "seconds": 236.4,
+  "validated_at": "2026-11-02T16:49:07+00:00",
+  "seconds": 596.1,
   "sha256": "6f7d5f2cd33d7102b844619b0ddfe3334410653564010c60a3fd7ea2285609e5",
   "bytes": 340608233,
   "kind": "zip",
   "http": {
    "etag": "\"1784914021.583678-340608233-2128220966\"",
    "last_modified": "Fri, 24 Jul 2026 17:27:01 GMT",
-   "content_length": 340608233
+   "content_length": 340608233,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -10597,11 +10744,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "13504845-7bc0-4ca6-a39b-72fdb6a2ac78": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:08:13+00:00",
+  "checked_at": "2026-11-02T16:51:59+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -10611,26 +10758,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.16,
-   "download_s": 42.57
+   "first_byte_s": 0.7,
+   "download_s": 39.7,
+   "network_s": 32.01
   },
   "first_seen": "2026-10-03T10:08:13+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:08:13+00:00",
-  "seconds": 236.7,
+  "validated_at": "2026-11-02T16:51:59+00:00",
+  "seconds": 323.1,
   "sha256": "281826e5a8ca1d77ffddccd1ff5a0a80af1f25fafed8860053f246d08703018d",
   "bytes": 343525354,
   "kind": "zip",
   "http": {
    "etag": "\"1784914509.5998907-343525354-1862341294\"",
    "last_modified": "Fri, 24 Jul 2026 17:35:09 GMT",
-   "content_length": 343525354
+   "content_length": 343525354,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -10699,11 +10853,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "61d9fd67-2946-42a8-b633-dfc307ac696d": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:12:10+00:00",
+  "checked_at": "2026-11-02T16:56:40+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -10713,26 +10867,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.25,
-   "download_s": 38.14
+   "first_byte_s": 1.39,
+   "download_s": 38.73,
+   "network_s": 30.35
   },
   "first_seen": "2026-10-03T10:12:10+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:12:10+00:00",
-  "seconds": 233.4,
+  "validated_at": "2026-11-02T16:56:40+00:00",
+  "seconds": 403.4,
   "sha256": "038fd0e4171740c9060374cbff944f672d44eede60662d91808da0c4f813c72e",
   "bytes": 342026467,
   "kind": "zip",
   "http": {
    "etag": "\"1784914387.3351295-342026467-1968575127\"",
    "last_modified": "Fri, 24 Jul 2026 17:33:07 GMT",
-   "content_length": 342026467
+   "content_length": 342026467,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -10801,11 +10962,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "15f117db-cd9a-421d-bb44-d897e30c673d": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:16:04+00:00",
+  "checked_at": "2026-11-02T16:57:18+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -10815,26 +10976,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.31,
-   "download_s": 36.68
+   "first_byte_s": 1.82,
+   "download_s": 37.83,
+   "network_s": 28.92
   },
   "first_seen": "2026-10-03T10:16:04+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:16:04+00:00",
-  "seconds": 237.6,
+  "validated_at": "2026-11-02T16:57:18+00:00",
+  "seconds": 439.6,
   "sha256": "4127526e1b96621d6d06fd5fe526577679a930ecf5a724ae5152898cf86cd9ec",
   "bytes": 354276383,
   "kind": "zip",
   "http": {
    "etag": "\"1784914334.9020882-354276383-2139165412\"",
    "last_modified": "Fri, 24 Jul 2026 17:32:14 GMT",
-   "content_length": 354276383
+   "content_length": 354276383,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -10903,11 +11071,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "8415fa69-65a6-413c-910a-922f4590603b": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:20:01+00:00",
+  "checked_at": "2026-11-02T16:58:27+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -10917,26 +11085,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.13,
-   "download_s": 41.83
+   "first_byte_s": 0.46,
+   "download_s": 39.74,
+   "network_s": 32.03
   },
   "first_seen": "2026-10-03T10:20:01+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:20:01+00:00",
-  "seconds": 243.1,
+  "validated_at": "2026-11-02T16:58:27+00:00",
+  "seconds": 604.7,
   "sha256": "ef449d9577d9f09b2ee473c63268ac0c472dafea8b1df1494c921a5c7bda202c",
   "bytes": 352433337,
   "kind": "zip",
   "http": {
    "etag": "\"1784914089.4265027-352433337-1796411846\"",
    "last_modified": "Fri, 24 Jul 2026 17:28:09 GMT",
-   "content_length": 352433337
+   "content_length": 352433337,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -11005,11 +11180,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "cd5ac512-a450-4e31-8c20-54612032e887": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:24:04+00:00",
+  "checked_at": "2026-11-02T17:02:44+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -11019,26 +11194,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.14,
-   "download_s": 34.88
+   "first_byte_s": 0.67,
+   "download_s": 39.71,
+   "network_s": 31.42
   },
   "first_seen": "2026-10-03T10:24:04+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:24:04+00:00",
-  "seconds": 236.2,
+  "validated_at": "2026-11-02T17:02:44+00:00",
+  "seconds": 392.6,
   "sha256": "979880fdd704af682def08cb7d79cbf3674f8064f01ff42a675d0238a1c93db9",
   "bytes": 356669735,
   "kind": "zip",
   "http": {
    "etag": "\"1784914747.5285664-356669735-1992298981\"",
    "last_modified": "Fri, 24 Jul 2026 17:39:07 GMT",
-   "content_length": 356669735
+   "content_length": 356669735,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -11107,11 +11289,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "7d41d4bb-418c-4665-9fb9-0b50499a8eea": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:28:01+00:00",
+  "checked_at": "2026-11-02T17:04:24+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -11121,26 +11303,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.14,
-   "download_s": 35.97
+   "first_byte_s": 3.98,
+   "download_s": 99.08,
+   "network_s": 87.68
   },
   "first_seen": "2026-10-03T10:28:01+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:28:01+00:00",
-  "seconds": 236.7,
+  "validated_at": "2026-11-02T17:04:24+00:00",
+  "seconds": 701.6,
   "sha256": "485cb2254599bb6eb6a936e6d0a907f7c3dcb11564c1f59b98304f308e55e190",
   "bytes": 359414132,
   "kind": "zip",
   "http": {
    "etag": "\"1784914665.1230576-359414132-2021987010\"",
    "last_modified": "Fri, 24 Jul 2026 17:37:45 GMT",
-   "content_length": 359414132
+   "content_length": 359414132,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -11209,11 +11398,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "16c4065a-1e32-425a-af8b-990027f03c1d": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:31:57+00:00",
+  "checked_at": "2026-11-02T17:07:52+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -11223,26 +11412,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.17,
-   "download_s": 35.28
+   "first_byte_s": 0.92,
+   "download_s": 120.83,
+   "network_s": 112.62
   },
   "first_seen": "2026-10-03T10:31:57+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:31:57+00:00",
-  "seconds": 238.8,
+  "validated_at": "2026-11-02T17:07:52+00:00",
+  "seconds": 680.4,
   "sha256": "3bd0f2f87ddbb7ff2c781a0a312de97e6e4c7045f76e5c270581727be3ae4077",
   "bytes": 356348761,
   "kind": "zip",
   "http": {
    "etag": "\"1784914594.4843366-356348761-1866928708\"",
    "last_modified": "Fri, 24 Jul 2026 17:36:34 GMT",
-   "content_length": 356348761
+   "content_length": 356348761,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -11311,11 +11507,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "e8b75d08-89d0-4bb8-a412-59f71465333b": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:35:56+00:00",
+  "checked_at": "2026-11-02T17:08:37+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -11325,26 +11521,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.13,
-   "download_s": 34.83
+   "first_byte_s": 1.33,
+   "download_s": 40.81,
+   "network_s": 32.16
   },
   "first_seen": "2026-10-03T10:35:56+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:35:56+00:00",
-  "seconds": 237.9,
+  "validated_at": "2026-11-02T17:08:37+00:00",
+  "seconds": 349.4,
   "sha256": "7ccb836b4be361b8dd970a22431e37975062683106593d34ca61b15490d7e0dc",
   "bytes": 361275912,
   "kind": "zip",
   "http": {
    "etag": "\"1784914143.5895286-361275912-2018251312\"",
    "last_modified": "Fri, 24 Jul 2026 17:29:03 GMT",
-   "content_length": 361275912
+   "content_length": 361275912,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -11413,11 +11616,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "d31f2c92-eac1-42bf-93b5-738f539863db": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:39:54+00:00",
+  "checked_at": "2026-11-02T17:13:46+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -11427,26 +11630,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.18,
-   "download_s": 35.59
+   "first_byte_s": 0.88,
+   "download_s": 62.08,
+   "network_s": 53.91
   },
   "first_seen": "2026-10-03T10:39:54+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:39:54+00:00",
-  "seconds": 241.4,
+  "validated_at": "2026-11-02T17:13:46+00:00",
+  "seconds": 487.0,
   "sha256": "1e514feee3137244db7a6f39372b1e4c9f8f7e9c4e7178bbe2b12636b9575941",
   "bytes": 358959204,
   "kind": "zip",
   "http": {
    "etag": "\"1784914285.9409688-358959204-2140541631\"",
    "last_modified": "Fri, 24 Jul 2026 17:31:25 GMT",
-   "content_length": 358959204
+   "content_length": 358959204,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -11515,11 +11725,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "f65391d7-1ed8-4dcd-9981-b72bf93825c9": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:43:56+00:00",
+  "checked_at": "2026-11-02T17:14:29+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -11529,26 +11739,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.14,
-   "download_s": 37.89
+   "first_byte_s": 1.68,
+   "download_s": 42.56,
+   "network_s": 33.47
   },
   "first_seen": "2026-10-03T10:43:56+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:43:56+00:00",
-  "seconds": 239.6,
+  "validated_at": "2026-11-02T17:14:29+00:00",
+  "seconds": 608.5,
   "sha256": "32dd90189bde037497565427509dfb1b7f03c656b82c2c0debbf795190c20508",
   "bytes": 354697351,
   "kind": "zip",
   "http": {
    "etag": "\"1784914204.1154401-354697351-2062357157\"",
    "last_modified": "Fri, 24 Jul 2026 17:30:04 GMT",
-   "content_length": 354697351
+   "content_length": 354697351,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -11617,11 +11834,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "ffa4d920-8243-4ff3-a46f-57496748322b": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:47:55+00:00",
+  "checked_at": "2026-11-02T17:17:12+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -11631,26 +11848,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.18,
-   "download_s": 36.2
+   "first_byte_s": 0.54,
+   "download_s": 40.48,
+   "network_s": 32.66
   },
   "first_seen": "2026-10-03T10:47:55+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:47:55+00:00",
-  "seconds": 235.6,
+  "validated_at": "2026-11-02T17:17:12+00:00",
+  "seconds": 438.3,
   "sha256": "3d3363d21b48aacf08740e1d984be5751f1a78d929f8195bf417901fa5886100",
   "bytes": 350003176,
   "kind": "zip",
   "http": {
    "etag": "\"1784914453.4559188-350003176-2065568310\"",
    "last_modified": "Fri, 24 Jul 2026 17:34:13 GMT",
-   "content_length": 350003176
+   "content_length": 350003176,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -11719,11 +11943,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "7fc31e48-0e3c-444a-a26e-869f8ba7bdbe": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:51:51+00:00",
+  "checked_at": "2026-11-02T17:20:51+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -11733,26 +11957,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.16,
-   "download_s": 36.6
+   "first_byte_s": 1.32,
+   "download_s": 47.91,
+   "network_s": 38.98
   },
   "first_seen": "2026-10-03T10:51:51+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:51:51+00:00",
-  "seconds": 249.4,
+  "validated_at": "2026-11-02T17:20:51+00:00",
+  "seconds": 523.0,
   "sha256": "d4946cbc2b12047805219cebdb438a2362c32afddb5261f601dcd22ec7beff26",
   "bytes": 364078011,
   "kind": "zip",
   "http": {
    "etag": "\"1784914029.070549-364078011-2116883277\"",
    "last_modified": "Fri, 24 Jul 2026 17:27:09 GMT",
-   "content_length": 364078011
+   "content_length": 364078011,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -11821,11 +12052,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "6e0153b1-e938-4c67-8c01-e7742c7228e8": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T10:56:00+00:00",
+  "checked_at": "2026-11-02T17:23:50+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -11835,26 +12066,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.4,
-   "download_s": 37.77
+   "first_byte_s": 2.37,
+   "download_s": 60.65,
+   "network_s": 50.67
   },
   "first_seen": "2026-10-03T10:56:00+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T10:56:00+00:00",
-  "seconds": 254.9,
+  "validated_at": "2026-11-02T17:23:50+00:00",
+  "seconds": 526.6,
   "sha256": "2cb4975e032211e1b09f9e49b2d1e7287774075424bce08c3e237361bfd5c784",
   "bytes": 372550538,
   "kind": "zip",
   "http": {
    "etag": "\"1784914520.3626938-372550538-1847071234\"",
    "last_modified": "Fri, 24 Jul 2026 17:35:20 GMT",
-   "content_length": 372550538
+   "content_length": 372550538,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -11923,11 +12161,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "f99097fa-6abd-4ce0-96a1-7c231343be43": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T11:00:15+00:00",
+  "checked_at": "2026-11-02T17:24:36+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -11937,26 +12175,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 5.59,
-   "download_s": 249.18
+   "first_byte_s": 1.57,
+   "download_s": 46.15,
+   "network_s": 37.28
   },
   "first_seen": "2026-10-03T11:00:15+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T11:00:15+00:00",
-  "seconds": 455.9,
+  "validated_at": "2026-11-02T17:24:36+00:00",
+  "seconds": 524.9,
   "sha256": "0eba50d7912a0d8baddb2f88f017a2747cd641152674aeb639ca9946d4d52f35",
   "bytes": 362259892,
   "kind": "zip",
   "http": {
    "etag": "\"1784914395.609978-362259892-2164200119\"",
    "last_modified": "Fri, 24 Jul 2026 17:33:15 GMT",
-   "content_length": 362259892
+   "content_length": 362259892,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -12025,11 +12270,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "d4d13b7f-16a4-4f42-836c-ae717e4c546a": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T11:07:51+00:00",
+  "checked_at": "2026-11-02T17:28:46+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -12039,26 +12284,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.39,
-   "download_s": 42.32
+   "first_byte_s": 0.73,
+   "download_s": 45.19,
+   "network_s": 37.37
   },
   "first_seen": "2026-10-03T11:07:51+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T11:07:51+00:00",
-  "seconds": 244.4,
+  "validated_at": "2026-11-02T17:28:46+00:00",
+  "seconds": 357.0,
   "sha256": "02f1e9735028ecf1bd1a6f28561e239b33d9246cce76a87b553f1fbe96b14aa5",
   "bytes": 331703913,
   "kind": "zip",
   "http": {
    "etag": "\"1784914341.0869763-331703913-2087785142\"",
    "last_modified": "Fri, 24 Jul 2026 17:32:21 GMT",
-   "content_length": 331703913
+   "content_length": 331703913,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -12127,11 +12379,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "00202b52-3c74-4e87-89ab-d4af87e29530": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T11:11:56+00:00",
+  "checked_at": "2026-11-02T17:31:36+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -12141,26 +12393,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.15,
-   "download_s": 34.73
+   "first_byte_s": 1.16,
+   "download_s": 35.56,
+   "network_s": 27.29
   },
   "first_seen": "2026-10-03T11:11:56+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T11:11:56+00:00",
-  "seconds": 236.2,
+  "validated_at": "2026-11-02T17:31:36+00:00",
+  "seconds": 673.8,
   "sha256": "45b7ce895dd6cb0810cc79f84610413332e0da7e64983b0a98c3df9004fae1d6",
   "bytes": 337885717,
   "kind": "zip",
   "http": {
    "etag": "\"1784914097.302361-337885717-1798705702\"",
    "last_modified": "Fri, 24 Jul 2026 17:28:17 GMT",
-   "content_length": 337885717
+   "content_length": 337885717,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -12229,11 +12488,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "cf43fb13-a8e7-46b9-92ce-bb19e3c15189": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T11:15:52+00:00",
+  "checked_at": "2026-11-02T17:32:35+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -12243,26 +12502,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.16,
-   "download_s": 35.8
+   "first_byte_s": 2.16,
+   "download_s": 40.68,
+   "network_s": 31.25
   },
   "first_seen": "2026-10-03T11:15:52+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T11:15:52+00:00",
-  "seconds": 240.3,
+  "validated_at": "2026-11-02T17:32:35+00:00",
+  "seconds": 631.6,
   "sha256": "22eb8badb07587f7a71284e92983f59b93c2fee895f228ad45ba909a34810dde",
   "bytes": 337056897,
   "kind": "zip",
   "http": {
    "etag": "\"1784914757.7533813-337056897-2247758576\"",
    "last_modified": "Fri, 24 Jul 2026 17:39:17 GMT",
-   "content_length": 337056897
+   "content_length": 337056897,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -12342,11 +12608,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "55b448fd-d402-47c3-9d86-c7b68b09bec4": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T11:19:52+00:00",
+  "checked_at": "2026-11-02T17:33:58+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -12356,26 +12622,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.17,
-   "download_s": 35.84
+   "first_byte_s": 0.7,
+   "download_s": 37.76,
+   "network_s": 29.71
   },
   "first_seen": "2026-10-03T11:19:52+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T11:19:52+00:00",
-  "seconds": 237.8,
+  "validated_at": "2026-11-02T17:33:58+00:00",
+  "seconds": 326.7,
   "sha256": "4f2a66393330751006b5c5b9ad019e3bb4592367aa811815106258f6e402e3d7",
   "bytes": 335787583,
   "kind": "zip",
   "http": {
    "etag": "\"1784914673.7429016-335787583-2000294597\"",
    "last_modified": "Fri, 24 Jul 2026 17:37:53 GMT",
-   "content_length": 335787583
+   "content_length": 335787583,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -12444,11 +12717,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "3ca864da-a2e4-4028-a609-0adf74208f53": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T11:23:50+00:00",
+  "checked_at": "2026-11-02T17:38:47+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -12458,26 +12731,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.14,
-   "download_s": 33.3
+   "first_byte_s": 1.85,
+   "download_s": 35.88,
+   "network_s": 27.22
   },
   "first_seen": "2026-10-03T11:23:50+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T11:23:50+00:00",
-  "seconds": 233.7,
+  "validated_at": "2026-11-02T17:38:47+00:00",
+  "seconds": 419.9,
   "sha256": "fd39c0fddd83d6c977810c841519e042a6f1e6c097c64f70d6898cf36a19347e",
   "bytes": 325578247,
   "kind": "zip",
   "http": {
    "etag": "\"1784914601.9012017-325578247-2083656316\"",
    "last_modified": "Fri, 24 Jul 2026 17:36:41 GMT",
-   "content_length": 325578247
+   "content_length": 325578247,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -12546,11 +12826,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "f7c68322-44de-4bec-97d6-73307508d21f": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T11:27:44+00:00",
+  "checked_at": "2026-11-02T17:42:14+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -12560,26 +12840,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.2,
-   "download_s": 33.29
+   "first_byte_s": 1.23,
+   "download_s": 34.14,
+   "network_s": 25.79
   },
   "first_seen": "2026-10-03T11:27:44+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T11:27:44+00:00",
-  "seconds": 227.4,
+  "validated_at": "2026-11-02T17:42:14+00:00",
+  "seconds": 518.4,
   "sha256": "32ed0c4075537f6732ea3505bc282ea45d4fb4e9afc464a958a8a905c2f40f90",
   "bytes": 321081376,
   "kind": "zip",
   "http": {
    "etag": "\"1784914149.131429-321081376-2026902114\"",
    "last_modified": "Fri, 24 Jul 2026 17:29:09 GMT",
-   "content_length": 321081376
+   "content_length": 321081376,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -12648,11 +12935,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "d9852c6d-6678-44fe-9f1d-a6f94bb5eb6a": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T11:31:31+00:00",
+  "checked_at": "2026-11-02T17:43:03+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -12662,26 +12949,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.14,
-   "download_s": 30.38
+   "first_byte_s": 2.34,
+   "download_s": 48.7,
+   "network_s": 40.45
   },
   "first_seen": "2026-10-03T11:31:31+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T11:31:31+00:00",
-  "seconds": 204.9,
+  "validated_at": "2026-11-02T17:43:03+00:00",
+  "seconds": 455.2,
   "sha256": "b48d2c171e2f5dc5b41c3fb043a510dc5b0047b97e99541ab498b4e6d8a09d1e",
   "bytes": 291271096,
   "kind": "zip",
   "http": {
    "etag": "\"1784914292.1658568-291271096-2079658802\"",
    "last_modified": "Fri, 24 Jul 2026 17:31:32 GMT",
-   "content_length": 291271096
+   "content_length": 291271096,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -12750,11 +13044,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "0c67ed8d-db5e-4db6-b503-a0691acb1763": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T11:34:56+00:00",
+  "checked_at": "2026-11-02T17:45:11+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -12764,26 +13058,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.29,
-   "download_s": 27.81
+   "first_byte_s": 4.69,
+   "download_s": 48.36,
+   "network_s": 38.0
   },
   "first_seen": "2026-10-03T11:34:56+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T11:34:56+00:00",
-  "seconds": 198.9,
+  "validated_at": "2026-11-02T17:45:11+00:00",
+  "seconds": 310.1,
   "sha256": "2c8be55c959dbb42eafbf591b81f4dbe9d7beea568ce13fd82af038d0f6a9226",
   "bytes": 273993779,
   "kind": "zip",
   "http": {
    "etag": "\"1784914211.745303-273993779-2294813453\"",
    "last_modified": "Fri, 24 Jul 2026 17:30:11 GMT",
-   "content_length": 273993779
+   "content_length": 273993779,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -12852,11 +13153,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "879116ac-6de8-43ae-bc9d-baf41d265983": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T11:38:15+00:00",
+  "checked_at": "2026-11-02T17:49:33+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -12866,26 +13167,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 7.83,
-   "download_s": 50.06
+   "first_byte_s": 2.86,
+   "download_s": 43.28,
+   "network_s": 33.47
   },
   "first_seen": "2026-10-03T11:38:15+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T11:38:15+00:00",
-  "seconds": 251.8,
+  "validated_at": "2026-11-02T17:49:33+00:00",
+  "seconds": 427.7,
   "sha256": "436dfb6088a49829aaa2da198a16a6a2345d5c7983ace502b4ebeaaa7bae0daf",
   "bytes": 326418102,
   "kind": "zip",
   "http": {
    "etag": "\"1784914459.1528144-326418102-2127237875\"",
    "last_modified": "Fri, 24 Jul 2026 17:34:19 GMT",
-   "content_length": 326418102
+   "content_length": 326418102,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -12954,11 +13262,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "6439f884-4b99-4026-82b8-c41eceeaa2cf": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T11:42:27+00:00",
+  "checked_at": "2026-11-02T17:50:13+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -12968,26 +13276,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.22,
-   "download_s": 39.39
+   "first_byte_s": 1.19,
+   "download_s": 40.21,
+   "network_s": 32.5
   },
   "first_seen": "2026-10-03T11:42:27+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T11:42:27+00:00",
-  "seconds": 232.8,
+  "validated_at": "2026-11-02T17:50:13+00:00",
+  "seconds": 389.4,
   "sha256": "9fb50e497490d6432c502bffd174bd3023322469a4406ae5b321852eb381e5f7",
   "bytes": 320135167,
   "kind": "zip",
   "http": {
    "etag": "\"1784914039.5913677-320135167-1810043589\"",
    "last_modified": "Fri, 24 Jul 2026 17:27:19 GMT",
-   "content_length": 320135167
+   "content_length": 320135167,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -13056,11 +13371,11 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "ff5c84d0-227d-4340-8b15-4e583dd94120": {
   "dataset": "beneficiarios-da-cde",
-  "checked_at": "2026-10-03T11:46:20+00:00",
+  "checked_at": "2026-11-02T17:50:51+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "88c62cc15e95a4a2",
   "ckan": {
@@ -13070,26 +13385,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.23,
-   "download_s": 31.82
+   "first_byte_s": 5.55,
+   "download_s": 37.98,
+   "network_s": 26.25
   },
   "first_seen": "2026-10-03T11:46:20+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T11:46:20+00:00",
-  "seconds": 212.1,
+  "validated_at": "2026-11-02T17:50:51+00:00",
+  "seconds": 455.7,
   "sha256": "045c5fda342a0d71430df774e326b80b141b4c3f0dacc4720a466c066f115b36",
   "bytes": 305345583,
   "kind": "zip",
   "http": {
    "etag": "\"1784914529.9965174-305345583-2011238949\"",
    "last_modified": "Fri, 24 Jul 2026 17:35:29 GMT",
-   "content_length": 305345583
+   "content_length": 305345583,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -13158,7 +13480,7 @@
    "DscTipoSubsidio",
    "VlrSubsidio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "705b6121-1287-425c-a7d2-91975a2448ee": {
   "dataset": "bpr-banco-de-precos-de-referencia-linha-de-transmissao",
@@ -15044,7 +15366,7 @@
  },
  "6fbee0f8-2617-4879-a69a-6b7892f12dad": {
   "dataset": "capacidade-instalada-por-unidade-da-federacao",
-  "checked_at": "2026-10-03T11:50:10+00:00",
+  "checked_at": "2026-11-02T17:55:57+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "ad2aa92789a1d292",
   "ckan": {
@@ -15054,25 +15376,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.36
+   "first_byte_s": 0.53,
+   "download_s": 0.53,
+   "network_s": 0.0
   },
   "first_seen": "2026-10-03T11:50:10+00:00",
   "pass_history": [
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T11:50:10+00:00",
-  "seconds": 0.5,
+  "validated_at": "2026-11-02T17:55:57+00:00",
+  "seconds": 0.8,
   "sha256": "86cb7ae600a8fb85cec819f6e410c479bcddcaf1231790689c083f91b03f46ac",
   "bytes": 78920,
   "kind": "csv",
   "http": {
    "etag": "\"1790845254.6871753-78920-2104562381\"",
    "last_modified": "Thu, 01 Oct 2026 09:00:54 GMT",
-   "content_length": 78920
+   "content_length": 78920,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -15119,7 +15449,7 @@
    "SigUF",
    "MdaPotenciaInstaladakW"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "9e63214b-f262-46cb-a0e1-cb3c634368a0": {
   "dataset": "cfurh",
@@ -16943,7 +17273,7 @@
  },
  "ab0f6630-9e5d-41a1-8097-343bf09d7c16": {
   "dataset": "componentes-tarifarias",
-  "checked_at": "2026-10-03T11:59:35+00:00",
+  "checked_at": "2026-11-02T17:56:51+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -16953,7 +17283,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.34
+   "first_byte_s": 1.33,
+   "download_s": 53.82,
+   "network_s": 52.01
   },
   "distributions": [
    {
@@ -16970,15 +17302,17 @@
   "first_seen": "2026-10-03T11:59:35+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T11:59:35+00:00",
-  "seconds": 85.4,
+  "validated_at": "2026-11-02T17:56:51+00:00",
+  "seconds": 68.7,
   "sha256": "0103fc9d248717e84037276f3f95c8676e68aa3c92afc6c5e92e8807689b6151",
   "bytes": 465358739,
   "kind": "csv",
   "http": {
    "etag": "\"1790423400.3074214-465358739-1996558932\"",
    "last_modified": "Sat, 26 Sep 2026 11:50:00 GMT",
-   "content_length": 465358739
+   "content_length": 465358739,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -17016,7 +17350,7 @@
    "DscComponenteTarifario",
    "VlrComponenteTarifario"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "8bfa100a-fd79-4daf-8fab-8b14d02fd08a": {
   "dataset": "componentes-tarifarias",
@@ -17782,7 +18116,7 @@
  },
  "e61fd029-5e78-43be-bed4-873b7b11f04c": {
   "dataset": "empreendimentos-em-operacao",
-  "checked_at": "2026-10-03T12:08:06+00:00",
+  "checked_at": "2026-11-02T17:56:52+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "e45aa8117947ba63",
   "ckan": {
@@ -17792,25 +18126,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.88
+   "first_byte_s": 0.23,
+   "download_s": 0.23,
+   "network_s": 0.0
   },
   "first_seen": "2026-10-03T12:08:06+00:00",
   "pass_history": [
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T12:08:06+00:00",
-  "seconds": 1.0,
+  "validated_at": "2026-11-02T17:56:52+00:00",
+  "seconds": 0.4,
   "sha256": "ccb83ed1da32d74ec8580fda6e0ce5acf74df5603d95ade079e67c0d4db4c75e",
   "bytes": 25875,
   "kind": "csv",
   "http": {
    "etag": "\"1785939468.902286-25875-2132087529\"",
    "last_modified": "Wed, 05 Aug 2026 14:17:48 GMT",
-   "content_length": 25875
+   "content_length": 25875,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -17859,7 +18201,7 @@
    "MesReferencia",
    "AnoReferencia"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "c45842cd-b870-4d81-82e3-c35d2f46855d": {
   "dataset": "evento-situacao-de-emergencia",
@@ -19369,7 +19711,7 @@
  },
  "b6755d51-f537-4e0f-8fd8-d2cead66178a": {
   "dataset": "indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente",
-  "checked_at": "2026-10-03T12:23:16+00:00",
+  "checked_at": "2026-11-02T17:57:36+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "e1d598b899e1f58b",
   "ckan": {
@@ -19379,7 +19721,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.28
+   "first_byte_s": 0.28,
+   "download_s": 44.02,
+   "network_s": 43.29
   },
   "distributions": [
    {
@@ -19398,18 +19742,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T12:23:16+00:00",
-  "seconds": 45.6,
+  "validated_at": "2026-11-02T17:57:36+00:00",
+  "seconds": 113.2,
   "sha256": "439b76b3f531fd70753527f69044744e031720393795ab1eb1be6fa2a379756e",
   "bytes": 426911830,
   "kind": "csv",
   "http": {
    "etag": "\"1788584770.539371-426911830-2065568503\"",
    "last_modified": "Sat, 05 Sep 2026 05:06:10 GMT",
-   "content_length": 426911830
+   "content_length": 426911830,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -19468,11 +19818,11 @@
    "NumPeriodoIndice",
    "VlrIndiceEnviado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "476d0490-a225-4de7-89a8-bb7a189f0868": {
   "dataset": "indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente",
-  "checked_at": "2026-10-03T12:24:01+00:00",
+  "checked_at": "2026-11-02T17:57:51+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "b9569088c82a353f",
   "ckan": {
@@ -19482,7 +19832,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.24
+   "first_byte_s": 0.28,
+   "download_s": 15.46,
+   "network_s": 14.97
   },
   "distributions": [
    {
@@ -19501,18 +19853,24 @@
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T12:24:01+00:00",
-  "seconds": 30.2,
+  "validated_at": "2026-11-02T17:57:51+00:00",
+  "seconds": 45.0,
   "sha256": "2c70d147084777158632b9840daff327bcd22e56f7d62d01f19957f817ce80a9",
   "bytes": 170850690,
   "kind": "csv",
   "http": {
    "etag": "\"1788584755.612699-170850690-1861358138\"",
    "last_modified": "Sat, 05 Sep 2026 05:05:55 GMT",
-   "content_length": 170850690
+   "content_length": 170850690,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -19575,11 +19933,11 @@
    "NumPeriodoIndice",
    "VlrIndiceEnviado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "33e71481-7f94-493e-8a35-8c23a928c842": {
   "dataset": "indicadores-de-conformidade-do-nivel-de-tensao-em-regime-permanente",
-  "checked_at": "2026-10-03T12:24:31+00:00",
+  "checked_at": "2026-11-02T17:57:51+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -19589,20 +19947,24 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.24
+   "first_byte_s": 0.25,
+   "download_s": 0.25,
+   "network_s": 0.0
   },
   "first_seen": "2026-10-03T12:24:31+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T12:24:31+00:00",
-  "seconds": 0.3,
+  "validated_at": "2026-11-02T17:57:51+00:00",
+  "seconds": 0.4,
   "sha256": "c974bc7e29b7693cc489c3345e5ababe69a75eace5696128d8589d9d811ae0ec",
   "bytes": 42196,
   "kind": "csv",
   "http": {
    "etag": "\"1780085602.916627-42196-1770394075\"",
    "last_modified": "Fri, 29 May 2026 20:13:22 GMT",
-   "content_length": 42196
+   "content_length": 42196,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -19626,7 +19988,7 @@
    "SigIndicador",
    "DscIndicador"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "153c0076-28cf-45ac-bf6e-e9ac29b25d21": {
   "dataset": "indicadores-de-qualidade-do-atendimento-telefonico",
@@ -19728,7 +20090,7 @@
  },
  "7abd3a47-1e1a-4a33-933b-48d658a6f912": {
   "dataset": "indice-aneel-de-satisfacao-do-consumidor-iasc",
-  "checked_at": "2026-10-03T12:26:12+00:00",
+  "checked_at": "2026-11-02T17:57:52+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -19738,20 +20100,24 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.4
+   "first_byte_s": 0.29,
+   "download_s": 0.48,
+   "network_s": 0.19
   },
   "first_seen": "2026-10-03T12:26:12+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T12:26:12+00:00",
-  "seconds": 2.0,
+  "validated_at": "2026-11-02T17:57:52+00:00",
+  "seconds": 1.4,
   "sha256": "99f4c617c101bad8a205e3de0b4c184caca5679217b42549a6262bd2584c8162",
   "bytes": 3317215,
   "kind": "csv",
   "http": {
    "etag": "\"1782489935.6989937-3317215-2114916995\"",
    "last_modified": "Fri, 26 Jun 2026 16:05:35 GMT",
-   "content_length": 3317215
+   "content_length": 3317215,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -19934,7 +20300,7 @@
    "MdaMediaFidelidadeV105",
    "MdaDsvPadFidelidadeV105"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "0bb73b5d-b2e1-417d-9873-6de6b2d397d1": {
   "dataset": "indqual-inadimplencia",
@@ -20039,7 +20405,7 @@
  },
  "11f8d9bd-6d99-4d69-8edb-45c058da746f": {
   "dataset": "indqual-inadimplencia",
-  "checked_at": "2026-10-03T12:26:40+00:00",
+  "checked_at": "2026-11-02T17:57:53+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "a7e3e0d743bd1c94",
   "ckan": {
@@ -20049,25 +20415,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.22
+   "first_byte_s": 0.22,
+   "download_s": 0.22,
+   "network_s": 0.0
   },
   "first_seen": "2026-10-03T12:26:40+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T12:26:40+00:00",
-  "seconds": 0.3,
+  "validated_at": "2026-11-02T17:57:53+00:00",
+  "seconds": 0.4,
   "sha256": "d5eff5ec8cd407454c616bbf9384638596fc4d40a3320fb35b8b1c1fd5cf9182",
   "bytes": 46276,
   "kind": "csv",
   "http": {
    "etag": "\"1785907604.0334082-46276-2165052164\"",
    "last_modified": "Wed, 05 Aug 2026 05:26:44 GMT",
-   "content_length": 46276
+   "content_length": 46276,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -20129,7 +20503,7 @@
    "SigIndicador",
    "DscIndicador"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "3f841488-80a8-42f2-a6ca-e0c593b228de": {
   "dataset": "indqual-municipio",
@@ -20190,7 +20564,7 @@
  },
  "246e926b-a686-42fc-b55f-32e4046834de": {
   "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T12:26:41+00:00",
+  "checked_at": "2026-11-02T17:58:03+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -20200,8 +20574,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.31,
-   "download_s": 19.31
+   "first_byte_s": 0.55,
+   "download_s": 9.82,
+   "network_s": 7.18
   },
   "distributions": [
    {
@@ -20218,15 +20593,17 @@
   "first_seen": "2026-10-03T12:26:41+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T12:26:41+00:00",
-  "seconds": 43.8,
+  "validated_at": "2026-11-02T17:58:03+00:00",
+  "seconds": 52.0,
   "sha256": "cfe6af9635c9a56f8fa2f984645bb6956bc565a9140d611c9402520224199d67",
   "bytes": 78357615,
   "kind": "zip",
   "http": {
    "etag": "\"1785866977.0530417-78357615-1925190240\"",
    "last_modified": "Tue, 04 Aug 2026 18:09:37 GMT",
-   "content_length": 78357615
+   "content_length": 78357615,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -20265,11 +20642,11 @@
    "SigAgente",
    "NumCPFCNPJ"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "8fcce0f2-4ea2-42ea-b7ac-00fd8feab03c": {
   "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T12:27:25+00:00",
+  "checked_at": "2026-11-02T17:58:22+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -20279,8 +20656,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.26,
-   "download_s": 22.39
+   "first_byte_s": 0.3,
+   "download_s": 19.52,
+   "network_s": 14.24
   },
   "distributions": [
    {
@@ -20297,15 +20675,17 @@
   "first_seen": "2026-10-03T12:27:25+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T12:27:25+00:00",
-  "seconds": 82.3,
+  "validated_at": "2026-11-02T17:58:22+00:00",
+  "seconds": 114.9,
   "sha256": "939b6e89d0888c0ed7f891216232fee493a59f4c49b1601e1eff64e995a0c24b",
   "bytes": 193739223,
   "kind": "zip",
   "http": {
    "etag": "\"1785867122.9415905-193739223-2446529522\"",
    "last_modified": "Tue, 04 Aug 2026 18:12:02 GMT",
-   "content_length": 193739223
+   "content_length": 193739223,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -20344,11 +20724,11 @@
    "SigAgente",
    "NumCPFCNPJ"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "965d2abb-91fe-4fab-b463-8c84f2e02188": {
   "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T12:28:47+00:00",
+  "checked_at": "2026-11-02T17:58:52+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -20358,8 +20738,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.28,
-   "download_s": 42.32
+   "first_byte_s": 0.48,
+   "download_s": 29.99,
+   "network_s": 24.78
   },
   "distributions": [
    {
@@ -20376,15 +20757,17 @@
   "first_seen": "2026-10-03T12:28:47+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T12:28:47+00:00",
-  "seconds": 94.1,
+  "validated_at": "2026-11-02T17:58:52+00:00",
+  "seconds": 130.3,
   "sha256": "a55ff4926291a9338cb7dabf36a3b0d44f297a8be7f7885959840102ff8e71bd",
   "bytes": 208950261,
   "kind": "zip",
   "http": {
    "etag": "\"1785867069.690436-208950261-2243171053\"",
    "last_modified": "Tue, 04 Aug 2026 18:11:09 GMT",
-   "content_length": 208950261
+   "content_length": 208950261,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -20423,11 +20806,11 @@
    "SigAgente",
    "NumCPFCNPJ"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "58201617-8364-4e7f-975d-21f8b8c7436f": {
   "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T12:30:21+00:00",
+  "checked_at": "2026-11-02T17:59:20+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -20437,8 +20820,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.28,
-   "download_s": 21.35
+   "first_byte_s": 0.29,
+   "download_s": 27.07,
+   "network_s": 22.89
   },
   "distributions": [
    {
@@ -20455,15 +20839,17 @@
   "first_seen": "2026-10-03T12:30:21+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T12:30:21+00:00",
-  "seconds": 85.5,
+  "validated_at": "2026-11-02T17:59:20+00:00",
+  "seconds": 162.9,
   "sha256": "a74b2c57a5959e8473b31f63ee426a89f132c80e524ec47e8f8d171c5a58e6f9",
   "bytes": 211534750,
   "kind": "zip",
   "http": {
    "etag": "\"1785866820.773972-211534750-1638207968\"",
    "last_modified": "Tue, 04 Aug 2026 18:07:00 GMT",
-   "content_length": 211534750
+   "content_length": 211534750,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -20502,11 +20888,11 @@
    "SigAgente",
    "NumCPFCNPJ"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "42d778de-4a10-4b54-a00a-87c8ff35db6f": {
   "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T12:31:47+00:00",
+  "checked_at": "2026-11-02T18:00:02+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -20516,8 +20902,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.33,
-   "download_s": 31.72
+   "first_byte_s": 0.28,
+   "download_s": 42.09,
+   "network_s": 37.77
   },
   "distributions": [
    {
@@ -20534,15 +20921,17 @@
   "first_seen": "2026-10-03T12:31:47+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T12:31:47+00:00",
-  "seconds": 102.0,
+  "validated_at": "2026-11-02T18:00:02+00:00",
+  "seconds": 141.7,
   "sha256": "187eff8e07128b478f8a71e62f5e81760b36a26900073851720bebf2041c5d59",
   "bytes": 212979692,
   "kind": "zip",
   "http": {
    "etag": "\"1785867096.8080056-212979692-2009535206\"",
    "last_modified": "Tue, 04 Aug 2026 18:11:36 GMT",
-   "content_length": 212979692
+   "content_length": 212979692,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -20581,11 +20970,11 @@
    "SigAgente",
    "NumCPFCNPJ"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "7d081751-3f4c-4ede-96b5-1bf2e46b61ca": {
   "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T12:33:29+00:00",
+  "checked_at": "2026-11-02T18:00:37+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -20595,8 +20984,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.35,
-   "download_s": 50.47
+   "first_byte_s": 0.29,
+   "download_s": 34.93,
+   "network_s": 30.74
   },
   "distributions": [
    {
@@ -20613,15 +21003,17 @@
   "first_seen": "2026-10-03T12:33:29+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T12:33:29+00:00",
-  "seconds": 139.2,
+  "validated_at": "2026-11-02T18:00:37+00:00",
+  "seconds": 136.4,
   "sha256": "7bc4af2ef14e194783169ac7b9eecd29f06ce9cadea42e393a0c0c0fb50446c5",
   "bytes": 231742617,
   "kind": "zip",
   "http": {
    "etag": "\"1785866992.986743-231742617-2000884454\"",
    "last_modified": "Tue, 04 Aug 2026 18:09:52 GMT",
-   "content_length": 231742617
+   "content_length": 231742617,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -20660,11 +21052,11 @@
    "SigAgente",
    "NumCPFCNPJ"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "cce72c2b-a4cb-4b98-818f-3ac56bbf2a78": {
   "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T12:35:48+00:00",
+  "checked_at": "2026-11-02T18:01:35+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -20674,8 +21066,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.3,
-   "download_s": 63.66
+   "first_byte_s": 0.64,
+   "download_s": 44.95,
+   "network_s": 40.04
   },
   "distributions": [
    {
@@ -20692,15 +21085,17 @@
   "first_seen": "2026-10-03T12:35:48+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T12:35:48+00:00",
-  "seconds": 179.5,
+  "validated_at": "2026-11-02T18:01:35+00:00",
+  "seconds": 179.1,
   "sha256": "668e6e317e448ea08912a1bf57e5bd16ddbc5a83ab8d448ba32cc628454df9a3",
   "bytes": 250333923,
   "kind": "zip",
   "http": {
    "etag": "\"1785867149.9061625-250333923-2380600183\"",
    "last_modified": "Tue, 04 Aug 2026 18:12:29 GMT",
-   "content_length": 250333923
+   "content_length": 250333923,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -20739,11 +21134,11 @@
    "SigAgente",
    "NumCPFCNPJ"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "cc091bb8-b308-46b2-98ec-c2fd58e7194b": {
   "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T12:38:48+00:00",
+  "checked_at": "2026-11-02T18:02:11+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -20753,8 +21148,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.28,
-   "download_s": 31.01
+   "first_byte_s": 0.66,
+   "download_s": 35.6,
+   "network_s": 30.6
   },
   "distributions": [
    {
@@ -20771,15 +21167,17 @@
   "first_seen": "2026-10-03T12:38:48+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T12:38:48+00:00",
-  "seconds": 100.9,
+  "validated_at": "2026-11-02T18:02:11+00:00",
+  "seconds": 141.2,
   "sha256": "ffc1b1009624416043f5c9abcd246f37a984469349b44288b29e63119f3983f4",
   "bytes": 255669140,
   "kind": "zip",
   "http": {
    "etag": "\"1785866777.9137757-255669140-2150175470\"",
    "last_modified": "Tue, 04 Aug 2026 18:06:17 GMT",
-   "content_length": 255669140
+   "content_length": 255669140,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -20818,11 +21216,11 @@
    "SigAgente",
    "NumCPFCNPJ"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "1aa6ad85-05b8-4471-9ca4-316566214ba9": {
   "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T12:40:29+00:00",
+  "checked_at": "2026-11-02T18:02:46+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -20832,8 +21230,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.38,
-   "download_s": 41.16
+   "first_byte_s": 0.51,
+   "download_s": 35.22,
+   "network_s": 30.08
   },
   "distributions": [
    {
@@ -20850,15 +21249,17 @@
   "first_seen": "2026-10-03T12:40:29+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T12:40:29+00:00",
-  "seconds": 119.8,
+  "validated_at": "2026-11-02T18:02:46+00:00",
+  "seconds": 186.1,
   "sha256": "205b1163073f0968089f620f9c3899fcbdf4a294674be193c0f84ee4119f44a2",
   "bytes": 270482714,
   "kind": "zip",
   "http": {
    "etag": "\"1785866742.381442-270482714-1975980575\"",
    "last_modified": "Tue, 04 Aug 2026 18:05:42 GMT",
-   "content_length": 270482714
+   "content_length": 270482714,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -20897,11 +21298,11 @@
    "SigAgente",
    "NumCPFCNPJ"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "33a21bd6-4893-42fc-bc05-888154f7511e": {
   "dataset": "interrupcoes-de-energia-eletrica-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T12:42:28+00:00",
+  "checked_at": "2026-11-02T18:03:50+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -20911,8 +21312,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.28,
-   "download_s": 41.91
+   "first_byte_s": 0.42,
+   "download_s": 29.84,
+   "network_s": 25.64
   },
   "distributions": [
    {
@@ -20929,15 +21331,17 @@
   "first_seen": "2026-10-03T12:42:28+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T12:42:28+00:00",
-  "seconds": 109.4,
+  "validated_at": "2026-11-02T18:03:50+00:00",
+  "seconds": 186.9,
   "sha256": "87dd5be92a0752bedfffaa80090022182db359538b2fd0518c26537a26576e4d",
   "bytes": 202900063,
   "kind": "zip",
   "http": {
    "etag": "\"1788531688.144616-202900063-1913721384\"",
    "last_modified": "Fri, 04 Sep 2026 14:21:28 GMT",
-   "content_length": 202900063
+   "content_length": 202900063,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -20984,7 +21388,7 @@
    "QtdConsumidoresAtivos",
    "DscTipoElementoInterrompido"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "75419902-c692-498b-a6ef-85f6d4beb5b2": {
   "dataset": "liberacao-para-operacao-comercial-de-empreendimentos-de-geracao",
@@ -22620,7 +23024,7 @@
  },
  "845b550c-e454-4cac-a8e7-ab7f1732fa6d": {
   "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T13:10:00+00:00",
+  "checked_at": "2026-11-02T18:04:21+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -22630,8 +23034,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.79,
-   "download_s": 45.54
+   "first_byte_s": 0.72,
+   "download_s": 30.96,
+   "network_s": 25.84
   },
   "distributions": [
    {
@@ -22648,15 +23053,17 @@
   "first_seen": "2026-10-03T13:10:00+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:10:00+00:00",
-  "seconds": 124.2,
+  "validated_at": "2026-11-02T18:04:21+00:00",
+  "seconds": 228.2,
   "sha256": "56de9466decb688a5cc08cbd636e6e5f0c20a8b5429ddb6bf454f574bcd35cae",
   "bytes": 266843180,
   "kind": "zip",
   "http": {
    "etag": "\"1785867650.2430737-266843180-2066420502\"",
    "last_modified": "Tue, 04 Aug 2026 18:20:50 GMT",
-   "content_length": 266843180
+   "content_length": 266843180,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -22692,11 +23099,11 @@
    "NumVeiculo",
    "CodIBGE"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "5a7f1a13-2ec1-406c-b542-3bcba96c8a9e": {
   "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T13:12:04+00:00",
+  "checked_at": "2026-11-02T18:05:26+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -22706,8 +23113,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.39,
-   "download_s": 48.05
+   "first_byte_s": 0.32,
+   "download_s": 65.03,
+   "network_s": 59.98
   },
   "distributions": [
    {
@@ -22724,15 +23132,17 @@
   "first_seen": "2026-10-03T13:12:04+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:12:04+00:00",
-  "seconds": 117.8,
+  "validated_at": "2026-11-02T18:05:26+00:00",
+  "seconds": 234.8,
   "sha256": "cd32cb38a05732f0827754481ce7172e6442c32995fd68ac904522e708f0c8a5",
   "bytes": 277662396,
   "kind": "zip",
   "http": {
    "etag": "\"1785867284.489026-277662396-2080641800\"",
    "last_modified": "Tue, 04 Aug 2026 18:14:44 GMT",
-   "content_length": 277662396
+   "content_length": 277662396,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -22768,11 +23178,11 @@
    "NumVeiculo",
    "CodIBGE"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "770611ff-cec4-4b18-82e0-b06375a462f0": {
   "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T13:14:02+00:00",
+  "checked_at": "2026-11-02T18:06:27+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -22782,8 +23192,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.31,
-   "download_s": 58.43
+   "first_byte_s": 0.54,
+   "download_s": 54.68,
+   "network_s": 49.17
   },
   "distributions": [
    {
@@ -22800,15 +23211,17 @@
   "first_seen": "2026-10-03T13:14:02+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:14:02+00:00",
-  "seconds": 143.0,
+  "validated_at": "2026-11-02T18:06:27+00:00",
+  "seconds": 229.9,
   "sha256": "2bafa571be612be07d791f626f39e6ac648d7628b9fae9baa66fa34d47830fd4",
   "bytes": 299407184,
   "kind": "zip",
   "http": {
    "etag": "\"1785867950.2059226-299407184-1971327567\"",
    "last_modified": "Tue, 04 Aug 2026 18:25:50 GMT",
-   "content_length": 299407184
+   "content_length": 299407184,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -22844,11 +23257,11 @@
    "NumVeiculo",
    "CodIBGE"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "f41804fe-b3c3-4f39-b777-c48c602affb1": {
   "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T13:16:25+00:00",
+  "checked_at": "2026-11-02T18:07:38+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -22858,33 +23271,33 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.35,
-   "download_s": 46.11
+   "first_byte_s": 0.54,
+   "download_s": 49.15,
+   "network_s": 43.46
   },
   "distributions": [
    {
     "id": "1f98ee17-fb5b-4c2b-be12-bf6e5fc588af",
     "format": "parquet",
     "name": "ocorrencias-emergenciais-rede-distribuicao-2020.parquet",
-    "status": "ok",
-    "read_as": "parquet",
-    "same_columns": true,
-    "missing": [],
-    "extra": []
+    "status": "error",
+    "reason": "ReadTimeoutError: HTTPSConnectionPool(host=…, port=443): Read timed out."
    }
   ],
   "first_seen": "2026-10-03T13:16:25+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:16:25+00:00",
-  "seconds": 163.2,
+  "validated_at": "2026-11-02T18:07:38+00:00",
+  "seconds": 292.6,
   "sha256": "f2309148ee72971cb6e2f74504e1bd0d1cc6c756f95c19b4caecf3d8fa274112",
   "bytes": 307601129,
   "kind": "zip",
   "http": {
    "etag": "\"1785867760.0381882-307601129-2073301738\"",
    "last_modified": "Tue, 04 Aug 2026 18:22:40 GMT",
-   "content_length": 307601129
+   "content_length": 307601129,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -22920,11 +23333,11 @@
    "NumVeiculo",
    "CodIBGE"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "ca188f2f-2384-4690-af3a-048f44575c74": {
   "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T13:19:08+00:00",
+  "checked_at": "2026-11-02T18:08:51+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -22934,8 +23347,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.31,
-   "download_s": 56.1
+   "first_byte_s": 1.47,
+   "download_s": 73.11,
+   "network_s": 66.31
   },
   "distributions": [
    {
@@ -22952,15 +23366,17 @@
   "first_seen": "2026-10-03T13:19:08+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:19:08+00:00",
-  "seconds": 138.5,
+  "validated_at": "2026-11-02T18:08:51+00:00",
+  "seconds": 300.4,
   "sha256": "da41353c75540db4afc5fdea1156674b2c38a5962785adb45a4230c81b7d3f6a",
   "bytes": 317997190,
   "kind": "zip",
   "http": {
    "etag": "\"1785867407.650071-317997190-1987318321\"",
    "last_modified": "Tue, 04 Aug 2026 18:16:47 GMT",
-   "content_length": 317997190
+   "content_length": 317997190,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -22996,11 +23412,11 @@
    "NumVeiculo",
    "CodIBGE"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "4ecf2f60-65de-4874-b293-330927720ccf": {
   "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T13:21:27+00:00",
+  "checked_at": "2026-11-02T18:10:30+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23010,8 +23426,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.28,
-   "download_s": 74.24
+   "first_byte_s": 0.29,
+   "download_s": 99.3,
+   "network_s": 93.37
   },
   "distributions": [
    {
@@ -23028,15 +23445,17 @@
   "first_seen": "2026-10-03T13:21:27+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:21:27+00:00",
-  "seconds": 196.0,
+  "validated_at": "2026-11-02T18:10:30+00:00",
+  "seconds": 404.7,
   "sha256": "7789e288d1d46ba0a9761d337ec9229ec0a44c2812b7f66db9cbcb70e261eb59",
   "bytes": 336985258,
   "kind": "zip",
   "http": {
    "etag": "\"1785867486.7938147-336985258-2044793438\"",
    "last_modified": "Tue, 04 Aug 2026 18:18:06 GMT",
-   "content_length": 336985258
+   "content_length": 336985258,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23072,11 +23491,11 @@
    "NumVeiculo",
    "CodIBGE"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "4796181d-5156-4ce5-8729-43f4e71e2d45": {
   "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T13:24:43+00:00",
+  "checked_at": "2026-11-02T18:11:41+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23086,8 +23505,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.27,
-   "download_s": 83.79
+   "first_byte_s": 2.51,
+   "download_s": 69.31,
+   "network_s": 61.06
   },
   "distributions": [
    {
@@ -23101,21 +23521,20 @@
     "extra": []
    }
   ],
-  "network_failures": {
-   "HTTP 502": 1
-  },
   "first_seen": "2026-10-03T13:24:43+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:24:43+00:00",
-  "seconds": 203.9,
+  "validated_at": "2026-11-02T18:11:41+00:00",
+  "seconds": 326.9,
   "sha256": "9fabc00bcf261a2faf945e49dccc68bc7efce37fba32e82b7d8690f7fd7bf2b0",
   "bytes": 347224755,
   "kind": "zip",
   "http": {
    "etag": "\"1785867567.599493-347224755-1701515740\"",
    "last_modified": "Tue, 04 Aug 2026 18:19:27 GMT",
-   "content_length": 347224755
+   "content_length": 347224755,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23151,11 +23570,11 @@
    "NumVeiculo",
    "CodIBGE"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "d6024771-f068-414a-8476-656e5fb83aea": {
   "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T13:28:07+00:00",
+  "checked_at": "2026-11-02T18:13:17+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23165,8 +23584,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 3.36,
-   "download_s": 39.02
+   "first_byte_s": 1.24,
+   "download_s": 95.15,
+   "network_s": 88.58
   },
   "distributions": [
    {
@@ -23183,15 +23603,17 @@
   "first_seen": "2026-10-03T13:28:07+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:28:07+00:00",
-  "seconds": 142.1,
+  "validated_at": "2026-11-02T18:13:17+00:00",
+  "seconds": 403.3,
   "sha256": "404f433dcc1444b092e1549fb9e5d04ce9c5e687e277ec262fd06855327fe341",
   "bytes": 340534983,
   "kind": "zip",
   "http": {
    "etag": "\"1785867610.806751-340534983-1728647729\"",
    "last_modified": "Tue, 04 Aug 2026 18:20:10 GMT",
-   "content_length": 340534983
+   "content_length": 340534983,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23227,11 +23649,11 @@
    "NumVeiculo",
    "CodIBGE"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "04e2d968-76a5-4433-91c2-c1d5d43147c0": {
   "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T13:30:29+00:00",
+  "checked_at": "2026-11-02T18:15:36+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23241,8 +23663,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.34,
-   "download_s": 44.15
+   "first_byte_s": 0.32,
+   "download_s": 71.4,
+   "network_s": 65.56
   },
   "distributions": [
    {
@@ -23259,15 +23682,17 @@
   "first_seen": "2026-10-03T13:30:29+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:30:29+00:00",
-  "seconds": 120.7,
+  "validated_at": "2026-11-02T18:15:36+00:00",
+  "seconds": 276.5,
   "sha256": "6db6d652e8084d3bab2780da21c5728cd6c70baec7bfb829787bc28bf8716cfe",
   "bytes": 352050221,
   "kind": "zip",
   "http": {
    "etag": "\"1785867529.2471406-352050221-1818366451\"",
    "last_modified": "Tue, 04 Aug 2026 18:18:49 GMT",
-   "content_length": 352050221
+   "content_length": 352050221,
+   "content_type": "application/zip",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23303,11 +23728,11 @@
    "NumVeiculo",
    "CodIBGE"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "040c840a-b9fa-4c63-bd3c-f1a99640366b": {
   "dataset": "ocorrencias-emergenciais-nas-redes-de-distribuicao",
-  "checked_at": "2026-10-03T13:32:30+00:00",
+  "checked_at": "2026-11-02T18:16:27+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23317,8 +23742,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.39,
-   "download_s": 19.82
+   "first_byte_s": 5.35,
+   "download_s": 51.38,
+   "network_s": 42.97
   },
   "distributions": [
    {
@@ -23335,15 +23761,17 @@
   "first_seen": "2026-10-03T13:32:30+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:32:30+00:00",
-  "seconds": 65.9,
+  "validated_at": "2026-11-02T18:16:27+00:00",
+  "seconds": 137.1,
   "sha256": "7ed1050092342916bc6e797f4dd79577ac84683956963e1f2c3be652a7876c8c",
   "bytes": 176074116,
   "kind": "zip",
   "http": {
    "etag": "\"1789013595.2036538-176074116-2065240749\"",
    "last_modified": "Thu, 10 Sep 2026 04:13:15 GMT",
-   "content_length": 176074116
+   "content_length": 176074116,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23387,11 +23815,11 @@
    "NumTempoDeslocamento",
    "NumTempoExecucao"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "65fdd6a5-2073-4e97-99df-b5f750042add": {
   "dataset": "ouvidoria-setorial-aneel",
-  "checked_at": "2026-10-03T13:33:35+00:00",
+  "checked_at": "2026-11-02T18:17:53+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23401,20 +23829,24 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.48
+   "first_byte_s": 0.77,
+   "download_s": 33.56,
+   "network_s": 32.71
   },
   "first_seen": "2026-10-03T13:33:35+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:33:35+00:00",
-  "seconds": 21.0,
+  "validated_at": "2026-11-02T18:17:53+00:00",
+  "seconds": 34.8,
   "sha256": "03310281e1fab5f5dd6bf852c79243fa5e416de9ede8172b86a4c8f49c1f47c1",
   "bytes": 82945277,
   "kind": "csv",
   "http": {
    "etag": "\"1784641284.803613-82945277-2057573060\"",
    "last_modified": "Tue, 21 Jul 2026 13:41:24 GMT",
-   "content_length": 82945277
+   "content_length": 82945277,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23448,11 +23880,11 @@
    "NumQtdReclamacoesDia",
    "CodigoMunicipio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "e5ee09c7-e7fc-43b7-ac1f-0e2d98db9fce": {
   "dataset": "ouvidoria-setorial-aneel",
-  "checked_at": "2026-10-03T13:33:56+00:00",
+  "checked_at": "2026-11-02T18:18:54+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23462,7 +23894,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.31
+   "first_byte_s": 0.42,
+   "download_s": 60.8,
+   "network_s": 60.25
   },
   "distributions": [
    {
@@ -23479,15 +23913,17 @@
   "first_seen": "2026-10-03T13:33:56+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:33:56+00:00",
-  "seconds": 24.3,
+  "validated_at": "2026-11-02T18:18:54+00:00",
+  "seconds": 65.1,
   "sha256": "0e577843281d96afed031811f1705348e7af38e9a5b995c20b6e7c7f7f7990ea",
   "bytes": 119397340,
   "kind": "csv",
   "http": {
    "etag": "\"1784641279.6087353-119397340-2385908710\"",
    "last_modified": "Tue, 21 Jul 2026 13:41:19 GMT",
-   "content_length": 119397340
+   "content_length": 119397340,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23521,11 +23957,11 @@
    "NumQtdReclamacoesDia",
    "CodigoMunicipio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "4632bf42-3ae4-44df-92c8-1b6a18423948": {
   "dataset": "ouvidoria-setorial-aneel",
-  "checked_at": "2026-10-03T13:34:21+00:00",
+  "checked_at": "2026-11-02T18:19:03+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23535,20 +23971,24 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.36
+   "first_byte_s": 0.32,
+   "download_s": 9.12,
+   "network_s": 8.71
   },
   "first_seen": "2026-10-03T13:34:21+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:34:21+00:00",
-  "seconds": 10.9,
+  "validated_at": "2026-11-02T18:19:03+00:00",
+  "seconds": 10.4,
   "sha256": "44e97bff6f71a496a2311385c8928c11f0e08a5cc9133edb8a883d1da5e97220",
   "bytes": 84130595,
   "kind": "csv",
   "http": {
    "etag": "\"1784641299.3822696-84130595-1957499433\"",
    "last_modified": "Tue, 21 Jul 2026 13:41:39 GMT",
-   "content_length": 84130595
+   "content_length": 84130595,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23582,11 +24022,11 @@
    "NumQtdReclamacoesDia",
    "CodigoMunicipio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "289ed6b6-1650-4261-b8de-ef1f207bd589": {
   "dataset": "ouvidoria-setorial-aneel",
-  "checked_at": "2026-10-03T13:34:32+00:00",
+  "checked_at": "2026-11-02T18:19:16+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23596,20 +24036,24 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.31
+   "first_byte_s": 3.81,
+   "download_s": 12.59,
+   "network_s": 8.68
   },
   "first_seen": "2026-10-03T13:34:32+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:34:32+00:00",
-  "seconds": 9.5,
+  "validated_at": "2026-11-02T18:19:16+00:00",
+  "seconds": 14.0,
   "sha256": "0544ff137c769ff39d37c43012e23f651fffd0d62257c9481ecc0ee21af3b4c2",
   "bytes": 91331932,
   "kind": "csv",
   "http": {
    "etag": "\"1784641294.6663806-91331932-1960186515\"",
    "last_modified": "Tue, 21 Jul 2026 13:41:34 GMT",
-   "content_length": 91331932
+   "content_length": 91331932,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23643,11 +24087,11 @@
    "NumQtdReclamacoesDia",
    "CodigoMunicipio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "561a3eca-8c3b-4c8a-b11e-a31f7d6a1032": {
   "dataset": "ouvidoria-setorial-aneel",
-  "checked_at": "2026-10-03T13:34:41+00:00",
+  "checked_at": "2026-11-02T18:19:26+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23657,20 +24101,24 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.29
+   "first_byte_s": 0.36,
+   "download_s": 10.08,
+   "network_s": 9.61
   },
   "first_seen": "2026-10-03T13:34:41+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:34:41+00:00",
-  "seconds": 12.9,
+  "validated_at": "2026-11-02T18:19:26+00:00",
+  "seconds": 11.6,
   "sha256": "aa9ca3e74f31eb0bc0d0dc7ddf532dde05c4caa7d6474b53f741b703861edf19",
   "bytes": 100175480,
   "kind": "csv",
   "http": {
    "etag": "\"1784641291.8344474-100175480-2218463995\"",
    "last_modified": "Tue, 21 Jul 2026 13:41:31 GMT",
-   "content_length": 100175480
+   "content_length": 100175480,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23704,11 +24152,11 @@
    "NumQtdReclamacoesDia",
    "CodigoMunicipio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "a07c92fc-b60b-4589-b579-edefe2bf99ea": {
   "dataset": "ouvidoria-setorial-aneel",
-  "checked_at": "2026-10-03T13:34:54+00:00",
+  "checked_at": "2026-11-02T18:19:37+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23718,7 +24166,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.28
+   "first_byte_s": 0.26,
+   "download_s": 10.89,
+   "network_s": 10.52
   },
   "distributions": [
    {
@@ -23735,15 +24185,17 @@
   "first_seen": "2026-10-03T13:34:54+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:34:54+00:00",
-  "seconds": 21.0,
+  "validated_at": "2026-11-02T18:19:37+00:00",
+  "seconds": 22.0,
   "sha256": "7f87fad3eba70b845bac8992e445b0d7da25c153e130d15dc62527b8dd5133e8",
   "bytes": 111928943,
   "kind": "csv",
   "http": {
    "etag": "\"1784641207.2414386-111928943-2203325323\"",
    "last_modified": "Tue, 21 Jul 2026 13:40:07 GMT",
-   "content_length": 111928943
+   "content_length": 111928943,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23777,11 +24229,11 @@
    "NumQtdReclamacoesDia",
    "CodigoMunicipio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "42419fa2-6720-4349-a91b-3ed65126aed2": {
   "dataset": "ouvidoria-setorial-aneel",
-  "checked_at": "2026-10-03T13:35:15+00:00",
+  "checked_at": "2026-11-02T18:19:49+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23791,7 +24243,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.28
+   "first_byte_s": 0.26,
+   "download_s": 12.65,
+   "network_s": 12.27
   },
   "distributions": [
    {
@@ -23808,15 +24262,17 @@
   "first_seen": "2026-10-03T13:35:15+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:35:15+00:00",
-  "seconds": 16.7,
+  "validated_at": "2026-11-02T18:19:49+00:00",
+  "seconds": 16.9,
   "sha256": "1ff6a21985a660c957f9aebeca6ad8a6d15a245b5cbecfb973c648a1667c0139",
   "bytes": 118240368,
   "kind": "csv",
   "http": {
    "etag": "\"1784641194.5757346-118240368-1747128863\"",
    "last_modified": "Tue, 21 Jul 2026 13:39:54 GMT",
-   "content_length": 118240368
+   "content_length": 118240368,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23850,11 +24306,11 @@
    "NumQtdReclamacoesDia",
    "CodigoMunicipio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "43dbf8bf-5d91-417b-b977-d28cc4107f96": {
   "dataset": "ouvidoria-setorial-aneel",
-  "checked_at": "2026-10-03T13:35:32+00:00",
+  "checked_at": "2026-11-02T18:20:06+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23864,7 +24320,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.35
+   "first_byte_s": 0.7,
+   "download_s": 16.43,
+   "network_s": 15.62
   },
   "distributions": [
    {
@@ -23881,15 +24339,17 @@
   "first_seen": "2026-10-03T13:35:32+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:35:32+00:00",
-  "seconds": 10.9,
+  "validated_at": "2026-11-02T18:20:06+00:00",
+  "seconds": 21.6,
   "sha256": "6c1ed1ff1d07716f8cdce5ee192aa75f1c39cb236118e19f4dbfa066b2ff49c8",
   "bytes": 105673046,
   "kind": "csv",
   "http": {
    "etag": "\"1784642332.9839375-105673046-2187793096\"",
    "last_modified": "Tue, 21 Jul 2026 13:58:52 GMT",
-   "content_length": 105673046
+   "content_length": 105673046,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23923,11 +24383,11 @@
    "NumQtdReclamacoesDia",
    "CodigoMunicipio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "927c458a-760c-470f-9967-f9f5e8809095": {
   "dataset": "ouvidoria-setorial-aneel",
-  "checked_at": "2026-10-03T13:35:43+00:00",
+  "checked_at": "2026-11-02T18:20:18+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23937,20 +24397,24 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.32
+   "first_byte_s": 0.94,
+   "download_s": 11.8,
+   "network_s": 10.76
   },
   "first_seen": "2026-10-03T13:35:43+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:35:43+00:00",
-  "seconds": 19.4,
+  "validated_at": "2026-11-02T18:20:18+00:00",
+  "seconds": 13.2,
   "sha256": "0c2641ceb87ecd5f43031220a209df46ab178c093732a1619d2380e14a4bd754",
   "bytes": 95840479,
   "kind": "csv",
   "http": {
    "etag": "\"1784642329.8620112-95840479-1838944755\"",
    "last_modified": "Tue, 21 Jul 2026 13:58:49 GMT",
-   "content_length": 95840479
+   "content_length": 95840479,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -23984,11 +24448,11 @@
    "NumQtdReclamacoesDia",
    "CodigoMunicipio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "56d51b86-debe-4911-8d56-f2ebd9d444ff": {
   "dataset": "ouvidoria-setorial-aneel",
-  "checked_at": "2026-10-03T13:36:02+00:00",
+  "checked_at": "2026-11-02T18:20:39+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -23998,7 +24462,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.31
+   "first_byte_s": 7.61,
+   "download_s": 21.1,
+   "network_s": 13.38
   },
   "distributions": [
    {
@@ -24015,15 +24481,17 @@
   "first_seen": "2026-10-03T13:36:02+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:36:02+00:00",
-  "seconds": 13.6,
+  "validated_at": "2026-11-02T18:20:39+00:00",
+  "seconds": 25.6,
   "sha256": "d8a4d2d91cf7ec155d07c42a3a9f40f4890c8564e8faa8f97a9fb4a838301f3a",
   "bytes": 110603134,
   "kind": "csv",
   "http": {
    "etag": "\"1784642339.8597755-110603134-2121405225\"",
    "last_modified": "Tue, 21 Jul 2026 13:58:59 GMT",
-   "content_length": 110603134
+   "content_length": 110603134,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -24057,11 +24525,11 @@
    "NumQtdReclamacoesDia",
    "CodigoMunicipio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "0b15d4cf-4d19-49e9-9ad8-8c81670182c7": {
   "dataset": "ouvidoria-setorial-aneel",
-  "checked_at": "2026-10-03T13:36:16+00:00",
+  "checked_at": "2026-11-02T18:20:51+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -24071,20 +24539,24 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.32
+   "first_byte_s": 2.12,
+   "download_s": 12.47,
+   "network_s": 10.26
   },
   "first_seen": "2026-10-03T13:36:16+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:36:16+00:00",
-  "seconds": 9.0,
+  "validated_at": "2026-11-02T18:20:51+00:00",
+  "seconds": 14.1,
   "sha256": "63fed67c920fb65a3245488d03182f0cb6c871ef9b1ac5f9edb3f6ec67404e68",
   "bytes": 91410110,
   "kind": "csv",
   "http": {
    "etag": "\"1784642344.9316561-91410110-2064388712\"",
    "last_modified": "Tue, 21 Jul 2026 13:59:04 GMT",
-   "content_length": 91410110
+   "content_length": 91410110,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -24118,7 +24590,7 @@
    "NumQtdReclamacoesDia",
    "CodigoMunicipio"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "93d50388-a4dd-4c31-a9e6-065ade8078f3": {
   "dataset": "ouvidoria-setorial-aneel",
@@ -24289,7 +24761,7 @@
  },
  "30b8fbb7-4d7a-49d1-8985-97e9bb7d65e0": {
   "dataset": "pdd",
-  "checked_at": "2026-10-03T13:36:49+00:00",
+  "checked_at": "2026-11-02T18:20:52+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -24299,20 +24771,24 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.23
+   "first_byte_s": 0.39,
+   "download_s": 0.56,
+   "network_s": 0.17
   },
   "first_seen": "2026-10-03T13:36:49+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T13:36:49+00:00",
-  "seconds": 0.4,
+  "validated_at": "2026-11-02T18:20:52+00:00",
+  "seconds": 0.8,
   "sha256": "3f2cf5694fecead52a92f53c49f9ce2f9de8396a07d61bc18b1face84ee44295",
   "bytes": 797699,
   "kind": "csv",
   "http": {
    "etag": "\"1782492273.557597-797699-2120225489\"",
    "last_modified": "Fri, 26 Jun 2026 16:44:33 GMT",
-   "content_length": 797699
+   "content_length": 797699,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -24344,7 +24820,7 @@
    "VlrTotalRealizado",
    "VlrTotalPlanejado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "28686698-544b-48e2-af58-ad4f7616246c": {
   "dataset": "projetos-de-eficiencia-energetica",
@@ -24789,7 +25265,7 @@
  },
  "e3724332-7de8-4273-8f0d-b20ebb91bf7c": {
   "dataset": "qualidade-do-atendimento-comercial",
-  "checked_at": "2026-10-03T13:44:08+00:00",
+  "checked_at": "2026-11-02T18:20:52+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "a7e3e0d743bd1c94",
   "ckan": {
@@ -24799,17 +25275,23 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.34
+   "first_byte_s": 0.31,
+   "download_s": 0.31,
+   "network_s": 0.0
   },
   "first_seen": "2026-10-03T13:44:08+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:44:08+00:00",
+  "validated_at": "2026-11-02T18:20:52+00:00",
   "seconds": 0.4,
   "sha256": "4fb014965d5b36d18fc2298038f74224fd2f0dfa9242a20646ab770b0ba6c977",
   "bytes": 46272,
@@ -24817,7 +25299,9 @@
   "http": {
    "etag": "\"1782401230.2076273-46272-1883509430\"",
    "last_modified": "Thu, 25 Jun 2026 15:27:10 GMT",
-   "content_length": 46272
+   "content_length": 46272,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -24879,7 +25363,7 @@
    "SigIndicador",
    "DscIndicador"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "4a615df8-4c25-48fa-bbea-873a36a79518": {
   "dataset": "ralie-relatorio-de-acompanhamento-da-expansao-da-oferta-de-geracao-de-energia-eletrica",
@@ -26301,7 +26785,7 @@
  },
  "349ca6b0-8e1b-4e1e-991d-b3d9edf6e368": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:53:27+00:00",
+  "checked_at": "2026-11-02T18:21:02+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "1e89bb5bd9f3b8f3",
   "ckan": {
@@ -26311,7 +26795,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.34
+   "first_byte_s": 0.38,
+   "download_s": 9.39,
+   "network_s": 8.92
   },
   "distributions": [
    {
@@ -26330,18 +26816,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:53:27+00:00",
-  "seconds": 26.5,
+  "validated_at": "2026-11-02T18:21:02+00:00",
+  "seconds": 20.3,
   "sha256": "da9052164df7426723277fb639e6d9ef815a19475658dbde3c80867e9ccf1f7f",
   "bytes": 95913636,
   "kind": "csv",
   "http": {
    "etag": "\"1785249933.7404883-95913636-2149847845\"",
    "last_modified": "Tue, 28 Jul 2026 14:45:33 GMT",
-   "content_length": 95913636
+   "content_length": 95913636,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -26400,11 +26892,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "620bd3ee-7ad4-4e23-ae64-251e22a58303": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:53:54+00:00",
+  "checked_at": "2026-11-02T18:21:11+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "1e89bb5bd9f3b8f3",
   "ckan": {
@@ -26414,7 +26906,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.32
+   "first_byte_s": 0.5,
+   "download_s": 9.17,
+   "network_s": 8.56
   },
   "distributions": [
    {
@@ -26433,18 +26927,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:53:54+00:00",
-  "seconds": 17.1,
+  "validated_at": "2026-11-02T18:21:11+00:00",
+  "seconds": 19.0,
   "sha256": "b42a20e436dc2a26f7830f7736f4fc586c29d3694279bb0f1c2be56ac3a31ae1",
   "bytes": 99558911,
   "kind": "csv",
   "http": {
    "etag": "\"1785249936.9084308-99558911-2120422004\"",
    "last_modified": "Tue, 28 Jul 2026 14:45:36 GMT",
-   "content_length": 99558911
+   "content_length": 99558911,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -26503,11 +27003,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "81fb84e5-2305-41b4-bc97-7673bc327796": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:54:11+00:00",
+  "checked_at": "2026-11-02T18:21:22+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "49110ee4c2a95a10",
   "ckan": {
@@ -26517,7 +27017,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.65
+   "first_byte_s": 0.45,
+   "download_s": 10.82,
+   "network_s": 10.25
   },
   "distributions": [
    {
@@ -26536,18 +27038,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:54:11+00:00",
-  "seconds": 20.8,
+  "validated_at": "2026-11-02T18:21:22+00:00",
+  "seconds": 21.6,
   "sha256": "a935acb23cee84900ef4b423a149a65b53d91441a775a42e160f61ad30ca09e7",
   "bytes": 105861059,
   "kind": "csv",
   "http": {
    "etag": "\"1785250590.0348394-105861059-1902121477\"",
    "last_modified": "Tue, 28 Jul 2026 14:56:30 GMT",
-   "content_length": 105861059
+   "content_length": 105861059,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -26606,11 +27114,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "28fa2d25-233d-4a96-9345-fdc13fa76d6c": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:54:31+00:00",
+  "checked_at": "2026-11-02T18:21:37+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "49110ee4c2a95a10",
   "ckan": {
@@ -26620,7 +27128,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.33
+   "first_byte_s": 0.85,
+   "download_s": 14.75,
+   "network_s": 13.78
   },
   "distributions": [
    {
@@ -26639,18 +27149,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:54:31+00:00",
-  "seconds": 19.0,
+  "validated_at": "2026-11-02T18:21:37+00:00",
+  "seconds": 27.1,
   "sha256": "dcd41cf15d536b468282713f839d663db332406a4390361924ec37f915d77210",
   "bytes": 119260923,
   "kind": "csv",
   "http": {
    "etag": "\"1785251345.0725632-119260923-1985614523\"",
    "last_modified": "Tue, 28 Jul 2026 15:09:05 GMT",
-   "content_length": 119260923
+   "content_length": 119260923,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -26709,11 +27225,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "a8ea4590-2202-4b50-a32d-74b1dc1280a7": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:54:51+00:00",
+  "checked_at": "2026-11-02T18:21:58+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "1e89bb5bd9f3b8f3",
   "ckan": {
@@ -26723,7 +27239,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.39
+   "first_byte_s": 2.82,
+   "download_s": 21.05,
+   "network_s": 18.1
   },
   "distributions": [
    {
@@ -26742,18 +27260,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:54:51+00:00",
-  "seconds": 18.8,
+  "validated_at": "2026-11-02T18:21:58+00:00",
+  "seconds": 34.8,
   "sha256": "198fce79bd0b835c34dfcb9483e2243dbd634609591d23cf849b6951ca9e5036",
   "bytes": 118944984,
   "kind": "csv",
   "http": {
    "etag": "\"1785252304.0746849-118944984-1924076090\"",
    "last_modified": "Tue, 28 Jul 2026 15:25:04 GMT",
-   "content_length": 118944984
+   "content_length": 118944984,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -26812,11 +27336,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "944c4215-96d1-4646-ac9b-8c8146168eca": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:55:09+00:00",
+  "checked_at": "2026-11-02T18:22:23+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "1e89bb5bd9f3b8f3",
   "ckan": {
@@ -26826,7 +27350,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.36
+   "first_byte_s": 7.86,
+   "download_s": 25.53,
+   "network_s": 17.55
   },
   "distributions": [
    {
@@ -26845,18 +27371,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:55:09+00:00",
-  "seconds": 12.3,
+  "validated_at": "2026-11-02T18:22:23+00:00",
+  "seconds": 36.9,
   "sha256": "433ae04aa0c81af1597887af34903680f1583a7a0a2fa78da7061342950bf074",
   "bytes": 119923767,
   "kind": "csv",
   "http": {
    "etag": "\"1785252107.1031694-119923767-1770983987\"",
    "last_modified": "Tue, 28 Jul 2026 15:21:47 GMT",
-   "content_length": 119923767
+   "content_length": 119923767,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -26915,11 +27447,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "0e414659-5840-4db3-8639-2ae678e15600": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:55:22+00:00",
+  "checked_at": "2026-11-02T18:22:36+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "49110ee4c2a95a10",
   "ckan": {
@@ -26929,7 +27461,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.39
+   "first_byte_s": 0.34,
+   "download_s": 12.87,
+   "network_s": 12.4
   },
   "distributions": [
    {
@@ -26948,18 +27482,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:55:22+00:00",
-  "seconds": 14.2,
+  "validated_at": "2026-11-02T18:22:36+00:00",
+  "seconds": 24.7,
   "sha256": "e431a9937e1d5d350e9a43603de7aca5809ff4277278e0208570886d2d3d423c",
   "bytes": 124836686,
   "kind": "csv",
   "http": {
    "etag": "\"1785252848.1710703-124836686-1707086238\"",
    "last_modified": "Tue, 28 Jul 2026 15:34:08 GMT",
-   "content_length": 124836686
+   "content_length": 124836686,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -27018,11 +27558,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "475a41c8-905d-46c6-8fc9-fe9a8a9c6868": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:55:36+00:00",
+  "checked_at": "2026-11-02T18:22:50+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "1e89bb5bd9f3b8f3",
   "ckan": {
@@ -27032,7 +27572,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.36
+   "first_byte_s": 0.57,
+   "download_s": 14.2,
+   "network_s": 13.49
   },
   "distributions": [
    {
@@ -27051,18 +27593,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:55:36+00:00",
-  "seconds": 14.1,
+  "validated_at": "2026-11-02T18:22:50+00:00",
+  "seconds": 27.6,
   "sha256": "9fdbdbcb99c2cc309d14368317393fc183eb9d78cd0ea5552a113647e8d9e4fb",
   "bytes": 135070633,
   "kind": "csv",
   "http": {
    "etag": "\"1785252055.2280862-135070633-1969689260\"",
    "last_modified": "Tue, 28 Jul 2026 15:20:55 GMT",
-   "content_length": 135070633
+   "content_length": 135070633,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -27121,11 +27669,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "9c25ad95-a433-482c-9847-4f7c5c2b3df0": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:55:50+00:00",
+  "checked_at": "2026-11-02T18:23:09+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "1e89bb5bd9f3b8f3",
   "ckan": {
@@ -27135,7 +27683,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.32
+   "first_byte_s": 0.4,
+   "download_s": 18.21,
+   "network_s": 17.66
   },
   "distributions": [
    {
@@ -27154,18 +27704,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:55:50+00:00",
-  "seconds": 44.2,
+  "validated_at": "2026-11-02T18:23:09+00:00",
+  "seconds": 31.3,
   "sha256": "40f6fad49e99617f7cc6c31151950245b97d10506f600c46048185a2e295c231",
   "bytes": 139596262,
   "kind": "csv",
   "http": {
    "etag": "\"1785252860.2798567-139596262-1967526545\"",
    "last_modified": "Tue, 28 Jul 2026 15:34:20 GMT",
-   "content_length": 139596262
+   "content_length": 139596262,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -27224,11 +27780,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "b2f4411d-90db-4455-91c7-ebe399ba93c5": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:56:34+00:00",
+  "checked_at": "2026-11-02T18:23:27+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "1e89bb5bd9f3b8f3",
   "ckan": {
@@ -27238,7 +27794,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.38
+   "first_byte_s": 0.89,
+   "download_s": 18.79,
+   "network_s": 17.74
   },
   "distributions": [
    {
@@ -27257,18 +27815,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:56:34+00:00",
-  "seconds": 42.8,
+  "validated_at": "2026-11-02T18:23:27+00:00",
+  "seconds": 31.6,
   "sha256": "a2eb096cf1627f2416e13ebfc3abc3d5328f80c5a68020a4413f362858b615b6",
   "bytes": 144535991,
   "kind": "csv",
   "http": {
    "etag": "\"1785252076.8937035-144535991-2027950779\"",
    "last_modified": "Tue, 28 Jul 2026 15:21:16 GMT",
-   "content_length": 144535991
+   "content_length": 144535991,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -27327,11 +27891,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "53fa913e-32bc-4765-b7c4-2c0544e33eb3": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:57:17+00:00",
+  "checked_at": "2026-11-02T18:23:48+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "49110ee4c2a95a10",
   "ckan": {
@@ -27341,7 +27905,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.32
+   "first_byte_s": 0.42,
+   "download_s": 20.61,
+   "network_s": 20.03
   },
   "distributions": [
    {
@@ -27360,18 +27926,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:57:17+00:00",
-  "seconds": 39.0,
+  "validated_at": "2026-11-02T18:23:48+00:00",
+  "seconds": 33.8,
   "sha256": "7497a8b3a0593e6dfb80559f2389c04c9827dd3af2f1ac38f06cfd56830a1e4a",
   "bytes": 149885521,
   "kind": "csv",
   "http": {
    "etag": "\"1785252316.0084739-149885521-1997214334\"",
    "last_modified": "Tue, 28 Jul 2026 15:25:16 GMT",
-   "content_length": 149885521
+   "content_length": 149885521,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -27430,11 +28002,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "b53ee5a1-26f0-47f3-8dea-ae6894d714ac": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:57:56+00:00",
+  "checked_at": "2026-11-02T18:24:19+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "1e89bb5bd9f3b8f3",
   "ckan": {
@@ -27444,7 +28016,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.36
+   "first_byte_s": 0.54,
+   "download_s": 31.08,
+   "network_s": 30.37
   },
   "distributions": [
    {
@@ -27463,18 +28037,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:57:56+00:00",
-  "seconds": 38.9,
+  "validated_at": "2026-11-02T18:24:19+00:00",
+  "seconds": 46.2,
   "sha256": "569d7cadfdeedb721340d04d50376a8b3a036e090021a51b85642b7c2451733d",
   "bytes": 160014866,
   "kind": "csv",
   "http": {
    "etag": "\"1785252266.0603573-160014866-2173834010\"",
    "last_modified": "Tue, 28 Jul 2026 15:24:26 GMT",
-   "content_length": 160014866
+   "content_length": 160014866,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -27533,11 +28113,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "1a35925f-8f7d-4074-973e-42dfbaa99636": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:58:35+00:00",
+  "checked_at": "2026-11-02T18:24:43+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "1e89bb5bd9f3b8f3",
   "ckan": {
@@ -27547,7 +28127,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.32
+   "first_byte_s": 0.46,
+   "download_s": 23.74,
+   "network_s": 23.09
   },
   "distributions": [
    {
@@ -27566,18 +28148,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:58:35+00:00",
-  "seconds": 49.4,
+  "validated_at": "2026-11-02T18:24:43+00:00",
+  "seconds": 49.6,
   "sha256": "944220053488ef690d7d61c0ba175a737724948a6242f59ad3fe78bb91c2c977",
   "bytes": 180990495,
   "kind": "csv",
   "http": {
    "etag": "\"1785252481.242551-180990495-1920209515\"",
    "last_modified": "Tue, 28 Jul 2026 15:28:01 GMT",
-   "content_length": 180990495
+   "content_length": 180990495,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -27636,11 +28224,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "f5421c87-81c5-42e4-bbf0-33af4cc98800": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T13:59:24+00:00",
+  "checked_at": "2026-11-02T18:25:05+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "1e89bb5bd9f3b8f3",
   "ckan": {
@@ -27650,7 +28238,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.32
+   "first_byte_s": 1.06,
+   "download_s": 22.07,
+   "network_s": 20.82
   },
   "distributions": [
    {
@@ -27669,18 +28259,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T13:59:24+00:00",
-  "seconds": 43.7,
+  "validated_at": "2026-11-02T18:25:05+00:00",
+  "seconds": 41.1,
   "sha256": "6790689f138e1a7f6eceecac0781c010baf7839b29b5c77c144f84c910d181e4",
   "bytes": 182145776,
   "kind": "csv",
   "http": {
    "etag": "\"1785252028.1185653-182145776-1981289092\"",
    "last_modified": "Tue, 28 Jul 2026 15:20:28 GMT",
-   "content_length": 182145776
+   "content_length": 182145776,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -27739,11 +28335,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "4a84f3c8-9dc8-4448-bba8-cc2dfbc26ca2": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T14:00:08+00:00",
+  "checked_at": "2026-11-02T18:25:44+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "49110ee4c2a95a10",
   "ckan": {
@@ -27753,7 +28349,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 1.41
+   "first_byte_s": 14.09,
+   "download_s": 38.85,
+   "network_s": 24.56
   },
   "distributions": [
    {
@@ -27767,23 +28365,32 @@
     "extra": []
    }
   ],
+  "network_failures": {
+   "HTTP 502": 1
+  },
   "first_seen": "2026-10-03T14:00:08+00:00",
   "pass_history": [
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T14:00:08+00:00",
-  "seconds": 45.5,
+  "validated_at": "2026-11-02T18:25:44+00:00",
+  "seconds": 56.2,
   "sha256": "bde30e777e4d9f8e98432c204f5780f828d9d612e8a31e04d29a5906c1cddf7b",
   "bytes": 196203641,
   "kind": "csv",
   "http": {
    "etag": "\"1785252280.659099-196203641-2195395449\"",
    "last_modified": "Tue, 28 Jul 2026 15:24:40 GMT",
-   "content_length": 196203641
+   "content_length": 196203641,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -27842,11 +28449,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "6ab6596e-170d-42e8-af93-9de024ebe36b": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T14:00:54+00:00",
+  "checked_at": "2026-11-02T18:26:12+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "1e89bb5bd9f3b8f3",
   "ckan": {
@@ -27856,7 +28463,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.3
+   "first_byte_s": 0.54,
+   "download_s": 27.62,
+   "network_s": 26.88
   },
   "distributions": [
    {
@@ -27875,18 +28484,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T14:00:54+00:00",
-  "seconds": 36.3,
+  "validated_at": "2026-11-02T18:26:12+00:00",
+  "seconds": 47.7,
   "sha256": "6b56078cae2438d89506b578de1e4441afea187fea2d6e27763459fd4e66dd98",
   "bytes": 203589347,
   "kind": "csv",
   "http": {
    "etag": "\"1785252288.8969533-203589347-2062029551\"",
    "last_modified": "Tue, 28 Jul 2026 15:24:48 GMT",
-   "content_length": 203589347
+   "content_length": 203589347,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -27945,11 +28560,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "641003d6-4e87-4095-9416-ae5fbb5c94d3": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T14:01:30+00:00",
+  "checked_at": "2026-11-02T18:26:53+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "49110ee4c2a95a10",
   "ckan": {
@@ -27959,7 +28574,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.38
+   "first_byte_s": 2.03,
+   "download_s": 41.36,
+   "network_s": 39.09
   },
   "distributions": [
    {
@@ -27978,18 +28595,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T14:01:30+00:00",
-  "seconds": 44.9,
+  "validated_at": "2026-11-02T18:26:53+00:00",
+  "seconds": 61.4,
   "sha256": "43d6a5c097b97df70423f604fab14017db18a406a2da539f0584e63900305404",
   "bytes": 223086349,
   "kind": "csv",
   "http": {
    "etag": "\"1785252041.7683241-223086349-1713312301\"",
    "last_modified": "Tue, 28 Jul 2026 15:20:41 GMT",
-   "content_length": 223086349
+   "content_length": 223086349,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -28048,11 +28671,11 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "29f9fec9-34dd-454b-8f3c-6b4ca5b22f2c": {
   "dataset": "samp",
-  "checked_at": "2026-10-03T14:02:15+00:00",
+  "checked_at": "2026-11-02T18:27:26+00:00",
   "schema_kind": "datastore",
   "schema_fingerprint": "1e89bb5bd9f3b8f3",
   "ckan": {
@@ -28062,7 +28685,9 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.36
+   "first_byte_s": 0.37,
+   "download_s": 33.06,
+   "network_s": 32.45
   },
   "distributions": [
    {
@@ -28081,18 +28706,24 @@
    [
     "2026-10-03",
     true
+   ],
+   [
+    "2026-11-02",
+    true
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T14:02:15+00:00",
-  "seconds": 72.0,
+  "validated_at": "2026-11-02T18:27:26+00:00",
+  "seconds": 76.3,
   "sha256": "803ef6726c0bdb234c03e5c849028e2a4dca2c2643b030deb873250508072177",
   "bytes": 233225944,
   "kind": "csv",
   "http": {
    "etag": "\"1785252297.0678089-233225944-2241139535\"",
    "last_modified": "Tue, 28 Jul 2026 15:24:57 GMT",
-   "content_length": 233225944
+   "content_length": 233225944,
+   "content_type": "text/csv",
+   "served_by": "dadosabertos.aneel.gov.br"
   },
   "summary": {
    "tables": 1,
@@ -28151,7 +28782,7 @@
    "DatCompetencia",
    "VlrMercado"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "84906f77-0bb4-4527-b9a0-cb6c2b525661": {
   "dataset": "samp",
@@ -29076,7 +29707,7 @@
  },
  "f5afe5c7-75b2-47e3-97d6-06b2bdd142dc": {
   "dataset": "seguranca-do-trabalho-e-das-instalacoes",
-  "checked_at": "2026-10-03T14:11:54+00:00",
+  "checked_at": "2026-11-02T18:27:30+00:00",
   "schema_kind": "extracted",
   "schema_fingerprint": "a7e3e0d743bd1c94",
   "ckan": {
@@ -29086,19 +29717,24 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.44,
-   "network_s": 0.0
+   "first_byte_s": 3.78,
+   "download_s": 3.96,
+   "network_s": 0.17
   },
   "first_seen": "2026-10-03T14:11:54+00:00",
   "pass_history": [
    [
     "2026-10-03",
     false
+   ],
+   [
+    "2026-11-02",
+    false
    ]
   ],
   "status": "ok",
-  "validated_at": "2026-10-03T14:11:54+00:00",
-  "seconds": 0.5,
+  "validated_at": "2026-11-02T18:27:30+00:00",
+  "seconds": 4.0,
   "sha256": "9683a92d3357674d0420830c541322bf77a3ed14f106ee1d310704f0c1f02f90",
   "bytes": 42196,
   "kind": "csv",
@@ -29169,7 +29805,7 @@
    "SigIndicador",
    "DscIndicador"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "11ec447d-698d-4ab8-977f-b424d5deee6a": {
   "dataset": "siga-sistema-de-informacoes-de-geracao-da-aneel",
@@ -32420,7 +33056,7 @@
  },
  "0803a420-10ba-473a-941c-e2b569e3ad2b": {
   "dataset": "usinas-termeletricas-por-tipo",
-  "checked_at": "2026-10-03T14:18:26+00:00",
+  "checked_at": "2026-11-02T18:27:36+00:00",
   "schema_kind": null,
   "schema_fingerprint": null,
   "ckan": {
@@ -32430,14 +33066,15 @@
   },
   "host": "dadosabertos.aneel.gov.br",
   "timing": {
-   "first_byte_s": 0.48,
-   "network_s": 0.38
+   "first_byte_s": 5.85,
+   "download_s": 6.2,
+   "network_s": 0.35
   },
   "first_seen": "2026-10-03T14:18:26+00:00",
   "pass_history": [],
   "status": "ok",
-  "validated_at": "2026-10-03T14:18:26+00:00",
-  "seconds": 0.9,
+  "validated_at": "2026-11-02T18:27:36+00:00",
+  "seconds": 6.3,
   "sha256": "4bfa5161a3e6e28762f7ee78cf56b956a6827e96350059ba900ebc5b5aaab4be",
   "bytes": 132387,
   "kind": "csv",
@@ -32475,7 +33112,7 @@
    "MesReferencia",
    "AnoReferencia"
   ],
-  "reason": "new"
+  "reason": "rotation"
  },
  "4a025d46-5e5e-4bb9-a63a-4f2ac90628d5": {
   "dataset": "sistema-de-gestao-da-transmissao-siget",

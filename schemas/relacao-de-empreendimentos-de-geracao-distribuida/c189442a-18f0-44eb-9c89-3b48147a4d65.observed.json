@@ -44,7 +44,7 @@
    "name": "MdaTensao",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.2706
+   "sampleEmptyShare": 0.2921
   },
   {
    "name": "MdaNivelOperacionalMontante",
@@ -61,11 +61,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-12T11:47:40+00:00",
-  "sha256": "91d77f8ed2c8fd32a99bb340082583bb965e2676542cc9915cb3fb5f65c33a95",
+  "observed_at": "2026-11-02T12:28:01+00:00",
+  "sha256": "ed69257dd4edb06cf4257c9668e00d57596eaab092e31a85a649789144b4c798",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 85,
+  "sample_rows": 89,
   "tables": 1,
   "distinct_headers": 1
  }

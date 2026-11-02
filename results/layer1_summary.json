@@ -5,8 +5,8 @@
   "name": "ANEEL",
   "title": "ANEEL open data portal (Dados Abertos ANEEL)"
  },
- "generated_at": "2026-10-26T10:36:55+00:00",
- "census_at": "2026-10-26T09:25:41+00:00",
+ "generated_at": "2026-11-02T15:56:33+00:00",
+ "census_at": "2026-11-02T11:46:55+00:00",
  "method": {
   "rotation_days": 28,
   "sample_rows": 5000,
@@ -45,21 +45,21 @@
    "3": 3,
    "4": 37
   },
-  "validated": 339,
-  "validation_coverage": 0.9603,
-  "errors": 14,
-  "queue_remaining": 0,
-  "declared_gb": 63.88,
+  "validated": 327,
+  "validation_coverage": 0.9263,
+  "errors": 26,
+  "queue_remaining": 107,
+  "declared_gb": 72.09,
   "size_unknown": 0,
   "by_format": {
    "csv": {
     "files": 204,
-    "gb": 19.39,
+    "gb": 27.57,
     "size_unknown": 0
    },
    "zip": {
     "files": 143,
-    "gb": 44.28,
+    "gb": 44.3,
     "size_unknown": 0
    },
    "parquet": {
@@ -68,8 +68,34 @@
     "size_unknown": 0
    }
   },
-  "queue_gb": 0.0,
-  "queue_largest": []
+  "queue_gb": 26.62,
+  "queue_largest": [
+   {
+    "id": "ab0f6630-9e5d-41a1-8097-343bf09d7c16",
+    "name": "componentes-tarifarias-2022.csv",
+    "gb": 0.47
+   },
+   {
+    "id": "b6755d51-f537-4e0f-8fd8-d2cead66178a",
+    "name": "indicadores-conformidade-nivel-tensao",
+    "gb": 0.43
+   },
+   {
+    "id": "4cefdddd-675a-4b6b-b188-466242cb0aca",
+    "name": "Beneficiários da CDE - abr/23",
+    "gb": 0.42
+   },
+   {
+    "id": "456a0e7c-f4d3-401e-8cec-b4299253b4ee",
+    "name": "Beneficiários da CDE - mar/23",
+    "gb": 0.42
+   },
+   {
+    "id": "bef7067c-4bc9-49d8-9646-9d6acbfbeb20",
+    "name": "Beneficiários da CDE - mai/23",
+    "gb": 0.42
+   }
+  ]
  },
  "schema_sources": {
   "extracted": 157,
@@ -92,51 +118,55 @@
  "l1_rate": 0.3264,
  "l1_pass": false,
  "drift": {
-  "observed": 1,
+  "observed": 2,
   "declared": 0,
-  "files_with_baseline": 339,
-  "first_baseline_at": "2026-10-03T04:21:08+00:00",
-  "last_observed_at": "2026-10-26T10:09:45+00:00"
+  "files_with_baseline": 327,
+  "first_baseline_at": "2026-10-03T08:34:42+00:00",
+  "last_observed_at": "2026-11-02T15:50:42+00:00"
  },
  "coverage": {
   "files": 353,
-  "read": 339,
+  "read": 327,
   "empty": 0,
   "not_tabular": 0,
   "too_large": 0,
-  "not_downloaded": 14,
+  "not_downloaded": 26,
   "pending": 0,
   "not_downloaded_by_reason": {
    "redirect loop": 12,
-   "other": 2
+   "other": 8,
+   "SSLError": 4,
+   "Timeout": 2
   },
   "not_downloaded_by_host": {
    "redirect loop · dadosabertos.aneel.gov.br": 12,
-   "other · dadosabertos.aneel.gov.br": 2
+   "other · dadosabertos.aneel.gov.br": 8,
+   "SSLError · dadosabertos.aneel.gov.br": 4,
+   "Timeout · dadosabertos.aneel.gov.br": 2
   },
-  "read_without_schema": 146,
-  "checked": 193,
-  "conform": 63,
+  "read_without_schema": 137,
+  "checked": 190,
+  "conform": 62,
   "fail_missing_fields": 12,
   "fail_undeclared_columns": 12,
-  "fail_cells_over_limit": 122,
-  "fail_only_cells": 118
+  "fail_cells_over_limit": 120,
+  "fail_only_cells": 116
  },
  "not_tables": {
   "count": 0,
   "resources": []
  },
  "distributions": {
-  "tables_with_other_formats": 112,
-  "other_formats": 103,
-  "compared": 103,
-  "same_columns": 101,
+  "tables_with_other_formats": 113,
+  "other_formats": 97,
+  "compared": 97,
+  "same_columns": 95,
   "spelling_only": 0,
   "different_columns": 2,
   "not_compared": {},
   "by_format": {
-   "parquet": 93,
-   "xml": 7,
+   "parquet": 88,
+   "xml": 6,
    "zip": 2,
    "json": 1
   }
@@ -144,31 +174,33 @@
  "network": {
   "total": {
    "files": 353,
-   "failed_files": 14,
-   "gb": 61.25,
-   "minutes": 627.9,
-   "end_to_end_mb_s": 1.63,
-   "zip_download_mb_s": 6.41,
-   "first_byte_s_median": 0.58,
-   "network_share": 0.275,
-   "network_mb_s": 6.42,
+   "failed_files": 26,
+   "gb": 61.17,
+   "minutes": 810.1,
+   "end_to_end_mb_s": 1.26,
+   "zip_download_mb_s": 5.51,
+   "first_byte_s_median": 0.86,
+   "network_share": 0.198,
+   "network_mb_s": 5.22,
    "request_failures": {
-    "HTTP 502": 2
+    "ConnectionError": 1,
+    "HTTP 502": 3
    }
   },
   "by_host": {
    "dadosabertos.aneel.gov.br": {
     "files": 353,
-    "failed_files": 14,
-    "gb": 61.25,
-    "minutes": 627.9,
-    "end_to_end_mb_s": 1.63,
-    "zip_download_mb_s": 6.41,
-    "first_byte_s_median": 0.58,
-    "network_share": 0.275,
-    "network_mb_s": 6.42,
+    "failed_files": 26,
+    "gb": 61.17,
+    "minutes": 810.1,
+    "end_to_end_mb_s": 1.26,
+    "zip_download_mb_s": 5.51,
+    "first_byte_s_median": 0.86,
+    "network_share": 0.198,
+    "network_mb_s": 5.22,
     "request_failures": {
-     "HTTP 502": 2
+     "ConnectionError": 1,
+     "HTTP 502": 3
     }
    }
   }
@@ -209,7 +241,7 @@
    "date_fields_with_declared_format": null
   },
   "files_vs_dictionaries": {
-   "checked": 193,
+   "checked": 190,
    "with_declared_fields_missing": 12,
    "with_undeclared_columns": 12,
    "with_spelling_differences": 1,
@@ -217,10 +249,10 @@
    "similar_names": 8,
    "declared_fields_missing": 115,
    "formats_inferred_from_data": {
-    "format": 307,
-    "decimalChar": 196,
-    "type": 16,
-    "groupChar": 96
+    "format": 301,
+    "decimalChar": 190,
+    "type": 17,
+    "groupChar": 95
    }
   },
   "copies": {
@@ -233,28 +265,31 @@
    "results_copied": 0
   },
   "files": {
-   "validated": 339,
+   "validated": 327,
    "encodings": {
-    "utf-8": 289,
-    "cp1252": 44
+    "utf-8": 276,
+    "cp1252": 44,
+    "utf-8-sig": 1
    },
    "delimiters": {
-    ";": 232,
-    ",": 101
+    ";": 221,
+    ",": 100
    },
-   "with_decode_errors": 106,
+   "with_decode_errors": 104,
    "with_ragged_rows": 2,
    "zips_with_several_headers": 0,
    "with_columns_without_name": 0,
    "not_tabular": 0,
    "not_tables": 0,
    "formats": {
-    "csv": 333,
+    "csv": 321,
     "parquet": 6
    },
    "unreachable_by_reason": {
     "redirect loop": 12,
-    "other": 2
+    "other": 8,
+    "SSLError": 4,
+    "Timeout": 2
    }
   },
   "pdf_extraction": {
@@ -281,11 +316,11 @@
    }
   },
   "delivery": {
-   "probed_at": "2026-10-26T09:25:41+00:00",
+   "probed_at": "2026-11-02T11:46:55+00:00",
    "hosts": {
     "dadosabertos.aneel.gov.br": {
      "linked": 353,
-     "files": 339,
+     "files": 327,
      "served_by": [
       "dadosabertos.aneel.gov.br"
      ],
@@ -294,16 +329,16 @@
      ],
      "probes": 3,
      "range": "honoured",
-     "with_etag": 339,
-     "with_last_modified": 339,
+     "with_etag": 327,
+     "with_last_modified": 327,
      "without_validator": 0,
      "without_length": 0,
-     "of": 339,
+     "of": 327,
      "generic_type": 0,
-     "typed": 106,
+     "typed": 222,
      "content_types": {
-      "text/csv": 92,
-      "application/zip": 8,
+      "text/csv": 184,
+      "application/zip": 32,
       "application/octet-stream": 6
      },
      "broken_links": 0,

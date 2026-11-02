@@ -14,23 +14,23 @@
   },
   {
    "name": "DscNumAto",
-   "type": "integer",
-   "sampleEmptyShare": 0.7896
-  },
-  {
-   "name": "DscEmpreendimento",
    "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
+   "name": "DscEmpreendimento",
+   "type": "string",
+   "sampleEmptyShare": 0.0014
+  },
+  {
    "name": "CodCEG",
    "type": "string",
-   "sampleEmptyShare": 0.4956
+   "sampleEmptyShare": 0.7204
   },
   {
    "name": "IdeNucleoCEG",
    "type": "string",
-   "sampleEmptyShare": 0.4908
+   "sampleEmptyShare": 0.7044
   },
   {
    "name": "SigTipoGeracao",
@@ -40,7 +40,7 @@
   {
    "name": "DscAssunto",
    "type": "string",
-   "sampleEmptyShare": 0.0726
+   "sampleEmptyShare": 0.0574
   },
   {
    "name": "DscObjeto",
@@ -70,44 +70,44 @@
   {
    "name": "MdaPotenciaInstaladaMW",
    "type": "string",
-   "sampleEmptyShare": 0.0436
+   "sampleEmptyShare": 0.031
   },
   {
    "name": "MdaAmpliacaoReducaoMW",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0214
+   "sampleEmptyShare": 0.0148
   },
   {
    "name": "NomAgente",
    "type": "string",
-   "sampleEmptyShare": 0.0004
+   "sampleEmptyShare": 0.1572
   },
   {
    "name": "NomMunicipio",
    "type": "string",
-   "sampleEmptyShare": 0.0464
+   "sampleEmptyShare": 0.1292
   },
   {
    "name": "SigUF",
    "type": "string",
-   "sampleEmptyShare": 0.043
+   "sampleEmptyShare": 0.0404
   },
   {
    "name": "SigRegimeExploracao",
    "type": "string",
-   "sampleEmptyShare": 0.044
+   "sampleEmptyShare": 0.199
   },
   {
    "name": "DscRio",
    "type": "string",
-   "sampleEmptyShare": 0.672
+   "sampleEmptyShare": 0.7174
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T04:31:42+00:00",
-  "sha256": "5e52e58df778f6ddf9442170ec5b0c9fe4c87531f983a3e75083443142d1dd45",
+  "observed_at": "2026-11-02T11:53:15+00:00",
+  "sha256": "9918b40c5181a555be323cadd59e39bfa62fa2ea80af46c97b1729be14e9fdd7",
   "encoding": "cp1252",
   "delimiter": ";",
   "sample_rows": 5000,

@@ -15,25 +15,25 @@
    "name": "DatInj",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.2464
+   "sampleEmptyShare": 0.3146
   },
   {
    "name": "DatLim",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.1486
+   "sampleEmptyShare": 0.1618
   },
   {
    "name": "DatOrcamentoConexao",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.0026
+   "sampleEmptyShare": 0.0028
   },
   {
    "name": "DatVistoria",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.2078
+   "sampleEmptyShare": 0.2538
   },
   {
    "name": "DatSolicitacao",
@@ -49,12 +49,12 @@
   {
    "name": "DscModalidade",
    "type": "string",
-   "sampleEmptyShare": 0.0044
+   "sampleEmptyShare": 0.0032
   },
   {
    "name": "DscMotivoSituacao",
    "type": "string",
-   "sampleEmptyShare": 0.8534
+   "sampleEmptyShare": 0.8418
   },
   {
    "name": "DscNecessidadeObras",
@@ -91,7 +91,7 @@
   {
    "name": "DscSubgrupoTarifario",
    "type": "string",
-   "sampleEmptyShare": 0.0248
+   "sampleEmptyShare": 0.0456
   },
   {
    "name": "DatPrzEnvio",
@@ -122,8 +122,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T04:24:31+00:00",
-  "sha256": "2c89fce774eefc072305def0f6d1846c7211fe45c16b292cd5e2c16e8d04c5ea",
+  "observed_at": "2026-11-02T11:52:34+00:00",
+  "sha256": "73943a25c6effd5bea91c219de7897231cd8c3e024a5e7b18fab4a21710857e4",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

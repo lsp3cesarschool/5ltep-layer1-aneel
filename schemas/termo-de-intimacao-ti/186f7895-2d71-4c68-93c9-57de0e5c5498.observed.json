@@ -61,40 +61,40 @@
    "name": "DatRecebimentoTI",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.5408
+   "sampleEmptyShare": 0.544
   },
   {
    "name": "DscTipoPenalidade",
    "type": "string",
-   "sampleEmptyShare": 0.5338
+   "sampleEmptyShare": 0.5301
   },
   {
    "name": "DatRecebimentoManifestacao",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.7949
+   "sampleEmptyShare": 0.7963
   },
   {
    "name": "DscDecisaoManifestacao",
    "type": "string",
-   "sampleEmptyShare": 0.8298
+   "sampleEmptyShare": 0.831
   },
   {
    "name": "DscAtoManifestacao",
    "type": "string",
-   "sampleEmptyShare": 0.8298
+   "sampleEmptyShare": 0.831
   },
   {
    "name": "DatDecisaoManifestacao",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.8298
+   "sampleEmptyShare": 0.831
   },
   {
    "name": "DatPublicacaoManifestacao",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.8298
+   "sampleEmptyShare": 0.831
   },
   {
    "name": "DatProtocoloRecurso",
@@ -125,27 +125,27 @@
   {
    "name": "NumTermoEncerramento",
    "type": "string",
-   "sampleEmptyShare": 0.5548
+   "sampleEmptyShare": 0.5579
   },
   {
    "name": "DatLavraturaTE",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.5548
+   "sampleEmptyShare": 0.5579
   },
   {
    "name": "DscEnquadramentoTI",
    "type": "string",
-   "sampleEmptyShare": 0.5338
+   "sampleEmptyShare": 0.5301
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-26T09:43:29+00:00",
-  "sha256": "fa2749d64a52c8f6fca61e498a1a4b6d3cff489a35f1e904602358952ba7af3f",
+  "observed_at": "2026-11-02T12:29:47+00:00",
+  "sha256": "767ccc9c743467bbda41ca7240008af88ad2a99026ffae97f33956500b79d254",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 429,
+  "sample_rows": 432,
   "tables": 1,
   "distinct_headers": 1
  }

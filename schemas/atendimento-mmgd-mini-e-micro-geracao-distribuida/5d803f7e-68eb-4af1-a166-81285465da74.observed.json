@@ -15,7 +15,7 @@
    "name": "DatInj",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.2252
+   "sampleEmptyShare": 0.0
   },
   {
    "name": "DatLim",
@@ -25,15 +25,14 @@
   },
   {
    "name": "DatOrcamentoConexao",
-   "type": "date",
-   "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9362
+   "type": "any",
+   "sampleEmptyShare": 1.0
   },
   {
    "name": "DatVistoria",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.225
+   "sampleEmptyShare": 0.0
   },
   {
    "name": "DatSolicitacao",
@@ -53,19 +52,13 @@
   },
   {
    "name": "DscMotivoSituacao",
-   "type": "string",
-   "sampleEmptyShare": 0.963
+   "type": "any",
+   "sampleEmptyShare": 1.0
   },
   {
    "name": "DscNecessidadeObras",
-   "type": "boolean",
-   "trueValues": [
-    "SIM"
-   ],
-   "falseValues": [
-    "NAO"
-   ],
-   "sampleEmptyShare": 0.0222
+   "type": "string",
+   "sampleEmptyShare": 0.0
   },
   {
    "name": "MdaPotencia",
@@ -91,7 +84,7 @@
   {
    "name": "DscSubgrupoTarifario",
    "type": "string",
-   "sampleEmptyShare": 0.0484
+   "sampleEmptyShare": 0.0
   },
   {
    "name": "DatPrzEnvio",
@@ -122,8 +115,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T04:27:42+00:00",
-  "sha256": "12985552c7ab57e2994915b75dde3353e46f032914195fc46486279ef9ce20be",
+  "observed_at": "2026-11-02T11:53:13+00:00",
+  "sha256": "85fce00dc9c9cd92e248273b49fe244806e5293b71ce21ff4d9b03a6772a5af1",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

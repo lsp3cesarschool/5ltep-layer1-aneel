@@ -26,78 +26,78 @@
    "name": "DatProtocoloManifestacao",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.2982
+   "sampleEmptyShare": 0.3007
   },
   {
    "name": "DscDespachoDecisaoManifestacao",
    "type": "string",
-   "sampleEmptyShare": 0.414
+   "sampleEmptyShare": 0.4161
   },
   {
    "name": "DatDecisaoManifestacao",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.414
+   "sampleEmptyShare": 0.4161
   },
   {
    "name": "DatPublicacaoDecisaoManifestacao",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.414
+   "sampleEmptyShare": 0.4161
   },
   {
    "name": "DscDecisaoManifestacao",
    "type": "string",
-   "sampleEmptyShare": 0.4105
+   "sampleEmptyShare": 0.4126
   },
   {
    "name": "VlrMultaAposDecisaoManifestacao",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.4807
+   "sampleEmptyShare": 0.4825
   },
   {
    "name": "DatProtocoloRecurso",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.5018
+   "sampleEmptyShare": 0.5035
   },
   {
    "name": "DscDespachoDecisaoDiretoria",
    "type": "string",
-   "sampleEmptyShare": 0.7965
+   "sampleEmptyShare": 0.7972
   },
   {
    "name": "DatDecisaoDiretoria",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.5193
+   "sampleEmptyShare": 0.521
   },
   {
    "name": "DatPublicacaoDiretoria",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.5193
+   "sampleEmptyShare": 0.521
   },
   {
    "name": "DscDecisaoDiretoria",
    "type": "string",
-   "sampleEmptyShare": 0.7965
+   "sampleEmptyShare": 0.7972
   },
   {
    "name": "VlrMultaAposDiretoria",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.5193
+   "sampleEmptyShare": 0.521
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-26T09:43:35+00:00",
-  "sha256": "1d7e9e716ef9c38616e6fb39515666b4418fdfc09c26feade775b4df3a4e5fd4",
+  "observed_at": "2026-11-02T12:29:54+00:00",
+  "sha256": "4e8137d841bfcdda15bf27c5cc5a39036ca9d776837fefca4a2edffb09d07574",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 285,
+  "sample_rows": 286,
   "tables": 1,
   "distinct_headers": 1
  }

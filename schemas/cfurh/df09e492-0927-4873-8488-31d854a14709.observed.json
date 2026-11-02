@@ -70,8 +70,7 @@
   },
   {
    "name": "VlrPrincipal",
-   "type": "number",
-   "decimalChar": ",",
+   "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
@@ -81,14 +80,12 @@
   },
   {
    "name": "VlrTotal",
-   "type": "number",
-   "decimalChar": ",",
+   "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
    "name": "VlrPrincipalDistribuido",
-   "type": "number",
-   "decimalChar": ",",
+   "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
@@ -98,8 +95,7 @@
   },
   {
    "name": "VlrTotalDistribuido",
-   "type": "number",
-   "decimalChar": ",",
+   "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
@@ -111,8 +107,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-26T09:41:32+00:00",
-  "sha256": "7d9c0697f52d6dbadf83ea51c7f09778d4599209f6b1e154d37f67a94b3a8769",
+  "observed_at": "2026-11-02T12:28:09+00:00",
+  "sha256": "519ab8d1c7015cd7d2a979df542439d8d1476d1e483d168ddd98bdf6d3b2ea44",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

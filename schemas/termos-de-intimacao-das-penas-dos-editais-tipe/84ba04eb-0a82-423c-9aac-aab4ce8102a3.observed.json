@@ -45,7 +45,7 @@
   {
    "name": "NumAtoOutorga",
    "type": "string",
-   "sampleEmptyShare": 0.02
+   "sampleEmptyShare": 0.0199
   },
   {
    "name": "NomAgenteFiscalizado",
@@ -66,7 +66,7 @@
    "name": "DatRecebimentoTIPE",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.29
+   "sampleEmptyShare": 0.2935
   },
   {
    "name": "DscTipoPenalidade",
@@ -76,11 +76,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-26T09:43:34+00:00",
-  "sha256": "62dd8cbd59fb8676779c0aec49ab15d48589bae1b1a00eefe7b624bbd7c8e5f9",
+  "observed_at": "2026-11-02T12:29:52+00:00",
+  "sha256": "3489c9538f38f63a8a4c22b544d9fa63d5b6a0595d56093fc9b53af0e3d52d1b",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 200,
+  "sample_rows": 201,
   "tables": 1,
   "distinct_headers": 1
  }

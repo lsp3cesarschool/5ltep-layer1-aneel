@@ -90,33 +90,33 @@
    "name": "DatMda",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.0
+   "sampleEmptyShare": 0.0978
   },
   {
    "name": "HorMda",
    "type": "string",
-   "sampleEmptyShare": 0.0
+   "sampleEmptyShare": 0.0978
   },
   {
    "name": "DscMtdCalCpoMgt",
-   "type": "any",
-   "sampleEmptyShare": 1.0
+   "type": "string",
+   "sampleEmptyShare": 0.9022
   },
   {
    "name": "DscMtdCalCpoEle",
-   "type": "any",
-   "sampleEmptyShare": 1.0
+   "type": "string",
+   "sampleEmptyShare": 0.9022
   },
   {
    "name": "DscEqpUtl",
    "type": "string",
-   "sampleEmptyShare": 0.0
+   "sampleEmptyShare": 0.0978
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T12:09:57+00:00",
-  "sha256": "4ab213c17dd98f3430a699d1e62e02c6a390265c174e9248f33b85266ffd30ea",
+  "observed_at": "2026-11-02T12:27:09+00:00",
+  "sha256": "346e236c970723197511dc7d12024184096889761b4bb827240e3926e06dccac",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

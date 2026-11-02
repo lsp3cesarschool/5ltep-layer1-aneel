@@ -39,12 +39,12 @@
   {
    "name": "MdaCpeRaiNegMdlEqp",
    "type": "number",
-   "sampleEmptyShare": 0.6118
+   "sampleEmptyShare": 0.6119
   },
   {
    "name": "MdaCpeRaivPosMdlEqp",
    "type": "number",
-   "sampleEmptyShare": 0.8587
+   "sampleEmptyShare": 0.8588
   },
   {
    "name": "DscIdcExsMdlCnr",
@@ -55,7 +55,7 @@
    "falseValues": [
     "N"
    ],
-   "sampleEmptyShare": 0.4486
+   "sampleEmptyShare": 0.4487
   },
   {
    "name": "DscFinMdlEqp",
@@ -65,17 +65,17 @@
   {
    "name": "MdaPotAtvMdlEqp",
    "type": "number",
-   "sampleEmptyShare": 0.5034
+   "sampleEmptyShare": 0.5032
   },
   {
    "name": "MdaTnsScdMdlEqp",
    "type": "number",
-   "sampleEmptyShare": 0.5207
+   "sampleEmptyShare": 0.5206
   },
   {
    "name": "MdaTnsTiaMdlEqp",
    "type": "number",
-   "sampleEmptyShare": 0.7165
+   "sampleEmptyShare": 0.7164
   },
   {
    "name": "NomSubestacao",
@@ -116,11 +116,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-26T09:44:27+00:00",
-  "sha256": "c27387a1ffc18593e87fc457861266dd9d5fb2c238b6a848cd789418c8af8095",
+  "observed_at": "2026-11-02T12:30:07+00:00",
+  "sha256": "4b22bb198030f65d054be49c572f602132900f1b27233570dd06a03f112f1606",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 4325,
+  "sample_rows": 4326,
   "tables": 1,
   "distinct_headers": 1
  }

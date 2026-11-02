@@ -14,24 +14,24 @@
   {
    "name": "CodCEG",
    "type": "string",
-   "sampleEmptyShare": 0.0048
+   "sampleEmptyShare": 0.004
   },
   {
    "name": "NomEmpreendimento",
    "type": "string",
-   "sampleEmptyShare": 0.0008
+   "sampleEmptyShare": 0.0016
   },
   {
    "name": "NumCoordNEmpreendimento",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0048
+   "sampleEmptyShare": 0.004
   },
   {
    "name": "NumCoordEEmpreendimento",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0048
+   "sampleEmptyShare": 0.004
   },
   {
    "name": "IdeStatusHist",
@@ -79,7 +79,7 @@
    "name": "DatValidadeAtoOriginal",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.4469
+   "sampleEmptyShare": 0.4443
   },
   {
    "name": "DscEmpreendedores1",
@@ -99,19 +99,19 @@
   {
    "name": "DscNumeroAtoProrrogado",
    "type": "number",
-   "sampleEmptyShare": 0.9808
+   "sampleEmptyShare": 0.9817
   },
   {
    "name": "DatValidadeProrrogada",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.9864
+   "sampleEmptyShare": 0.9873
   },
   {
    "name": "DatPublicacaoProrrogada",
    "type": "datetime",
    "format": "%Y-%m-%d %H:%M:%S",
-   "sampleEmptyShare": 0.9856
+   "sampleEmptyShare": 0.9865
   },
   {
    "name": "IdSubBacia",
@@ -156,11 +156,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T12:08:04+00:00",
-  "sha256": "8a54534aa148bbd186752060b0a101debda2da3d57c8497ce49e3ed03860dd30",
+  "observed_at": "2026-11-02T12:27:00+00:00",
+  "sha256": "9a21df1755e83922efc657c75f33cb1dc68c95b052e09982e2532fa02f27318c",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 1253,
+  "sample_rows": 1256,
   "tables": 1,
   "distinct_headers": 1
  }

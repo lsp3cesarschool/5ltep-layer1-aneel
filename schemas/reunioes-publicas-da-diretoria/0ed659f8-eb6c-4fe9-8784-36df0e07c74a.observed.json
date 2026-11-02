@@ -9,7 +9,7 @@
   {
    "name": "DscTipoSessao",
    "type": "string",
-   "sampleEmptyShare": 0.0463
+   "sampleEmptyShare": 0.05
   },
   {
    "name": "DscSituacaoReuniao",
@@ -30,11 +30,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T13:53:26+00:00",
-  "sha256": "a69f00a4e827419e8aeb32e32e73909da3d603a6e601502441a97e2849154eee",
+  "observed_at": "2026-11-02T12:27:21+00:00",
+  "sha256": "4299e04024e356b7d4cee8c4d12bec3fcf0ab75b16d8e4eca1208a4bdc8f85a1",
   "encoding": "cp1252",
   "delimiter": ";",
-  "sample_rows": 475,
+  "sample_rows": 480,
   "tables": 1,
   "distinct_headers": 1
  }

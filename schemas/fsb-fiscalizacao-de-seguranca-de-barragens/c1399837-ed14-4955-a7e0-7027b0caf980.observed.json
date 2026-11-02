@@ -9,17 +9,17 @@
   {
    "name": "IdeNucleoCEG",
    "type": "integer",
-   "sampleEmptyShare": 0.0172
+   "sampleEmptyShare": 0.0132
   },
   {
    "name": "NomUsina",
    "type": "string",
-   "sampleEmptyShare": 0.0172
+   "sampleEmptyShare": 0.0132
   },
   {
    "name": "NomEmpresa",
    "type": "string",
-   "sampleEmptyShare": 0.0172
+   "sampleEmptyShare": 0.0132
   },
   {
    "name": "NomBarramento",
@@ -39,12 +39,12 @@
   {
    "name": "IdcClassificacaoBarragens",
    "type": "string",
-   "sampleEmptyShare": 0.0928
+   "sampleEmptyShare": 0.219
   },
   {
    "name": "DscCategoriaRiscoGeral",
    "type": "string",
-   "sampleEmptyShare": 0.0928
+   "sampleEmptyShare": 0.219
   },
   {
    "name": "DscDanoPotencialGeral",
@@ -88,13 +88,13 @@
   {
    "name": "NomSecundario",
    "type": "string",
-   "sampleEmptyShare": 0.5984
+   "sampleEmptyShare": 0.0
   },
   {
    "name": "DatInicioConstrucao",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.8712
+   "sampleEmptyShare": 0.6762
   },
   {
    "name": "DatConclusaoConstrucao",
@@ -106,13 +106,13 @@
    "name": "MdaAlturaMacicoTerreno",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.6178
+   "sampleEmptyShare": 0.0046
   },
   {
    "name": "MdaAlturaMacicoFundacao",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0006
+   "sampleEmptyShare": 0.0004
   },
   {
    "name": "MdaComprimento",
@@ -139,24 +139,22 @@
    "name": "MdaLatitude",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.9678
+   "sampleEmptyShare": 0.9952
   },
   {
    "name": "MdaLongitude",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.9678
+   "sampleEmptyShare": 0.9952
   },
   {
    "name": "DthCadastro",
-   "type": "datetime",
-   "format": "%Y-%m-%d %H:%M:%S",
+   "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
    "name": "DthEnvio",
-   "type": "datetime",
-   "format": "%Y-%m-%d %H:%M:%S",
+   "type": "string",
    "sampleEmptyShare": 0.0
   },
   {
@@ -179,7 +177,7 @@
    "name": "DatPrimeiroEnchimento",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.0036
+   "sampleEmptyShare": 0.0112
   },
   {
    "name": "DscFaseVidaEmpreendimento",
@@ -200,134 +198,134 @@
   {
    "name": "NumCnpj",
    "type": "string",
-   "sampleEmptyShare": 0.0172
+   "sampleEmptyShare": 0.0132
   },
   {
    "name": "MdaPotenciaImplantacao",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0172
+   "sampleEmptyShare": 0.0132
   },
   {
    "name": "PctParticipacaoEmpreendimento",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0172
+   "sampleEmptyShare": 0.0132
   },
   {
    "name": "CodCEG",
    "type": "string",
-   "sampleEmptyShare": 0.0172
+   "sampleEmptyShare": 0.0132
   },
   {
    "name": "NomFonteEnergia",
    "type": "string",
-   "sampleEmptyShare": 0.0172
+   "sampleEmptyShare": 0.0132
   },
   {
    "name": "SigEstadoUsina",
    "type": "string",
-   "sampleEmptyShare": 0.0172
+   "sampleEmptyShare": 0.0132
   },
   {
    "name": "DscFaseUsina",
    "type": "string",
-   "sampleEmptyShare": 0.0172
+   "sampleEmptyShare": 0.0132
   },
   {
    "name": "DscTipoGeracao",
    "type": "string",
-   "sampleEmptyShare": 0.0172
+   "sampleEmptyShare": 0.0132
   },
   {
    "name": "DscTipoFundacao",
    "type": "string",
-   "sampleEmptyShare": 0.024
+   "sampleEmptyShare": 0.0524
   },
   {
    "name": "DscTipoConstrucaoBarragem",
    "type": "string",
-   "sampleEmptyShare": 0.024
+   "sampleEmptyShare": 0.0524
   },
   {
    "name": "DscEstimativaVazaoProjeto",
    "type": "string",
-   "sampleEmptyShare": 0.2062
+   "sampleEmptyShare": 0.2974
   },
   {
    "name": "DscCasaForca",
    "type": "string",
-   "sampleEmptyShare": 0.024
+   "sampleEmptyShare": 0.0524
   },
   {
    "name": "DscComprimento",
    "type": "string",
-   "sampleEmptyShare": 0.024
+   "sampleEmptyShare": 0.0524
   },
   {
    "name": "DscIdadeBarragem",
    "type": "string",
-   "sampleEmptyShare": 0.024
+   "sampleEmptyShare": 0.0524
   },
   {
    "name": "DscAltura",
    "type": "string",
-   "sampleEmptyShare": 0.024
+   "sampleEmptyShare": 0.0524
   },
   {
    "name": "DscExisteDeformacao",
    "type": "string",
-   "sampleEmptyShare": 0.0928
+   "sampleEmptyShare": 0.219
   },
   {
    "name": "DscCondicaoEclusa",
    "type": "string",
-   "sampleEmptyShare": 0.0928
+   "sampleEmptyShare": 0.219
   },
   {
    "name": "DscCondicaoDeterioracao",
    "type": "string",
-   "sampleEmptyShare": 0.0928
+   "sampleEmptyShare": 0.219
   },
   {
    "name": "DscPercolacao",
    "type": "string",
-   "sampleEmptyShare": 0.0928
+   "sampleEmptyShare": 0.219
   },
   {
    "name": "DscConfEstruturasAducao",
    "type": "string",
-   "sampleEmptyShare": 0.0928
+   "sampleEmptyShare": 0.219
   },
   {
    "name": "DscConfEstruturaExtravasora",
    "type": "string",
-   "sampleEmptyShare": 0.0928
+   "sampleEmptyShare": 0.219
   },
   {
    "name": "DscExisteDocumentacaoProjeto",
    "type": "string",
-   "sampleEmptyShare": 0.0928
+   "sampleEmptyShare": 0.219
   },
   {
    "name": "DscPossuiTecnicoEstrutura",
    "type": "string",
-   "sampleEmptyShare": 0.0928
+   "sampleEmptyShare": 0.219
   },
   {
    "name": "DscPossuiInspecaoMonitoramento",
    "type": "string",
-   "sampleEmptyShare": 0.0928
+   "sampleEmptyShare": 0.219
   },
   {
    "name": "DscRegraOperDispositivo",
    "type": "string",
-   "sampleEmptyShare": 0.0928
+   "sampleEmptyShare": 0.219
   },
   {
    "name": "DscEmiteRelatorio",
    "type": "string",
-   "sampleEmptyShare": 0.0928
+   "sampleEmptyShare": 0.219
   },
   {
    "name": "DscTamanhoVolumeReservatorio",
@@ -358,13 +356,13 @@
    "name": "DatConclusaoPSB",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.1452
+   "sampleEmptyShare": 0.3508
   },
   {
    "name": "DatPrevistaConclusaoPSB",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9964
+   "sampleEmptyShare": 0.9778
   },
   {
    "name": "DscPAEElaborado",
@@ -375,13 +373,13 @@
    "name": "DatConclusaoPAE",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.1676
+   "sampleEmptyShare": 0.4198
   },
   {
    "name": "DatPrevistaConclusaoPAE",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9938
+   "sampleEmptyShare": 0.9838
   },
   {
    "name": "DscISRRealizada",
@@ -392,13 +390,13 @@
    "name": "DatConclusaoISR",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.1416
+   "sampleEmptyShare": 0.341
   },
   {
    "name": "DatPrevistaConclusaoISR",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9946
+   "sampleEmptyShare": 0.9804
   },
   {
    "name": "DscISERealizada",
@@ -409,13 +407,13 @@
    "name": "DatConclusaoISE",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.3862
+   "sampleEmptyShare": 0.9472
   },
   {
    "name": "DatPrevistaConclusaoISE",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9954
+   "sampleEmptyShare": 0.9772
   },
   {
    "name": "QtdMunicipioAfetado",
@@ -426,13 +424,13 @@
    "name": "MdaVazaoVertedouro",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.6912
+   "sampleEmptyShare": 0.2266
   },
   {
    "name": "MdaCotaCoroamentoBarramento",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.6912
+   "sampleEmptyShare": 0.2266
   },
   {
    "name": "NomTipoEstrutural",
@@ -447,12 +445,12 @@
   {
    "name": "DscEstudoRompimento",
    "type": "string",
-   "sampleEmptyShare": 0.6928
+   "sampleEmptyShare": 0.2252
   },
   {
    "name": "DscFinalidade",
-   "type": "any",
-   "sampleEmptyShare": 1.0
+   "type": "string",
+   "sampleEmptyShare": 0.5522
   },
   {
    "name": "DscEnquadraResolucao",
@@ -478,8 +476,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-03T12:09:50+00:00",
-  "sha256": "08a7393e4b9b686144677f444ba4674707d7ae6a6d8d73d715f45c69571455f2",
+  "observed_at": "2026-11-02T12:27:03+00:00",
+  "sha256": "7e308136ca7c0327cdf0f2609f9768fd6d26b5bbff3a8fe7d45cf4a73a5c6844",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

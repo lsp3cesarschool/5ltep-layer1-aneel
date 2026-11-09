@@ -29,22 +29,22 @@
   {
    "name": "IdeUsina",
    "type": "integer",
-   "sampleEmptyShare": 0.1412
+   "sampleEmptyShare": 0.1416
   },
   {
    "name": "NomUsina",
    "type": "string",
-   "sampleEmptyShare": 0.1412
+   "sampleEmptyShare": 0.1416
   },
   {
    "name": "DscTipoExploracao",
    "type": "string",
-   "sampleEmptyShare": 0.1412
+   "sampleEmptyShare": 0.1416
   },
   {
    "name": "DscTipoGeracao",
    "type": "string",
-   "sampleEmptyShare": 0.1412
+   "sampleEmptyShare": 0.1416
   },
   {
    "name": "AnmInicioVigenciaTaxaFiscalizacao",
@@ -80,8 +80,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-11-02T13:14:54+00:00",
-  "sha256": "84c008ccc59b31da9a73dddab9abf93bd0d4af397c1b5d7e88d0b2cc8241080f",
+  "observed_at": "2026-11-09T12:47:03+00:00",
+  "sha256": "1a49284c37d4e002a0aab88a659f9a3212f0dd422733e2c8874eda2f73203051",
   "encoding": "cp1252",
   "delimiter": ";",
   "sample_rows": 5000,

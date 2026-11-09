@@ -268,7 +268,7 @@
   {
    "name": "QtdAtendRealizMais30MinDiaNor",
    "type": "integer",
-   "sampleEmptyShare": 0.9232
+   "sampleEmptyShare": 0.496
   },
   {
    "name": "QtdAtendRealizMais30MinDiaFor",
@@ -278,42 +278,42 @@
   {
    "name": "QtdInspecVerifProcIrregular",
    "type": "integer",
-   "sampleEmptyShare": 0.404
+   "sampleEmptyShare": 0.2246
   },
   {
    "name": "QtdTermosOcorrInspecao",
    "type": "integer",
-   "sampleEmptyShare": 0.5368
+   "sampleEmptyShare": 0.3382
   },
   {
    "name": "QtdTermosOcorrInspecaoCobr",
    "type": "integer",
-   "sampleEmptyShare": 0.7598
+   "sampleEmptyShare": 0.8716
   },
   {
    "name": "QtdTermosOcorrInspecaoEncerr",
    "type": "integer",
-   "sampleEmptyShare": 0.5316
+   "sampleEmptyShare": 0.2534
   },
   {
    "name": "QtdProceCobrDefMedidor",
    "type": "integer",
-   "sampleEmptyShare": 0.832
+   "sampleEmptyShare": 0.8232
   },
   {
    "name": "QtdReligCobr",
    "type": "integer",
-   "sampleEmptyShare": 0.2664
+   "sampleEmptyShare": 0.4436
   },
   {
    "name": "QtdUCSuspInadimplemento",
    "type": "integer",
-   "sampleEmptyShare": 0.0158
+   "sampleEmptyShare": 0.1678
   },
   {
    "name": "QtdSuspIndev",
    "type": "integer",
-   "sampleEmptyShare": 0.8296
+   "sampleEmptyShare": 0.9902
   },
   {
    "name": "VlrTotCompSuspIndevida",
@@ -329,8 +329,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-26T09:39:57+00:00",
-  "sha256": "33d1377b69a2564d793bb4b44268c6ac6bbb0a15d0dd30f994de528e15d8743e",
+  "observed_at": "2026-11-09T12:21:55+00:00",
+  "sha256": "e1a41c0d76df3b303f918c86ab0ccfaf4e0c2f8bf71434fdee5cc846d80fb4ee",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

@@ -57,13 +57,13 @@
    "name": "DatInicioSuprimento",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.7406
+   "sampleEmptyShare": 0.7362
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-26T09:44:26+00:00",
-  "sha256": "5c55d259b4b18e8536bfc4cadb834286b49eda1fa4b7d6d0a660ba30cdbfaa1a",
+  "observed_at": "2026-11-09T12:25:50+00:00",
+  "sha256": "1fff4fb79f8da16b25fde6fce1f9a8fbf3b6730c593f2fced1950bf421b77747",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

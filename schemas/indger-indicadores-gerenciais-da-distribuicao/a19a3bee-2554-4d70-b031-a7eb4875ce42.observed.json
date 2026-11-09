@@ -55,27 +55,27 @@
   {
    "name": "NumMesUltInspecao",
    "type": "string",
-   "sampleEmptyShare": 0.797
+   "sampleEmptyShare": 0.6902
   },
   {
    "name": "NumAnoUltInspecao",
    "type": "integer",
-   "sampleEmptyShare": 0.0652
+   "sampleEmptyShare": 0.0384
   },
   {
    "name": "NumMesUltManutencaoPrev",
    "type": "string",
-   "sampleEmptyShare": 0.7446
+   "sampleEmptyShare": 0.6582
   },
   {
    "name": "NumAnoUltManutencaoPrev",
    "type": "integer",
-   "sampleEmptyShare": 0.0584
+   "sampleEmptyShare": 0.0338
   },
   {
    "name": "NumMesUltManutencaoCorr",
    "type": "string",
-   "sampleEmptyShare": 0.7462
+   "sampleEmptyShare": 0.6754
   },
   {
    "name": "NumAnoUltManutencaoCorr",
@@ -86,7 +86,7 @@
    "name": "PctCarregamentoMaxAlimentador",
    "type": "number",
    "decimalChar": ",",
-   "sampleEmptyShare": 0.0
+   "sampleEmptyShare": 0.0536
   },
   {
    "name": "DthCarga",
@@ -96,8 +96,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-26T09:40:32+00:00",
-  "sha256": "bc5b77cfc830efe54794bf9b09179ef3177e8d4867232a2be3f2003d70ecd516",
+  "observed_at": "2026-11-09T12:23:20+00:00",
+  "sha256": "87ae7c0f08b255666fdd0bf28086b8f43fab907d7caf42c5250153ab687d45e2",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

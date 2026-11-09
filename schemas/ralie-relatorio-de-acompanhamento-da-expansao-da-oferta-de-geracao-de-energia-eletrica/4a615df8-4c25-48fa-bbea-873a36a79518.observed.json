@@ -51,7 +51,7 @@
   {
    "name": "DscPropriRegimePariticipacao",
    "type": "string",
-   "sampleEmptyShare": 0.0009
+   "sampleEmptyShare": 0.0865
   },
   {
    "name": "DscTipoConexao",
@@ -72,12 +72,12 @@
   {
    "name": "NomEmpresaConexao",
    "type": "string",
-   "sampleEmptyShare": 0.5703
+   "sampleEmptyShare": 0.5767
   },
   {
    "name": "NumCnpjEmpresaConexao",
    "type": "string",
-   "sampleEmptyShare": 0.5703
+   "sampleEmptyShare": 0.5767
   },
   {
    "name": "DscViabilidade",
@@ -93,133 +93,133 @@
    "name": "DatPrevisaoInicioObra",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.3145
+   "sampleEmptyShare": 0.3024
   },
   {
    "name": "DatContratoEPCOutorgado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9302
+   "sampleEmptyShare": 0.9289
   },
   {
    "name": "DatRecursoFinanceiroOutorgado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9342
+   "sampleEmptyShare": 0.933
   },
   {
    "name": "DatCanteiroObraOutorgado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9551
+   "sampleEmptyShare": 0.9543
   },
   {
    "name": "DatCanteiroObraRealizado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9084
+   "sampleEmptyShare": 0.9172
   },
   {
    "name": "DatInicioObraOutorgado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9012
+   "sampleEmptyShare": 0.8995
   },
   {
    "name": "DatInicioObraRealizado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9288
+   "sampleEmptyShare": 0.9375
   },
   {
    "name": "DatConcretagemOutorgado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9586
+   "sampleEmptyShare": 0.9579
   },
   {
    "name": "DatConcretagemRealizado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9671
+   "sampleEmptyShare": 0.9769
   },
   {
    "name": "DatDesvioRioOutorgado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9649
+   "sampleEmptyShare": 0.9642
   },
   {
    "name": "DatDesvioRioRealizado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9911
+   "sampleEmptyShare": 0.9909
   },
   {
    "name": "DatMontagemOutorgado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9017
+   "sampleEmptyShare": 0.9
   },
   {
    "name": "DatMontagemRealizado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9484
+   "sampleEmptyShare": 0.9579
   },
   {
    "name": "DatConclusaoTorresOutorgado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9956
+   "sampleEmptyShare": 0.9955
   },
   {
    "name": "DatConclusaoTorresRealizado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9791
+   "sampleEmptyShare": 0.9891
   },
   {
    "name": "DatEnchimentoOutorgado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9675
+   "sampleEmptyShare": 0.967
   },
   {
    "name": "DatEnchimentoRealizado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9956
+   "sampleEmptyShare": 0.9955
   },
   {
    "name": "DatComissionamentoUGRealizado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9644
+   "sampleEmptyShare": 0.9742
   },
   {
    "name": "DatSisTransmissaoOutorgado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9084
+   "sampleEmptyShare": 0.9067
   },
   {
    "name": "DatSisTransmissaoRealizado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9217
+   "sampleEmptyShare": 0.9307
   },
   {
    "name": "DatConclusaoSisTransOutorgado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9942
+   "sampleEmptyShare": 0.9941
   },
   {
    "name": "DatConclusaoSisTransRealizado",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.948
+   "sampleEmptyShare": 0.9574
   },
   {
    "name": "DscJustificativaPrevisao",
@@ -251,7 +251,7 @@
    "name": "DatRapeel",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.0992
+   "sampleEmptyShare": 0.1861
   },
   {
    "name": "IdcComplexo",
@@ -262,201 +262,201 @@
    "falseValues": [
     "N"
    ],
-   "sampleEmptyShare": 0.1704
+   "sampleEmptyShare": 0.2585
   },
   {
    "name": "NomComplexo",
    "type": "string",
-   "sampleEmptyShare": 0.4155
+   "sampleEmptyShare": 0.502
   },
   {
    "name": "DatEmissaoLP",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.157
+   "sampleEmptyShare": 0.2368
   },
   {
    "name": "DatValidadeLP",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.1312
+   "sampleEmptyShare": 0.2141
   },
   {
    "name": "DscSituacaoLP",
    "type": "string",
-   "sampleEmptyShare": 0.0992
+   "sampleEmptyShare": 0.1861
   },
   {
    "name": "DatEmissaoLI",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.5476
+   "sampleEmptyShare": 0.6342
   },
   {
    "name": "DatValidadeLI",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.536
+   "sampleEmptyShare": 0.6229
   },
   {
    "name": "DscSituacaoLI",
    "type": "string",
-   "sampleEmptyShare": 0.0992
+   "sampleEmptyShare": 0.1861
   },
   {
    "name": "DatSolicitacaoLO",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.8203
+   "sampleEmptyShare": 0.8637
   },
   {
    "name": "DatPrevistaEmissaoLO",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.234
+   "sampleEmptyShare": 0.2866
   },
   {
    "name": "DatPrevMaxEmissaoLO",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.2331
+   "sampleEmptyShare": 0.2856
   },
   {
    "name": "DatEmissaoLO",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.8296
+   "sampleEmptyShare": 0.8732
   },
   {
    "name": "DatValidadeLO",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.8296
+   "sampleEmptyShare": 0.8732
   },
   {
    "name": "DscSituacaoLO",
    "type": "string",
-   "sampleEmptyShare": 0.0992
+   "sampleEmptyShare": 0.1861
   },
   {
    "name": "NomSituacaoParAcesso",
    "type": "string",
-   "sampleEmptyShare": 0.0992
+   "sampleEmptyShare": 0.1861
   },
   {
    "name": "DatSolicitacaoParAcesso",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.5979
+   "sampleEmptyShare": 0.6904
   },
   {
    "name": "DatEmissaoParAcesso",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.6206
+   "sampleEmptyShare": 0.7067
   },
   {
    "name": "DscSitCCD",
    "type": "string",
-   "sampleEmptyShare": 0.0992
+   "sampleEmptyShare": 0.1861
   },
   {
    "name": "DatValidadeCCD",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.976
+   "sampleEmptyShare": 0.9751
   },
   {
    "name": "DatAssinaturaCCD",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.976
+   "sampleEmptyShare": 0.9751
   },
   {
    "name": "DscSitCCT",
    "type": "string",
-   "sampleEmptyShare": 0.0992
+   "sampleEmptyShare": 0.1861
   },
   {
    "name": "DatValidadeCCT",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.782
+   "sampleEmptyShare": 0.8633
   },
   {
    "name": "DatAssinaturaCCT",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.782
+   "sampleEmptyShare": 0.8633
   },
   {
    "name": "DscSituacaoCusd",
    "type": "string",
-   "sampleEmptyShare": 0.0992
+   "sampleEmptyShare": 0.1861
   },
   {
    "name": "DatValidadeCusd",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9435
+   "sampleEmptyShare": 0.9421
   },
   {
    "name": "DatAssinaturaCusd",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.9435
+   "sampleEmptyShare": 0.9421
   },
   {
    "name": "DscSitCust",
    "type": "string",
-   "sampleEmptyShare": 0.0992
+   "sampleEmptyShare": 0.1861
   },
   {
    "name": "DatValidadeCust",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.7682
+   "sampleEmptyShare": 0.856
   },
   {
    "name": "DatAssinaturaCust",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.7682
+   "sampleEmptyShare": 0.856
   },
   {
    "name": "DscAtoOutorga",
    "type": "string",
-   "sampleEmptyShare": 0.0004
+   "sampleEmptyShare": 0.0005
   },
   {
    "name": "DscNumeroAto",
    "type": "string",
-   "sampleEmptyShare": 0.0004
+   "sampleEmptyShare": 0.0005
   },
   {
    "name": "NomOrgaoOutorgante",
    "type": "string",
-   "sampleEmptyShare": 0.0004
+   "sampleEmptyShare": 0.0005
   },
   {
    "name": "DscTipoOutorga",
    "type": "string",
-   "sampleEmptyShare": 0.0004
+   "sampleEmptyShare": 0.0005
   },
   {
    "name": "DatEmissaoAto",
    "type": "date",
    "format": "%Y-%m-%d",
-   "sampleEmptyShare": 0.0004
+   "sampleEmptyShare": 0.0005
   }
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-26T09:43:51+00:00",
-  "sha256": "df4f9c26d942d153e315acee1ad1ac21cb84f77f76d6c544cd9a5c2c5b09205d",
+  "observed_at": "2026-11-09T12:25:21+00:00",
+  "sha256": "e5f0947f034c731060a726f6885b5472bb29643d5a86b7a1090e3d5d50c0544c",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 2248,
+  "sample_rows": 2209,
   "tables": 1,
   "distinct_headers": 1
  }

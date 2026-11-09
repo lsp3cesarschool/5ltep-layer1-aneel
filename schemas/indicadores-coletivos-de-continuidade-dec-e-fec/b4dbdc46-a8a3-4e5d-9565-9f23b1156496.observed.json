@@ -9,12 +9,12 @@
   {
    "name": "IdeConjUndConsumidoras",
    "type": "integer",
-   "sampleEmptyShare": 0.001
+   "sampleEmptyShare": 0.0004
   },
   {
    "name": "DscConjUndConsumidoras",
    "type": "string",
-   "sampleEmptyShare": 0.001
+   "sampleEmptyShare": 0.0004
   },
   {
    "name": "SigAgente",
@@ -50,8 +50,8 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-10-05T12:05:01+00:00",
-  "sha256": "84f93790a10865628cbd916c6604889bad3b828115a384179acf8291dd657522",
+  "observed_at": "2026-11-09T12:14:58+00:00",
+  "sha256": "857c500c6c5efe5803477904d7b23d4931d2ddd62f540f5685734df2475a7977",
   "encoding": "utf-8",
   "delimiter": ";",
   "sample_rows": 5000,

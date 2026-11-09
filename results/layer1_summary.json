@@ -5,8 +5,8 @@
   "name": "ANEEL",
   "title": "ANEEL open data portal (Dados Abertos ANEEL)"
  },
- "generated_at": "2026-11-02T18:28:54+00:00",
- "census_at": "2026-11-02T11:46:55+00:00",
+ "generated_at": "2026-11-09T14:01:30+00:00",
+ "census_at": "2026-11-09T12:10:31+00:00",
  "method": {
   "rotation_days": 28,
   "sample_rows": 5000,
@@ -23,7 +23,7 @@
   "copies_once": 0
  },
  "environment": {
-  "python": "3.11.17"
+  "python": "3.11.18"
  },
  "datasets": {
   "total": 72,
@@ -42,29 +42,29 @@
    "0": 93,
    "1": 220,
    "2": 0,
-   "3": 3,
-   "4": 37
+   "3": 4,
+   "4": 36
   },
-  "validated": 327,
-  "validation_coverage": 0.9263,
-  "errors": 26,
+  "validated": 335,
+  "validation_coverage": 0.949,
+  "errors": 18,
   "queue_remaining": 0,
-  "declared_gb": 72.09,
+  "declared_gb": 71.65,
   "size_unknown": 0,
   "by_format": {
    "csv": {
     "files": 204,
-    "gb": 27.57,
+    "gb": 26.91,
     "size_unknown": 0
    },
    "zip": {
     "files": 143,
-    "gb": 44.3,
+    "gb": 44.52,
     "size_unknown": 0
    },
    "parquet": {
     "files": 6,
-    "gb": 0.21,
+    "gb": 0.22,
     "size_unknown": 0
    }
   },
@@ -83,48 +83,46 @@
   },
   "datastore": {
    "verifiable": 36,
-   "conformant": 36,
-   "l1_rate": 1.0
+   "conformant": 35,
+   "l1_rate": 0.9722
   }
  },
  "verifiable": 193,
- "conformant": 63,
- "l1_rate": 0.3264,
+ "conformant": 62,
+ "l1_rate": 0.3212,
  "l1_pass": false,
  "drift": {
-  "observed": 2,
+  "observed": 3,
   "declared": 0,
-  "files_with_baseline": 327,
-  "first_baseline_at": "2026-10-05T12:04:35+00:00",
-  "last_observed_at": "2026-11-02T18:27:36+00:00"
+  "files_with_baseline": 335,
+  "first_baseline_at": "2026-10-19T09:27:22+00:00",
+  "last_observed_at": "2026-11-09T13:58:59+00:00"
  },
  "coverage": {
   "files": 353,
-  "read": 327,
+  "read": 335,
   "empty": 0,
   "not_tabular": 0,
   "too_large": 0,
-  "not_downloaded": 26,
+  "not_downloaded": 18,
   "pending": 0,
   "not_downloaded_by_reason": {
-   "redirect loop": 12,
-   "other": 8,
-   "SSLError": 4,
-   "Timeout": 2
+   "redirect loop": 11,
+   "other": 6,
+   "HTTP 502": 1
   },
   "not_downloaded_by_host": {
-   "redirect loop · dadosabertos.aneel.gov.br": 12,
-   "other · dadosabertos.aneel.gov.br": 8,
-   "SSLError · dadosabertos.aneel.gov.br": 4,
-   "Timeout · dadosabertos.aneel.gov.br": 2
+   "redirect loop · dadosabertos.aneel.gov.br": 11,
+   "other · dadosabertos.aneel.gov.br": 6,
+   "HTTP 502 · dadosabertos.aneel.gov.br": 1
   },
-  "read_without_schema": 137,
-  "checked": 190,
+  "read_without_schema": 142,
+  "checked": 193,
   "conform": 62,
   "fail_missing_fields": 12,
   "fail_undeclared_columns": 12,
-  "fail_cells_over_limit": 120,
-  "fail_only_cells": 116
+  "fail_cells_over_limit": 123,
+  "fail_only_cells": 119
  },
  "not_tables": {
   "count": 0,
@@ -132,17 +130,17 @@
  },
  "distributions": {
   "tables_with_other_formats": 113,
-  "other_formats": 97,
-  "compared": 96,
-  "same_columns": 94,
+  "other_formats": 100,
+  "compared": 99,
+  "same_columns": 97,
   "spelling_only": 0,
   "different_columns": 2,
   "not_compared": {
    "error": 1
   },
   "by_format": {
-   "parquet": 88,
-   "xml": 6,
+   "parquet": 90,
+   "xml": 7,
    "zip": 2,
    "json": 1
   }
@@ -150,33 +148,33 @@
  "network": {
   "total": {
    "files": 353,
-   "failed_files": 26,
-   "gb": 61.17,
-   "minutes": 1034.1,
-   "end_to_end_mb_s": 0.99,
-   "zip_download_mb_s": 5.45,
-   "first_byte_s_median": 0.86,
-   "network_share": 0.16,
-   "network_mb_s": 6.16,
+   "failed_files": 18,
+   "gb": 63.34,
+   "minutes": 1002.5,
+   "end_to_end_mb_s": 1.05,
+   "zip_download_mb_s": 5.36,
+   "first_byte_s_median": 0.7,
+   "network_share": 0.174,
+   "network_mb_s": 6.07,
    "request_failures": {
     "ConnectionError": 1,
-    "HTTP 502": 3
+    "HTTP 502": 2
    }
   },
   "by_host": {
    "dadosabertos.aneel.gov.br": {
     "files": 353,
-    "failed_files": 26,
-    "gb": 61.17,
-    "minutes": 1034.1,
-    "end_to_end_mb_s": 0.99,
-    "zip_download_mb_s": 5.45,
-    "first_byte_s_median": 0.86,
-    "network_share": 0.16,
-    "network_mb_s": 6.16,
+    "failed_files": 18,
+    "gb": 63.34,
+    "minutes": 1002.5,
+    "end_to_end_mb_s": 1.05,
+    "zip_download_mb_s": 5.36,
+    "first_byte_s_median": 0.7,
+    "network_share": 0.174,
+    "network_mb_s": 6.07,
     "request_failures": {
      "ConnectionError": 1,
-     "HTTP 502": 3
+     "HTTP 502": 2
     }
    }
   }
@@ -217,7 +215,7 @@
    "date_fields_with_declared_format": null
   },
   "files_vs_dictionaries": {
-   "checked": 190,
+   "checked": 193,
    "with_declared_fields_missing": 12,
    "with_undeclared_columns": 12,
    "with_spelling_differences": 1,
@@ -225,10 +223,10 @@
    "similar_names": 8,
    "declared_fields_missing": 115,
    "formats_inferred_from_data": {
-    "format": 301,
-    "decimalChar": 190,
+    "format": 307,
+    "decimalChar": 196,
     "type": 17,
-    "groupChar": 95
+    "groupChar": 96
    }
   },
   "copies": {
@@ -241,31 +239,30 @@
    "results_copied": 0
   },
   "files": {
-   "validated": 327,
+   "validated": 335,
    "encodings": {
-    "utf-8": 276,
-    "cp1252": 44,
+    "utf-8": 285,
+    "cp1252": 43,
     "utf-8-sig": 1
    },
    "delimiters": {
-    ";": 221,
-    ",": 100
+    ";": 227,
+    ",": 102
    },
-   "with_decode_errors": 104,
+   "with_decode_errors": 106,
    "with_ragged_rows": 2,
    "zips_with_several_headers": 0,
    "with_columns_without_name": 0,
    "not_tabular": 0,
    "not_tables": 0,
    "formats": {
-    "csv": 321,
+    "csv": 329,
     "parquet": 6
    },
    "unreachable_by_reason": {
-    "redirect loop": 12,
-    "other": 8,
-    "SSLError": 4,
-    "Timeout": 2
+    "redirect loop": 11,
+    "other": 6,
+    "HTTP 502": 1
    }
   },
   "pdf_extraction": {
@@ -292,11 +289,11 @@
    }
   },
   "delivery": {
-   "probed_at": "2026-11-02T11:46:55+00:00",
+   "probed_at": "2026-11-09T12:10:31+00:00",
    "hosts": {
     "dadosabertos.aneel.gov.br": {
      "linked": 353,
-     "files": 327,
+     "files": 335,
      "served_by": [
       "dadosabertos.aneel.gov.br"
      ],
@@ -305,27 +302,27 @@
      ],
      "probes": 3,
      "range": "honoured",
-     "with_etag": 327,
-     "with_last_modified": 327,
+     "with_etag": 335,
+     "with_last_modified": 335,
      "without_validator": 0,
      "without_length": 0,
-     "of": 327,
+     "of": 335,
      "generic_type": 0,
-     "typed": 327,
+     "typed": 335,
      "content_types": {
-      "text/csv": 227,
-      "application/zip": 94,
+      "text/csv": 233,
+      "application/zip": 96,
       "application/octet-stream": 6
      },
      "broken_links": 0,
-     "redirect_loops": 12
+     "redirect_loops": 11
     }
    },
    "suggestions": [
     {
      "id": "redirect-loops",
      "host": "dadosabertos.aneel.gov.br",
-     "n": 12,
+     "n": 11,
      "of": 353
     }
    ]
@@ -585,8 +582,8 @@
    "level": 0,
    "tables": 3,
    "verifiable": 2,
-   "conformant": 1,
-   "l1_rate": 0.5
+   "conformant": 0,
+   "l1_rate": 0.0
   },
   {
    "name": "indicadores-de-qualidade-do-atendimento-telefonico",

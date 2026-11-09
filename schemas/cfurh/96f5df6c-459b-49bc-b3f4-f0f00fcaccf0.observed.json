@@ -45,11 +45,11 @@
  ],
  "x5ltep": {
   "status": "observed",
-  "observed_at": "2026-11-02T12:28:04+00:00",
-  "sha256": "cd5e01c06619d1e668ce4a917a457c5e6d06640b0de4ccb03f8934edcbf2d6d8",
+  "observed_at": "2026-11-09T12:28:49+00:00",
+  "sha256": "44db0aeefd2f03fa778903e8b077114f3fe20a57d5a30d332b9d170860bdc304",
   "encoding": "utf-8",
   "delimiter": ";",
-  "sample_rows": 3760,
+  "sample_rows": 4702,
   "tables": 1,
   "distinct_headers": 1
  }
